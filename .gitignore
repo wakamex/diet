@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+*.egg-info/
+
+# Cached raw API responses
+data/raw/
+
+# Working artifacts
+reports/
