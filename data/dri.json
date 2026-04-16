@@ -1,0 +1,22 @@
+{
+  "_comment": "Dietary Reference Intakes for adult male 31-50, moderate activity. Sourced from NIH ODS (https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx) and IOM Food and Nutrition Board tables.",
+  "profile": "adult_male_31_50_moderate",
+  "nutrients": [
+    {"nutrient": "energy_kcal",  "rda": 2500,  "ul": null,   "unit": "kcal", "label": "Energy"},
+    {"nutrient": "protein_g",    "rda": 56,    "ul": null,   "unit": "g",    "label": "Protein"},
+    {"nutrient": "fiber_g",      "rda": 31,    "ul": null,   "unit": "g",    "label": "Fiber"},
+    {"nutrient": "ala_g",        "rda": 1.6,   "ul": null,   "unit": "g",    "label": "Omega-3 ALA"},
+    {"nutrient": "vit_a_mcg",    "rda": 900,   "ul": 3000,   "unit": "mcg",  "label": "Vitamin A (RAE)"},
+    {"nutrient": "vit_c_mg",     "rda": 90,    "ul": 2000,   "unit": "mg",   "label": "Vitamin C"},
+    {"nutrient": "vit_d_mcg",    "rda": 15,    "ul": 100,    "unit": "mcg",  "label": "Vitamin D"},
+    {"nutrient": "vit_e_mg",     "rda": 15,    "ul": 1000,   "unit": "mg",   "label": "Vitamin E"},
+    {"nutrient": "vit_b12_mcg",  "rda": 2.4,   "ul": null,   "unit": "mcg",  "label": "Vitamin B12"},
+    {"nutrient": "folate_mcg",   "rda": 400,   "ul": 1000,   "unit": "mcg",  "label": "Folate (DFE)"},
+    {"nutrient": "calcium_mg",   "rda": 1000,  "ul": 2500,   "unit": "mg",   "label": "Calcium"},
+    {"nutrient": "iron_mg",      "rda": 8,     "ul": 45,     "unit": "mg",   "label": "Iron"},
+    {"nutrient": "magnesium_mg", "rda": 420,   "ul": null,   "unit": "mg",   "label": "Magnesium"},
+    {"nutrient": "potassium_mg", "rda": 3400,  "ul": null,   "unit": "mg",   "label": "Potassium"},
+    {"nutrient": "sodium_mg",    "rda": null,  "ul": 2300,   "unit": "mg",   "label": "Sodium"},
+    {"nutrient": "zinc_mg",      "rda": 11,    "ul": 40,     "unit": "mg",   "label": "Zinc"}
+  ]
+}
