@@ -1,0 +1,15 @@
+# Three Kroger-family locations seeding the v1 multi-region view.
+# Replace these locationIds after running `diet discover` with a real key, or use
+# https://api.kroger.com/v1/locations?filter.zipCode.near=<zip> to pick by zip.
+
+- region: midwest
+  location_id: "01400441"
+  display: "Kroger #01400441 — Cincinnati, OH (placeholder)"
+
+- region: west
+  location_id: "70300034"
+  display: "Ralphs #70300034 — Los Angeles, CA (placeholder)"
+
+- region: south
+  location_id: "01100150"
+  display: "Kroger #01100150 — Houston, TX (placeholder)"

@@ -1,0 +1,61 @@
+name: publish
+
+on:
+  schedule:
+    - cron: "0 13 * * *"  # 13:00 UTC = 09:00 ET, after Kroger overnight pricing rolls
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Sync dependencies
+        run: uv sync --locked
+
+      - name: Cache FDC nutrient lookups
+        uses: actions/cache@v4
+        with:
+          path: data/raw/fdc
+          key: ${{ runner.os }}-diet-fdc-${{ hashFiles('data/skus.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-diet-fdc-
+
+      - name: Run pipeline
+        env:
+          KROGER_CLIENT_ID: ${{ secrets.KROGER_CLIENT_ID }}
+          KROGER_CLIENT_SECRET: ${{ secrets.KROGER_CLIENT_SECRET }}
+          FDC_API_KEY: ${{ secrets.FDC_API_KEY }}
+        run: |
+          retry() {
+            for i in 1 2 3; do
+              "$@" && return 0
+              sleep $((i * 5))
+            done
+            return 1
+          }
+          retry .venv/bin/diet ingest
+          .venv/bin/diet solve
+          .venv/bin/diet export
+
+      - name: Commit site/data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/data.json
+          git diff --cached --quiet && echo "No price change since last run" && exit 0
+          git commit -m "Update site/data.json [skip ci]"
+          git push

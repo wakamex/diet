@@ -1,0 +1,67 @@
+# Staple search terms passed to Kroger /products?filter.term=...
+# ~40 terms cover the universe needed to feed the LP across all 5 dietary modes.
+# Add/remove freely; re-run `diet discover` after.
+
+# Cereals & bakery
+- "white rice"
+- "brown rice"
+- "rolled oats"
+- "whole wheat bread"
+- "white bread"
+- "pasta"
+- "all purpose flour"
+- "tortilla"
+
+# Legumes / plant protein
+- "dried lentils"
+- "dried black beans"
+- "canned chickpeas"
+- "dried navy beans"
+- "tofu firm"
+- "tempeh"
+- "edamame frozen"
+- "natural peanut butter"
+- "almonds"
+- "sunflower seeds"
+
+# Dairy / eggs
+- "whole milk gallon"
+- "low fat milk gallon"
+- "large eggs grade a"
+- "plain greek yogurt"
+- "cheddar cheese"
+- "cottage cheese"
+
+# Meat & poultry
+- "chicken breast boneless"
+- "chicken thighs"
+- "ground beef 80 20"
+- "pork loin"
+
+# Fish & seafood
+- "canned tuna in water"
+- "canned sardines"
+- "frozen salmon"
+
+# Vegetables
+- "russet potato"
+- "sweet potato"
+- "frozen broccoli"
+- "frozen spinach"
+- "carrots"
+- "yellow onion"
+- "cabbage"
+
+# Fruit
+- "bananas"
+- "apples"
+- "frozen mixed berries"
+
+# Fortified / vegan-essential
+- "fortified soy milk"
+- "nutritional yeast"
+
+# Fats & sugars
+- "vegetable oil"
+- "olive oil"
+- "white sugar"

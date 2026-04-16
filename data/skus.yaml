@@ -1,0 +1,101 @@
+# Curated Kroger SKUs after a discovery pass. ~80 in production; seed has 15 staples
+# spanning the dietary modes well enough that 4 of 5 LPs solve and produce non-trivial
+# baskets. Vegan is intentionally left infeasible in the seed — the only fortified-D
+# item is soy milk and the 500 g/day cap can't deliver 15 mcg D from soy milk alone.
+# This is the honest result the plan calls out (vit D + B12 in vegan diets typically
+# need a supplement or a fortified cereal SKU added to skus.yaml).
+#
+# `unit_grams` is the package weight in grams (Kroger price is per package; FDC gives
+# nutrients per 100 g, so we need this to align units in the LP).
+# `dietary_categories` controls mode filtering (see MODE_EXCLUDES in diet/solver.py).
+# `fdc_id` is the USDA FoodData Central food id.
+
+- product_id: "0001111041700"
+  fdc_id: 168878
+  name: "Kroger 1% Lowfat Milk, 1 gal"
+  unit_grams: 3784
+  dietary_categories: [dairy]
+
+- product_id: "0001111041800"
+  fdc_id: 173410
+  name: "Simple Truth Organic Soy Milk, 64 fl oz"
+  unit_grams: 1893
+  dietary_categories: [plant_milk, fortified_b12]
+
+- product_id: "0001111060601"
+  fdc_id: 173430
+  name: "Kroger Large White Eggs, Grade A, 12 ct"
+  unit_grams: 600
+  dietary_categories: [egg]
+
+- product_id: "0001111081640"
+  fdc_id: 174270
+  name: "Simple Truth Organic Firm Tofu, 14 oz"
+  unit_grams: 397
+  dietary_categories: [legume, soy]
+
+- product_id: "0001111060710"
+  fdc_id: 173735
+  name: "Kroger Boneless Skinless Chicken Breast, per lb"
+  unit_grams: 454
+  dietary_categories: [meat_white]
+
+- product_id: "0001111060810"
+  fdc_id: 174036
+  name: "Kroger Ground Beef 80/20, per lb"
+  unit_grams: 454
+  dietary_categories: [meat_red]
+
+- product_id: "0001111049010"
+  fdc_id: 175139
+  name: "Chicken of the Sea Chunk Light Tuna in Water, 5 oz can"
+  unit_grams: 142
+  dietary_categories: [fish]
+
+- product_id: "0001111021010"
+  fdc_id: 168880
+  name: "Kroger Long Grain White Rice, 5 lb"
+  unit_grams: 2268
+  dietary_categories: [grain]
+
+- product_id: "0001111021050"
+  fdc_id: 173905
+  name: "Quaker Old Fashioned Oats, 18 oz"
+  unit_grams: 510
+  dietary_categories: [grain]
+
+- product_id: "0001111041100"
+  fdc_id: 173735
+  name: "Kroger Dried Black Beans, 1 lb"
+  unit_grams: 454
+  dietary_categories: [legume]
+
+- product_id: "0001111041110"
+  fdc_id: 172420
+  name: "Kroger Dried Lentils, 1 lb"
+  unit_grams: 454
+  dietary_categories: [legume]
+
+- product_id: "0001111060100"
+  fdc_id: 170417
+  name: "Kroger Frozen Spinach, 16 oz"
+  unit_grams: 454
+  dietary_categories: [vegetable]
+
+- product_id: "0001111060200"
+  fdc_id: 170026
+  name: "Kroger Russet Potatoes, 5 lb bag"
+  unit_grams: 2268
+  dietary_categories: [vegetable]
+
+- product_id: "0001111071100"
+  fdc_id: 173944
+  name: "Kroger Creamy Peanut Butter, 18 oz"
+  unit_grams: 510
+  dietary_categories: [legume, nut]
+
+- product_id: "0001111090100"
+  fdc_id: 173413
+  name: "Kroger Vegetable Oil, 48 fl oz"
+  unit_grams: 1340
+  dietary_categories: [fat]
