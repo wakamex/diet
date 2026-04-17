@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-16T23:23:33Z",
+  "updated": "2026-04-17T04:30:44Z",
   "profile": "adult_male_31_50_moderate",
   "nutrient_targets": [
     {
@@ -103,7 +103,7 @@
     {
       "mode": "omnivore",
       "location_region": "midwest",
-      "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)",
+      "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 4.7782,
@@ -121,8 +121,8 @@
             "price_promo": null,
             "price_used": 3.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -138,8 +138,8 @@
             "price_promo": null,
             "price_used": 3.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -155,8 +155,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -172,8 +172,8 @@
             "price_promo": null,
             "price_used": 1.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -189,8 +189,8 @@
             "price_promo": null,
             "price_used": 3.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -206,8 +206,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -223,8 +223,8 @@
             "price_promo": null,
             "price_used": 5.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -240,8 +240,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -257,8 +257,8 @@
             "price_promo": null,
             "price_used": 2.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         }
       ],
@@ -484,7 +484,7 @@
     {
       "mode": "pescatarian",
       "location_region": "midwest",
-      "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)",
+      "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 4.7782,
@@ -502,8 +502,8 @@
             "price_promo": null,
             "price_used": 3.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -519,8 +519,8 @@
             "price_promo": null,
             "price_used": 3.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -536,8 +536,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -553,8 +553,8 @@
             "price_promo": null,
             "price_used": 1.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -570,8 +570,8 @@
             "price_promo": null,
             "price_used": 3.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -587,8 +587,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -604,8 +604,8 @@
             "price_promo": null,
             "price_used": 5.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -621,8 +621,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -638,8 +638,8 @@
             "price_promo": null,
             "price_used": 2.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         }
       ],
@@ -865,7 +865,7 @@
     {
       "mode": "vegetarian",
       "location_region": "midwest",
-      "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)",
+      "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 4.7782,
@@ -883,8 +883,8 @@
             "price_promo": null,
             "price_used": 3.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -900,8 +900,8 @@
             "price_promo": null,
             "price_used": 3.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -917,8 +917,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -934,8 +934,8 @@
             "price_promo": null,
             "price_used": 1.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -951,8 +951,8 @@
             "price_promo": null,
             "price_used": 3.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -968,8 +968,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -985,8 +985,8 @@
             "price_promo": null,
             "price_used": 5.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1002,8 +1002,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1019,8 +1019,8 @@
             "price_promo": null,
             "price_used": 2.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         }
       ],
@@ -1246,7 +1246,7 @@
     {
       "mode": "ovo_lacto",
       "location_region": "midwest",
-      "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)",
+      "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 4.7782,
@@ -1264,8 +1264,8 @@
             "price_promo": null,
             "price_used": 3.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1281,8 +1281,8 @@
             "price_promo": null,
             "price_used": 3.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1298,8 +1298,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1315,8 +1315,8 @@
             "price_promo": null,
             "price_used": 1.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1332,8 +1332,8 @@
             "price_promo": null,
             "price_used": 3.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1349,8 +1349,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1366,8 +1366,8 @@
             "price_promo": null,
             "price_used": 5.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1383,8 +1383,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         },
         {
@@ -1400,8 +1400,8 @@
             "price_promo": null,
             "price_used": 2.49,
             "price_kind": "regular",
-            "location_id": "01400441",
-            "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)"
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
           }
         }
       ],
@@ -1627,7 +1627,7 @@
     {
       "mode": "vegan",
       "location_region": "midwest",
-      "location_display": "Kroger #01400441 \u2014 Cincinnati, OH (placeholder)",
+      "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "infeasible",
       "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
       "cost_per_day": null,
@@ -1782,7 +1782,7 @@
     {
       "mode": "omnivore",
       "location_region": "west",
-      "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)",
+      "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 5.8063,
@@ -1800,8 +1800,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -1817,8 +1817,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -1834,8 +1834,8 @@
             "price_promo": null,
             "price_used": 5.49,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -1851,8 +1851,8 @@
             "price_promo": null,
             "price_used": 2.29,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -1868,8 +1868,8 @@
             "price_promo": null,
             "price_used": 4.29,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -1885,8 +1885,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -1902,8 +1902,8 @@
             "price_promo": null,
             "price_used": 6.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -1919,8 +1919,8 @@
             "price_promo": null,
             "price_used": 5.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -1936,8 +1936,8 @@
             "price_promo": null,
             "price_used": 2.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         }
       ],
@@ -2163,7 +2163,7 @@
     {
       "mode": "pescatarian",
       "location_region": "west",
-      "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)",
+      "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 5.8063,
@@ -2181,8 +2181,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2198,8 +2198,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2215,8 +2215,8 @@
             "price_promo": null,
             "price_used": 5.49,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2232,8 +2232,8 @@
             "price_promo": null,
             "price_used": 2.29,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2249,8 +2249,8 @@
             "price_promo": null,
             "price_used": 4.29,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2266,8 +2266,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2283,8 +2283,8 @@
             "price_promo": null,
             "price_used": 6.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2300,8 +2300,8 @@
             "price_promo": null,
             "price_used": 5.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2317,8 +2317,8 @@
             "price_promo": null,
             "price_used": 2.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         }
       ],
@@ -2544,7 +2544,7 @@
     {
       "mode": "vegetarian",
       "location_region": "west",
-      "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)",
+      "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 5.8063,
@@ -2562,8 +2562,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2579,8 +2579,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2596,8 +2596,8 @@
             "price_promo": null,
             "price_used": 5.49,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2613,8 +2613,8 @@
             "price_promo": null,
             "price_used": 2.29,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2630,8 +2630,8 @@
             "price_promo": null,
             "price_used": 4.29,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2647,8 +2647,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2664,8 +2664,8 @@
             "price_promo": null,
             "price_used": 6.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2681,8 +2681,8 @@
             "price_promo": null,
             "price_used": 5.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2698,8 +2698,8 @@
             "price_promo": null,
             "price_used": 2.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         }
       ],
@@ -2925,7 +2925,7 @@
     {
       "mode": "ovo_lacto",
       "location_region": "west",
-      "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)",
+      "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 5.8063,
@@ -2943,8 +2943,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2960,8 +2960,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2977,8 +2977,8 @@
             "price_promo": null,
             "price_used": 5.49,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -2994,8 +2994,8 @@
             "price_promo": null,
             "price_used": 2.29,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -3011,8 +3011,8 @@
             "price_promo": null,
             "price_used": 4.29,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -3028,8 +3028,8 @@
             "price_promo": null,
             "price_used": 4.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -3045,8 +3045,8 @@
             "price_promo": null,
             "price_used": 6.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -3062,8 +3062,8 @@
             "price_promo": null,
             "price_used": 5.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         },
         {
@@ -3079,8 +3079,8 @@
             "price_promo": null,
             "price_used": 2.99,
             "price_kind": "regular",
-            "location_id": "70300034",
-            "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)"
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
           }
         }
       ],
@@ -3306,7 +3306,7 @@
     {
       "mode": "vegan",
       "location_region": "west",
-      "location_display": "Ralphs #70300034 \u2014 Los Angeles, CA (placeholder)",
+      "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103",
       "status": "infeasible",
       "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
       "cost_per_day": null,
@@ -3461,7 +3461,7 @@
     {
       "mode": "omnivore",
       "location_region": "south",
-      "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)",
+      "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 4.4294,
@@ -3479,8 +3479,8 @@
             "price_promo": null,
             "price_used": 3.79,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3496,8 +3496,8 @@
             "price_promo": null,
             "price_used": 3.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3513,8 +3513,8 @@
             "price_promo": null,
             "price_used": 3.99,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3530,8 +3530,8 @@
             "price_promo": null,
             "price_used": 1.79,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3547,8 +3547,8 @@
             "price_promo": null,
             "price_used": 3.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3564,8 +3564,8 @@
             "price_promo": null,
             "price_used": 4.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3581,8 +3581,8 @@
             "price_promo": null,
             "price_used": 5.49,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3598,8 +3598,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3615,8 +3615,8 @@
             "price_promo": null,
             "price_used": 2.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         }
       ],
@@ -3842,7 +3842,7 @@
     {
       "mode": "pescatarian",
       "location_region": "south",
-      "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)",
+      "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 4.4294,
@@ -3860,8 +3860,8 @@
             "price_promo": null,
             "price_used": 3.79,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3877,8 +3877,8 @@
             "price_promo": null,
             "price_used": 3.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3894,8 +3894,8 @@
             "price_promo": null,
             "price_used": 3.99,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3911,8 +3911,8 @@
             "price_promo": null,
             "price_used": 1.79,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3928,8 +3928,8 @@
             "price_promo": null,
             "price_used": 3.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3945,8 +3945,8 @@
             "price_promo": null,
             "price_used": 4.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3962,8 +3962,8 @@
             "price_promo": null,
             "price_used": 5.49,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3979,8 +3979,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -3996,8 +3996,8 @@
             "price_promo": null,
             "price_used": 2.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         }
       ],
@@ -4223,7 +4223,7 @@
     {
       "mode": "vegetarian",
       "location_region": "south",
-      "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)",
+      "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 4.4294,
@@ -4241,8 +4241,8 @@
             "price_promo": null,
             "price_used": 3.79,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4258,8 +4258,8 @@
             "price_promo": null,
             "price_used": 3.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4275,8 +4275,8 @@
             "price_promo": null,
             "price_used": 3.99,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4292,8 +4292,8 @@
             "price_promo": null,
             "price_used": 1.79,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4309,8 +4309,8 @@
             "price_promo": null,
             "price_used": 3.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4326,8 +4326,8 @@
             "price_promo": null,
             "price_used": 4.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4343,8 +4343,8 @@
             "price_promo": null,
             "price_used": 5.49,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4360,8 +4360,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4377,8 +4377,8 @@
             "price_promo": null,
             "price_used": 2.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         }
       ],
@@ -4604,7 +4604,7 @@
     {
       "mode": "ovo_lacto",
       "location_region": "south",
-      "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)",
+      "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
       "status": "optimal",
       "message": "optimal solution found",
       "cost_per_day": 4.4294,
@@ -4622,8 +4622,8 @@
             "price_promo": null,
             "price_used": 3.79,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4639,8 +4639,8 @@
             "price_promo": null,
             "price_used": 3.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4656,8 +4656,8 @@
             "price_promo": null,
             "price_used": 3.99,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4673,8 +4673,8 @@
             "price_promo": null,
             "price_used": 1.79,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4690,8 +4690,8 @@
             "price_promo": null,
             "price_used": 3.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4707,8 +4707,8 @@
             "price_promo": null,
             "price_used": 4.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4724,8 +4724,8 @@
             "price_promo": null,
             "price_used": 5.49,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4741,8 +4741,8 @@
             "price_promo": null,
             "price_used": 4.49,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         },
         {
@@ -4758,8 +4758,8 @@
             "price_promo": null,
             "price_used": 2.29,
             "price_kind": "regular",
-            "location_id": "01100150",
-            "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)"
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
           }
         }
       ],
@@ -4985,7 +4985,7 @@
     {
       "mode": "vegan",
       "location_region": "south",
-      "location_display": "Kroger #01100150 \u2014 Houston, TX (placeholder)",
+      "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
       "status": "infeasible",
       "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
       "cost_per_day": null,

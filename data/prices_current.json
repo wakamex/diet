@@ -1,320 +1,320 @@
 {
-  "updated": "2026-04-16T23:23:33Z",
+  "updated": "2026-04-17T04:30:44Z",
   "prices": [
     {
       "product_id": "0001111041700",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 3.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041800",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 3.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060601",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 3.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111081640",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 2.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060710",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 4.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060810",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111049010",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 1.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111021010",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 4.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111021050",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 4.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041100",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041110",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060100",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 2.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060200",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 4.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111071100",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 3.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111090100",
-      "location_id": "01400441",
+      "location_id": "01400513",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041700",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 4.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041800",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 4.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060601",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 4.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111081640",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 2.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060710",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060810",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 7.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111049010",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 1.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111021010",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111021050",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 4.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041100",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041110",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060100",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 2.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060200",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 5.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111071100",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 3.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111090100",
-      "location_id": "70300034",
+      "location_id": "70400357",
       "regular": 6.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041700",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 3.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041800",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 3.79,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060601",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 3.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111081640",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060710",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 4.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060810",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 5.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111049010",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 1.19,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111021010",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 4.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111021050",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 4.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041100",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111041110",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060100",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111060200",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 3.99,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111071100",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 3.29,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     },
     {
       "product_id": "0001111090100",
-      "location_id": "01100150",
+      "location_id": "03400017",
       "regular": 5.49,
       "promo": null,
-      "fetched_at": "2026-04-16"
+      "fetched_at": "2026-04-17"
     }
   ],
   "missing": [],

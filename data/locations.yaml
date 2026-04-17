@@ -1,15 +1,14 @@
 # Three Kroger-family locations seeding the v1 multi-region view.
-# Replace these locationIds after running `diet discover` with a real key, or use
-# https://api.kroger.com/v1/locations?filter.zipCode.near=<zip> to pick by zip.
+# Resolved from /v1/locations?filter.zipCode.near=... + chain filter.
 
 - region: midwest
-  location_id: "01400441"
-  display: "Kroger #01400441 — Cincinnati, OH (placeholder)"
+  location_id: "01400513"
+  display: "Kroger — On the Rhine, 100 E Court St, Cincinnati, OH 45202"
 
 - region: west
-  location_id: "70300034"
-  display: "Ralphs #70300034 — Los Angeles, CA (placeholder)"
+  location_id: "70400357"
+  display: "Foodsco — 1800 Folsom St, San Francisco, CA 94103"
 
 - region: south
-  location_id: "01100150"
-  display: "Kroger #01100150 — Houston, TX (placeholder)"
+  location_id: "03400017"
+  display: "Kroger — Studemont, 1440 Studemont St, Houston, TX 77007"
