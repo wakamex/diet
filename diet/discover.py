@@ -18,6 +18,31 @@ DEFAULT_OUT_PATH = Path("data/sku_candidates.yaml")
 PAGES_PER_TERM = 3       # 3 × 50 = 150 results per term
 LIMIT_PER_PAGE = 50
 
+# Substrings that almost always indicate a snack / candy / processed-meal
+# variant we don't want for a Stigler basket. Filtered case-insensitively against
+# the product description. A candidate is kept if it contains any noise word
+# only when that word also appears in the search term itself (e.g. don't drop
+# "potato chip" results when the user explicitly searched for "potato chips").
+NOISE_SUBSTRINGS: tuple[str, ...] = (
+    "chip", "candy", "ropes", "spray", "snack kit", "snack pack",
+    "soda", "zero sugar", "flavored", "coleslaw", "sushi",
+    "ice cream", "sherbet", "cracker", "biscuit", "syrup",
+    "dressing", "stuffing", "meal kit", "lunchable",
+    "cake", "cookie", "muffin", "pastry", "pie", "donut",
+    "pretzel", "puffs", "popcorn",
+    "drink mix", "energy", "sport drink",
+    "frozen entree", "frozen dinner", "tv dinner", "instant", "ready to eat",
+)
+
+
+def _is_noise(description: str, term: str) -> bool:
+    d = (description or "").lower()
+    t = (term or "").lower()
+    for s in NOISE_SUBSTRINGS:
+        if s in d and s not in t:
+            return True
+    return False
+
 
 def _kroger_brand_score(brand: str | None) -> int:
     if not brand:
@@ -64,17 +89,26 @@ def discover(
                 pid = product.get("productId")
                 if not pid or pid in seen_ids:
                     continue
-                seen_ids.add(pid)
+                description = product.get("description") or ""
+                if _is_noise(description, term_str):
+                    continue
                 regular, promo = extract_price(product)
+                if regular is None and promo is None:
+                    # Kroger sometimes returns SKUs without prices at this location
+                    # — useless for ingest, drop them from candidates.
+                    continue
+                seen_ids.add(pid)
+                item = (product.get("items") or [{}])[0]
                 rows.append({
                     "product_id": pid,
                     "upc": product.get("upc"),
                     "brand": product.get("brand"),
-                    "description": product.get("description"),
+                    "description": description,
                     "categories": product.get("categories"),
                     "regular_price": regular,
                     "promo_price": promo,
-                    "size": (product.get("items") or [{}])[0].get("size"),
+                    "size": item.get("size") if (item := (product.get("items") or [{}])[0]) else None,
+                    "net_weight": (product.get("itemInformation") or {}).get("netWeight"),
                     "_brand_score": _kroger_brand_score(product.get("brand")),
                 })
             if len(data) < LIMIT_PER_PAGE:

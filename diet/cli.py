@@ -7,6 +7,7 @@ import json
 import sys
 from pathlib import Path
 
+from diet import curate as curate_mod
 from diet import discover as discover_mod
 from diet import ingest as ingest_mod
 from diet.export import serialize_solution, write_data_json
@@ -22,6 +23,14 @@ def cmd_discover(args: argparse.Namespace) -> int:
     n = discover_mod.discover(seed_location_id=args.seed_location)
     print(f"discover: wrote {n} candidates to data/sku_candidates.yaml")
     return 0
+
+
+def cmd_curate(args: argparse.Namespace) -> int:
+    n, problems = curate_mod.curate()
+    print(f"curate: wrote {n} SKUs to data/skus.yaml")
+    for p in problems:
+        print(p)
+    return 0 if n > 0 else 1
 
 
 def cmd_ingest(args: argparse.Namespace) -> int:
@@ -116,6 +125,9 @@ def main(argv: list[str] | None = None) -> int:
     sp.add_argument("--seed-location", required=True,
                     help="Kroger locationId to use as seed for discovery")
     sp.set_defaults(fn=cmd_discover)
+
+    sp = sub.add_parser("curate", help="build skus.yaml from sku_candidates.yaml + FDC search")
+    sp.set_defaults(fn=cmd_curate)
 
     sp = sub.add_parser("ingest", help="refresh Kroger prices for skus.yaml × locations.yaml")
     sp.set_defaults(fn=cmd_ingest)
