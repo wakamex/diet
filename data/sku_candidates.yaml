@@ -1,0 +1,4026 @@
+white rice:
+- product_id: 0001111084726
+  upc: 0001111084726
+  brand: Kroger
+  description: Kroger® Instant Enriched White Rice
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.89
+  promo_price: null
+  size: 14 oz
+- product_id: 0001111083437
+  upc: 0001111083437
+  brand: Simple Truth Organic
+  description: Simple Truth Organic™ Aged White Cheddar Mini Rice Cakes
+  categories:
+  - Natural & Organic
+  - Snacks
+  regular_price: 2.59
+  promo_price: null
+  size: 3 oz
+- product_id: 0001111016092
+  upc: 0001111016092
+  brand: Simple Truth
+  description: Simple Truth® Gluten Free Ancient Grains Vegan White Cheddar Rice Crackers
+  categories:
+  - Snacks
+  - Snacks
+  regular_price: 2.79
+  promo_price: 2.49
+  size: 3.5 oz
+- product_id: 0001111035794
+  upc: 0001111035794
+  brand: Kroger
+  description: Kroger® White Cheddar Rice Cakes
+  categories:
+  - Snacks
+  regular_price: 2.79
+  promo_price: null
+  size: 5.45 oz
+- product_id: '0001111013436'
+  upc: '0001111013436'
+  brand: Kroger
+  description: Kroger® Instant Enriched White Rice
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 4.39
+  promo_price: null
+  size: 42 oz
+- product_id: 0001111089875
+  upc: 0001111089875
+  brand: Kroger
+  description: Kroger® Enriched Long Grain White Rice
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: null
+  promo_price: null
+  size: 32 oz
+- product_id: 0001111084727
+  upc: 0001111084727
+  brand: Kroger
+  description: Kroger® Instant Enriched White Rice
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: null
+  promo_price: null
+  size: 28 oz
+- product_id: '0005100010526'
+  upc: '0005100010526'
+  brand: Campbell's
+  description: Campbell's Condensed Chicken and Rice Soup with White and Wild Rice
+  categories:
+  - Canned & Packaged
+  regular_price: 1.99
+  promo_price: null
+  size: 10.5 oz
+- product_id: '0074504240003'
+  upc: '0074504240003'
+  brand: Royal
+  description: Royal Authentic Thai Hom Mali White Jasmine Rice - Microwave Rice -
+    Dinner Side Dish - 8.5 oz Pouch
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 2.29
+  promo_price: null
+  size: 8.5 oz
+- product_id: 0001740010039
+  upc: 0001740010039
+  brand: Success
+  description: Success Boil-in-Bag White Basmati Rice
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 2.99
+  promo_price: 2.49
+  size: 14 oz
+brown rice:
+- product_id: 0001111084736
+  upc: 0001111084736
+  brand: Kroger
+  description: Kroger® Instant Brown Rice
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.89
+  promo_price: null
+  size: 14 oz
+- product_id: 0001111090136
+  upc: 0001111090136
+  brand: Simple Truth Organic
+  description: Simple Truth Organic™ 90 Second 100% Whole Grain Brown Rice
+  categories:
+  - Pasta, Sauces, Grain
+  - Natural & Organic
+  regular_price: 2.29
+  promo_price: null
+  size: 8.8 oz
+- product_id: '0001111013337'
+  upc: '0001111013337'
+  brand: Simple Truth
+  description: Simple Truth® Gluten Free Brown Rice Fusilli Pasta
+  categories:
+  - Natural & Organic
+  - Pasta, Sauces, Grain
+  regular_price: 2.99
+  promo_price: null
+  size: 12 oz
+- product_id: '0001111013335'
+  upc: '0001111013335'
+  brand: Simple Truth
+  description: Simple Truth® Gluten Free Organic Brown Rice Spaghetti Pasta
+  categories:
+  - Natural & Organic
+  regular_price: 2.99
+  promo_price: null
+  size: 12 oz
+- product_id: '0001111002324'
+  upc: '0001111002324'
+  brand: Simple Truth
+  description: Simple Truth® Protein Garlic Brown Rice and Quinoa with Chia Seeds
+  categories:
+  - Pasta, Sauces, Grain
+  - Pasta, Sauces, Grain
+  regular_price: 3.29
+  promo_price: null
+  size: 8.8 oz
+- product_id: 0001111002281
+  upc: 0001111002281
+  brand: Simple Truth
+  description: Simple Truth® Protein Black Pepper Lentils Brown Rice and Ancient Grains
+    Whole Grain Blend
+  categories:
+  - Pasta, Sauces, Grain
+  - Pasta, Sauces, Grain
+  regular_price: 3.29
+  promo_price: null
+  size: 8.8 oz
+- product_id: '0001111014460'
+  upc: '0001111014460'
+  brand: Kroger
+  description: Kroger® Vegetable & Brown Rice Tuna Bowl
+  categories:
+  - Canned & Packaged
+  regular_price: 3.29
+  promo_price: 3.0
+  size: 5.64 oz
+- product_id: 0001111086334
+  upc: 0001111086334
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Long Grain Brown Rice
+  categories:
+  - Natural & Organic
+  - Pasta, Sauces, Grain
+  regular_price: 3.99
+  promo_price: null
+  size: 32 oz
+- product_id: 0001111083733
+  upc: 0001111083733
+  brand: Kroger
+  description: Kroger® 90 Second Whole Grain Brown Rice
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: null
+  promo_price: null
+  size: 8.8 oz
+- product_id: 0001111089874
+  upc: 0001111089874
+  brand: Kroger
+  description: Kroger® Long Grain Brown Rice
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: null
+  promo_price: null
+  size: 32 oz
+rolled oats:
+- product_id: 0001111002805
+  upc: 0001111002805
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® 100% Whole Grain Rolled 1 Minute Oats
+  categories:
+  - Breakfast
+  regular_price: null
+  promo_price: null
+  size: 18 oz
+- product_id: 0000000834131
+  upc: 0000000834131
+  brand: Simple Truth
+  description: Simple Truth Organic® 100% Whole Grain Rolled 1 Minute Oats x 2
+  categories:
+  - Breakfast
+  regular_price: null
+  promo_price: null
+  size: 2x 18 oz
+- product_id: '0001111001177'
+  upc: '0001111001177'
+  brand: Simple Truth
+  description: Simple Truth® Protein Classic Rolled Oats
+  categories:
+  - Breakfast
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 16 oz
+- product_id: 0088392117847
+  upc: 0088392117847
+  brand: Better Oats
+  description: Better Oats 100 Calorie Cinnamon Roll Oatmeal with Flax Seeds
+  categories:
+  - Breakfast
+  regular_price: 5.79
+  promo_price: null
+  size: 9.8 ounces
+- product_id: 0070559901553
+  upc: 0070559901553
+  brand: Kodiak Cakes
+  description: Kodiak® Classic Rolled Protein Oats
+  categories:
+  - Breakfast
+  regular_price: 6.49
+  promo_price: null
+  size: 16 oz
+- product_id: 0003997805155
+  upc: 0003997805155
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Extra Thick Rolled Oats
+  categories:
+  - Breakfast
+  regular_price: 6.79
+  promo_price: null
+  size: 32 oz
+- product_id: '0067562537107'
+  upc: '0067562537107'
+  brand: One Degree Organic Foods
+  description: One Degree Organic Foods Farmers We Know® Gluten-Free Sprouted Rolled
+    Oats
+  categories:
+  - Breakfast
+  regular_price: 8.29
+  promo_price: null
+  size: 24 oz
+- product_id: 0003000058008
+  upc: 0003000058008
+  brand: Quaker
+  description: Quaker® Protein Old Fashioned Rolled Oats
+  categories:
+  - Breakfast
+  - Breakfast
+  regular_price: null
+  promo_price: null
+  size: 16 oz
+- product_id: 0003997803376
+  upc: 0003997803376
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Gluten Free Quick Cooking Rolled Oats - 28 oz
+  categories:
+  - Breakfast
+  regular_price: null
+  promo_price: null
+  size: 28 oz
+- product_id: 0003997803375
+  upc: 0003997803375
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Gluten Free Old Fashioned Rolled Oats
+  categories:
+  - Breakfast
+  regular_price: null
+  promo_price: null
+  size: 32 oz
+whole wheat bread:
+- product_id: 0001111002093
+  upc: 0001111002093
+  brand: Kroger
+  description: Kroger® 100% Whole Wheat English Muffins
+  categories:
+  - Breakfast
+  regular_price: 1.69
+  promo_price: null
+  size: 6 ct / 13 oz
+- product_id: 0001111008529
+  upc: 0001111008529
+  brand: Kroger
+  description: Kroger® 100% Whole Wheat Bread
+  categories:
+  - Bakery
+  regular_price: 2.29
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111000923
+  upc: 0001111000923
+  brand: Kroger
+  description: Kroger® 100% Whole Wheat Bagels
+  categories:
+  - Breakfast
+  regular_price: 2.49
+  promo_price: null
+  size: 6 ct / 20 oz
+- product_id: '0001111001020'
+  upc: '0001111001020'
+  brand: Private Selection
+  description: Private Selection® Sugar Free 100% Whole Wheat Bread Wide Pan
+  categories:
+  - Bakery
+  regular_price: 3.49
+  promo_price: null
+  size: 24 oz
+- product_id: '0001111013234'
+  upc: '0001111013234'
+  brand: Private Selection
+  description: Private Selection® 100% Whole Wheat Bread Thick Cut
+  categories:
+  - Bakery
+  regular_price: 3.49
+  promo_price: null
+  size: 20 oz
+- product_id: '0001111013552'
+  upc: '0001111013552'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® 100% Whole Wheat Bread
+  categories:
+  - Bakery
+  regular_price: 4.29
+  promo_price: 3.99
+  size: 26 oz
+- product_id: 0001111008489
+  upc: 0001111008489
+  brand: Private Selection
+  description: Private Selection® 100% Whole Wheat Bread Wide Pan
+  categories:
+  - Bakery
+  regular_price: null
+  promo_price: null
+  size: 24 oz
+- product_id: 0001111008480
+  upc: 0001111008480
+  brand: Kroger
+  description: Kroger® 100% Whole Wheat Bread
+  categories:
+  - Bakery
+  regular_price: null
+  promo_price: null
+  size: 24 oz
+- product_id: '0001111015051'
+  upc: '0001111015051'
+  brand: Kroger
+  description: Kroger® 100% Whole Wheat Soft Taco Tortillas
+  categories:
+  - Bakery
+  regular_price: null
+  promo_price: null
+  size: 10 ct
+- product_id: '0001111013550'
+  upc: '0001111013550'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Thin Sliced 100% Whole Wheat Bread
+  categories:
+  - Bakery
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 20 oz
+white bread:
+- product_id: 0001111008729
+  upc: 0001111008729
+  brand: Kroger
+  description: Kroger® Texas Toast Bread
+  categories:
+  - Bakery
+  regular_price: 2.99
+  promo_price: null
+  size: 20 oz
+- product_id: 0001111008415
+  upc: 0001111008415
+  brand: Private Selection
+  description: Private Selection® White Bread Rustic Wide Pan
+  categories:
+  - Bakery
+  regular_price: 3.49
+  promo_price: null
+  size: 24 oz
+- product_id: 0001111013238
+  upc: 0001111013238
+  brand: Private Selection
+  description: Private Selection® White Bread Thick Cut
+  categories:
+  - Bakery
+  regular_price: 3.49
+  promo_price: null
+  size: 20 oz
+- product_id: 0001111008502
+  upc: 0001111008502
+  brand: Private Selection
+  description: Private Selection® Sweet Hawaiian Bread Wide Pan
+  categories:
+  - Bakery
+  regular_price: 3.49
+  promo_price: null
+  size: 24 oz
+- product_id: 0001111011685
+  upc: 0001111011685
+  brand: Kroger
+  description: Kroger® Gluten Free White Bread
+  categories:
+  - Natural & Organic
+  - Bakery
+  regular_price: 5.99
+  promo_price: null
+  size: 18 oz
+- product_id: 0001111009072
+  upc: 0001111009072
+  brand: Kroger
+  description: Kroger® CARBmaster® White Bread
+  categories:
+  - Bakery
+  regular_price: 5.99
+  promo_price: null
+  size: 20 oz
+- product_id: 0001111008486
+  upc: 0001111008486
+  brand: Kroger
+  description: Kroger® White Sandwich Bread
+  categories:
+  - Bakery
+  regular_price: null
+  promo_price: null
+  size: 20 oz
+- product_id: 0001111008485
+  upc: 0001111008485
+  brand: Kroger
+  description: Kroger® White Bread
+  categories:
+  - Bakery
+  regular_price: null
+  promo_price: null
+  size: 20 oz
+- product_id: 0001111012808
+  upc: 0001111012808
+  brand: Simple Truth
+  description: Simple Truth® Gluten Free White Sandwich Bread
+  categories:
+  - Bakery
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 20 oz
+- product_id: 0001111000908
+  upc: 0001111000908
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® White Bread
+  categories:
+  - Bakery
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 26 oz
+pasta:
+- product_id: 0001111085072
+  upc: 0001111085072
+  brand: Kroger
+  description: Kroger 12 Oz Tri Color Rotini Pasta
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.25
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111085071
+  upc: 0001111085071
+  brand: Kroger
+  description: Kroger 100% W White SLD Rotini
+  categories:
+  - Pasta, Sauces, Grain
+  - Canned & Packaged
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+- product_id: '0001111014163'
+  upc: '0001111014163'
+  brand: Kroger
+  description: Kroger 16 OZ Radiatore Pasta
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+- product_id: '0001111014164'
+  upc: '0001111014164'
+  brand: Kroger
+  description: Kroger® Cavatappi Noodles
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111012349
+  upc: 0001111012349
+  brand: Kroger
+  description: Kroger® Fettuccine
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111085028
+  upc: 0001111085028
+  brand: Kroger
+  description: Kroger 16 Oz Rigatoni Pasta
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111085021
+  upc: 0001111085021
+  brand: Kroger
+  description: Kroger® Elbow Macaroni Pasta
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111085020
+  upc: 0001111085020
+  brand: Kroger
+  description: Kroger® Thin Spaghetti
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111087270
+  upc: 0001111087270
+  brand: Kroger
+  description: Kroger® 100% Whole Grain Thin Spaghetti Pasta
+  categories:
+  - Pasta, Sauces, Grain
+  - Natural & Organic
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111087271
+  upc: 0001111087271
+  brand: Kroger
+  description: Kroger® 100% Whole Grain Thin Spaghetti Pasta
+  categories:
+  - Pasta, Sauces, Grain
+  - Natural & Organic
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+all purpose flour:
+- product_id: 0001111085402
+  upc: 0001111085402
+  brand: Kroger
+  description: Kroger® Bleached All Purpose Flour
+  categories:
+  - Baking Goods
+  regular_price: 2.69
+  promo_price: null
+  size: 5 lb
+- product_id: 0001111086116
+  upc: 0001111086116
+  brand: Kroger
+  description: Kroger® Unbleached Enriched All Purpose Flour
+  categories:
+  - Baking Goods
+  regular_price: 2.69
+  promo_price: null
+  size: 5 lb
+- product_id: 0001111084716
+  upc: 0001111084716
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Unbleached All-Purpose Flour
+  categories:
+  - Natural & Organic
+  - Baking Goods
+  regular_price: 5.79
+  promo_price: null
+  size: 5 lb
+- product_id: 0001111015484
+  upc: 0001111015484
+  brand: Simple Truth
+  description: Simple Truth® Protein All-Purpose Baking and Pancake Mix
+  categories:
+  - Baking Goods
+  - Baking Goods
+  regular_price: null
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111085404
+  upc: 0001111085404
+  brand: Kroger
+  description: Kroger® Bleached All-Purpose Enriched Flour
+  categories:
+  - Baking Goods
+  regular_price: null
+  promo_price: null
+  size: 25 lb
+- product_id: 0001111085403
+  upc: 0001111085403
+  brand: Kroger
+  description: Kroger® Bleached All Purpose Enriched Flour
+  categories:
+  - Baking Goods
+  regular_price: null
+  promo_price: null
+  size: 10 lb
+- product_id: 0001111085401
+  upc: 0001111085401
+  brand: Kroger
+  description: Kroger® All Purpose Bleached Enriched Flour
+  categories:
+  - Baking Goods
+  regular_price: null
+  promo_price: null
+  size: 2 lbs
+- product_id: 0001600018980
+  upc: 0001600018980
+  brand: Gold Medal
+  description: Gold Medal Wondra Quick Mixing All Purpose Flour
+  categories:
+  - Baking Goods
+  regular_price: 4.49
+  promo_price: null
+  size: 13.5 oz
+- product_id: 0001600019610
+  upc: 0001600019610
+  brand: Gold Medal
+  description: Gold Medal Unbleached All Purpose Flour
+  categories:
+  - Baking Goods
+  regular_price: 4.69
+  promo_price: null
+  size: 5 lbs
+- product_id: '0001330020441'
+  upc: '0001330020441'
+  brand: Pillsbury
+  description: Pillsbury Best Bleached All Purpose Flour, 5 lb Bag
+  categories:
+  - Baking Goods
+  regular_price: 4.99
+  promo_price: null
+  size: 5 lb
+tortilla:
+- product_id: 0001111010996
+  upc: 0001111010996
+  brand: Kroger
+  description: Kroger® White Corn Restaurant Style Tortilla Chips
+  categories:
+  - Snacks
+  regular_price: 1.99
+  promo_price: null
+  size: 13 oz
+- product_id: 0001111099028
+  upc: 0001111099028
+  brand: Kroger
+  description: Kroger® Soft Traditional White Corn Tortillas
+  categories:
+  - International
+  - International
+  regular_price: 1.99
+  promo_price: null
+  size: 30 ct
+- product_id: 0001111010994
+  upc: 0001111010994
+  brand: Kroger
+  description: Kroger® White Corn Rounds Tortilla Chips
+  categories:
+  - Snacks
+  regular_price: 1.99
+  promo_price: null
+  size: 13 oz
+- product_id: '0007520230305'
+  upc: '0007520230305'
+  brand: Kroger
+  description: Kroger Yellow Corn Tortillas
+  categories:
+  - International
+  - Bakery
+  regular_price: 2.0
+  promo_price: null
+  size: 10.83 oz
+- product_id: '0001111005266'
+  upc: '0001111005266'
+  brand: Kroger
+  description: Kroger® Burrito Size Flour Tortillas
+  categories:
+  - International
+  regular_price: 2.29
+  promo_price: null
+  size: 8 ct / 20 oz
+- product_id: 0001111086066
+  upc: 0001111086066
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® White Corn Tortilla Chips
+  categories:
+  - Snacks
+  regular_price: 2.99
+  promo_price: null
+  size: 9 oz
+- product_id: '0001111015712'
+  upc: '0001111015712'
+  brand: Simple Truth
+  description: Simple Truth® Protein Soft Taco Size Tortilla Wraps
+  categories:
+  - International
+  regular_price: 3.99
+  promo_price: null
+  size: 6 ct / 10.5 oz
+- product_id: 0001111015049
+  upc: 0001111015049
+  brand: Kroger
+  description: Kroger® Soft Taco Flour Tortillas
+  categories:
+  - Bakery
+  - International
+  regular_price: null
+  promo_price: null
+  size: 20 ct
+- product_id: 0001111085475
+  upc: 0001111085475
+  brand: Kroger
+  description: Kroger® Original Crisp Taco Shells
+  categories:
+  - Bakery
+  - International
+  - International
+  regular_price: null
+  promo_price: null
+  size: 12 ct / 4.75 oz
+- product_id: 0001111013951
+  upc: 0001111013951
+  brand: Kroger
+  description: Kroger® Fajita Size Flour Tortillas
+  categories:
+  - International
+  - Bakery
+  regular_price: null
+  promo_price: null
+  size: 20 ct / 24 oz
+dried lentils:
+- product_id: 0001111086292
+  upc: 0001111086292
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Dry Green Lentils
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 3.79
+  promo_price: null
+  size: 16 oz
+- product_id: '0007152401172'
+  upc: '0007152401172'
+  brand: La Preferida
+  description: La Preferida® Pinto Beans
+  categories:
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 1.69
+  promo_price: null
+  size: 16 oz
+- product_id: '0007152401215'
+  upc: '0007152401215'
+  brand: La Preferida
+  description: La Preferida® Black Beans Dry
+  categories:
+  - International
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 1.69
+  promo_price: null
+  size: 16 oz
+- product_id: '0007152401253'
+  upc: '0007152401253'
+  brand: La Preferida
+  description: La Preferida® Lentils Dry Beans
+  categories:
+  - International
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 1.69
+  promo_price: null
+  size: 16 oz
+- product_id: '0004133102472'
+  upc: '0004133102472'
+  brand: GOYA
+  description: Goya Pinto Beans
+  categories:
+  - International
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 1.99
+  promo_price: null
+  size: 16 oz
+- product_id: '0004133102471'
+  upc: '0004133102471'
+  brand: GOYA
+  description: Goya® Red Kidney Beans
+  categories:
+  - Pasta, Sauces, Grain
+  - International
+  - International
+  regular_price: 2.69
+  promo_price: null
+  size: 16 oz
+- product_id: '0071157510210'
+  upc: '0071157510210'
+  brand: Seapoint Farms
+  description: Seapoint Farms Dry Roasted Wasabi Edamame
+  categories:
+  - Pasta, Sauces, Grain
+  - Natural & Organic
+  regular_price: 2.99
+  promo_price: null
+  size: 3.5 oz
+- product_id: '0007152401125'
+  upc: '0007152401125'
+  brand: La Preferida
+  description: La Preferida® Pinto Beans
+  categories:
+  - International
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 3.29
+  promo_price: null
+  size: 2 lb
+- product_id: '0007152401265'
+  upc: '0007152401265'
+  brand: La Preferida
+  description: La Preferida® Mayo Coba Beans
+  categories:
+  - International
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 4.99
+  promo_price: null
+  size: 2 lb
+- product_id: '0007152401255'
+  upc: '0007152401255'
+  brand: La Preferida
+  description: La Preferida® Black Beans
+  categories:
+  - International
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 5.99
+  promo_price: null
+  size: 4 lb
+dried black beans:
+- product_id: 0001111089585
+  upc: 0001111089585
+  brand: Kroger
+  description: Kroger® Blackeye Peas
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.89
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111089687
+  upc: 0001111089687
+  brand: Kroger
+  description: Kroger® Black Beans
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 2.19
+  promo_price: null
+  size: 16 oz
+- product_id: 0004133102479
+  upc: 0004133102479
+  brand: GOYA
+  description: Goya® Black Beans
+  categories:
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 1.99
+  promo_price: null
+  size: 16 oz
+- product_id: '0004600013755'
+  upc: '0004600013755'
+  brand: Old El Paso
+  description: Old El Paso Microwavable Santa Fe Style Black Beans Pouch
+  categories:
+  - Pasta, Sauces, Grain
+  - Canned & Packaged
+  regular_price: null
+  promo_price: null
+  size: 8.8 oz
+canned chickpeas:
+- product_id: '0001111012210'
+  upc: '0001111012210'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Low Sodium Garbanzo Beans
+  categories:
+  - Canned & Packaged
+  regular_price: 1.25
+  promo_price: null
+  size: 15 oz
+- product_id: 0001111012199
+  upc: 0001111012199
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Garbanzo Beans Cans
+  categories:
+  - Canned & Packaged
+  regular_price: 4.79
+  promo_price: null
+  size: 4 ct / 15 oz
+- product_id: 0001111080627
+  upc: 0001111080627
+  brand: Kroger
+  description: Kroger Garbanzo Beans - 15.5oz can
+  categories:
+  - Canned & Packaged
+  regular_price: null
+  promo_price: null
+  size: 15.5oz
+- product_id: 0001111010648
+  upc: 0001111010648
+  brand: Kroger
+  description: Kroger® Garbanzo Beans
+  categories:
+  - Canned & Packaged
+  regular_price: null
+  promo_price: null
+  size: 15.5 oz
+- product_id: 0003940001700
+  upc: 0003940001700
+  brand: Bush's Best
+  description: Bush's Chick Peas 16 oz
+  categories:
+  - Canned & Packaged
+  regular_price: 1.49
+  promo_price: null
+  size: 16 oz
+- product_id: '0004133112422'
+  upc: '0004133112422'
+  brand: GOYA
+  description: Goya® Canned Chick Peas
+  categories:
+  - International
+  - Canned & Packaged
+  regular_price: 1.59
+  promo_price: null
+  size: 15.5 oz
+- product_id: '0004133112333'
+  upc: '0004133112333'
+  brand: GOYA
+  description: Goya Low Sodium Chick Peas
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 2.19
+  promo_price: null
+  size: 15.5 oz
+- product_id: 0890408351221
+  upc: 0890408351221
+  brand: 24 Mantra
+  description: 24 Mantra Organic® Chickpea Kabuli Chana
+  categories:
+  - International
+  - Natural & Organic
+  regular_price: 14.99
+  promo_price: null
+  size: 2 lb
+- product_id: 0007152401848
+  upc: 0007152401848
+  brand: La Preferida
+  description: La Preferida® Chick Peas
+  categories:
+  - Canned & Packaged
+  regular_price: null
+  promo_price: null
+  size: 15 oz
+- product_id: '0004133102344'
+  upc: '0004133102344'
+  brand: GOYA
+  description: Goya Organic Chick Peas Garbanzos
+  categories:
+  - Canned & Packaged
+  - Natural & Organic
+  - International
+  regular_price: null
+  promo_price: null
+  size: 15.5 oz
+dried navy beans:
+- product_id: 0001111089668
+  upc: 0001111089668
+  brand: Kroger
+  description: Kroger® Navy Beans
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: null
+  promo_price: null
+  size: 16 oz
+tofu firm:
+- product_id: 0001111013249
+  upc: 0001111013249
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Super Firm Teriyaki Flavored Pre-Marinated Baked
+    Tofu
+  categories:
+  - Produce
+  - Produce
+  regular_price: 3.99
+  promo_price: null
+  size: 7 oz
+- product_id: 0001111082294
+  upc: 0001111082294
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Extra Firm Tofu Twin Pack
+  categories:
+  - Natural & Organic
+  - Produce
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 2 ct
+- product_id: 0001111014091
+  upc: 0001111014091
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Super Firm Sesame Ginger Baked Tofu
+  categories:
+  - Natural & Organic
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 7 oz
+- product_id: 0001111091342
+  upc: 0001111091342
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Extra Firm Tofu
+  categories:
+  - Natural & Organic
+  - Produce
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 14 oz
+- product_id: 0001111091341
+  upc: 0001111091341
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Firm Tofu
+  categories:
+  - Natural & Organic
+  - Produce
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 14 oz
+- product_id: '0001111012603'
+  upc: '0001111012603'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Super Firm Tofu
+  categories:
+  - Produce
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 16 oz
+- product_id: 0008569660805
+  upc: 0008569660805
+  brand: Mori-Nu
+  description: Mori-Nu® Shelf-Stable Silken Extra Firm Tofu
+  categories:
+  - Natural & Organic
+  - Frozen
+  - Natural & Organic
+  - Baking Goods
+  regular_price: null
+  promo_price: null
+  size: 10.9 oz
+- product_id: 0008569660804
+  upc: 0008569660804
+  brand: Mori-Nu
+  description: Mori-Nu® Silken Firm Tofu
+  categories:
+  - Natural & Organic
+  - Produce
+  - Baking Goods
+  regular_price: null
+  promo_price: null
+  size: 10.8 oz
+tempeh:
+- product_id: '0004345444177'
+  upc: '0004345444177'
+  brand: Lightlife
+  description: Lightlife® Organic Tempeh Chickpea
+  categories:
+  - Produce
+  regular_price: 4.19
+  promo_price: null
+  size: 7 oz
+- product_id: '0004345403050'
+  upc: '0004345403050'
+  brand: Lightlife
+  description: Lightlife Original Organic Plant-Based Tempeh
+  categories:
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 8 oz
+edamame frozen:
+- product_id: 0001111015380
+  upc: 0001111015380
+  brand: Kroger
+  description: Kroger® Edamame
+  categories:
+  - Frozen
+  regular_price: 2.99
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111013992
+  upc: 0001111013992
+  brand: Private Selection
+  description: Private Selection® Szechuan Style Broccoli & Edamame
+  categories:
+  - Frozen
+  - Frozen
+  regular_price: 4.79
+  promo_price: 3.5
+  size: 12 oz
+- product_id: '0001111003553'
+  upc: '0001111003553'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Edamame
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111015369
+  upc: 0001111015369
+  brand: Kroger
+  description: Kroger® Steamable Edamame
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 12 oz
+- product_id: '0001450001352'
+  upc: '0001450001352'
+  brand: Birds Eye
+  description: Birds Eye Steamfresh Edamame in the Pod, Frozen Vegetables
+  categories:
+  - Frozen
+  regular_price: 2.29
+  promo_price: null
+  size: 10 oz
+- product_id: 0007056097771
+  upc: 0007056097771
+  brand: Pictsweet Farms
+  description: Pictsweet Farms® Steam'ables® Frozen Edamame with Sea Salt
+  categories:
+  - Frozen
+  regular_price: 2.99
+  promo_price: 2.0
+  size: 10 oz
+- product_id: 0071157500590
+  upc: 0071157500590
+  brand: Seapoint Farms
+  description: Seapoint Farms Spicy Ginger Garlic Edamame
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 11 oz
+- product_id: 0071157500491
+  upc: 0071157500491
+  brand: Seapoint Farms
+  description: Seapoint Farms Shelled Soybeans Edamame
+  categories:
+  - Natural & Organic
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 12 oz
+natural peanut butter:
+- product_id: '0001111001650'
+  upc: '0001111001650'
+  brand: Kroger
+  description: Kroger® Natural Peanut Butter Crunchy
+  categories:
+  - Condiment & Sauces
+  - Condiment & Sauces
+  regular_price: 2.29
+  promo_price: null
+  size: 15 oz
+- product_id: 0001111001618
+  upc: 0001111001618
+  brand: Kroger
+  description: Kroger® Creamy Peanut Butter
+  categories:
+  - Condiment & Sauces
+  - Condiment & Sauces
+  regular_price: 2.29
+  promo_price: null
+  size: 16 oz
+- product_id: 0001111001619
+  upc: 0001111001619
+  brand: Kroger
+  description: Kroger® Crunchy Peanut Butter
+  categories:
+  - Condiment & Sauces
+  - Condiment & Sauces
+  regular_price: 2.29
+  promo_price: null
+  size: 16 oz
+- product_id: '0001111001651'
+  upc: '0001111001651'
+  brand: Kroger
+  description: Kroger® Honey Peanut Butter Spread Crunchy
+  categories:
+  - Condiment & Sauces
+  - Condiment & Sauces
+  regular_price: 2.29
+  promo_price: null
+  size: 16 oz
+- product_id: '0001111001652'
+  upc: '0001111001652'
+  brand: Kroger
+  description: Kroger® Honey Peanut Butter Spread Creamy
+  categories:
+  - Condiment & Sauces
+  - Condiment & Sauces
+  regular_price: 2.29
+  promo_price: null
+  size: 16 oz
+- product_id: '0001111012052'
+  upc: '0001111012052'
+  brand: Private Selection
+  description: Private Selection® Cookie Butter Creamy
+  categories:
+  - Condiment & Sauces
+  regular_price: 3.99
+  promo_price: null
+  size: 14.1 oz
+- product_id: '0001111016065'
+  upc: '0001111016065'
+  brand: Kroger
+  description: Simple Truth® Butter Toffee Glazed Peanuts
+  categories:
+  - Snacks
+  regular_price: 4.49
+  promo_price: null
+  size: 10 oz
+- product_id: 0001111079166
+  upc: 0001111079166
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Peanut Butter No Stir Crunchy
+  categories:
+  - Natural & Organic
+  - Condiment & Sauces
+  regular_price: 4.69
+  promo_price: null
+  size: 16 oz
+- product_id: '0001111012320'
+  upc: '0001111012320'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Powdered Peanut Butter
+  categories:
+  - Condiment & Sauces
+  - Natural & Organic
+  regular_price: 4.99
+  promo_price: null
+  size: 6.5 oz
+- product_id: '0001111012047'
+  upc: '0001111012047'
+  brand: Kroger
+  description: Kroger® Creamy Honey Roasted Peanut Butter Spread
+  categories:
+  - Condiment & Sauces
+  regular_price: 4.99
+  promo_price: null
+  size: 40 oz
+almonds:
+- product_id: '0001111014537'
+  upc: '0001111014537'
+  brand: Kroger
+  description: Kroger® Salted Honey Roasted Almonds
+  categories:
+  - Snacks
+  - Snacks
+  regular_price: 1.0
+  promo_price: null
+  size: 1.5 oz
+- product_id: 0001111091563
+  upc: 0001111091563
+  brand: Simple Truth
+  description: Simple Truth® Roasted and Salted Almonds Snack Size
+  categories:
+  - Snacks
+  - Snacks
+  regular_price: 1.25
+  promo_price: null
+  size: 1.5 oz
+- product_id: 0001111090929
+  upc: 0001111090929
+  brand: Kroger
+  description: Kroger® Toasted Sliced Almonds & Dried Cranberry Salad Toppers
+  categories:
+  - Condiment & Sauces
+  regular_price: 2.49
+  promo_price: null
+  size: 3 oz
+- product_id: '0001111013265'
+  upc: '0001111013265'
+  brand: Simple Truth
+  description: Simple Truth® Dairy Free Vanilla Almond Milk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 2.79
+  promo_price: null
+  size: 1/2 gal
+- product_id: '0001111013525'
+  upc: '0001111013525'
+  brand: Kroger
+  description: Kroger® Roasted Lightly Sea Salted Almonds
+  categories:
+  - Snacks
+  regular_price: 3.29
+  promo_price: null
+  size: 6 oz
+- product_id: '0001111013520'
+  upc: '0001111013520'
+  brand: Kroger
+  description: ROASTED SEA SALT ALMONDS - KROGER - 6 OZ
+  categories:
+  - Snacks
+  regular_price: 3.29
+  promo_price: null
+  size: 6 oz
+- product_id: 0001111084028
+  upc: 0001111084028
+  brand: Kroger
+  description: Kroger® Protein Peanuts Almonds and Dark Chocolate Flavored Chewy Granola
+    Bars
+  categories:
+  - Snacks
+  regular_price: 3.29
+  promo_price: null
+  size: 5 ct
+- product_id: 0001111013879
+  upc: 0001111013879
+  brand: Kroger
+  description: Kroger® Oats Almonds & Honey Granola
+  categories:
+  - Breakfast
+  regular_price: 3.49
+  promo_price: null
+  size: 14 oz
+- product_id: 0001111010687
+  upc: 0001111010687
+  brand: Kroger
+  description: Kroger® Slivered Almonds
+  categories:
+  - Baking Goods
+  regular_price: 3.99
+  promo_price: null
+  size: 4 oz
+- product_id: 0001111010689
+  upc: 0001111010689
+  brand: Kroger
+  description: SLICED ALMONDS - KROGER - 4 OZ
+  categories:
+  - Baking Goods
+  regular_price: 3.99
+  promo_price: null
+  size: 4 oz
+sunflower seeds:
+- product_id: 0001111005791
+  upc: 0001111005791
+  brand: Kroger
+  description: Kroger® Dry Roasted Salted Sunflower Kernels
+  categories:
+  - Snacks
+  regular_price: 2.49
+  promo_price: null
+  size: 7.25 oz
+- product_id: '0001111015762'
+  upc: '0001111015762'
+  brand: Kroger
+  description: Simple Truth Organic® Sunflower Kernels
+  categories:
+  - Snacks
+  regular_price: 3.99
+  promo_price: null
+  size: 10 oz
+- product_id: 0001111015977
+  upc: 0001111015977
+  brand: Kroger
+  description: Kroger® Roasted and Salted Sunflower Seeds
+  categories:
+  - Snacks
+  regular_price: null
+  promo_price: null
+  size: 7 oz
+- product_id: '0002620046772'
+  upc: '0002620046772'
+  brand: David
+  description: DAVID Jumbo Sunflower Seeds, Ranch Flavor
+  categories:
+  - Snacks
+  regular_price: 2.49
+  promo_price: null
+  size: 5.250 oz
+- product_id: 0081601201273
+  upc: 0081601201273
+  brand: Bigs
+  description: Bigs Keto Friendly Taco Bell Taco Supreme Sunflower Seeds
+  categories:
+  - Snacks
+  regular_price: 2.69
+  promo_price: null
+  size: 5.350 oz
+- product_id: 0081601201099
+  upc: 0081601201099
+  brand: Bigs
+  description: Bigs® Vlasic® Spicy Dill Pickle Flavored Sunflower Seeds Bag
+  categories:
+  - Snacks
+  regular_price: 2.69
+  promo_price: null
+  size: 5.35 oz
+- product_id: 0089688700220
+  upc: 0089688700220
+  brand: Bigs
+  description: BIGS Sunflower Seeds, Vlasic Dill Pickle Flavor
+  categories:
+  - Snacks
+  regular_price: 2.69
+  promo_price: null
+  size: 5.350 oz
+- product_id: 0086000826621
+  upc: 0086000826621
+  brand: null
+  description: SMACKIN' Garlic Parmesan Sunflower Seeds
+  categories:
+  - Snacks
+  regular_price: 2.99
+  promo_price: null
+  size: 1 each
+- product_id: 0085005424806
+  upc: 0085005424806
+  brand: Top Fox
+  description: Top Fox® Pop Roasted Sunflower Seeds Himalayan Pink Salt
+  categories:
+  - Snacks
+  regular_price: 3.99
+  promo_price: 3.49
+  size: 5.5 oz
+- product_id: '0060265241713'
+  upc: '0060265241713'
+  brand: KIND
+  description: KIND Roasted & Salted Sunflower Seeds
+  categories:
+  - Snacks
+  regular_price: 4.49
+  promo_price: null
+  size: 9 oz
+whole milk gallon:
+- product_id: '0001111040601'
+  upc: '0001111040601'
+  brand: Kroger
+  description: Kroger® Vitamin D Whole Milk Half Gallon
+  categories:
+  - Dairy
+  regular_price: 2.29
+  promo_price: null
+  size: 1/2 gal
+- product_id: '0001111040101'
+  upc: '0001111040101'
+  brand: Kroger
+  description: Kroger® Vitamin D Whole Milk Gallon
+  categories:
+  - Dairy
+  regular_price: 3.19
+  promo_price: null
+  size: 1 gal
+- product_id: '0001111043266'
+  upc: '0001111043266'
+  brand: Kroger
+  description: Kroger® Whole Chocolate Milk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 3.29
+  promo_price: null
+  size: 1/2 gal
+- product_id: 0001111042850
+  upc: 0001111042850
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Vitamin D Whole Milk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 4.69
+  promo_price: 3.99
+  size: 1/2 gal
+- product_id: '0001111050434'
+  upc: '0001111050434'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Lactose Free Vitamin D Whole Milk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  - Natural & Organic
+  regular_price: 4.99
+  promo_price: 3.99
+  size: 1/2 gal
+- product_id: 0001111042858
+  upc: 0001111042858
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Vitamin D Whole Milk with DHA Omega-3 Half Gallon
+  categories:
+  - Dairy
+  - Natural & Organic
+  regular_price: 4.99
+  promo_price: 3.99
+  size: 1/2 gal
+- product_id: '0001111050075'
+  upc: '0001111050075'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Whole Chocolate Milk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 4.99
+  promo_price: 3.99
+  size: 1/2 gal
+- product_id: '0001111042712'
+  upc: '0001111042712'
+  brand: Kroger
+  description: Kroger® Cultured Whole Milk Buttermilk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 5.49
+  promo_price: null
+  size: 1/2 gal
+- product_id: 0001111085333
+  upc: 0001111085333
+  brand: Kroger
+  description: Kroger® Lactose Free Vitamin D Milk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: null
+  promo_price: null
+  size: 1/2 gal
+- product_id: 0004138309036
+  upc: 0004138309036
+  brand: Lactaid
+  description: Lactaid® Lactose Free Whole Milk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 4.99
+  promo_price: null
+  size: 1/2 gallon
+low fat milk gallon:
+- product_id: '0001111042305'
+  upc: '0001111042305'
+  brand: Kroger
+  description: Kroger® Skim Milk Half Gallon
+  categories:
+  - Dairy
+  regular_price: 2.29
+  promo_price: null
+  size: 1/2 gal
+- product_id: '0001111041661'
+  upc: '0001111041661'
+  brand: Kroger
+  description: Kroger® 1% Lowfat Milk Half Gallon
+  categories:
+  - Dairy
+  regular_price: 2.29
+  promo_price: null
+  size: 1/2 gal
+- product_id: 0001111009433
+  upc: 0001111009433
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Vanilla Soymilk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 2.59
+  promo_price: null
+  size: 1/2 gal
+- product_id: '0001111050574'
+  upc: '0001111050574'
+  brand: Kroger
+  description: Kroger 1% Lowfat Chocolate Milk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 2.99
+  promo_price: null
+  size: 1/2 gal
+- product_id: '0001111041660'
+  upc: '0001111041660'
+  brand: Kroger
+  description: Kroger® 1% Lowfat Milk Gallon
+  categories:
+  - Dairy
+  regular_price: 3.19
+  promo_price: null
+  size: 1 gal
+- product_id: '0001111042315'
+  upc: '0001111042315'
+  brand: Kroger
+  description: Kroger® Skim Milk Gallon
+  categories:
+  - Dairy
+  regular_price: 3.19
+  promo_price: null
+  size: 1 gal
+- product_id: '0001111041700'
+  upc: '0001111041700'
+  brand: Kroger
+  description: Kroger® 2% Reduced Fat Milk Gallon
+  categories:
+  - Dairy
+  regular_price: 3.19
+  promo_price: null
+  size: 1 gal
+- product_id: 0001111082556
+  upc: 0001111082556
+  brand: Kroger
+  description: Kroger® Lactose Free 2% Reduced Fat Milk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 3.49
+  promo_price: null
+  size: 1/2 gal
+- product_id: 0001111008243
+  upc: 0001111008243
+  brand: Kroger
+  description: Kroger® Lactose Free 1% Low Fat Milk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 3.49
+  promo_price: null
+  size: 1/2 gal
+- product_id: '0001111050573'
+  upc: '0001111050573'
+  brand: Kroger
+  description: Kroger® 1% Lowfat Chocolate Milk Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 4.19
+  promo_price: null
+  size: 1 gal
+large eggs grade a:
+- product_id: 0001111060903
+  upc: 0001111060903
+  brand: Kroger
+  description: KROGER GRADE A 12CT LARGE EGGS Rack
+  categories:
+  - Dairy
+  - Breakfast
+  regular_price: 1.89
+  promo_price: null
+  size: '11.80'
+- product_id: 0001111060933
+  upc: 0001111060933
+  brand: Kroger
+  description: Kroger® Grade A Large White Eggs
+  categories:
+  - Breakfast
+  - Dairy
+  regular_price: 3.19
+  promo_price: null
+  size: 18 ct
+- product_id: 0001111089310
+  upc: 0001111089310
+  brand: Simple Truth
+  description: Simple Truth™ Natural Cage Free Grade A Large Brown Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 5.49
+  promo_price: null
+  size: 18 ct / 36 oz
+- product_id: 0001111006479
+  upc: 0001111006479
+  brand: Simple Truth Organic
+  description: Simple Truth Organic™ Cage Free Grade A Large Brown Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 7.29
+  promo_price: null
+  size: 18 ct
+- product_id: 0001111079770
+  upc: 0001111079770
+  brand: Simple Truth
+  description: Simple Truth™ Natural Cage Free Grade A Large Brown Eggs
+  categories:
+  - Breakfast
+  - Dairy
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 12 ct / 24 oz
+- product_id: 0001111079772
+  upc: 0001111079772
+  brand: Simple Truth Organic
+  description: Simple Truth Organic™ Cage Free Grade A Large Brown Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: null
+  promo_price: null
+  size: 12 ct
+- product_id: '0003360400510'
+  upc: '0003360400510'
+  brand: Sauder's Eggs
+  description: Sauder's Pasture Raised Grade A Large Brown Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 4.99
+  promo_price: null
+  size: 12 ct
+- product_id: 0088742200000
+  upc: 0088742200000
+  brand: Happy Egg Co.
+  description: Happy Egg 12 count Large Brown Grade A Free Range Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 5.99
+  promo_price: null
+  size: 12 pk
+- product_id: 0086174500002
+  upc: 0086174500002
+  brand: Vital Farms
+  description: Vital Farms® Pasture-Raised Large Brown Grade-A Organic Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 9.99
+  promo_price: null
+  size: 12 ct
+plain greek yogurt:
+- product_id: 0001111050481
+  upc: 0001111050481
+  brand: Kroger
+  description: Kroger® Plain Nonfat Greek Yogurt Cup
+  categories:
+  - Dairy
+  regular_price: 0.89
+  promo_price: null
+  size: 5.3 oz
+- product_id: '0001111010717'
+  upc: '0001111010717'
+  brand: Kroger
+  description: Kroger® Plain Nonfat Greek Yogurt Tub
+  categories:
+  - Dairy
+  regular_price: 4.79
+  promo_price: null
+  size: 32 oz
+- product_id: '0001111010760'
+  upc: '0001111010760'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Plain Nonfat Greek Yogurt Tub
+  categories:
+  - Dairy
+  - Natural & Organic
+  regular_price: 4.99
+  promo_price: null
+  size: 32 oz
+- product_id: '0001111013600'
+  upc: '0001111013600'
+  brand: Kroger
+  description: Kroger® Plain Whole Milk Greek Yogurt Cultured Dairy Blend Tub
+  categories:
+  - Dairy
+  regular_price: null
+  promo_price: null
+  size: 32 oz
+- product_id: 0089470001001
+  upc: 0089470001001
+  brand: Chobani
+  description: Chobani® Plain Nonfat Greek Yogurt Cup
+  categories:
+  - Dairy
+  regular_price: 1.5
+  promo_price: 1.2
+  size: 5.3 oz
+- product_id: 0068954408000
+  upc: 0068954408000
+  brand: Fage
+  description: Fage® Total Plain 0% Milkfat Greek Yogurt Cup
+  categories:
+  - Dairy
+  - Natural & Organic
+  regular_price: 1.59
+  promo_price: null
+  size: 5.3 oz
+- product_id: 0068954408060
+  upc: 0068954408060
+  brand: Fage
+  description: Fage® Total Plain 5% Milkfat Low Fat Greek Yogurt Cup
+  categories:
+  - Dairy
+  regular_price: 1.59
+  promo_price: null
+  size: 5.3 oz
+- product_id: 0007835558000
+  upc: 0007835558000
+  brand: The Greek Gods
+  description: The Greek Gods® Nonfat Plain Greek Style Yogurt Tub
+  categories:
+  - Dairy
+  regular_price: 4.79
+  promo_price: null
+  size: 24oz
+- product_id: 0081829001381
+  upc: 0081829001381
+  brand: Chobani
+  description: Chobani Non-Fat Plain Greek Yogurt 5.3oz 4ct
+  categories:
+  - Dairy
+  regular_price: 5.49
+  promo_price: 3.99
+  size: 4 ct / 5.3 oz
+- product_id: 0089470001019
+  upc: 0089470001019
+  brand: Chobani
+  description: Chobani Low-Fat Plain Greek Yogurt 32oz
+  categories:
+  - Dairy
+  regular_price: 6.29
+  promo_price: null
+  size: 32 oz
+cheddar cheese:
+- product_id: 0001111088692
+  upc: 0001111088692
+  brand: Kroger
+  description: Kroger® Cheddar Cheese Cranberry & Cashew Snack Kit
+  categories:
+  - Dairy
+  regular_price: 1.49
+  promo_price: null
+  size: 1.5 oz
+- product_id: '0001111010014'
+  upc: '0001111010014'
+  brand: Kroger
+  description: Kroger® Deluxe Shells and Cheddar Macaroni and Cheese
+  categories:
+  - Canned & Packaged
+  regular_price: 1.5
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111010118
+  upc: 0001111010118
+  brand: Kroger
+  description: Kroger® Reduced Fat Sharp Cheddar Shredded Cheese
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 2.33
+  size: 8 oz
+- product_id: 0001111050158
+  upc: 0001111050158
+  brand: Kroger
+  description: Kroger® Sharp Cheddar Shredded Cheese
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 2.33
+  size: 8 oz
+- product_id: 0001111058625
+  upc: 0001111058625
+  brand: Kroger
+  description: Kroger® Mild Cheddar Cheese Block
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 2.33
+  size: 8 oz
+- product_id: 0001111058627
+  upc: 0001111058627
+  brand: Kroger
+  description: Kroger® Sharp Cheddar Block Cheese
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 2.33
+  size: 8 oz
+- product_id: 0001111050183
+  upc: 0001111050183
+  brand: Kroger
+  description: Kroger® Cheddar Jack Shredded Cheese
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 2.33
+  size: 8 oz
+- product_id: 0001111058718
+  upc: 0001111058718
+  brand: Kroger
+  description: Kroger® Medium Cheddar Sliced Cheese
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 2.33
+  size: 8 slices / 6 oz
+- product_id: 0001111050339
+  upc: 0001111050339
+  brand: Kroger
+  description: Kroger® Medium Cheddar Shredded Cheese
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 2.33
+  size: 8 oz
+- product_id: 0001111050338
+  upc: 0001111050338
+  brand: Kroger
+  description: Kroger® Marbled Cheddar Shredded Cheese
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 2.33
+  size: 8 oz
+cottage cheese:
+- product_id: 0001111015965
+  upc: 0001111015965
+  brand: Simple Truth
+  description: Simple Truth® Protein Plain 2% Milkfat Small Curd Cottage Cheese with
+    Strawberries
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 1.25
+  promo_price: null
+  size: 5.65 oz
+- product_id: '0001111044760'
+  upc: '0001111044760'
+  brand: Kroger
+  description: Kroger® 4% Milkfat Small Curd Cottage Cheese
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 1.99
+  size: 16 oz
+- product_id: '0001111044445'
+  upc: '0001111044445'
+  brand: Kroger
+  description: Kroger® Fat Free Small Curd Cottage Cheese Cup
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 1.99
+  size: 16 oz
+- product_id: '0001111045043'
+  upc: '0001111045043'
+  brand: Kroger
+  description: Kroger® 2% Low Fat Small Curd Cottage Cheese
+  categories:
+  - Dairy
+  regular_price: 2.49
+  promo_price: 1.99
+  size: 16 oz
+- product_id: '0001111011071'
+  upc: '0001111011071'
+  brand: Kroger
+  description: Kroger® Part Skim Ricotta Cheese
+  categories:
+  - Dairy
+  regular_price: 2.99
+  promo_price: 2.49
+  size: 15 oz
+- product_id: '0001111044400'
+  upc: '0001111044400'
+  brand: Kroger
+  description: Kroger® 4% Milkfat Small Curd Cottage Cheese
+  categories:
+  - Dairy
+  regular_price: 3.19
+  promo_price: null
+  size: 24 oz
+- product_id: '0001111044500'
+  upc: '0001111044500'
+  brand: Kroger
+  description: Kroger® 4% Milkfat Large Curd Cottage Cheese
+  categories:
+  - Dairy
+  regular_price: 3.19
+  promo_price: null
+  size: 24 oz
+- product_id: '0001111045045'
+  upc: '0001111045045'
+  brand: Kroger
+  description: Kroger® 2% Low Fat Small Curd Cottage Cheese
+  categories:
+  - Dairy
+  regular_price: 3.19
+  promo_price: null
+  size: 24 oz
+- product_id: '0001111044450'
+  upc: '0001111044450'
+  brand: Kroger
+  description: Kroger® Fat Free Small Curd Cottage Cheese
+  categories:
+  - Dairy
+  regular_price: 3.19
+  promo_price: null
+  size: 24 oz
+- product_id: 0001111015582
+  upc: 0001111015582
+  brand: Simple Truth
+  description: Simple Truth® Protein 2% Milkfat Small Curd Cottage Cheese
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 3.49
+  promo_price: null
+  size: 16 oz
+chicken breast boneless:
+- product_id: 0001111018028
+  upc: 0001111018028
+  brand: Kroger
+  description: Kroger® Boneless Skinless Uncooked Chicken Breast With Rib Meat Thin-Sliced
+  categories:
+  - Meat & Seafood
+  regular_price: 5.0
+  promo_price: null
+  size: 1.25 lb
+- product_id: 0020094700000
+  upc: 0020094700000
+  brand: Simple Truth
+  description: Simple Truth® Natural Boneless Skinless Fresh Chicken Breast Family
+    Pack BIG DEAL!
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 5.99
+  promo_price: 5.49
+  size: 1 lb
+- product_id: 0024058150000
+  upc: 0024058150000
+  brand: Simple Truth
+  description: Simple Truth® Natural Boneless & Skinless Fresh Chicken Breast Tenders
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 6.99
+  promo_price: null
+  size: 1 lb
+- product_id: 0001111013619
+  upc: 0001111013619
+  brand: Kroger
+  description: Kroger® Fully Cooked Frozen Boneless Skinless Grilled Chicken Breast
+    Dices
+  categories:
+  - Meat & Seafood
+  - Frozen
+  regular_price: 7.99
+  promo_price: null
+  size: 22 ounces
+- product_id: 0020890050000
+  upc: 0020890050000
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Boneless Skinless Fresh Organic Chicken Breast
+    Tenders
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 9.99
+  promo_price: null
+  size: 1 lb
+- product_id: 0001111069150
+  upc: 0001111069150
+  brand: Private Selection
+  description: Private Selection® Honey Dijon Boneless Skinless Chicken Breasts
+  categories:
+  - Meat & Seafood
+  regular_price: 10.0
+  promo_price: null
+  size: 1.31 lb
+- product_id: 0001111069152
+  upc: 0001111069152
+  brand: Private Selection
+  description: Private Selection® Chile Lime Boneless Skinless Chicken Breasts
+  categories:
+  - Meat & Seafood
+  regular_price: 10.0
+  promo_price: null
+  size: 1.31 lb
+- product_id: 0000000834135
+  upc: 0000000834135
+  brand: Kroger
+  description: Kroger® Fully Cooked Frozen Boneless Skinless Grilled Chicken Breast
+    Dices x 2
+  categories:
+  - Frozen
+  regular_price: 14.38
+  promo_price: null
+  size: 2x 22 oz
+- product_id: 0001111031922
+  upc: 0001111031922
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Boneless & Skinless Frozen Organic Chicken Breast
+    Thin Sliced
+  categories:
+  - Meat & Seafood
+  regular_price: 15.99
+  promo_price: null
+  size: 32 oz
+- product_id: 0001111067942
+  upc: 0001111067942
+  brand: Kroger
+  description: Kroger® Boneless Skinless Frozen Chicken Breast BIG DEAL!
+  categories:
+  - Frozen
+  regular_price: 24.99
+  promo_price: null
+  size: 8 lb
+chicken thighs:
+- product_id: 0020075850000
+  upc: 0020075850000
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Fresh Chicken Drumsticks
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 3.99
+  promo_price: null
+  size: 1 lb
+- product_id: 0028896350000
+  upc: 0028896350000
+  brand: Simple Truth
+  description: Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller
+    Pack BIG DEAL!
+  categories:
+  - Meat & Seafood
+  regular_price: 4.99
+  promo_price: 4.49
+  size: 1 lb
+- product_id: 0020095850000
+  upc: 0020095850000
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Boneless & Skinless Fresh Organic Chicken Thighs
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 7.99
+  promo_price: null
+  size: 1 lb
+- product_id: 0001111014592
+  upc: 0001111014592
+  brand: Kroger
+  description: Kroger® Oven Roasted Chicken Wings
+  categories:
+  - Meat & Seafood
+  - Frozen
+  regular_price: 9.29
+  promo_price: null
+  size: 22 oz
+- product_id: 0001111069151
+  upc: 0001111069151
+  brand: Private Selection
+  description: Private Selection® Pollo Asado Boneless Skinless Chicken Thighs
+  categories:
+  - Meat & Seafood
+  regular_price: 10.0
+  promo_price: null
+  size: 1.31 lb
+- product_id: 0001111097861
+  upc: 0001111097861
+  brand: Kroger
+  description: Kroger® Frozen Raw Boneless Skinless Chicken Thighs
+  categories:
+  - Frozen
+  regular_price: 10.99
+  promo_price: null
+  size: 3 lb
+- product_id: 0001111069148
+  upc: 0001111069148
+  brand: Private Selection
+  description: Private Selection® Lemon Herb Boneless Skinless Chicken Thighs
+  categories:
+  - Meat & Seafood
+  regular_price: null
+  promo_price: null
+  size: 1.31 lb
+- product_id: 0001111069149
+  upc: 0001111069149
+  brand: Private Selection
+  description: Private Selection® Black Pepper and BBQ Flavor Boneless Skinless Chicken
+    Thighs
+  categories:
+  - Meat & Seafood
+  regular_price: null
+  promo_price: null
+  size: 1.31 lb
+- product_id: 0024071850000
+  upc: 0024071850000
+  brand: Simple Truth
+  description: Simple Truth® Naturalˆ Fresh Chicken Drumsticks
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 1 each
+- product_id: 0001111063825
+  upc: 0001111063825
+  brand: Kroger
+  description: Kroger® Fresh Uncooked Chicken Drumsticks
+  categories:
+  - Meat & Seafood
+  regular_price: null
+  promo_price: null
+  size: 4.5 lb
+ground beef 80 20:
+- product_id: 0029130500000
+  upc: 0029130500000
+  brand: Private Selection
+  description: Private Selection™ Angus 80/20 Lean Ground Beef
+  categories:
+  - Meat & Seafood
+  regular_price: 7.99
+  promo_price: 6.99
+  size: 1 lb
+- product_id: '0001111063522'
+  upc: '0001111063522'
+  brand: Private Selection
+  description: Private Selection® 80/20 Angus Ground Beef Tray 1 LB
+  categories:
+  - Meat & Seafood
+  regular_price: 7.99
+  promo_price: 6.99
+  size: 1 lb
+- product_id: 0001111097648
+  upc: 0001111097648
+  brand: Simple Truth
+  description: Simple Truth® 80/20 Natural Ground Beef Pack 1 LB
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 8.49
+  promo_price: null
+  size: 1 lb
+- product_id: 0001111063987
+  upc: 0001111063987
+  brand: Kroger
+  description: Kroger® 80/20 Ground Beef Patties
+  categories:
+  - Meat & Seafood
+  regular_price: 11.99
+  promo_price: null
+  size: 8 ct / 30.4 ounce
+- product_id: 0001111097972
+  upc: 0001111097972
+  brand: Kroger
+  description: Kroger® 80/20 Ground Beef Roll 3 LB
+  categories:
+  - Meat & Seafood
+  regular_price: 18.99
+  promo_price: null
+  size: 3 lb
+- product_id: 0001111096970
+  upc: 0001111096970
+  brand: Kroger
+  description: Kroger® 80/20 Ground Beef Tray 3 LB
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 20.99
+  promo_price: null
+  size: 3 lb
+- product_id: 0001111097943
+  upc: 0001111097943
+  brand: Simple Truth
+  description: Simple Truth® 80/20 Natural Beef Burgers
+  categories:
+  - Meat & Seafood
+  regular_price: null
+  promo_price: null
+  size: 6 ct / 32 oz
+- product_id: '0001111063461'
+  upc: '0001111063461'
+  brand: Private Selection
+  description: Private Selection® 80/20 Angus Ground Beef Chuck Patties
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 2 ct / 14 oz
+- product_id: 0001111096972
+  upc: 0001111096972
+  brand: Kroger
+  description: Kroger® 80/20 Ground Beef Tray 1 LB
+  categories:
+  - Meat & Seafood
+  regular_price: null
+  promo_price: null
+  size: 1 lb
+- product_id: 0001111097971
+  upc: 0001111097971
+  brand: Kroger
+  description: Kroger® 80/20 Ground Beef Roll 1 LB
+  categories:
+  - Meat & Seafood
+  regular_price: null
+  promo_price: null
+  size: 1 lb
+pork loin:
+- product_id: 0029210250000
+  upc: 0029210250000
+  brand: Kroger
+  description: Kroger® Pork Loin Assorted End Chops Bone In
+  categories:
+  - Meat & Seafood
+  regular_price: 4.49
+  promo_price: null
+  size: 1 lb
+- product_id: 0001111061219
+  upc: 0001111061219
+  brand: Private Selection
+  description: Private Selection® Natural Duroc Pork Loin Chops Boneless
+  categories:
+  - Meat & Seafood
+  regular_price: 6.0
+  promo_price: null
+  size: 10 oz
+- product_id: '0001111061220'
+  upc: '0001111061220'
+  brand: Private Selection
+  description: Private Selection® Natural Duroc Center-Cut Pork Loin Chops Bone In
+  categories:
+  - Meat & Seafood
+  regular_price: 6.0
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111066269
+  upc: 0001111066269
+  brand: Kroger
+  description: Kroger® Cook In Bag Peppercorn Seasoned Pork Loin Filet
+  categories:
+  - Meat & Seafood
+  - Meat & Seafood
+  regular_price: 7.0
+  promo_price: null
+  size: 23 oz
+- product_id: '0001111063445'
+  upc: '0001111063445'
+  brand: Kroger
+  description: Kroger® Boneless Center Cut Pork Loin Chops
+  categories:
+  - Meat & Seafood
+  regular_price: 10.0
+  promo_price: null
+  size: 10 ct / 2 lb
+- product_id: '0001111066226'
+  upc: '0001111066226'
+  brand: Kroger
+  description: Kroger® Bone-In Pork Loin Chops
+  categories:
+  - Meat & Seafood
+  regular_price: null
+  promo_price: null
+  size: 36 oz
+- product_id: 0029210350000
+  upc: 0029210350000
+  brand: Kroger
+  description: Kroger® Pork Loin Assorted End Chop Bone
+  categories:
+  - Meat & Seafood
+  regular_price: null
+  promo_price: null
+  size: 1 pk
+- product_id: '0020322450000'
+  upc: '0020322450000'
+  brand: PORK
+  description: Kroger® Fresh Natural Pork Loin Boneless
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 2.99
+  promo_price: 1.99
+  size: 1 lb
+- product_id: '0020331300000'
+  upc: '0020331300000'
+  brand: In Store
+  description: Bone-In Pork Loin Chops
+  categories:
+  - Meat & Seafood
+  regular_price: 4.79
+  promo_price: null
+  size: 1 lb
+- product_id: '0020324250000'
+  upc: '0020324250000'
+  brand: Tyson
+  description: Thin Cut Bone-In Pork Loin Center-Cut Chop
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 4.79
+  promo_price: null
+  size: 1 lb
+canned tuna in water:
+- product_id: 0001111089084
+  upc: 0001111089084
+  brand: Kroger
+  description: Kroger® Wild Caught Chunk Light Tuna in Water
+  categories:
+  - Canned & Packaged
+  regular_price: 0.97
+  promo_price: null
+  size: 5 oz
+- product_id: 0001111080775
+  upc: 0001111080775
+  brand: Kroger
+  description: Kroger® Wild Caught Chunk Light Tuna in Water
+  categories:
+  - Canned & Packaged
+  regular_price: 0.99
+  promo_price: 0.89
+  size: 2.5 oz
+- product_id: 0001111087380
+  upc: 0001111087380
+  brand: Kroger
+  description: Kroger® Flake White Albacore Tuna in Water
+  categories:
+  - Canned & Packaged
+  regular_price: 1.79
+  promo_price: 1.5
+  size: 5 oz
+- product_id: 0001111089088
+  upc: 0001111089088
+  brand: Kroger
+  description: Kroger® Solid White Albacore Tuna in Water
+  categories:
+  - Canned & Packaged
+  regular_price: 1.79
+  promo_price: 1.5
+  size: 5 oz
+- product_id: 0001111082796
+  upc: 0001111082796
+  brand: Kroger
+  description: Kroger® Wild Caught Chunk Light Tuna in Water
+  categories:
+  - Canned & Packaged
+  regular_price: 3.29
+  promo_price: null
+  size: 3 ct / 3 oz
+- product_id: 0001111014936
+  upc: 0001111014936
+  brand: Kroger
+  description: Kroger® Wild Caught Chunk Light Tuna in Water Family Size
+  categories:
+  - Canned & Packaged
+  regular_price: 3.69
+  promo_price: 3.0
+  size: 11 oz
+- product_id: 0001111089094
+  upc: 0001111089094
+  brand: Kroger
+  description: Kroger® Wild Caught Chunk Light Tuna in Water
+  categories:
+  - Canned & Packaged
+  regular_price: null
+  promo_price: null
+  size: 6 oz
+- product_id: 0001111014697
+  upc: 0001111014697
+  brand: Kroger
+  description: Kroger® Wild Caught Chunk Light Tuna in Water Multipack
+  categories:
+  - Canned & Packaged
+  regular_price: null
+  promo_price: null
+  size: 4 ct / 2.5 oz
+- product_id: 0001111090078
+  upc: 0001111090078
+  brand: Simple Truth
+  description: Simple Truth® Pole and Line Skipjack Chunk Light Tuna in Spring Water
+    with Sea Salt
+  categories:
+  - Canned & Packaged
+  regular_price: null
+  promo_price: null
+  size: 5 oz
+- product_id: 0001111083444
+  upc: 0001111083444
+  brand: Kroger
+  description: Kroger® Wild Caught Chunk Light Tuna in Water
+  categories:
+  - Canned & Packaged
+  regular_price: null
+  promo_price: null
+  size: 12 oz
+canned sardines:
+- product_id: 0001111013900
+  upc: 0001111013900
+  brand: Kroger
+  description: Kroger® Wild Caught Sardines in Soybean Oil
+  categories:
+  - Canned & Packaged
+  regular_price: 1.19
+  promo_price: null
+  size: 3.75 oz
+- product_id: 0004800018718
+  upc: 0004800018718
+  brand: Chicken of the Sea
+  description: Chicken of the Sea Wild Caught Sardines in Olive Oil
+  categories:
+  - Canned & Packaged
+  regular_price: 1.59
+  promo_price: null
+  size: 3.75 oz
+- product_id: 0004800000709
+  upc: 0004800000709
+  brand: Chicken of the Sea
+  description: Chicken of the Sea Wild Caught Sardines in Louisiana Hot Sauce
+  categories:
+  - Canned & Packaged
+  regular_price: 1.59
+  promo_price: null
+  size: 3.75 oz
+- product_id: 0004800000706
+  upc: 0004800000706
+  brand: Chicken of the Sea
+  description: Chicken of the Sea Wild Caught Sardines in Oil, Lightly Smoked
+  categories:
+  - Canned & Packaged
+  regular_price: 1.59
+  promo_price: null
+  size: 3.75 oz
+- product_id: 0004800000707
+  upc: 0004800000707
+  brand: Chicken of the Sea
+  description: Chicken of the Sea Wild Caught Sardines in Water
+  categories:
+  - Canned & Packaged
+  regular_price: 1.59
+  promo_price: null
+  size: 3.75 oz
+- product_id: 0004800000708
+  upc: 0004800000708
+  brand: Chicken of the Sea
+  description: Chicken of the Sea Wild Caught Sardines in Mustard Sauce
+  categories:
+  - Canned & Packaged
+  regular_price: 1.59
+  promo_price: null
+  size: 3.75 oz
+- product_id: 0005527096181
+  upc: 0005527096181
+  brand: Grace
+  description: Grace® Sardines in Vegetable Oil
+  categories:
+  - Canned & Packaged
+  - International
+  regular_price: 2.49
+  promo_price: null
+  size: 3.74 oz
+- product_id: 0005527096271
+  upc: 0005527096271
+  brand: Grace
+  description: Grace® Sardines In Water
+  categories:
+  - Canned & Packaged
+  - International
+  regular_price: 2.69
+  promo_price: null
+  size: 3.74 oz
+- product_id: 0005527096333
+  upc: 0005527096333
+  brand: Grace
+  description: Grace® Sardines With Peppers In Vegetable Oil
+  categories:
+  - International
+  - Canned & Packaged
+  regular_price: 2.99
+  promo_price: null
+  size: 3.74 oz
+- product_id: 0082969600080
+  upc: 0082969600080
+  brand: Wild Planet
+  description: Wild Planet Wild Sardines in Extra Virgin Olive Oil
+  categories:
+  - Canned & Packaged
+  regular_price: 3.29
+  promo_price: 2.99
+  size: 4.4 oz
+frozen salmon:
+- product_id: 0001111014449
+  upc: 0001111014449
+  brand: Private Selection
+  description: Private Selection® Crunchy Sushi Salmon Rolls
+  categories:
+  - Frozen
+  - Frozen
+  regular_price: 4.99
+  promo_price: null
+  size: 2 ct / 10 oz
+- product_id: '0001111064133'
+  upc: '0001111064133'
+  brand: Simple Truth
+  description: Simple Truth® Wild Caught Alaskan Protein Salmon Burger
+  categories:
+  - Frozen
+  - Meat & Seafood
+  - Frozen
+  regular_price: 5.99
+  promo_price: 4.99
+  size: 2 ct / 8 ounces
+- product_id: '0001111065666'
+  upc: '0001111065666'
+  brand: Kroger
+  description: Private Selection® Seafood Stuffed Chilean Atlantic Salmon
+  categories:
+  - Frozen
+  regular_price: 10.0
+  promo_price: null
+  size: 15 oz
+- product_id: 0001111077990
+  upc: 0001111077990
+  brand: Kroger
+  description: Kroger® Wild Caught Pink Salmon Fillets Frozen BIG DEAL!
+  categories:
+  - Meat & Seafood
+  regular_price: 16.99
+  promo_price: 14.99
+  size: 32 ounces
+- product_id: 0001111062826
+  upc: 0001111062826
+  brand: Kroger
+  description: Kroger® Farm Raised Atlantic Salmon Portions Frozen BIG DEAL!
+  categories:
+  - Meat & Seafood
+  regular_price: 22.99
+  promo_price: 19.99
+  size: 32 ounces
+- product_id: 0001111065938
+  upc: 0001111065938
+  brand: Private Selection
+  description: Private Selection® Chili Lime Chilean Atlantic Salmon
+  categories:
+  - Natural & Organic
+  - Meat & Seafood
+  regular_price: null
+  promo_price: null
+  size: 2 ct / 8 oz
+- product_id: 0001111062921
+  upc: 0001111062921
+  brand: Simple Truth
+  description: Simple Truth® Wild Caught Sockeye Salmon Portions Frozen Skin On
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 12 ounces
+- product_id: 0001111064018
+  upc: 0001111064018
+  brand: Private Selection
+  description: Private Selection® Farm Raised Norwegian Atlantic Salmon Traditional
+    Pre-Sliced Cold Smoked
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 12 ounces
+- product_id: '0001111065667'
+  upc: '0001111065667'
+  brand: Kroger
+  description: Private Selection® Shallot & Herb Butter Chilean Atlantic Salmon
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 10 oz
+- product_id: 0002802959710
+  upc: 0002802959710
+  brand: Trident Seafoods
+  description: Trident Seafoods® Alaskan Salmon Burgers
+  categories:
+  - Frozen
+  - Meat & Seafood
+  regular_price: 7.99
+  promo_price: null
+  size: 4 ct / 11.2 oz
+russet potato:
+- product_id: 0001111008883
+  upc: 0001111008883
+  brand: Kroger
+  description: Kroger® Sweet & Mesquite BBQ Potato Chips
+  categories:
+  - Snacks
+  regular_price: 1.79
+  promo_price: null
+  size: 7.75 oz
+- product_id: 0001111008880
+  upc: 0001111008880
+  brand: Kroger
+  description: Kroger® Original Wavy Potato Chips
+  categories:
+  - Snacks
+  regular_price: 1.79
+  promo_price: null
+  size: 8 oz
+- product_id: 0001111008887
+  upc: 0001111008887
+  brand: Kroger
+  description: Kroger® Cheddar & Sour Cream Ripples Potato Chips
+  categories:
+  - Snacks
+  regular_price: 1.79
+  promo_price: null
+  size: 7.5 oz
+- product_id: 0001111008884
+  upc: 0001111008884
+  brand: Kroger
+  description: Kroger® Lightly Salted Wavy Potato Chips
+  categories:
+  - Snacks
+  regular_price: 1.79
+  promo_price: null
+  size: 7.75 oz
+- product_id: 0001111087528
+  upc: 0001111087528
+  brand: Kroger
+  description: Kroger® Frozen French Fries
+  categories:
+  - Frozen
+  regular_price: 3.29
+  promo_price: null
+  size: 32 oz
+- product_id: 0001111005578
+  upc: 0001111005578
+  brand: Kroger
+  description: Kroger® Seasoned Crispy Fries
+  categories:
+  - Frozen
+  regular_price: 3.29
+  promo_price: null
+  size: 24 oz
+- product_id: 0001111087508
+  upc: 0001111087508
+  brand: Kroger
+  description: Kroger® Crinkle-Cut Frozen French Fries
+  categories:
+  - Frozen
+  regular_price: 3.29
+  promo_price: null
+  size: 32 oz
+- product_id: 0001111087585
+  upc: 0001111087585
+  brand: Kroger
+  description: Kroger® Frozen Steak Fries
+  categories:
+  - Frozen
+  regular_price: 3.29
+  promo_price: null
+  size: 28 oz
+- product_id: 0001111005597
+  upc: 0001111005597
+  brand: Kroger
+  description: Kroger® Extra Crispy Crinkle Cut Fries
+  categories:
+  - Frozen
+  regular_price: 3.29
+  promo_price: null
+  size: 26 oz
+- product_id: 0001111005158
+  upc: 0001111005158
+  brand: Kroger
+  description: Kroger® Seasoned Frozen Hash Brown Patties
+  categories:
+  - Frozen
+  regular_price: 3.79
+  promo_price: null
+  size: 22.5 oz
+sweet potato:
+- product_id: 0001111081235
+  upc: 0001111081235
+  brand: Kroger
+  description: Kroger No Salt Added Garden Variety Sweet Peas - 15oz can
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 1.0
+  promo_price: null
+  size: 15 oz
+- product_id: 0004126000192
+  upc: 0004126000192
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Blueberry Banana Apple Sweet Potato Beet Stage
+    2 Baby Food Puree
+  categories:
+  - Baby
+  - Baby
+  regular_price: 1.0
+  promo_price: null
+  size: 4 oz
+- product_id: 0001111081250
+  upc: 0001111081250
+  brand: Kroger
+  description: Kroger Sweet Peas & Carrots - 15oz can
+  categories:
+  - Canned & Packaged
+  regular_price: 1.09
+  promo_price: null
+  size: 15 oz
+- product_id: '0001111012366'
+  upc: '0001111012366'
+  brand: Kroger
+  description: Kroger Garden Variety Sweet Peas - 2 pack, 7oz cups
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 1.99
+  promo_price: null
+  size: 7 oz
+- product_id: 0001111084573
+  upc: 0001111084573
+  brand: Kroger
+  description: Kroger® Cut Yams Sweet Potatoes in Syrup
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 2.19
+  promo_price: null
+  size: 15 oz
+- product_id: 0001111004382
+  upc: 0001111004382
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Diced Frozen Sweet Potato
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 2.49
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111087975
+  upc: 0001111087975
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Cut Sweet Potato Yams
+  categories:
+  - Natural & Organic
+  - Canned & Packaged
+  regular_price: 2.79
+  promo_price: null
+  size: 15 oz
+- product_id: 0004126001182
+  upc: 0004126001182
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Apple and Sweet Potato Rice Rusks Teething Wafers
+  categories:
+  - Baby
+  - Baby
+  regular_price: 2.79
+  promo_price: null
+  size: 12 ct
+- product_id: 0001111086095
+  upc: 0001111086095
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Sweet Potato Corn Tortilla Chips
+  categories:
+  - Snacks
+  regular_price: 2.99
+  promo_price: null
+  size: 7.5 oz
+- product_id: 0001111091250
+  upc: 0001111091250
+  brand: Simple Truth
+  description: Simple Truth® Sweet Potato Chips
+  categories:
+  - Snacks
+  regular_price: 3.29
+  promo_price: null
+  size: 6 oz
+frozen broccoli:
+- product_id: '0001111010307'
+  upc: '0001111010307'
+  brand: Kroger
+  description: Kroger® Frozen Broccoli Cuts
+  categories:
+  - Frozen
+  regular_price: 1.25
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111012841
+  upc: 0001111012841
+  brand: Kroger
+  description: Kroger® Frozen Broccoli Florets
+  categories:
+  - Frozen
+  regular_price: 1.49
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111012883
+  upc: 0001111012883
+  brand: Kroger
+  description: Kroger® Frozen Broccoli Florets
+  categories:
+  - Frozen
+  regular_price: 1.49
+  promo_price: null
+  size: 12 oz
+- product_id: '0001111010327'
+  upc: '0001111010327'
+  brand: Kroger
+  description: Kroger® Recipe Beginnings® Frozen Broccoli Chopped
+  categories:
+  - Frozen
+  regular_price: 1.69
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111081932
+  upc: 0001111081932
+  brand: Kroger
+  description: Kroger® Traditional Favorites Frozen Broccoli Cuts
+  categories:
+  - Frozen
+  regular_price: 2.99
+  promo_price: null
+  size: 32 oz
+- product_id: '0001111010301'
+  upc: '0001111010301'
+  brand: Kroger
+  description: Kroger® Traditional Favorites Frozen Broccoli Cuts
+  categories:
+  - Frozen
+  regular_price: 2.99
+  promo_price: null
+  size: 32 oz
+- product_id: 0001111014238
+  upc: 0001111014238
+  brand: Kroger
+  description: Kroger® Stir-Fry Starters Frozen Broccoli Blend
+  categories:
+  - Frozen
+  regular_price: 4.29
+  promo_price: 4.09
+  size: 16 oz
+- product_id: '0001111011601'
+  upc: '0001111011601'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Broccoli Florets BIG DEAL!
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 8.99
+  promo_price: null
+  size: 32 oz
+- product_id: 0001111089780
+  upc: 0001111089780
+  brand: Kroger
+  description: Kroger® Meal Ready Sides Frozen Vegetables Broccoli & Cauliflower
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 12 oz
+- product_id: '0001111014364'
+  upc: '0001111014364'
+  brand: Kroger
+  description: Kroger® Stir-Fry Starters Frozen Broccoli Blend
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 16 oz
+frozen spinach:
+- product_id: 0001111089739
+  upc: 0001111089739
+  brand: Kroger
+  description: Kroger® Frozen Spinach Cut Leaf
+  categories:
+  - Frozen
+  regular_price: 1.49
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111089785
+  upc: 0001111089785
+  brand: Kroger
+  description: Kroger® Frozen Spinach Chopped
+  categories:
+  - Frozen
+  regular_price: 1.49
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111087226
+  upc: 0001111087226
+  brand: Kroger
+  description: Kroger® Frozen Spinach Chopped
+  categories:
+  - Frozen
+  regular_price: 1.69
+  promo_price: null
+  size: 10 oz
+- product_id: '0001111001134'
+  upc: '0001111001134'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Kale Chopped
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 2.49
+  promo_price: null
+  size: 12 oz
+- product_id: '0001111003552'
+  upc: '0001111003552'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Spinach Leaf
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 2.49
+  promo_price: null
+  size: 12 oz
+- product_id: '0001111014361'
+  upc: '0001111014361'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Spinach Cubes
+  categories:
+  - Frozen
+  regular_price: 2.49
+  promo_price: null
+  size: 12 oz
+- product_id: '0001111003602'
+  upc: '0001111003602'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Spinach Chopped
+  categories:
+  - Natural & Organic
+  - Frozen
+  regular_price: 2.49
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111015778
+  upc: 0001111015778
+  brand: Private Selection
+  description: Private Selection® Italian Inspired Sausage and Spinach Bites
+  categories:
+  - Frozen
+  regular_price: 5.99
+  promo_price: null
+  size: 12 ct / 10.15 oz
+- product_id: '0001111015067'
+  upc: '0001111015067'
+  brand: Private Selection
+  description: Private Selection® Cafe Inspired Egg White Tomato and Spinach Lavash
+    Wrap
+  categories:
+  - Frozen
+  regular_price: 6.99
+  promo_price: null
+  size: 2 ct / 9.6 oz
+- product_id: '0001111013662'
+  upc: '0001111013662'
+  brand: Simple Truth
+  description: Simple Truth® Protein Cheddar Cheese and Spinach Egg Bites
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 6 ct / 12 oz
+carrots:
+- product_id: 0001111080553
+  upc: 0001111080553
+  brand: Kroger
+  description: Kroger No Salt Added Sliced Carrots - 8.25oz can
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 0.69
+  promo_price: null
+  size: 8.25 oz
+- product_id: 0004126000196
+  upc: 0004126000196
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Carrot Apple Mango Stage 2 Baby Food Puree
+  categories:
+  - Baby
+  - Baby
+  regular_price: 1.0
+  promo_price: null
+  size: 4 oz
+- product_id: '0001111014240'
+  upc: '0001111014240'
+  brand: Kroger
+  description: Kroger® Diced & Peeled White Potatoes
+  categories:
+  - Canned & Packaged
+  regular_price: 1.09
+  promo_price: null
+  size: 15 oz
+- product_id: 0001111089741
+  upc: 0001111089741
+  brand: Kroger
+  description: Kroger® Frozen Peas & Carrots
+  categories:
+  - Frozen
+  regular_price: 1.25
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111091651
+  upc: 0001111091651
+  brand: Kroger
+  description: Kroger® Steams in Bag Petite Carrots
+  categories:
+  - Produce
+  - Produce
+  regular_price: 1.99
+  promo_price: null
+  size: 12 oz
+- product_id: '0001111012367'
+  upc: '0001111012367'
+  brand: Kroger
+  description: Kroger Sliced Carrots - 2, 7oz Cups
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 1.99
+  promo_price: null
+  size: 2 ct
+- product_id: 0001111091652
+  upc: 0001111091652
+  brand: Kroger
+  description: Kroger® Cut and Peeled Carrot Chips
+  categories:
+  - Produce
+  - Produce
+  regular_price: 2.29
+  promo_price: null
+  size: 1 lb
+- product_id: '0001111014033'
+  upc: '0001111014033'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Steamable Peas and Carrots
+  categories:
+  - Frozen
+  regular_price: 2.49
+  promo_price: null
+  size: 12 oz
+- product_id: 0001111091484
+  upc: 0001111091484
+  brand: Kroger
+  description: Kroger® Carrots Snap Peas And Broccoli Snack Tray With Ranch Dip
+  categories:
+  - Produce
+  regular_price: 2.49
+  promo_price: null
+  size: 6 oz
+- product_id: 0001111091657
+  upc: 0001111091657
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Whole Carrots Bag
+  categories:
+  - Natural & Organic
+  - Produce
+  - Produce
+  regular_price: 2.99
+  promo_price: null
+  size: 2 lb
+yellow onion:
+- product_id: '0001111060160'
+  upc: '0001111060160'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Yellow Onion 2 lb Bag
+  categories:
+  - Produce
+  - Produce
+  regular_price: 3.29
+  promo_price: null
+  size: 2 lb
+- product_id: 0000000004093
+  upc: 0000000004093
+  brand: Fresh Onions
+  description: Jumbo Yellow Onions
+  categories:
+  - Produce
+  regular_price: 0.99
+  promo_price: null
+  size: 1 lb
+- product_id: 0000000094093
+  upc: 0000000094093
+  brand: Fresh Onions
+  description: Organic Jumbo Yellow Onions
+  categories:
+  - Natural & Organic
+  - Produce
+  regular_price: 1.69
+  promo_price: null
+  size: 1 lb
+- product_id: 0063912388000
+  upc: 0063912388000
+  brand: Japanese Food Express Inc
+  description: Fresh Cut Yellow Onions Diced
+  categories:
+  - Produce
+  - Produce
+  regular_price: 2.99
+  promo_price: null
+  size: 8 oz
+- product_id: 0001111091682
+  upc: 0001111091682
+  brand: null
+  description: Kroger® Yellow Onion 3 lb Bag
+  categories:
+  - Produce
+  - Produce
+  regular_price: 2.99
+  promo_price: null
+  size: 3 lb
+- product_id: 0063912388025
+  upc: 0063912388025
+  brand: Japanese Food Express Inc
+  description: Fresh Cut Yellow Onions Sliced
+  categories:
+  - Produce
+  regular_price: 5.0
+  promo_price: null
+  size: 8 oz
+- product_id: 0085005368522
+  upc: 0085005368522
+  brand: null
+  description: Fresh Cut Yellow Onions Diced
+  categories:
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 8 oz
+- product_id: 0000000004508
+  upc: 0000000004508
+  brand: null
+  description: Yellow Onions
+  categories:
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 1 lb
+cabbage:
+- product_id: 0001111062870
+  upc: 0001111062870
+  brand: Kroger
+  description: Kroger® Angel Hair Coleslaw Shredded Cabbage
+  categories:
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 10 oz
+- product_id: '0000000004554'
+  upc: '0000000004554'
+  brand: Fresh Cabbage
+  description: Red Cabbage
+  categories:
+  - Produce
+  regular_price: 1.29
+  promo_price: null
+  size: 1 lb
+- product_id: 0000000094069
+  upc: 0000000094069
+  brand: Fresh Cabbage
+  description: Organic Green Cabbage
+  categories:
+  - Natural & Organic
+  - Produce
+  regular_price: 1.69
+  promo_price: null
+  size: 1 lb
+- product_id: 0004430005957
+  upc: 0004430005957
+  brand: Aunt Nellie's
+  description: Aunt Nellie's® Sweet & Sour Red Cabbage
+  categories:
+  - Canned & Packaged
+  regular_price: 2.79
+  promo_price: null
+  size: 16 oz
+- product_id: 0000000094544
+  upc: 0000000094544
+  brand: null
+  description: Organic Baby Bok Choy
+  categories:
+  - Natural & Organic
+  - Produce
+  - Produce
+  regular_price: 2.99
+  promo_price: null
+  size: 1 lb
+- product_id: '0000000004552'
+  upc: '0000000004552'
+  brand: Fresh Cabbage
+  description: Napa Cabbage
+  categories:
+  - Produce
+  - Produce
+  regular_price: 2.99
+  promo_price: null
+  size: 1 lb
+- product_id: 0003904546054
+  upc: 0003904546054
+  brand: Kuhne
+  description: Kuhne Red Cabbage
+  categories:
+  - Canned & Packaged
+  regular_price: 5.49
+  promo_price: null
+  size: 24 oz
+- product_id: 0076094191532
+  upc: 0076094191532
+  brand: Twin Marquis
+  description: Twin Marquis Pork & Napa Cabbage Frozen Gyoza Dumplings
+  categories:
+  - Frozen
+  - Frozen
+  - Frozen
+  regular_price: 6.99
+  promo_price: null
+  size: 16.0 oz
+- product_id: '0000000004555'
+  upc: '0000000004555'
+  brand: null
+  description: Green Savoy Cabbage
+  categories:
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 1 ct
+- product_id: '0000000004545'
+  upc: '0000000004545'
+  brand: null
+  description: Bok Choy
+  categories:
+  - Produce
+  - Produce
+  regular_price: null
+  promo_price: null
+  size: 1 ct
+bananas:
+- product_id: '0001111014410'
+  upc: '0001111014410'
+  brand: Kroger
+  description: Kroger® CARBmaster® Strawberry Banana Lactose Free Lowfat Yogurt Cup
+  categories:
+  - Dairy
+  regular_price: 0.7
+  promo_price: null
+  size: 6 oz
+- product_id: 0001111009092
+  upc: 0001111009092
+  brand: Kroger
+  description: Kroger® Mild Banana Pepper Rings
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 2.79
+  promo_price: 2.0
+  size: 16 fl oz
+- product_id: 0001111009098
+  upc: 0001111009098
+  brand: Kroger
+  description: Kroger® Hot Banana Pepper Rings
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 2.79
+  promo_price: 2.0
+  size: 16 fl oz
+- product_id: '0001111016103'
+  upc: '0001111016103'
+  brand: Kroger
+  description: Kroger® Frozen Sliced Bananas
+  categories:
+  - Frozen
+  regular_price: 2.99
+  promo_price: null
+  size: 16 oz
+- product_id: '0001111037265'
+  upc: '0001111037265'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Banana Chips
+  categories:
+  - Natural & Organic
+  - Snacks
+  regular_price: 3.49
+  promo_price: 2.99
+  size: 5.5 oz
+- product_id: 0001111015980
+  upc: 0001111015980
+  brand: Kroger
+  description: Kroger® Freez Dried Bananas
+  categories:
+  - Snacks
+  regular_price: 3.99
+  promo_price: null
+  size: 1.25 oz
+- product_id: '0001111014026'
+  upc: '0001111014026'
+  brand: Private Selection
+  description: Private Selection® Caramelized Banana Gelato Pint
+  categories:
+  - Frozen
+  regular_price: 3.99
+  promo_price: 3.5
+  size: 16 oz
+- product_id: '0001111000524'
+  upc: '0001111000524'
+  brand: Simple Truth
+  description: Simple Truth Organic® Sweetened Banana Chips
+  categories:
+  - Snacks
+  regular_price: 4.19
+  promo_price: null
+  size: 8 oz
+- product_id: 0001111000481
+  upc: 0001111000481
+  brand: Simple Truth
+  description: Simple Truth® Plantain Chips
+  categories:
+  - Natural & Organic
+  - Snacks
+  regular_price: 4.19
+  promo_price: null
+  size: 6 oz
+- product_id: 0001111008357
+  upc: 0001111008357
+  brand: Kroger
+  description: Kroger® Salted Plantain Chips
+  categories:
+  - Meat & Seafood
+  regular_price: 4.19
+  promo_price: null
+  size: 6 oz
+apples:
+- product_id: 0004126001749
+  upc: 0004126001749
+  brand: Kroger
+  description: Kroger® Green and Cherry Apple Ropes Candy Bag
+  categories:
+  - Candy
+  - Candy
+  regular_price: 1.79
+  promo_price: null
+  size: 4 oz
+- product_id: 0001111013996
+  upc: 0001111013996
+  brand: Kroger
+  description: Kroger® Naturally Flavored Apple & Cinnamon Instant Oatmeal
+  categories:
+  - Breakfast
+  regular_price: 2.0
+  promo_price: null
+  size: 10 ct
+- product_id: 0001111062491
+  upc: 0001111062491
+  brand: Kroger
+  description: Kroger® Sliced Apples Chocolatey Caramels and Pretzels Snack Tray
+  categories:
+  - Meat & Seafood
+  - Produce
+  regular_price: 2.0
+  promo_price: null
+  size: 2.4 oz
+- product_id: '0001111002736'
+  upc: '0001111002736'
+  brand: Kroger
+  description: Kroger® Ultra Concentrated Antibacterial Liquid Dish Soap Green Apple
+    Scent
+  categories:
+  - Cleaning Products
+  regular_price: 2.99
+  promo_price: null
+  size: 28 fl oz
+- product_id: 0001111069101
+  upc: 0001111069101
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Gala Apples – 2 Pound Bag
+  categories:
+  - Produce
+  - Produce
+  regular_price: 3.49
+  promo_price: null
+  size: 2 lb
+- product_id: 0001111069102
+  upc: 0001111069102
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Fuji Apples – 2 Pound Bag
+  categories:
+  - Natural & Organic
+  - Produce
+  - Produce
+  - Produce
+  regular_price: 3.99
+  promo_price: null
+  size: 2 lb
+- product_id: 0001111069103
+  upc: 0001111069103
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Granny Smith Apples – 2 Pound Bag
+  categories:
+  - Produce
+  - Produce
+  regular_price: 3.99
+  promo_price: null
+  size: 2 lb
+- product_id: 0001111018999
+  upc: 0001111018999
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Pink Lady Apples – 2 Pound Bag
+  categories:
+  - Natural & Organic
+  - Produce
+  regular_price: 3.99
+  promo_price: null
+  size: 2 lb
+- product_id: 0001111014902
+  upc: 0001111014902
+  brand: Kroger
+  description: Kroger® Pink Lady® Apples – 3 Pound Bag
+  categories:
+  - Produce
+  regular_price: 3.99
+  promo_price: null
+  size: 3 lb
+- product_id: 0001111063059
+  upc: 0001111063059
+  brand: Kroger
+  description: Kroger® Apple Walnut With Chicken Salad Kit
+  categories:
+  - Deli
+  regular_price: 3.99
+  promo_price: 3.67
+  size: 5.5 oz
+frozen mixed berries:
+- product_id: 0001111087408
+  upc: 0001111087408
+  brand: Private Selection
+  description: Private Selection® Mixed Variety Frozen Cherries
+  categories:
+  - Frozen
+  regular_price: 10.99
+  promo_price: null
+  size: 48 oz
+- product_id: 0004154860510
+  upc: 0004154860510
+  brand: Outshine
+  description: Outshine No Sugar Added Black Cherry, Strawberry Kiwi, and Mixed Berry
+    Frozen Fruit Pops, 12 Count
+  categories:
+  - Frozen
+  regular_price: 6.99
+  promo_price: null
+  size: 12 ct
+- product_id: 0085368700494
+  upc: 0085368700494
+  brand: Pitaya Foods
+  description: Pitaya Foods® Organic Premium Acai Berry Bite Sized Pieces
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 14.99
+  promo_price: null
+  size: 12 oz
+- product_id: 0081008357025
+  upc: 0081008357025
+  brand: SpongeBob Squarepants
+  description: SpongeBob SquarePants Mixed Berry Kids Smoothie Pouches
+  categories:
+  - Frozen
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 4 pk / 3.2 oz
+- product_id: 0081012048184
+  upc: 0081012048184
+  brand: Daily Harvest
+  description: Daily Harvest Mixed Berry Protein Smoothie
+  categories:
+  - Frozen
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 6.8 oz
+- product_id: 0007990000123
+  upc: 0007990000123
+  brand: Wyman's
+  description: Wyman's® Mango Berry Frozen Fruit
+  categories:
+  - Frozen
+  regular_price: null
+  promo_price: null
+  size: 3 lb
+fortified soy milk:
+- product_id: 0001111013269
+  upc: 0001111013269
+  brand: Simple Truth
+  description: Simple Truth® Dairy Free Original Coconut Milk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 3.59
+  promo_price: null
+  size: 1/2 gal
+- product_id: 0001111014208
+  upc: 0001111014208
+  brand: Simple Truth
+  description: Simple Truth® Unsweetened Vanilla Almond Milk
+  categories:
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 32 fl oz
+- product_id: 0002529300280
+  upc: 0002529300280
+  brand: Silk
+  description: Silk Vanilla Dairy Free Vegan Soy Milk Yogurt Alternative Cup
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 1.59
+  promo_price: null
+  size: 5.3 fl oz
+- product_id: 0002529360023
+  upc: 0002529360023
+  brand: Silk
+  description: Silk Organic Unsweet Dairy Free Vegan Soy Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 4.29
+  promo_price: null
+  size: 1/2 gal
+- product_id: 0002529360027
+  upc: 0002529360027
+  brand: Silk
+  description: Silk Vanilla Dairy Free Vegan Soy Milk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 4.29
+  promo_price: null
+  size: 1/2 gal
+- product_id: 0003663208089
+  upc: 0003663208089
+  brand: Silk
+  description: Silk Kids Original Dairy Free Oat Milk Blend Half Gallon
+  categories:
+  - Natural & Organic
+  regular_price: 5.79
+  promo_price: null
+  size: 59 fl oz
+- product_id: 0003663208129
+  upc: 0003663208129
+  brand: Silk
+  description: Silk® Original Soy Milk
+  categories:
+  - Dairy
+  - Natural & Organic
+  regular_price: 6.49
+  promo_price: null
+  size: 96 fl oz
+- product_id: 0081363602374
+  upc: 0081363602374
+  brand: Califia Farms
+  description: Califia Farms Unsweetened Organic Soy Milk 48 fl oz
+  categories:
+  - Dairy
+  - Natural & Organic
+  regular_price: 6.99
+  promo_price: 4.99
+  size: 48 fl oz
+- product_id: 0002529300270
+  upc: 0002529300270
+  brand: Silk
+  description: Silk Chocolate Shelf Stable Dairy Free Vegan Soy Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  - Dairy
+  regular_price: 8.49
+  promo_price: null
+  size: 6 ct / 8 fl oz
+- product_id: 0074447391202
+  upc: 0074447391202
+  brand: SO Delicious
+  description: So Delicious Dairy Free Organic Unsweetened Vanilla Coconut Milk Half
+    Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: null
+  promo_price: null
+  size: 64 fl oz
+nutritional yeast:
+- product_id: 0001111009081
+  upc: 0001111009081
+  brand: Simple Truth
+  description: Simple Truth® Non-Dairy Nutritional Yeast
+  categories:
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 4.5 oz
+- product_id: 0003997802546
+  upc: 0003997802546
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Nutritional Yeast
+  categories:
+  - Natural & Organic
+  - Baking Goods
+  regular_price: 7.99
+  promo_price: null
+  size: 5 oz
+- product_id: '0007430506605'
+  upc: '0007430506605'
+  brand: Bragg
+  description: Bragg® Nutritional Yeast Seasoning
+  categories:
+  - Natural & Organic
+  - Natural & Organic
+  regular_price: null
+  promo_price: null
+  size: 4.5 oz
+vegetable oil:
+- product_id: 0001111014539
+  upc: 0001111014539
+  brand: Kroger
+  description: Kroger® Vegetable Oil Nonstick Cooking Spray
+  categories:
+  - Baking Goods
+  regular_price: 2.79
+  promo_price: 2.49
+  size: 6 oz
+- product_id: 0001111085605
+  upc: 0001111085605
+  brand: Kroger
+  description: Kroger® 100% Pure Vegetable Oil
+  categories:
+  - Baking Goods
+  regular_price: 3.99
+  promo_price: null
+  size: 48 fl oz
+- product_id: 0001111004239
+  upc: 0001111004239
+  brand: Kroger
+  description: Kroger® Buttery Vegetable Oil Spread
+  categories:
+  - Dairy
+  regular_price: 4.39
+  promo_price: null
+  size: 45 oz
+- product_id: '0001111014544'
+  upc: '0001111014544'
+  brand: Kroger
+  description: Kroger® Nonstick Vegetable Oil Cooking Spray Twin Pack
+  categories:
+  - Baking Goods
+  regular_price: 4.49
+  promo_price: null
+  size: 2 ct / 6 oz
+- product_id: 0000000834102
+  upc: 0000000834102
+  brand: Kroger
+  description: Kroger® 100% Pure Vegetable Oil x 2
+  categories:
+  - Baking Goods
+  regular_price: 5.38
+  promo_price: null
+  size: 2x 32 fl oz
+- product_id: 0000000834100
+  upc: 0000000834100
+  brand: Kroger
+  description: Kroger® 100% Pure Vegetable Oil x 2
+  categories:
+  - Baking Goods
+  regular_price: 7.18
+  promo_price: null
+  size: 2x 48 fl oz
+- product_id: 0001111084624
+  upc: 0001111084624
+  brand: Kroger
+  description: Kroger® All-Vegetable Shortening
+  categories:
+  - Baking Goods
+  regular_price: 7.29
+  promo_price: null
+  size: 48 oz
+- product_id: 0001111012493
+  upc: 0001111012493
+  brand: Private Selection
+  description: Private Selection® Grilled Mushroom and Truffle Oil Thin Crust Frozen
+    Pizza
+  categories:
+  - Frozen
+  regular_price: 8.99
+  promo_price: null
+  size: 18.2 oz
+- product_id: 0001111085606
+  upc: 0001111085606
+  brand: Kroger
+  description: Kroger® 100% Pure Vegetable Oil
+  categories:
+  - Baking Goods
+  regular_price: 9.49
+  promo_price: null
+  size: 1 gal
+- product_id: 0000000834101
+  upc: 0000000834101
+  brand: Kroger
+  description: Kroger® 100% Pure Vegetable Oil x 2
+  categories:
+  - Baking Goods
+  regular_price: 17.08
+  promo_price: null
+  size: 2x 1 gal
+olive oil:
+- product_id: 0001111090561
+  upc: 0001111090561
+  brand: Kroger
+  description: Kroger® Flat Anchovies in Olive Oil & Salt
+  categories:
+  - Canned & Packaged
+  regular_price: 2.79
+  promo_price: null
+  size: 2 oz
+- product_id: 0001111002993
+  upc: 0001111002993
+  brand: Private Selection
+  description: Private Selection® Lemon and Olive Oil Vinaigrette Salad Dressing
+  categories:
+  - Condiment & Sauces
+  regular_price: 3.59
+  promo_price: null
+  size: 11.8 fl oz
+- product_id: 0001111014649
+  upc: 0001111014649
+  brand: Kroger
+  description: Kroger® Reduced Fat Mayo with Olive Oil
+  categories:
+  - Condiment & Sauces
+  regular_price: 3.69
+  promo_price: null
+  size: 18 fl oz
+- product_id: 0001111001968
+  upc: 0001111001968
+  brand: Kroger
+  description: Kroger® Olive Oil Mayo
+  categories:
+  - Condiment & Sauces
+  regular_price: 3.79
+  promo_price: null
+  size: 30 fl oz
+- product_id: 0001111014538
+  upc: 0001111014538
+  brand: Kroger
+  description: Kroger® Nonstick Extra Virgin Olive Oil Cooking Spray
+  categories:
+  - Baking Goods
+  regular_price: 3.99
+  promo_price: null
+  size: 5 oz
+- product_id: 0001111090593
+  upc: 0001111090593
+  brand: Kroger
+  description: Kroger® Butter with Olive Oil & Sea Salt Spreadable Tub
+  categories:
+  - Dairy
+  regular_price: 3.99
+  promo_price: null
+  size: 15 oz
+- product_id: '0001111012232'
+  upc: '0001111012232'
+  brand: Simple Truth
+  description: Simple Truth Organic® Extra Virgin Olive Oil Cooking Spray
+  categories:
+  - Baking Goods
+  - Natural & Organic
+  regular_price: 4.79
+  promo_price: null
+  size: 5 oz
+- product_id: '0001111003415'
+  upc: '0001111003415'
+  brand: Private Selection
+  description: Private Selection® Black Truffle Infused Olive Oil
+  categories:
+  - Baking Goods
+  regular_price: 7.49
+  promo_price: null
+  size: 3.4 fl oz
+- product_id: '0001111003416'
+  upc: '0001111003416'
+  brand: Private Selection
+  description: Private Selection® White Truffle Infused Olive Oil
+  categories:
+  - Baking Goods
+  regular_price: 7.49
+  promo_price: null
+  size: 3.4 fl oz
+- product_id: 0001111008223
+  upc: 0001111008223
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Filtered Extra Virgin Olive Oil
+  categories:
+  - Baking Goods
+  - Natural & Organic
+  regular_price: 8.49
+  promo_price: null
+  size: 16.9 fl oz
+white sugar:
+- product_id: 0001111009836
+  upc: 0001111009836
+  brand: Kroger
+  description: Big K® Lemon Lime Zero Sugar Caffeine Free Soda Bottle
+  categories:
+  - Beverages
+  regular_price: 1.25
+  promo_price: null
+  size: 2 liter
+- product_id: '0001111000552'
+  upc: '0001111000552'
+  brand: Kroger
+  description: Kroger® Big K® Zero Sugar Zero Calorie Cola Soda Bottle
+  categories:
+  - Beverages
+  - Beverages
+  regular_price: 1.25
+  promo_price: null
+  size: 2 liter
+- product_id: '0001111005067'
+  upc: '0001111005067'
+  brand: Kroger
+  description: Big K® Citrus Drop Zero Sugar Zero Calorie Soda Bottle
+  categories:
+  - Beverages
+  regular_price: 1.25
+  promo_price: null
+  size: 2 liter
+- product_id: 0001111087664
+  upc: 0001111087664
+  brand: Kroger
+  description: Kroger® Powdered Sugar
+  categories:
+  - Baking Goods
+  regular_price: 2.29
+  promo_price: 2.0
+  size: 32 oz
+- product_id: 0001111087662
+  upc: 0001111087662
+  brand: Kroger
+  description: Kroger® Light Brown Sugar
+  categories:
+  - Baking Goods
+  regular_price: 2.29
+  promo_price: 2.0
+  size: 32 oz
+- product_id: 0001111084930
+  upc: 0001111084930
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Cane Sugar
+  categories:
+  - Baking Goods
+  - Natural & Organic
+  regular_price: 3.29
+  promo_price: null
+  size: 24 oz
+- product_id: 0001111088318
+  upc: 0001111088318
+  brand: Kroger
+  description: Kroger® Pure Cane Granulated Sugar
+  categories:
+  - Baking Goods
+  regular_price: 3.99
+  promo_price: null
+  size: 4 lb
+- product_id: 0001111050191
+  upc: 0001111050191
+  brand: Kroger
+  description: Big K® Cola Zero Sugar Zero Calorie Soda Cans
+  categories:
+  - Beverages
+  regular_price: 4.99
+  promo_price: 4.33
+  size: 12 pk / 12 fl oz
+- product_id: '0001111004562'
+  upc: '0001111004562'
+  brand: Kroger
+  description: Big K® Dr K Zero Sugar Zero Calorie Soda Cans
+  categories:
+  - Beverages
+  regular_price: 4.99
+  promo_price: 4.33
+  size: 12 pk / 12 fl oz
+- product_id: 0001111009803
+  upc: 0001111009803
+  brand: Kroger
+  description: Big K® Lemon Lime Zero Sugar Caffeine Free Soda Cans
+  categories:
+  - Beverages
+  regular_price: 4.99
+  promo_price: 4.33
+  size: 12 pk / 12 fl oz
