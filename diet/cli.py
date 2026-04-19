@@ -13,6 +13,7 @@ from diet import ingest as ingest_mod
 from diet.export import serialize_solution, write_data_json
 from diet.foods import build_foods_for_location, load_locations, load_prices, load_skus
 from diet.solver import MODE_EXCLUDES, solve
+from diet.supplements import build_supplement_foods, load_supplements
 from diet.targets import load_targets
 
 REPORTS_DIR = Path("reports")
@@ -40,29 +41,46 @@ def cmd_ingest(args: argparse.Namespace) -> int:
 
 
 def cmd_solve(args: argparse.Namespace) -> int:
+    """Solve every (mode × location × variant).
+
+    Variant `food_only` uses just the Kroger food SKUs; `with_supplements`
+    adds the Kroger-brand multivitamin/B12/calcium+D from data/supplements.yaml.
+    Both variants are emitted so the website can toggle between them and show
+    the cost delta (= the "supplement arbitrage").
+    """
     targets = load_targets()
     skus = load_skus()
     locations = load_locations()
     prices = load_prices()
 
+    supplements_path = Path("data/supplements.yaml")
+    supps = load_supplements(supplements_path) if supplements_path.exists() else []
+
     solutions: list[dict] = []
     for loc in locations:
-        foods = build_foods_for_location(skus, loc, prices, use_promo=True)
-        if not foods:
+        food_foods = build_foods_for_location(skus, loc, prices, use_promo=True)
+        if not food_foods:
             print(f"solve: no priced foods at {loc.region} ({loc.location_id}); skipping")
             continue
-        for mode in MODE_EXCLUDES:
-            sol = solve(foods, targets, mode=mode)
-            solutions.append(serialize_solution(
-                sol, mode=mode,
-                location_region=loc.region,
-                location_display=loc.display,
-            ))
-            tag = f"{mode:11s} @ {loc.region:7s}"
-            if sol.status == "optimal":
-                print(f"solve: {tag}: ${sol.cost_per_day:.2f}/day, {len(sol.basket)} foods")
-            else:
-                print(f"solve: {tag}: {sol.status}")
+        supp_foods = build_supplement_foods(supps, loc, prices, use_promo=True)
+        variants: list[tuple[str, list]] = [("food_only", food_foods)]
+        if supp_foods:
+            variants.append(("with_supplements", food_foods + supp_foods))
+
+        for variant_name, foods in variants:
+            for mode in MODE_EXCLUDES:
+                sol = solve(foods, targets, mode=mode)
+                solutions.append({
+                    **serialize_solution(sol, mode=mode,
+                                         location_region=loc.region,
+                                         location_display=loc.display),
+                    "variant": variant_name,
+                })
+                tag = f"{mode:11s} @ {loc.region:7s} [{variant_name}]"
+                if sol.status == "optimal":
+                    print(f"solve: {tag}: ${sol.cost_per_day:.2f}/day, {len(sol.basket)} items")
+                else:
+                    print(f"solve: {tag}: {sol.status}")
 
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     SOLUTIONS_PATH.write_text(json.dumps(solutions, indent=2) + "\n", encoding="utf-8")

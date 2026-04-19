@@ -7,6 +7,7 @@ from pathlib import Path
 
 from diet.foods import Location, SkuSpec, load_locations, load_skus
 from diet.sources.kroger import KrogerClient, extract_price
+from diet.supplements import as_sku_specs, load_supplements
 from diet.util import write_json_atomic
 
 DEFAULT_RAW_ROOT = Path("data/raw/kroger")
@@ -30,6 +31,12 @@ def ingest(
     `prices_current.json` consumed by the solver pipeline."""
     skus = skus or load_skus()
     locations = locations or load_locations()
+    # Supplements share the Kroger ingest path — their product_ids are
+    # appended to the per-location lookup batch so we pull live prices for
+    # them alongside foods.
+    supplements_path = Path("data/supplements.yaml")
+    if supplements_path.exists():
+        skus = list(skus) + as_sku_specs(load_supplements(supplements_path))
     client = client or KrogerClient.from_env()
 
     today = _today_str()
