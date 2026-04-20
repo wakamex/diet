@@ -32,6 +32,11 @@ NOISE_SUBSTRINGS: tuple[str, ...] = (
     "pretzel", "puffs", "popcorn",
     "drink mix", "energy", "sport drink",
     "frozen entree", "frozen dinner", "tv dinner", "instant", "ready to eat",
+    # Pet food — Kroger carries hundreds of SKUs and our term-based fuzzy
+    # search has matched them as legumes/meat/fish more than once.
+    "dog", "cat food", "kitten", "puppy", "canine", "feline",
+    "kibble", "rawhide", "pet food", "pet treat", "dog treat", "cat treat",
+    "wet food", "dry food", "nutrish", "rachael ray",
 )
 
 

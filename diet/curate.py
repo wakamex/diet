@@ -316,6 +316,28 @@ CURATE_PICKS: list[Pick] = [
                   "chocolate", "strawberry", "vanilla"),
          fdc_query="soymilk soy milk original and vanilla unsweetened with added calcium vitamins a and d",
          dietary_categories=("plant_milk", "fortified_b12")),
+    # Additional plant milks — typically fortified with vit D + B12 + calcium.
+    # All tag as plant_milk so vegan mode accepts them. Nutrient profiles
+    # differ (almond has ~0 protein, pea milk has ~3g/100g like soy), so
+    # the LP may mix them: soy/pea for protein, almond for cheap vit D
+    # delivery.
+    Pick("almond milk unsweetened", include=("almond", "milk"),
+         exclude=("soy", "oat", "cashew", "coconut", "rice", "yogurt",
+                  "ice cream", "creamer", "cheese", "chocolate", "vanilla",
+                  "strawberry", "original"),
+         fdc_query="almond milk unsweetened shelf stable",
+         dietary_categories=("plant_milk", "fortified_b12")),
+    Pick("oat milk", include=("oat", "milk"),
+         exclude=("soy", "almond", "cashew", "coconut", "rice", "yogurt",
+                  "ice cream", "creamer", "cheese", "chocolate", "vanilla",
+                  "strawberry"),
+         fdc_query="beverages oat milk unsweetened plain refrigerated",
+         dietary_categories=("plant_milk", "fortified_b12")),
+    # Pea milk and cashew milk: Kroger Cincinnati doesn't stock clean versions.
+    # "pea milk" surfaces peanut butter + dog treats + yogurt (confounded by the
+    # substring "pea" in too many descriptions); "cashew milk" surfaces frozen
+    # dessert + chocolate bars. Fortified soy/almond/oat already cover the
+    # plant-milk niche for the LP. Picks omitted.
     Pick("nutritional yeast", include=("nutritional yeast",),
          fdc_query="yeast extract spread",
          dietary_categories=("fortified_b12",)),
