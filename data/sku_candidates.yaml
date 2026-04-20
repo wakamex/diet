@@ -60,37 +60,16 @@ white rice:
   promo_price: null
   size: 8.5 oz
   net_weight: 0.54 [lb_av]
-- product_id: 0005480042333
-  upc: 0005480042333
-  brand: Ben's Original
-  description: Ben's Original Ready Rice Original Long Grain White Rice, Easy Dinner
-    Side, 8.8 oz Pouch
-  categories:
-  - Pasta, Sauces, Grain
-  regular_price: 2.49
-  promo_price: null
-  size: 8.8 oz
-  net_weight: 0.55 [lb_av]
-- product_id: '0001740010077'
-  upc: '0001740010077'
+- product_id: 0001740010039
+  upc: 0001740010039
   brand: Success
-  description: Success Boil-in-Bag White Rice
+  description: Success Boil-in-Bag White Basmati Rice
   categories:
   - Pasta, Sauces, Grain
   regular_price: 2.99
   promo_price: 2.49
   size: 14 oz
   net_weight: 0.88 [lb_av]
-- product_id: '0005100027477'
-  upc: '0005100027477'
-  brand: Campbell's
-  description: Campbell's® Chunky® Smoked Turkey with White & Wild Rice Soup
-  categories:
-  - Canned & Packaged
-  regular_price: 2.99
-  promo_price: null
-  size: 18.6 oz
-  net_weight: 1.16 [lb_av]
 - product_id: '0001740010675'
   upc: '0001740010675'
   brand: Mahatma
@@ -102,6 +81,28 @@ white rice:
   promo_price: 2.99
   size: 2 lb
   net_weight: 2.0 [lb_av]
+- product_id: '0007341653340'
+  upc: '0007341653340'
+  brand: Lundberg Family Farms
+  description: Lundberg Family Farms® Organic 90-Second White Jasmine Rice Pouch
+  categories:
+  - Pasta, Sauces, Grain
+  - Natural & Organic
+  regular_price: 3.69
+  promo_price: 3.0
+  size: 8 oz
+  net_weight: 0.5 [lb_av]
+- product_id: 0085045100800
+  upc: 0085045100800
+  brand: Ralston Family Farms
+  description: Ralston Family Farms™ Basmati White Rice
+  categories:
+  - Pasta, Sauces, Grain
+  - Natural & Organic
+  regular_price: 4.29
+  promo_price: 3.79
+  size: 24 oz
+  net_weight: 1.55 [lb_av]
 brown rice:
 - product_id: 0001111089711
   upc: 0001111089711
@@ -113,16 +114,6 @@ brown rice:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
-- product_id: 0001111089874
-  upc: 0001111089874
-  brand: Kroger
-  description: Kroger® Long Grain Brown Rice
-  categories:
-  - Pasta, Sauces, Grain
-  regular_price: 1.79
-  promo_price: null
-  size: 32 oz
-  net_weight: 2.0 [lb_av]
 - product_id: '0001111013337'
   upc: '0001111013337'
   brand: Simple Truth
@@ -134,28 +125,6 @@ brown rice:
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: '0001111013336'
-  upc: '0001111013336'
-  brand: Simple Truth
-  description: Simple Truth® Gluten Free Brown Rice Penne Pasta
-  categories:
-  - Natural & Organic
-  - Pasta, Sauces, Grain
-  regular_price: 2.99
-  promo_price: null
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
-- product_id: '0001111002324'
-  upc: '0001111002324'
-  brand: Simple Truth
-  description: Simple Truth® Protein Garlic Brown Rice and Quinoa with Chia Seeds
-  categories:
-  - Pasta, Sauces, Grain
-  - Pasta, Sauces, Grain
-  regular_price: 3.29
-  promo_price: null
-  size: 8.8 oz
-  net_weight: 0.55 [lb_av]
 - product_id: 0001111002281
   upc: 0001111002281
   brand: Simple Truth
@@ -168,26 +137,17 @@ brown rice:
   promo_price: null
   size: 8.8 oz
   net_weight: 0.55 [lb_av]
-- product_id: '0001111014460'
-  upc: '0001111014460'
-  brand: Kroger
-  description: Kroger® Vegetable & Brown Rice Tuna Bowl
+- product_id: 0001111086334
+  upc: 0001111086334
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Long Grain Brown Rice
   categories:
-  - Canned & Packaged
-  regular_price: 3.29
-  promo_price: 3.0
-  size: 5.64 oz
-  net_weight: 0.35 [lb_av]
-- product_id: 0001111015539
-  upc: 0001111015539
-  brand: Simple Truth
-  description: Simple Truth® Protein Brown Rice 4-Cheese Stuffed Tortelloni Pasta
-  categories:
-  - Frozen
-  regular_price: 6.49
-  promo_price: 5.99
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
+  - Natural & Organic
+  - Pasta, Sauces, Grain
+  regular_price: 3.99
+  promo_price: null
+  size: 32 oz
+  net_weight: 2.0 [lb_av]
 - product_id: '0001740014004'
   upc: '0001740014004'
   brand: Minute
@@ -208,28 +168,51 @@ brown rice:
   promo_price: 1.99
   size: 8.8 oz
   net_weight: 0.55 [lb_av]
-rolled oats:
-- product_id: 0001111002805
-  upc: 0001111002805
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® 100% Whole Grain Rolled 1 Minute Oats
+- product_id: 0005480042348
+  upc: 0005480042348
+  brand: Ben's Original
+  description: Ben's Original Ready Rice Brown Basmati Rice, Easy Dinner Side, 8.5
+    oz Pouch
   categories:
-  - Breakfast
-  regular_price: 3.69
+  - Pasta, Sauces, Grain
+  regular_price: 2.49
+  promo_price: null
+  size: 8.5 oz
+  net_weight: 0.53 [lb_av]
+- product_id: 0004119613632
+  upc: 0004119613632
+  brand: Progresso
+  description: Progresso Protein Broccoli Cheese With Brown Rice Canned Soup
+  categories:
+  - Canned & Packaged
+  regular_price: 2.99
   promo_price: null
   size: 18 oz
-  net_weight: 1.13 [lb_av]
-- product_id: '0001111001177'
-  upc: '0001111001177'
-  brand: Simple Truth
-  description: Simple Truth® Protein Classic Rolled Oats
+  net_weight: 1.12 [lb_av]
+- product_id: 0074840428794
+  upc: 0074840428794
+  brand: Seeds of Change
+  description: Seeds of Change Organic Quinoa & Brown Rice with Garlic, Organic Food,
+    8.5 oz Pouch
   categories:
-  - Breakfast
+  - Pasta, Sauces, Grain
+  - Pasta, Sauces, Grain
   - Natural & Organic
-  regular_price: 4.49
+  regular_price: 2.99
   promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
+  size: 8.5 oz
+  net_weight: 0.53 [lb_av]
+- product_id: '0075710701110'
+  upc: '0075710701110'
+  brand: Veetee
+  description: Veetee® Whole Grain Brown Rice
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 2.99
+  promo_price: 2.5
+  size: 9.9 oz
+  net_weight: 0.7 [lb_av]
+rolled oats:
 - product_id: 0000000834131
   upc: 0000000834131
   brand: Simple Truth
@@ -240,17 +223,16 @@ rolled oats:
   promo_price: null
   size: 2x 18 oz
   net_weight: null
-- product_id: 0003000058008
-  upc: 0003000058008
-  brand: Quaker
-  description: Quaker® Protein Old Fashioned Rolled Oats
+- product_id: 0088392117847
+  upc: 0088392117847
+  brand: Better Oats
+  description: Better Oats 100 Calorie Cinnamon Roll Oatmeal with Flax Seeds
   categories:
   - Breakfast
-  - Breakfast
-  regular_price: 5.99
-  promo_price: 4.99
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
+  regular_price: 5.79
+  promo_price: null
+  size: 9.8 ounces
+  net_weight: 0.61 [lb_av]
 - product_id: 0070559901553
   upc: 0070559901553
   brand: Kodiak Cakes
@@ -261,6 +243,16 @@ rolled oats:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
+- product_id: 0003997805155
+  upc: 0003997805155
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Extra Thick Rolled Oats
+  categories:
+  - Breakfast
+  regular_price: 6.79
+  promo_price: null
+  size: 32 oz
+  net_weight: 2.0 [lb_av]
 - product_id: 0003997803376
   upc: 0003997803376
   brand: Bob's Red Mill
@@ -292,6 +284,26 @@ whole wheat bread:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
+- product_id: 0001111008480
+  upc: 0001111008480
+  brand: Kroger
+  description: Kroger® 100% Whole Wheat Bread
+  categories:
+  - Bakery
+  regular_price: 2.49
+  promo_price: null
+  size: 24 oz
+  net_weight: 1.5 [lb_av]
+- product_id: '0001111015051'
+  upc: '0001111015051'
+  brand: Kroger
+  description: Kroger® 100% Whole Wheat Soft Taco Tortillas
+  categories:
+  - Bakery
+  regular_price: 2.79
+  promo_price: null
+  size: 10 ct
+  net_weight: 1.0 [lb_av]
 - product_id: '0001111001020'
   upc: '0001111001020'
   brand: Private Selection
@@ -302,6 +314,16 @@ whole wheat bread:
   promo_price: null
   size: 24 oz
   net_weight: 1.5 [lb_av]
+- product_id: '0001111013234'
+  upc: '0001111013234'
+  brand: Private Selection
+  description: Private Selection® 100% Whole Wheat Bread Thick Cut
+  categories:
+  - Bakery
+  regular_price: 3.49
+  promo_price: null
+  size: 20 oz
+  net_weight: 1.25 [lb_av]
 - product_id: '0001111013550'
   upc: '0001111013550'
   brand: Simple Truth Organic
@@ -313,16 +335,6 @@ whole wheat bread:
   promo_price: null
   size: 20 oz
   net_weight: 1.25 [lb_av]
-- product_id: '0001111013552'
-  upc: '0001111013552'
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® 100% Whole Wheat Bread
-  categories:
-  - Bakery
-  regular_price: 4.29
-  promo_price: 3.99
-  size: 26 oz
-  net_weight: 1.63 [lb_av]
 - product_id: 0002412600822
   upc: 0002412600822
   brand: Bunny
@@ -333,16 +345,17 @@ whole wheat bread:
   promo_price: null
   size: 16.0 ounce
   net_weight: 1.0 [lb_av]
-- product_id: 0007411700094
-  upc: 0007411700094
-  brand: Joseph's™
-  description: Joseph's™ Flax Oat Bran & Whole Wheat Pita Bread
+- product_id: '0007225001232'
+  upc: '0007225001232'
+  brand: Nature's Own
+  description: Nature's Own 100% Whole Wheat, Small Loaf Size, Sliced Whole Wheat
+    Bread
   categories:
   - Bakery
   regular_price: 2.99
-  promo_price: null
-  size: 6 ct
-  net_weight: 0.5 [lb_av]
+  promo_price: 2.49
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
 - product_id: 0007294576615
   upc: 0007294576615
   brand: Sara Lee
@@ -364,31 +377,21 @@ whole wheat bread:
   promo_price: null
   size: 16.0 ounce
   net_weight: 1.0 [lb_av]
-- product_id: '0007131410336'
-  upc: '0007131410336'
-  brand: Aunt Millie's
-  description: Aunt Millie's 100% Whole Wheat Bread
-  categories:
-  - Bakery
-  regular_price: 3.19
-  promo_price: null
-  size: 22 oz
-  net_weight: 1.38 [lb_av]
-- product_id: '0007131410221'
-  upc: '0007131410221'
-  brand: Aunt Millie's
-  description: Aunt Millie's Cracked Wheat with Whole Grain Bread
-  categories:
-  - Bakery
-  regular_price: 3.19
-  promo_price: null
-  size: 22 oz
-  net_weight: 1.38 [lb_av]
 white bread:
 - product_id: 0001111008486
   upc: 0001111008486
   brand: Kroger
   description: Kroger® White Sandwich Bread
+  categories:
+  - Bakery
+  regular_price: 1.99
+  promo_price: null
+  size: 20 oz
+  net_weight: 1.25 [lb_av]
+- product_id: 0001111008485
+  upc: 0001111008485
+  brand: Kroger
+  description: Kroger® White Bread
   categories:
   - Bakery
   regular_price: 1.99
@@ -425,6 +428,16 @@ white bread:
   promo_price: null
   size: 24 oz
   net_weight: 1.5 [lb_av]
+- product_id: 0001111013238
+  upc: 0001111013238
+  brand: Private Selection
+  description: Private Selection® White Bread Thick Cut
+  categories:
+  - Bakery
+  regular_price: 3.49
+  promo_price: null
+  size: 20 oz
+  net_weight: 1.25 [lb_av]
 - product_id: 0001111008502
   upc: 0001111008502
   brand: Private Selection
@@ -446,50 +459,48 @@ white bread:
   promo_price: 3.99
   size: 26 oz
   net_weight: 1.63 [lb_av]
-- product_id: 0001111011685
-  upc: 0001111011685
+- product_id: 0001111009072
+  upc: 0001111009072
   brand: Kroger
-  description: Kroger® Gluten Free White Bread
+  description: Kroger® CARBmaster® White Bread
   categories:
-  - Natural & Organic
   - Bakery
   regular_price: 5.99
   promo_price: null
-  size: 18 oz
-  net_weight: 1.13 [lb_av]
-- product_id: 0001111012808
-  upc: 0001111012808
-  brand: Simple Truth
-  description: Simple Truth® Gluten Free White Sandwich Bread
-  categories:
-  - Bakery
-  - Natural & Organic
-  regular_price: 6.29
-  promo_price: 5.79
   size: 20 oz
   net_weight: 1.25 [lb_av]
-- product_id: 0001111061800
-  upc: 0001111061800
-  brand: Private Selection
-  description: Private Selection® All Butter Croissant Loaf
+- product_id: '0007131404346'
+  upc: '0007131404346'
+  brand: Aunt Millie's
+  description: Aunt Millie's Half Loaf Country White Bread
   categories:
   - Bakery
-  - Bakery
-  regular_price: 6.99
+  regular_price: 2.49
   promo_price: null
-  size: 15 oz
-  net_weight: 0.93 [lb_av]
-- product_id: 0001111015290
-  upc: 0001111015290
-  brand: Smart Way
-  description: Smart Way™ Enriched White Bread
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+pasta:
+- product_id: 0001111085072
+  upc: 0001111085072
+  brand: Kroger
+  description: Kroger 12 Oz Tri Color Rotini Pasta
   categories:
-  - Bakery
-  regular_price: 1.19
+  - Pasta, Sauces, Grain
+  regular_price: 1.25
+  promo_price: null
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0001111085071
+  upc: 0001111085071
+  brand: Kroger
+  description: Kroger 100% W White SLD Rotini
+  categories:
+  - Pasta, Sauces, Grain
+  - Canned & Packaged
+  regular_price: 1.25
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
-pasta:
 - product_id: 0001111085033
   upc: 0001111085033
   brand: Kroger
@@ -500,40 +511,20 @@ pasta:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
-- product_id: '0001111014163'
-  upc: '0001111014163'
+- product_id: 0001111084381
+  upc: 0001111084381
   brand: Kroger
-  description: Kroger 16 OZ Radiatore Pasta
+  description: Kroger® Bow Ties Pasta
   categories:
   - Pasta, Sauces, Grain
   regular_price: 1.25
   promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-- product_id: '0001111014164'
-  upc: '0001111014164'
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0001111085021
+  upc: 0001111085021
   brand: Kroger
-  description: Kroger® Cavatappi Noodles
-  categories:
-  - Pasta, Sauces, Grain
-  regular_price: 1.25
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-- product_id: 0001111012349
-  upc: 0001111012349
-  brand: Kroger
-  description: Kroger® Fettuccine
-  categories:
-  - Pasta, Sauces, Grain
-  regular_price: 1.25
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-- product_id: 0001111011693
-  upc: 0001111011693
-  brand: Kroger
-  description: Kroger® Ditalini Pasta
+  description: Kroger® Elbow Macaroni Pasta
   categories:
   - Pasta, Sauces, Grain
   regular_price: 1.25
@@ -560,6 +551,16 @@ pasta:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
+- product_id: 0001111084923
+  upc: 0001111084923
+  brand: Kroger
+  description: Kroger® Pot Size Spaghetti
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.25
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
 - product_id: 0001111085165
   upc: 0001111085165
   brand: Kroger
@@ -580,27 +581,17 @@ pasta:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
-- product_id: 0001111085070
-  upc: 0001111085070
-  brand: Kroger
-  description: Kroger 16 Oz Medium Shell Pasta
-  categories:
-  - Pasta, Sauces, Grain
-  regular_price: 1.25
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
 all purpose flour:
-- product_id: 0001111085402
-  upc: 0001111085402
+- product_id: 0001111085401
+  upc: 0001111085401
   brand: Kroger
-  description: Kroger® Bleached All Purpose Flour
+  description: Kroger® All Purpose Bleached Enriched Flour
   categories:
   - Baking Goods
-  regular_price: 2.69
+  regular_price: 1.69
   promo_price: null
-  size: 5 lb
-  net_weight: 5.0 [lb_av]
+  size: 2 lbs
+  net_weight: 2.0 [lb_av]
 - product_id: 0001111086116
   upc: 0001111086116
   brand: Kroger
@@ -621,6 +612,37 @@ all purpose flour:
   promo_price: null
   size: 10 lb
   net_weight: 10.0 [lb_av]
+- product_id: 0001111084716
+  upc: 0001111084716
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Unbleached All-Purpose Flour
+  categories:
+  - Natural & Organic
+  - Baking Goods
+  regular_price: 5.79
+  promo_price: null
+  size: 5 lb
+  net_weight: 5.0 [lb_av]
+- product_id: 0001111085404
+  upc: 0001111085404
+  brand: Kroger
+  description: Kroger® Bleached All-Purpose Enriched Flour
+  categories:
+  - Baking Goods
+  regular_price: 11.99
+  promo_price: null
+  size: 25 lb
+  net_weight: 25.0 [lb_av]
+- product_id: '0001600010710'
+  upc: '0001600010710'
+  brand: Gold Medal
+  description: Gold Medal All Purpose Flour
+  categories:
+  - Baking Goods
+  regular_price: 3.29
+  promo_price: null
+  size: 32 oz
+  net_weight: 2.0 [lb_av]
 - product_id: 0001600018980
   upc: 0001600018980
   brand: Gold Medal
@@ -631,72 +653,38 @@ all purpose flour:
   promo_price: null
   size: 13.5 oz
   net_weight: 0.84 [lb_av]
-- product_id: '0001600010610'
-  upc: '0001600010610'
+- product_id: 0001600019610
+  upc: 0001600019610
   brand: Gold Medal
-  description: Gold Medal™ All Purpose Flour
+  description: Gold Medal Unbleached All Purpose Flour
   categories:
   - Baking Goods
   regular_price: 4.69
   promo_price: null
   size: 5 lbs
   net_weight: 5.0 [lb_av]
-- product_id: 0005844924311
-  upc: 0005844924311
-  brand: Nature's Path Organic
-  description: Nature's Path Organic® All-Purpose Flour Bag
+- product_id: 0003997802452
+  upc: 0003997802452
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Gluten Free All Purpose Baking Flour 22 oz
   categories:
   - Natural & Organic
   - Baking Goods
-  regular_price: 6.49
-  promo_price: 5.99
-  size: 32 oz
-  net_weight: 2.0 [lb_av]
-- product_id: 0004144945014
-  upc: 0004144945014
-  brand: Krusteaz
-  description: Krusteaz® Gluten-Free All-Purpose Flour
-  categories:
-  - Baking Goods
-  regular_price: 7.29
+  regular_price: 6.99
   promo_price: null
-  size: 2 lb
-  net_weight: 2.0 [lb_av]
-- product_id: 0005844924314
-  upc: 0005844924314
-  brand: Nature's Path Organic
-  description: Nature's Path Organic® Gluten-Free All-Purpose Flour Bag
+  size: 22 oz
+  net_weight: 1.38 [lb_av]
+- product_id: '0001600010410'
+  upc: '0001600010410'
+  brand: Gold Medal
+  description: Gold Medal All Purpose Flour
   categories:
   - Baking Goods
-  - Natural & Organic
-  regular_price: 10.99
-  promo_price: 9.99
-  size: 32 oz
-  net_weight: 2.0 [lb_av]
-- product_id: '0007101205100'
-  upc: '0007101205100'
-  brand: King Arthur Baking Company
-  description: King Arthur All Purpose Unbleached Flour, Non-GMO Project, Certified
-    Kosher, No Preservatives
-  categories:
-  - Baking Goods
-  regular_price: 11.99
+  regular_price: 8.79
   promo_price: null
-  size: 10 lb
+  size: 160 oz
   net_weight: 10.0 [lb_av]
 tortilla:
-- product_id: 0001111085475
-  upc: 0001111085475
-  brand: Kroger
-  description: Kroger® Original Crisp Taco Shells
-  categories:
-  - Bakery
-  - International
-  - International
-  regular_price: 1.59
-  promo_price: null
-  size: 12 ct / 4.75 oz
-  net_weight: 0.31 [lb_av]
 - product_id: 0001111099028
   upc: 0001111099028
   brand: Kroger
@@ -708,16 +696,17 @@ tortilla:
   promo_price: null
   size: 30 ct
   net_weight: 1.55 [lb_av]
-- product_id: '0001111005265'
-  upc: '0001111005265'
+- product_id: '0007520230305'
+  upc: '0007520230305'
   brand: Kroger
-  description: Kroger® Soft Taco Size Flour Tortillas
+  description: Kroger Yellow Corn Tortillas
   categories:
   - International
-  regular_price: 1.99
+  - Bakery
+  regular_price: 2.0
   promo_price: null
-  size: 10 ct / 17.5 oz
-  net_weight: 1.09 [lb_av]
+  size: 10.83 oz
+  net_weight: 2.31 [lb_av]
 - product_id: 0001111013951
   upc: 0001111013951
   brand: Kroger
@@ -729,27 +718,6 @@ tortilla:
   promo_price: null
   size: 20 ct / 24 oz
   net_weight: 1.5 [lb_av]
-- product_id: 0001111085472
-  upc: 0001111085472
-  brand: Kroger
-  description: Kroger® Jumbo Original Taco Shells
-  categories:
-  - Bakery
-  - International
-  regular_price: 2.69
-  promo_price: null
-  size: 12 ct / 8.45 oz
-  net_weight: 0.56 [lb_av]
-- product_id: '0001111015051'
-  upc: '0001111015051'
-  brand: Kroger
-  description: Kroger® 100% Whole Wheat Soft Taco Tortillas
-  categories:
-  - Bakery
-  regular_price: 2.79
-  promo_price: null
-  size: 10 ct
-  net_weight: 1.0 [lb_av]
 - product_id: 0001111015049
   upc: 0001111015049
   brand: Kroger
@@ -761,16 +729,16 @@ tortilla:
   promo_price: null
   size: 20 ct
   net_weight: 2.18 [lb_av]
-- product_id: '0001111015712'
-  upc: '0001111015712'
-  brand: Simple Truth
-  description: Simple Truth® Protein Soft Taco Size Tortilla Wraps
+- product_id: '0001111012774'
+  upc: '0001111012774'
+  brand: Kroger Mercado
+  description: Kroger® Mercado Uncooked Tortilla
   categories:
-  - International
-  regular_price: 3.99
+  - Bakery
+  regular_price: 1.99
   promo_price: null
-  size: 6 ct / 10.5 oz
-  net_weight: 0.66 [lb_av]
+  size: 10 ct
+  net_weight: 0.78 [lb_av]
 - product_id: '0001111012775'
   upc: '0001111012775'
   brand: Kroger Mercado
@@ -781,38 +749,74 @@ tortilla:
   promo_price: null
   size: 12 ct
   net_weight: 1.06 [lb_av]
-- product_id: '0007520230301'
-  upc: '0007520230301'
-  brand: La Fiesta
-  description: Deli Style Flour Tortillas Sonora Style 8"
+- product_id: 0004150151945
+  upc: 0004150151945
+  brand: Ortega
+  description: Ortega™ Yellow Corn Taco Shells
+  categories:
+  - Canned & Packaged
+  - Bakery
+  - International
+  - International
+  regular_price: 2.19
+  promo_price: 1.47
+  size: 4.9 oz
+  net_weight: 0.3 [lb_av]
+- product_id: '0007373106500'
+  upc: '0007373106500'
+  brand: Mission
+  description: Mission Super Soft Super Size Yellow Corn Tortillas
+  categories:
+  - International
+  regular_price: 2.69
+  promo_price: null
+  size: 10 ct / 10.84 oz
+  net_weight: 0.67 [lb_av]
+- product_id: 0004600081101
+  upc: 0004600081101
+  brand: Old El Paso
+  description: Old El Paso™ Crunchy Taco Shells
   categories:
   - Bakery
-  regular_price: 2.0
-  promo_price: null
-  size: 10 ct
-  net_weight: 0.88 [lb_av]
-pearled barley:
-- product_id: 0003997811403
-  upc: 0003997811403
-  brand: Bob's Red Mill
-  description: Bob's Red Mill Pearl Barley 30 oz
+  - International
+  - International
+  regular_price: 2.69
+  promo_price: 2.49
+  size: 12 ct / 0.38 oz
+  net_weight: 0.28 [lb_av]
+- product_id: '0002733100061'
+  upc: '0002733100061'
+  brand: La Banderita
+  description: La Banderita Yellow Corn Tortillas
   categories:
-  - Natural & Organic
-  regular_price: 4.49
+  - International
+  regular_price: 2.69
   promo_price: null
-  size: 30 oz
-  net_weight: 1.88 [lb_av]
+  size: 30 ct / 24.9 oz
+  net_weight: 1.55 [lb_av]
+pearled barley: []
 barley:
-- product_id: '0001111015463'
-  upc: '0001111015463'
+- product_id: '0001111002324'
+  upc: '0001111002324'
   brand: Simple Truth
-  description: Simple Truth® Protein Beef and Barley Bowl
+  description: Simple Truth® Protein Garlic Brown Rice and Quinoa with Chia Seeds
   categories:
-  - Frozen
-  regular_price: 4.49
+  - Pasta, Sauces, Grain
+  - Pasta, Sauces, Grain
+  regular_price: 3.29
   promo_price: null
-  size: 9.5 oz
-  net_weight: 0.59 [lb_av]
+  size: 8.8 oz
+  net_weight: 0.55 [lb_av]
+- product_id: 0001111086720
+  upc: 0001111086720
+  brand: Kroger
+  description: Kroger® Low Fat Ancient Grains Farro
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 8.29
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
 - product_id: '0005100001111'
   upc: '0005100001111'
   brand: Campbell's
@@ -823,51 +827,6 @@ barley:
   promo_price: null
   size: 10.5 oz
   net_weight: 0.66 [lb_av]
-- product_id: 0002310012287
-  upc: 0002310012287
-  brand: Cesar
-  description: Cesar Simply Crafted Adult Wet Dog Food Chicken Carrots Barley & Spinach
-    Meal Topper
-  categories:
-  - Pet Care
-  regular_price: 2.49
-  promo_price: null
-  size: 1.3 oz
-  net_weight: 0.08 [lb_av]
-- product_id: '0001500035031'
-  upc: '0001500035031'
-  brand: Gerber
-  description: Gerber Toddler Food Oatmeal and Barley Strawberry Banana Cereal Toddler
-    Oatmeal
-  categories:
-  - Baby
-  - Baby
-  regular_price: 2.69
-  promo_price: null
-  size: 4.5 oz
-  net_weight: 0.28 [lb_av]
-- product_id: 0001780015494
-  upc: 0001780015494
-  brand: Beneful
-  description: Purina Beneful Freshly Prepared Blends Wet Dog Food With Beef, Carrots,
-    Peas, and Barley
-  categories:
-  - Pet Care
-  regular_price: 2.89
-  promo_price: null
-  size: 10 oz
-  net_weight: 0.62 [lb_av]
-- product_id: 0004119640472
-  upc: 0004119640472
-  brand: Progresso
-  description: Progresso Light Savory Vegetable Barley Soup
-  categories:
-  - Canned & Packaged
-  - Canned & Packaged
-  regular_price: 2.99
-  promo_price: null
-  size: 18.5 oz
-  net_weight: 1.16 [lb_av]
 - product_id: 0004119691094
   upc: 0004119691094
   brand: Progresso
@@ -878,39 +837,26 @@ barley:
   promo_price: null
   size: 19 oz
   net_weight: 1.19 [lb_av]
-- product_id: '0005100023345'
-  upc: '0005100023345'
-  brand: Campbell's
-  description: Campbell’s® Chunky® Soup Hearty Beef and Barley Soup Can
+- product_id: '0003000007210'
+  upc: '0003000007210'
+  brand: Quaker
+  description: Quaker® Quick Pearled Barley
   categories:
-  - Canned & Packaged
-  regular_price: 2.99
+  - Pasta, Sauces, Grain
+  regular_price: 3.29
   promo_price: null
-  size: 18.8 oz
-  net_weight: 1.17 [lb_av]
-- product_id: 0004227200508
-  upc: 0004227200508
-  brand: Amy's
-  description: Amy's® Organic Vegetable Barley Soup
+  size: 11 oz
+  net_weight: 0.69 [lb_av]
+- product_id: 0003997811403
+  upc: 0003997811403
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Pearl Barley 30 oz
   categories:
   - Natural & Organic
-  - Canned & Packaged
-  - Canned & Packaged
-  regular_price: 3.79
-  promo_price: 2.99
-  size: 14.1 oz
-  net_weight: 0.88 [lb_av]
-- product_id: '0002310015126'
-  upc: '0002310015126'
-  brand: Cesar
-  description: Cesar Wholesome Meals Adult Wet Dog Food Beef, Chicken, Carrots, Barley
-    & Green Beans Recipe
-  categories:
-  - Pet Care
-  regular_price: 10.99
+  regular_price: 4.49
   promo_price: null
-  size: 17.6 oz
-  net_weight: 1.1 [lb_av]
+  size: 30 oz
+  net_weight: 1.88 [lb_av]
 wheat germ:
 - product_id: 0081815801219
   upc: 0081815801219
@@ -923,6 +869,27 @@ wheat germ:
   size: 12 oz
   net_weight: 0.75 [lb_av]
 cornstarch:
+- product_id: '0001111013646'
+  upc: '0001111013646'
+  brand: Kroger
+  description: Kroger® Pure Corn Starch
+  categories:
+  - Baking Goods
+  regular_price: 2.29
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: 0004800171127
+  upc: 0004800171127
+  brand: Maizena
+  description: Maizena® Corn Starch
+  categories:
+  - Baking Goods
+  - Baking Goods
+  regular_price: 1.99
+  promo_price: null
+  size: 14.1 oz
+  net_weight: 0.88 [lb_av]
 - product_id: 0001111038513
   upc: 0001111038513
   brand: Comforts
@@ -933,6 +900,46 @@ cornstarch:
   promo_price: null
   size: 15 oz
   net_weight: null
+- product_id: '0076172007104'
+  upc: '0076172007104'
+  brand: Argo
+  description: Argo® 100% Pure Corn Starch
+  categories:
+  - Baking Goods
+  regular_price: 2.69
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: 0004126038021
+  upc: 0004126038021
+  brand: Comforts
+  description: Comforts™ Fresh Scent Pure Cornstarch Baby Powder
+  categories:
+  - Baby
+  regular_price: 2.99
+  promo_price: null
+  size: 22 oz
+  net_weight: 1.41 [lb_av]
+- product_id: 0004161700286
+  upc: 0004161700286
+  brand: Rumford
+  description: Rumford® Corn Starch
+  categories:
+  - Baking Goods
+  regular_price: 3.99
+  promo_price: null
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0038137003058
+  upc: 0038137003058
+  brand: Johnson's
+  description: Johnson's Cornstarch Baby Powder with Aloe & Vitamin E
+  categories:
+  - Baby
+  regular_price: 5.49
+  promo_price: null
+  size: 15 oz
+  net_weight: 1.02 [lb_av]
 - product_id: 0038137003059
   upc: 0038137003059
   brand: Johnson's
@@ -944,16 +951,6 @@ cornstarch:
   size: 22 oz
   net_weight: 1.39 [lb_av]
 fortified breakfast cereal:
-- product_id: 0088491237811
-  upc: 0088491237811
-  brand: Raisin Bran
-  description: Post Raisin Bran Cereal Breakfast Cereal with Raisins and Bran Flakes
-  categories:
-  - Breakfast
-  regular_price: 3.99
-  promo_price: null
-  size: 16.6 ounces
-  net_weight: 1.03 [lb_av]
 - product_id: 0088491211762
   upc: 0088491211762
   brand: Golden Crisp
@@ -964,16 +961,46 @@ fortified breakfast cereal:
   promo_price: null
   size: 14.75 ounces
   net_weight: 0.92 [lb_av]
-- product_id: 0088491200237
-  upc: 0088491200237
-  brand: Great Grains
-  description: Post Great Grains Cranberry Almond Crunch Breakfast Cereal
+- product_id: 0088491237811
+  upc: 0088491237811
+  brand: Raisin Bran
+  description: Post Raisin Bran Cereal Breakfast Cereal with Raisins and Bran Flakes
   categories:
   - Breakfast
-  regular_price: 5.29
+  regular_price: 3.99
+  promo_price: null
+  size: 16.6 ounces
+  net_weight: 1.03 [lb_av]
+- product_id: 0088491228433
+  upc: 0088491228433
+  brand: Honey Ohs!
+  description: Honey Ohs! Sweetened Breakfast Cereal with Honey Cereal
+  categories:
+  - Breakfast
+  regular_price: 3.99
   promo_price: null
   size: 14 ounces
   net_weight: 0.87 [lb_av]
+- product_id: 0088491235948
+  upc: 0088491235948
+  brand: Honey Bunches of Oats
+  description: Post Honey Bunches of Oats with Strawberries Cereal, 11 oz
+  categories:
+  - Breakfast
+  regular_price: 3.99
+  promo_price: null
+  size: 11 ounces
+  net_weight: 0.68 [lb_av]
+- product_id: 0088491235915
+  upc: 0088491235915
+  brand: Honey Bunches of Oats
+  description: Post Honey Bunches of Oats Honey Roasted Cereal, 12 oz
+  categories:
+  - Breakfast
+  regular_price: 3.99
+  promo_price: null
+  size: 12 ounces
+  net_weight: 0.75 [lb_av]
 - product_id: 0004119210369
   upc: 0004119210369
   brand: Special K
@@ -1028,18 +1055,17 @@ fortified breakfast cereal:
   promo_price: null
   size: 22.0 oz
   net_weight: 1.38 [lb_av]
-- product_id: 0088491243818
-  upc: 0088491243818
-  brand: Honey Bunches of Oats
-  description: Honey Bunches of Oats Honey Roasted Breakfast Bag Cereal, 32 oz
+total cereal:
+- product_id: '0001600027563'
+  upc: '0001600027563'
+  brand: Total
+  description: General Mills Total Wheat Flakes Cereal
   categories:
   - Breakfast
-  - Breakfast
-  regular_price: 7.99
-  promo_price: 6.99
-  size: 32 ounces
-  net_weight: 2.0 [lb_av]
-total cereal: []
+  regular_price: 5.99
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
 cheerios:
 - product_id: 0001111009265
   upc: 0001111009265
@@ -1052,17 +1078,6 @@ cheerios:
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: 0001111009266
-  upc: 0001111009266
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Honey Nut Toasted Oats Cereal
-  categories:
-  - Breakfast
-  - Natural & Organic
-  regular_price: 3.29
-  promo_price: null
-  size: 12.2 oz
-  net_weight: 0.76 [lb_av]
 - product_id: 0001111014932
   upc: 0001111014932
   brand: Kroger
@@ -1083,6 +1098,17 @@ cheerios:
   promo_price: null
   size: 20 oz
   net_weight: 1.25 [lb_av]
+- product_id: '0001600014155'
+  upc: '0001600014155'
+  brand: Cheerios
+  description: General Mills Honey Nut Cheerios Cereal
+  categories:
+  - Breakfast
+  - Breakfast
+  regular_price: 1.25
+  promo_price: null
+  size: 1.8 oz
+  net_weight: 0.11 [lb_av]
 - product_id: 0001600022855
   upc: 0001600022855
   brand: Cheerios
@@ -1123,6 +1149,16 @@ cheerios:
   promo_price: null
   size: 10.8 oz
   net_weight: 0.67 [lb_av]
+- product_id: '0001600027515'
+  upc: '0001600027515'
+  brand: Cheerios
+  description: General Mills Multi Grain Cheerios™ Cereal
+  categories:
+  - Breakfast
+  regular_price: 4.79
+  promo_price: 4.29
+  size: 9 oz
+  net_weight: 0.56 [lb_av]
 - product_id: '0001600023247'
   upc: '0001600023247'
   brand: Cheerios
@@ -1133,23 +1169,22 @@ cheerios:
   promo_price: null
   size: 11.0 oz
   net_weight: 0.68 [lb_av]
-- product_id: 0001600048769
-  upc: 0001600048769
-  brand: Cheerios
-  description: General Mills Multi Grain Cheerios™ Large Size Cereal
-  categories:
-  - Breakfast
-  regular_price: 5.29
-  promo_price: null
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
 dried lentils:
-- product_id: '0007152401215'
-  upc: '0007152401215'
-  brand: La Preferida
-  description: La Preferida® Black Beans Dry
+- product_id: 0001111086292
+  upc: 0001111086292
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Dry Green Lentils
   categories:
-  - International
+  - Pasta, Sauces, Grain
+  regular_price: 3.79
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: '0007152401172'
+  upc: '0007152401172'
+  brand: La Preferida
+  description: La Preferida® Pinto Beans
+  categories:
   - Pasta, Sauces, Grain
   - International
   regular_price: 1.69
@@ -1191,18 +1226,6 @@ dried lentils:
   promo_price: null
   size: 3.5 oz
   net_weight: 0.22 [lb_av]
-- product_id: '0007152401125'
-  upc: '0007152401125'
-  brand: La Preferida
-  description: La Preferida® Pinto Beans
-  categories:
-  - International
-  - Pasta, Sauces, Grain
-  - International
-  regular_price: 3.29
-  promo_price: null
-  size: 2 lb
-  net_weight: 2.0 [lb_av]
 - product_id: '0007152401255'
   upc: '0007152401255'
   brand: La Preferida
@@ -1236,6 +1259,40 @@ dried black beans:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
+- product_id: '0007152401215'
+  upc: '0007152401215'
+  brand: La Preferida
+  description: La Preferida® Black Beans Dry
+  categories:
+  - International
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 1.69
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: 0004133102479
+  upc: 0004133102479
+  brand: GOYA
+  description: Goya® Black Beans
+  categories:
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 1.99
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: '0004600013755'
+  upc: '0004600013755'
+  brand: Old El Paso
+  description: Old El Paso Microwavable Santa Fe Style Black Beans Pouch
+  categories:
+  - Pasta, Sauces, Grain
+  - Canned & Packaged
+  regular_price: 2.99
+  promo_price: null
+  size: 8.8 oz
+  net_weight: 0.55 [lb_av]
 canned black beans:
 - product_id: '0001111072567'
   upc: '0001111072567'
@@ -1257,6 +1314,49 @@ canned black beans:
   promo_price: 0.89
   size: 15.25 oz
   net_weight: 0.96 [lb_av]
+- product_id: 0001111086965
+  upc: 0001111086965
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Fat Free Refried Black Beans
+  categories:
+  - Canned & Packaged
+  - Natural & Organic
+  regular_price: 1.19
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.02 [lb_av]
+- product_id: 0001111086511
+  upc: 0001111086511
+  brand: Kroger
+  description: Kroger® Seasoned Refried Black Beans
+  categories:
+  - Canned & Packaged
+  - International
+  regular_price: 1.19
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: '0001111012212'
+  upc: '0001111012212'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Low Sodium Black Beans
+  categories:
+  - Canned & Packaged
+  regular_price: 1.25
+  promo_price: null
+  size: 15 oz
+  net_weight: 0.93 [lb_av]
+- product_id: 0001111008285
+  upc: 0001111008285
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Seasoned Black Beans
+  categories:
+  - Natural & Organic
+  - Canned & Packaged
+  regular_price: 1.25
+  promo_price: null
+  size: 15 oz
+  net_weight: 0.93 [lb_av]
 - product_id: '0001111015571'
   upc: '0001111015571'
   brand: Simple Truth
@@ -1269,27 +1369,16 @@ canned black beans:
   promo_price: null
   size: 18.6 oz
   net_weight: 1.16 [lb_av]
-- product_id: '0001111012475'
-  upc: '0001111012475'
+- product_id: '0001111015356'
+  upc: '0001111015356'
   brand: Kroger
   description: Kroger® Black Beans BIG DEAL!
   categories:
   - Canned & Packaged
   regular_price: 3.79
   promo_price: null
-  size: 4 ct / 15.5 oz
+  size: 4 ct / 15.25 oz
   net_weight: 3.81 [lb_av]
-- product_id: '0001111012206'
-  upc: '0001111012206'
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Black Beans Multipack
-  categories:
-  - Canned & Packaged
-  - Natural & Organic
-  regular_price: 4.79
-  promo_price: null
-  size: 4 ct / 15 oz
-  net_weight: 3.75 [lb_av]
 - product_id: 0003940001883
   upc: 0003940001883
   brand: Bush's Best
@@ -1300,52 +1389,37 @@ canned black beans:
   promo_price: null
   size: 15 oz
   net_weight: 0.94 [lb_av]
-- product_id: 0073639350100
-  upc: 0073639350100
-  brand: Glory Foods
-  description: Glory Foods® Seasoned Southern Style Blackeye Peas
+- product_id: 0003940001884
+  upc: 0003940001884
+  brand: Bush's Best
+  description: Bush's Seasoned Recipe Black Beans 15 oz
   categories:
   - Canned & Packaged
-  regular_price: 1.79
+  regular_price: 1.49
   promo_price: null
-  size: 14.5 oz
-  net_weight: 0.97 [lb_av]
-- product_id: '0004133112332'
-  upc: '0004133112332'
-  brand: GOYA
-  description: Goya® Low Sodium Prime Premium Black Beans
-  categories:
-  - Canned & Packaged
-  - International
-  regular_price: 2.19
-  promo_price: null
-  size: 15.5 oz
-  net_weight: 0.97 [lb_av]
-- product_id: '0004133102342'
-  upc: '0004133102342'
-  brand: GOYA
-  description: Goya Organic Black Beans
-  categories:
-  - International
-  - Canned & Packaged
-  - Natural & Organic
-  - International
-  regular_price: 2.19
-  promo_price: null
-  size: 15.5 oz
-  net_weight: 0.97 [lb_av]
-- product_id: 0007639703200
-  upc: 0007639703200
-  brand: La Costena
-  description: La Costena® Whole Black Beans
-  categories:
-  - Canned & Packaged
-  - International
-  regular_price: 2.29
-  promo_price: 1.79
-  size: 19.75 oz
-  net_weight: 1.23 [lb_av]
+  size: 15 oz
+  net_weight: 0.94 [lb_av]
 dried pinto beans:
+- product_id: 0001111089681
+  upc: 0001111089681
+  brand: Kroger
+  description: Kroger® Pinto Beans
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 1.19
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: 0001111084753
+  upc: 0001111084753
+  brand: Kroger
+  description: Kroger® Pinto Beans
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 4.49
+  promo_price: null
+  size: 4 lb
+  net_weight: 4.0 [lb_av]
 - product_id: '0004600013756'
   upc: '0004600013756'
   brand: Old El Paso
@@ -1356,38 +1430,19 @@ dried pinto beans:
   promo_price: null
   size: 8.8 oz
   net_weight: 0.55 [lb_av]
+- product_id: '0007152401125'
+  upc: '0007152401125'
+  brand: La Preferida
+  description: La Preferida® Pinto Beans
+  categories:
+  - International
+  - Pasta, Sauces, Grain
+  - International
+  regular_price: 3.29
+  promo_price: null
+  size: 2 lb
+  net_weight: 2.0 [lb_av]
 canned pinto beans:
-- product_id: '0001111072565'
-  upc: '0001111072565'
-  brand: Kroger
-  description: Pinto Beans
-  categories:
-  - Canned & Packaged
-  regular_price: 1.0
-  promo_price: 0.89
-  size: 15.5 oz
-  net_weight: 0.96 [lb_av]
-- product_id: 0001111086957
-  upc: 0001111086957
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Refried Pinto Beans
-  categories:
-  - Canned & Packaged
-  - Natural & Organic
-  regular_price: 1.19
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.01 [lb_av]
-- product_id: '0001111012216'
-  upc: '0001111012216'
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Pinto Chili Beans in Chili Sauce
-  categories:
-  - Canned & Packaged
-  regular_price: 1.25
-  promo_price: null
-  size: 15 oz
-  net_weight: 0.93 [lb_av]
 - product_id: 0001111015358
   upc: 0001111015358
   brand: Kroger
@@ -1398,58 +1453,47 @@ canned pinto beans:
   promo_price: null
   size: 4 ct / 15.5 oz
   net_weight: 3.87 [lb_av]
-- product_id: 0088439506101
-  upc: 0088439506101
+- product_id: 0001111015359
+  upc: 0001111015359
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Low Sodium Pinto Beans BIG DEAL!
+  categories:
+  - Canned & Packaged
+  - Natural & Organic
+  regular_price: 4.79
+  promo_price: null
+  size: 4 ct / 15 oz
+  net_weight: 3.75 [lb_av]
+- product_id: 0088439506124
+  upc: 0088439506124
   brand: Luck's
-  description: Luck's® Pinto Beans Seasoned with Pork
+  description: Luck's® Pinto Beans with Onions Seasoned with Pork
   categories:
   - Canned & Packaged
   regular_price: 1.49
   promo_price: null
   size: 15 oz
   net_weight: 0.94 [lb_av]
-- product_id: 0003940001807
-  upc: 0003940001807
+- product_id: 0003940001810
+  upc: 0003940001810
   brand: Bush's Best
-  description: Bush's Reduced Sodium Pinto Beans 16 oz
+  description: Bush's Pinto Beans 16 oz
   categories:
   - Canned & Packaged
   regular_price: 1.49
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
-- product_id: 0088439506139
-  upc: 0088439506139
+- product_id: 0088439506114
+  upc: 0088439506114
   brand: Luck's
-  description: Luck's® Pinto & Great Northern Mixed Beans Seasoned with Pork
+  description: Luck's® Fat Free Pinto Beans
   categories:
   - Canned & Packaged
   regular_price: 1.49
   promo_price: null
   size: 15 oz
-  net_weight: 0.94 [lb_av]
-- product_id: 0004690000108
-  upc: 0004690000108
-  brand: Conagra Foods
-  description: Ranch Style Canned Pinto Beans
-  categories:
-  - Canned & Packaged
-  regular_price: 1.59
-  promo_price: null
-  size: 15 oz
-  net_weight: 0.93 [lb_av]
-- product_id: '0004133112437'
-  upc: '0004133112437'
-  brand: GOYA
-  description: Goya® Pinto Beans
-  categories:
-  - International
-  - Canned & Packaged
-  - International
-  regular_price: 1.59
-  promo_price: null
-  size: 15.5 oz
-  net_weight: 0.97 [lb_av]
+  net_weight: 1.15 [lb_av]
 - product_id: 0004133102901
   upc: 0004133102901
   brand: GOYA
@@ -1462,7 +1506,59 @@ canned pinto beans:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
-dried kidney beans: []
+- product_id: 0088439506301
+  upc: 0088439506301
+  brand: Luck's
+  description: Luck's® Pinto Beans Seasoned with Pork
+  categories:
+  - Canned & Packaged
+  regular_price: 2.19
+  promo_price: null
+  size: 29 oz
+  net_weight: 1.81 [lb_av]
+- product_id: 0088439520772
+  upc: 0088439520772
+  brand: Sun Vista
+  description: Sun Vista® Pinto Beans
+  categories:
+  - Canned & Packaged
+  regular_price: 2.29
+  promo_price: 1.48
+  size: 29 oz
+  net_weight: 1.82 [lb_av]
+- product_id: 0003940001814
+  upc: 0003940001814
+  brand: Bush's Best
+  description: Bush's Pinto Beans 27 oz
+  categories:
+  - Canned & Packaged
+  regular_price: 2.79
+  promo_price: 2.59
+  size: 27 oz
+  net_weight: 1.69 [lb_av]
+- product_id: 0081244603001
+  upc: 0081244603001
+  brand: A Dozen Cousins
+  description: A Dozen Cousins Medium Mexican Cowboy Pinto Beans
+  categories:
+  - Canned & Packaged
+  - Natural & Organic
+  - International
+  regular_price: 3.79
+  promo_price: 3.29
+  size: 10 oz
+  net_weight: 0.63 [lb_av]
+dried kidney beans:
+- product_id: 0001111089620
+  upc: 0001111089620
+  brand: Kroger
+  description: Kroger® Light Red Kidney Beans
+  categories:
+  - Pasta, Sauces, Grain
+  regular_price: 2.29
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
 canned kidney beans:
 - product_id: 0001111071786
   upc: 0001111071786
@@ -1474,10 +1570,10 @@ canned kidney beans:
   promo_price: 0.89
   size: 15.5 oz
   net_weight: 0.96 [lb_av]
-- product_id: 0001111012208
-  upc: 0001111012208
+- product_id: 0001111071787
+  upc: 0001111071787
   brand: Kroger
-  description: Kroger® No Salt Added Dark Red Kidney Beans
+  description: Kroger® Dark Red Kidney Beans
   categories:
   - Canned & Packaged
   regular_price: 1.0
@@ -1495,6 +1591,16 @@ canned kidney beans:
   promo_price: null
   size: 15 oz
   net_weight: 0.93 [lb_av]
+- product_id: '0001111015357'
+  upc: '0001111015357'
+  brand: Kroger
+  description: Kroger® Dark Red Kidney Beans BIG DEAL!
+  categories:
+  - Canned & Packaged
+  regular_price: 3.79
+  promo_price: null
+  size: 4 ct / 15.25 oz
+  net_weight: 3.87 [lb_av]
 - product_id: '0001111012205'
   upc: '0001111012205'
   brand: Simple Truth Organic
@@ -1506,16 +1612,6 @@ canned kidney beans:
   promo_price: null
   size: 4 ct / 15 oz
   net_weight: 3.75 [lb_av]
-- product_id: 0003940001734
-  upc: 0003940001734
-  brand: Bush's Best
-  description: Bush's Dark Red Kidney Beans 16 oz
-  categories:
-  - Canned & Packaged
-  regular_price: 1.49
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
 - product_id: 0003940001747
   upc: 0003940001747
   brand: Bush's Best
@@ -1526,53 +1622,44 @@ canned kidney beans:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
-- product_id: '0004133112435'
-  upc: '0004133112435'
+- product_id: '0004133112402'
+  upc: '0004133112402'
   brand: GOYA
-  description: Goya® Dark Red Kidney Beans
+  description: Goya® Red Kidney Beans
   categories:
   - International
   - Canned & Packaged
   - International
-  regular_price: 2.49
-  promo_price: null
-  size: 15.5 oz
-  net_weight: 0.97 [lb_av]
-dried split peas:
-- product_id: 0004133102487
-  upc: 0004133102487
-  brand: GOYA
-  description: Goya® Green Split Peas
-  categories:
-  - International
-  - Pasta, Sauces, Grain
-  regular_price: 1.99
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-dried black-eyed peas: []
-canned chickpeas:
-- product_id: 0001111012199
-  upc: 0001111012199
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Garbanzo Beans Cans
-  categories:
-  - Canned & Packaged
-  regular_price: 4.79
-  promo_price: null
-  size: 4 ct / 15 oz
-  net_weight: 3.75 [lb_av]
-- product_id: '0004133112422'
-  upc: '0004133112422'
-  brand: GOYA
-  description: Goya® Canned Chick Peas
-  categories:
-  - International
-  - Canned & Packaged
   regular_price: 1.59
   promo_price: null
   size: 15.5 oz
+  net_weight: 0.96 [lb_av]
+- product_id: '0004133102340'
+  upc: '0004133102340'
+  brand: GOYA
+  description: Goya Organic Red Kidney Beans
+  categories:
+  - Natural & Organic
+  - Canned & Packaged
+  - International
+  - International
+  regular_price: 2.19
+  promo_price: null
+  size: 15.5 oz
   net_weight: 0.97 [lb_av]
+dried split peas: []
+dried black-eyed peas: []
+canned chickpeas:
+- product_id: 0001111080627
+  upc: 0001111080627
+  brand: Kroger
+  description: Kroger Garbanzo Beans - 15.5oz can
+  categories:
+  - Canned & Packaged
+  regular_price: 1.0
+  promo_price: 0.89
+  size: 15.5oz
+  net_weight: 0.96 [lb_av]
 - product_id: 0007152401848
   upc: 0007152401848
   brand: La Preferida
@@ -1595,16 +1682,17 @@ canned chickpeas:
   promo_price: null
   size: 15.5 oz
   net_weight: 0.97 [lb_av]
-- product_id: 0004119613305
-  upc: 0004119613305
-  brand: Progresso
-  description: Progresso™ Vegetarian Chickpea & Noodle Soup
+- product_id: '0004133112333'
+  upc: '0004133112333'
+  brand: GOYA
+  description: Goya Low Sodium Chick Peas
   categories:
   - Canned & Packaged
-  regular_price: 2.99
+  - Canned & Packaged
+  regular_price: 2.19
   promo_price: null
-  size: 18.5 oz
-  net_weight: 1.15 [lb_av]
+  size: 15.5 oz
+  net_weight: 0.97 [lb_av]
 - product_id: 0890408351221
   upc: 0890408351221
   brand: 24 Mantra
@@ -1638,6 +1726,26 @@ canned great northern beans:
   promo_price: 0.89
   size: 15.5 oz
   net_weight: 0.96 [lb_av]
+- product_id: '0001111012215'
+  upc: '0001111012215'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Low Sodium Great Northern Beans
+  categories:
+  - Canned & Packaged
+  regular_price: 1.25
+  promo_price: null
+  size: 15 oz
+  net_weight: 0.93 [lb_av]
+- product_id: 0088439506139
+  upc: 0088439506139
+  brand: Luck's
+  description: Luck's® Pinto & Great Northern Mixed Beans Seasoned with Pork
+  categories:
+  - Canned & Packaged
+  regular_price: 1.49
+  promo_price: null
+  size: 15 oz
+  net_weight: 0.94 [lb_av]
 - product_id: 0003940001782
   upc: 0003940001782
   brand: Bush's Best
@@ -1658,16 +1766,16 @@ canned great northern beans:
   promo_price: null
   size: 15 oz
   net_weight: 0.94 [lb_av]
-- product_id: 0007009500010
-  upc: 0007009500010
-  brand: Randall
-  description: Randall® Fully Cooked Deluxe Great Northern Beans Jar
+- product_id: 0088439500073
+  upc: 0088439500073
+  brand: Luck's
+  description: Luck's Pinto & Great Northern Mixed Beans
   categories:
   - Canned & Packaged
-  regular_price: 5.49
+  regular_price: 2.29
   promo_price: null
-  size: 48 oz
-  net_weight: 3.5 [lb_av]
+  size: 29 oz
+  net_weight: 1.83 [lb_av]
 tofu firm:
 - product_id: 0001111091342
   upc: 0001111091342
@@ -1681,43 +1789,29 @@ tofu firm:
   promo_price: 1.49
   size: 14 oz
   net_weight: 0.88 [lb_av]
-- product_id: 0001111082294
-  upc: 0001111082294
+- product_id: 0001111091341
+  upc: 0001111091341
   brand: Simple Truth Organic
-  description: Simple Truth Organic® Extra Firm Tofu Twin Pack
+  description: Simple Truth Organic® Firm Tofu
   categories:
   - Natural & Organic
   - Produce
   - Produce
-  regular_price: 2.19
+  regular_price: 1.99
+  promo_price: 1.49
+  size: 14 oz
+  net_weight: 0.88 [lb_av]
+tempeh:
+- product_id: '0004345444177'
+  upc: '0004345444177'
+  brand: Lightlife
+  description: Lightlife® Organic Tempeh Chickpea
+  categories:
+  - Produce
+  regular_price: 4.19
   promo_price: null
-  size: 2 ct
-  net_weight: 0.97 [lb_av]
-- product_id: '0001111012603'
-  upc: '0001111012603'
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Super Firm Tofu
-  categories:
-  - Produce
-  - Produce
-  regular_price: 3.99
-  promo_price: 3.49
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-- product_id: 0008569660805
-  upc: 0008569660805
-  brand: Mori-Nu
-  description: Mori-Nu® Shelf-Stable Silken Extra Firm Tofu
-  categories:
-  - Natural & Organic
-  - Frozen
-  - Natural & Organic
-  - Baking Goods
-  regular_price: 2.69
-  promo_price: 2.49
-  size: 10.9 oz
-  net_weight: 0.68 [lb_av]
-tempeh: []
+  size: 7 oz
+  net_weight: 0.44 [lb_av]
 edamame frozen:
 - product_id: '0001111003553'
   upc: '0001111003553'
@@ -1729,27 +1823,16 @@ edamame frozen:
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: 0001111013992
-  upc: 0001111013992
-  brand: Private Selection
-  description: Private Selection® Szechuan Style Broccoli & Edamame
+- product_id: 0001111015380
+  upc: 0001111015380
+  brand: Kroger
+  description: Kroger® Edamame
   categories:
   - Frozen
-  - Frozen
-  regular_price: 4.79
-  promo_price: 3.5
-  size: 12 oz
-  net_weight: 0.63 [lb_av]
-- product_id: '0001450001352'
-  upc: '0001450001352'
-  brand: Birds Eye
-  description: Birds Eye Steamfresh Edamame in the Pod, Frozen Vegetables
-  categories:
-  - Frozen
-  regular_price: 2.29
+  regular_price: 2.99
   promo_price: null
-  size: 10 oz
-  net_weight: 0.62 [lb_av]
+  size: 12 oz
+  net_weight: 0.7 [lb_av]
 - product_id: 0007056097771
   upc: 0007056097771
   brand: Pictsweet Farms
@@ -1771,10 +1854,21 @@ edamame frozen:
   size: 11 oz
   net_weight: 0.69 [lb_av]
 natural peanut butter:
-- product_id: 0001111001618
-  upc: 0001111001618
+- product_id: '0001111001650'
+  upc: '0001111001650'
   brand: Kroger
-  description: Kroger® Creamy Peanut Butter
+  description: Kroger® Natural Peanut Butter Crunchy
+  categories:
+  - Condiment & Sauces
+  - Condiment & Sauces
+  regular_price: 2.29
+  promo_price: null
+  size: 15 oz
+  net_weight: 0.94 [lb_av]
+- product_id: 0001111001619
+  upc: 0001111001619
+  brand: Kroger
+  description: Kroger® Crunchy Peanut Butter
   categories:
   - Condiment & Sauces
   - Condiment & Sauces
@@ -1793,16 +1887,27 @@ natural peanut butter:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
-- product_id: '0001111011044'
-  upc: '0001111011044'
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Peanut Butter Creamy
+- product_id: '0001111001652'
+  upc: '0001111001652'
+  brand: Kroger
+  description: Kroger® Honey Peanut Butter Spread Creamy
   categories:
-  - Natural & Organic
-  regular_price: 4.69
+  - Condiment & Sauces
+  - Condiment & Sauces
+  regular_price: 2.29
   promo_price: null
-  size: 15 oz
-  net_weight: 0.94 [lb_av]
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: '0001111016065'
+  upc: '0001111016065'
+  brand: Kroger
+  description: Simple Truth® Butter Toffee Glazed Peanuts
+  categories:
+  - Snacks
+  regular_price: 4.49
+  promo_price: null
+  size: 10 oz
+  net_weight: 0.63 [lb_av]
 - product_id: '0001111011045'
   upc: '0001111011045'
   brand: Simple Truth
@@ -1818,6 +1923,17 @@ natural peanut butter:
   upc: 0001111079156
   brand: Simple Truth Organic
   description: Simple Truth Organic® Peanut Butter No Stir Creamy
+  categories:
+  - Natural & Organic
+  - Condiment & Sauces
+  regular_price: 4.69
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: 0001111079166
+  upc: 0001111079166
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Peanut Butter No Stir Crunchy
   categories:
   - Natural & Organic
   - Condiment & Sauces
@@ -1846,37 +1962,6 @@ natural peanut butter:
   promo_price: null
   size: 40 oz
   net_weight: 2.5 [lb_av]
-- product_id: 0001111009853
-  upc: 0001111009853
-  brand: Kroger
-  description: Kroger® Creamy Peanut Butter
-  categories:
-  - Condiment & Sauces
-  regular_price: 4.99
-  promo_price: null
-  size: 40 oz
-  net_weight: 2.5 [lb_av]
-- product_id: 0001111009854
-  upc: 0001111009854
-  brand: Kroger
-  description: Kroger® Crunchy Peanut Butter
-  categories:
-  - Condiment & Sauces
-  regular_price: 4.99
-  promo_price: null
-  size: 40 oz
-  net_weight: 2.5 [lb_av]
-- product_id: 0001111015583
-  upc: 0001111015583
-  brand: Simple Truth
-  description: Simple Truth® Protein Creamy Peanut Butter Spread
-  categories:
-  - Natural & Organic
-  - Condiment & Sauces
-  regular_price: 5.49
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
 almonds:
 - product_id: '0001111014537'
   upc: '0001111014537'
@@ -1886,17 +1971,6 @@ almonds:
   - Snacks
   - Snacks
   regular_price: 1.0
-  promo_price: null
-  size: 1.5 oz
-  net_weight: 0.09 [lb_av]
-- product_id: 0001111091563
-  upc: 0001111091563
-  brand: Simple Truth
-  description: Simple Truth® Roasted and Salted Almonds Snack Size
-  categories:
-  - Snacks
-  - Snacks
-  regular_price: 1.25
   promo_price: null
   size: 1.5 oz
   net_weight: 0.09 [lb_av]
@@ -1912,18 +1986,16 @@ almonds:
   promo_price: null
   size: 1 qt
   net_weight: 2.0 [lb_av]
-- product_id: '0001111013265'
-  upc: '0001111013265'
-  brand: Simple Truth
-  description: Simple Truth® Dairy Free Vanilla Almond Milk Half Gallon
+- product_id: 0001111090929
+  upc: 0001111090929
+  brand: Kroger
+  description: Kroger® Toasted Sliced Almonds & Dried Cranberry Salad Toppers
   categories:
-  - Natural & Organic
-  - Dairy
-  - Dairy
-  regular_price: 2.79
+  - Condiment & Sauces
+  regular_price: 2.49
   promo_price: null
-  size: 1/2 gal
-  net_weight: 4.28 [lb_av]
+  size: 3 oz
+  net_weight: 0.19 [lb_av]
 - product_id: '0001111013264'
   upc: '0001111013264'
   brand: Simple Truth
@@ -1935,6 +2007,41 @@ almonds:
   promo_price: null
   size: 1/2 gal
   net_weight: 4.24 [lb_av]
+- product_id: 0001111013268
+  upc: 0001111013268
+  brand: Simple Truth
+  description: Simple Truth® Dairy Free Unsweetened Vanilla Almond Milk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 2.79
+  promo_price: null
+  size: 1/2 gal
+  net_weight: 4.2 [lb_av]
+- product_id: '0001111013266'
+  upc: '0001111013266'
+  brand: Simple Truth
+  description: Simple Truth® Dairy Free Chocolate Almond Milk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 2.79
+  promo_price: null
+  size: 1/2 gal
+  net_weight: 4.32 [lb_av]
+- product_id: 0001111015952
+  upc: 0001111015952
+  brand: Simple Truth
+  description: Simple Truth® Protein Original Almond Milk
+  categories:
+  - Dairy
+  - Natural & Organic
+  regular_price: 2.79
+  promo_price: null
+  size: 59 fl oz
+  net_weight: 3.94 [lb_av]
 - product_id: '0001111012337'
   upc: '0001111012337'
   brand: Kroger
@@ -1955,47 +2062,47 @@ almonds:
   promo_price: null
   size: 6 oz
   net_weight: 0.37 [lb_av]
-- product_id: '0001111013521'
-  upc: '0001111013521'
+- product_id: '0001111013525'
+  upc: '0001111013525'
   brand: Kroger
-  description: HONEY ROASTED ALMONDS - KROGER - 6 OZ
+  description: Kroger® Roasted Lightly Sea Salted Almonds
   categories:
   - Snacks
   regular_price: 3.29
   promo_price: null
   size: 6 oz
   net_weight: 0.37 [lb_av]
-- product_id: '0001111013520'
-  upc: '0001111013520'
-  brand: Kroger
-  description: ROASTED SEA SALT ALMONDS - KROGER - 6 OZ
-  categories:
-  - Snacks
-  regular_price: 3.29
-  promo_price: null
-  size: 6 oz
-  net_weight: 0.37 [lb_av]
-- product_id: 0001111013880
-  upc: 0001111013880
-  brand: Kroger
-  description: Kroger® Oats Raisins Almonds & Honey Granola
-  categories:
-  - Breakfast
-  regular_price: 3.49
-  promo_price: null
-  size: 14 oz
-  net_weight: 0.88 [lb_av]
 sunflower seeds:
-- product_id: 0081601201273
-  upc: 0081601201273
-  brand: Bigs
-  description: Bigs Keto Friendly Taco Bell Taco Supreme Sunflower Seeds
+- product_id: 0001111005791
+  upc: 0001111005791
+  brand: Kroger
+  description: Kroger® Dry Roasted Salted Sunflower Kernels
   categories:
   - Snacks
-  regular_price: 2.69
+  regular_price: 2.49
   promo_price: null
-  size: 5.350 oz
-  net_weight: 0.33 [lb_av]
+  size: 7.25 oz
+  net_weight: 0.1 [lb_av]
+- product_id: '0001111015762'
+  upc: '0001111015762'
+  brand: Kroger
+  description: Simple Truth Organic® Sunflower Kernels
+  categories:
+  - Snacks
+  regular_price: 3.99
+  promo_price: null
+  size: 10 oz
+  net_weight: 0.63 [lb_av]
+- product_id: 0001111015977
+  upc: 0001111015977
+  brand: Kroger
+  description: Kroger® Roasted and Salted Sunflower Seeds
+  categories:
+  - Snacks
+  regular_price: 3.99
+  promo_price: null
+  size: 7 oz
+  net_weight: 0.43 [lb_av]
 - product_id: 0089688700220
   upc: 0089688700220
   brand: Bigs
@@ -2016,36 +2123,26 @@ sunflower seeds:
   promo_price: null
   size: 4 oz
   net_weight: 0.25 [lb_av]
-- product_id: '0060265241713'
-  upc: '0060265241713'
-  brand: KIND
-  description: KIND Roasted & Salted Sunflower Seeds
+- product_id: 0085005424806
+  upc: 0085005424806
+  brand: Top Fox
+  description: Top Fox® Pop Roasted Sunflower Seeds Himalayan Pink Salt
   categories:
   - Snacks
-  regular_price: 4.49
-  promo_price: null
-  size: 9 oz
-  net_weight: 0.56 [lb_av]
-- product_id: 0002620046193
-  upc: 0002620046193
-  brand: David
-  description: DAVID Jumbo Sunflower Seeds, Salted & Roasted Original Flavor
-  categories:
-  - Snacks
-  regular_price: 5.29
-  promo_price: 4.99
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-- product_id: 0073753919601
-  upc: 0073753919601
+  regular_price: 3.99
+  promo_price: 3.49
+  size: 5.5 oz
+  net_weight: 0.34 [lb_av]
+- product_id: 0073753919120
+  upc: 0073753919120
   brand: SunButter
-  description: SunButter® Chocolate Sunflower Seed Butter
+  description: SunButter® Original Sunflower Seed Butter Jar
   categories:
-  - Condiment & Sauces
   - Natural & Organic
+  - Condiment & Sauces
   regular_price: 7.49
   promo_price: null
-  size: 16 oz
+  size: 1 lb
   net_weight: 1.0 [lb_av]
 - product_id: 0073753919358
   upc: 0073753919358
@@ -2058,6 +2155,19 @@ sunflower seeds:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
+- product_id: 0081003230030
+  upc: 0081003230030
+  brand: Go Raw
+  description: Go Raw® Organic Sprouted Sea Salt Pumpkin & Sunflower Seeds
+  categories:
+  - Snacks
+  - Snacks
+  - Natural & Organic
+  - Snacks
+  regular_price: 8.99
+  promo_price: null
+  size: 10 oz
+  net_weight: 0.62 [lb_av]
 walnuts:
 - product_id: 0001111063059
   upc: 0001111063059
@@ -2069,6 +2179,18 @@ walnuts:
   promo_price: 3.67
   size: 5.5 oz
   net_weight: 0.34 [lb_av]
+- product_id: '0001111015753'
+  upc: '0001111015753'
+  brand: Kroger
+  description: Kroger® Dark Chocolate Covered Walnuts
+  categories:
+  - Candy
+  - Snacks
+  - Natural & Organic
+  regular_price: 8.79
+  promo_price: null
+  size: 11 oz
+  net_weight: 0.69 [lb_av]
 - product_id: 0081957301612
   upc: 0081957301612
   brand: Happy Baby
@@ -2080,16 +2202,6 @@ walnuts:
   promo_price: 1.5
   size: 3 fl oz
   net_weight: 0.18 [lb_av]
-- product_id: 0001600081341
-  upc: 0001600081341
-  brand: Betty Crocker
-  description: Betty Crocker™ Delights Supreme Walnut Brownie Mix
-  categories:
-  - Baking Goods
-  regular_price: 3.99
-  promo_price: null
-  size: 16.5 oz
-  net_weight: 1.03 [lb_av]
 - product_id: 0078735917709
   upc: 0078735917709
   brand: Fresh Gourmet
@@ -2111,26 +2223,6 @@ walnuts:
   promo_price: null
   size: 3 oz
   net_weight: 0.19 [lb_av]
-- product_id: 0004144930252
-  upc: 0004144930252
-  brand: Ghirardelli
-  description: Ghirardelli® Caramel Walnut Turtle Premium Brownie Mix
-  categories:
-  - Baking Goods
-  regular_price: 4.99
-  promo_price: null
-  size: 18.5 oz
-  net_weight: 1.15 [lb_av]
-- product_id: '0060265241754'
-  upc: '0060265241754'
-  brand: KIND
-  description: KIND Cashew Cranberry Walnut with Almonds & Pumpkin Seeds Trail Mix
-  categories:
-  - Snacks
-  regular_price: 5.99
-  promo_price: null
-  size: 7.5 oz
-  net_weight: 0.47 [lb_av]
 - product_id: 0007493600011
   upc: 0007493600011
   brand: Hammons
@@ -2141,16 +2233,6 @@ walnuts:
   promo_price: null
   size: 8 oz
   net_weight: 0.5 [lb_av]
-- product_id: 0060933284834
-  upc: 0060933284834
-  brand: e.l.f.
-  description: e.l.f. Cosmetics Hydrating Satin Camo Concealer Tan Walnut
-  categories:
-  - Beauty
-  regular_price: 8.79
-  promo_price: null
-  size: 0.2 fl oz
-  net_weight: 0.08 [lb_av]
 - product_id: 0086000231931
   upc: 0086000231931
   brand: Maine Crisp
@@ -2161,18 +2243,49 @@ walnuts:
   promo_price: 8.99
   size: 4 oz
   net_weight: 0.25 [lb_av]
-ground flaxseed: []
-chia seeds:
-- product_id: '0001111015761'
-  upc: '0001111015761'
-  brand: Kroger
-  description: Simple Truth Organic® Chia Seeds
+- product_id: 0007069002365
+  upc: 0007069002365
+  brand: Fisher
+  description: Fisher California Grown Unsalted Chopped Walnuts
+  categories:
+  - Baking Goods
+  regular_price: 10.79
+  promo_price: null
+  size: 10 oz / 2.3 cups
+  net_weight: 0.62 [lb_av]
+- product_id: 0007069002368
+  upc: 0007069002368
+  brand: Fisher
+  description: Fisher California Grown Unsalted Chopped Walnuts
   categories:
   - Snacks
-  regular_price: 3.79
+  regular_price: 15.99
   promo_price: null
-  size: 5 oz
-  net_weight: 0.31 [lb_av]
+  size: 16 oz / 3.5 cups
+  net_weight: 1.0 [lb_av]
+- product_id: 0007069002367
+  upc: 0007069002367
+  brand: Fisher
+  description: Fisher California Grown Unsalted Walnuts
+  categories:
+  - Baking Goods
+  regular_price: 15.99
+  promo_price: null
+  size: 16 oz / 4.3 cups
+  net_weight: 1.0 [lb_av]
+ground flaxseed:
+- product_id: 0001111008287
+  upc: 0001111008287
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Whole Ground Flaxseed Meal
+  categories:
+  - Baking Goods
+  - Natural & Organic
+  regular_price: 3.99
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
+chia seeds: []
 chia:
 - product_id: 0001111008452
   upc: 0001111008452
@@ -2196,6 +2309,18 @@ chia:
   promo_price: 1.5
   size: 4 fl oz
   net_weight: 0.25 [lb_av]
+- product_id: 0081957301592
+  upc: 0081957301592
+  brand: Happy Baby
+  description: Happy Tot Organics Super Morning Stage 4 Apple Acai Coconutmilk Oat
+    Cinnamon & Chia Tot Food Pouch
+  categories:
+  - Baby
+  - Baby
+  regular_price: 1.79
+  promo_price: 1.5
+  size: 4 fl oz
+  net_weight: 0.25 [lb_av]
 - product_id: 0085269700129
   upc: 0085269700129
   brand: Happy Baby
@@ -2208,18 +2333,6 @@ chia:
   promo_price: 1.5
   size: 4.22 fl oz
   net_weight: 0.26 [lb_av]
-- product_id: 0081957301067
-  upc: 0081957301067
-  brand: Happy Baby
-  description: Happy Tot Stage 4 Organic Apples Cinnamon Yogurt & Oats + Super Chia
-    Pouch
-  categories:
-  - Baby
-  - Baby
-  regular_price: 1.79
-  promo_price: 1.5
-  size: 4 fl oz
-  net_weight: 0.25 [lb_av]
 - product_id: 0085001173702
   upc: 0085001173702
   brand: Every Body Eat
@@ -2231,16 +2344,6 @@ chia:
   promo_price: null
   size: 4 oz
   net_weight: 0.25 [lb_av]
-- product_id: 0085651600576
-  upc: 0085651600576
-  brand: Mamma Chia
-  description: Mamma Chia® Organic Strawberry Lemonade Prebiotic Squeeze Snack
-  categories:
-  - Snacks
-  regular_price: 6.29
-  promo_price: null
-  size: 4 ct / 3.5 oz
-  net_weight: 1.1 [lb_av]
 - product_id: 0085651600575
   upc: 0085651600575
   brand: Mamma Chia
@@ -2251,6 +2354,17 @@ chia:
   promo_price: null
   size: 4 ct / 3.5 oz
   net_weight: 1.1 [lb_av]
+- product_id: 0085651600224
+  upc: 0085651600224
+  brand: Mamma Chia
+  description: Mamma Chia® Organic Chia Squeeze Blackberry Bliss Vitality Snacks
+  categories:
+  - Natural & Organic
+  - Snacks
+  regular_price: 6.29
+  promo_price: null
+  size: 4 ct / 3.5 oz
+  net_weight: 0.88 [lb_av]
 - product_id: 0003997800844
   upc: 0003997800844
   brand: Bob's Red Mill
@@ -2262,19 +2376,18 @@ chia:
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: 0008981950145
-  upc: 0008981950145
-  brand: Cavaliere d'Oro
-  description: Cavaliere d'Oro Gabbiano Chianti Red Wine
+- product_id: 0001111104008
+  upc: 0001111104008
+  brand: Dove
+  description: Dove Body Wash For 24hr Lotion-Soft Skin Revitalize Cherry and Chia
+    Milk Moisturizing Skin Cleanser
   categories:
-  - Adult Beverage
-  - Adult Beverage
-  - Adult Beverage
-  - Adult Beverage
-  regular_price: 12.99
-  promo_price: 10.99
-  size: 750 ml
-  net_weight: null
+  - Beauty
+  - Personal Care
+  regular_price: 8.99
+  promo_price: 8.49
+  size: 20 fl oz
+  net_weight: 1.34 [lb_av]
 - product_id: 0008500001217
   upc: 0008500001217
   brand: DaVinci Wine
@@ -2289,47 +2402,28 @@ chia:
   size: 750 ml
   net_weight: 2.72 [lb_av]
 dried soybeans:
-- product_id: 0001111013900
-  upc: 0001111013900
-  brand: Kroger
-  description: Kroger® Wild Caught Sardines in Soybean Oil
-  categories:
-  - Canned & Packaged
-  regular_price: 1.19
-  promo_price: null
-  size: 3.75 oz
-  net_weight: 0.23 [lb_av]
-- product_id: '0001111012214'
-  upc: '0001111012214'
+- product_id: '0001111012217'
+  upc: '0001111012217'
   brand: Simple Truth Organic
-  description: Simple Truth Organic® Low Sodium Tri-Bean Blend
-  categories:
-  - Canned & Packaged
-  regular_price: 1.25
-  promo_price: null
-  size: 15 oz
-  net_weight: 0.93 [lb_av]
-- product_id: '0001111012212'
-  upc: '0001111012212'
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Low Sodium Black Beans
-  categories:
-  - Canned & Packaged
-  regular_price: 1.25
-  promo_price: null
-  size: 15 oz
-  net_weight: 0.93 [lb_av]
-- product_id: 0001111008285
-  upc: 0001111008285
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Seasoned Black Beans
+  description: Simple Truth Organic® Low Sodium Cannellini Beans
   categories:
   - Natural & Organic
-  - Canned & Packaged
   regular_price: 1.25
   promo_price: null
   size: 15 oz
   net_weight: 0.93 [lb_av]
+- product_id: 0001111003850
+  upc: 0001111003850
+  brand: Simple Truth
+  description: Simple Truth™ Dairy Free Shelf Stable Original Oat Milk Quart
+  categories:
+  - Dairy
+  - Dairy
+  - Natural & Organic
+  regular_price: 1.99
+  promo_price: null
+  size: 1 qt
+  net_weight: 2.0 [lb_av]
 - product_id: 0001111084185
   upc: 0001111084185
   brand: Simple Truth
@@ -2342,6 +2436,40 @@ dried soybeans:
   regular_price: 1.99
   promo_price: null
   size: 1 qt
+  net_weight: 2.0 [lb_av]
+- product_id: 0001111014208
+  upc: 0001111014208
+  brand: Simple Truth
+  description: Simple Truth® Unsweetened Vanilla Almond Milk
+  categories:
+  - Natural & Organic
+  regular_price: 1.99
+  promo_price: null
+  size: 32 fl oz
+  net_weight: 2.0 [lb_av]
+- product_id: 0001111088806
+  upc: 0001111088806
+  brand: Simple Truth Organic
+  description: Simple Truth Organic™ Dairy Free Organic Shelf Stable Unsweetened Plain
+    Soy Milk Quart
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 2.19
+  promo_price: null
+  size: 1 qt
+  net_weight: 2.0 [lb_av]
+- product_id: 0001111081557
+  upc: 0001111081557
+  brand: Simple Truth
+  description: Simple Truth Organic™ Dairy Free Organic Shelf Stable Unsweetened Almondmilk
+    Quart
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 2.19
+  promo_price: null
+  size: 32 fl oz
   net_weight: 2.0 [lb_av]
 - product_id: '0001111003070'
   upc: '0001111003070'
@@ -2356,61 +2484,129 @@ dried soybeans:
   promo_price: null
   size: 33.8 fl oz
   net_weight: 2.11 [lb_av]
-- product_id: '0004157005413'
-  upc: '0004157005413'
-  brand: Almond Breeze
-  description: Almond Breeze Dairy Free Shelf Stable Unsweetened Original Almond Milk
-    Quart
+- product_id: 0004410019077
+  upc: 0004410019077
+  brand: Planet Oat
+  description: Planet Oat Dairy Free Shelf Stable Original Oat Milk Quart
   categories:
   - Natural & Organic
   - Dairy
-  regular_price: 2.29
+  - Dairy
+  regular_price: 3.79
   promo_price: null
   size: 32 fl oz
-  net_weight: 2.1 [lb_av]
-- product_id: 0002529300272
-  upc: 0002529300272
-  brand: Silk
-  description: Silk Dark Chocolate Shelf Stable Dairy Free Vegan Almond Milk Half
-    Pint
+  net_weight: 2.17 [lb_av]
+soybeans dry:
+- product_id: '0001111003556'
+  upc: '0001111003556'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Corn Whole Kernel Cut
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 2.49
+  promo_price: null
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0001111087924
+  upc: 0001111087924
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Brussels Sprouts
   categories:
   - Natural & Organic
-  - Dairy
-  - Dairy
-  - Dairy
-  regular_price: 8.49
+  - Frozen
+  regular_price: 2.49
   promo_price: null
-  size: 6 ct / 8 fl oz
-  net_weight: 3.25 [lb_av]
-- product_id: 0002529300273
-  upc: 0002529300273
-  brand: Silk
-  description: Silk Vanilla Shelf Stable Dairy Free Vegan Almond Milk Half Pint
+  size: 10 oz
+  net_weight: null
+- product_id: 0001111001098
+  upc: 0001111001098
+  brand: Simple Truth Organic
+  description: Simple Truth® Frozen Green Peas
   categories:
   - Natural & Organic
-  - Dairy
-  - Dairy
-  - Dairy
-  regular_price: 8.49
+  - Frozen
+  regular_price: 2.49
   promo_price: null
-  size: 6 ct / 8 fl oz
-  net_weight: 3.22 [lb_av]
-- product_id: 0002529300271
-  upc: 0002529300271
-  brand: Silk
-  description: Silk Very Vanilla Shelf Stable Dairy Free Vegan Soy Milk Half Pint
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0001111079135
+  upc: 0001111079135
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Chunked Frozen Pineapple
   categories:
   - Natural & Organic
-  - Dairy
-  - Dairy
-  - Dairy
-  regular_price: 8.49
+  - Frozen
+  regular_price: 2.79
   promo_price: null
-  size: 6 ct / 8 fl oz
-  net_weight: 3.27 [lb_av]
-soybeans dry: []
-vital wheat gluten: []
-wheat gluten:
+  size: 10 oz
+  net_weight: 0.63 [lb_av]
+- product_id: '0001111016053'
+  upc: '0001111016053'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Sliced Peaches
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 3.29
+  promo_price: null
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: '0001111012207'
+  upc: '0001111012207'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Low Sodium Tri-Bean Blend BIG DEAL!
+  categories:
+  - Canned & Packaged
+  - Natural & Organic
+  regular_price: 4.79
+  promo_price: null
+  size: 4 ct / 15 oz
+  net_weight: 3.75 [lb_av]
+- product_id: 0001111015589
+  upc: 0001111015589
+  brand: Simple Truth
+  description: Simple Truth® Frozen Protein Mediterranean Style Vegetable Blend
+  categories:
+  - Frozen
+  regular_price: 5.99
+  promo_price: 5.0
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0001111009159
+  upc: 0001111009159
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Corn Whole Kernel Cut BIG DEAL!
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 8.99
+  promo_price: null
+  size: 48 oz
+  net_weight: 3.0 [lb_av]
+- product_id: 0001111009160
+  upc: 0001111009160
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Vegetables Mixed BIG DEAL!
+  categories:
+  - Natural & Organic
+  - Frozen
+  regular_price: 8.99
+  promo_price: null
+  size: 48 oz
+  net_weight: 3.0 [lb_av]
+- product_id: 0001111008143
+  upc: 0001111008143
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Blueberries BIG DEAL!
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 9.99
+  promo_price: null
+  size: 48 oz
+  net_weight: 3.0 [lb_av]
+vital wheat gluten:
 - product_id: 0003997811322
   upc: 0003997811322
   brand: Bob's Red Mill
@@ -2422,6 +2618,17 @@ wheat gluten:
   promo_price: null
   size: 20 oz
   net_weight: 1.25 [lb_av]
+wheat gluten:
+- product_id: 0001313000698
+  upc: 0001313000698
+  brand: Cream of Rice
+  description: Cream of Rice Gluten-Free 2 1/2-Minute
+  categories:
+  - Breakfast
+  regular_price: 4.49
+  promo_price: 4.29
+  size: 14 oz
+  net_weight: 0.88 [lb_av]
 - product_id: '0067562510403'
   upc: '0067562510403'
   brand: One Degree Organic Foods
@@ -2433,10 +2640,10 @@ wheat gluten:
   promo_price: 11.99
   size: 5 lbs
   net_weight: 5.0 [lb_av]
-- product_id: 0081000541449
-  upc: 0081000541449
+- product_id: 0081000541457
+  upc: 0081000541457
   brand: MONDAY Haircare
-  description: MONDAY Haircare Smooth + Wheat Protein Gardenia Scent Shampoo
+  description: MONDAY Smooth + Wheat Protein Gardenia Scent Conditioner
   categories:
   - Personal Care
   - Beauty
@@ -2444,19 +2651,28 @@ wheat gluten:
   promo_price: 12.49
   size: 27 fl oz
   net_weight: 2.0 [lb_av]
-seitan:
-- product_id: '0004432515051'
-  upc: '0004432515051'
-  brand: Franklin Farms
-  description: Franklin Farms Plant-Based Chik'n Seitan
-  categories:
-  - Natural & Organic
-  - Natural & Organic
-  regular_price: 5.99
-  promo_price: null
-  size: 8 oz
-  net_weight: 0.5 [lb_av]
+seitan: []
 bob's red mill:
+- product_id: 0003997803902
+  upc: 0003997803902
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Gluten Free Peanut Butter Chocolate & Oats Bob's Bar
+  categories:
+  - Snacks
+  regular_price: 1.79
+  promo_price: null
+  size: 1.76 oz
+  net_weight: 0.11 [lb_av]
+- product_id: 0003997815902
+  upc: 0003997815902
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Gluten Free Peanut Butter Honey & Oats Bob's Bar
+  categories:
+  - Snacks
+  regular_price: 1.79
+  promo_price: null
+  size: 1.76 oz
+  net_weight: 0.11 [lb_av]
 - product_id: 0003997800508
   upc: 0003997800508
   brand: Bob's Red Mill
@@ -2467,16 +2683,16 @@ bob's red mill:
   promo_price: null
   size: 14 oz
   net_weight: 0.87 [lb_av]
-- product_id: 0003997811125
-  upc: 0003997811125
+- product_id: 0003997802330
+  upc: 0003997802330
   brand: Bob's Red Mill
-  description: Bob's Red Mill Yellow Corn Polenta
+  description: Bob's Red Mill Gluten Free Flaxseed Meal
   categories:
-  - Natural & Organic
-  regular_price: 4.79
+  - Snacks
+  regular_price: 4.59
   promo_price: null
-  size: 24 oz
-  net_weight: 1.5 [lb_av]
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
 - product_id: 0003997811124
   upc: 0003997811124
   brand: Bob's Red Mill
@@ -2487,17 +2703,28 @@ bob's red mill:
   promo_price: null
   size: 24 oz
   net_weight: 1.5 [lb_av]
-- product_id: 0003997811461
-  upc: 0003997811461
+- product_id: 0003997853301
+  upc: 0003997853301
   brand: Bob's Red Mill
-  description: Bob's Red Mill Gluten Free Cornbread Mix
+  description: Bob's Red Mill All-Purpose White Unbleached Flour
   categories:
   - Natural & Organic
   - Baking Goods
-  regular_price: 5.29
+  regular_price: 4.99
   promo_price: null
-  size: 20 oz
-  net_weight: 1.25 [lb_av]
+  size: 5 lb
+  net_weight: 5.0 [lb_av]
+- product_id: 0003997853300
+  upc: 0003997853300
+  brand: Bob's Red Mill
+  description: Bob's Red Mill 100% Stone Ground Whole Wheat Flour
+  categories:
+  - Natural & Organic
+  - Baking Goods
+  regular_price: 4.99
+  promo_price: null
+  size: 5 lb
+  net_weight: 5.0 [lb_av]
 - product_id: 0003997803392
   upc: 0003997803392
   brand: Bob's Red Mill
@@ -2509,60 +2736,27 @@ bob's red mill:
   promo_price: null
   size: 14 oz
   net_weight: 0.87 [lb_av]
-- product_id: 0003997804143
-  upc: 0003997804143
+- product_id: 0003997804140
+  upc: 0003997804140
   brand: Bob's Red Mill
-  description: Bob's Red Mill High Fiber Oat Bran Hot Cereal
+  description: Bob's Red Mill Whole Grain Steel Cut Pinhead Oats
   categories:
   - Breakfast
   regular_price: 5.49
   promo_price: null
-  size: 18 oz
-  net_weight: 1.13 [lb_av]
-- product_id: 0003997803535
-  upc: 0003997803535
+  size: 24 oz
+  net_weight: 1.5 [lb_av]
+- product_id: 0003997811318
+  upc: 0003997811318
   brand: Bob's Red Mill
-  description: Bob's Red Mill Gluten Free Tapioca Flour
+  description: Bob's Red Mill Semolina Pasta Flour
   categories:
-  - Natural & Organic
   - Baking Goods
+  - Natural & Organic
   regular_price: 5.49
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-- product_id: 0003997812250
-  upc: 0003997812250
-  brand: Bob's Red Mill
-  description: Bob's Red Mill Vegi Soup Mix
-  categories:
-  - Canned & Packaged
-  - Natural & Organic
-  regular_price: 5.99
-  promo_price: null
-  size: 28 oz
-  net_weight: 1.75 [lb_av]
-- product_id: 0003997800283
-  upc: 0003997800283
-  brand: Bob's Red Mill
-  description: Bob's Red Mill Organic Masa Harina Corn Flour
-  categories:
-  - Natural & Organic
-  - Baking Goods
-  regular_price: 6.29
   promo_price: null
   size: 24 oz
   net_weight: 1.5 [lb_av]
-- product_id: 0003997811377
-  upc: 0003997811377
-  brand: Bob's Red Mill
-  description: Bob's Red Mill Gluten Free Oat Flour
-  categories:
-  - Baking Goods
-  - Bakery
-  regular_price: 6.99
-  promo_price: null
-  size: 18 oz
-  net_weight: 1.13 [lb_av]
 whole milk gallon:
 - product_id: '0001111040601'
   upc: '0001111040601'
@@ -2595,17 +2789,6 @@ whole milk gallon:
   promo_price: null
   size: 1/2 gal
   net_weight: 4.43 [lb_av]
-- product_id: 0001111085333
-  upc: 0001111085333
-  brand: Kroger
-  description: Kroger® Lactose Free Vitamin D Milk Half Gallon
-  categories:
-  - Dairy
-  - Dairy
-  regular_price: 3.49
-  promo_price: null
-  size: 1/2 gal
-  net_weight: 4.27 [lb_av]
 - product_id: 0001111042850
   upc: 0001111042850
   brand: Simple Truth Organic
@@ -2629,71 +2812,62 @@ whole milk gallon:
   promo_price: 3.99
   size: 1/2 gal
   net_weight: 4.0 [lb_av]
-- product_id: 0001111042858
-  upc: 0001111042858
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Vitamin D Whole Milk with DHA Omega-3 Half Gallon
+- product_id: 0004138315547
+  upc: 0004138315547
+  brand: Lactaid
+  description: Lactaid® Lactose Free Chocolate Whole Milk Half Gallon
   categories:
   - Dairy
-  - Natural & Organic
-  regular_price: 4.99
-  promo_price: 3.99
-  size: 1/2 gal
-  net_weight: 4.31 [lb_av]
-- product_id: '0001111050075'
-  upc: '0001111050075'
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Whole Chocolate Milk Half Gallon
-  categories:
-  - Natural & Organic
   - Dairy
   - Dairy
   regular_price: 4.99
-  promo_price: 3.99
-  size: 1/2 gal
-  net_weight: 4.31 [lb_av]
-- product_id: '0001111042712'
-  upc: '0001111042712'
-  brand: Kroger
-  description: Kroger® Cultured Whole Milk Buttermilk Half Gallon
-  categories:
-  - Dairy
-  - Dairy
-  regular_price: 5.49
   promo_price: null
-  size: 1/2 gal
+  size: 64 oz
+  net_weight: 4.42 [lb_av]
+- product_id: 0004138309036
+  upc: 0004138309036
+  brand: Lactaid
+  description: Lactaid® Lactose Free Whole Milk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 4.99
+  promo_price: null
+  size: 1/2 gallon
   net_weight: 4.3 [lb_av]
-- product_id: '0007273021202'
-  upc: '0007273021202'
+- product_id: 0007273023229
+  upc: 0007273023229
   brand: Prairie Farms
-  description: Prairie Farms® Whole Vitamin D Milk
+  description: Prairie Farms Lactose Free Whole Milk
   categories:
   - Dairy
-  regular_price: 4.19
+  regular_price: 5.99
   promo_price: null
-  size: 0.5 gal
+  size: 1 gal
+  net_weight: 8.75 [lb_av]
+- product_id: 0009396651300
+  upc: 0009396651300
+  brand: Organic Valley
+  description: Organic Valley® Whole Milk Half Gallon
+  categories:
+  - Dairy
+  - Natural & Organic
+  regular_price: 6.29
+  promo_price: 5.49
+  size: 64 fl oz
   net_weight: 4.0 [lb_av]
+- product_id: '0074236526445'
+  upc: '0074236526445'
+  brand: Horizon Organic
+  description: Horizon Organic Vitamin D Whole Milk - Vitamin D Milk
+  categories:
+  - Dairy
+  - Natural & Organic
+  regular_price: 6.79
+  promo_price: null
+  size: 1/2 gal
+  net_weight: 4.31 [lb_av]
 low fat milk gallon:
-- product_id: '0001111041600'
-  upc: '0001111041600'
-  brand: Kroger
-  description: Kroger® 2% Reduced Fat Milk Half Gallon
-  categories:
-  - Dairy
-  regular_price: 2.29
-  promo_price: null
-  size: 1/2 gal
-  net_weight: 4.32 [lb_av]
-- product_id: '0001111041661'
-  upc: '0001111041661'
-  brand: Kroger
-  description: Kroger® 1% Lowfat Milk Half Gallon
-  categories:
-  - Dairy
-  regular_price: 2.29
-  promo_price: null
-  size: 1/2 gal
-  net_weight: 4.32 [lb_av]
 - product_id: 0001111009431
   upc: 0001111009431
   brand: Simple Truth Organic
@@ -2717,10 +2891,10 @@ low fat milk gallon:
   promo_price: null
   size: 1/2 gal
   net_weight: 4.43 [lb_av]
-- product_id: 0001111013268
-  upc: 0001111013268
+- product_id: '0001111013265'
+  upc: '0001111013265'
   brand: Simple Truth
-  description: Simple Truth® Dairy Free Unsweetened Vanilla Almond Milk Half Gallon
+  description: Simple Truth® Dairy Free Vanilla Almond Milk Half Gallon
   categories:
   - Natural & Organic
   - Dairy
@@ -2728,7 +2902,18 @@ low fat milk gallon:
   regular_price: 2.79
   promo_price: null
   size: 1/2 gal
-  net_weight: 4.2 [lb_av]
+  net_weight: 4.28 [lb_av]
+- product_id: '0001111050574'
+  upc: '0001111050574'
+  brand: Kroger
+  description: Kroger 1% Lowfat Chocolate Milk Half Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 2.99
+  promo_price: null
+  size: 1/2 gal
+  net_weight: 4.48 [lb_av]
 - product_id: '0001111041660'
   upc: '0001111041660'
   brand: Kroger
@@ -2759,17 +2944,17 @@ low fat milk gallon:
   promo_price: null
   size: 1 gal
   net_weight: 8.62 [lb_av]
-- product_id: 0001111008243
-  upc: 0001111008243
+- product_id: 0001111082556
+  upc: 0001111082556
   brand: Kroger
-  description: Kroger® Lactose Free 1% Low Fat Milk Half Gallon
+  description: Kroger® Lactose Free 2% Reduced Fat Milk Half Gallon
   categories:
   - Dairy
   - Dairy
   regular_price: 3.49
   promo_price: null
   size: 1/2 gal
-  net_weight: 4.32 [lb_av]
+  net_weight: 4.3 [lb_av]
 - product_id: 0001111008163
   upc: 0001111008163
   brand: Kroger
@@ -2781,6 +2966,17 @@ low fat milk gallon:
   promo_price: null
   size: 1/2 gal
   net_weight: 4.32 [lb_av]
+- product_id: '0001111050573'
+  upc: '0001111050573'
+  brand: Kroger
+  description: Kroger® 1% Lowfat Chocolate Milk Gallon
+  categories:
+  - Dairy
+  - Dairy
+  regular_price: 4.19
+  promo_price: null
+  size: 1 gal
+  net_weight: 8.84 [lb_av]
 large eggs grade a:
 - product_id: 0001111060903
   upc: 0001111060903
@@ -2793,6 +2989,17 @@ large eggs grade a:
   promo_price: null
   size: '11.80'
   net_weight: 1.77 [lb_av]
+- product_id: 0001111060933
+  upc: 0001111060933
+  brand: Kroger
+  description: Kroger® Grade A Large White Eggs
+  categories:
+  - Breakfast
+  - Dairy
+  regular_price: 2.65
+  promo_price: null
+  size: 18 ct
+  net_weight: 0.13 [lb_av]
 - product_id: 0001111079770
   upc: 0001111079770
   brand: Simple Truth
@@ -2827,6 +3034,50 @@ large eggs grade a:
   promo_price: null
   size: 18 ct / 36 oz
   net_weight: 2.12 [lb_av]
+- product_id: 0001111006479
+  upc: 0001111006479
+  brand: Simple Truth Organic
+  description: Simple Truth Organic™ Cage Free Grade A Large Brown Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 7.29
+  promo_price: null
+  size: 18 ct
+  net_weight: 2.22 [lb_av]
+- product_id: '0003360400510'
+  upc: '0003360400510'
+  brand: Sauder's Eggs
+  description: Sauder's Pasture Raised Grade A Large Brown Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 4.99
+  promo_price: null
+  size: 12 ct
+  net_weight: 1.5 [lb_av]
+- product_id: 0088742200000
+  upc: 0088742200000
+  brand: Happy Egg Co.
+  description: Happy Egg 12 count Large Brown Grade A Free Range Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 5.99
+  promo_price: null
+  size: 12 pk
+  net_weight: 1.75 [lb_av]
+- product_id: 0086174500002
+  upc: 0086174500002
+  brand: Vital Farms
+  description: Vital Farms® Pasture-Raised Large Brown Grade-A Organic Eggs
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 9.99
+  promo_price: null
+  size: 12 ct
+  net_weight: 1.5 [lb_av]
 plain greek yogurt:
 - product_id: 0001111050481
   upc: 0001111050481
@@ -2859,36 +3110,17 @@ plain greek yogurt:
   promo_price: null
   size: 32 oz
   net_weight: 2.0 [lb_av]
-- product_id: 0089470001001
-  upc: 0089470001001
-  brand: Chobani
-  description: Chobani® Plain Nonfat Greek Yogurt Cup
-  categories:
-  - Dairy
-  regular_price: 1.5
-  promo_price: 1.2
-  size: 5.3 oz
-  net_weight: 0.33 [lb_av]
-- product_id: 0068954408060
-  upc: 0068954408060
+- product_id: 0068954408020
+  upc: 0068954408020
   brand: Fage
-  description: Fage® Total Plain 5% Milkfat Low Fat Greek Yogurt Cup
+  description: Fage® Total Plain 2% Milkfat Low Fat Greek Yogurt Cup
   categories:
   - Dairy
+  - Natural & Organic
   regular_price: 1.59
   promo_price: null
   size: 5.3 oz
   net_weight: 0.33 [lb_av]
-- product_id: 0007835558000
-  upc: 0007835558000
-  brand: The Greek Gods
-  description: The Greek Gods® Nonfat Plain Greek Style Yogurt Tub
-  categories:
-  - Dairy
-  regular_price: 4.79
-  promo_price: null
-  size: 24oz
-  net_weight: 1.5 [lb_av]
 - product_id: 0081829001381
   upc: 0081829001381
   brand: Chobani
@@ -2909,6 +3141,16 @@ plain greek yogurt:
   promo_price: null
   size: 32 oz
   net_weight: 2.0 [lb_av]
+- product_id: 0089470001013
+  upc: 0089470001013
+  brand: Chobani
+  description: Chobani® Plain Nonfat Greek Yogurt Tub
+  categories:
+  - Dairy
+  regular_price: 6.29
+  promo_price: null
+  size: 32 oz
+  net_weight: 2.0 [lb_av]
 - product_id: 0089470001043
   upc: 0089470001043
   brand: Chobani
@@ -2919,10 +3161,20 @@ plain greek yogurt:
   promo_price: null
   size: 32 oz
   net_weight: 2.0 [lb_av]
-- product_id: 0068954408300
-  upc: 0068954408300
+- product_id: 0068954408301
+  upc: 0068954408301
   brand: Fage
-  description: Fage® Total Plain Whole Milk Greek Yogurt Tub
+  description: Fage® Total Plain Nonfat Greek Yogurt Tub
+  categories:
+  - Dairy
+  regular_price: 6.99
+  promo_price: null
+  size: 32 oz
+  net_weight: 2.0 [lb_av]
+- product_id: 0068954408302
+  upc: 0068954408302
+  brand: Fage
+  description: Fage® Total Plain Low Fat Greek Yogurt Tub
   categories:
   - Dairy
   - Natural & Organic
@@ -2941,20 +3193,20 @@ cheddar cheese:
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: 0001111058625
-  upc: 0001111058625
+- product_id: 0001111010118
+  upc: 0001111010118
   brand: Kroger
-  description: Kroger® Mild Cheddar Cheese Block
+  description: Kroger® Reduced Fat Sharp Cheddar Shredded Cheese
   categories:
   - Dairy
   regular_price: 2.49
   promo_price: 2.33
   size: 8 oz
   net_weight: 0.5 [lb_av]
-- product_id: 0001111058626
-  upc: 0001111058626
+- product_id: 0001111058625
+  upc: 0001111058625
   brand: Kroger
-  description: Kroger® Medium Cheddar Block Cheese
+  description: Kroger® Mild Cheddar Cheese Block
   categories:
   - Dairy
   regular_price: 2.49
@@ -3021,16 +3273,16 @@ cheddar cheese:
   promo_price: 2.33
   size: 8 oz
   net_weight: 0.5 [lb_av]
-- product_id: 0001111050183
-  upc: 0001111050183
+- product_id: 0001111058711
+  upc: 0001111058711
   brand: Kroger
-  description: Kroger® Cheddar Jack Shredded Cheese
+  description: Kroger® Aged Sharp White Cheddar Sliced Cheese
   categories:
   - Dairy
   regular_price: 2.49
   promo_price: 2.33
-  size: 8 oz
-  net_weight: 0.5 [lb_av]
+  size: 8 slices / 6 oz
+  net_weight: 0.38 [lb_av]
 cottage cheese:
 - product_id: 0001111015964
   upc: 0001111015964
@@ -3039,30 +3291,6 @@ cottage cheese:
   categories:
   - Natural & Organic
   - Dairy
-  regular_price: 1.25
-  promo_price: null
-  size: 5.65 oz
-  net_weight: 0.35 [lb_av]
-- product_id: 0001111015965
-  upc: 0001111015965
-  brand: Simple Truth
-  description: Simple Truth® Protein Plain 2% Milkfat Small Curd Cottage Cheese with
-    Strawberries
-  categories:
-  - Natural & Organic
-  - Dairy
-  regular_price: 1.25
-  promo_price: null
-  size: 5.65 oz
-  net_weight: 0.35 [lb_av]
-- product_id: 0001111015966
-  upc: 0001111015966
-  brand: Simple Truth
-  description: Simple Truth® Protein Plain 2% Milkfat Small Curd Cottage Cheese with
-    Pineapple
-  categories:
-  - Dairy
-  - Natural & Organic
   regular_price: 1.25
   promo_price: null
   size: 5.65 oz
@@ -3107,20 +3335,20 @@ cottage cheese:
   promo_price: 1.99
   size: 16 oz
   net_weight: 1.0 [lb_av]
-- product_id: '0001111045045'
-  upc: '0001111045045'
+- product_id: '0001111011071'
+  upc: '0001111011071'
   brand: Kroger
-  description: Kroger® 2% Low Fat Small Curd Cottage Cheese
+  description: Kroger® Part Skim Ricotta Cheese
   categories:
   - Dairy
-  regular_price: 3.19
-  promo_price: null
-  size: 24 oz
-  net_weight: 1.5 [lb_av]
-- product_id: '0001111044450'
-  upc: '0001111044450'
+  regular_price: 2.99
+  promo_price: 2.49
+  size: 15 oz
+  net_weight: 0.94 [lb_av]
+- product_id: '0001111044400'
+  upc: '0001111044400'
   brand: Kroger
-  description: Kroger® Fat Free Small Curd Cottage Cheese
+  description: Kroger® 4% Milkfat Small Curd Cottage Cheese
   categories:
   - Dairy
   regular_price: 3.19
@@ -3138,18 +3366,28 @@ cottage cheese:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
+- product_id: 0001111048987
+  upc: 0001111048987
+  brand: Kroger
+  description: Kroger® Whole Milk Ricotta Cheese
+  categories:
+  - Dairy
+  regular_price: 5.49
+  promo_price: null
+  size: 30 oz
+  net_weight: 1.88 [lb_av]
+- product_id: '0001111044217'
+  upc: '0001111044217'
+  brand: Kroger
+  description: Kroger® 4% Milkfat Small Curd Cottage Cheese BIG DEAL!
+  categories:
+  - Dairy
+  regular_price: 5.49
+  promo_price: null
+  size: 48 oz
+  net_weight: 3.0 [lb_av]
 nonfat dry milk: []
 powdered milk:
-- product_id: 0085004721782
-  upc: 0085004721782
-  brand: Yulu Foods
-  description: Yulu Foods™ Matcha Milk Tea Boba Kit
-  categories:
-  - Beverages
-  regular_price: 9.49
-  promo_price: null
-  size: 8.25 oz
-  net_weight: 0.52 [lb_av]
 - product_id: 0085004721781
   upc: 0085004721781
   brand: Yulu Foods
@@ -3249,16 +3487,6 @@ chicken breast boneless:
   promo_price: null
   size: 1 lb
   net_weight: 1.5 [lb_av]
-- product_id: 0001111097860
-  upc: 0001111097860
-  brand: Kroger
-  description: Kroger® Frozen Raw Boneless Skinless Chicken Breasts
-  categories:
-  - Frozen
-  regular_price: 8.99
-  promo_price: null
-  size: 3 lb
-  net_weight: 3.0 [lb_av]
 - product_id: 0001111000906
   upc: 0001111000906
   brand: Kroger
@@ -3269,26 +3497,39 @@ chicken breast boneless:
   promo_price: null
   size: 2.5 lb
   net_weight: 2.5 [lb_av]
-- product_id: 0001111069150
-  upc: 0001111069150
-  brand: Private Selection
-  description: Private Selection® Honey Dijon Boneless Skinless Chicken Breasts
+- product_id: 0000000834135
+  upc: 0000000834135
+  brand: Kroger
+  description: Kroger® Fully Cooked Frozen Boneless Skinless Grilled Chicken Breast
+    Dices x 2
+  categories:
+  - Frozen
+  regular_price: 14.38
+  promo_price: null
+  size: 2x 22 oz
+  net_weight: null
+- product_id: 0001111067942
+  upc: 0001111067942
+  brand: Kroger
+  description: Kroger® Boneless Skinless Frozen Chicken Breast BIG DEAL!
+  categories:
+  - Frozen
+  regular_price: 24.99
+  promo_price: null
+  size: 8 lb
+  net_weight: 8.0 [lb_av]
+- product_id: '0026061500000'
+  upc: '0026061500000'
+  brand: Tyson
+  description: Tyson® All Natural Fresh Boneless Skinless Chicken Breasts with Rib
+    Meat
   categories:
   - Meat & Seafood
-  regular_price: 10.0
+  - Natural & Organic
+  regular_price: 4.49
   promo_price: null
-  size: 1.31 lb
-  net_weight: 1.31 [lb_av]
-- product_id: 0001111069152
-  upc: 0001111069152
-  brand: Private Selection
-  description: Private Selection® Chile Lime Boneless Skinless Chicken Breasts
-  categories:
-  - Meat & Seafood
-  regular_price: 10.0
-  promo_price: null
-  size: 1.31 lb
-  net_weight: 1.31 [lb_av]
+  size: 1 lb
+  net_weight: 42.0 [lb_av]
 chicken thighs:
 - product_id: 0024071850000
   upc: 0024071850000
@@ -3312,6 +3553,17 @@ chicken thighs:
   promo_price: null
   size: 1 lb
   net_weight: 1.67 [lb_av]
+- product_id: 0028896350000
+  upc: 0028896350000
+  brand: Simple Truth
+  description: Simple Truth® Natural Boneless & Skinless Fresh Chicken Thighs Griller
+    Pack BIG DEAL!
+  categories:
+  - Meat & Seafood
+  regular_price: 4.99
+  promo_price: 4.49
+  size: 1 lb
+  net_weight: 3.25 [lb_av]
 - product_id: 0001111063825
   upc: 0001111063825
   brand: Kroger
@@ -3322,6 +3574,17 @@ chicken thighs:
   promo_price: null
   size: 4.5 lb
   net_weight: 4.5 [lb_av]
+- product_id: 0020095850000
+  upc: 0020095850000
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Boneless & Skinless Fresh Organic Chicken Thighs
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 7.99
+  promo_price: null
+  size: 1 lb
+  net_weight: 1.28 [lb_av]
 - product_id: 0001111014592
   upc: 0001111014592
   brand: Kroger
@@ -3333,49 +3596,6 @@ chicken thighs:
   promo_price: null
   size: 22 oz
   net_weight: 1.38 [lb_av]
-- product_id: '0001111013634'
-  upc: '0001111013634'
-  brand: Kroger
-  description: Kroger® Fully Cooked Frozen Chicken Wings Buffalo Style
-  categories:
-  - Frozen
-  - Frozen
-  - Meat & Seafood
-  regular_price: 9.29
-  promo_price: null
-  size: 22 ounce
-  net_weight: 1.38 [lb_av]
-- product_id: 0021866200000
-  upc: 0021866200000
-  brand: Kroger
-  description: Flamin' Hot® Ready to Heat Boneless Chicken Wings
-  categories:
-  - Meat & Seafood
-  regular_price: 9.99
-  promo_price: null
-  size: 1 ct
-  net_weight: 1.0 [lb_av]
-- product_id: 0001111069148
-  upc: 0001111069148
-  brand: Private Selection
-  description: Private Selection® Lemon Herb Boneless Skinless Chicken Thighs
-  categories:
-  - Meat & Seafood
-  regular_price: 10.0
-  promo_price: null
-  size: 1.31 lb
-  net_weight: 1.31 [lb_av]
-- product_id: 0001111069149
-  upc: 0001111069149
-  brand: Private Selection
-  description: Private Selection® Black Pepper and BBQ Flavor Boneless Skinless Chicken
-    Thighs
-  categories:
-  - Meat & Seafood
-  regular_price: 10.0
-  promo_price: null
-  size: 1.31 lb
-  net_weight: 1.31 [lb_av]
 - product_id: 0001111065930
   upc: 0001111065930
   brand: Kroger
@@ -3396,6 +3616,26 @@ chicken thighs:
   promo_price: null
   size: 1.31 lb
   net_weight: 1.31 [lb_av]
+- product_id: 0001111097861
+  upc: 0001111097861
+  brand: Kroger
+  description: Kroger® Frozen Raw Boneless Skinless Chicken Thighs
+  categories:
+  - Frozen
+  regular_price: 10.99
+  promo_price: null
+  size: 3 lb
+  net_weight: 3.0 [lb_av]
+- product_id: 0028334750000
+  upc: 0028334750000
+  brand: Heritage Farm
+  description: Heritage Farm® Bone In Skin On Chicken Thighs
+  categories:
+  - Meat & Seafood
+  regular_price: 1.99
+  promo_price: null
+  size: 1 lb
+  net_weight: 5.22 [lb_av]
 whole chicken:
 - product_id: 0020891150000
   upc: 0020891150000
@@ -3418,15 +3658,15 @@ whole chicken:
   promo_price: null
   size: 32 oz
   net_weight: 2.0 [lb_av]
-- product_id: 0001111068480
-  upc: 0001111068480
+- product_id: 0001111068483
+  upc: 0001111068483
   brand: Private Selection
-  description: Private Selection® Classic Seasoned Whole Roasted Chicken Cold
+  description: Private Selection® Garlic and Herb Whole Roasted Chicken Hot
   categories:
   - Meat & Seafood
   regular_price: 7.99
   promo_price: null
-  size: 32 oz
+  size: 32 oz 
   net_weight: 2.0 [lb_av]
 - product_id: 0001111068484
   upc: 0001111068484
@@ -3460,6 +3700,16 @@ whole chicken:
   promo_price: null
   size: 2 lb
   net_weight: 3.4 [lb_av]
+- product_id: 0028334850000
+  upc: 0028334850000
+  brand: Heritage Farm
+  description: Heritage Farm® Bone In Skin On Whole Young Chicken
+  categories:
+  - Meat & Seafood
+  regular_price: 1.49
+  promo_price: null
+  size: 1 lb
+  net_weight: 5.6 [lb_av]
 - product_id: 0026080500000
   upc: 0026080500000
   brand: Tyson
@@ -3482,39 +3732,28 @@ whole chicken:
   promo_price: null
   size: 1 lb
   net_weight: 4.0 [lb_av]
-- product_id: 0024894500000
-  upc: 0024894500000
-  brand: null
-  description: Miller Poultry Whole Fresh Chicken
+- product_id: 0025081000000
+  upc: 0025081000000
+  brand: Perdue
+  description: PERDUE® Fresh Whole Chicken Wings
   categories:
   - Meat & Seafood
   - Natural & Organic
-  regular_price: 2.99
+  regular_price: 4.99
+  promo_price: null
+  size: 1 lb
+  net_weight: 1.0 [lb_av]
+chicken leg quarters:
+- product_id: 0029062400000
+  upc: 0029062400000
+  brand: null
+  description: Fresh Chicken Seasoned Leg Quarters
+  categories:
+  - Meat & Seafood
+  regular_price: 1.99
   promo_price: null
   size: 1 lb
   net_weight: null
-- product_id: 0084013430536
-  upc: 0084013430536
-  brand: Home Chef
-  description: Home Chef Lemon Pepper Whole Chicken Cold
-  categories:
-  - Meat & Seafood
-  - Meat & Seafood
-  regular_price: 7.99
-  promo_price: null
-  size: 1 ct
-  net_weight: 2.0 [lb_av]
-chicken leg quarters:
-- product_id: '0001111063604'
-  upc: '0001111063604'
-  brand: Heritage Farm
-  description: Heritage Farm® Bone In Skin On Chicken Leg Quarters
-  categories:
-  - Meat & Seafood
-  regular_price: 7.99
-  promo_price: null
-  size: 10 lb
-  net_weight: 10.0 [lb_av]
 ground beef 80 20:
 - product_id: 0001111097971
   upc: 0001111097971
@@ -3526,14 +3765,14 @@ ground beef 80 20:
   promo_price: null
   size: 1 lb
   net_weight: 1.0 [lb_av]
-- product_id: 0029130500000
-  upc: 0029130500000
-  brand: Private Selection
-  description: Private Selection™ Angus 80/20 Lean Ground Beef
+- product_id: 0001111096972
+  upc: 0001111096972
+  brand: Kroger
+  description: Kroger® 80/20 Ground Beef Tray 1 LB
   categories:
   - Meat & Seafood
-  regular_price: 7.99
-  promo_price: 6.99
+  regular_price: 7.49
+  promo_price: null
   size: 1 lb
   net_weight: 1.0 [lb_av]
 - product_id: '0001111063461'
@@ -3547,27 +3786,6 @@ ground beef 80 20:
   promo_price: null
   size: 2 ct / 14 oz
   net_weight: 0.88 [lb_av]
-- product_id: 0001111097648
-  upc: 0001111097648
-  brand: Simple Truth
-  description: Simple Truth® 80/20 Natural Ground Beef Pack 1 LB
-  categories:
-  - Meat & Seafood
-  - Natural & Organic
-  regular_price: 8.49
-  promo_price: null
-  size: 1 lb
-  net_weight: 1.0 [lb_av]
-- product_id: 0001111097943
-  upc: 0001111097943
-  brand: Simple Truth
-  description: Simple Truth® 80/20 Natural Beef Burgers
-  categories:
-  - Meat & Seafood
-  regular_price: 15.99
-  promo_price: null
-  size: 6 ct / 32 oz
-  net_weight: 2.0 [lb_av]
 - product_id: 0001111097972
   upc: 0001111097972
   brand: Kroger
@@ -3589,17 +3807,40 @@ ground beef 80 20:
   promo_price: null
   size: 3 lb
   net_weight: 3.0 [lb_av]
+- product_id: 0002718256550
+  upc: 0002718256550
+  brand: Tyson
+  description: Tyson Ground 80% Lean/20% Fat Beef & Pork
+  categories:
+  - Meat & Seafood
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 8.0
+  promo_price: null
+  size: 32 oz
+  net_weight: 2.0 [lb_av]
+- product_id: 0008194137912
+  upc: 0008194137912
+  brand: HeartBrand
+  description: HeartBrand® 80/20 Akaushi Wagyu Ground Beef
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 8.99
+  promo_price: null
+  size: 1 lb
+  net_weight: 1.0 [lb_av]
 pork loin:
-- product_id: 0029210350000
-  upc: 0029210350000
+- product_id: 0029210250000
+  upc: 0029210250000
   brand: Kroger
-  description: Kroger® Pork Loin Assorted End Chop Bone
+  description: Kroger® Pork Loin Assorted End Chops Bone In
   categories:
   - Meat & Seafood
   regular_price: 4.49
-  promo_price: 3.99
+  promo_price: null
   size: 1 lb
-  net_weight: 2.65 [lb_av]
+  net_weight: 1.75 [lb_av]
 - product_id: 0001111061219
   upc: 0001111061219
   brand: Private Selection
@@ -3610,17 +3851,6 @@ pork loin:
   promo_price: null
   size: 10 oz
   net_weight: 0.63 [lb_av]
-- product_id: 0001111066269
-  upc: 0001111066269
-  brand: Kroger
-  description: Kroger® Cook In Bag Peppercorn Seasoned Pork Loin Filet
-  categories:
-  - Meat & Seafood
-  - Meat & Seafood
-  regular_price: 7.0
-  promo_price: null
-  size: 23 oz
-  net_weight: 1.44 [lb_av]
 - product_id: '0001111063445'
   upc: '0001111063445'
   brand: Kroger
@@ -3631,16 +3861,6 @@ pork loin:
   promo_price: null
   size: 10 ct / 2 lb
   net_weight: 2.0 [lb_av]
-- product_id: '0001111066226'
-  upc: '0001111066226'
-  brand: Kroger
-  description: Kroger® Bone-In Pork Loin Chops
-  categories:
-  - Meat & Seafood
-  regular_price: 10.0
-  promo_price: null
-  size: 36 oz
-  net_weight: 2.25 [lb_av]
 - product_id: '0020322450000'
   upc: '0020322450000'
   brand: PORK
@@ -3652,17 +3872,6 @@ pork loin:
   promo_price: 1.99
   size: 1 lb
   net_weight: null
-- product_id: '0020324250000'
-  upc: '0020324250000'
-  brand: Tyson
-  description: Thin Cut Bone-In Pork Loin Center-Cut Chop
-  categories:
-  - Meat & Seafood
-  - Natural & Organic
-  regular_price: 4.79
-  promo_price: null
-  size: 1 lb
-  net_weight: 1.16 [lb_av]
 - product_id: 0028849550000
   upc: 0028849550000
   brand: Tyson
@@ -3674,6 +3883,17 @@ pork loin:
   promo_price: null
   size: 1 lb
   net_weight: 17.66 [lb_av]
+- product_id: 0028327300000
+  upc: 0028327300000
+  brand: PORK
+  description: Boneless Pork Loin Center Cut Thick Pork Chops
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 4.99
+  promo_price: null
+  size: 1 lb
+  net_weight: 1.37 [lb_av]
 - product_id: 0001111064148
   upc: 0001111064148
   brand: National Beef
@@ -3694,7 +3914,40 @@ pork loin:
   promo_price: null
   size: 12 oz
   net_weight: 1.25 [lb_av]
+- product_id: 0029319000000
+  upc: 0029319000000
+  brand: null
+  description: Boneless Pork Loin Center-Cut Thin Chops
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 5.49
+  promo_price: null
+  size: 1 lb
+  net_weight: 1.45 [lb_av]
+- product_id: 0007080074210
+  upc: 0007080074210
+  brand: Smithfield
+  description: Smithfield Marinated Portobello Mushroom Fresh Pork Loin Filet
+  categories:
+  - Meat & Seafood
+  - Meat & Seafood
+  regular_price: 9.99
+  promo_price: 6.0
+  size: 23 oz
+  net_weight: 1.43 [lb_av]
 pork shoulder:
+- product_id: 0020799300000
+  upc: 0020799300000
+  brand: Kroger
+  description: Kroger® Fresh Natural Pork Shoulder Butt Bone In
+  categories:
+  - Meat & Seafood
+  - Natural & Organic
+  regular_price: 2.99
+  promo_price: null
+  size: 1 lb
+  net_weight: null
 - product_id: 0021358400000
   upc: 0021358400000
   brand: Private Selection
@@ -3717,16 +3970,6 @@ pork shoulder:
   promo_price: 4.49
   size: 1 lb
   net_weight: 3.25 [lb_av]
-- product_id: 0021864800000
-  upc: 0021864800000
-  brand: Kroger
-  description: Kroger® Boneless Pork Shoulder Butt Carnitas
-  categories:
-  - Meat & Seafood
-  regular_price: 5.99
-  promo_price: null
-  size: 1 ct
-  net_weight: 1.5 [lb_av]
 - product_id: 0020318400000
   upc: 0020318400000
   brand: PORK
@@ -3748,17 +3991,27 @@ pork shoulder:
   promo_price: null
   size: 1 lb
   net_weight: null
+- product_id: 0002718212630
+  upc: 0002718212630
+  brand: Tyson
+  description: Tyson Premium Quality Sweet & Smoky BBQ Seasoned Pork Butt Roast
+  categories:
+  - Meat & Seafood
+  regular_price: 12.0
+  promo_price: null
+  size: 2 lb 4 oz
+  net_weight: 36.0 [lb_av]
 canned tuna in water:
-- product_id: 0001111089084
-  upc: 0001111089084
+- product_id: 0001111080775
+  upc: 0001111080775
   brand: Kroger
   description: Kroger® Wild Caught Chunk Light Tuna in Water
   categories:
   - Canned & Packaged
-  regular_price: 0.97
-  promo_price: null
-  size: 5 oz
-  net_weight: 0.31 [lb_av]
+  regular_price: 0.99
+  promo_price: 0.89
+  size: 2.5 oz
+  net_weight: 0.16 [lb_av]
 - product_id: 0001111080790
   upc: 0001111080790
   brand: Kroger
@@ -3809,17 +4062,6 @@ canned tuna in water:
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: 0001111090078
-  upc: 0001111090078
-  brand: Simple Truth
-  description: Simple Truth® Pole and Line Skipjack Chunk Light Tuna in Spring Water
-    with Sea Salt
-  categories:
-  - Canned & Packaged
-  regular_price: 2.49
-  promo_price: null
-  size: 5 oz
-  net_weight: 0.31 [lb_av]
 - product_id: 0001111082796
   upc: 0001111082796
   brand: Kroger
@@ -3830,31 +4072,52 @@ canned tuna in water:
   promo_price: null
   size: 3 ct / 3 oz
   net_weight: 0.56 [lb_av]
-- product_id: 0001111014936
-  upc: 0001111014936
+- product_id: 0001111014697
+  upc: 0001111014697
   brand: Kroger
-  description: Kroger® Wild Caught Chunk Light Tuna in Water Family Size
+  description: Kroger® Wild Caught Chunk Light Tuna in Water Multipack
   categories:
   - Canned & Packaged
-  regular_price: 3.69
+  regular_price: 3.59
   promo_price: 3.0
-  size: 11 oz
-  net_weight: 0.69 [lb_av]
-- product_id: 0001111083307
-  upc: 0001111083307
-  brand: Kroger
-  description: Kroger® Solid White Wild Caught Albacore Tuna in Water
+  size: 4 ct / 2.5 oz
+  net_weight: 0.13 [lb_av]
+- product_id: 0008000000673
+  upc: 0008000000673
+  brand: StarKist
+  description: StarKist Chunk Light Tuna in Water Can
   categories:
   - Canned & Packaged
-  regular_price: 4.19
-  promo_price: 3.99
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
+  - Meat & Seafood
+  regular_price: 1.29
+  promo_price: 1.0
+  size: 5 oz
+  net_weight: 0.31 [lb_av]
+- product_id: 0008660024001
+  upc: 0008660024001
+  brand: Bumble Bee
+  description: Bumble Bee® Wild Caught Light Tuna in Water Pouch
+  categories:
+  - Canned & Packaged
+  regular_price: 1.39
+  promo_price: null
+  size: 2.5 oz
+  net_weight: 0.16 [lb_av]
 canned sardines:
-- product_id: 0004800000709
-  upc: 0004800000709
+- product_id: 0001111013900
+  upc: 0001111013900
+  brand: Kroger
+  description: Kroger® Wild Caught Sardines in Soybean Oil
+  categories:
+  - Canned & Packaged
+  regular_price: 1.19
+  promo_price: null
+  size: 3.75 oz
+  net_weight: 0.23 [lb_av]
+- product_id: 0004800000708
+  upc: 0004800000708
   brand: Chicken of the Sea
-  description: Chicken of the Sea Wild Caught Sardines in Louisiana Hot Sauce
+  description: Chicken of the Sea Wild Caught Sardines in Mustard Sauce
   categories:
   - Canned & Packaged
   regular_price: 1.59
@@ -3869,6 +4132,17 @@ canned sardines:
   - Canned & Packaged
   - International
   regular_price: 2.49
+  promo_price: null
+  size: 3.74 oz
+  net_weight: 0.23 [lb_av]
+- product_id: 0005527096333
+  upc: 0005527096333
+  brand: Grace
+  description: Grace® Sardines With Peppers In Vegetable Oil
+  categories:
+  - International
+  - Canned & Packaged
+  regular_price: 2.99
   promo_price: null
   size: 3.74 oz
   net_weight: 0.23 [lb_av]
@@ -3905,16 +4179,6 @@ canned sardines:
   promo_price: null
   size: 4.375 oz
   net_weight: 0.36 [lb_av]
-- product_id: 0083292400522
-  upc: 0083292400522
-  brand: Matiz Gallego
-  description: Matiz Wild Sardines Natural Lemon Essence
-  categories:
-  - Canned & Packaged
-  regular_price: 8.99
-  promo_price: null
-  size: 4.2 oz
-  net_weight: 0.26 [lb_av]
 - product_id: '0007030305516'
   upc: '0007030305516'
   brand: Season
@@ -3939,16 +4203,6 @@ frozen salmon:
   promo_price: 8.99
   size: 2 ct / 8 oz
   net_weight: 0.5 [lb_av]
-- product_id: '0001111065667'
-  upc: '0001111065667'
-  brand: Kroger
-  description: Private Selection® Shallot & Herb Butter Chilean Atlantic Salmon
-  categories:
-  - Frozen
-  regular_price: 10.0
-  promo_price: null
-  size: 10 oz
-  net_weight: 0.63 [lb_av]
 - product_id: '0001111065666'
   upc: '0001111065666'
   brand: Kroger
@@ -3979,6 +4233,16 @@ frozen salmon:
   promo_price: null
   size: 12 ounces
   net_weight: 0.75 [lb_av]
+- product_id: 0001111062826
+  upc: 0001111062826
+  brand: Kroger
+  description: Kroger® Farm Raised Atlantic Salmon Portions Frozen BIG DEAL!
+  categories:
+  - Meat & Seafood
+  regular_price: 22.99
+  promo_price: 19.99
+  size: 32 ounces
+  net_weight: 2.0 [lb_av]
 - product_id: 0001111064018
   upc: 0001111064018
   brand: Private Selection
@@ -4024,28 +4288,17 @@ frozen salmon:
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: 0026859340000
-  upc: 0026859340000
-  brand: null
-  description: Service Counter Fresh Atlantic Salmon Portion Farm Raised (never frozen;
-    sustainably sourced)
+- product_id: 0068826491275
+  upc: 0068826491275
+  brand: Latitude 45
+  description: Latitude 45 Frozen Sliced Cold Smoked Atlantic Salmon Loin
   categories:
   - Meat & Seafood
-  regular_price: 11.99
+  regular_price: 10.99
   promo_price: null
-  size: 1 lb
-  net_weight: null
+  size: 6 oz
+  net_weight: 0.38 [lb_av]
 canned salmon:
-- product_id: 0001111080792
-  upc: 0001111080792
-  brand: Kroger
-  description: Kroger® Wild Caught Canned Pink Salmon
-  categories:
-  - Canned & Packaged
-  regular_price: 1.59
-  promo_price: null
-  size: 2.5 oz
-  net_weight: 0.16 [lb_av]
 - product_id: 0001111083301
   upc: 0001111083301
   brand: Kroger
@@ -4086,16 +4339,16 @@ canned salmon:
   promo_price: null
   size: 2.6 oz
   net_weight: 0.16 [lb_av]
-- product_id: 0004800001475
-  upc: 0004800001475
-  brand: Chicken of the Sea
-  description: Chicken of the Sea Wild Caught Alaskan Pink Salmon, Traditional Style
+- product_id: 0085948000648
+  upc: 0085948000648
+  brand: Safe Catch
+  description: Safe Catch® Wild Pacific Pink Salmon - No Salt Added
   categories:
   - Canned & Packaged
-  regular_price: 4.69
+  regular_price: 3.99
   promo_price: null
-  size: 14.75 oz
-  net_weight: 0.92 [lb_av]
+  size: 3 oz
+  net_weight: 0.19 [lb_av]
 - product_id: 0003480060075
   upc: 0003480060075
   brand: King Oscar
@@ -4107,6 +4360,16 @@ canned salmon:
   promo_price: null
   size: 4.05 oz
   net_weight: 0.25 [lb_av]
+- product_id: 0089195300164
+  upc: 0089195300164
+  brand: Cole's
+  description: Cole's Smoked Salmon in Olive Oil
+  categories:
+  - Canned & Packaged
+  regular_price: 5.99
+  promo_price: null
+  size: 3.2 oz
+  net_weight: 0.2 [lb_av]
 - product_id: '0002110002101'
   upc: '0002110002101'
   brand: Deming's
@@ -4128,29 +4391,18 @@ canned salmon:
   size: 6 oz
   net_weight: 0.38 [lb_av]
 canned mackerel:
-- product_id: 0005527096125
-  upc: 0005527096125
+- product_id: 0005527096112
+  upc: 0005527096112
   brand: Grace
-  description: Grace® Jack Mackerel In Tomato Sauce
+  description: Grace® Classic Mackerel with Tomato Sauce
   categories:
-  - Meat & Seafood
   - Canned & Packaged
   - International
-  regular_price: 4.99
+  regular_price: 1.99
   promo_price: null
-  size: 15 oz
-  net_weight: 0.94 [lb_av]
+  size: 5.5 oz
+  net_weight: 0.34 [lb_av]
 canned clams:
-- product_id: 0004119601112
-  upc: 0004119601112
-  brand: Progresso
-  description: Progresso Traditional New England Clam Chowder Soup
-  categories:
-  - Canned & Packaged
-  regular_price: 2.99
-  promo_price: null
-  size: 18.5 oz
-  net_weight: 1.15 [lb_av]
 - product_id: '0005100000524'
   upc: '0005100000524'
   brand: Campbell's
@@ -4173,6 +4425,27 @@ canned clams:
   promo_price: null
   size: 18.5 oz
   net_weight: 1.15 [lb_av]
+- product_id: 0005100028417
+  upc: 0005100028417
+  brand: Campbell's
+  description: Campbell's® Chunky OLD BAY® Seasoned Clam Chowder
+  categories:
+  - Canned & Packaged
+  regular_price: 2.99
+  promo_price: null
+  size: 18.8 oz
+  net_weight: 1.17 [lb_av]
+- product_id: 0004119645281
+  upc: 0004119645281
+  brand: Progresso
+  description: Progresso™ Light New England Clam Chowder Soup Gluten Free
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 2.99
+  promo_price: null
+  size: 18.5 oz
+  net_weight: 1.15 [lb_av]
 - product_id: '0005100016777'
   upc: '0005100016777'
   brand: Campbell's
@@ -4184,6 +4457,16 @@ canned clams:
   promo_price: null
   size: 18.8 oz
   net_weight: 1.17 [lb_av]
+- product_id: 0004119601111
+  upc: 0004119601111
+  brand: Progresso
+  description: Progresso Traditional Manhattan Clam Chowder Canned Soup Gluten Free
+  categories:
+  - Canned & Packaged
+  regular_price: 2.99
+  promo_price: null
+  size: 19 oz
+  net_weight: 1.18 [lb_av]
 - product_id: 0004119691415
   upc: 0004119691415
   brand: Progresso
@@ -4225,72 +4508,28 @@ canned clams:
   size: 8 fl oz
   net_weight: 0.5 [lb_av]
 chicken liver:
-- product_id: 0005000042904
-  upc: 0005000042904
-  brand: Fancy Feast
-  description: Purina Fancy Feast Wet Cat Food Classic Pate Tender Chicken and Liver
-    Feast
+- product_id: '0075363320060'
+  upc: '0075363320060'
+  brand: Schaller & Weber
+  description: Schaller & Webber All Natural Chicken Liver Pate
   categories:
-  - Pet Care
-  regular_price: 1.0
+  - Meat & Seafood
+  regular_price: 9.99
   promo_price: null
-  size: 3 oz
-  net_weight: 0.18 [lb_av]
-- product_id: 0005000029261
-  upc: 0005000029261
-  brand: Fancy Feast
-  description: Purina Fancy Feast Gravy Lovers Wet Cat Food in Gravy Chicken Hearts
-    & Liver Feast
-  categories:
-  - Pet Care
-  regular_price: 1.0
-  promo_price: null
-  size: 3 oz
-  net_weight: 0.19 [lb_av]
-- product_id: '0005000043464'
-  upc: '0005000043464'
-  brand: Fancy Feast
-  description: Purina Fancy Feast Sliced Wet Cat Food Chicken Hearts & Liver Feast
-  categories:
-  - Pet Care
-  regular_price: 1.0
-  promo_price: null
-  size: 3 oz
-  net_weight: 0.18 [lb_av]
-- product_id: 0001111014494
-  upc: 0001111014494
-  brand: PetPride
-  description: Pet Pride® Tender Meaty Sticks Chicken and Liver Flavor Cat Treats
-  categories:
-  - Pet Care
-  regular_price: 1.29
-  promo_price: 0.99
-  size: 5 ct / 0.88 oz
-  net_weight: 0.06 [lb_av]
-- product_id: '0002310000157'
-  upc: '0002310000157'
-  brand: Temptations
-  description: Temptations MixUps Crunchy and Soft Cat Treats Backyard Cookout Flavor
-    Chicken Liver & Beef
-  categories:
-  - Pet Care
-  - Pet Care
-  regular_price: 3.0
-  promo_price: null
-  size: 3 oz
-  net_weight: 0.19 [lb_av]
-- product_id: '0002310003320'
-  upc: '0002310003320'
-  brand: Pedigree
-  description: Pedigree Chopped Ground Dinner Adult Canned Soft Wet Dog Food Chicken
-    Liver Beef & Beef Bacon Cheese
-  categories:
-  - Pet Care
-  regular_price: 21.99
-  promo_price: null
-  size: 12 ct / 13.2 oz
-  net_weight: 9.9 [lb_av]
+  size: 7 oz
+  net_weight: 0.44 [lb_av]
 russet potato:
+- product_id: 0001111091760
+  upc: 0001111091760
+  brand: Kroger
+  description: Kroger® Russet Potatoes
+  categories:
+  - Produce
+  - Produce
+  regular_price: 2.99
+  promo_price: null
+  size: 5 lb
+  net_weight: 5.0 [lb_av]
 - product_id: 0001111084589
   upc: 0001111084589
   brand: Kroger
@@ -4311,16 +4550,16 @@ russet potato:
   promo_price: null
   size: 32 oz
   net_weight: 2.0 [lb_av]
-- product_id: 0001111087524
-  upc: 0001111087524
+- product_id: 0001111087508
+  upc: 0001111087508
   brand: Kroger
-  description: Kroger® Shoestring Frozen French Fries
+  description: Kroger® Crinkle-Cut Frozen French Fries
   categories:
   - Frozen
   regular_price: 3.29
   promo_price: null
-  size: 28 oz
-  net_weight: 1.75 [lb_av]
+  size: 32 oz
+  net_weight: 2.0 [lb_av]
 - product_id: 0001111087585
   upc: 0001111087585
   brand: Kroger
@@ -4331,26 +4570,6 @@ russet potato:
   promo_price: null
   size: 28 oz
   net_weight: 1.75 [lb_av]
-- product_id: 0001111005597
-  upc: 0001111005597
-  brand: Kroger
-  description: Kroger® Extra Crispy Crinkle Cut Fries
-  categories:
-  - Frozen
-  regular_price: 3.29
-  promo_price: null
-  size: 26 oz
-  net_weight: 1.63 [lb_av]
-- product_id: 0001111088570
-  upc: 0001111088570
-  brand: Kroger
-  description: Kroger® Sweet Potato Crinkle Cut French Fries
-  categories:
-  - Frozen
-  regular_price: 3.79
-  promo_price: null
-  size: 19 oz
-  net_weight: 1.19 [lb_av]
 - product_id: 0001111089658
   upc: 0001111089658
   brand: Kroger
@@ -4361,16 +4580,16 @@ russet potato:
   promo_price: null
   size: 20 oz
   net_weight: 1.25 [lb_av]
-- product_id: 0001111087587
-  upc: 0001111087587
+- product_id: 0001111005158
+  upc: 0001111005158
   brand: Kroger
-  description: Kroger® Diced Frozen Potatoes O'Brien with Peppers & Onions
+  description: Kroger® Seasoned Frozen Hash Brown Patties
   categories:
   - Frozen
   regular_price: 3.79
   promo_price: null
-  size: 28 oz
-  net_weight: 1.75 [lb_av]
+  size: 22.5 oz
+  net_weight: 1.4 [lb_av]
 - product_id: 0001111087577
   upc: 0001111087577
   brand: Kroger
@@ -4381,16 +4600,26 @@ russet potato:
   promo_price: null
   size: 32 oz
   net_weight: 2.0 [lb_av]
-- product_id: 0001111084416
-  upc: 0001111084416
+- product_id: 0001111015328
+  upc: 0001111015328
   brand: Kroger
-  description: Kroger® Country Style Frozen Hash Browns
+  description: Kroger® Seasoned Garlic Pepper Frozen French Fries
   categories:
   - Frozen
   regular_price: 3.79
   promo_price: null
-  size: 30 oz
-  net_weight: 1.88 [lb_av]
+  size: 24 oz
+  net_weight: 1.5 [lb_av]
+- product_id: 0001111005580
+  upc: 0001111005580
+  brand: Kroger
+  description: Kroger® Seasoned Spiral Fries
+  categories:
+  - Frozen
+  regular_price: 3.79
+  promo_price: null
+  size: 24 oz
+  net_weight: 1.5 [lb_av]
 sweet potato:
 - product_id: 0001111081225
   upc: 0001111081225
@@ -4413,39 +4642,6 @@ sweet potato:
   promo_price: null
   size: 8.5 oz
   net_weight: 0.53 [lb_av]
-- product_id: 0001111081248
-  upc: 0001111081248
-  brand: Kroger
-  description: Kroger Sweet Peas & Carrots - 8.5oz can
-  categories:
-  - Canned & Packaged
-  regular_price: 0.69
-  promo_price: null
-  size: 8.5 oz
-  net_weight: 0.53 [lb_av]
-- product_id: 0001111081235
-  upc: 0001111081235
-  brand: Kroger
-  description: Kroger No Salt Added Garden Variety Sweet Peas - 15oz can
-  categories:
-  - Canned & Packaged
-  - Canned & Packaged
-  regular_price: 1.0
-  promo_price: null
-  size: 15 oz
-  net_weight: 0.93 [lb_av]
-- product_id: 0004126000197
-  upc: 0004126000197
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Apple Sweet Potato Pumpkin Stage 2 Baby Food
-    Puree Pouch
-  categories:
-  - Baby
-  - Baby
-  regular_price: 1.0
-  promo_price: null
-  size: 4 oz
-  net_weight: 0.25 [lb_av]
 - product_id: '0004126002011'
   upc: '0004126002011'
   brand: Simple Truth Organic
@@ -4468,28 +4664,6 @@ sweet potato:
   promo_price: null
   size: 15 oz
   net_weight: 0.93 [lb_av]
-- product_id: '0001111012366'
-  upc: '0001111012366'
-  brand: Kroger
-  description: Kroger Garden Variety Sweet Peas - 2 pack, 7oz cups
-  categories:
-  - Canned & Packaged
-  - Canned & Packaged
-  regular_price: 1.99
-  promo_price: null
-  size: 7 oz
-  net_weight: 0.87 [lb_av]
-- product_id: 0001111004382
-  upc: 0001111004382
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Diced Frozen Sweet Potato
-  categories:
-  - Frozen
-  - Natural & Organic
-  regular_price: 2.49
-  promo_price: null
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
 - product_id: 0001111008663
   upc: 0001111008663
   brand: Kroger
@@ -4500,17 +4674,60 @@ sweet potato:
   promo_price: null
   size: 16 oz
   net_weight: 0.94 [lb_av]
-frozen broccoli:
-- product_id: 0001111089724
-  upc: 0001111089724
+- product_id: 0001111087975
+  upc: 0001111087975
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Cut Sweet Potato Yams
+  categories:
+  - Natural & Organic
+  - Canned & Packaged
+  regular_price: 2.79
+  promo_price: null
+  size: 15 oz
+  net_weight: 0.93 [lb_av]
+- product_id: 0004126001182
+  upc: 0004126001182
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Apple and Sweet Potato Rice Rusks Teething Wafers
+  categories:
+  - Baby
+  - Baby
+  regular_price: 2.79
+  promo_price: null
+  size: 12 ct
+  net_weight: 0.11 [lb_av]
+- product_id: 0001111088570
+  upc: 0001111088570
   brand: Kroger
-  description: Kroger® Traditional Favorites Frozen Broccoli Cuts
+  description: Kroger® Sweet Potato Crinkle Cut French Fries
   categories:
   - Frozen
-  regular_price: 1.25
+  regular_price: 3.79
   promo_price: null
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
+  size: 19 oz
+  net_weight: 1.19 [lb_av]
+- product_id: 0001111010928
+  upc: 0001111010928
+  brand: Smart Way
+  description: Smart Way™ Sweet Peas
+  categories:
+  - Canned & Packaged
+  regular_price: 0.76
+  promo_price: null
+  size: 15 oz
+  net_weight: 0.93 [lb_av]
+- product_id: 0004126036807
+  upc: 0004126036807
+  brand: Comforts
+  description: Comforts™ Stage 2 Sweet Potato and Apple Baby Food Puree Pouch
+  categories:
+  - Baby
+  - Baby
+  regular_price: 0.9
+  promo_price: 0.85
+  size: 4 oz
+  net_weight: 0.25 [lb_av]
+frozen broccoli:
 - product_id: 0001111012841
   upc: 0001111012841
   brand: Kroger
@@ -4531,16 +4748,6 @@ frozen broccoli:
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: 0001111089789
-  upc: 0001111089789
-  brand: Kroger
-  description: Kroger® Frozen Broccoli Chopped
-  categories:
-  - Frozen
-  regular_price: 1.69
-  promo_price: null
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
 - product_id: 0001111089780
   upc: 0001111089780
   brand: Kroger
@@ -4548,6 +4755,28 @@ frozen broccoli:
   categories:
   - Frozen
   regular_price: 1.79
+  promo_price: null
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0001111010308
+  upc: 0001111010308
+  brand: Kroger
+  description: Kroger® Meal Ready Sides Frozen Vegetables Broccoli & Cauliflower
+  categories:
+  - Frozen
+  - Frozen
+  regular_price: 1.79
+  promo_price: null
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: '0001111001146'
+  upc: '0001111001146'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Frozen Broccoli Florets
+  categories:
+  - Natural & Organic
+  - Frozen
+  regular_price: 2.49
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
@@ -4572,26 +4801,6 @@ frozen broccoli:
   promo_price: null
   size: 32 oz
   net_weight: 2.0 [lb_av]
-- product_id: '0001111010301'
-  upc: '0001111010301'
-  brand: Kroger
-  description: Kroger® Traditional Favorites Frozen Broccoli Cuts
-  categories:
-  - Frozen
-  regular_price: 2.99
-  promo_price: null
-  size: 32 oz
-  net_weight: 2.0 [lb_av]
-- product_id: '0001111014364'
-  upc: '0001111014364'
-  brand: Kroger
-  description: Kroger® Stir-Fry Starters Frozen Broccoli Blend
-  categories:
-  - Frozen
-  regular_price: 3.49
-  promo_price: 3.29
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
 - product_id: 0001111014238
   upc: 0001111014238
   brand: Kroger
@@ -4602,11 +4811,41 @@ frozen broccoli:
   promo_price: 4.09
   size: 16 oz
   net_weight: 1.0 [lb_av]
+- product_id: 0001450001098
+  upc: 0001450001098
+  brand: Birds Eye
+  description: Birds Eye Steamfresh Broccoli Cuts, Frozen Vegetables
+  categories:
+  - Frozen
+  regular_price: 1.39
+  promo_price: null
+  size: 10.800 oz
+  net_weight: 0.67 [lb_av]
+- product_id: 0019056952218
+  upc: 0019056952218
+  brand: Green Giant
+  description: Green Giant Simply Steam Broccoli & Cheese Sauce
+  categories:
+  - Frozen
+  regular_price: 1.59
+  promo_price: 1.0
+  size: 8 oz
+  net_weight: 0.5 [lb_av]
 frozen spinach:
 - product_id: 0001111089739
   upc: 0001111089739
   brand: Kroger
   description: Kroger® Frozen Spinach Cut Leaf
+  categories:
+  - Frozen
+  regular_price: 1.49
+  promo_price: null
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0001111089785
+  upc: 0001111089785
+  brand: Kroger
+  description: Kroger® Frozen Spinach Chopped
   categories:
   - Frozen
   regular_price: 1.49
@@ -4623,17 +4862,6 @@ frozen spinach:
   promo_price: null
   size: 10 oz
   net_weight: 0.63 [lb_av]
-- product_id: '0001111001134'
-  upc: '0001111001134'
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Frozen Kale Chopped
-  categories:
-  - Frozen
-  - Natural & Organic
-  regular_price: 2.49
-  promo_price: null
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
 - product_id: '0001111014361'
   upc: '0001111014361'
   brand: Simple Truth Organic
@@ -4665,16 +4893,16 @@ frozen spinach:
   promo_price: null
   size: 12 ct / 10.15 oz
   net_weight: 0.63 [lb_av]
-- product_id: '0001450001727'
-  upc: '0001450001727'
-  brand: Birds Eye
-  description: Birds Eye Quinoa & Spinach Power Blend, Frozen Side
+- product_id: '0001111013662'
+  upc: '0001111013662'
+  brand: Simple Truth
+  description: Simple Truth® Protein Cheddar Cheese and Spinach Egg Bites
   categories:
   - Frozen
-  regular_price: 2.99
-  promo_price: 2.79
-  size: 10 oz
-  net_weight: 0.64 [lb_av]
+  regular_price: 8.49
+  promo_price: null
+  size: 6 ct / 12 oz
+  net_weight: 0.75 [lb_av]
 - product_id: 0001380010585
   upc: 0001380010585
   brand: Stouffer's
@@ -4686,30 +4914,49 @@ frozen spinach:
   promo_price: 2.99
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: '0007265545457'
-  upc: '0007265545457'
-  brand: Healthy Choice
-  description: Healthy Choice Simply Steamers Creamy Spinach & Tomato Linguini, Frozen
-    Meal
+- product_id: 0079437610011
+  upc: 0079437610011
+  brand: Dorot
+  description: Dorot® Frozen Chopped Basil
   categories:
   - Frozen
-  regular_price: 3.99
+  regular_price: 3.79
   promo_price: null
-  size: 9 oz
-  net_weight: 0.56 [lb_av]
-- product_id: 0001380013520
-  upc: 0001380013520
+  size: 2.5 oz
+  net_weight: 0.16 [lb_av]
+- product_id: 0001380093052
+  upc: 0001380093052
   brand: Lean Cuisine
-  description: Lean Cuisine Spinach and Mushroom Frozen Pizza
+  description: Lean Cuisine Signature Ricotta Cheese and Spinach Ravioli Frozen Meals
+    Frozen Lunch
   categories:
-  - Frozen
-  - Frozen
   - Frozen
   regular_price: 3.99
   promo_price: 2.99
-  size: net wt 6 1/8 oz
-  net_weight: 0.38 [lb_av]
+  size: 8 oz
+  net_weight: 0.5 [lb_av]
 carrots:
+- product_id: 0001111081248
+  upc: 0001111081248
+  brand: Kroger
+  description: Kroger Sweet Peas & Carrots - 8.5oz can
+  categories:
+  - Canned & Packaged
+  regular_price: 0.69
+  promo_price: null
+  size: 8.5 oz
+  net_weight: 0.53 [lb_av]
+- product_id: 0001111081235
+  upc: 0001111081235
+  brand: Kroger
+  description: Kroger No Salt Added Garden Variety Sweet Peas - 15oz can
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 1.0
+  promo_price: null
+  size: 15 oz
+  net_weight: 0.93 [lb_av]
 - product_id: 0001111081211
   upc: 0001111081211
   brand: Kroger
@@ -4720,27 +4967,16 @@ carrots:
   promo_price: null
   size: 15.25 ounces
   net_weight: 0.93 [lb_av]
-- product_id: 0004126000195
-  upc: 0004126000195
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Pear Carrot Blueberry Stage 2 Baby Food Puree
-  categories:
-  - Baby
-  - Baby
-  regular_price: 1.0
-  promo_price: null
-  size: 4 oz
-  net_weight: 0.25 [lb_av]
-- product_id: '0001111004577'
-  upc: '0001111004577'
+- product_id: 0001111080776
+  upc: 0001111080776
   brand: Kroger
-  description: Kroger® Canned Whole Baby Carrots
+  description: Kroger Sliced Carrots - 14.5oz can
   categories:
   - Canned & Packaged
   regular_price: 1.09
   promo_price: null
   size: 14.5 oz
-  net_weight: 0.91 [lb_av]
+  net_weight: 0.9 [lb_av]
 - product_id: '0001111014240'
   upc: '0001111014240'
   brand: Kroger
@@ -4751,26 +4987,46 @@ carrots:
   promo_price: null
   size: 15 oz
   net_weight: 0.94 [lb_av]
-- product_id: 0001111090663
-  upc: 0001111090663
+- product_id: 0001111081370
+  upc: 0001111081370
   brand: Kroger
-  description: Kroger® Diced Skin-On Yellow Potatoes
+  description: Kroger Sliced White Potatoes - 15oz can
   categories:
   - Canned & Packaged
   regular_price: 1.09
   promo_price: null
   size: 15 oz
-  net_weight: null
-- product_id: 0001111071785
-  upc: 0001111071785
+  net_weight: 0.93 [lb_av]
+- product_id: 0001111081365
+  upc: 0001111081365
   brand: Kroger
-  description: Kroger Blackeyed Peas - 15.5oz can
+  description: Kroger Whole White Potatoes - 15oz can
   categories:
   - Canned & Packaged
-  regular_price: 1.39
+  regular_price: 1.09
   promo_price: null
-  size: 15.5 oz
-  net_weight: 0.96 [lb_av]
+  size: 15 oz
+  net_weight: 0.93 [lb_av]
+- product_id: 0001111089741
+  upc: 0001111089741
+  brand: Kroger
+  description: Kroger® Frozen Peas & Carrots
+  categories:
+  - Frozen
+  regular_price: 1.25
+  promo_price: null
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0001111089788
+  upc: 0001111089788
+  brand: Kroger
+  description: Kroger® Frozen Mirepoix Style Blend Onions, Carrots & Celery
+  categories:
+  - Frozen
+  regular_price: 1.49
+  promo_price: null
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
 - product_id: 0001111089726
   upc: 0001111089726
   brand: Kroger
@@ -4781,39 +5037,6 @@ carrots:
   promo_price: null
   size: 12 oz
   net_weight: 0.75 [lb_av]
-- product_id: 0001111082430
-  upc: 0001111082430
-  brand: Simple Truth Organic
-  description: Simple Truth No Salt Organic Peas - 15oz can
-  categories:
-  - Natural & Organic
-  - Canned & Packaged
-  - Canned & Packaged
-  regular_price: 1.79
-  promo_price: null
-  size: 15 oz
-  net_weight: 0.93 [lb_av]
-- product_id: 0001111062697
-  upc: 0001111062697
-  brand: Kroger
-  description: Kroger® Cut and Peeled Carrot Sticks
-  categories:
-  - Produce
-  regular_price: 1.99
-  promo_price: null
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
-- product_id: '0001111012367'
-  upc: '0001111012367'
-  brand: Kroger
-  description: Kroger Sliced Carrots - 2, 7oz Cups
-  categories:
-  - Canned & Packaged
-  - Canned & Packaged
-  regular_price: 1.99
-  promo_price: null
-  size: 2 ct
-  net_weight: 0.87 [lb_av]
 yellow onion:
 - product_id: 0000000094093
   upc: 0000000094093
@@ -4849,13 +5072,14 @@ yellow onion:
   size: 3 lb
   net_weight: 3.0 [lb_av]
 fresh cabbage:
-- product_id: '0000000004554'
-  upc: '0000000004554'
+- product_id: 0000000094069
+  upc: 0000000094069
   brand: Fresh Cabbage
-  description: Red Cabbage
+  description: Organic Green Cabbage
   categories:
+  - Natural & Organic
   - Produce
-  regular_price: 1.29
+  regular_price: 1.69
   promo_price: null
   size: 1 lb
   net_weight: 1.0 [lb_av]
@@ -4870,30 +5094,27 @@ fresh cabbage:
   promo_price: null
   size: 1 lb
   net_weight: 1.0 [lb_av]
-- product_id: 0000000094544
-  upc: 0000000094544
-  brand: null
-  description: Organic Baby Bok Choy
+whole potato:
+- product_id: '0001111004577'
+  upc: '0001111004577'
+  brand: Kroger
+  description: Kroger® Canned Whole Baby Carrots
   categories:
-  - Natural & Organic
-  - Produce
-  - Produce
-  regular_price: 2.99
+  - Canned & Packaged
+  regular_price: 1.09
   promo_price: null
-  size: 1 lb
-  net_weight: 1.0 [lb_av]
-- product_id: '0000000004552'
-  upc: '0000000004552'
-  brand: Fresh Cabbage
-  description: Napa Cabbage
+  size: 14.5 oz
+  net_weight: 0.91 [lb_av]
+- product_id: '0002400016313'
+  upc: '0002400016313'
+  brand: Del Monte
+  description: Del Monte Whole New Potatoes
   categories:
-  - Produce
-  - Produce
-  regular_price: 2.99
+  - Canned & Packaged
+  regular_price: 1.89
   promo_price: null
-  size: 1 lb
-  net_weight: 1.0 [lb_av]
-whole potato: []
+  size: 14.5 oz
+  net_weight: 0.9 [lb_av]
 bananas:
 - product_id: '0001111014410'
   upc: '0001111014410'
@@ -4905,6 +5126,27 @@ bananas:
   promo_price: null
   size: 6 oz
   net_weight: 0.38 [lb_av]
+- product_id: '0001111013561'
+  upc: '0001111013561'
+  brand: Kroger
+  description: Kroger® Strawberry Banana & Cherry Low Fat Yogurt Tubes
+  categories:
+  - Dairy
+  regular_price: 1.99
+  promo_price: null
+  size: 8 ct / 16 oz
+  net_weight: 1.0 [lb_av]
+- product_id: 0001111009092
+  upc: 0001111009092
+  brand: Kroger
+  description: Kroger® Mild Banana Pepper Rings
+  categories:
+  - Canned & Packaged
+  - Canned & Packaged
+  regular_price: 2.79
+  promo_price: 2.0
+  size: 16 fl oz
+  net_weight: 1.08 [lb_av]
 - product_id: 0001111009098
   upc: 0001111009098
   brand: Kroger
@@ -4916,6 +5158,16 @@ bananas:
   promo_price: 2.0
   size: 16 fl oz
   net_weight: 1.08 [lb_av]
+- product_id: '0001111016103'
+  upc: '0001111016103'
+  brand: Kroger
+  description: Kroger® Frozen Sliced Bananas
+  categories:
+  - Frozen
+  regular_price: 2.99
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
 - product_id: 0001111015980
   upc: 0001111015980
   brand: Kroger
@@ -4926,80 +5178,62 @@ bananas:
   promo_price: null
   size: 1.25 oz
   net_weight: 0.07 [lb_av]
-- product_id: '0001111014026'
-  upc: '0001111014026'
-  brand: Private Selection
-  description: Private Selection® Caramelized Banana Gelato Pint
-  categories:
-  - Frozen
-  regular_price: 3.99
-  promo_price: 3.5
-  size: 16 oz
-  net_weight: 0.7 [lb_av]
-- product_id: '0001111015043'
-  upc: '0001111015043'
+- product_id: '0001111000020'
+  upc: '0001111000020'
   brand: Kroger
-  description: Kroger® No Sugar Added Sliced Banana and Strawberry Smoothie BIG DEAL!
-  categories:
-  - Frozen
-  regular_price: 6.99
-  promo_price: null
-  size: 48 oz
-  net_weight: 3.0 [lb_av]
-- product_id: '0001111015044'
-  upc: '0001111015044'
-  brand: Kroger
-  description: Kroger® No Sugar Added Sliced Banana and Blueberry Smoothie BIG DEAL!
-  categories:
-  - Frozen
-  regular_price: 6.99
-  promo_price: null
-  size: 48 oz
-  net_weight: 3.0 [lb_av]
-- product_id: '0001111003431'
-  upc: '0001111003431'
-  brand: Simple Truth
-  description: Simple Truth® Mixed Fruit & Strawberry Banana Freeze Dried Fruit Variety
-    Pack
+  description: BANANA TRAIL MIX - KROGER - 8 OZ
   categories:
   - Snacks
-  regular_price: 7.49
-  promo_price: null
-  size: 6 ct / 0.35 oz
-  net_weight: 0.13 [lb_av]
-- product_id: '0000000004011'
-  upc: '0000000004011'
-  brand: Fresh Bananas
-  description: Fresh Bunch of Bananas – 5-7 Bananas
+  - Snacks
+  regular_price: 3.99
+  promo_price: 3.5
+  size: 8 oz
+  net_weight: 0.5 [lb_av]
+- product_id: '0001111004654'
+  upc: '0001111004654'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Kiwifruit
   categories:
   - Produce
+  - Natural & Organic
   - Produce
-  regular_price: 0.69
+  regular_price: 4.49
   promo_price: null
-  size: 1 lb
-  net_weight: 0.38 [lb_av]
-- product_id: '0000000004235'
-  upc: '0000000004235'
-  brand: null
-  description: Fresh Plantain - Single
+  size: 16 oz
+  net_weight: 0.99 [lb_av]
+- product_id: 0001111015059
+  upc: 0001111015059
+  brand: Simple Truth
+  description: Simple Truth Organic® Sliced Strawberries and Bananas Smoothie Blend
   categories:
-  - Produce
-  - International
-  regular_price: 0.75
+  - Frozen
+  regular_price: 5.99
   promo_price: null
-  size: 1 ea
-  net_weight: 1.0 [lb_av]
-- product_id: '0007047000313'
-  upc: '0007047000313'
-  brand: Yoplait
-  description: Yoplait Original Low Fat Strawberry Banana Yogurt Cup
+  size: 32 oz
+  net_weight: 2.0 [lb_av]
+- product_id: 0001111090360
+  upc: 0001111090360
+  brand: Simple Truth
+  description: Simple Truth™ Freeze-Dried Strawberries & Bananas
   categories:
-  - Dairy
-  regular_price: 0.8
+  - Snacks
+  regular_price: 5.99
   promo_price: null
-  size: 6 oz
-  net_weight: 0.37 [lb_av]
+  size: 1.2 oz
+  net_weight: 0.08 [lb_av]
 apples:
+- product_id: 0004126000197
+  upc: 0004126000197
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Apple Sweet Potato Pumpkin Stage 2 Baby Food
+    Puree Pouch
+  categories:
+  - Baby
+  - Baby
+  regular_price: 1.0
+  promo_price: null
+  size: 4 oz
+  net_weight: 0.25 [lb_av]
 - product_id: 0004126000196
   upc: 0004126000196
   brand: Simple Truth Organic
@@ -5023,16 +5257,27 @@ apples:
   promo_price: null
   size: 4 oz
   net_weight: 0.25 [lb_av]
-- product_id: 0001111086984
-  upc: 0001111086984
+- product_id: 0001111002970
+  upc: 0001111002970
   brand: Kroger
-  description: Kroger® Fruit and Grain Apple Cinnamon Cereal Bars
+  description: Kroger® Sweet Apples and Caramel Snack Tray
   categories:
-  - Breakfast
-  regular_price: 2.49
+  - Produce
+  - Snacks
+  regular_price: 1.5
   promo_price: null
-  size: 8 ct / 1.3 oz
-  net_weight: 0.64 [lb_av]
+  size: 2.75 oz
+  net_weight: 0.17 [lb_av]
+- product_id: 0001111087785
+  upc: 0001111087785
+  brand: Kroger
+  description: Kroger® Frozen 100% Apple Juice Concentrate
+  categories:
+  - Frozen
+  regular_price: 1.99
+  promo_price: null
+  size: 12 fl oz
+  net_weight: 0.94 [lb_av]
 - product_id: '0001111002736'
   upc: '0001111002736'
   brand: Kroger
@@ -5044,14 +5289,27 @@ apples:
   promo_price: null
   size: 28 fl oz
   net_weight: 1.84 [lb_av]
-- product_id: 0001111069101
-  upc: 0001111069101
+- product_id: 0001111069102
+  upc: 0001111069102
   brand: Simple Truth Organic
-  description: Simple Truth Organic® Gala Apples – 2 Pound Bag
+  description: Simple Truth Organic® Fuji Apples – 2 Pound Bag
+  categories:
+  - Natural & Organic
+  - Produce
+  - Produce
+  - Produce
+  regular_price: 3.99
+  promo_price: null
+  size: 2 lb
+  net_weight: 2.0 [lb_av]
+- product_id: 0001111069103
+  upc: 0001111069103
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Granny Smith Apples – 2 Pound Bag
   categories:
   - Produce
   - Produce
-  regular_price: 3.49
+  regular_price: 3.99
   promo_price: null
   size: 2 lb
   net_weight: 1.0 [lb_av]
@@ -5075,59 +5333,18 @@ apples:
   promo_price: null
   size: 3 lb
   net_weight: 3.0 [lb_av]
-- product_id: 0001111019280
-  upc: 0001111019280
-  brand: Simple Truth
-  description: Simple Truth® Apple Maple Chicken Breakfast Sausage
-  categories:
-  - Meat & Seafood
-  regular_price: 3.99
-  promo_price: null
-  size: 7 ct / 8 oz
-  net_weight: 0.5 [lb_av]
-- product_id: 0001111012878
-  upc: 0001111012878
-  brand: Kroger
-  description: Kroger® Apple Butter
-  categories:
-  - Bakery
-  regular_price: 4.49
-  promo_price: null
-  size: 18 oz
-  net_weight: 1.13 [lb_av]
-- product_id: 0001111060381
-  upc: 0001111060381
-  brand: Private Selection
-  description: Private Selection Wild Twist® Apples – 2 Pound Bag
-  categories:
-  - Produce
-  regular_price: 4.99
-  promo_price: null
-  size: 2 lb
-  net_weight: 2.0 [lb_av]
 frozen mixed berries:
-- product_id: 0081008357025
-  upc: 0081008357025
-  brand: SpongeBob Squarepants
-  description: SpongeBob SquarePants Mixed Berry Kids Smoothie Pouches
+- product_id: 0081012048184
+  upc: 0081012048184
+  brand: Daily Harvest
+  description: Daily Harvest Mixed Berry Protein Smoothie
   categories:
   - Frozen
   - Frozen
-  regular_price: 6.99
-  promo_price: 5.49
-  size: 4 pk / 3.2 oz
-  net_weight: 0.8 [lb_av]
-- product_id: 0004154860510
-  upc: 0004154860510
-  brand: Outshine
-  description: Outshine No Sugar Added Black Cherry, Strawberry Kiwi, and Mixed Berry
-    Frozen Fruit Pops, 12 Count
-  categories:
-  - Frozen
-  regular_price: 6.99
+  regular_price: 7.49
   promo_price: null
-  size: 12 ct
-  net_weight: 1.14 [lb_av]
+  size: 6.8 oz
+  net_weight: 0.43 [lb_av]
 - product_id: 0007990000123
   upc: 0007990000123
   brand: Wyman's
@@ -5138,7 +5355,8 @@ frozen mixed berries:
   promo_price: null
   size: 3 lb
   net_weight: 3.0 [lb_av]
-orange juice frozen concentrate:
+orange juice frozen concentrate: []
+frozen orange juice:
 - product_id: 0001111087703
   upc: 0001111087703
   brand: Kroger
@@ -5149,58 +5367,50 @@ orange juice frozen concentrate:
   promo_price: null
   size: 12 fl oz
   net_weight: 0.94 [lb_av]
-frozen orange juice: []
 orange juice:
-- product_id: 0001111004786
-  upc: 0001111004786
+- product_id: 0001111048480
+  upc: 0001111048480
   brand: Kroger
-  description: Kroger® Canned Mandarin Oranges in Juice
-  categories:
-  - Canned & Packaged
-  regular_price: 1.49
-  promo_price: null
-  size: 10.5 oz
-  net_weight: 0.66 [lb_av]
-- product_id: 0001111014863
-  upc: 0001111014863
-  brand: Kroger
-  description: Kroger® Orange Mango Fruit Juice Drink
-  categories:
-  - Beverages
-  regular_price: 1.79
-  promo_price: null
-  size: half gal
-  net_weight: 4.3 [lb_av]
-- product_id: 0001111015685
-  upc: 0001111015685
-  brand: Kroger
-  description: Kroger® Premium Homestyle Orange Juice with Pulp
-  categories:
-  - Beverages
-  regular_price: 4.49
-  promo_price: null
-  size: 46 fl oz
-  net_weight: 2.87 [lb_av]
-- product_id: 0001111015687
-  upc: 0001111015687
-  brand: Kroger
-  description: Kroger® Premium Orange Juice Pulp Free
-  categories:
-  - Beverages
-  regular_price: 4.49
-  promo_price: null
-  size: 46 fl oz
-  net_weight: 2.87 [lb_av]
-- product_id: 0001111048902
-  upc: 0001111048902
-  brand: Kroger
-  description: Kroger® Orange Juice with Calcium and Vitamin C & D
+  description: Kroger® 100% Orange Juice Pulp Free
   categories:
   - Beverages
   regular_price: 4.49
   promo_price: null
   size: half gal
   net_weight: 4.0 [lb_av]
+- product_id: 0001111048895
+  upc: 0001111048895
+  brand: Kroger
+  description: Kroger® Orange Juice with Pulp
+  categories:
+  - Beverages
+  regular_price: 4.49
+  promo_price: null
+  size: half gal
+  net_weight: 4.38 [lb_av]
+- product_id: 0001111014830
+  upc: 0001111014830
+  brand: Kroger
+  description: Kroger® Orange Apple Pineapple Juice No Sugar Added
+  categories:
+  - Beverages
+  - Beverages
+  - Beverages
+  - Beverages
+  regular_price: 4.49
+  promo_price: null
+  size: half gal
+  net_weight: 4.34 [lb_av]
+- product_id: 0001111012180
+  upc: 0001111012180
+  brand: Kroger
+  description: Kroger® 100% Orange Juice
+  categories:
+  - Beverages
+  regular_price: 4.99
+  promo_price: null
+  size: 64 fl oz
+  net_weight: 4.39 [lb_av]
 - product_id: '0001111010232'
   upc: '0001111010232'
   brand: Kroger
@@ -5251,6 +5461,16 @@ orange juice:
   promo_price: 7.99
   size: 1 gal
   net_weight: 8.0 [lb_av]
+- product_id: 0001111013178
+  upc: 0001111013178
+  brand: Private Selection
+  description: Private Selection® Premium Mandarin Oranges in Fruit Juice from Concentrate
+  categories:
+  - Canned & Packaged
+  regular_price: 8.49
+  promo_price: null
+  size: 35 oz
+  net_weight: 2.19 [lb_av]
 raisins:
 - product_id: 0001111091435
   upc: 0001111091435
@@ -5294,6 +5514,16 @@ raisins:
   promo_price: null
   size: 6 oz
   net_weight: 0.38 [lb_av]
+- product_id: '0001111003261'
+  upc: '0001111003261'
+  brand: Kroger
+  description: Kroger® Probiotic Dried Prunes
+  categories:
+  - Snacks
+  regular_price: 3.19
+  promo_price: null
+  size: 7 oz
+  net_weight: 0.44 [lb_av]
 - product_id: 0001111004986
   upc: 0001111004986
   brand: Simple Truth Organic
@@ -5305,28 +5535,17 @@ raisins:
   promo_price: null
   size: 6 pk / 1 oz
   net_weight: 0.37 [lb_av]
-- product_id: '0001111037236'
-  upc: '0001111037236'
-  brand: Simple Truth
-  description: Simple Truth™ Yogurt Covered Raisins
+- product_id: '0001111003241'
+  upc: '0001111003241'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Dried Mangoes
   categories:
   - Natural & Organic
   - Snacks
   regular_price: 3.99
   promo_price: null
-  size: 8 oz
-  net_weight: 0.5 [lb_av]
-- product_id: 0001111015975
-  upc: 0001111015975
-  brand: Kroger
-  description: Kroger® Freeze Dried Apples
-  categories:
-  - Produce
-  - Snacks
-  regular_price: 3.99
-  promo_price: null
-  size: 0.75 oz
-  net_weight: 0.04 [lb_av]
+  size: 4 oz
+  net_weight: 0.25 [lb_av]
 - product_id: 0001111089172
   upc: 0001111089172
   brand: Kroger
@@ -5337,16 +5556,17 @@ raisins:
   promo_price: null
   size: 8 oz
   net_weight: 0.5 [lb_av]
-- product_id: '0001111003260'
-  upc: '0001111003260'
-  brand: Kroger
-  description: Kroger® Probiotic Dried Apricots
+- product_id: '0001111003240'
+  upc: '0001111003240'
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Dried Apricots
   categories:
+  - Natural & Organic
   - Snacks
-  regular_price: 4.19
+  regular_price: 4.29
   promo_price: null
-  size: 6 oz
-  net_weight: null
+  size: 5 oz
+  net_weight: 0.31 [lb_av]
 - product_id: '0001111015757'
   upc: '0001111015757'
   brand: Kroger
@@ -5359,6 +5579,16 @@ raisins:
   size: 8 oz
   net_weight: 0.5 [lb_av]
 canned tomatoes:
+- product_id: 0001111011969
+  upc: 0001111011969
+  brand: Kroger
+  description: Kroger® No Salt Added Tomato Sauce
+  categories:
+  - Canned & Packaged
+  regular_price: 0.59
+  promo_price: null
+  size: 8 oz
+  net_weight: 0.5 [lb_av]
 - product_id: 0001111011970
   upc: 0001111011970
   brand: Kroger
@@ -5369,10 +5599,30 @@ canned tomatoes:
   promo_price: null
   size: 8 oz
   net_weight: 0.5 [lb_av]
-- product_id: 0001111011966
-  upc: 0001111011966
+- product_id: 0001111011971
+  upc: 0001111011971
   brand: Kroger
-  description: Kroger® Mild Diced Tomatoes with Green Chilies
+  description: Kroger® Tomato Paste
+  categories:
+  - Canned & Packaged
+  regular_price: 0.99
+  promo_price: null
+  size: 6 oz
+  net_weight: 0.38 [lb_av]
+- product_id: 0001111084496
+  upc: 0001111084496
+  brand: Kroger
+  description: Kroger® Italian Style Tomato Paste
+  categories:
+  - Canned & Packaged
+  regular_price: 0.99
+  promo_price: null
+  size: 6 oz
+  net_weight: 0.38 [lb_av]
+- product_id: 0001111011967
+  upc: 0001111011967
+  brand: Kroger
+  description: Kroger® Orginal Diced Tomatoes with Green Chilies
   categories:
   - Canned & Packaged
   regular_price: 1.0
@@ -5409,20 +5659,10 @@ canned tomatoes:
   promo_price: null
   size: 14.5 oz
   net_weight: 0.91 [lb_av]
-- product_id: 0001111011980
-  upc: 0001111011980
+- product_id: 0001111011978
+  upc: 0001111011978
   brand: Kroger
-  description: Kroger® Crushed Peeled Tomatoes
-  categories:
-  - Canned & Packaged
-  regular_price: 1.0
-  promo_price: null
-  size: 15 oz
-  net_weight: 0.94 [lb_av]
-- product_id: 0001111011976
-  upc: 0001111011976
-  brand: Kroger
-  description: Kroger® No Salt Added Diced Petite Tomatoes
+  description: Kroger® No Salt Added Diced Tomatoes
   categories:
   - Canned & Packaged
   regular_price: 1.0
@@ -5439,26 +5679,6 @@ canned tomatoes:
   promo_price: null
   size: 14.5 oz
   net_weight: 0.91 [lb_av]
-- product_id: 0001111011979
-  upc: 0001111011979
-  brand: Kroger
-  description: Kroger® Whole Peeled Tomatoes
-  categories:
-  - Canned & Packaged
-  regular_price: 1.0
-  promo_price: null
-  size: 14.5 oz
-  net_weight: 0.91 [lb_av]
-- product_id: 0001111011968
-  upc: 0001111011968
-  brand: Kroger
-  description: Kroger® Tomato Paste
-  categories:
-  - Canned & Packaged
-  regular_price: 1.39
-  promo_price: 1.25
-  size: 12 oz
-  net_weight: 0.75 [lb_av]
 fortified soy milk:
 - product_id: '0001111013267'
   upc: '0001111013267'
@@ -5471,17 +5691,6 @@ fortified soy milk:
   promo_price: null
   size: 1/2 gal
   net_weight: 4.2 [lb_av]
-- product_id: 0001111013269
-  upc: 0001111013269
-  brand: Simple Truth
-  description: Simple Truth® Dairy Free Original Coconut Milk Half Gallon
-  categories:
-  - Natural & Organic
-  - Dairy
-  regular_price: 3.59
-  promo_price: null
-  size: 1/2 gal
-  net_weight: 4.23 [lb_av]
 - product_id: 0002529300280
   upc: 0002529300280
   brand: Silk
@@ -5493,6 +5702,18 @@ fortified soy milk:
   promo_price: null
   size: 5.3 fl oz
   net_weight: 0.33 [lb_av]
+- product_id: 0004157010964
+  upc: 0004157010964
+  brand: Almond Breeze
+  description: Almond Breeze Dairy Free Reduced Sugar Vanilla Almondmilk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 3.79
+  promo_price: null
+  size: 1/2 gal
+  net_weight: 4.24 [lb_av]
 - product_id: 0002529360039
   upc: 0002529360039
   brand: Silk
@@ -5504,54 +5725,340 @@ fortified soy milk:
   promo_price: null
   size: 1/2 gal
   net_weight: 4.28 [lb_av]
-- product_id: 0074447391202
-  upc: 0074447391202
-  brand: SO Delicious
-  description: So Delicious Dairy Free Organic Unsweetened Vanilla Coconut Milk Half
-    Gallon
+- product_id: 0002529360027
+  upc: 0002529360027
+  brand: Silk
+  description: Silk Vanilla Dairy Free Vegan Soy Milk Half Gallon
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 4.29
+  promo_price: null
+  size: 1/2 gal
+  net_weight: 4.28 [lb_av]
+- product_id: 0002529300122
+  upc: 0002529300122
+  brand: Silk
+  description: Silk Original Dairy Free Vegan Coconut Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 4.69
+  promo_price: null
+  size: 1/2 gal
+  net_weight: 4.23 [lb_av]
+- product_id: 0003663208089
+  upc: 0003663208089
+  brand: Silk
+  description: Silk Kids Original Dairy Free Oat Milk Blend Half Gallon
+  categories:
+  - Natural & Organic
+  regular_price: 5.79
+  promo_price: null
+  size: 59 fl oz
+  net_weight: 3.93 [lb_av]
+- product_id: 0003663208129
+  upc: 0003663208129
+  brand: Silk
+  description: Silk® Original Soy Milk
+  categories:
+  - Dairy
+  - Natural & Organic
+  regular_price: 6.49
+  promo_price: null
+  size: 96 fl oz
+  net_weight: 6.43 [lb_av]
+- product_id: 0002529300374
+  upc: 0002529300374
+  brand: Silk
+  description: Silk Vanilla Dairy Free Vegan Soy Milk Yogurt Alternative Tub
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 6.79
+  promo_price: null
+  size: 24 fl oz
+  net_weight: 1.5 [lb_av]
+almond milk unsweetened:
+- product_id: 0004157011019
+  upc: 0004157011019
+  brand: Almond Breeze
+  description: Blue Diamond® Almond Breeze® Unsweetened Original Almond Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 4.99
+  promo_price: null
+  size: 96 fl oz
+  net_weight: 6.3 [lb_av]
+- product_id: 0004157011008
+  upc: 0004157011008
+  brand: Almond Breeze
+  description: Blue Diamond® Almond Breeze® Dairy Free Unsweetened Vanilla Almond
+    Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 4.99
+  promo_price: null
+  size: 96 fl oz
+  net_weight: 6.3 [lb_av]
+- product_id: 0085662400436
+  upc: 0085662400436
+  brand: Kite Hill
+  description: Kite Hill® Plain Unsweetened Almond Milk Yogurt Tub
+  categories:
+  - Dairy
+  regular_price: 6.49
+  promo_price: null
+  size: 16 fl oz
+  net_weight: 1.0 [lb_av]
+- product_id: 0086102900011
+  upc: 0086102900011
+  brand: Malk
+  description: MALK Organic Dairy Free Unsweetened Almond Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 6.99
+  promo_price: 4.49
+  size: 28 fl oz
+  net_weight: 1.75 [lb_av]
+oat milk:
+- product_id: 0004410015619
+  upc: 0004410015619
+  brand: Planet Oat
+  description: Planet Oat® Dairy Free Extra Creamy Original Oat Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 3.69
+  promo_price: null
+  size: 52 fl oz
+  net_weight: 3.54 [lb_av]
+- product_id: 0004410015618
+  upc: 0004410015618
+  brand: Planet Oat
+  description: Planet Oat Dairy Free Original Oat Milk 52 fl oz
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 3.69
+  promo_price: null
+  size: 52 fl oz
+  net_weight: 3.53 [lb_av]
+- product_id: '0004410015620'
+  upc: '0004410015620'
+  brand: Planet Oat
+  description: Planet Oat® Dairy Free Dark Chocolate Oat Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 3.69
+  promo_price: null
+  size: 52 fl oz
+  net_weight: 3.59 [lb_av]
+- product_id: '0004410015621'
+  upc: '0004410015621'
+  brand: Planet Oat
+  description: Planet Oat Dairy Free Vanilla Oat Milk 52 fl oz
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 3.69
+  promo_price: null
+  size: 52 fl oz
+  net_weight: 3.53 [lb_av]
+- product_id: 0004410019080
+  upc: 0004410019080
+  brand: Planet Oat
+  description: Planet Oat® Dairy Free Unsweeted Original Oat Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 3.69
+  promo_price: null
+  size: 52 oz
+  net_weight: 3.54 [lb_av]
+- product_id: 0004410019079
+  upc: 0004410019079
+  brand: Planet Oat
+  description: Planet Oat® Dairy-Free Extra Creamy Shelf-Stable Original Oatmilk
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 3.79
+  promo_price: null
+  size: 32 fl oz
+  net_weight: 2.18 [lb_av]
+- product_id: 0019064664001
+  upc: 0019064664001
+  brand: Oatly
+  description: Oatly Dairy-Free Shelf-Stable Barista Edition Original Oat Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  - Dairy
+  regular_price: 4.49
+  promo_price: null
+  size: 32 fl oz
+  net_weight: 2.0 [lb_av]
+- product_id: 0081829001698
+  upc: 0081829001698
+  brand: Chobani
+  description: Chobani® Dairy Free Original Oat Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 4.59
+  promo_price: null
+  size: 52 fl oz
+  net_weight: 3.25 [lb_av]
+- product_id: 0081829001703
+  upc: 0081829001703
+  brand: Chobani
+  description: Chobani® Dairy Free Extra Creamy Oat Milk
+  categories:
+  - Natural & Organic
+  - Dairy
+  regular_price: 4.59
+  promo_price: null
+  size: 52 fl oz
+  net_weight: 3.25 [lb_av]
+- product_id: 0085788200849
+  upc: 0085788200849
+  brand: BetterBody Foods
+  description: BetterBody Foods Oatsome® Organic Barista Oat Drink
   categories:
   - Natural & Organic
   - Dairy
   - Dairy
   regular_price: 4.79
   promo_price: null
-  size: 64 fl oz
-  net_weight: 4.18 [lb_av]
-- product_id: 0004138309074
-  upc: 0004138309074
-  brand: Lactaid
-  description: Lactaid® Lactose Free Calcium Fortified 2% Reduced Fat Milk Half Gallon
-  categories:
-  - Dairy
-  regular_price: 4.99
-  promo_price: null
-  size: 1/2 gal
-  net_weight: 4.32 [lb_av]
-- product_id: 0081363602374
-  upc: 0081363602374
-  brand: Califia Farms
-  description: Califia Farms Unsweetened Organic Soy Milk 48 fl oz
+  size: 33.8 fl oz
+  net_weight: 2.2 [lb_av]
+pea milk:
+- product_id: 0005215970112
+  upc: 0005215970112
+  brand: Stonyfield Organic
+  description: Stonyfield Organic Whole Milk Pear Spinach Mango Yogurt
   categories:
   - Dairy
   - Natural & Organic
-  regular_price: 6.99
-  promo_price: 4.99
-  size: 48 fl oz
-  net_weight: 0.12 [lb_av]
-- product_id: 0002529300270
-  upc: 0002529300270
-  brand: Silk
-  description: Silk Chocolate Shelf Stable Dairy Free Vegan Soy Milk
+  regular_price: 7.49
+  promo_price: null
+  size: 4 ct
+  net_weight: 0.88 [lb_av]
+- product_id: 0063748007575
+  upc: 0063748007575
+  brand: Atkins
+  description: Atkins Endulge Chocolate Peanut Candies
+  categories:
+  - Candy
+  regular_price: 7.49
+  promo_price: null
+  size: 5 ct / 6 oz
+  net_weight: 0.38 [lb_av]
+cashew milk:
+- product_id: '0001111015750'
+  upc: '0001111015750'
+  brand: Kroger
+  description: Kroger® Milk Chocolate Covered Cashews
+  categories:
+  - Candy
+  - Candy
+  regular_price: 10.79
+  promo_price: null
+  size: 12.5 oz
+  net_weight: 0.78 [lb_av]
+- product_id: '0074447300026'
+  upc: '0074447300026'
+  brand: SO Delicious
+  description: So Delicious Dairy Free Vegan Very Vanilla Cashew Milk Frozen Dessert
+    Pint
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 5.99
+  promo_price: null
+  size: 16 fl oz
+  net_weight: 0.68 [lb_av]
+- product_id: 0074447300083
+  upc: 0074447300083
+  brand: SO Delicious
+  description: So Delicious Dairy Free Vegan Chocolate Drizzled Banana Fosters Cashew
+    Milk Frozen Dessert Pint
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 5.99
+  promo_price: null
+  size: 16 fl oz
+  net_weight: 0.75 [lb_av]
+- product_id: '0074447347613'
+  upc: '0074447347613'
+  brand: SO Delicious
+  description: So Delicious Dairy Free Vegan Salted Caramel Cluster Cashew Milk Frozen
+    Dessert Pint
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 5.99
+  promo_price: null
+  size: 16 fl oz
+  net_weight: 0.74 [lb_av]
+- product_id: '0074447347621'
+  upc: '0074447347621'
+  brand: SO Delicious
+  description: So Delicious Dairy Free Vegan Dark Chocolate Truffle Cashew Milk Frozen
+    Dessert Pint
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 5.99
+  promo_price: null
+  size: 16 fl oz
+  net_weight: 0.76 [lb_av]
+- product_id: '0074447300030'
+  upc: '0074447300030'
+  brand: SO Delicious
+  description: So Delicious Dairy Free Vegan Dipped Salted Caramel Cashew Milk Frozen
+    Dessert Bars
+  categories:
+  - Frozen
+  - Natural & Organic
+  regular_price: 5.99
+  promo_price: null
+  size: 4 ct / 2.3 fl oz
+  net_weight: 0.5 [lb_av]
+- product_id: 0085002426796
+  upc: 0085002426796
+  brand: Hu
+  description: Hu Cashew Butter Milk Chocolate Bar
+  categories:
+  - Candy
+  - Candy
+  - Natural & Organic
+  regular_price: 6.49
+  promo_price: null
+  size: 9 oz
+  net_weight: 0.13 [lb_av]
+nutritional yeast:
+- product_id: 0001111009081
+  upc: 0001111009081
+  brand: Simple Truth
+  description: Simple Truth® Non-Dairy Nutritional Yeast
   categories:
   - Natural & Organic
-  - Dairy
-  - Dairy
-  - Dairy
-  regular_price: 8.49
+  regular_price: 6.29
   promo_price: null
-  size: 6 ct / 8 fl oz
-  net_weight: 3.31 [lb_av]
-nutritional yeast: []
+  size: 4.5 oz
+  net_weight: 0.28 [lb_av]
 vegetable oil:
 - product_id: 0001111085607
   upc: 0001111085607
@@ -5573,6 +6080,16 @@ vegetable oil:
   promo_price: null
   size: 48 fl oz
   net_weight: 2.87 [lb_av]
+- product_id: 0001111004239
+  upc: 0001111004239
+  brand: Kroger
+  description: Kroger® Buttery Vegetable Oil Spread
+  categories:
+  - Dairy
+  regular_price: 4.39
+  promo_price: null
+  size: 45 oz
+  net_weight: 2.81 [lb_av]
 - product_id: 0000000834102
   upc: 0000000834102
   brand: Kroger
@@ -5613,15 +6130,15 @@ vegetable oil:
   promo_price: null
   size: 1 gal
   net_weight: 7.67 [lb_av]
-- product_id: 0001111587132
-  upc: 0001111587132
-  brand: Imperial
-  description: Imperial Vegetable Oil Spread Sticks
+- product_id: 0000000834101
+  upc: 0000000834101
+  brand: Kroger
+  description: Kroger® 100% Pure Vegetable Oil x 2
   categories:
-  - Dairy
-  regular_price: 1.29
+  - Baking Goods
+  regular_price: 17.08
   promo_price: null
-  size: 4 sticks / 16 oz
+  size: 2x 1 gal
   net_weight: null
 - product_id: 0002900000822
   upc: 0002900000822
@@ -5633,37 +6150,17 @@ vegetable oil:
   promo_price: null
   size: 16 oz
   net_weight: 0.06 [lb_av]
-- product_id: '0001111500006'
-  upc: '0001111500006'
-  brand: Imperial
-  description: Imperial Vegetable Oil Spread Tub
-  categories:
-  - Dairy
-  regular_price: 2.29
-  promo_price: null
-  size: 15 oz
-  net_weight: 0.94 [lb_av]
-- product_id: 0019600524395
-  upc: 0019600524395
-  brand: Crisco
-  description: Crisco Pure Vegetable Oil, Gluten-Free
+- product_id: 0001111014719
+  upc: 0001111014719
+  brand: Smart Way
+  description: Smart Way™ Vegetable Oil
   categories:
   - Baking Goods
-  regular_price: 2.49
+  regular_price: 1.49
   promo_price: null
   size: 16 fl oz
-  net_weight: 1.0 [lb_av]
+  net_weight: 0.96 [lb_av]
 olive oil:
-- product_id: 0001111090561
-  upc: 0001111090561
-  brand: Kroger
-  description: Kroger® Flat Anchovies in Olive Oil & Salt
-  categories:
-  - Canned & Packaged
-  regular_price: 2.79
-  promo_price: null
-  size: 2 oz
-  net_weight: 0.13 [lb_av]
 - product_id: 0001111014649
   upc: 0001111014649
   brand: Kroger
@@ -5694,26 +6191,6 @@ olive oil:
   promo_price: null
   size: 30 oz
   net_weight: 1.87 [lb_av]
-- product_id: '0001111004412'
-  upc: '0001111004412'
-  brand: Kroger
-  description: Kroger® Extra Virgin Olive Oil
-  categories:
-  - Baking Goods
-  regular_price: 6.49
-  promo_price: null
-  size: 16.9 fl oz
-  net_weight: 1.0 [lb_av]
-- product_id: 0001111082350
-  upc: 0001111082350
-  brand: Private Selection
-  description: Private Selection™ Halved Sun Dried Seasoned Pure Olive Oil Tomatoes
-  categories:
-  - Canned & Packaged
-  regular_price: 6.49
-  promo_price: null
-  size: 7 oz
-  net_weight: 0.44 [lb_av]
 - product_id: '0001111003416'
   upc: '0001111003416'
   brand: Private Selection
@@ -5724,16 +6201,27 @@ olive oil:
   promo_price: null
   size: 3.4 fl oz
   net_weight: 0.21 [lb_av]
-- product_id: '0001111004414'
-  upc: '0001111004414'
+- product_id: '0001111004413'
+  upc: '0001111004413'
   brand: Kroger
-  description: Kroger® Light Tasting Olive Oil
+  description: Kroger® Pure Olive Oil
   categories:
   - Baking Goods
   regular_price: 8.49
   promo_price: null
   size: 16.9 fl oz
   net_weight: 1.0 [lb_av]
+- product_id: 0001111008219
+  upc: 0001111008219
+  brand: Simple Truth Organic
+  description: Simple Truth Organic® Unfiltered Extra Virgin Olive Oil
+  categories:
+  - Baking Goods
+  - Natural & Organic
+  regular_price: 8.49
+  promo_price: null
+  size: 16.9 fl oz
+  net_weight: 1.01 [lb_av]
 - product_id: '0001111003333'
   upc: '0001111003333'
   brand: Private Selection
@@ -5754,17 +6242,27 @@ olive oil:
   promo_price: null
   size: 25.4 fl oz
   net_weight: 1.6 [lb_av]
-white sugar:
-- product_id: 0001111087664
-  upc: 0001111087664
-  brand: Kroger
-  description: Kroger® Powdered Sugar
+- product_id: 0001111089079
+  upc: 0001111089079
+  brand: Private Selection
+  description: Private Selection® Italian Extra Virgin Olive Oil
   categories:
   - Baking Goods
-  regular_price: 2.29
-  promo_price: 2.0
-  size: 32 oz
-  net_weight: 2.0 [lb_av]
+  regular_price: 12.99
+  promo_price: null
+  size: 17 fl oz
+  net_weight: 1.01 [lb_av]
+- product_id: '0001111004416'
+  upc: '0001111004416'
+  brand: Kroger
+  description: Kroger® Pure Olive Oil
+  categories:
+  - Baking Goods
+  regular_price: 13.99
+  promo_price: null
+  size: 33.8 fl oz
+  net_weight: 2.1 [lb_av]
+white sugar:
 - product_id: 0001111087662
   upc: 0001111087662
   brand: Kroger
@@ -5785,16 +6283,6 @@ white sugar:
   promo_price: null
   size: 16 oz
   net_weight: 1.0 [lb_av]
-- product_id: 0001111085325
-  upc: 0001111085325
-  brand: Simple Truth Organic
-  description: Simple Truth Organic® Light Brown Sugar
-  categories:
-  - Baking Goods
-  regular_price: 4.29
-  promo_price: 3.99
-  size: 24 oz
-  net_weight: 1.5 [lb_av]
 - product_id: 0001111088007
   upc: 0001111088007
   brand: Private Selection
@@ -5805,6 +6293,17 @@ white sugar:
   promo_price: null
   size: 2 lb
   net_weight: 2.0 [lb_av]
+- product_id: 0001111087144
+  upc: 0001111087144
+  brand: Simple Truth
+  description: Simple Truth Organic™ Gluten Free Coconut Sugar
+  categories:
+  - Baking Goods
+  - Natural & Organic
+  regular_price: 4.99
+  promo_price: null
+  size: 16 oz
+  net_weight: 1.0 [lb_av]
 - product_id: 0001111079554
   upc: 0001111079554
   brand: Kroger
@@ -5826,16 +6325,6 @@ white sugar:
   promo_price: null
   size: 10 ounces
   net_weight: 0.62 [lb_av]
-- product_id: '0007210002600'
-  upc: '0007210002600'
-  brand: Imperial Sugar
-  description: Imperial Pure Granulated Cane Sugar
-  categories:
-  - Baking Goods
-  regular_price: 3.19
-  promo_price: null
-  size: 2 lb
-  net_weight: 2.0 [lb_av]
 - product_id: 0001111011888
   upc: 0001111011888
   brand: Smart Way
@@ -5856,29 +6345,59 @@ white sugar:
   promo_price: null
   size: 100 ct
   net_weight: 0.78 [lb_av]
-lard:
-- product_id: '0007010007062'
-  upc: '0007010007062'
-  brand: Morrell
-  description: John Morrell® Snow Cap Edible Lard
+- product_id: 0004920005175
+  upc: 0004920005175
+  brand: Domino
+  description: Domino Premium Cane Powdered Sugar
   categories:
   - Baking Goods
-  regular_price: 2.59
+  regular_price: 4.19
   promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-- product_id: 0081507402090
-  upc: 0081507402090
-  brand: Chosen Foods
-  description: Chosen Foods Avocado Oil Shortening
+  size: 2 lb
+  net_weight: 2.0 [lb_av]
+- product_id: 0004920090486
+  upc: 0004920090486
+  brand: Domino
+  description: Domino Premium Pure Cane Dark Brown Sugar Zipper-Pack
   categories:
   - Natural & Organic
   - Baking Goods
-  regular_price: 11.99
-  promo_price: 9.99
-  size: 16 oz
-  net_weight: 1.06 [lb_av]
-molasses: []
+  regular_price: 4.49
+  promo_price: null
+  size: 2 lb
+  net_weight: 2.0 [lb_av]
+lard:
+- product_id: 0019600525188
+  upc: 0019600525188
+  brand: Crisco
+  description: Crisco All-Vegetable Shortening Sticks
+  categories:
+  - Baking Goods
+  regular_price: 7.49
+  promo_price: null
+  size: 20 oz
+  net_weight: 1.25 [lb_av]
+- product_id: 0019600524234
+  upc: 0019600524234
+  brand: Crisco
+  description: Crisco All-Vegetable Shortening, Gluten-Free
+  categories:
+  - Baking Goods
+  regular_price: 8.29
+  promo_price: null
+  size: 48 oz
+  net_weight: 3.0 [lb_av]
+molasses:
+- product_id: '0007240071124'
+  upc: '0007240071124'
+  brand: Grandma's
+  description: Grandma's® Original Molasses 12 Fluid Ounce Bottle
+  categories:
+  - Baking Goods
+  regular_price: 3.99
+  promo_price: null
+  size: 12 fl oz
+  net_weight: 0.75 [lb_av]
 grandma molasses: []
 evaporated milk:
 - product_id: 0001111088301
@@ -5902,48 +6421,17 @@ evaporated milk:
   promo_price: null
   size: 5 fl oz
   net_weight: 0.34 [lb_av]
-- product_id: 0065272901124
-  upc: 0065272901124
-  brand: Pet
-  description: PET Evaporated Milk
+- product_id: 0005000015991
+  upc: 0005000015991
+  brand: Carnation
+  description: Nestlé Carnation Evaporated Lowfat 2% Milk Vitamin D Added Shelf Milk
+    Evaporated Milk Canned
   categories:
   - Baking Goods
   regular_price: 2.19
   promo_price: null
   size: 12 fl oz
   net_weight: 0.83 [lb_av]
-- product_id: '0005000016011'
-  upc: '0005000016011'
-  brand: Carnation
-  description: Nestlé Carnation Evaporated Fat-Free Milk Vitamin A and D Added Evaporated
-    Milk Canned
-  categories:
-  - Baking Goods
-  regular_price: 2.19
-  promo_price: null
-  size: 12 fl oz
-  net_weight: 0.84 [lb_av]
-- product_id: '0005000001011'
-  upc: '0005000001011'
-  brand: Carnation
-  description: CARNATION Vitamin D Added Evaporated Milk
-  categories:
-  - Baking Goods
-  regular_price: 2.19
-  promo_price: null
-  size: 12 fl oz
-  net_weight: 0.82 [lb_av]
-- product_id: 0005000095895
-  upc: 0005000095895
-  brand: Nestle
-  description: Nestlé Carnation Evaporated Milk Vitamin D Added Shelf Milk Evaporated
-    Milk
-  categories:
-  - Baking Goods
-  regular_price: 3.69
-  promo_price: null
-  size: 17 fl oz
-  net_weight: 1.17 [lb_av]
 beef liver:
 - product_id: 0007904122638
   upc: 0007904122638
@@ -5955,91 +6443,17 @@ beef liver:
   promo_price: null
   size: 4 ct / 4 oz
   net_weight: 1.0 [lb_av]
-- product_id: 0084036993403
-  upc: 0084036993403
-  brand: Butcher's Prime
-  description: Butcher's Prime Beef Liver Burnt End Tip Dog Treats
-  categories:
-  - Pet Care
-  regular_price: 5.79
-  promo_price: null
-  size: 6 oz
-  net_weight: 0.31 [lb_av]
-- product_id: 0002310010926
-  upc: 0002310010926
-  brand: Temptations
-  description: Temptations MixUps Crunchy and Soft Cat Treats Backyard Cookout Chicken
-    Liver & Beef Flavor
-  categories:
-  - Pet Care
-  - Pet Care
-  regular_price: 8.99
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
 corn meal:
-- product_id: '0001111013646'
-  upc: '0001111013646'
-  brand: Kroger
-  description: Kroger® Pure Corn Starch
+- product_id: 0003520440094
+  upc: 0003520440094
+  brand: Andy's
+  description: Andy's Seasoning™ Yellow Corn Meal Fish Breading
   categories:
   - Baking Goods
-  regular_price: 2.29
+  regular_price: 1.99
   promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-- product_id: 0001111071419
-  upc: 0001111071419
-  brand: Kroger
-  description: Kroger® Yellow Corn Meal
-  categories:
-  - Baking Goods
-  regular_price: 2.49
-  promo_price: null
-  size: 24 oz
-  net_weight: 1.5 [lb_av]
-- product_id: 0001111014599
-  upc: 0001111014599
-  brand: Kroger
-  description: Kroger® Mercado Pre Cooked White Corn Meal
-  categories:
-  - Baking Goods
-  regular_price: 2.99
-  promo_price: null
-  size: 35.27 oz
-  net_weight: 2.2 [lb_av]
-- product_id: '0001530020135'
-  upc: '0001530020135'
-  brand: Rice-A-Roni
-  description: Rice-A-Roni® Mexican Street Corn Style Rice and Vermicelli
-  categories:
-  - Pasta, Sauces, Grain
-  - Canned & Packaged
-  regular_price: 1.5
-  promo_price: 1.0
-  size: 5.5 oz
-  net_weight: 0.34 [lb_av]
-- product_id: '0076172007104'
-  upc: '0076172007104'
-  brand: Argo
-  description: Argo® 100% Pure Corn Starch
-  categories:
-  - Baking Goods
-  regular_price: 2.69
-  promo_price: null
-  size: 16 oz
-  net_weight: 1.0 [lb_av]
-- product_id: 0001330018501
-  upc: 0001330018501
-  brand: Martha White
-  description: Martha White Self Rising Corn Meal Mix with Hot Rize
-  categories:
-  - Baking Goods
-  - Baking Goods
-  regular_price: 2.79
-  promo_price: null
-  size: 2 lb
-  net_weight: 2.0 [lb_av]
+  size: 10 oz
+  net_weight: 0.62 [lb_av]
 - product_id: 0005527084644
   upc: 0005527084644
   brand: Grace
@@ -6051,16 +6465,6 @@ corn meal:
   promo_price: null
   size: 24 oz
   net_weight: 1.5 [lb_av]
-- product_id: 0003100019663
-  upc: 0003100019663
-  brand: Kid Cuisine
-  description: Kid Cuisine Mini Corn Dogs Frozen Meal
-  categories:
-  - Frozen
-  regular_price: 2.79
-  promo_price: null
-  size: 8.800 oz
-  net_weight: 0.55 [lb_av]
 - product_id: 0073990700001
   upc: 0073990700001
   brand: P.A.N.
@@ -6072,13 +6476,46 @@ corn meal:
   promo_price: null
   size: 35.27 oz
   net_weight: 2.2 [lb_av]
-- product_id: '0007265522011'
-  upc: '0007265522011'
-  brand: Healthy Choice
-  description: Healthy Choice Cafe Steamers Mexican-Style Street Corn, Frozen Meal
+- product_id: '0007111702015'
+  upc: '0007111702015'
+  brand: Reser's
+  description: Reser's® Fine Foods Creamed Corn with Red Pepper
   categories:
-  - Frozen
-  regular_price: 3.29
-  promo_price: 2.99
-  size: 9.25 oz
-  net_weight: 0.58 [lb_av]
+  - Meat & Seafood
+  - Meat & Seafood
+  regular_price: 3.99
+  promo_price: 1.99
+  size: 12 oz
+  net_weight: 0.75 [lb_av]
+- product_id: 0003729791447
+  upc: 0003729791447
+  brand: Maseca
+  description: MASECA® Gluten Free Corn Masa Flour White Corn
+  categories:
+  - International
+  - Baking Goods
+  regular_price: 4.29
+  promo_price: null
+  size: 4 lb
+  net_weight: 4.0 [lb_av]
+- product_id: 0003997811125
+  upc: 0003997811125
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Yellow Corn Polenta
+  categories:
+  - Natural & Organic
+  regular_price: 4.79
+  promo_price: null
+  size: 24 oz
+  net_weight: 1.5 [lb_av]
+- product_id: 0003997800283
+  upc: 0003997800283
+  brand: Bob's Red Mill
+  description: Bob's Red Mill Organic Masa Harina Corn Flour
+  categories:
+  - Natural & Organic
+  - Baking Goods
+  regular_price: 6.29
+  promo_price: null
+  size: 24 oz
+  net_weight: 1.5 [lb_av]
