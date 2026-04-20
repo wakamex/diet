@@ -160,6 +160,16 @@ CURATE_PICKS: list[Pick] = [
          dietary_categories=("seed",)),
     # Kroger Cincinnati doesn't stock dried mature soybeans under any searchable
     # term; we already cover soy via tofu, soy milk, and edamame. Pick omitted.
+    # Bob's Red Mill is the only vital wheat gluten SKU at Kroger ("wheat gluten"
+    # search surfaces it; "vital wheat gluten" search returns nothing). The
+    # Bob's product is 22oz, ~75% protein by weight — meat-level protein density
+    # as a plant food.
+    Pick("wheat gluten", include=("gluten",),
+         exclude=("free", "gluten-free", "bread", "cracker", "pasta", "cookie",
+                  "mix", "shampoo", "haircare", "protein shampoo", "sprouted",
+                  "whole wheat flour", "organic foods organic"),
+         fdc_query="wheat flour whole-grain",
+         dietary_categories=("grain",)),
     # Dairy
     Pick("low fat milk gallon", include=("1% lowfat", "milk"), exclude=("chocolate", "strawberry", "carbmaster"),
          fdc_query="milk lowfat fluid 1% milkfat with added vitamin a and vitamin d",
@@ -184,8 +194,27 @@ CURATE_PICKS: list[Pick] = [
     Pick("chicken breast boneless", include=("boneless", "chicken breast"), exclude=("breaded", "marinated", "seasoned", "tenders"),
          fdc_query="chicken broiler or fryer breast meat only raw",
          dietary_categories=("meat_white",)),
+    Pick("whole chicken", include=("whole", "chicken"),
+         exclude=("breast", "wing", "thigh", "leg", "quarter", "ground",
+                  "tender", "strip", "nugget", "patty", "sausage", "meatball",
+                  "boneless", "soup", "broth", "rotisserie", "cooked",
+                  "marinated", "seasoned"),
+         fdc_query="chicken broilers or fryers whole meat and skin raw",
+         dietary_categories=("meat_white",)),
+    Pick("chicken leg quarters", include=("leg",),
+         exclude=("breast", "wing", "tender", "strip", "nugget", "patty",
+                  "sausage", "meatball", "ground", "marinated", "sauce",
+                  "soup", "broth", "boneless", "bbq", "dog", "cat"),
+         # seasoned leg quarters accepted — extra salt rides the sodium UL
+         fdc_query="chicken broilers or fryers leg meat and skin raw",
+         dietary_categories=("meat_white",)),
     Pick("ground beef 80 20", include=("80/20", "ground beef"), exclude=("patties", "burger"),
          fdc_query="beef ground 80% lean 20% fat raw",
+         dietary_categories=("meat_red",)),
+    Pick("pork shoulder", include=("pork", "shoulder"),
+         exclude=("sausage", "ground", "bbq", "marinated", "seasoned",
+                  "pre-cooked", "cooked", "steamed", "bites", "ham"),
+         fdc_query="pork fresh shoulder separable lean and fat raw",
          dietary_categories=("meat_red",)),
     # Fish
     Pick("canned tuna in water", include=("tuna", "water"), exclude=("oil", "pouch", "salad"),
@@ -199,6 +228,13 @@ CURATE_PICKS: list[Pick] = [
                   "teriyaki", "sauce", "fresh", "frozen", "fillet", "steak",
                   "nugget", "sushi", "lox"),
          fdc_query="fish salmon pink canned drained solids with bone",
+         dietary_categories=("fish",)),
+    Pick("canned mackerel", include=("mackerel",),
+         # Kroger's mackerel at Cincinnati is "Grace Jack Mackerel in Tomato
+         # Sauce" — tomato sauce is normal packing for canned mackerel, not a
+         # flavored product. Keep the exclude list small.
+         exclude=("smoked", "fresh", "frozen", "fillet", "steak", "jerky", "pickled"),
+         fdc_query="fish mackerel jack canned drained solids",
          dietary_categories=("fish",)),
     Pick("canned clams", include=("clams",),
          exclude=("chowder", "sauce", "dip", "stuffed", "smoked", "cake", "strip",

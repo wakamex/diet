@@ -44,6 +44,10 @@
 - "chia"
 - "dried soybeans"
 - "soybeans dry"
+- "vital wheat gluten"
+- "wheat gluten"
+- "seitan"
+- "bob's red mill"
 
 # Dairy / eggs
 - "whole milk gallon"
@@ -59,14 +63,18 @@
 # Meat & poultry
 - "chicken breast boneless"
 - "chicken thighs"
+- "whole chicken"
+- "chicken leg quarters"
 - "ground beef 80 20"
 - "pork loin"
+- "pork shoulder"
 
 # Fish & seafood
 - "canned tuna in water"
 - "canned sardines"
 - "frozen salmon"
 - "canned salmon"
+- "canned mackerel"
 - "canned clams"
 - "chicken liver"
 
