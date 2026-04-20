@@ -149,7 +149,16 @@ CURATE_PICKS: list[Pick] = [
          dietary_categories=("nut",)),
     Pick("ground flaxseed", include=("flax",),
          exclude=("oil", "capsule", "supplement", "bread", "tablet", "softgel",
-                  "bar", "crackers"),
+                  "bar", "crackers", "whole seed"),
+         fdc_query="seeds flaxseed",
+         dietary_categories=("seed",)),
+    # Whole flaxseed — same FDC nutrient profile as ground (same seeds, just not
+    # milled), often 30-50% cheaper per gram. Requires a blender/mortar at
+    # prep time to get the same bioavailability as ground; the LP treats them
+    # identically on nutrients.
+    Pick("whole flaxseed", include=("flax",),
+         exclude=("oil", "capsule", "supplement", "bread", "tablet", "softgel",
+                  "bar", "crackers", "cereal", "ground", "milled", "meal"),
          fdc_query="seeds flaxseed",
          dietary_categories=("seed",)),
     Pick("chia", include=("chia",),
@@ -350,6 +359,13 @@ CURATE_PICKS: list[Pick] = [
          dietary_categories=("fat",)),
     Pick("vegetable oil", include=("vegetable oil",), exclude=("spread", "spray", "buttery"),
          fdc_query="oil vegetable industrial soybean refined for cooking",
+         dietary_categories=("fat",)),
+    # Canola oil — ~10 g ALA per 100 g vs soybean's ~7 g. Typically similar
+    # price to vegetable oil at Kroger, so a cheaper $/g ALA source.
+    Pick("canola oil", include=("canola",),
+         exclude=("spray", "mayo", "blend", "dressing", "butter", "spread",
+                  "pam", "margarine", "marinade", "sauce"),
+         fdc_query="oil canola",
          dietary_categories=("fat",)),
     # Classical Stigler staples — reintroduced to align with the 1939/1947/2001
     # optimal baskets (cabbage + navy beans + wheat flour + evaporated milk +

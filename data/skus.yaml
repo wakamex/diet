@@ -16,30 +16,30 @@
   _fdc_dataType: Foundation
   _kroger_categories:
   - Pasta, Sauces, Grain
-- product_id: 0000000834131
+- product_id: 0001111002805
   fdc_id: 2346396
-  name: Simple Truth Organic® 100% Whole Grain Rolled 1 Minute Oats x 2
-  unit_grams: 510.3
+  name: Simple Truth Organic® 100% Whole Grain Rolled 1 Minute Oats
+  unit_grams: 512.6
   dietary_categories:
   - grain
-  _size: 2x 18 oz
-  _net_weight: null
-  _unit_source: size:weight
+  _size: 18 oz
+  _net_weight: 1.13 [lb_av]
+  _unit_source: netWeight
   _fdc_match: Oats, whole grain, rolled, old fashioned
   _fdc_dataType: Foundation
   _kroger_categories:
   - Breakfast
-- product_id: 0001111008529
-  fdc_id: 335240
+- product_id: 0001111008480
+  fdc_id: 174916
   name: Kroger® 100% Whole Wheat Bread
-  unit_grams: 453.6
+  unit_grams: 680.4
   dietary_categories:
   - grain
-  _size: 16 oz
-  _net_weight: 1.0 [lb_av]
+  _size: 24 oz
+  _net_weight: 1.5 [lb_av]
   _unit_source: netWeight
-  _fdc_match: Bread, whole-wheat, commercially prepared
-  _fdc_dataType: Foundation
+  _fdc_match: Bread, pita, whole-wheat
+  _fdc_dataType: SR Legacy
   _kroger_categories:
   - Bakery
 - product_id: 0001111085072
@@ -120,15 +120,15 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Baking Goods
-- product_id: '0001600014155'
+- product_id: 0001600014159
   fdc_id: 173884
-  name: General Mills Honey Nut Cheerios Cereal
-  unit_grams: 49.9
+  name: General Mills Cheerios Cereal Cup
+  unit_grams: 36.3
   dietary_categories:
   - grain
   - fortified_b12
-  _size: 1.8 oz
-  _net_weight: 0.11 [lb_av]
+  _size: 1.3 oz
+  _net_weight: 0.08 [lb_av]
   _unit_source: netWeight
   _fdc_match: Cereals ready-to-eat, GENERAL MILLS, CHEERIOS
   _fdc_dataType: SR Legacy
@@ -148,35 +148,22 @@
   _fdc_dataType: Foundation
   _kroger_categories:
   - Pasta, Sauces, Grain
-- product_id: 0001111080627
+- product_id: '0001111012210'
   fdc_id: 2644288
-  name: Kroger Garbanzo Beans - 15.5oz can
-  unit_grams: 435.4
+  name: Simple Truth Organic® Low Sodium Garbanzo Beans
+  unit_grams: 421.8
   dietary_categories:
   - legume
-  _size: 15.5oz
-  _net_weight: 0.96 [lb_av]
+  _size: 15 oz
+  _net_weight: 0.93 [lb_av]
   _unit_source: netWeight
   _fdc_match: Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed
   _fdc_dataType: Foundation
   _kroger_categories:
   - Canned & Packaged
-- product_id: 0001111089668
-  fdc_id: 173745
-  name: Kroger® Navy Beans
-  unit_grams: 453.6
-  dietary_categories:
-  - legume
-  _size: 16 oz
-  _net_weight: 1.0 [lb_av]
-  _unit_source: netWeight
-  _fdc_match: Beans, navy, mature seeds, raw
-  _fdc_dataType: SR Legacy
-  _kroger_categories:
-  - Pasta, Sauces, Grain
-- product_id: 0001111089687
+- product_id: '0007152401215'
   fdc_id: 175186
-  name: Kroger® Black Beans
+  name: La Preferida® Black Beans Dry
   unit_grams: 453.6
   dietary_categories:
   - legume
@@ -186,7 +173,9 @@
   _fdc_match: Beans, black turtle, mature seeds, raw
   _fdc_dataType: SR Legacy
   _kroger_categories:
+  - International
   - Pasta, Sauces, Grain
+  - International
 - product_id: '0001111072567'
   fdc_id: 175188
   name: Kroger® Black Beans
@@ -200,45 +189,32 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Canned & Packaged
-- product_id: 0001111089681
+- product_id: 0001111089864
   fdc_id: 170086
   name: Kroger® Pinto Beans
-  unit_grams: 453.6
+  unit_grams: 907.2
   dietary_categories:
   - legume
-  _size: 16 oz
-  _net_weight: 1.0 [lb_av]
+  _size: 32 oz
+  _net_weight: 2.0 [lb_av]
   _unit_source: netWeight
   _fdc_match: Beans, pinto, mature seeds, sprouted, raw
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Pasta, Sauces, Grain
-- product_id: 0001111015358
+- product_id: '0001111072565'
   fdc_id: 175201
-  name: Kroger® Pinto Beans BIG DEALl!
-  unit_grams: 439.4
+  name: Pinto Beans
+  unit_grams: 435.4
   dietary_categories:
   - legume
-  _size: 4 ct / 15.5 oz
-  _net_weight: 3.87 [lb_av]
-  _unit_source: size:weight
+  _size: 15.5 oz
+  _net_weight: 0.96 [lb_av]
+  _unit_source: netWeight
   _fdc_match: Beans, pinto, mature seeds, canned, solids and liquids
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Canned & Packaged
-- product_id: 0001111089620
-  fdc_id: 173744
-  name: Kroger® Light Red Kidney Beans
-  unit_grams: 453.6
-  dietary_categories:
-  - legume
-  _size: 16 oz
-  _net_weight: 1.0 [lb_av]
-  _unit_source: netWeight
-  _fdc_match: Beans, kidney, red, mature seeds, raw
-  _fdc_dataType: SR Legacy
-  _kroger_categories:
-  - Pasta, Sauces, Grain
 - product_id: 0001111071786
   fdc_id: 174285
   name: Light Red Kidney Beans
@@ -252,6 +228,20 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Canned & Packaged
+- product_id: 0004133102487
+  fdc_id: 172428
+  name: Goya® Green Split Peas
+  unit_grams: 453.6
+  dietary_categories:
+  - legume
+  _size: 16 oz
+  _net_weight: 1.0 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Peas, green, split, mature seeds, raw
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - International
+  - Pasta, Sauces, Grain
 - product_id: 0001111071789
   fdc_id: 175192
   name: Kroger® Great Northern Beans
@@ -281,48 +271,48 @@
   - Natural & Organic
   - Produce
   - Produce
-- product_id: '0001111003553'
+- product_id: 0001111015380
   fdc_id: 168410
-  name: Simple Truth Organic® Frozen Edamame
+  name: Kroger® Edamame
   unit_grams: 340.2
   dietary_categories:
   - legume
   - soy
   _size: 12 oz
-  _net_weight: 0.75 [lb_av]
-  _unit_source: netWeight
+  _net_weight: 0.7 [lb_av]
+  _unit_source: size:weight
   _fdc_match: Edamame, frozen, unprepared
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Frozen
-- product_id: '0001111001650'
+- product_id: 0001111001618
   fdc_id: 172458
-  name: Kroger® Natural Peanut Butter Crunchy
-  unit_grams: 426.4
+  name: Kroger® Creamy Peanut Butter
+  unit_grams: 453.6
   dietary_categories:
   - legume
   - nut
-  _size: 15 oz
-  _net_weight: 0.94 [lb_av]
+  _size: 16 oz
+  _net_weight: 1.0 [lb_av]
   _unit_source: netWeight
   _fdc_match: Peanut butter, smooth, reduced fat
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Condiment & Sauces
   - Condiment & Sauces
-- product_id: 0007493600011
+- product_id: 0060933284834
   fdc_id: 2346394
-  name: Hammons® Fancy Large Black Walnuts
-  unit_grams: 226.8
+  name: e.l.f. Cosmetics Hydrating Satin Camo Concealer Tan Walnut
+  unit_grams: 5.9
   dietary_categories:
   - nut
-  _size: 8 oz
-  _net_weight: 0.5 [lb_av]
-  _unit_source: netWeight
+  _size: 0.2 fl oz
+  _net_weight: 0.08 [lb_av]
+  _unit_source: size:volume
   _fdc_match: Nuts, walnuts, English, halves, raw
   _fdc_dataType: Foundation
   _kroger_categories:
-  - Snacks
+  - Beauty
 - product_id: 0001111008287
   fdc_id: 169414
   name: Simple Truth Organic® Whole Ground Flaxseed Meal
@@ -337,27 +327,42 @@
   _kroger_categories:
   - Baking Goods
   - Natural & Organic
-- product_id: 0001111008452
+- product_id: 0081957301590
   fdc_id: 170554
-  name: Simple Truth Organic® Whole Black Chia Seeds
-  unit_grams: 340.2
+  name: Happy Tot Organics Super Morning Stage 4 Organic Bananas, Dragon Fruit, Coconut milk, Oats & Chia
+  unit_grams: 121.8
   dietary_categories:
   - seed
-  _size: 12 oz
-  _net_weight: 0.75 [lb_av]
-  _unit_source: netWeight
+  _size: 4 fl oz
+  _net_weight: 0.25 [lb_av]
+  _unit_source: size:volume
   _fdc_match: Seeds, chia seeds, dried
   _fdc_dataType: SR Legacy
   _kroger_categories:
-  - Snacks
-- product_id: '0001111041660'
+  - Baby
+  - Baby
+- product_id: 0003997811322
+  fdc_id: 168944
+  name: Bob's Red Mill Vital Wheat Gluten Flour
+  unit_grams: 567.0
+  dietary_categories:
+  - grain
+  _size: 20 oz
+  _net_weight: 1.25 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Wheat flour, whole-grain, soft wheat
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Natural & Organic
+  - Baking Goods
+- product_id: '0001111041661'
   fdc_id: 170872
-  name: Kroger® 1% Lowfat Milk Gallon
-  unit_grams: 3899.0
+  name: Kroger® 1% Lowfat Milk Half Gallon
+  unit_grams: 1949.5
   dietary_categories:
   - dairy
-  _size: 1 gal
-  _net_weight: 8.64 [lb_av]
+  _size: 1/2 gal
+  _net_weight: 4.32 [lb_av]
   _unit_source: size:volume
   _fdc_match: Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D
   _fdc_dataType: SR Legacy
@@ -376,9 +381,9 @@
   _fdc_dataType: Foundation
   _kroger_categories:
   - Dairy
-- product_id: 0001111010118
+- product_id: 0001111050158
   fdc_id: 169901
-  name: Kroger® Reduced Fat Sharp Cheddar Shredded Cheese
+  name: Kroger® Sharp Cheddar Shredded Cheese
   unit_grams: 226.8
   dietary_categories:
   - dairy
@@ -483,22 +488,22 @@
   _kroger_categories:
   - Meat & Seafood
   - Natural & Organic
-- product_id: 0001111080775
+- product_id: 0001111089084
   fdc_id: 173708
   name: Kroger® Wild Caught Chunk Light Tuna in Water
-  unit_grams: 72.6
+  unit_grams: 140.6
   dietary_categories:
   - fish
-  _size: 2.5 oz
-  _net_weight: 0.16 [lb_av]
+  _size: 5 oz
+  _net_weight: 0.31 [lb_av]
   _unit_source: netWeight
   _fdc_match: Fish, tuna, light, canned in oil, drained solids
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Canned & Packaged
-- product_id: 0001111013900
+- product_id: 0004800018718
   fdc_id: 175139
-  name: Kroger® Wild Caught Sardines in Soybean Oil
+  name: Chicken of the Sea Wild Caught Sardines in Olive Oil
   unit_grams: 104.3
   dietary_categories:
   - fish
@@ -509,14 +514,14 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Canned & Packaged
-- product_id: 0001111083301
+- product_id: '0001111004236'
   fdc_id: 175175
-  name: Kroger® Wild Caught Canned Alaskan Pink Salmon
-  unit_grams: 417.3
+  name: Kroger® Alaskan Red Sockeye Salmon
+  unit_grams: 213.2
   dietary_categories:
   - fish
-  _size: 14.75 oz
-  _net_weight: 0.92 [lb_av]
+  _size: 7.5 oz
+  _net_weight: 0.47 [lb_av]
   _unit_source: netWeight
   _fdc_match: Fish, salmon, pink, canned, drained solids
   _fdc_dataType: SR Legacy
@@ -536,9 +541,9 @@
   _kroger_categories:
   - Canned & Packaged
   - International
-- product_id: 0079852516099
+- product_id: 0079852516100
   fdc_id: 171976
-  name: Snow's® MSC Bumble Bee® Minced Clams
+  name: Snow's® MSC Chopped Clams
   unit_grams: 186.0
   dietary_categories:
   - fish
@@ -549,9 +554,22 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Canned & Packaged
-- product_id: 0001111012841
+- product_id: '0001111063602'
+  fdc_id: 171060
+  name: Heritage Farm® Chicken Livers
+  unit_grams: 567.0
+  dietary_categories:
+  - meat_white
+  _size: 20 oz
+  _net_weight: 1.25 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Chicken, liver, all classes, raw
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Meat & Seafood
+- product_id: 0001111089724
   fdc_id: 169968
-  name: Kroger® Frozen Broccoli Florets
+  name: Kroger® Traditional Favorites Frozen Broccoli Cuts
   unit_grams: 340.2
   dietary_categories:
   - vegetable
@@ -562,31 +580,32 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Frozen
-- product_id: 0001111089739
+- product_id: 0001111087226
   fdc_id: 169287
-  name: Kroger® Frozen Spinach Cut Leaf
-  unit_grams: 340.2
+  name: Kroger® Frozen Spinach Chopped
+  unit_grams: 285.8
   dietary_categories:
   - vegetable
-  _size: 12 oz
-  _net_weight: 0.75 [lb_av]
+  _size: 10 oz
+  _net_weight: 0.63 [lb_av]
   _unit_source: netWeight
   _fdc_match: Spinach, frozen, chopped or leaf, unprepared (Includes foods for USDA's Food Distribution Program)
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Frozen
-- product_id: 0001111081248
+- product_id: 0001111080553
   fdc_id: 2258587
-  name: Kroger Sweet Peas & Carrots - 8.5oz can
-  unit_grams: 240.4
+  name: Kroger No Salt Added Sliced Carrots - 8.25oz can
+  unit_grams: 231.3
   dietary_categories:
   - vegetable
-  _size: 8.5 oz
-  _net_weight: 0.53 [lb_av]
+  _size: 8.25 oz
+  _net_weight: 0.51 [lb_av]
   _unit_source: netWeight
   _fdc_match: Carrots, baby, raw
   _fdc_dataType: Foundation
   _kroger_categories:
+  - Canned & Packaged
   - Canned & Packaged
 - product_id: 0000000094069
   fdc_id: 2346407
@@ -602,32 +621,33 @@
   _kroger_categories:
   - Natural & Organic
   - Produce
-- product_id: '0002400016313'
+- product_id: 0001111081365
   fdc_id: 170028
-  name: Del Monte Whole New Potatoes
-  unit_grams: 408.2
+  name: Kroger Whole White Potatoes - 15oz can
+  unit_grams: 421.8
   dietary_categories:
   - vegetable
-  _size: 14.5 oz
-  _net_weight: 0.9 [lb_av]
+  _size: 15 oz
+  _net_weight: 0.93 [lb_av]
   _unit_source: netWeight
   _fdc_match: Potatoes, white, flesh and skin, raw
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Canned & Packaged
-- product_id: 0001111008663
+- product_id: 0001111004382
   fdc_id: 168016
-  name: Kroger® Cut Candied Sweet Potato Yams
-  unit_grams: 453.6
+  name: Simple Truth Organic® Diced Frozen Sweet Potato
+  unit_grams: 340.2
   dietary_categories:
   - vegetable
-  _size: 16 oz
-  _net_weight: 0.94 [lb_av]
-  _unit_source: size:weight
+  _size: 12 oz
+  _net_weight: 0.75 [lb_av]
+  _unit_source: netWeight
   _fdc_match: Sweet Potato puffs, frozen, unprepared
   _fdc_dataType: SR Legacy
   _kroger_categories:
-  - Canned & Packaged
+  - Frozen
+  - Natural & Organic
 - product_id: 0001111011974
   fdc_id: 170138
   name: Kroger® Italian Style Diced Tomatoes
@@ -667,15 +687,15 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Frozen
-- product_id: 0001111048480
+- product_id: 0001111015685
   fdc_id: 169103
-  name: Kroger® 100% Orange Juice Pulp Free
-  unit_grams: 1814.4
+  name: Kroger® Premium Homestyle Orange Juice with Pulp
+  unit_grams: 1421.6
   dietary_categories:
   - fruit
-  _size: half gal
-  _net_weight: 4.0 [lb_av]
-  _unit_source: netWeight
+  _size: 46 fl oz
+  _net_weight: 2.87 [lb_av]
+  _unit_source: size:volume
   _fdc_match: Orange peel, raw
   _fdc_dataType: SR Legacy
   _kroger_categories:
@@ -709,7 +729,7 @@
   - Natural & Organic
   - Dairy
 - product_id: 0086102900011
-  fdc_id: 174832
+  fdc_id: 1999631
   name: MALK Organic Dairy Free Unsweetened Almond Milk
   unit_grams: 852.9
   dietary_categories:
@@ -718,26 +738,25 @@
   _size: 28 fl oz
   _net_weight: 1.75 [lb_av]
   _unit_source: size:volume
-  _fdc_match: Beverages, almond milk, unsweetened, shelf stable
-  _fdc_dataType: SR Legacy
+  _fdc_match: Almond milk, unsweetened, plain, shelf stable
+  _fdc_dataType: Foundation
   _kroger_categories:
   - Natural & Organic
   - Dairy
-- product_id: 0004410015619
+- product_id: '0001111013270'
   fdc_id: 2257046
-  name: Planet Oat® Dairy Free Extra Creamy Original Oat Milk
-  unit_grams: 1584.0
+  name: Simple Truth® Plant Based Non Dairy Original Oat Milk
+  unit_grams: 1797.2
   dietary_categories:
   - plant_milk
   - fortified_b12
-  _size: 52 fl oz
-  _net_weight: 3.54 [lb_av]
+  _size: 59 fl oz
+  _net_weight: 3.97 [lb_av]
   _unit_source: size:volume
   _fdc_match: Oat milk, unsweetened, plain, refrigerated
   _fdc_dataType: Foundation
   _kroger_categories:
   - Natural & Organic
-  - Dairy
 - product_id: 0001111009081
   fdc_id: 167717
   name: Simple Truth® Non-Dairy Nutritional Yeast
@@ -751,9 +770,9 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Natural & Organic
-- product_id: '0001111004413'
+- product_id: '0001111004412'
   fdc_id: 171413
-  name: Kroger® Pure Olive Oil
+  name: Kroger® Extra Virgin Olive Oil
   unit_grams: 458.8
   dietary_categories:
   - fat
@@ -777,6 +796,19 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Baking Goods
+- product_id: 0001111085634
+  fdc_id: 748278
+  name: Kroger® 100% Pure Canola Oil
+  unit_grams: 1301.7
+  dietary_categories:
+  - fat
+  _size: 48 fl oz
+  _net_weight: 2.87 [lb_av]
+  _unit_source: size:volume
+  _fdc_match: Oil, canola
+  _fdc_dataType: Foundation
+  _kroger_categories:
+  - Baking Goods
 - product_id: 0001111088301
   fdc_id: 171276
   name: Kroger® Regular Evaporated Milk
@@ -790,22 +822,9 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Baking Goods
-- product_id: 0007904122638
-  fdc_id: 169451
-  name: Skylark® Sliced Beef Liver
-  unit_grams: 113.4
-  dietary_categories:
-  - meat_red
-  _size: 4 ct / 4 oz
-  _net_weight: 1.0 [lb_av]
-  _unit_source: size:weight
-  _fdc_match: Beef, variety meats and by-products, liver, raw
-  _fdc_dataType: SR Legacy
-  _kroger_categories:
-  - Frozen
-- product_id: 0005527084644
+- product_id: '0003000003050'
   fdc_id: 169697
-  name: Grace® Fine Corn Meal
+  name: Quaker® Yellow Corn Meal For Baking
   unit_grams: 680.4
   dietary_categories:
   - grain
@@ -816,4 +835,30 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Baking Goods
-  - International
+- product_id: '0007010007062'
+  fdc_id: 171401
+  name: John Morrell® Snow Cap Edible Lard
+  unit_grams: 453.6
+  dietary_categories:
+  - fat
+  - meat_red
+  _size: 16 oz
+  _net_weight: 1.0 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Lard
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Baking Goods
+- product_id: '0007240071124'
+  fdc_id: 168820
+  name: Grandma's® Original Molasses 12 Fluid Ounce Bottle
+  unit_grams: 354.9
+  dietary_categories:
+  - fruit
+  _size: 12 fl oz
+  _net_weight: 0.75 [lb_av]
+  _unit_source: size:volume
+  _fdc_match: Molasses
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Baking Goods
