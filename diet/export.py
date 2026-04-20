@@ -23,6 +23,7 @@ def serialize_solution(s: Solution, *, mode: str, location_region: str,
         "cost_per_day": s.cost_per_day,
         "basket": s.basket,
         "nutrients": s.nutrients,
+        "diagnosis": s.diagnosis,
     }
 
 
@@ -38,7 +39,8 @@ def write_data_json(
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "profile": profile,
         "nutrient_targets": [
-            {"nutrient": t.nutrient, "rda": t.rda, "ul": t.ul, "unit": t.unit}
+            {"nutrient": t.nutrient, "rda": t.rda, "ul": t.ul,
+             "unit": t.unit, "label": t.label or t.nutrient}
             for t in targets
         ],
         "solutions": solutions,

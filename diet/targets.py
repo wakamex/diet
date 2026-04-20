@@ -21,6 +21,7 @@ def load_targets(path: Path | str = DEFAULT_DRI_PATH) -> list[NutrientTarget]:
             rda=entry.get("rda"),
             ul=entry.get("ul"),
             unit=entry.get("unit", ""),
+            label=entry.get("label", entry["nutrient"]),
         ))
     return targets
 
