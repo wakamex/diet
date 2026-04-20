@@ -19,7 +19,9 @@ DEFAULT_SKUS_PATH = Path("data/skus.yaml")
 DEFAULT_LOCATIONS_PATH = Path("data/locations.yaml")
 DEFAULT_PRICES_PATH = Path("data/prices_current.json")
 DEFAULT_FDC_CACHE = Path("data/raw/fdc")
-DEFAULT_MAX_SERVING_G = 500.0
+# None = no per-food palatability cap (Stigler-pure LP). A food's `max_serving_g`
+# can still be set explicitly in skus.yaml to restrict a specific item.
+DEFAULT_MAX_SERVING_G: float | None = None
 
 
 @dataclass(frozen=True)
@@ -31,7 +33,7 @@ class SkuSpec:
     name: str
     unit_grams: float
     dietary_categories: frozenset[str]
-    max_serving_g: float
+    max_serving_g: float | None
 
 
 @dataclass(frozen=True)
@@ -47,13 +49,14 @@ def load_skus(path: Path | str = DEFAULT_SKUS_PATH) -> list[SkuSpec]:
     raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or []
     out: list[SkuSpec] = []
     for r in raw:
+        cap = r.get("max_serving_g")
         out.append(SkuSpec(
             product_id=str(r["product_id"]),
             fdc_id=int(r["fdc_id"]),
             name=str(r["name"]),
             unit_grams=float(r["unit_grams"]),
             dietary_categories=frozenset(r.get("dietary_categories") or []),
-            max_serving_g=float(r.get("max_serving_g") or DEFAULT_MAX_SERVING_G),
+            max_serving_g=float(cap) if cap is not None else DEFAULT_MAX_SERVING_G,
         ))
     return out
 

@@ -28,7 +28,7 @@ class Food:
     name: str
     price_per_g: float                           # $ per gram
     nutrients_per_g: dict[str, float]            # nutrient name -> amount per gram
-    max_serving_g: float                         # palatability cap
+    max_serving_g: float | None                  # None = uncapped (Stigler-pure)
     dietary_categories: frozenset[str] = frozenset()
     meta: dict = field(default_factory=dict)     # arbitrary, passed through to output
 
@@ -88,7 +88,9 @@ def solve(
     # Objective: cost per gram per food
     c = np.array([f.price_per_g for f in eligible], dtype=float)
 
-    # Per-food bounds
+    # Per-food bounds — `None` upper = uncapped (Stigler's original LP had no
+    # palatability ceiling; his 1939 optimum happened to land under 500 g/day
+    # anyway). Supplement tablets still have finite caps.
     bounds = [(0.0, f.max_serving_g) for f in eligible]
 
     # Build A_ub (≤) rows. Lower-bound (RDA) constraints become -A x ≤ -rda.

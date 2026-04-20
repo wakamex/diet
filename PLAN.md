@@ -115,8 +115,14 @@ minimize    Σ price_per_g(i, location) * x_i
 subject to  Σ nutrient(i, n) * x_i ≥ RDA(n)        for each nutrient n
             Σ nutrient(i, n) * x_i ≤ UL(n)         for nutrients with upper limits
             x_i = 0                                 for foods excluded by mode
-            x_i ≤ max_serving(i)                    palatability cap (e.g. ≤ 500 g/day)
+            x_i ≥ 0                                 non-negativity
 ```
+
+No per-food palatability cap — Stigler-pure LP. His 1939/1947/2001 optima all
+landed under 500 g/day anyway, but removing the cap lets vegan food-only solve
+(answer: ~1.5 L fortified soy milk/day to hit the 15 mcg vit D RDA from plants).
+A food in `skus.yaml` can still set `max_serving_g` explicitly to constrain an
+individual item; leaving it out = uncapped.
 
 `price_per_g` uses promo when active, else regular.
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T17:00:00Z",
+  "updated": "2026-04-20T17:51:01Z",
   "profile": "adult_male_31_50_moderate",
   "nutrient_targets": [
     {
@@ -106,31 +106,14 @@
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 3.3616,
+      "cost_per_day": 3.3258,
       "basket": [
-        {
-          "sku_id": "0001111060903",
-          "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
-          "grams_per_day": 450.0,
-          "cost_per_day": 1.2274,
-          "pct_of_basket": 36.5,
-          "meta": {
-            "fdc_id": 171287,
-            "unit_grams": 802.9,
-            "price_regular": 2.19,
-            "price_promo": null,
-            "price_used": 2.19,
-            "price_kind": "regular",
-            "location_id": "01400513",
-            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
-          }
-        },
         {
           "sku_id": "0001111041661",
           "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 500.0,
-          "cost_per_day": 0.5873,
-          "pct_of_basket": 17.5,
+          "grams_per_day": 826.0,
+          "cost_per_day": 0.9703,
+          "pct_of_basket": 29.2,
           "meta": {
             "fdc_id": 170872,
             "unit_grams": 1949.5,
@@ -143,11 +126,28 @@
           }
         },
         {
+          "sku_id": "0001111060903",
+          "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
+          "grams_per_day": 254.4,
+          "cost_per_day": 0.6939,
+          "pct_of_basket": 20.9,
+          "meta": {
+            "fdc_id": 171287,
+            "unit_grams": 802.9,
+            "price_regular": 2.19,
+            "price_promo": null,
+            "price_used": 2.19,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 110.81,
-          "cost_per_day": 0.5594,
-          "pct_of_basket": 16.6,
+          "grams_per_day": 133.15,
+          "cost_per_day": 0.6722,
+          "pct_of_basket": 20.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -162,9 +162,9 @@
         {
           "sku_id": "0001111089711",
           "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 207.69,
-          "cost_per_day": 0.4533,
-          "pct_of_basket": 13.5,
+          "grams_per_day": 225.78,
+          "cost_per_day": 0.4928,
+          "pct_of_basket": 14.8,
           "meta": {
             "fdc_id": 2512380,
             "unit_grams": 453.6,
@@ -177,28 +177,11 @@
           }
         },
         {
-          "sku_id": "0001111089668",
-          "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 64.65,
-          "cost_per_day": 0.2409,
-          "pct_of_basket": 7.2,
-          "meta": {
-            "fdc_id": 173745,
-            "unit_grams": 453.6,
-            "price_regular": 1.69,
-            "price_promo": null,
-            "price_used": 1.69,
-            "price_kind": "regular",
-            "location_id": "01400513",
-            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
-          }
-        },
-        {
           "sku_id": "0001111015685",
           "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-          "grams_per_day": 66.11,
+          "grams_per_day": 66.1,
           "cost_per_day": 0.2088,
-          "pct_of_basket": 6.2,
+          "pct_of_basket": 6.3,
           "meta": {
             "fdc_id": 169103,
             "unit_grams": 1421.6,
@@ -211,11 +194,28 @@
           }
         },
         {
+          "sku_id": "0001111089668",
+          "name": "Kroger\u00ae Navy Beans",
+          "grams_per_day": 51.9,
+          "cost_per_day": 0.1934,
+          "pct_of_basket": 5.8,
+          "meta": {
+            "fdc_id": 173745,
+            "unit_grams": 453.6,
+            "price_regular": 1.69,
+            "price_promo": null,
+            "price_used": 1.69,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
           "sku_id": "0001111008452",
           "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
-          "grams_per_day": 6.0,
-          "cost_per_day": 0.0845,
-          "pct_of_basket": 2.5,
+          "grams_per_day": 6.71,
+          "cost_per_day": 0.0945,
+          "pct_of_basket": 2.8,
           "meta": {
             "fdc_id": 170554,
             "unit_grams": 340.2,
@@ -242,7 +242,7 @@
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 133.5537,
+          "delivered": 124.3423,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -254,7 +254,7 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.011862
+          "shadow_price_per_unit": 0.011861
         },
         {
           "nutrient": "ala_g",
@@ -263,22 +263,22 @@
           "delivered": 1.6,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.04182
+          "shadow_price_per_unit": 0.041824
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "rda",
           "target": 900,
-          "delivered": 1023.8822,
+          "delivered": 900.0,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.000289
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "ul",
           "target": 3000,
-          "delivered": 1023.8822,
+          "delivered": 900.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -290,7 +290,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.001005
+          "shadow_price_per_unit": 0.00096
         },
         {
           "nutrient": "vit_c_mg",
@@ -308,7 +308,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.089279
+          "shadow_price_per_unit": 0.066121
         },
         {
           "nutrient": "vit_d_mcg",
@@ -326,7 +326,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.020315
+          "shadow_price_per_unit": 0.020316
         },
         {
           "nutrient": "vit_e_mg",
@@ -341,7 +341,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.355,
+          "delivered": 6.1464,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -350,7 +350,7 @@
           "nutrient": "folate_mcg",
           "kind": "rda",
           "target": 400,
-          "delivered": 558.1523,
+          "delivered": 449.5165,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -359,7 +359,7 @@
           "nutrient": "folate_mcg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 558.1523,
+          "delivered": 449.5165,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -368,7 +368,7 @@
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 1171.8609,
+          "delivered": 1464.8078,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -377,7 +377,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 1171.8609,
+          "delivered": 1464.8078,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -386,7 +386,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 17.2515,
+          "delivered": 13.93,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -395,7 +395,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 17.2515,
+          "delivered": 13.93,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -404,7 +404,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 684.0039,
+          "delivered": 735.2391,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -413,7 +413,7 @@
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 3562.4285,
+          "delivered": 3828.0223,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -422,7 +422,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 1463.5245,
+          "delivered": 1449.3657,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -431,7 +431,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 17.6581,
+          "delivered": 17.0321,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -440,7 +440,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 17.6581,
+          "delivered": 17.0321,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -454,31 +454,14 @@
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 3.3616,
+      "cost_per_day": 3.3258,
       "basket": [
-        {
-          "sku_id": "0001111060903",
-          "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
-          "grams_per_day": 450.0,
-          "cost_per_day": 1.2274,
-          "pct_of_basket": 36.5,
-          "meta": {
-            "fdc_id": 171287,
-            "unit_grams": 802.9,
-            "price_regular": 2.19,
-            "price_promo": null,
-            "price_used": 2.19,
-            "price_kind": "regular",
-            "location_id": "01400513",
-            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
-          }
-        },
         {
           "sku_id": "0001111041661",
           "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 500.0,
-          "cost_per_day": 0.5873,
-          "pct_of_basket": 17.5,
+          "grams_per_day": 826.0,
+          "cost_per_day": 0.9703,
+          "pct_of_basket": 29.2,
           "meta": {
             "fdc_id": 170872,
             "unit_grams": 1949.5,
@@ -491,11 +474,28 @@
           }
         },
         {
+          "sku_id": "0001111060903",
+          "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
+          "grams_per_day": 254.4,
+          "cost_per_day": 0.6939,
+          "pct_of_basket": 20.9,
+          "meta": {
+            "fdc_id": 171287,
+            "unit_grams": 802.9,
+            "price_regular": 2.19,
+            "price_promo": null,
+            "price_used": 2.19,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 110.81,
-          "cost_per_day": 0.5594,
-          "pct_of_basket": 16.6,
+          "grams_per_day": 133.15,
+          "cost_per_day": 0.6722,
+          "pct_of_basket": 20.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -510,9 +510,9 @@
         {
           "sku_id": "0001111089711",
           "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 207.69,
-          "cost_per_day": 0.4533,
-          "pct_of_basket": 13.5,
+          "grams_per_day": 225.78,
+          "cost_per_day": 0.4928,
+          "pct_of_basket": 14.8,
           "meta": {
             "fdc_id": 2512380,
             "unit_grams": 453.6,
@@ -525,28 +525,11 @@
           }
         },
         {
-          "sku_id": "0001111089668",
-          "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 64.65,
-          "cost_per_day": 0.2409,
-          "pct_of_basket": 7.2,
-          "meta": {
-            "fdc_id": 173745,
-            "unit_grams": 453.6,
-            "price_regular": 1.69,
-            "price_promo": null,
-            "price_used": 1.69,
-            "price_kind": "regular",
-            "location_id": "01400513",
-            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
-          }
-        },
-        {
           "sku_id": "0001111015685",
           "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-          "grams_per_day": 66.11,
+          "grams_per_day": 66.1,
           "cost_per_day": 0.2088,
-          "pct_of_basket": 6.2,
+          "pct_of_basket": 6.3,
           "meta": {
             "fdc_id": 169103,
             "unit_grams": 1421.6,
@@ -559,11 +542,28 @@
           }
         },
         {
+          "sku_id": "0001111089668",
+          "name": "Kroger\u00ae Navy Beans",
+          "grams_per_day": 51.9,
+          "cost_per_day": 0.1934,
+          "pct_of_basket": 5.8,
+          "meta": {
+            "fdc_id": 173745,
+            "unit_grams": 453.6,
+            "price_regular": 1.69,
+            "price_promo": null,
+            "price_used": 1.69,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
           "sku_id": "0001111008452",
           "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
-          "grams_per_day": 6.0,
-          "cost_per_day": 0.0845,
-          "pct_of_basket": 2.5,
+          "grams_per_day": 6.71,
+          "cost_per_day": 0.0945,
+          "pct_of_basket": 2.8,
           "meta": {
             "fdc_id": 170554,
             "unit_grams": 340.2,
@@ -590,7 +590,7 @@
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 133.5537,
+          "delivered": 124.3423,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -602,7 +602,7 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.011862
+          "shadow_price_per_unit": 0.011861
         },
         {
           "nutrient": "ala_g",
@@ -611,22 +611,22 @@
           "delivered": 1.6,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.04182
+          "shadow_price_per_unit": 0.041824
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "rda",
           "target": 900,
-          "delivered": 1023.8822,
+          "delivered": 900.0,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.000289
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "ul",
           "target": 3000,
-          "delivered": 1023.8822,
+          "delivered": 900.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -638,7 +638,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.001005
+          "shadow_price_per_unit": 0.00096
         },
         {
           "nutrient": "vit_c_mg",
@@ -656,7 +656,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.089279
+          "shadow_price_per_unit": 0.066121
         },
         {
           "nutrient": "vit_d_mcg",
@@ -674,7 +674,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.020315
+          "shadow_price_per_unit": 0.020316
         },
         {
           "nutrient": "vit_e_mg",
@@ -689,7 +689,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.355,
+          "delivered": 6.1464,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -698,7 +698,7 @@
           "nutrient": "folate_mcg",
           "kind": "rda",
           "target": 400,
-          "delivered": 558.1523,
+          "delivered": 449.5165,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -707,7 +707,7 @@
           "nutrient": "folate_mcg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 558.1523,
+          "delivered": 449.5165,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -716,7 +716,7 @@
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 1171.8609,
+          "delivered": 1464.8078,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -725,7 +725,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 1171.8609,
+          "delivered": 1464.8078,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -734,7 +734,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 17.2515,
+          "delivered": 13.93,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -743,7 +743,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 17.2515,
+          "delivered": 13.93,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -752,7 +752,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 684.0039,
+          "delivered": 735.2391,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -761,7 +761,7 @@
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 3562.4285,
+          "delivered": 3828.0223,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -770,7 +770,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 1463.5245,
+          "delivered": 1449.3657,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -779,7 +779,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 17.6581,
+          "delivered": 17.0321,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -788,7 +788,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 17.6581,
+          "delivered": 17.0321,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -802,31 +802,14 @@
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 3.3616,
+      "cost_per_day": 3.3258,
       "basket": [
-        {
-          "sku_id": "0001111060903",
-          "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
-          "grams_per_day": 450.0,
-          "cost_per_day": 1.2274,
-          "pct_of_basket": 36.5,
-          "meta": {
-            "fdc_id": 171287,
-            "unit_grams": 802.9,
-            "price_regular": 2.19,
-            "price_promo": null,
-            "price_used": 2.19,
-            "price_kind": "regular",
-            "location_id": "01400513",
-            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
-          }
-        },
         {
           "sku_id": "0001111041661",
           "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 500.0,
-          "cost_per_day": 0.5873,
-          "pct_of_basket": 17.5,
+          "grams_per_day": 826.0,
+          "cost_per_day": 0.9703,
+          "pct_of_basket": 29.2,
           "meta": {
             "fdc_id": 170872,
             "unit_grams": 1949.5,
@@ -839,11 +822,28 @@
           }
         },
         {
+          "sku_id": "0001111060903",
+          "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
+          "grams_per_day": 254.4,
+          "cost_per_day": 0.6939,
+          "pct_of_basket": 20.9,
+          "meta": {
+            "fdc_id": 171287,
+            "unit_grams": 802.9,
+            "price_regular": 2.19,
+            "price_promo": null,
+            "price_used": 2.19,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 110.81,
-          "cost_per_day": 0.5594,
-          "pct_of_basket": 16.6,
+          "grams_per_day": 133.15,
+          "cost_per_day": 0.6722,
+          "pct_of_basket": 20.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -858,9 +858,9 @@
         {
           "sku_id": "0001111089711",
           "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 207.69,
-          "cost_per_day": 0.4533,
-          "pct_of_basket": 13.5,
+          "grams_per_day": 225.78,
+          "cost_per_day": 0.4928,
+          "pct_of_basket": 14.8,
           "meta": {
             "fdc_id": 2512380,
             "unit_grams": 453.6,
@@ -873,28 +873,11 @@
           }
         },
         {
-          "sku_id": "0001111089668",
-          "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 64.65,
-          "cost_per_day": 0.2409,
-          "pct_of_basket": 7.2,
-          "meta": {
-            "fdc_id": 173745,
-            "unit_grams": 453.6,
-            "price_regular": 1.69,
-            "price_promo": null,
-            "price_used": 1.69,
-            "price_kind": "regular",
-            "location_id": "01400513",
-            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
-          }
-        },
-        {
           "sku_id": "0001111015685",
           "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-          "grams_per_day": 66.11,
+          "grams_per_day": 66.1,
           "cost_per_day": 0.2088,
-          "pct_of_basket": 6.2,
+          "pct_of_basket": 6.3,
           "meta": {
             "fdc_id": 169103,
             "unit_grams": 1421.6,
@@ -907,11 +890,28 @@
           }
         },
         {
+          "sku_id": "0001111089668",
+          "name": "Kroger\u00ae Navy Beans",
+          "grams_per_day": 51.9,
+          "cost_per_day": 0.1934,
+          "pct_of_basket": 5.8,
+          "meta": {
+            "fdc_id": 173745,
+            "unit_grams": 453.6,
+            "price_regular": 1.69,
+            "price_promo": null,
+            "price_used": 1.69,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
           "sku_id": "0001111008452",
           "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
-          "grams_per_day": 6.0,
-          "cost_per_day": 0.0845,
-          "pct_of_basket": 2.5,
+          "grams_per_day": 6.71,
+          "cost_per_day": 0.0945,
+          "pct_of_basket": 2.8,
           "meta": {
             "fdc_id": 170554,
             "unit_grams": 340.2,
@@ -938,7 +938,7 @@
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 133.5537,
+          "delivered": 124.3423,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -950,7 +950,7 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.011862
+          "shadow_price_per_unit": 0.011861
         },
         {
           "nutrient": "ala_g",
@@ -959,22 +959,22 @@
           "delivered": 1.6,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.04182
+          "shadow_price_per_unit": 0.041824
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "rda",
           "target": 900,
-          "delivered": 1023.8822,
+          "delivered": 900.0,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.000289
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "ul",
           "target": 3000,
-          "delivered": 1023.8822,
+          "delivered": 900.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -986,7 +986,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.001005
+          "shadow_price_per_unit": 0.00096
         },
         {
           "nutrient": "vit_c_mg",
@@ -1004,7 +1004,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.089279
+          "shadow_price_per_unit": 0.066121
         },
         {
           "nutrient": "vit_d_mcg",
@@ -1022,7 +1022,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.020315
+          "shadow_price_per_unit": 0.020316
         },
         {
           "nutrient": "vit_e_mg",
@@ -1037,7 +1037,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.355,
+          "delivered": 6.1464,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1046,7 +1046,7 @@
           "nutrient": "folate_mcg",
           "kind": "rda",
           "target": 400,
-          "delivered": 558.1523,
+          "delivered": 449.5165,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1055,7 +1055,7 @@
           "nutrient": "folate_mcg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 558.1523,
+          "delivered": 449.5165,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1064,7 +1064,7 @@
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 1171.8609,
+          "delivered": 1464.8078,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1073,7 +1073,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 1171.8609,
+          "delivered": 1464.8078,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1082,7 +1082,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 17.2515,
+          "delivered": 13.93,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1091,7 +1091,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 17.2515,
+          "delivered": 13.93,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1100,7 +1100,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 684.0039,
+          "delivered": 735.2391,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1109,7 +1109,7 @@
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 3562.4285,
+          "delivered": 3828.0223,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1118,7 +1118,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 1463.5245,
+          "delivered": 1449.3657,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1127,7 +1127,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 17.6581,
+          "delivered": 17.0321,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1136,7 +1136,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 17.6581,
+          "delivered": 17.0321,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1150,31 +1150,14 @@
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 3.3616,
+      "cost_per_day": 3.3258,
       "basket": [
-        {
-          "sku_id": "0001111060903",
-          "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
-          "grams_per_day": 450.0,
-          "cost_per_day": 1.2274,
-          "pct_of_basket": 36.5,
-          "meta": {
-            "fdc_id": 171287,
-            "unit_grams": 802.9,
-            "price_regular": 2.19,
-            "price_promo": null,
-            "price_used": 2.19,
-            "price_kind": "regular",
-            "location_id": "01400513",
-            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
-          }
-        },
         {
           "sku_id": "0001111041661",
           "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 500.0,
-          "cost_per_day": 0.5873,
-          "pct_of_basket": 17.5,
+          "grams_per_day": 826.0,
+          "cost_per_day": 0.9703,
+          "pct_of_basket": 29.2,
           "meta": {
             "fdc_id": 170872,
             "unit_grams": 1949.5,
@@ -1187,11 +1170,28 @@
           }
         },
         {
+          "sku_id": "0001111060903",
+          "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
+          "grams_per_day": 254.4,
+          "cost_per_day": 0.6939,
+          "pct_of_basket": 20.9,
+          "meta": {
+            "fdc_id": 171287,
+            "unit_grams": 802.9,
+            "price_regular": 2.19,
+            "price_promo": null,
+            "price_used": 2.19,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 110.81,
-          "cost_per_day": 0.5594,
-          "pct_of_basket": 16.6,
+          "grams_per_day": 133.15,
+          "cost_per_day": 0.6722,
+          "pct_of_basket": 20.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -1206,9 +1206,9 @@
         {
           "sku_id": "0001111089711",
           "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 207.69,
-          "cost_per_day": 0.4533,
-          "pct_of_basket": 13.5,
+          "grams_per_day": 225.78,
+          "cost_per_day": 0.4928,
+          "pct_of_basket": 14.8,
           "meta": {
             "fdc_id": 2512380,
             "unit_grams": 453.6,
@@ -1221,28 +1221,11 @@
           }
         },
         {
-          "sku_id": "0001111089668",
-          "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 64.65,
-          "cost_per_day": 0.2409,
-          "pct_of_basket": 7.2,
-          "meta": {
-            "fdc_id": 173745,
-            "unit_grams": 453.6,
-            "price_regular": 1.69,
-            "price_promo": null,
-            "price_used": 1.69,
-            "price_kind": "regular",
-            "location_id": "01400513",
-            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
-          }
-        },
-        {
           "sku_id": "0001111015685",
           "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-          "grams_per_day": 66.11,
+          "grams_per_day": 66.1,
           "cost_per_day": 0.2088,
-          "pct_of_basket": 6.2,
+          "pct_of_basket": 6.3,
           "meta": {
             "fdc_id": 169103,
             "unit_grams": 1421.6,
@@ -1255,11 +1238,28 @@
           }
         },
         {
+          "sku_id": "0001111089668",
+          "name": "Kroger\u00ae Navy Beans",
+          "grams_per_day": 51.9,
+          "cost_per_day": 0.1934,
+          "pct_of_basket": 5.8,
+          "meta": {
+            "fdc_id": 173745,
+            "unit_grams": 453.6,
+            "price_regular": 1.69,
+            "price_promo": null,
+            "price_used": 1.69,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
           "sku_id": "0001111008452",
           "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
-          "grams_per_day": 6.0,
-          "cost_per_day": 0.0845,
-          "pct_of_basket": 2.5,
+          "grams_per_day": 6.71,
+          "cost_per_day": 0.0945,
+          "pct_of_basket": 2.8,
           "meta": {
             "fdc_id": 170554,
             "unit_grams": 340.2,
@@ -1286,7 +1286,7 @@
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 133.5537,
+          "delivered": 124.3423,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1298,7 +1298,7 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.011862
+          "shadow_price_per_unit": 0.011861
         },
         {
           "nutrient": "ala_g",
@@ -1307,22 +1307,22 @@
           "delivered": 1.6,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.04182
+          "shadow_price_per_unit": 0.041824
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "rda",
           "target": 900,
-          "delivered": 1023.8822,
+          "delivered": 900.0,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.000289
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "ul",
           "target": 3000,
-          "delivered": 1023.8822,
+          "delivered": 900.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1334,7 +1334,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.001005
+          "shadow_price_per_unit": 0.00096
         },
         {
           "nutrient": "vit_c_mg",
@@ -1352,7 +1352,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.089279
+          "shadow_price_per_unit": 0.066121
         },
         {
           "nutrient": "vit_d_mcg",
@@ -1370,7 +1370,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.020315
+          "shadow_price_per_unit": 0.020316
         },
         {
           "nutrient": "vit_e_mg",
@@ -1385,7 +1385,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.355,
+          "delivered": 6.1464,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1394,7 +1394,7 @@
           "nutrient": "folate_mcg",
           "kind": "rda",
           "target": 400,
-          "delivered": 558.1523,
+          "delivered": 449.5165,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1403,7 +1403,7 @@
           "nutrient": "folate_mcg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 558.1523,
+          "delivered": 449.5165,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1412,7 +1412,7 @@
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 1171.8609,
+          "delivered": 1464.8078,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1421,7 +1421,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 1171.8609,
+          "delivered": 1464.8078,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1430,7 +1430,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 17.2515,
+          "delivered": 13.93,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1439,7 +1439,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 17.2515,
+          "delivered": 13.93,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1448,7 +1448,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 684.0039,
+          "delivered": 735.2391,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1457,7 +1457,7 @@
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 3562.4285,
+          "delivered": 3828.0223,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1466,7 +1466,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 1463.5245,
+          "delivered": 1449.3657,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1475,7 +1475,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 17.6581,
+          "delivered": 17.0321,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1484,7 +1484,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 17.6581,
+          "delivered": 17.0321,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1496,25 +1496,145 @@
       "mode": "vegan",
       "location_region": "midwest",
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
-      "status": "infeasible",
-      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
-      "cost_per_day": null,
-      "basket": [],
+      "status": "optimal",
+      "message": "optimal solution found",
+      "cost_per_day": 5.6169,
+      "basket": [
+        {
+          "sku_id": "0002529360039",
+          "name": "Silk Original Dairy Free Vegan Soy Milk Half Gallon",
+          "grams_per_day": 1500.0,
+          "cost_per_day": 3.3008,
+          "pct_of_basket": 58.8,
+          "meta": {
+            "fdc_id": 173768,
+            "unit_grams": 1949.5,
+            "price_regular": 4.29,
+            "price_promo": null,
+            "price_used": 4.29,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
+          "sku_id": "0001111089711",
+          "name": "Kroger\u00ae Long Grain Brown Rice",
+          "grams_per_day": 316.88,
+          "cost_per_day": 0.6916,
+          "pct_of_basket": 12.3,
+          "meta": {
+            "fdc_id": 2512380,
+            "unit_grams": 453.6,
+            "price_regular": 0.99,
+            "price_promo": null,
+            "price_used": 0.99,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
+          "sku_id": "0001111089739",
+          "name": "Kroger\u00ae Frozen Spinach Cut Leaf",
+          "grams_per_day": 151.44,
+          "cost_per_day": 0.6633,
+          "pct_of_basket": 11.8,
+          "meta": {
+            "fdc_id": 169287,
+            "unit_grams": 340.2,
+            "price_regular": 1.49,
+            "price_promo": null,
+            "price_used": 1.49,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
+          "sku_id": "0001111001618",
+          "name": "Kroger\u00ae Creamy Peanut Butter",
+          "grams_per_day": 114.91,
+          "cost_per_day": 0.5801,
+          "pct_of_basket": 10.3,
+          "meta": {
+            "fdc_id": 172458,
+            "unit_grams": 453.6,
+            "price_regular": 2.29,
+            "price_promo": null,
+            "price_used": 2.29,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
+          "sku_id": "0001111015685",
+          "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
+          "grams_per_day": 59.95,
+          "cost_per_day": 0.1893,
+          "pct_of_basket": 3.4,
+          "meta": {
+            "fdc_id": 169103,
+            "unit_grams": 1421.6,
+            "price_regular": 4.49,
+            "price_promo": null,
+            "price_used": 4.49,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
+          "sku_id": "0001111008452",
+          "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
+          "grams_per_day": 8.94,
+          "cost_per_day": 0.1259,
+          "pct_of_basket": 2.2,
+          "meta": {
+            "fdc_id": 170554,
+            "unit_grams": 340.2,
+            "price_regular": 4.79,
+            "price_promo": null,
+            "price_used": 4.79,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
+          "sku_id": "0001111014163",
+          "name": "Kroger 16 OZ Radiatore Pasta",
+          "grams_per_day": 23.91,
+          "cost_per_day": 0.0659,
+          "pct_of_basket": 1.2,
+          "meta": {
+            "fdc_id": 169736,
+            "unit_grams": 453.6,
+            "price_regular": 1.25,
+            "price_promo": null,
+            "price_used": 1.25,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        }
+      ],
       "nutrients": [
         {
           "nutrient": "energy_kcal",
           "kind": "rda",
           "target": 2500,
-          "delivered": 0.0,
+          "delivered": 2500.0,
           "unit": "kcal",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.000597
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 0.0,
+          "delivered": 103.0374,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1523,7 +1643,7 @@
           "nutrient": "fiber_g",
           "kind": "rda",
           "target": 31,
-          "delivered": 0.0,
+          "delivered": 39.1351,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1532,16 +1652,25 @@
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 0.0,
+          "delivered": 1.6,
           "unit": "g",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.061957
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "rda",
           "target": 900,
-          "delivered": 0.0,
+          "delivered": 900.0,
+          "unit": "mcg",
+          "binding": true,
+          "shadow_price_per_unit": 0.000568
+        },
+        {
+          "nutrient": "vit_a_mcg",
+          "kind": "ul",
+          "target": 3000,
+          "delivered": 900.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1550,7 +1679,16 @@
           "nutrient": "vit_c_mg",
           "kind": "rda",
           "target": 90,
-          "delivered": 0.0,
+          "delivered": 90.0,
+          "unit": "mg",
+          "binding": true,
+          "shadow_price_per_unit": 0.001743
+        },
+        {
+          "nutrient": "vit_c_mg",
+          "kind": "ul",
+          "target": 2000,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1559,7 +1697,16 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 0.0,
+          "delivered": 15.0,
+          "unit": "mcg",
+          "binding": true,
+          "shadow_price_per_unit": 0.199755
+        },
+        {
+          "nutrient": "vit_d_mcg",
+          "kind": "ul",
+          "target": 100,
+          "delivered": 15.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1568,7 +1715,16 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 0.0,
+          "delivered": 15.0,
+          "unit": "mg",
+          "binding": true,
+          "shadow_price_per_unit": 0.020646
+        },
+        {
+          "nutrient": "vit_e_mg",
+          "kind": "ul",
+          "target": 1000,
+          "delivered": 15.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1577,7 +1733,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 0.0,
+          "delivered": 3.45,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1586,7 +1742,16 @@
           "nutrient": "folate_mcg",
           "kind": "rda",
           "target": 400,
-          "delivered": 0.0,
+          "delivered": 400.0,
+          "unit": "mcg",
+          "binding": true,
+          "shadow_price_per_unit": 0.000129
+        },
+        {
+          "nutrient": "folate_mcg",
+          "kind": "ul",
+          "target": 1000,
+          "delivered": 400.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1595,7 +1760,16 @@
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 0.0,
+          "delivered": 2264.0596,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "calcium_mg",
+          "kind": "ul",
+          "target": 2500,
+          "delivered": 2264.0596,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1604,7 +1778,16 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 0.0,
+          "delivered": 17.8399,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "iron_mg",
+          "kind": "ul",
+          "target": 45,
+          "delivered": 17.8399,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1613,7 +1796,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 0.0,
+          "delivered": 924.1455,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1622,7 +1805,7 @@
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 0.0,
+          "delivered": 4057.0088,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1631,7 +1814,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 0.0,
+          "delivered": 1682.218,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1640,7 +1823,16 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 0.0,
+          "delivered": 12.3369,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "zinc_mg",
+          "kind": "ul",
+          "target": 40,
+          "delivered": 12.3369,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1654,14 +1846,14 @@
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.9717,
+      "cost_per_day": 1.9705,
       "basket": [
         {
           "sku_id": "0001111089711",
           "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 500.0,
-          "cost_per_day": 1.0913,
-          "pct_of_basket": 55.3,
+          "grams_per_day": 504.94,
+          "cost_per_day": 1.102,
+          "pct_of_basket": 55.9,
           "meta": {
             "fdc_id": 2512380,
             "unit_grams": 453.6,
@@ -1676,8 +1868,8 @@
         {
           "sku_id": "0001111089668",
           "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 162.39,
-          "cost_per_day": 0.605,
+          "grams_per_day": 162.37,
+          "cost_per_day": 0.6049,
           "pct_of_basket": 30.7,
           "meta": {
             "fdc_id": 173745,
@@ -1693,8 +1885,8 @@
         {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 16.24,
-          "cost_per_day": 0.082,
+          "grams_per_day": 16.42,
+          "cost_per_day": 0.0829,
           "pct_of_basket": 4.2,
           "meta": {
             "fdc_id": 172458,
@@ -1710,9 +1902,9 @@
         {
           "sku_id": "0004126036240",
           "name": "Kroger\u00ae Calcium 600 mg with 20mcg Vitamin D Bone Health Tablets",
-          "grams_per_day": 1.28,
-          "cost_per_day": 0.0664,
-          "pct_of_basket": 3.4,
+          "grams_per_day": 1.26,
+          "cost_per_day": 0.0658,
+          "pct_of_basket": 3.3,
           "meta": {
             "is_supplement": true,
             "count": 120,
@@ -1765,17 +1957,17 @@
           }
         },
         {
-          "sku_id": "0001111063604",
-          "name": "Heritage Farm\u00ae Bone In Skin On Chicken Leg Quarters",
-          "grams_per_day": 9.66,
-          "cost_per_day": 0.017,
-          "pct_of_basket": 0.9,
+          "sku_id": "0001111041661",
+          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
+          "grams_per_day": 4.36,
+          "cost_per_day": 0.0051,
+          "pct_of_basket": 0.3,
           "meta": {
-            "fdc_id": 172378,
-            "unit_grams": 4535.9,
-            "price_regular": 7.99,
+            "fdc_id": 170872,
+            "unit_grams": 1949.5,
+            "price_regular": 2.29,
             "price_promo": null,
-            "price_used": 7.99,
+            "price_used": 2.29,
             "price_kind": "regular",
             "location_id": "01400513",
             "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
@@ -1784,8 +1976,8 @@
         {
           "sku_id": "0001111015685",
           "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-          "grams_per_day": 0.15,
-          "cost_per_day": 0.0005,
+          "grams_per_day": 0.14,
+          "cost_per_day": 0.0004,
           "pct_of_basket": 0.0,
           "meta": {
             "fdc_id": 169103,
@@ -1793,23 +1985,6 @@
             "price_regular": 4.49,
             "price_promo": null,
             "price_used": 4.49,
-            "price_kind": "regular",
-            "location_id": "01400513",
-            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
-          }
-        },
-        {
-          "sku_id": "0001111041661",
-          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 0.21,
-          "cost_per_day": 0.0002,
-          "pct_of_basket": 0.0,
-          "meta": {
-            "fdc_id": 170872,
-            "unit_grams": 1949.5,
-            "price_regular": 2.29,
-            "price_promo": null,
-            "price_used": 2.29,
             "price_kind": "regular",
             "location_id": "01400513",
             "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
@@ -1824,13 +1999,13 @@
           "delivered": 2500.0,
           "unit": "kcal",
           "binding": true,
-          "shadow_price_per_unit": 0.0003
+          "shadow_price_per_unit": 0.000209
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 78.9977,
+          "delivered": 77.9573,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1839,7 +2014,7 @@
           "nutrient": "fiber_g",
           "kind": "rda",
           "target": 31,
-          "delivered": 42.2117,
+          "delivered": 42.3669,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1851,7 +2026,7 @@
           "delivered": 1.6,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.053581
+          "shadow_price_per_unit": 0.055135
         },
         {
           "nutrient": "vit_a_mcg",
@@ -1860,7 +2035,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000239
+          "shadow_price_per_unit": 0.000211
         },
         {
           "nutrient": "vit_a_mcg",
@@ -1878,7 +2053,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.001319
+          "shadow_price_per_unit": 0.001333
         },
         {
           "nutrient": "vit_c_mg",
@@ -1893,7 +2068,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 35.9124,
+          "delivered": 35.7986,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1902,7 +2077,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 35.9124,
+          "delivered": 35.7986,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1914,7 +2089,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.006457
+          "shadow_price_per_unit": 0.009198
         },
         {
           "nutrient": "vit_e_mg",
@@ -1929,7 +2104,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.036,
+          "delivered": 6.0034,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1950,7 +2125,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.001101
+          "shadow_price_per_unit": 0.001141
         },
         {
           "nutrient": "calcium_mg",
@@ -1974,7 +2149,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 33.7588,
+          "delivered": 33.7631,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1983,7 +2158,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 33.7588,
+          "delivered": 33.7631,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -1992,7 +2167,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 1002.0086,
+          "delivered": 1006.6196,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2004,13 +2179,13 @@
           "delivered": 3400.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.000526
+          "shadow_price_per_unit": 0.000563
         },
         {
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 104.6959,
+          "delivered": 99.3874,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2019,7 +2194,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 26.9468,
+          "delivered": 26.9219,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2028,7 +2203,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 26.9468,
+          "delivered": 26.9219,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2042,14 +2217,14 @@
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.9745,
+      "cost_per_day": 1.9705,
       "basket": [
         {
           "sku_id": "0001111089711",
           "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 500.0,
-          "cost_per_day": 1.0913,
-          "pct_of_basket": 55.3,
+          "grams_per_day": 504.94,
+          "cost_per_day": 1.102,
+          "pct_of_basket": 55.9,
           "meta": {
             "fdc_id": 2512380,
             "unit_grams": 453.6,
@@ -2064,9 +2239,9 @@
         {
           "sku_id": "0001111089668",
           "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 161.43,
-          "cost_per_day": 0.6014,
-          "pct_of_basket": 30.5,
+          "grams_per_day": 162.37,
+          "cost_per_day": 0.6049,
+          "pct_of_basket": 30.7,
           "meta": {
             "fdc_id": 173745,
             "unit_grams": 453.6,
@@ -2081,9 +2256,9 @@
         {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 20.83,
-          "cost_per_day": 0.1051,
-          "pct_of_basket": 5.3,
+          "grams_per_day": 16.42,
+          "cost_per_day": 0.0829,
+          "pct_of_basket": 4.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -2098,9 +2273,9 @@
         {
           "sku_id": "0004126036240",
           "name": "Kroger\u00ae Calcium 600 mg with 20mcg Vitamin D Bone Health Tablets",
-          "grams_per_day": 1.28,
-          "cost_per_day": 0.0664,
-          "pct_of_basket": 3.4,
+          "grams_per_day": 1.26,
+          "cost_per_day": 0.0658,
+          "pct_of_basket": 3.3,
           "meta": {
             "is_supplement": true,
             "count": 120,
@@ -2118,8 +2293,8 @@
         {
           "sku_id": "0001111008452",
           "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
-          "grams_per_day": 4.1,
-          "cost_per_day": 0.0578,
+          "grams_per_day": 4.07,
+          "cost_per_day": 0.0574,
           "pct_of_basket": 2.9,
           "meta": {
             "fdc_id": 170554,
@@ -2136,7 +2311,7 @@
           "sku_id": "0004126001650",
           "name": "Kroger\u00ae Men's Multivitamin One Daily Tablets",
           "grams_per_day": 1.3,
-          "cost_per_day": 0.052,
+          "cost_per_day": 0.0519,
           "pct_of_basket": 2.6,
           "meta": {
             "is_supplement": true,
@@ -2155,15 +2330,32 @@
         {
           "sku_id": "0001111041661",
           "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 0.4,
-          "cost_per_day": 0.0005,
-          "pct_of_basket": 0.0,
+          "grams_per_day": 4.36,
+          "cost_per_day": 0.0051,
+          "pct_of_basket": 0.3,
           "meta": {
             "fdc_id": 170872,
             "unit_grams": 1949.5,
             "price_regular": 2.29,
             "price_promo": null,
             "price_used": 2.29,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
+          "sku_id": "0001111015685",
+          "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
+          "grams_per_day": 0.14,
+          "cost_per_day": 0.0004,
+          "pct_of_basket": 0.0,
+          "meta": {
+            "fdc_id": 169103,
+            "unit_grams": 1421.6,
+            "price_regular": 4.49,
+            "price_promo": null,
+            "price_used": 4.49,
             "price_kind": "regular",
             "location_id": "01400513",
             "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
@@ -2178,13 +2370,13 @@
           "delivered": 2500.0,
           "unit": "kcal",
           "binding": true,
-          "shadow_price_per_unit": 0.000566
+          "shadow_price_per_unit": 0.000209
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 78.3978,
+          "delivered": 77.9573,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2193,7 +2385,7 @@
           "nutrient": "fiber_g",
           "kind": "rda",
           "target": 31,
-          "delivered": 42.2974,
+          "delivered": 42.3669,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2205,7 +2397,7 @@
           "delivered": 1.6,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.049789
+          "shadow_price_per_unit": 0.055135
         },
         {
           "nutrient": "vit_a_mcg",
@@ -2214,7 +2406,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000387
+          "shadow_price_per_unit": 0.000211
         },
         {
           "nutrient": "vit_a_mcg",
@@ -2229,16 +2421,16 @@
           "nutrient": "vit_c_mg",
           "kind": "rda",
           "target": 90,
-          "delivered": 90.0423,
+          "delivered": 90.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.001333
         },
         {
           "nutrient": "vit_c_mg",
           "kind": "ul",
           "target": 2000,
-          "delivered": 90.0423,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2247,7 +2439,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 35.9593,
+          "delivered": 35.7986,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2256,7 +2448,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 35.9593,
+          "delivered": 35.7986,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2265,16 +2457,16 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 15.4321,
+          "delivered": 15.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.009198
         },
         {
           "nutrient": "vit_e_mg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 15.4321,
+          "delivered": 15.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2283,7 +2475,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.0003,
+          "delivered": 6.0034,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2304,7 +2496,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000892
+          "shadow_price_per_unit": 0.001141
         },
         {
           "nutrient": "calcium_mg",
@@ -2328,7 +2520,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 33.7801,
+          "delivered": 33.7631,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2337,7 +2529,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 33.7801,
+          "delivered": 33.7631,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2346,7 +2538,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 1006.6619,
+          "delivered": 1006.6196,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2358,13 +2550,13 @@
           "delivered": 3400.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.000388
+          "shadow_price_per_unit": 0.000563
         },
         {
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 121.369,
+          "delivered": 99.3874,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2373,7 +2565,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 26.9319,
+          "delivered": 26.9219,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2382,7 +2574,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 26.9319,
+          "delivered": 26.9219,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2396,14 +2588,14 @@
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.9745,
+      "cost_per_day": 1.9705,
       "basket": [
         {
           "sku_id": "0001111089711",
           "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 500.0,
-          "cost_per_day": 1.0913,
-          "pct_of_basket": 55.3,
+          "grams_per_day": 504.94,
+          "cost_per_day": 1.102,
+          "pct_of_basket": 55.9,
           "meta": {
             "fdc_id": 2512380,
             "unit_grams": 453.6,
@@ -2418,9 +2610,9 @@
         {
           "sku_id": "0001111089668",
           "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 161.43,
-          "cost_per_day": 0.6014,
-          "pct_of_basket": 30.5,
+          "grams_per_day": 162.37,
+          "cost_per_day": 0.6049,
+          "pct_of_basket": 30.7,
           "meta": {
             "fdc_id": 173745,
             "unit_grams": 453.6,
@@ -2435,9 +2627,9 @@
         {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 20.83,
-          "cost_per_day": 0.1051,
-          "pct_of_basket": 5.3,
+          "grams_per_day": 16.42,
+          "cost_per_day": 0.0829,
+          "pct_of_basket": 4.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -2452,9 +2644,9 @@
         {
           "sku_id": "0004126036240",
           "name": "Kroger\u00ae Calcium 600 mg with 20mcg Vitamin D Bone Health Tablets",
-          "grams_per_day": 1.28,
-          "cost_per_day": 0.0664,
-          "pct_of_basket": 3.4,
+          "grams_per_day": 1.26,
+          "cost_per_day": 0.0658,
+          "pct_of_basket": 3.3,
           "meta": {
             "is_supplement": true,
             "count": 120,
@@ -2472,8 +2664,8 @@
         {
           "sku_id": "0001111008452",
           "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
-          "grams_per_day": 4.1,
-          "cost_per_day": 0.0578,
+          "grams_per_day": 4.07,
+          "cost_per_day": 0.0574,
           "pct_of_basket": 2.9,
           "meta": {
             "fdc_id": 170554,
@@ -2490,7 +2682,7 @@
           "sku_id": "0004126001650",
           "name": "Kroger\u00ae Men's Multivitamin One Daily Tablets",
           "grams_per_day": 1.3,
-          "cost_per_day": 0.052,
+          "cost_per_day": 0.0519,
           "pct_of_basket": 2.6,
           "meta": {
             "is_supplement": true,
@@ -2509,15 +2701,32 @@
         {
           "sku_id": "0001111041661",
           "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 0.4,
-          "cost_per_day": 0.0005,
-          "pct_of_basket": 0.0,
+          "grams_per_day": 4.36,
+          "cost_per_day": 0.0051,
+          "pct_of_basket": 0.3,
           "meta": {
             "fdc_id": 170872,
             "unit_grams": 1949.5,
             "price_regular": 2.29,
             "price_promo": null,
             "price_used": 2.29,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
+          "sku_id": "0001111015685",
+          "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
+          "grams_per_day": 0.14,
+          "cost_per_day": 0.0004,
+          "pct_of_basket": 0.0,
+          "meta": {
+            "fdc_id": 169103,
+            "unit_grams": 1421.6,
+            "price_regular": 4.49,
+            "price_promo": null,
+            "price_used": 4.49,
             "price_kind": "regular",
             "location_id": "01400513",
             "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
@@ -2532,13 +2741,13 @@
           "delivered": 2500.0,
           "unit": "kcal",
           "binding": true,
-          "shadow_price_per_unit": 0.000566
+          "shadow_price_per_unit": 0.000209
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 78.3978,
+          "delivered": 77.9573,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2547,7 +2756,7 @@
           "nutrient": "fiber_g",
           "kind": "rda",
           "target": 31,
-          "delivered": 42.2974,
+          "delivered": 42.3669,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2559,7 +2768,7 @@
           "delivered": 1.6,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.049789
+          "shadow_price_per_unit": 0.055135
         },
         {
           "nutrient": "vit_a_mcg",
@@ -2568,7 +2777,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000387
+          "shadow_price_per_unit": 0.000211
         },
         {
           "nutrient": "vit_a_mcg",
@@ -2583,16 +2792,16 @@
           "nutrient": "vit_c_mg",
           "kind": "rda",
           "target": 90,
-          "delivered": 90.0423,
+          "delivered": 90.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.001333
         },
         {
           "nutrient": "vit_c_mg",
           "kind": "ul",
           "target": 2000,
-          "delivered": 90.0423,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2601,7 +2810,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 35.9593,
+          "delivered": 35.7986,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2610,7 +2819,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 35.9593,
+          "delivered": 35.7986,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2619,16 +2828,16 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 15.4321,
+          "delivered": 15.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.009198
         },
         {
           "nutrient": "vit_e_mg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 15.4321,
+          "delivered": 15.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2637,7 +2846,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.0003,
+          "delivered": 6.0034,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2658,7 +2867,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000892
+          "shadow_price_per_unit": 0.001141
         },
         {
           "nutrient": "calcium_mg",
@@ -2682,7 +2891,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 33.7801,
+          "delivered": 33.7631,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2691,7 +2900,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 33.7801,
+          "delivered": 33.7631,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2700,7 +2909,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 1006.6619,
+          "delivered": 1006.6196,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2712,13 +2921,13 @@
           "delivered": 3400.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.000388
+          "shadow_price_per_unit": 0.000563
         },
         {
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 121.369,
+          "delivered": 99.3874,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2727,7 +2936,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 26.9319,
+          "delivered": 26.9219,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2736,7 +2945,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 26.9319,
+          "delivered": 26.9219,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2750,14 +2959,14 @@
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.9745,
+      "cost_per_day": 1.9705,
       "basket": [
         {
           "sku_id": "0001111089711",
           "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 500.0,
-          "cost_per_day": 1.0913,
-          "pct_of_basket": 55.3,
+          "grams_per_day": 504.94,
+          "cost_per_day": 1.102,
+          "pct_of_basket": 55.9,
           "meta": {
             "fdc_id": 2512380,
             "unit_grams": 453.6,
@@ -2772,9 +2981,9 @@
         {
           "sku_id": "0001111089668",
           "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 161.43,
-          "cost_per_day": 0.6014,
-          "pct_of_basket": 30.5,
+          "grams_per_day": 162.37,
+          "cost_per_day": 0.6049,
+          "pct_of_basket": 30.7,
           "meta": {
             "fdc_id": 173745,
             "unit_grams": 453.6,
@@ -2789,9 +2998,9 @@
         {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 20.83,
-          "cost_per_day": 0.1051,
-          "pct_of_basket": 5.3,
+          "grams_per_day": 16.42,
+          "cost_per_day": 0.0829,
+          "pct_of_basket": 4.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -2806,9 +3015,9 @@
         {
           "sku_id": "0004126036240",
           "name": "Kroger\u00ae Calcium 600 mg with 20mcg Vitamin D Bone Health Tablets",
-          "grams_per_day": 1.28,
-          "cost_per_day": 0.0664,
-          "pct_of_basket": 3.4,
+          "grams_per_day": 1.26,
+          "cost_per_day": 0.0658,
+          "pct_of_basket": 3.3,
           "meta": {
             "is_supplement": true,
             "count": 120,
@@ -2826,8 +3035,8 @@
         {
           "sku_id": "0001111008452",
           "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
-          "grams_per_day": 4.1,
-          "cost_per_day": 0.0578,
+          "grams_per_day": 4.07,
+          "cost_per_day": 0.0574,
           "pct_of_basket": 2.9,
           "meta": {
             "fdc_id": 170554,
@@ -2844,7 +3053,7 @@
           "sku_id": "0004126001650",
           "name": "Kroger\u00ae Men's Multivitamin One Daily Tablets",
           "grams_per_day": 1.3,
-          "cost_per_day": 0.052,
+          "cost_per_day": 0.0519,
           "pct_of_basket": 2.6,
           "meta": {
             "is_supplement": true,
@@ -2863,15 +3072,32 @@
         {
           "sku_id": "0001111041661",
           "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 0.4,
-          "cost_per_day": 0.0005,
-          "pct_of_basket": 0.0,
+          "grams_per_day": 4.36,
+          "cost_per_day": 0.0051,
+          "pct_of_basket": 0.3,
           "meta": {
             "fdc_id": 170872,
             "unit_grams": 1949.5,
             "price_regular": 2.29,
             "price_promo": null,
             "price_used": 2.29,
+            "price_kind": "regular",
+            "location_id": "01400513",
+            "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+          }
+        },
+        {
+          "sku_id": "0001111015685",
+          "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
+          "grams_per_day": 0.14,
+          "cost_per_day": 0.0004,
+          "pct_of_basket": 0.0,
+          "meta": {
+            "fdc_id": 169103,
+            "unit_grams": 1421.6,
+            "price_regular": 4.49,
+            "price_promo": null,
+            "price_used": 4.49,
             "price_kind": "regular",
             "location_id": "01400513",
             "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
@@ -2886,13 +3112,13 @@
           "delivered": 2500.0,
           "unit": "kcal",
           "binding": true,
-          "shadow_price_per_unit": 0.000566
+          "shadow_price_per_unit": 0.000209
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 78.3978,
+          "delivered": 77.9573,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2901,7 +3127,7 @@
           "nutrient": "fiber_g",
           "kind": "rda",
           "target": 31,
-          "delivered": 42.2974,
+          "delivered": 42.3669,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2913,7 +3139,7 @@
           "delivered": 1.6,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.049789
+          "shadow_price_per_unit": 0.055135
         },
         {
           "nutrient": "vit_a_mcg",
@@ -2922,7 +3148,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000387
+          "shadow_price_per_unit": 0.000211
         },
         {
           "nutrient": "vit_a_mcg",
@@ -2937,16 +3163,16 @@
           "nutrient": "vit_c_mg",
           "kind": "rda",
           "target": 90,
-          "delivered": 90.0423,
+          "delivered": 90.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.001333
         },
         {
           "nutrient": "vit_c_mg",
           "kind": "ul",
           "target": 2000,
-          "delivered": 90.0423,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2955,7 +3181,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 35.9593,
+          "delivered": 35.7986,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2964,7 +3190,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 35.9593,
+          "delivered": 35.7986,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2973,16 +3199,16 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 15.4321,
+          "delivered": 15.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.009198
         },
         {
           "nutrient": "vit_e_mg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 15.4321,
+          "delivered": 15.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -2991,7 +3217,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.0003,
+          "delivered": 6.0034,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3012,7 +3238,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000892
+          "shadow_price_per_unit": 0.001141
         },
         {
           "nutrient": "calcium_mg",
@@ -3036,7 +3262,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 33.7801,
+          "delivered": 33.7631,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3045,7 +3271,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 33.7801,
+          "delivered": 33.7631,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3054,7 +3280,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 1006.6619,
+          "delivered": 1006.6196,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3066,13 +3292,13 @@
           "delivered": 3400.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.000388
+          "shadow_price_per_unit": 0.000563
         },
         {
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 121.369,
+          "delivered": 99.3874,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3081,7 +3307,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 26.9319,
+          "delivered": 26.9219,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3090,7 +3316,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 26.9319,
+          "delivered": 26.9219,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3104,14 +3330,14 @@
       "location_display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.9747,
+      "cost_per_day": 1.973,
       "basket": [
         {
           "sku_id": "0001111089711",
           "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 500.0,
-          "cost_per_day": 1.0913,
-          "pct_of_basket": 55.3,
+          "grams_per_day": 509.03,
+          "cost_per_day": 1.111,
+          "pct_of_basket": 56.3,
           "meta": {
             "fdc_id": 2512380,
             "unit_grams": 453.6,
@@ -3126,9 +3352,9 @@
         {
           "sku_id": "0001111089668",
           "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 161.43,
-          "cost_per_day": 0.6015,
-          "pct_of_basket": 30.5,
+          "grams_per_day": 162.22,
+          "cost_per_day": 0.6044,
+          "pct_of_basket": 30.6,
           "meta": {
             "fdc_id": 173745,
             "unit_grams": 453.6,
@@ -3143,9 +3369,9 @@
         {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 20.85,
-          "cost_per_day": 0.1052,
-          "pct_of_basket": 5.3,
+          "grams_per_day": 16.09,
+          "cost_per_day": 0.0812,
+          "pct_of_basket": 4.1,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -3180,8 +3406,8 @@
         {
           "sku_id": "0001111008452",
           "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
-          "grams_per_day": 4.1,
-          "cost_per_day": 0.0578,
+          "grams_per_day": 4.08,
+          "cost_per_day": 0.0574,
           "pct_of_basket": 2.9,
           "meta": {
             "fdc_id": 170554,
@@ -3217,7 +3443,7 @@
         {
           "sku_id": "0001111089739",
           "name": "Kroger\u00ae Frozen Spinach Cut Leaf",
-          "grams_per_day": 0.11,
+          "grams_per_day": 0.12,
           "cost_per_day": 0.0005,
           "pct_of_basket": 0.0,
           "meta": {
@@ -3237,16 +3463,16 @@
           "nutrient": "energy_kcal",
           "kind": "rda",
           "target": 2500,
-          "delivered": 2500.0,
+          "delivered": 2510.7878,
           "unit": "kcal",
-          "binding": true,
-          "shadow_price_per_unit": 0.000237
+          "binding": false,
+          "shadow_price_per_unit": 0.0
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 78.3957,
+          "delivered": 77.9901,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3255,7 +3481,7 @@
           "nutrient": "fiber_g",
           "kind": "rda",
           "target": 31,
-          "delivered": 42.3031,
+          "delivered": 42.4409,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3267,7 +3493,7 @@
           "delivered": 1.6,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.051387
+          "shadow_price_per_unit": 0.054044
         },
         {
           "nutrient": "vit_a_mcg",
@@ -3276,7 +3502,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000692
+          "shadow_price_per_unit": 0.000656
         },
         {
           "nutrient": "vit_a_mcg",
@@ -3291,16 +3517,16 @@
           "nutrient": "vit_c_mg",
           "kind": "rda",
           "target": 90,
-          "delivered": 90.0053,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.0
+          "shadow_price_per_unit": 0.000955
         },
         {
           "nutrient": "vit_c_mg",
           "kind": "ul",
           "target": 2000,
-          "delivered": 90.0053,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3309,7 +3535,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 35.9594,
+          "delivered": 35.9559,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3318,7 +3544,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 35.9594,
+          "delivered": 35.9559,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3327,16 +3553,16 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 15.4307,
+          "delivered": 15.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.003928
         },
         {
           "nutrient": "vit_e_mg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 15.4307,
+          "delivered": 15.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3345,7 +3571,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 5.9956,
+          "delivered": 5.9952,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3366,7 +3592,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.001641
+          "shadow_price_per_unit": 0.001939
         },
         {
           "nutrient": "calcium_mg",
@@ -3390,7 +3616,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 33.7744,
+          "delivered": 33.8366,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3399,7 +3625,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 33.7744,
+          "delivered": 33.8366,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3408,7 +3634,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 1006.7053,
+          "delivered": 1010.2948,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3420,13 +3646,13 @@
           "delivered": 3400.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.000711
+          "shadow_price_per_unit": 0.000868
         },
         {
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 121.3846,
+          "delivered": 95.7326,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3435,7 +3661,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 26.9265,
+          "delivered": 26.9876,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -3444,7 +3670,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 26.9265,
+          "delivered": 26.9876,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4222,14 +4448,14 @@
       "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 5.164,
+      "cost_per_day": 4.9199,
       "basket": [
         {
           "sku_id": "0001111088301",
           "name": "Kroger\u00ae Regular Evaporated Milk",
-          "grams_per_day": 500.0,
-          "cost_per_day": 1.9015,
-          "pct_of_basket": 36.8,
+          "grams_per_day": 716.68,
+          "cost_per_day": 2.7255,
+          "pct_of_basket": 55.4,
           "meta": {
             "fdc_id": 171276,
             "unit_grams": 365.5,
@@ -4242,62 +4468,11 @@
           }
         },
         {
-          "sku_id": "0002529360039",
-          "name": "Silk Original Dairy Free Vegan Soy Milk Half Gallon",
-          "grams_per_day": 442.81,
-          "cost_per_day": 1.0653,
-          "pct_of_basket": 20.6,
-          "meta": {
-            "fdc_id": 173768,
-            "unit_grams": 1949.5,
-            "price_regular": 4.69,
-            "price_promo": null,
-            "price_used": 4.69,
-            "price_kind": "regular",
-            "location_id": "70400357",
-            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
-          }
-        },
-        {
-          "sku_id": "0001111089687",
-          "name": "Kroger\u00ae Black Beans",
-          "grams_per_day": 137.28,
-          "cost_per_day": 0.5115,
-          "pct_of_basket": 9.9,
-          "meta": {
-            "fdc_id": 175186,
-            "unit_grams": 453.6,
-            "price_regular": 1.69,
-            "price_promo": null,
-            "price_used": 1.69,
-            "price_kind": "regular",
-            "location_id": "70400357",
-            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
-          }
-        },
-        {
-          "sku_id": "0001111085607",
-          "name": "Kroger\u00ae 100% Pure Vegetable Oil",
-          "grams_per_day": 109.62,
-          "cost_per_day": 0.4269,
-          "pct_of_basket": 8.3,
-          "meta": {
-            "fdc_id": 172370,
-            "unit_grams": 870.6,
-            "price_regular": 3.39,
-            "price_promo": null,
-            "price_used": 3.39,
-            "price_kind": "regular",
-            "location_id": "70400357",
-            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
-          }
-        },
-        {
           "sku_id": "0001111089724",
           "name": "Kroger\u00ae Traditional Favorites Frozen Broccoli Cuts",
-          "grams_per_day": 78.51,
-          "cost_per_day": 0.3462,
-          "pct_of_basket": 6.7,
+          "grams_per_day": 121.41,
+          "cost_per_day": 0.5353,
+          "pct_of_basket": 10.9,
           "meta": {
             "fdc_id": 169968,
             "unit_grams": 340.2,
@@ -4310,14 +4485,31 @@
           }
         },
         {
-          "sku_id": "0001111089739",
-          "name": "Kroger\u00ae Frozen Spinach Cut Leaf",
-          "grams_per_day": 64.32,
-          "cost_per_day": 0.3195,
-          "pct_of_basket": 6.2,
+          "sku_id": "0001111085607",
+          "name": "Kroger\u00ae 100% Pure Vegetable Oil",
+          "grams_per_day": 131.45,
+          "cost_per_day": 0.5118,
+          "pct_of_basket": 10.4,
           "meta": {
-            "fdc_id": 169287,
-            "unit_grams": 340.2,
+            "fdc_id": 172370,
+            "unit_grams": 870.6,
+            "price_regular": 3.39,
+            "price_promo": null,
+            "price_used": 3.39,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        },
+        {
+          "sku_id": "0001111089687",
+          "name": "Kroger\u00ae Black Beans",
+          "grams_per_day": 122.48,
+          "cost_per_day": 0.4563,
+          "pct_of_basket": 9.3,
+          "meta": {
+            "fdc_id": 175186,
+            "unit_grams": 453.6,
             "price_regular": 1.69,
             "price_promo": null,
             "price_used": 1.69,
@@ -4329,9 +4521,9 @@
         {
           "sku_id": "0001600027526",
           "name": "General Mills Cheerios\u2122 Cereal",
-          "grams_per_day": 15.89,
-          "cost_per_day": 0.2986,
-          "pct_of_basket": 5.8,
+          "grams_per_day": 18.51,
+          "cost_per_day": 0.348,
+          "pct_of_basket": 7.1,
           "meta": {
             "fdc_id": 173884,
             "unit_grams": 249.5,
@@ -4344,14 +4536,14 @@
           }
         },
         {
-          "sku_id": "0000000004554",
-          "name": "Red Cabbage",
-          "grams_per_day": 72.59,
-          "cost_per_day": 0.1584,
-          "pct_of_basket": 3.1,
+          "sku_id": "0001111072567",
+          "name": "Kroger\u00ae Black Beans",
+          "grams_per_day": 80.8,
+          "cost_per_day": 0.1837,
+          "pct_of_basket": 3.7,
           "meta": {
-            "fdc_id": 2346407,
-            "unit_grams": 453.6,
+            "fdc_id": 175188,
+            "unit_grams": 435.4,
             "price_regular": 0.99,
             "price_promo": null,
             "price_used": 0.99,
@@ -4361,17 +4553,17 @@
           }
         },
         {
-          "sku_id": "0001111001618",
-          "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 23.86,
-          "cost_per_day": 0.1362,
-          "pct_of_basket": 2.6,
+          "sku_id": "0001111089739",
+          "name": "Kroger\u00ae Frozen Spinach Cut Leaf",
+          "grams_per_day": 32.04,
+          "cost_per_day": 0.1592,
+          "pct_of_basket": 3.2,
           "meta": {
-            "fdc_id": 172458,
-            "unit_grams": 453.6,
-            "price_regular": 2.59,
+            "fdc_id": 169287,
+            "unit_grams": 340.2,
+            "price_regular": 1.69,
             "price_promo": null,
-            "price_used": 2.59,
+            "price_used": 1.69,
             "price_kind": "regular",
             "location_id": "70400357",
             "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
@@ -4383,16 +4575,16 @@
           "nutrient": "energy_kcal",
           "kind": "rda",
           "target": 2500,
-          "delivered": 2500.0,
+          "delivered": 2720.7686,
           "unit": "kcal",
-          "binding": true,
-          "shadow_price_per_unit": 6.3e-05
+          "binding": false,
+          "shadow_price_per_unit": 0.0
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 88.2098,
+          "delivered": 86.5741,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4404,13 +4596,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.020758
+          "shadow_price_per_unit": 0.028172
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 7.166,
+          "delivered": 8.5926,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4422,7 +4614,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000486
+          "shadow_price_per_unit": 0.000467
         },
         {
           "nutrient": "vit_a_mcg",
@@ -4440,7 +4632,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.005238
+          "shadow_price_per_unit": 0.005058
         },
         {
           "nutrient": "vit_c_mg",
@@ -4458,7 +4650,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.223608
+          "shadow_price_per_unit": 0.160083
         },
         {
           "nutrient": "vit_d_mcg",
@@ -4476,7 +4668,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.040744
+          "shadow_price_per_unit": 0.047602
         },
         {
           "nutrient": "vit_e_mg",
@@ -4491,10 +4683,10 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 2.894,
+          "delivered": 2.4,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.092938
         },
         {
           "nutrient": "folate_mcg",
@@ -4512,13 +4704,13 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 7e-05
+          "shadow_price_per_unit": 0.000167
         },
         {
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 2291.6652,
+          "delivered": 2270.1797,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4527,7 +4719,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 2291.6652,
+          "delivered": 2270.1797,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4536,7 +4728,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 21.896,
+          "delivered": 20.5177,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4545,7 +4737,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 21.896,
+          "delivered": 20.5177,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4554,7 +4746,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 528.3018,
+          "delivered": 463.2307,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4563,7 +4755,7 @@
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 4891.6875,
+          "delivered": 4742.9592,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4572,7 +4764,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 1107.2266,
+          "delivered": 1225.8109,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4581,16 +4773,16 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 11.0,
+          "delivered": 11.8921,
           "unit": "mg",
-          "binding": true,
-          "shadow_price_per_unit": 0.023541
+          "binding": false,
+          "shadow_price_per_unit": 0.0
         },
         {
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 11.0,
+          "delivered": 11.8921,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4604,14 +4796,14 @@
       "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 5.164,
+      "cost_per_day": 4.9199,
       "basket": [
         {
           "sku_id": "0001111088301",
           "name": "Kroger\u00ae Regular Evaporated Milk",
-          "grams_per_day": 500.0,
-          "cost_per_day": 1.9015,
-          "pct_of_basket": 36.8,
+          "grams_per_day": 716.68,
+          "cost_per_day": 2.7255,
+          "pct_of_basket": 55.4,
           "meta": {
             "fdc_id": 171276,
             "unit_grams": 365.5,
@@ -4624,62 +4816,11 @@
           }
         },
         {
-          "sku_id": "0002529360039",
-          "name": "Silk Original Dairy Free Vegan Soy Milk Half Gallon",
-          "grams_per_day": 442.81,
-          "cost_per_day": 1.0653,
-          "pct_of_basket": 20.6,
-          "meta": {
-            "fdc_id": 173768,
-            "unit_grams": 1949.5,
-            "price_regular": 4.69,
-            "price_promo": null,
-            "price_used": 4.69,
-            "price_kind": "regular",
-            "location_id": "70400357",
-            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
-          }
-        },
-        {
-          "sku_id": "0001111089687",
-          "name": "Kroger\u00ae Black Beans",
-          "grams_per_day": 137.28,
-          "cost_per_day": 0.5115,
-          "pct_of_basket": 9.9,
-          "meta": {
-            "fdc_id": 175186,
-            "unit_grams": 453.6,
-            "price_regular": 1.69,
-            "price_promo": null,
-            "price_used": 1.69,
-            "price_kind": "regular",
-            "location_id": "70400357",
-            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
-          }
-        },
-        {
-          "sku_id": "0001111085607",
-          "name": "Kroger\u00ae 100% Pure Vegetable Oil",
-          "grams_per_day": 109.62,
-          "cost_per_day": 0.4269,
-          "pct_of_basket": 8.3,
-          "meta": {
-            "fdc_id": 172370,
-            "unit_grams": 870.6,
-            "price_regular": 3.39,
-            "price_promo": null,
-            "price_used": 3.39,
-            "price_kind": "regular",
-            "location_id": "70400357",
-            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
-          }
-        },
-        {
           "sku_id": "0001111089724",
           "name": "Kroger\u00ae Traditional Favorites Frozen Broccoli Cuts",
-          "grams_per_day": 78.51,
-          "cost_per_day": 0.3462,
-          "pct_of_basket": 6.7,
+          "grams_per_day": 121.41,
+          "cost_per_day": 0.5353,
+          "pct_of_basket": 10.9,
           "meta": {
             "fdc_id": 169968,
             "unit_grams": 340.2,
@@ -4692,14 +4833,31 @@
           }
         },
         {
-          "sku_id": "0001111089739",
-          "name": "Kroger\u00ae Frozen Spinach Cut Leaf",
-          "grams_per_day": 64.32,
-          "cost_per_day": 0.3195,
-          "pct_of_basket": 6.2,
+          "sku_id": "0001111085607",
+          "name": "Kroger\u00ae 100% Pure Vegetable Oil",
+          "grams_per_day": 131.45,
+          "cost_per_day": 0.5118,
+          "pct_of_basket": 10.4,
           "meta": {
-            "fdc_id": 169287,
-            "unit_grams": 340.2,
+            "fdc_id": 172370,
+            "unit_grams": 870.6,
+            "price_regular": 3.39,
+            "price_promo": null,
+            "price_used": 3.39,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        },
+        {
+          "sku_id": "0001111089687",
+          "name": "Kroger\u00ae Black Beans",
+          "grams_per_day": 122.48,
+          "cost_per_day": 0.4563,
+          "pct_of_basket": 9.3,
+          "meta": {
+            "fdc_id": 175186,
+            "unit_grams": 453.6,
             "price_regular": 1.69,
             "price_promo": null,
             "price_used": 1.69,
@@ -4711,9 +4869,9 @@
         {
           "sku_id": "0001600027526",
           "name": "General Mills Cheerios\u2122 Cereal",
-          "grams_per_day": 15.89,
-          "cost_per_day": 0.2986,
-          "pct_of_basket": 5.8,
+          "grams_per_day": 18.51,
+          "cost_per_day": 0.348,
+          "pct_of_basket": 7.1,
           "meta": {
             "fdc_id": 173884,
             "unit_grams": 249.5,
@@ -4726,11 +4884,325 @@
           }
         },
         {
+          "sku_id": "0001111072567",
+          "name": "Kroger\u00ae Black Beans",
+          "grams_per_day": 80.8,
+          "cost_per_day": 0.1837,
+          "pct_of_basket": 3.7,
+          "meta": {
+            "fdc_id": 175188,
+            "unit_grams": 435.4,
+            "price_regular": 0.99,
+            "price_promo": null,
+            "price_used": 0.99,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        },
+        {
+          "sku_id": "0001111089739",
+          "name": "Kroger\u00ae Frozen Spinach Cut Leaf",
+          "grams_per_day": 32.04,
+          "cost_per_day": 0.1592,
+          "pct_of_basket": 3.2,
+          "meta": {
+            "fdc_id": 169287,
+            "unit_grams": 340.2,
+            "price_regular": 1.69,
+            "price_promo": null,
+            "price_used": 1.69,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        }
+      ],
+      "nutrients": [
+        {
+          "nutrient": "energy_kcal",
+          "kind": "rda",
+          "target": 2500,
+          "delivered": 2720.7686,
+          "unit": "kcal",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "protein_g",
+          "kind": "rda",
+          "target": 56,
+          "delivered": 86.5741,
+          "unit": "g",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "fiber_g",
+          "kind": "rda",
+          "target": 31,
+          "delivered": 31.0,
+          "unit": "g",
+          "binding": true,
+          "shadow_price_per_unit": 0.028172
+        },
+        {
+          "nutrient": "ala_g",
+          "kind": "rda",
+          "target": 1.6,
+          "delivered": 8.5926,
+          "unit": "g",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_a_mcg",
+          "kind": "rda",
+          "target": 900,
+          "delivered": 900.0,
+          "unit": "mcg",
+          "binding": true,
+          "shadow_price_per_unit": 0.000467
+        },
+        {
+          "nutrient": "vit_a_mcg",
+          "kind": "ul",
+          "target": 3000,
+          "delivered": 900.0,
+          "unit": "mcg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_c_mg",
+          "kind": "rda",
+          "target": 90,
+          "delivered": 90.0,
+          "unit": "mg",
+          "binding": true,
+          "shadow_price_per_unit": 0.005058
+        },
+        {
+          "nutrient": "vit_c_mg",
+          "kind": "ul",
+          "target": 2000,
+          "delivered": 90.0,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_d_mcg",
+          "kind": "rda",
+          "target": 15,
+          "delivered": 15.0,
+          "unit": "mcg",
+          "binding": true,
+          "shadow_price_per_unit": 0.160083
+        },
+        {
+          "nutrient": "vit_d_mcg",
+          "kind": "ul",
+          "target": 100,
+          "delivered": 15.0,
+          "unit": "mcg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_e_mg",
+          "kind": "rda",
+          "target": 15,
+          "delivered": 15.0,
+          "unit": "mg",
+          "binding": true,
+          "shadow_price_per_unit": 0.047602
+        },
+        {
+          "nutrient": "vit_e_mg",
+          "kind": "ul",
+          "target": 1000,
+          "delivered": 15.0,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_b12_mcg",
+          "kind": "rda",
+          "target": 2.4,
+          "delivered": 2.4,
+          "unit": "mcg",
+          "binding": true,
+          "shadow_price_per_unit": 0.092938
+        },
+        {
+          "nutrient": "folate_mcg",
+          "kind": "rda",
+          "target": 400,
+          "delivered": 1000.0,
+          "unit": "mcg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "folate_mcg",
+          "kind": "ul",
+          "target": 1000,
+          "delivered": 1000.0,
+          "unit": "mcg",
+          "binding": true,
+          "shadow_price_per_unit": 0.000167
+        },
+        {
+          "nutrient": "calcium_mg",
+          "kind": "rda",
+          "target": 1000,
+          "delivered": 2270.1797,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "calcium_mg",
+          "kind": "ul",
+          "target": 2500,
+          "delivered": 2270.1797,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "iron_mg",
+          "kind": "rda",
+          "target": 8,
+          "delivered": 20.5177,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "iron_mg",
+          "kind": "ul",
+          "target": 45,
+          "delivered": 20.5177,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "magnesium_mg",
+          "kind": "rda",
+          "target": 420,
+          "delivered": 463.2307,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "potassium_mg",
+          "kind": "rda",
+          "target": 3400,
+          "delivered": 4742.9592,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "sodium_mg",
+          "kind": "ul",
+          "target": 2300,
+          "delivered": 1225.8109,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "zinc_mg",
+          "kind": "rda",
+          "target": 11,
+          "delivered": 11.8921,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "zinc_mg",
+          "kind": "ul",
+          "target": 40,
+          "delivered": 11.8921,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        }
+      ],
+      "variant": "food_only"
+    },
+    {
+      "mode": "vegan",
+      "location_region": "west",
+      "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103",
+      "status": "optimal",
+      "message": "optimal solution found",
+      "cost_per_day": 5.8991,
+      "basket": [
+        {
+          "sku_id": "0002529360039",
+          "name": "Silk Original Dairy Free Vegan Soy Milk Half Gallon",
+          "grams_per_day": 1337.68,
+          "cost_per_day": 3.2181,
+          "pct_of_basket": 54.6,
+          "meta": {
+            "fdc_id": 173768,
+            "unit_grams": 1949.5,
+            "price_regular": 4.69,
+            "price_promo": null,
+            "price_used": 4.69,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        },
+        {
+          "sku_id": "0001600027526",
+          "name": "General Mills Cheerios\u2122 Cereal",
+          "grams_per_day": 45.09,
+          "cost_per_day": 0.8476,
+          "pct_of_basket": 14.4,
+          "meta": {
+            "fdc_id": 173884,
+            "unit_grams": 249.5,
+            "price_regular": 4.69,
+            "price_promo": null,
+            "price_used": 4.69,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        },
+        {
+          "sku_id": "0001111085607",
+          "name": "Kroger\u00ae 100% Pure Vegetable Oil",
+          "grams_per_day": 148.68,
+          "cost_per_day": 0.5789,
+          "pct_of_basket": 9.8,
+          "meta": {
+            "fdc_id": 172370,
+            "unit_grams": 870.6,
+            "price_regular": 3.39,
+            "price_promo": null,
+            "price_used": 3.39,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        },
+        {
           "sku_id": "0000000004554",
           "name": "Red Cabbage",
-          "grams_per_day": 72.59,
-          "cost_per_day": 0.1584,
-          "pct_of_basket": 3.1,
+          "grams_per_day": 188.79,
+          "cost_per_day": 0.412,
+          "pct_of_basket": 7.0,
           "meta": {
             "fdc_id": 2346407,
             "unit_grams": 453.6,
@@ -4743,11 +5215,62 @@
           }
         },
         {
+          "sku_id": "0001111089739",
+          "name": "Kroger\u00ae Frozen Spinach Cut Leaf",
+          "grams_per_day": 76.24,
+          "cost_per_day": 0.3787,
+          "pct_of_basket": 6.4,
+          "meta": {
+            "fdc_id": 169287,
+            "unit_grams": 340.2,
+            "price_regular": 1.69,
+            "price_promo": null,
+            "price_used": 1.69,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        },
+        {
+          "sku_id": "0001111089687",
+          "name": "Kroger\u00ae Black Beans",
+          "grams_per_day": 75.12,
+          "cost_per_day": 0.2799,
+          "pct_of_basket": 4.7,
+          "meta": {
+            "fdc_id": 175186,
+            "unit_grams": 453.6,
+            "price_regular": 1.69,
+            "price_promo": null,
+            "price_used": 1.69,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        },
+        {
+          "sku_id": "0001111071419",
+          "name": "Kroger\u00ae Yellow Corn Meal",
+          "grams_per_day": 62.36,
+          "cost_per_day": 0.1824,
+          "pct_of_basket": 3.1,
+          "meta": {
+            "fdc_id": 169697,
+            "unit_grams": 680.4,
+            "price_regular": 1.99,
+            "price_promo": null,
+            "price_used": 1.99,
+            "price_kind": "regular",
+            "location_id": "70400357",
+            "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+          }
+        },
+        {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 23.86,
-          "cost_per_day": 0.1362,
-          "pct_of_basket": 2.6,
+          "grams_per_day": 0.25,
+          "cost_per_day": 0.0014,
+          "pct_of_basket": 0.0,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -4768,13 +5291,13 @@
           "delivered": 2500.0,
           "unit": "kcal",
           "binding": true,
-          "shadow_price_per_unit": 6.3e-05
+          "shadow_price_per_unit": 0.000131
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 88.2098,
+          "delivered": 66.3123,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4786,13 +5309,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.020758
+          "shadow_price_per_unit": 0.023257
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 7.166,
+          "delivered": 9.7191,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4804,7 +5327,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000486
+          "shadow_price_per_unit": 0.000543
         },
         {
           "nutrient": "vit_a_mcg",
@@ -4822,7 +5345,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.005238
+          "shadow_price_per_unit": 0.005131
         },
         {
           "nutrient": "vit_c_mg",
@@ -4840,7 +5363,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.223608
+          "shadow_price_per_unit": 0.21878
         },
         {
           "nutrient": "vit_d_mcg",
@@ -4858,7 +5381,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.040744
+          "shadow_price_per_unit": 0.033458
         },
         {
           "nutrient": "vit_e_mg",
@@ -4873,7 +5396,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 2.894,
+          "delivered": 6.1292,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4894,13 +5417,13 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 7e-05
+          "shadow_price_per_unit": 0.000257
         },
         {
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 2291.6652,
+          "delivered": 2107.6721,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4909,7 +5432,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 2291.6652,
+          "delivered": 2107.6721,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4918,7 +5441,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 21.896,
+          "delivered": 29.4717,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4927,7 +5450,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 21.896,
+          "delivered": 29.4717,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4936,7 +5459,7 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 528.3018,
+          "delivered": 508.4606,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4945,7 +5468,7 @@
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 4891.6875,
+          "delivered": 3812.7335,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4954,7 +5477,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 1107.2266,
+          "delivered": 1183.5892,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -4966,169 +5489,13 @@
           "delivered": 11.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.023541
+          "shadow_price_per_unit": 0.033901
         },
         {
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
           "delivered": 11.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        }
-      ],
-      "variant": "food_only"
-    },
-    {
-      "mode": "vegan",
-      "location_region": "west",
-      "location_display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103",
-      "status": "infeasible",
-      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
-      "cost_per_day": null,
-      "basket": [],
-      "nutrients": [
-        {
-          "nutrient": "energy_kcal",
-          "kind": "rda",
-          "target": 2500,
-          "delivered": 0.0,
-          "unit": "kcal",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "protein_g",
-          "kind": "rda",
-          "target": 56,
-          "delivered": 0.0,
-          "unit": "g",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "fiber_g",
-          "kind": "rda",
-          "target": 31,
-          "delivered": 0.0,
-          "unit": "g",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "ala_g",
-          "kind": "rda",
-          "target": 1.6,
-          "delivered": 0.0,
-          "unit": "g",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_a_mcg",
-          "kind": "rda",
-          "target": 900,
-          "delivered": 0.0,
-          "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_c_mg",
-          "kind": "rda",
-          "target": 90,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_d_mcg",
-          "kind": "rda",
-          "target": 15,
-          "delivered": 0.0,
-          "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_e_mg",
-          "kind": "rda",
-          "target": 15,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_b12_mcg",
-          "kind": "rda",
-          "target": 2.4,
-          "delivered": 0.0,
-          "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "folate_mcg",
-          "kind": "rda",
-          "target": 400,
-          "delivered": 0.0,
-          "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "calcium_mg",
-          "kind": "rda",
-          "target": 1000,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "iron_mg",
-          "kind": "rda",
-          "target": 8,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "magnesium_mg",
-          "kind": "rda",
-          "target": 420,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "potassium_mg",
-          "kind": "rda",
-          "target": 3400,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "sodium_mg",
-          "kind": "ul",
-          "target": 2300,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "zinc_mg",
-          "kind": "rda",
-          "target": 11,
-          "delivered": 0.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -6727,14 +7094,31 @@
       "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 2.7447,
+      "cost_per_day": 2.6982,
       "basket": [
+        {
+          "sku_id": "0001111041661",
+          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
+          "grams_per_day": 826.93,
+          "cost_per_day": 0.8441,
+          "pct_of_basket": 31.3,
+          "meta": {
+            "fdc_id": 170872,
+            "unit_grams": 1949.5,
+            "price_regular": 1.99,
+            "price_promo": null,
+            "price_used": 1.99,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
         {
           "sku_id": "0001111060903",
           "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
-          "grams_per_day": 450.0,
-          "cost_per_day": 1.0032,
-          "pct_of_basket": 36.6,
+          "grams_per_day": 253.84,
+          "cost_per_day": 0.5659,
+          "pct_of_basket": 21.0,
           "meta": {
             "fdc_id": 171287,
             "unit_grams": 802.9,
@@ -6749,9 +7133,9 @@
         {
           "sku_id": "0001111089668",
           "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 149.03,
-          "cost_per_day": 0.5552,
-          "pct_of_basket": 20.2,
+          "grams_per_day": 143.66,
+          "cost_per_day": 0.5352,
+          "pct_of_basket": 19.8,
           "meta": {
             "fdc_id": 173745,
             "unit_grams": 453.6,
@@ -6764,28 +7148,11 @@
           }
         },
         {
-          "sku_id": "0001111041661",
-          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 500.0,
-          "cost_per_day": 0.5104,
-          "pct_of_basket": 18.6,
-          "meta": {
-            "fdc_id": 170872,
-            "unit_grams": 1949.5,
-            "price_regular": 1.99,
-            "price_promo": null,
-            "price_used": 1.99,
-            "price_kind": "regular",
-            "location_id": "03400017",
-            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
-          }
-        },
-        {
           "sku_id": "0001111085607",
           "name": "Kroger\u00ae 100% Pure Vegetable Oil",
-          "grams_per_day": 107.38,
-          "cost_per_day": 0.3688,
-          "pct_of_basket": 13.4,
+          "grams_per_day": 128.18,
+          "cost_per_day": 0.4402,
+          "pct_of_basket": 16.3,
           "meta": {
             "fdc_id": 172370,
             "unit_grams": 870.6,
@@ -6800,9 +7167,9 @@
         {
           "sku_id": "0001111015685",
           "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-          "grams_per_day": 66.18,
-          "cost_per_day": 0.209,
-          "pct_of_basket": 7.6,
+          "grams_per_day": 66.11,
+          "cost_per_day": 0.2088,
+          "pct_of_basket": 7.7,
           "meta": {
             "fdc_id": 169103,
             "unit_grams": 1421.6,
@@ -6817,9 +7184,9 @@
         {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 13.74,
-          "cost_per_day": 0.0693,
-          "pct_of_basket": 2.5,
+          "grams_per_day": 17.34,
+          "cost_per_day": 0.0875,
+          "pct_of_basket": 3.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -6832,34 +7199,17 @@
           }
         },
         {
-          "sku_id": "0001111089711",
-          "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 9.36,
-          "cost_per_day": 0.0204,
-          "pct_of_basket": 0.7,
+          "sku_id": "0004133102487",
+          "name": "Goya\u00ae Green Split Peas",
+          "grams_per_day": 5.0,
+          "cost_per_day": 0.0164,
+          "pct_of_basket": 0.6,
           "meta": {
-            "fdc_id": 2512380,
+            "fdc_id": 172428,
             "unit_grams": 453.6,
-            "price_regular": 0.99,
+            "price_regular": 1.49,
             "price_promo": null,
-            "price_used": 0.99,
-            "price_kind": "regular",
-            "location_id": "03400017",
-            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
-          }
-        },
-        {
-          "sku_id": "0001111085402",
-          "name": "Kroger\u00ae Bleached All Purpose Flour",
-          "grams_per_day": 6.91,
-          "cost_per_day": 0.0082,
-          "pct_of_basket": 0.3,
-          "meta": {
-            "fdc_id": 168894,
-            "unit_grams": 2268.0,
-            "price_regular": 2.69,
-            "price_promo": null,
-            "price_used": 2.69,
+            "price_used": 1.49,
             "price_kind": "regular",
             "location_id": "03400017",
             "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
@@ -6874,13 +7224,13 @@
           "delivered": 2500.0,
           "unit": "kcal",
           "binding": true,
-          "shadow_price_per_unit": 0.000218
+          "shadow_price_per_unit": 0.000199
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 112.5917,
+          "delivered": 98.4682,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -6892,13 +7242,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.003845
+          "shadow_price_per_unit": 0.008324
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 8.0034,
+          "delivered": 9.2843,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -6907,16 +7257,16 @@
           "nutrient": "vit_a_mcg",
           "kind": "rda",
           "target": 900,
-          "delivered": 1023.8971,
+          "delivered": 900.0,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.000372
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "ul",
           "target": 3000,
-          "delivered": 1023.8971,
+          "delivered": 900.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -6928,7 +7278,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.001585
+          "shadow_price_per_unit": 0.001272
         },
         {
           "nutrient": "vit_c_mg",
@@ -6946,7 +7296,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.076335
+          "shadow_price_per_unit": 0.050655
         },
         {
           "nutrient": "vit_d_mcg",
@@ -6964,7 +7314,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.018411
+          "shadow_price_per_unit": 0.020518
         },
         {
           "nutrient": "vit_e_mg",
@@ -6979,7 +7329,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.355,
+          "delivered": 6.1458,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -6988,7 +7338,7 @@
           "nutrient": "folate_mcg",
           "kind": "rda",
           "target": 400,
-          "delivered": 827.1778,
+          "delivered": 714.568,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -6997,7 +7347,7 @@
           "nutrient": "folate_mcg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 827.1778,
+          "delivered": 714.568,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7006,7 +7356,7 @@
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 1209.2165,
+          "delivered": 1501.8036,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7015,7 +7365,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 1209.2165,
+          "delivered": 1501.8036,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7024,7 +7374,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 17.4556,
+          "delivered": 13.6979,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7033,7 +7383,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 17.4556,
+          "delivered": 13.6979,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7045,22 +7395,22 @@
           "delivered": 420.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.000977
+          "shadow_price_per_unit": 0.001016
         },
         {
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 3400.0,
+          "delivered": 3591.8482,
           "unit": "mg",
-          "binding": true,
-          "shadow_price_per_unit": 5.8e-05
+          "binding": false,
+          "shadow_price_per_unit": 0.0
         },
         {
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 942.7456,
+          "delivered": 827.3389,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7069,7 +7419,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 14.1166,
+          "delivered": 12.8166,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7078,7 +7428,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 14.1166,
+          "delivered": 12.8166,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7092,14 +7442,31 @@
       "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 2.7447,
+      "cost_per_day": 2.6982,
       "basket": [
+        {
+          "sku_id": "0001111041661",
+          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
+          "grams_per_day": 826.93,
+          "cost_per_day": 0.8441,
+          "pct_of_basket": 31.3,
+          "meta": {
+            "fdc_id": 170872,
+            "unit_grams": 1949.5,
+            "price_regular": 1.99,
+            "price_promo": null,
+            "price_used": 1.99,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
         {
           "sku_id": "0001111060903",
           "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
-          "grams_per_day": 450.0,
-          "cost_per_day": 1.0032,
-          "pct_of_basket": 36.6,
+          "grams_per_day": 253.84,
+          "cost_per_day": 0.5659,
+          "pct_of_basket": 21.0,
           "meta": {
             "fdc_id": 171287,
             "unit_grams": 802.9,
@@ -7114,9 +7481,9 @@
         {
           "sku_id": "0001111089668",
           "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 149.03,
-          "cost_per_day": 0.5552,
-          "pct_of_basket": 20.2,
+          "grams_per_day": 143.66,
+          "cost_per_day": 0.5352,
+          "pct_of_basket": 19.8,
           "meta": {
             "fdc_id": 173745,
             "unit_grams": 453.6,
@@ -7129,28 +7496,11 @@
           }
         },
         {
-          "sku_id": "0001111041661",
-          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 500.0,
-          "cost_per_day": 0.5104,
-          "pct_of_basket": 18.6,
-          "meta": {
-            "fdc_id": 170872,
-            "unit_grams": 1949.5,
-            "price_regular": 1.99,
-            "price_promo": null,
-            "price_used": 1.99,
-            "price_kind": "regular",
-            "location_id": "03400017",
-            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
-          }
-        },
-        {
           "sku_id": "0001111085607",
           "name": "Kroger\u00ae 100% Pure Vegetable Oil",
-          "grams_per_day": 107.38,
-          "cost_per_day": 0.3688,
-          "pct_of_basket": 13.4,
+          "grams_per_day": 128.18,
+          "cost_per_day": 0.4402,
+          "pct_of_basket": 16.3,
           "meta": {
             "fdc_id": 172370,
             "unit_grams": 870.6,
@@ -7165,9 +7515,9 @@
         {
           "sku_id": "0001111015685",
           "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-          "grams_per_day": 66.18,
-          "cost_per_day": 0.209,
-          "pct_of_basket": 7.6,
+          "grams_per_day": 66.11,
+          "cost_per_day": 0.2088,
+          "pct_of_basket": 7.7,
           "meta": {
             "fdc_id": 169103,
             "unit_grams": 1421.6,
@@ -7182,9 +7532,9 @@
         {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 13.74,
-          "cost_per_day": 0.0693,
-          "pct_of_basket": 2.5,
+          "grams_per_day": 17.34,
+          "cost_per_day": 0.0875,
+          "pct_of_basket": 3.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -7197,34 +7547,17 @@
           }
         },
         {
-          "sku_id": "0001111089711",
-          "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 9.36,
-          "cost_per_day": 0.0204,
-          "pct_of_basket": 0.7,
+          "sku_id": "0004133102487",
+          "name": "Goya\u00ae Green Split Peas",
+          "grams_per_day": 5.0,
+          "cost_per_day": 0.0164,
+          "pct_of_basket": 0.6,
           "meta": {
-            "fdc_id": 2512380,
+            "fdc_id": 172428,
             "unit_grams": 453.6,
-            "price_regular": 0.99,
+            "price_regular": 1.49,
             "price_promo": null,
-            "price_used": 0.99,
-            "price_kind": "regular",
-            "location_id": "03400017",
-            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
-          }
-        },
-        {
-          "sku_id": "0001111085402",
-          "name": "Kroger\u00ae Bleached All Purpose Flour",
-          "grams_per_day": 6.91,
-          "cost_per_day": 0.0082,
-          "pct_of_basket": 0.3,
-          "meta": {
-            "fdc_id": 168894,
-            "unit_grams": 2268.0,
-            "price_regular": 2.69,
-            "price_promo": null,
-            "price_used": 2.69,
+            "price_used": 1.49,
             "price_kind": "regular",
             "location_id": "03400017",
             "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
@@ -7239,13 +7572,13 @@
           "delivered": 2500.0,
           "unit": "kcal",
           "binding": true,
-          "shadow_price_per_unit": 0.000218
+          "shadow_price_per_unit": 0.000199
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 112.5917,
+          "delivered": 98.4682,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7257,13 +7590,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.003845
+          "shadow_price_per_unit": 0.008324
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 8.0034,
+          "delivered": 9.2843,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7272,16 +7605,16 @@
           "nutrient": "vit_a_mcg",
           "kind": "rda",
           "target": 900,
-          "delivered": 1023.8971,
+          "delivered": 900.0,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.000372
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "ul",
           "target": 3000,
-          "delivered": 1023.8971,
+          "delivered": 900.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7293,7 +7626,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.001585
+          "shadow_price_per_unit": 0.001272
         },
         {
           "nutrient": "vit_c_mg",
@@ -7311,7 +7644,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.076335
+          "shadow_price_per_unit": 0.050655
         },
         {
           "nutrient": "vit_d_mcg",
@@ -7329,7 +7662,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.018411
+          "shadow_price_per_unit": 0.020518
         },
         {
           "nutrient": "vit_e_mg",
@@ -7344,7 +7677,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.355,
+          "delivered": 6.1458,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7353,7 +7686,7 @@
           "nutrient": "folate_mcg",
           "kind": "rda",
           "target": 400,
-          "delivered": 827.1778,
+          "delivered": 714.568,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7362,7 +7695,7 @@
           "nutrient": "folate_mcg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 827.1778,
+          "delivered": 714.568,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7371,7 +7704,7 @@
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 1209.2165,
+          "delivered": 1501.8036,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7380,7 +7713,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 1209.2165,
+          "delivered": 1501.8036,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7389,7 +7722,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 17.4556,
+          "delivered": 13.6979,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7398,7 +7731,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 17.4556,
+          "delivered": 13.6979,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7410,22 +7743,22 @@
           "delivered": 420.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.000977
+          "shadow_price_per_unit": 0.001016
         },
         {
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 3400.0,
+          "delivered": 3591.8482,
           "unit": "mg",
-          "binding": true,
-          "shadow_price_per_unit": 5.8e-05
+          "binding": false,
+          "shadow_price_per_unit": 0.0
         },
         {
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 942.7456,
+          "delivered": 827.3389,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7434,7 +7767,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 14.1166,
+          "delivered": 12.8166,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7443,7 +7776,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 14.1166,
+          "delivered": 12.8166,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7457,14 +7790,31 @@
       "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 2.7447,
+      "cost_per_day": 2.6982,
       "basket": [
+        {
+          "sku_id": "0001111041661",
+          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
+          "grams_per_day": 826.93,
+          "cost_per_day": 0.8441,
+          "pct_of_basket": 31.3,
+          "meta": {
+            "fdc_id": 170872,
+            "unit_grams": 1949.5,
+            "price_regular": 1.99,
+            "price_promo": null,
+            "price_used": 1.99,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
         {
           "sku_id": "0001111060903",
           "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
-          "grams_per_day": 450.0,
-          "cost_per_day": 1.0032,
-          "pct_of_basket": 36.6,
+          "grams_per_day": 253.84,
+          "cost_per_day": 0.5659,
+          "pct_of_basket": 21.0,
           "meta": {
             "fdc_id": 171287,
             "unit_grams": 802.9,
@@ -7479,9 +7829,9 @@
         {
           "sku_id": "0001111089668",
           "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 149.03,
-          "cost_per_day": 0.5552,
-          "pct_of_basket": 20.2,
+          "grams_per_day": 143.66,
+          "cost_per_day": 0.5352,
+          "pct_of_basket": 19.8,
           "meta": {
             "fdc_id": 173745,
             "unit_grams": 453.6,
@@ -7494,28 +7844,11 @@
           }
         },
         {
-          "sku_id": "0001111041661",
-          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 500.0,
-          "cost_per_day": 0.5104,
-          "pct_of_basket": 18.6,
-          "meta": {
-            "fdc_id": 170872,
-            "unit_grams": 1949.5,
-            "price_regular": 1.99,
-            "price_promo": null,
-            "price_used": 1.99,
-            "price_kind": "regular",
-            "location_id": "03400017",
-            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
-          }
-        },
-        {
           "sku_id": "0001111085607",
           "name": "Kroger\u00ae 100% Pure Vegetable Oil",
-          "grams_per_day": 107.38,
-          "cost_per_day": 0.3688,
-          "pct_of_basket": 13.4,
+          "grams_per_day": 128.18,
+          "cost_per_day": 0.4402,
+          "pct_of_basket": 16.3,
           "meta": {
             "fdc_id": 172370,
             "unit_grams": 870.6,
@@ -7530,9 +7863,9 @@
         {
           "sku_id": "0001111015685",
           "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-          "grams_per_day": 66.18,
-          "cost_per_day": 0.209,
-          "pct_of_basket": 7.6,
+          "grams_per_day": 66.11,
+          "cost_per_day": 0.2088,
+          "pct_of_basket": 7.7,
           "meta": {
             "fdc_id": 169103,
             "unit_grams": 1421.6,
@@ -7547,9 +7880,9 @@
         {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 13.74,
-          "cost_per_day": 0.0693,
-          "pct_of_basket": 2.5,
+          "grams_per_day": 17.34,
+          "cost_per_day": 0.0875,
+          "pct_of_basket": 3.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -7562,34 +7895,17 @@
           }
         },
         {
-          "sku_id": "0001111089711",
-          "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 9.36,
-          "cost_per_day": 0.0204,
-          "pct_of_basket": 0.7,
+          "sku_id": "0004133102487",
+          "name": "Goya\u00ae Green Split Peas",
+          "grams_per_day": 5.0,
+          "cost_per_day": 0.0164,
+          "pct_of_basket": 0.6,
           "meta": {
-            "fdc_id": 2512380,
+            "fdc_id": 172428,
             "unit_grams": 453.6,
-            "price_regular": 0.99,
+            "price_regular": 1.49,
             "price_promo": null,
-            "price_used": 0.99,
-            "price_kind": "regular",
-            "location_id": "03400017",
-            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
-          }
-        },
-        {
-          "sku_id": "0001111085402",
-          "name": "Kroger\u00ae Bleached All Purpose Flour",
-          "grams_per_day": 6.91,
-          "cost_per_day": 0.0082,
-          "pct_of_basket": 0.3,
-          "meta": {
-            "fdc_id": 168894,
-            "unit_grams": 2268.0,
-            "price_regular": 2.69,
-            "price_promo": null,
-            "price_used": 2.69,
+            "price_used": 1.49,
             "price_kind": "regular",
             "location_id": "03400017",
             "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
@@ -7604,13 +7920,13 @@
           "delivered": 2500.0,
           "unit": "kcal",
           "binding": true,
-          "shadow_price_per_unit": 0.000218
+          "shadow_price_per_unit": 0.000199
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 112.5917,
+          "delivered": 98.4682,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7622,13 +7938,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.003845
+          "shadow_price_per_unit": 0.008324
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 8.0034,
+          "delivered": 9.2843,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7637,16 +7953,16 @@
           "nutrient": "vit_a_mcg",
           "kind": "rda",
           "target": 900,
-          "delivered": 1023.8971,
+          "delivered": 900.0,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.000372
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "ul",
           "target": 3000,
-          "delivered": 1023.8971,
+          "delivered": 900.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7658,7 +7974,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.001585
+          "shadow_price_per_unit": 0.001272
         },
         {
           "nutrient": "vit_c_mg",
@@ -7676,7 +7992,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.076335
+          "shadow_price_per_unit": 0.050655
         },
         {
           "nutrient": "vit_d_mcg",
@@ -7694,7 +8010,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.018411
+          "shadow_price_per_unit": 0.020518
         },
         {
           "nutrient": "vit_e_mg",
@@ -7709,7 +8025,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.355,
+          "delivered": 6.1458,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7718,7 +8034,7 @@
           "nutrient": "folate_mcg",
           "kind": "rda",
           "target": 400,
-          "delivered": 827.1778,
+          "delivered": 714.568,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7727,7 +8043,7 @@
           "nutrient": "folate_mcg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 827.1778,
+          "delivered": 714.568,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7736,7 +8052,7 @@
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 1209.2165,
+          "delivered": 1501.8036,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7745,7 +8061,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 1209.2165,
+          "delivered": 1501.8036,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7754,7 +8070,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 17.4556,
+          "delivered": 13.6979,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7763,7 +8079,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 17.4556,
+          "delivered": 13.6979,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7775,22 +8091,22 @@
           "delivered": 420.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.000977
+          "shadow_price_per_unit": 0.001016
         },
         {
           "nutrient": "potassium_mg",
           "kind": "rda",
           "target": 3400,
-          "delivered": 3400.0,
+          "delivered": 3591.8482,
           "unit": "mg",
-          "binding": true,
-          "shadow_price_per_unit": 5.8e-05
+          "binding": false,
+          "shadow_price_per_unit": 0.0
         },
         {
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 942.7456,
+          "delivered": 827.3389,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7799,7 +8115,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 14.1166,
+          "delivered": 12.8166,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7808,7 +8124,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 14.1166,
+          "delivered": 12.8166,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7822,14 +8138,31 @@
       "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 2.7447,
+      "cost_per_day": 2.6982,
       "basket": [
+        {
+          "sku_id": "0001111041661",
+          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
+          "grams_per_day": 826.93,
+          "cost_per_day": 0.8441,
+          "pct_of_basket": 31.3,
+          "meta": {
+            "fdc_id": 170872,
+            "unit_grams": 1949.5,
+            "price_regular": 1.99,
+            "price_promo": null,
+            "price_used": 1.99,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
         {
           "sku_id": "0001111060903",
           "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
-          "grams_per_day": 450.0,
-          "cost_per_day": 1.0032,
-          "pct_of_basket": 36.6,
+          "grams_per_day": 253.84,
+          "cost_per_day": 0.5659,
+          "pct_of_basket": 21.0,
           "meta": {
             "fdc_id": 171287,
             "unit_grams": 802.9,
@@ -7844,9 +8177,9 @@
         {
           "sku_id": "0001111089668",
           "name": "Kroger\u00ae Navy Beans",
-          "grams_per_day": 149.03,
-          "cost_per_day": 0.5552,
-          "pct_of_basket": 20.2,
+          "grams_per_day": 143.66,
+          "cost_per_day": 0.5352,
+          "pct_of_basket": 19.8,
           "meta": {
             "fdc_id": 173745,
             "unit_grams": 453.6,
@@ -7859,28 +8192,11 @@
           }
         },
         {
-          "sku_id": "0001111041661",
-          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-          "grams_per_day": 500.0,
-          "cost_per_day": 0.5104,
-          "pct_of_basket": 18.6,
-          "meta": {
-            "fdc_id": 170872,
-            "unit_grams": 1949.5,
-            "price_regular": 1.99,
-            "price_promo": null,
-            "price_used": 1.99,
-            "price_kind": "regular",
-            "location_id": "03400017",
-            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
-          }
-        },
-        {
           "sku_id": "0001111085607",
           "name": "Kroger\u00ae 100% Pure Vegetable Oil",
-          "grams_per_day": 107.38,
-          "cost_per_day": 0.3688,
-          "pct_of_basket": 13.4,
+          "grams_per_day": 128.18,
+          "cost_per_day": 0.4402,
+          "pct_of_basket": 16.3,
           "meta": {
             "fdc_id": 172370,
             "unit_grams": 870.6,
@@ -7895,9 +8211,9 @@
         {
           "sku_id": "0001111015685",
           "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-          "grams_per_day": 66.18,
-          "cost_per_day": 0.209,
-          "pct_of_basket": 7.6,
+          "grams_per_day": 66.11,
+          "cost_per_day": 0.2088,
+          "pct_of_basket": 7.7,
           "meta": {
             "fdc_id": 169103,
             "unit_grams": 1421.6,
@@ -7912,9 +8228,9 @@
         {
           "sku_id": "0001111001618",
           "name": "Kroger\u00ae Creamy Peanut Butter",
-          "grams_per_day": 13.74,
-          "cost_per_day": 0.0693,
-          "pct_of_basket": 2.5,
+          "grams_per_day": 17.34,
+          "cost_per_day": 0.0875,
+          "pct_of_basket": 3.2,
           "meta": {
             "fdc_id": 172458,
             "unit_grams": 453.6,
@@ -7927,17 +8243,365 @@
           }
         },
         {
-          "sku_id": "0001111089711",
-          "name": "Kroger\u00ae Long Grain Brown Rice",
-          "grams_per_day": 9.36,
-          "cost_per_day": 0.0204,
-          "pct_of_basket": 0.7,
+          "sku_id": "0004133102487",
+          "name": "Goya\u00ae Green Split Peas",
+          "grams_per_day": 5.0,
+          "cost_per_day": 0.0164,
+          "pct_of_basket": 0.6,
           "meta": {
-            "fdc_id": 2512380,
+            "fdc_id": 172428,
             "unit_grams": 453.6,
-            "price_regular": 0.99,
+            "price_regular": 1.49,
             "price_promo": null,
-            "price_used": 0.99,
+            "price_used": 1.49,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        }
+      ],
+      "nutrients": [
+        {
+          "nutrient": "energy_kcal",
+          "kind": "rda",
+          "target": 2500,
+          "delivered": 2500.0,
+          "unit": "kcal",
+          "binding": true,
+          "shadow_price_per_unit": 0.000199
+        },
+        {
+          "nutrient": "protein_g",
+          "kind": "rda",
+          "target": 56,
+          "delivered": 98.4682,
+          "unit": "g",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "fiber_g",
+          "kind": "rda",
+          "target": 31,
+          "delivered": 31.0,
+          "unit": "g",
+          "binding": true,
+          "shadow_price_per_unit": 0.008324
+        },
+        {
+          "nutrient": "ala_g",
+          "kind": "rda",
+          "target": 1.6,
+          "delivered": 9.2843,
+          "unit": "g",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_a_mcg",
+          "kind": "rda",
+          "target": 900,
+          "delivered": 900.0,
+          "unit": "mcg",
+          "binding": true,
+          "shadow_price_per_unit": 0.000372
+        },
+        {
+          "nutrient": "vit_a_mcg",
+          "kind": "ul",
+          "target": 3000,
+          "delivered": 900.0,
+          "unit": "mcg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_c_mg",
+          "kind": "rda",
+          "target": 90,
+          "delivered": 90.0,
+          "unit": "mg",
+          "binding": true,
+          "shadow_price_per_unit": 0.001272
+        },
+        {
+          "nutrient": "vit_c_mg",
+          "kind": "ul",
+          "target": 2000,
+          "delivered": 90.0,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_d_mcg",
+          "kind": "rda",
+          "target": 15,
+          "delivered": 15.0,
+          "unit": "mcg",
+          "binding": true,
+          "shadow_price_per_unit": 0.050655
+        },
+        {
+          "nutrient": "vit_d_mcg",
+          "kind": "ul",
+          "target": 100,
+          "delivered": 15.0,
+          "unit": "mcg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_e_mg",
+          "kind": "rda",
+          "target": 15,
+          "delivered": 15.0,
+          "unit": "mg",
+          "binding": true,
+          "shadow_price_per_unit": 0.020518
+        },
+        {
+          "nutrient": "vit_e_mg",
+          "kind": "ul",
+          "target": 1000,
+          "delivered": 15.0,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "vit_b12_mcg",
+          "kind": "rda",
+          "target": 2.4,
+          "delivered": 6.1458,
+          "unit": "mcg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "folate_mcg",
+          "kind": "rda",
+          "target": 400,
+          "delivered": 714.568,
+          "unit": "mcg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "folate_mcg",
+          "kind": "ul",
+          "target": 1000,
+          "delivered": 714.568,
+          "unit": "mcg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "calcium_mg",
+          "kind": "rda",
+          "target": 1000,
+          "delivered": 1501.8036,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "calcium_mg",
+          "kind": "ul",
+          "target": 2500,
+          "delivered": 1501.8036,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "iron_mg",
+          "kind": "rda",
+          "target": 8,
+          "delivered": 13.6979,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "iron_mg",
+          "kind": "ul",
+          "target": 45,
+          "delivered": 13.6979,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "magnesium_mg",
+          "kind": "rda",
+          "target": 420,
+          "delivered": 420.0,
+          "unit": "mg",
+          "binding": true,
+          "shadow_price_per_unit": 0.001016
+        },
+        {
+          "nutrient": "potassium_mg",
+          "kind": "rda",
+          "target": 3400,
+          "delivered": 3591.8482,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "sodium_mg",
+          "kind": "ul",
+          "target": 2300,
+          "delivered": 827.3389,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "zinc_mg",
+          "kind": "rda",
+          "target": 11,
+          "delivered": 12.8166,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        },
+        {
+          "nutrient": "zinc_mg",
+          "kind": "ul",
+          "target": 40,
+          "delivered": 12.8166,
+          "unit": "mg",
+          "binding": false,
+          "shadow_price_per_unit": 0.0
+        }
+      ],
+      "variant": "food_only"
+    },
+    {
+      "mode": "vegan",
+      "location_region": "south",
+      "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
+      "status": "optimal",
+      "message": "optimal solution found",
+      "cost_per_day": 5.1344,
+      "basket": [
+        {
+          "sku_id": "0002529360039",
+          "name": "Silk Original Dairy Free Vegan Soy Milk Half Gallon",
+          "grams_per_day": 1363.26,
+          "cost_per_day": 3.0,
+          "pct_of_basket": 58.4,
+          "meta": {
+            "fdc_id": 173768,
+            "unit_grams": 1949.5,
+            "price_regular": 4.29,
+            "price_promo": null,
+            "price_used": 4.29,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
+        {
+          "sku_id": "0001600027526",
+          "name": "General Mills Cheerios\u2122 Cereal",
+          "grams_per_day": 37.98,
+          "cost_per_day": 0.6531,
+          "pct_of_basket": 12.7,
+          "meta": {
+            "fdc_id": 173884,
+            "unit_grams": 249.5,
+            "price_regular": 4.29,
+            "price_promo": null,
+            "price_used": 4.29,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
+        {
+          "sku_id": "0001111085607",
+          "name": "Kroger\u00ae 100% Pure Vegetable Oil",
+          "grams_per_day": 147.98,
+          "cost_per_day": 0.5082,
+          "pct_of_basket": 9.9,
+          "meta": {
+            "fdc_id": 172370,
+            "unit_grams": 870.6,
+            "price_regular": 2.99,
+            "price_promo": null,
+            "price_used": 2.99,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
+        {
+          "sku_id": "0001111089739",
+          "name": "Kroger\u00ae Frozen Spinach Cut Leaf",
+          "grams_per_day": 87.08,
+          "cost_per_day": 0.3814,
+          "pct_of_basket": 7.4,
+          "meta": {
+            "fdc_id": 169287,
+            "unit_grams": 340.2,
+            "price_regular": 1.49,
+            "price_promo": null,
+            "price_used": 1.49,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
+        {
+          "sku_id": "0001111089668",
+          "name": "Kroger\u00ae Navy Beans",
+          "grams_per_day": 73.43,
+          "cost_per_day": 0.2736,
+          "pct_of_basket": 5.3,
+          "meta": {
+            "fdc_id": 173745,
+            "unit_grams": 453.6,
+            "price_regular": 1.69,
+            "price_promo": null,
+            "price_used": 1.69,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
+        {
+          "sku_id": "0001111015685",
+          "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
+          "grams_per_day": 56.33,
+          "cost_per_day": 0.1779,
+          "pct_of_basket": 3.5,
+          "meta": {
+            "fdc_id": 169103,
+            "unit_grams": 1421.6,
+            "price_regular": 4.49,
+            "price_promo": null,
+            "price_used": 4.49,
+            "price_kind": "regular",
+            "location_id": "03400017",
+            "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+          }
+        },
+        {
+          "sku_id": "0004133102487",
+          "name": "Goya\u00ae Green Split Peas",
+          "grams_per_day": 26.49,
+          "cost_per_day": 0.087,
+          "pct_of_basket": 1.7,
+          "meta": {
+            "fdc_id": 172428,
+            "unit_grams": 453.6,
+            "price_regular": 1.49,
+            "price_promo": null,
+            "price_used": 1.49,
             "price_kind": "regular",
             "location_id": "03400017",
             "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
@@ -7946,9 +8610,9 @@
         {
           "sku_id": "0001111085402",
           "name": "Kroger\u00ae Bleached All Purpose Flour",
-          "grams_per_day": 6.91,
-          "cost_per_day": 0.0082,
-          "pct_of_basket": 0.3,
+          "grams_per_day": 44.86,
+          "cost_per_day": 0.0532,
+          "pct_of_basket": 1.0,
           "meta": {
             "fdc_id": 168894,
             "unit_grams": 2268.0,
@@ -7969,13 +8633,13 @@
           "delivered": 2500.0,
           "unit": "kcal",
           "binding": true,
-          "shadow_price_per_unit": 0.000218
+          "shadow_price_per_unit": 0.000238
         },
         {
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 112.5917,
+          "delivered": 71.5884,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -7984,16 +8648,16 @@
           "nutrient": "fiber_g",
           "kind": "rda",
           "target": 31,
-          "delivered": 31.0,
+          "delivered": 38.8382,
           "unit": "g",
-          "binding": true,
-          "shadow_price_per_unit": 0.003845
+          "binding": false,
+          "shadow_price_per_unit": 0.0
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 8.0034,
+          "delivered": 10.1117,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -8002,16 +8666,16 @@
           "nutrient": "vit_a_mcg",
           "kind": "rda",
           "target": 900,
-          "delivered": 1023.8971,
+          "delivered": 900.0,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.000514
         },
         {
           "nutrient": "vit_a_mcg",
           "kind": "ul",
           "target": 3000,
-          "delivered": 1023.8971,
+          "delivered": 900.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -8023,7 +8687,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.001585
+          "shadow_price_per_unit": 0.001722
         },
         {
           "nutrient": "vit_c_mg",
@@ -8041,7 +8705,7 @@
           "delivered": 15.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.076335
+          "shadow_price_per_unit": 0.188482
         },
         {
           "nutrient": "vit_d_mcg",
@@ -8059,7 +8723,7 @@
           "delivered": 15.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.018411
+          "shadow_price_per_unit": 0.016242
         },
         {
           "nutrient": "vit_e_mg",
@@ -8074,7 +8738,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 6.355,
+          "delivered": 5.7069,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -8083,7 +8747,7 @@
           "nutrient": "folate_mcg",
           "kind": "rda",
           "target": 400,
-          "delivered": 827.1778,
+          "delivered": 1000.0,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -8092,16 +8756,16 @@
           "nutrient": "folate_mcg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 827.1778,
+          "delivered": 1000.0,
           "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 1.5e-05
         },
         {
           "nutrient": "calcium_mg",
           "kind": "rda",
           "target": 1000,
-          "delivered": 1209.2165,
+          "delivered": 2142.2923,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -8110,7 +8774,7 @@
           "nutrient": "calcium_mg",
           "kind": "ul",
           "target": 2500,
-          "delivered": 1209.2165,
+          "delivered": 2142.2923,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -8119,7 +8783,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 17.4556,
+          "delivered": 26.7396,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -8128,7 +8792,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 17.4556,
+          "delivered": 26.7396,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -8137,10 +8801,10 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 420.0,
+          "delivered": 453.2894,
           "unit": "mg",
-          "binding": true,
-          "shadow_price_per_unit": 0.000977
+          "binding": false,
+          "shadow_price_per_unit": 0.0
         },
         {
           "nutrient": "potassium_mg",
@@ -8149,13 +8813,13 @@
           "delivered": 3400.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 5.8e-05
+          "shadow_price_per_unit": 0.000181
         },
         {
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 942.7456,
+          "delivered": 1119.6503,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -8164,172 +8828,16 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 14.1166,
+          "delivered": 11.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.022593
         },
         {
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 14.1166,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        }
-      ],
-      "variant": "food_only"
-    },
-    {
-      "mode": "vegan",
-      "location_region": "south",
-      "location_display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007",
-      "status": "infeasible",
-      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
-      "cost_per_day": null,
-      "basket": [],
-      "nutrients": [
-        {
-          "nutrient": "energy_kcal",
-          "kind": "rda",
-          "target": 2500,
-          "delivered": 0.0,
-          "unit": "kcal",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "protein_g",
-          "kind": "rda",
-          "target": 56,
-          "delivered": 0.0,
-          "unit": "g",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "fiber_g",
-          "kind": "rda",
-          "target": 31,
-          "delivered": 0.0,
-          "unit": "g",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "ala_g",
-          "kind": "rda",
-          "target": 1.6,
-          "delivered": 0.0,
-          "unit": "g",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_a_mcg",
-          "kind": "rda",
-          "target": 900,
-          "delivered": 0.0,
-          "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_c_mg",
-          "kind": "rda",
-          "target": 90,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_d_mcg",
-          "kind": "rda",
-          "target": 15,
-          "delivered": 0.0,
-          "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_e_mg",
-          "kind": "rda",
-          "target": 15,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "vit_b12_mcg",
-          "kind": "rda",
-          "target": 2.4,
-          "delivered": 0.0,
-          "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "folate_mcg",
-          "kind": "rda",
-          "target": 400,
-          "delivered": 0.0,
-          "unit": "mcg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "calcium_mg",
-          "kind": "rda",
-          "target": 1000,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "iron_mg",
-          "kind": "rda",
-          "target": 8,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "magnesium_mg",
-          "kind": "rda",
-          "target": 420,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "potassium_mg",
-          "kind": "rda",
-          "target": 3400,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "sodium_mg",
-          "kind": "ul",
-          "target": 2300,
-          "delivered": 0.0,
-          "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
-        },
-        {
-          "nutrient": "zinc_mg",
-          "kind": "rda",
-          "target": 11,
-          "delivered": 0.0,
+          "delivered": 11.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
