@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T21:41:05Z",
+  "updated": "2026-04-20T23:18:57Z",
   "profile": "adult_male_31_50_moderate",
   "nutrient_targets": [
     {
@@ -113,6 +113,1569 @@
       "ul": 40,
       "unit": "mg",
       "label": "Zinc"
+    }
+  ],
+  "locations": [
+    {
+      "region": "midwest",
+      "location_id": "01400513",
+      "display": "Kroger \u2014 On the Rhine, 100 E Court St, Cincinnati, OH 45202"
+    },
+    {
+      "region": "west",
+      "location_id": "70400357",
+      "display": "Foodsco \u2014 1800 Folsom St, San Francisco, CA 94103"
+    },
+    {
+      "region": "south",
+      "location_id": "03400017",
+      "display": "Kroger \u2014 Studemont, 1440 Studemont St, Houston, TX 77007"
+    }
+  ],
+  "catalog": [
+    {
+      "product_id": "0001111041661",
+      "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
+      "kind": "food",
+      "dietary_categories": [
+        "dairy"
+      ],
+      "unit_grams": 1949.5,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 1.99,
+          "promo": null,
+          "effective": 1.99
+        }
+      }
+    },
+    {
+      "product_id": "0001111008733",
+      "name": "Kroger\u00ae Instant Non-Fat Dry Milk Pouches",
+      "kind": "food",
+      "dietary_categories": [
+        "dairy"
+      ],
+      "unit_grams": 90.7,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 3.79,
+          "promo": null,
+          "effective": 3.79
+        }
+      }
+    },
+    {
+      "product_id": "0001111050481",
+      "name": "Kroger\u00ae Plain Nonfat Greek Yogurt Cup",
+      "kind": "food",
+      "dietary_categories": [
+        "dairy"
+      ],
+      "unit_grams": 149.7,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 0.89,
+          "promo": null,
+          "effective": 0.89
+        },
+        "west": {
+          "regular": 0.89,
+          "promo": null,
+          "effective": 0.89
+        },
+        "south": {
+          "regular": 0.89,
+          "promo": null,
+          "effective": 0.89
+        }
+      }
+    },
+    {
+      "product_id": "0001111088301",
+      "name": "Kroger\u00ae Regular Evaporated Milk",
+      "kind": "food",
+      "dietary_categories": [
+        "dairy"
+      ],
+      "unit_grams": 365.5,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.29,
+          "promo": null,
+          "effective": 1.29
+        },
+        "west": {
+          "regular": 1.39,
+          "promo": null,
+          "effective": 1.39
+        },
+        "south": {
+          "regular": 1.29,
+          "promo": null,
+          "effective": 1.29
+        }
+      }
+    },
+    {
+      "product_id": "0001111050158",
+      "name": "Kroger\u00ae Sharp Cheddar Shredded Cheese",
+      "kind": "food",
+      "dietary_categories": [
+        "dairy"
+      ],
+      "unit_grams": 226.8,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.49,
+          "promo": 2.33,
+          "effective": 2.33
+        },
+        "west": {
+          "regular": 2.49,
+          "promo": 2.33,
+          "effective": 2.33
+        },
+        "south": {
+          "regular": 2.49,
+          "promo": 2.0,
+          "effective": 2.0
+        }
+      }
+    },
+    {
+      "product_id": "0001111060903",
+      "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
+      "kind": "food",
+      "dietary_categories": [
+        "egg"
+      ],
+      "unit_grams": 802.9,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.19,
+          "promo": null,
+          "effective": 2.19
+        },
+        "west": null,
+        "south": {
+          "regular": 1.79,
+          "promo": null,
+          "effective": 1.79
+        }
+      }
+    },
+    {
+      "product_id": "0007010007062",
+      "name": "John Morrell\u00ae Snow Cap Edible Lard",
+      "kind": "food",
+      "dietary_categories": [
+        "fat",
+        "meat_red"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.59,
+          "promo": null,
+          "effective": 2.59
+        },
+        "west": null,
+        "south": {
+          "regular": 2.59,
+          "promo": null,
+          "effective": 2.59
+        }
+      }
+    },
+    {
+      "product_id": "0001111085634",
+      "name": "Kroger\u00ae 100% Pure Canola Oil",
+      "kind": "food",
+      "dietary_categories": [
+        "fat"
+      ],
+      "unit_grams": 1301.7,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 3.99,
+          "promo": null,
+          "effective": 3.99
+        },
+        "south": {
+          "regular": 4.19,
+          "promo": null,
+          "effective": 4.19
+        }
+      }
+    },
+    {
+      "product_id": "0001111085607",
+      "name": "Kroger\u00ae 100% Pure Vegetable Oil",
+      "kind": "food",
+      "dietary_categories": [
+        "fat"
+      ],
+      "unit_grams": 870.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.99,
+          "promo": null,
+          "effective": 2.99
+        },
+        "west": {
+          "regular": 3.39,
+          "promo": null,
+          "effective": 3.39
+        },
+        "south": {
+          "regular": 2.99,
+          "promo": null,
+          "effective": 2.99
+        }
+      }
+    },
+    {
+      "product_id": "0001111004412",
+      "name": "Kroger\u00ae Extra Virgin Olive Oil",
+      "kind": "food",
+      "dietary_categories": [
+        "fat"
+      ],
+      "unit_grams": 458.8,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 6.99,
+          "promo": null,
+          "effective": 6.99
+        },
+        "south": {
+          "regular": 6.49,
+          "promo": null,
+          "effective": 6.49
+        }
+      }
+    },
+    {
+      "product_id": "0004800018718",
+      "name": "Chicken of the Sea Wild Caught Sardines in Olive Oil",
+      "kind": "food",
+      "dietary_categories": [
+        "fish"
+      ],
+      "unit_grams": 104.3,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.59,
+          "promo": null,
+          "effective": 1.59
+        },
+        "west": null,
+        "south": {
+          "regular": 1.59,
+          "promo": null,
+          "effective": 1.59
+        }
+      }
+    },
+    {
+      "product_id": "0005527096112",
+      "name": "Grace\u00ae Classic Mackerel with Tomato Sauce",
+      "kind": "food",
+      "dietary_categories": [
+        "fish"
+      ],
+      "unit_grams": 154.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 1.99,
+          "promo": null,
+          "effective": 1.99
+        },
+        "south": {
+          "regular": 1.69,
+          "promo": null,
+          "effective": 1.69
+        }
+      }
+    },
+    {
+      "product_id": "0001111004236",
+      "name": "Kroger\u00ae Alaskan Red Sockeye Salmon",
+      "kind": "food",
+      "dietary_categories": [
+        "fish"
+      ],
+      "unit_grams": 213.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 4.29,
+          "promo": null,
+          "effective": 4.29
+        }
+      }
+    },
+    {
+      "product_id": "0001111089084",
+      "name": "Kroger\u00ae Wild Caught Chunk Light Tuna in Water",
+      "kind": "food",
+      "dietary_categories": [
+        "fish"
+      ],
+      "unit_grams": 140.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 0.97,
+          "promo": null,
+          "effective": 0.97
+        },
+        "west": {
+          "regular": 0.97,
+          "promo": null,
+          "effective": 0.97
+        },
+        "south": {
+          "regular": 0.97,
+          "promo": null,
+          "effective": 0.97
+        }
+      }
+    },
+    {
+      "product_id": "0079852516100",
+      "name": "Snow's\u00ae MSC Chopped Clams",
+      "kind": "food",
+      "dietary_categories": [
+        "fish"
+      ],
+      "unit_grams": 186.0,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 2.59,
+          "promo": null,
+          "effective": 2.59
+        },
+        "south": {
+          "regular": 2.69,
+          "promo": null,
+          "effective": 2.69
+        }
+      }
+    },
+    {
+      "product_id": "0001600014159",
+      "name": "General Mills Cheerios Cereal Cup",
+      "kind": "food",
+      "dietary_categories": [
+        "fortified_b12",
+        "grain"
+      ],
+      "unit_grams": 36.3,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 1.25,
+          "promo": null,
+          "effective": 1.25
+        }
+      }
+    },
+    {
+      "product_id": "0086102900011",
+      "name": "MALK Organic Dairy Free Unsweetened Almond Milk",
+      "kind": "food",
+      "dietary_categories": [
+        "fortified_b12",
+        "plant_milk"
+      ],
+      "unit_grams": 852.9,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 6.99,
+          "promo": 4.49,
+          "effective": 4.49
+        },
+        "west": null,
+        "south": {
+          "regular": 6.49,
+          "promo": 4.49,
+          "effective": 4.49
+        }
+      }
+    },
+    {
+      "product_id": "0002529360039",
+      "name": "Silk Original Dairy Free Vegan Soy Milk Half Gallon",
+      "kind": "food",
+      "dietary_categories": [
+        "fortified_b12",
+        "plant_milk"
+      ],
+      "unit_grams": 1949.5,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 4.29,
+          "promo": null,
+          "effective": 4.29
+        },
+        "west": {
+          "regular": 4.69,
+          "promo": null,
+          "effective": 4.69
+        },
+        "south": {
+          "regular": 4.29,
+          "promo": null,
+          "effective": 4.29
+        }
+      }
+    },
+    {
+      "product_id": "0001111009081",
+      "name": "Simple Truth\u00ae Non-Dairy Nutritional Yeast",
+      "kind": "food",
+      "dietary_categories": [
+        "fortified_b12"
+      ],
+      "unit_grams": 127.0,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 6.29,
+          "promo": null,
+          "effective": 6.29
+        },
+        "west": null,
+        "south": {
+          "regular": 6.49,
+          "promo": null,
+          "effective": 6.49
+        }
+      }
+    },
+    {
+      "product_id": "0001111013270",
+      "name": "Simple Truth\u00ae Plant Based Non Dairy Original Oat Milk",
+      "kind": "food",
+      "dietary_categories": [
+        "fortified_b12",
+        "plant_milk"
+      ],
+      "unit_grams": 1797.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 3.99,
+          "promo": null,
+          "effective": 3.99
+        },
+        "south": {
+          "regular": 3.99,
+          "promo": null,
+          "effective": 3.99
+        }
+      }
+    },
+    {
+      "product_id": "0007240071124",
+      "name": "Grandma's\u00ae Original Molasses 12 Fluid Ounce Bottle",
+      "kind": "food",
+      "dietary_categories": [
+        "fruit"
+      ],
+      "unit_grams": 354.9,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 4.49,
+          "promo": null,
+          "effective": 4.49
+        },
+        "south": {
+          "regular": 3.99,
+          "promo": null,
+          "effective": 3.99
+        }
+      }
+    },
+    {
+      "product_id": "0001111016103",
+      "name": "Kroger\u00ae Frozen Sliced Bananas",
+      "kind": "food",
+      "dietary_categories": [
+        "fruit"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.99,
+          "promo": null,
+          "effective": 2.99
+        },
+        "west": null,
+        "south": {
+          "regular": 2.49,
+          "promo": null,
+          "effective": 2.49
+        }
+      }
+    },
+    {
+      "product_id": "0001111015685",
+      "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
+      "kind": "food",
+      "dietary_categories": [
+        "fruit"
+      ],
+      "unit_grams": 1421.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 4.49,
+          "promo": null,
+          "effective": 4.49
+        },
+        "west": null,
+        "south": {
+          "regular": 4.49,
+          "promo": null,
+          "effective": 4.49
+        }
+      }
+    },
+    {
+      "product_id": "0001111091435",
+      "name": "Kroger\u00ae Seedless Raisins",
+      "kind": "food",
+      "dietary_categories": [
+        "fruit"
+      ],
+      "unit_grams": 28.3,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 2.79,
+          "promo": null,
+          "effective": 2.79
+        },
+        "south": {
+          "regular": 2.29,
+          "promo": null,
+          "effective": 2.29
+        }
+      }
+    },
+    {
+      "product_id": "0007990000123",
+      "name": "Wyman's\u00ae Mango Berry Frozen Fruit",
+      "kind": "food",
+      "dietary_categories": [
+        "fruit"
+      ],
+      "unit_grams": 1360.8,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 16.99,
+          "promo": null,
+          "effective": 16.99
+        }
+      }
+    },
+    {
+      "product_id": "0003997811322",
+      "name": "Bob's Red Mill Vital Wheat Gluten Flour",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 567.0,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 8.99,
+          "promo": null,
+          "effective": 8.99
+        }
+      }
+    },
+    {
+      "product_id": "0081815801219",
+      "name": "Kretschmer\u00ae Original Toasted Wheat Germ",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 340.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 5.49,
+          "promo": null,
+          "effective": 5.49
+        }
+      }
+    },
+    {
+      "product_id": "0001111085072",
+      "name": "Kroger 12 Oz Tri Color Rotini Pasta",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 340.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 1.39,
+          "promo": null,
+          "effective": 1.39
+        },
+        "south": {
+          "regular": 1.25,
+          "promo": null,
+          "effective": 1.25
+        }
+      }
+    },
+    {
+      "product_id": "0001111008480",
+      "name": "Kroger\u00ae 100% Whole Wheat Bread",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 680.4,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.49,
+          "promo": null,
+          "effective": 2.49
+        },
+        "west": null,
+        "south": null
+      }
+    },
+    {
+      "product_id": "0001111085401",
+      "name": "Kroger\u00ae All Purpose Bleached Enriched Flour",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 907.2,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.69,
+          "promo": null,
+          "effective": 1.69
+        },
+        "west": {
+          "regular": 1.49,
+          "promo": null,
+          "effective": 1.49
+        },
+        "south": {
+          "regular": 1.59,
+          "promo": null,
+          "effective": 1.59
+        }
+      }
+    },
+    {
+      "product_id": "0001111089875",
+      "name": "Kroger\u00ae Enriched Long Grain White Rice",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 907.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 1.99,
+          "promo": null,
+          "effective": 1.99
+        },
+        "south": {
+          "regular": 1.79,
+          "promo": null,
+          "effective": 1.79
+        }
+      }
+    },
+    {
+      "product_id": "0001111089711",
+      "name": "Kroger\u00ae Long Grain Brown Rice",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 0.99,
+          "promo": null,
+          "effective": 0.99
+        },
+        "west": {
+          "regular": 1.19,
+          "promo": null,
+          "effective": 1.19
+        },
+        "south": {
+          "regular": 0.99,
+          "promo": null,
+          "effective": 0.99
+        }
+      }
+    },
+    {
+      "product_id": "0001111013646",
+      "name": "Kroger\u00ae Pure Corn Starch",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.29,
+          "promo": null,
+          "effective": 2.29
+        },
+        "west": {
+          "regular": 1.99,
+          "promo": null,
+          "effective": 1.99
+        },
+        "south": {
+          "regular": 1.99,
+          "promo": null,
+          "effective": 1.99
+        }
+      }
+    },
+    {
+      "product_id": "0003000007210",
+      "name": "Quaker\u00ae Quick Pearled Barley",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 313.0,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 2.99,
+          "promo": null,
+          "effective": 2.99
+        },
+        "south": {
+          "regular": 3.49,
+          "promo": null,
+          "effective": 3.49
+        }
+      }
+    },
+    {
+      "product_id": "0003000003050",
+      "name": "Quaker\u00ae Yellow Corn Meal For Baking",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 680.4,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 3.49,
+          "promo": null,
+          "effective": 3.49
+        },
+        "west": null,
+        "south": {
+          "regular": 3.99,
+          "promo": null,
+          "effective": 3.99
+        }
+      }
+    },
+    {
+      "product_id": "0001111002805",
+      "name": "Simple Truth Organic\u00ae 100% Whole Grain Rolled 1 Minute Oats",
+      "kind": "food",
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 512.6,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 3.29,
+          "promo": null,
+          "effective": 3.29
+        },
+        "south": {
+          "regular": 3.69,
+          "promo": null,
+          "effective": 3.69
+        }
+      }
+    },
+    {
+      "product_id": "0004133102487",
+      "name": "Goya\u00ae Green Split Peas",
+      "kind": "food",
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.99,
+          "promo": null,
+          "effective": 1.99
+        },
+        "west": null,
+        "south": {
+          "regular": 1.49,
+          "promo": null,
+          "effective": 1.49
+        }
+      }
+    },
+    {
+      "product_id": "0001111072567",
+      "name": "Kroger\u00ae Black Beans",
+      "kind": "food",
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 435.4,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 0.99,
+          "promo": null,
+          "effective": 0.99
+        },
+        "south": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        }
+      }
+    },
+    {
+      "product_id": "0001111001618",
+      "name": "Kroger\u00ae Creamy Peanut Butter",
+      "kind": "food",
+      "dietary_categories": [
+        "legume",
+        "nut"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.29,
+          "promo": null,
+          "effective": 2.29
+        },
+        "west": {
+          "regular": 2.59,
+          "promo": null,
+          "effective": 2.59
+        },
+        "south": {
+          "regular": 2.29,
+          "promo": null,
+          "effective": 2.29
+        }
+      }
+    },
+    {
+      "product_id": "0001111015380",
+      "name": "Kroger\u00ae Edamame",
+      "kind": "food",
+      "dietary_categories": [
+        "legume",
+        "soy"
+      ],
+      "unit_grams": 340.2,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.99,
+          "promo": null,
+          "effective": 2.99
+        },
+        "west": null,
+        "south": null
+      }
+    },
+    {
+      "product_id": "0001111071789",
+      "name": "Kroger\u00ae Great Northern Beans",
+      "kind": "food",
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 435.4,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 0.99,
+          "promo": null,
+          "effective": 0.99
+        },
+        "south": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        }
+      }
+    },
+    {
+      "product_id": "0001111089864",
+      "name": "Kroger\u00ae Pinto Beans",
+      "kind": "food",
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 907.2,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.29,
+          "promo": null,
+          "effective": 2.29
+        },
+        "west": {
+          "regular": 2.49,
+          "promo": null,
+          "effective": 2.49
+        },
+        "south": {
+          "regular": 2.29,
+          "promo": null,
+          "effective": 2.29
+        }
+      }
+    },
+    {
+      "product_id": "0007152401215",
+      "name": "La Preferida\u00ae Black Beans Dry",
+      "kind": "food",
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.69,
+          "promo": null,
+          "effective": 1.69
+        },
+        "west": {
+          "regular": 1.79,
+          "promo": null,
+          "effective": 1.79
+        },
+        "south": {
+          "regular": 1.79,
+          "promo": null,
+          "effective": 1.79
+        }
+      }
+    },
+    {
+      "product_id": "0001111071786",
+      "name": "Light Red Kidney Beans",
+      "kind": "food",
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 435.4,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 0.99,
+          "promo": null,
+          "effective": 0.99
+        },
+        "south": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        }
+      }
+    },
+    {
+      "product_id": "0001111072565",
+      "name": "Pinto Beans",
+      "kind": "food",
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 435.4,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.0,
+          "promo": 0.89,
+          "effective": 0.89
+        },
+        "west": null,
+        "south": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        }
+      }
+    },
+    {
+      "product_id": "0001111086292",
+      "name": "Simple Truth Organic\u00ae Dry Green Lentils",
+      "kind": "food",
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 3.79,
+          "promo": null,
+          "effective": 3.79
+        },
+        "west": {
+          "regular": 3.29,
+          "promo": null,
+          "effective": 3.29
+        },
+        "south": {
+          "regular": 2.99,
+          "promo": null,
+          "effective": 2.99
+        }
+      }
+    },
+    {
+      "product_id": "0001111091342",
+      "name": "Simple Truth Organic\u00ae Extra Firm Tofu",
+      "kind": "food",
+      "dietary_categories": [
+        "legume",
+        "soy"
+      ],
+      "unit_grams": 399.2,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.99,
+          "promo": 1.49,
+          "effective": 1.49
+        },
+        "west": {
+          "regular": 1.79,
+          "promo": 1.49,
+          "effective": 1.49
+        },
+        "south": {
+          "regular": 1.99,
+          "promo": 1.49,
+          "effective": 1.49
+        }
+      }
+    },
+    {
+      "product_id": "0001111012210",
+      "name": "Simple Truth Organic\u00ae Low Sodium Garbanzo Beans",
+      "kind": "food",
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 421.8,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 1.99,
+          "promo": null,
+          "effective": 1.99
+        },
+        "south": {
+          "regular": 1.25,
+          "promo": null,
+          "effective": 1.25
+        }
+      }
+    },
+    {
+      "product_id": "0001111097971",
+      "name": "Kroger\u00ae 80/20 Ground Beef Roll 1 LB",
+      "kind": "food",
+      "dietary_categories": [
+        "meat_red"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 7.29,
+          "promo": null,
+          "effective": 7.29
+        },
+        "south": {
+          "regular": 6.79,
+          "promo": null,
+          "effective": 6.79
+        }
+      }
+    },
+    {
+      "product_id": "0020799300000",
+      "name": "Kroger\u00ae Fresh Natural Pork Shoulder Butt Bone In",
+      "kind": "food",
+      "dietary_categories": [
+        "meat_red"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.99,
+          "promo": null,
+          "effective": 2.99
+        },
+        "west": {
+          "regular": 1.79,
+          "promo": null,
+          "effective": 1.79
+        },
+        "south": {
+          "regular": 2.69,
+          "promo": null,
+          "effective": 2.69
+        }
+      }
+    },
+    {
+      "product_id": "0029062400000",
+      "name": "Fresh Chicken Seasoned Leg Quarters",
+      "kind": "food",
+      "dietary_categories": [
+        "meat_white"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 1.99,
+          "promo": null,
+          "effective": 1.99
+        }
+      }
+    },
+    {
+      "product_id": "0001111063602",
+      "name": "Heritage Farm\u00ae Chicken Livers",
+      "kind": "food",
+      "dietary_categories": [
+        "meat_white"
+      ],
+      "unit_grams": 567.0,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 2.49,
+          "promo": null,
+          "effective": 2.49
+        },
+        "west": null,
+        "south": {
+          "regular": 2.49,
+          "promo": null,
+          "effective": 2.49
+        }
+      }
+    },
+    {
+      "product_id": "0001111018028",
+      "name": "Kroger\u00ae Boneless Skinless Uncooked Chicken Breast With Rib Meat Thin-Sliced",
+      "kind": "food",
+      "dietary_categories": [
+        "meat_white"
+      ],
+      "unit_grams": 567.0,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 5.0,
+          "promo": null,
+          "effective": 5.0
+        },
+        "west": {
+          "regular": 5.0,
+          "promo": null,
+          "effective": 5.0
+        },
+        "south": {
+          "regular": 5.0,
+          "promo": null,
+          "effective": 5.0
+        }
+      }
+    },
+    {
+      "product_id": "0020891150000",
+      "name": "Simple Truth Organic\u00ae Fresh Organic Whole Chicken with Giblets",
+      "kind": "food",
+      "dietary_categories": [
+        "meat_white"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 3.99,
+          "promo": null,
+          "effective": 3.99
+        },
+        "west": {
+          "regular": 3.39,
+          "promo": null,
+          "effective": 3.39
+        },
+        "south": {
+          "regular": 3.99,
+          "promo": null,
+          "effective": 3.99
+        }
+      }
+    },
+    {
+      "product_id": "0060933284834",
+      "name": "e.l.f. Cosmetics Hydrating Satin Camo Concealer Tan Walnut",
+      "kind": "food",
+      "dietary_categories": [
+        "nut"
+      ],
+      "unit_grams": 5.9,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 9.29,
+          "promo": null,
+          "effective": 9.29
+        }
+      }
+    },
+    {
+      "product_id": "0081957301590",
+      "name": "Happy Tot Organics Super Morning Stage 4 Organic Bananas, Dragon Fruit, Coconut milk, Oats & Chia",
+      "kind": "food",
+      "dietary_categories": [
+        "seed"
+      ],
+      "unit_grams": 121.8,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 1.89,
+          "promo": 1.5,
+          "effective": 1.5
+        },
+        "south": {
+          "regular": 1.79,
+          "promo": 1.5,
+          "effective": 1.5
+        }
+      }
+    },
+    {
+      "product_id": "0001111008287",
+      "name": "Simple Truth Organic\u00ae Whole Ground Flaxseed Meal",
+      "kind": "food",
+      "dietary_categories": [
+        "seed"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 3.49,
+          "promo": null,
+          "effective": 3.49
+        },
+        "south": {
+          "regular": 3.69,
+          "promo": null,
+          "effective": 3.69
+        }
+      }
+    },
+    {
+      "product_id": "0001111080553",
+      "name": "Kroger No Salt Added Sliced Carrots - 8.25oz can",
+      "kind": "food",
+      "dietary_categories": [
+        "vegetable"
+      ],
+      "unit_grams": 231.3,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 0.69,
+          "promo": null,
+          "effective": 0.69
+        },
+        "west": null,
+        "south": null
+      }
+    },
+    {
+      "product_id": "0001111081365",
+      "name": "Kroger Whole White Potatoes - 15oz can",
+      "kind": "food",
+      "dietary_categories": [
+        "vegetable"
+      ],
+      "unit_grams": 421.8,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 1.39,
+          "promo": null,
+          "effective": 1.39
+        },
+        "south": {
+          "regular": 1.09,
+          "promo": null,
+          "effective": 1.09
+        }
+      }
+    },
+    {
+      "product_id": "0001111087226",
+      "name": "Kroger\u00ae Frozen Spinach Chopped",
+      "kind": "food",
+      "dietary_categories": [
+        "vegetable"
+      ],
+      "unit_grams": 285.8,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 1.69,
+          "promo": null,
+          "effective": 1.69
+        }
+      }
+    },
+    {
+      "product_id": "0001111011974",
+      "name": "Kroger\u00ae Italian Style Diced Tomatoes",
+      "kind": "food",
+      "dietary_categories": [
+        "vegetable"
+      ],
+      "unit_grams": 412.8,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        },
+        "west": null,
+        "south": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        }
+      }
+    },
+    {
+      "product_id": "0001111089724",
+      "name": "Kroger\u00ae Traditional Favorites Frozen Broccoli Cuts",
+      "kind": "food",
+      "dietary_categories": [
+        "vegetable"
+      ],
+      "unit_grams": 340.2,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.25,
+          "promo": null,
+          "effective": 1.25
+        },
+        "west": {
+          "regular": 1.5,
+          "promo": null,
+          "effective": 1.5
+        },
+        "south": {
+          "regular": 1.25,
+          "promo": null,
+          "effective": 1.25
+        }
+      }
+    },
+    {
+      "product_id": "0000000094069",
+      "name": "Organic Green Cabbage",
+      "kind": "food",
+      "dietary_categories": [
+        "vegetable"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.69,
+          "promo": null,
+          "effective": 1.69
+        },
+        "west": {
+          "regular": 1.59,
+          "promo": null,
+          "effective": 1.59
+        },
+        "south": {
+          "regular": 1.39,
+          "promo": null,
+          "effective": 1.39
+        }
+      }
+    },
+    {
+      "product_id": "0001111004382",
+      "name": "Simple Truth Organic\u00ae Diced Frozen Sweet Potato",
+      "kind": "food",
+      "dietary_categories": [
+        "vegetable"
+      ],
+      "unit_grams": 340.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 2.49,
+          "promo": null,
+          "effective": 2.49
+        }
+      }
+    },
+    {
+      "product_id": "0004126001928",
+      "name": "Kroger\u00ae Vitamin B12 Tablets 1000mcg",
+      "kind": "supplement",
+      "dietary_categories": [
+        "b12",
+        "supplement"
+      ],
+      "unit_grams": 24.0,
+      "tablet_g": 0.2,
+      "count": 120,
+      "max_tablets_per_day": 1.0,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 8.79,
+          "promo": 8.79,
+          "effective": 8.79
+        },
+        "west": {
+          "regular": 8.49,
+          "promo": 8.49,
+          "effective": 8.49
+        },
+        "south": {
+          "regular": 8.49,
+          "promo": 8.49,
+          "effective": 8.49
+        }
+      }
+    },
+    {
+      "product_id": "0004126036240",
+      "name": "Kroger\u00ae Calcium 600 mg with 20mcg Vitamin D Bone Health Tablets",
+      "kind": "supplement",
+      "dietary_categories": [
+        "calcium",
+        "supplement"
+      ],
+      "unit_grams": 192.0,
+      "tablet_g": 1.6,
+      "count": 120,
+      "max_tablets_per_day": 2.0,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 9.99,
+          "promo": 9.99,
+          "effective": 9.99
+        },
+        "west": null,
+        "south": {
+          "regular": 10.49,
+          "promo": 10.49,
+          "effective": 10.49
+        }
+      }
+    },
+    {
+      "product_id": "0004126001650",
+      "name": "Kroger\u00ae Men's Multivitamin One Daily Tablets",
+      "kind": "supplement",
+      "dietary_categories": [
+        "multivitamin",
+        "supplement"
+      ],
+      "unit_grams": 312.0,
+      "tablet_g": 1.3,
+      "count": 240,
+      "max_tablets_per_day": 1.0,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 12.49,
+          "promo": null,
+          "effective": 12.49
+        },
+        "west": {
+          "regular": 12.99,
+          "promo": null,
+          "effective": 12.99
+        },
+        "south": {
+          "regular": 12.49,
+          "promo": null,
+          "effective": 12.49
+        }
+      }
+    },
+    {
+      "product_id": "0003160401617",
+      "name": "Nature Made\u00ae Flaxseed Oil Softgels 1000mg",
+      "kind": "supplement",
+      "dietary_categories": [
+        "omega_3",
+        "supplement"
+      ],
+      "unit_grams": 120.0,
+      "tablet_g": 1.2,
+      "count": 100,
+      "max_tablets_per_day": 3.0,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 12.99,
+          "promo": 12.99,
+          "effective": 12.99
+        }
+      }
     }
   ],
   "solutions": [
