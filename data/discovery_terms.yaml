@@ -11,6 +11,13 @@
 - "pasta"
 - "all purpose flour"
 - "tortilla"
+- "pearled barley"
+- "barley"
+- "wheat germ"
+- "cornstarch"
+- "fortified breakfast cereal"
+- "total cereal"
+- "cheerios"
 
 # Legumes / plant protein
 - "dried lentils"
@@ -31,6 +38,12 @@
 - "natural peanut butter"
 - "almonds"
 - "sunflower seeds"
+- "walnuts"
+- "ground flaxseed"
+- "chia seeds"
+- "chia"
+- "dried soybeans"
+- "soybeans dry"
 
 # Dairy / eggs
 - "whole milk gallon"
@@ -39,6 +52,9 @@
 - "plain greek yogurt"
 - "cheddar cheese"
 - "cottage cheese"
+- "nonfat dry milk"
+- "powdered milk"
+- "instant nonfat dry milk"
 
 # Meat & poultry
 - "chicken breast boneless"
@@ -50,6 +66,9 @@
 - "canned tuna in water"
 - "canned sardines"
 - "frozen salmon"
+- "canned salmon"
+- "canned clams"
+- "chicken liver"
 
 # Vegetables
 - "russet potato"
@@ -65,6 +84,11 @@
 - "bananas"
 - "apples"
 - "frozen mixed berries"
+- "orange juice frozen concentrate"
+- "frozen orange juice"
+- "orange juice"
+- "raisins"
+- "canned tomatoes"
 
 # Fortified / vegan-essential
 - "fortified soy milk"
@@ -75,6 +99,8 @@
 - "olive oil"
 - "white sugar"
 - "lard"
+- "molasses"
+- "grandma molasses"
 
 # Classical Stigler staples (1939 / 1947 / 2001 revisit baskets)
 - "evaporated milk"
