@@ -113,6 +113,17 @@ CURATE_PICKS: list[Pick] = [
     Pick("carrots", include=("carrots",), exclude=("baby food", "stage", "cake", "puree"),
          fdc_query="carrots raw",
          dietary_categories=("vegetable",)),
+    Pick("fresh cabbage", include=("cabbage",),
+         exclude=("coleslaw", "slaw", "shredded", "angel hair", "kimchi",
+                  "sauerkraut", "roll", "stuffed", "soup"),
+         fdc_query="cabbage raw",
+         dietary_categories=("vegetable",)),
+    Pick("whole potato", include=("potato",),
+         exclude=("chips", "fries", "fried", "mashed", "hash", "cake", "instant",
+                  "scalloped", "salad", "pancake", "tot", "stuffed", "wedge",
+                  "au gratin", "sweet", "soup"),
+         fdc_query="potatoes white flesh and skin raw",
+         dietary_categories=("vegetable",)),
     # Fruit
     Pick("bananas", include=("bananas",),
          exclude=("yogurt", "smoothie", "carbmaster", "tubes", "chips", "puffs",
@@ -125,7 +136,10 @@ CURATE_PICKS: list[Pick] = [
          fdc_query="strawberries frozen unsweetened",
          dietary_categories=("fruit",)),
     # Fortified for vegan B12/D
-    Pick("fortified soy milk", include=("soy", "milk"), exclude=("coconut", "almond", "oat", "cashew", "rice"),
+    Pick("fortified soy milk", include=("soy", "milk"),
+         exclude=("coconut", "almond", "oat", "cashew", "rice",
+                  "yogurt", "ice cream", "creamer", "cheese", "protein powder",
+                  "chocolate", "strawberry", "vanilla"),
          fdc_query="soymilk soy milk original and vanilla unsweetened with added calcium vitamins a and d",
          dietary_categories=("plant_milk", "fortified_b12")),
     Pick("nutritional yeast", include=("nutritional yeast",),
@@ -141,6 +155,31 @@ CURATE_PICKS: list[Pick] = [
     Pick("vegetable oil", include=("vegetable oil",), exclude=("spread", "spray", "buttery"),
          fdc_query="oil vegetable industrial soybean refined for cooking",
          dietary_categories=("fat",)),
+    # Classical Stigler staples — reintroduced to align with the 1939/1947/2001
+    # optimal baskets (cabbage + navy beans + wheat flour + evaporated milk +
+    # beef liver dominated those solutions).
+    Pick("evaporated milk", include=("evaporated",),
+         exclude=("condensed", "sweetened"),
+         fdc_query="milk canned evaporated without added vitamin a",
+         dietary_categories=("dairy",)),
+    Pick("beef liver", include=("beef", "liver"),
+         exclude=("chicken", "pork", "calf", "pate", "paste",
+                  "dog", "cat", "pet", "treat", "kibble", "wet food", "dry food"),
+         fdc_query="beef variety meats and by-products liver raw",
+         dietary_categories=("meat_red",)),
+    Pick("corn meal", include=("corn meal",),
+         exclude=("mix", "muffin", "bread", "chowder", "soup", "flakes",
+                  "tortilla", "chips", "dog", "cat", "batter", "breading",
+                  "self rising", "self-rising"),
+         fdc_query="cornmeal whole grain yellow",
+         dietary_categories=("grain",)),
+    Pick("lard", include=("lard",),
+         exclude=("substitute", "vegetable", "plant", "shortening"),
+         fdc_query="lard",
+         # meat_red gets lard excluded from pescatarian/vegetarian/ovo_lacto/vegan
+         # via MODE_EXCLUDES — semantically fuzzy (lard isn't red meat) but
+         # functionally correct for dietary-mode filtering.
+         dietary_categories=("fat", "meat_red")),
 ]
 
 
