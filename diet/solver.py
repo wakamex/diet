@@ -41,6 +41,7 @@ class NutrientTarget:
     rda: float | None = None
     ul: float | None = None
     unit: str = ""
+    label: str = ""   # display name, e.g. "Vitamin D"; falls back to `nutrient`
 
 
 @dataclass(frozen=True)
@@ -50,6 +51,7 @@ class Solution:
     cost_per_day: float | None
     basket: list[dict]                           # selected foods
     nutrients: list[dict]                        # delivery + shadow prices
+    diagnosis: list[dict] = field(default_factory=list)  # populated on infeasible
 
 
 # Mode → excluded dietary_categories. Single source of truth.
@@ -124,7 +126,11 @@ def solve(
     if not res.success:
         # status: 0 success, 1 iteration limit, 2 infeasible, 3 unbounded, 4 numerical
         if res.status == 2:
-            return Solution("infeasible", res.message, None, [], _empty_nutrients(targets))
+            # Phase-1 LP to find *which* constraints can't be met. This is
+            # vastly more useful than HiGHS's raw "model_status is Infeasible".
+            diag = _diagnose(eligible, targets)
+            return Solution("infeasible", res.message, None, [],
+                            _empty_nutrients(targets), diag)
         if res.status == 3:
             return Solution("unbounded", res.message, None, [], _empty_nutrients(targets))
         return Solution("error", res.message, None, [], _empty_nutrients(targets))
@@ -193,6 +199,93 @@ def solve(
 
     return Solution("optimal", "optimal solution found", round(cost, 4),
                     basket, nutrient_rows)
+
+
+def _diagnose(
+    eligible: list[Food],
+    targets: list[NutrientTarget],
+) -> list[dict]:
+    """Identify which nutrient constraints can't be satisfied.
+
+    Runs a phase-1 LP: minimize total constraint slack. Each RDA gets a
+    shortfall slack `d_low ≥ 0` that absorbs any unmet target; each UL gets an
+    excess slack `d_high ≥ 0` that absorbs any overage. The optimal slack values
+    say how much of each nutrient is missing or over-delivered in the cheapest
+    *almost-feasible* diet — far more useful than the raw HiGHS infeasibility
+    status.
+
+    Cost doesn't enter this LP at all — we just want to know what's blocking,
+    not what it'd cost to fix.
+    """
+    if not eligible or not targets:
+        return []
+
+    rdas = [t for t in targets if t.rda is not None]
+    uls = [t for t in targets if t.ul is not None]
+    n_foods = len(eligible)
+    n_rda = len(rdas)
+    n_ul = len(uls)
+    n_vars = n_foods + n_rda + n_ul
+
+    c = np.zeros(n_vars)
+    c[n_foods:] = 1.0  # minimize total slack
+
+    rows: list[np.ndarray] = []
+    rhs: list[float] = []
+
+    # RDA: Σ nutrient * x + d_low ≥ rda  →  -Σ nutrient * x - d_low ≤ -rda
+    for i, t in enumerate(rdas):
+        row = np.zeros(n_vars)
+        for j, f in enumerate(eligible):
+            row[j] = -f.nutrients_per_g.get(t.nutrient, 0.0)
+        row[n_foods + i] = -1.0
+        rows.append(row)
+        rhs.append(-t.rda)
+
+    # UL: Σ nutrient * x - d_high ≤ ul
+    for i, t in enumerate(uls):
+        row = np.zeros(n_vars)
+        for j, f in enumerate(eligible):
+            row[j] = f.nutrients_per_g.get(t.nutrient, 0.0)
+        row[n_foods + n_rda + i] = -1.0
+        rows.append(row)
+        rhs.append(t.ul)
+
+    if not rows:
+        return []
+
+    bounds = [(0.0, f.max_serving_g) for f in eligible] + [(0.0, None)] * (n_rda + n_ul)
+    res = linprog(c=c, A_ub=np.vstack(rows), b_ub=np.array(rhs), bounds=bounds,
+                  method="highs")
+    if not res.success:
+        return []
+
+    out: list[dict] = []
+    for i, t in enumerate(rdas):
+        d = float(res.x[n_foods + i])
+        if d > max(1e-6, 1e-4 * t.rda):
+            pct = (d / t.rda * 100) if t.rda else None
+            out.append({
+                "nutrient": t.nutrient,
+                "kind": "shortfall",
+                "amount": round(d, 4),
+                "target": t.rda,
+                "unit": t.unit,
+                "pct_of_target": round(pct, 1) if pct is not None else None,
+            })
+    for i, t in enumerate(uls):
+        d = float(res.x[n_foods + n_rda + i])
+        if d > max(1e-6, 1e-4 * t.ul):
+            pct = (d / t.ul * 100) if t.ul else None
+            out.append({
+                "nutrient": t.nutrient,
+                "kind": "excess",
+                "amount": round(d, 4),
+                "target": t.ul,
+                "unit": t.unit,
+                "pct_of_target": round(pct, 1) if pct is not None else None,
+            })
+    return out
 
 
 def _empty_nutrients(targets: Iterable[NutrientTarget]) -> list[dict]:
