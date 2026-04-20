@@ -1,17 +1,10 @@
 {
-  "updated": "2026-04-20T19:43:27Z",
+  "updated": "2026-04-20T21:30:22Z",
   "prices": [
     {
-      "product_id": "0003520005512",
+      "product_id": "0001111089875",
       "location_id": "01400513",
-      "regular": 2.19,
-      "promo": 1.99,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111008529",
-      "location_id": "01400513",
-      "regular": 2.29,
+      "regular": 1.79,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -30,16 +23,23 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0081815801219",
+      "product_id": "0003000007210",
       "location_id": "01400513",
-      "regular": 5.99,
+      "regular": 3.29,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001600014155",
+      "product_id": "0001111013646",
       "location_id": "01400513",
-      "regular": 1.25,
+      "regular": 2.29,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111086292",
+      "location_id": "01400513",
+      "regular": 3.79,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -51,6 +51,13 @@
       "fetched_at": "2026-04-20"
     },
     {
+      "product_id": "0001111089668",
+      "location_id": "01400513",
+      "regular": 1.69,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
       "product_id": "0001111089687",
       "location_id": "01400513",
       "regular": 2.19,
@@ -58,52 +65,59 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111072567",
+      "product_id": "0001111089681",
       "location_id": "01400513",
-      "regular": 1.0,
-      "promo": 0.89,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111084753",
-      "location_id": "01400513",
-      "regular": 4.49,
+      "regular": 1.19,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0003940001734",
+      "product_id": "0001111015358",
       "location_id": "01400513",
-      "regular": 1.49,
+      "regular": 3.79,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111015369",
-      "location_id": "01400513",
-      "regular": 3.49,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0069765820216",
-      "location_id": "01400513",
-      "regular": 5.99,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111041661",
+      "product_id": "0001111089620",
       "location_id": "01400513",
       "regular": 2.29,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111010118",
+      "product_id": "0001111071786",
       "location_id": "01400513",
-      "regular": 2.49,
-      "promo": 2.33,
+      "regular": 1.0,
+      "promo": 0.89,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111091342",
+      "location_id": "01400513",
+      "regular": 1.99,
+      "promo": 1.49,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0007493600011",
+      "location_id": "01400513",
+      "regular": 8.29,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111008452",
+      "location_id": "01400513",
+      "regular": 4.79,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111041660",
+      "location_id": "01400513",
+      "regular": 3.19,
+      "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
@@ -116,36 +130,43 @@
     {
       "product_id": "0001111060903",
       "location_id": "01400513",
-      "regular": 1.79,
+      "regular": 2.19,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111068488",
+      "product_id": "0001111018028",
       "location_id": "01400513",
-      "regular": 7.99,
+      "regular": 5.0,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111097971",
+      "product_id": "0029062400000",
       "location_id": "01400513",
-      "regular": 6.99,
+      "regular": 1.99,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111080792",
+      "product_id": "0020799300000",
       "location_id": "01400513",
-      "regular": 1.59,
+      "regular": 2.99,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111078793",
+      "product_id": "0001111080775",
       "location_id": "01400513",
-      "regular": 3.59,
-      "promo": 3.29,
+      "regular": 0.99,
+      "promo": 0.89,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111083301",
+      "location_id": "01400513",
+      "regular": 3.79,
+      "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
@@ -156,79 +177,86 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111063602",
-      "location_id": "01400513",
-      "regular": 2.49,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111089724",
-      "location_id": "01400513",
-      "regular": 1.25,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111089739",
+      "product_id": "0001111012841",
       "location_id": "01400513",
       "regular": 1.49,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111081250",
-      "location_id": "01400513",
-      "regular": 1.09,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0000000004554",
-      "location_id": "01400513",
-      "regular": 1.29,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111004382",
-      "location_id": "01400513",
-      "regular": 2.49,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111011975",
-      "location_id": "01400513",
-      "regular": 1.0,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0000000004011",
+      "product_id": "0001111081248",
       "location_id": "01400513",
       "regular": 0.69,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111015685",
+      "product_id": "0002400016313",
+      "location_id": "01400513",
+      "regular": 1.89,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111011974",
+      "location_id": "01400513",
+      "regular": 1.0,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111016103",
+      "location_id": "01400513",
+      "regular": 2.99,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111048480",
       "location_id": "01400513",
       "regular": 4.49,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111004413",
+      "product_id": "0001111091435",
       "location_id": "01400513",
-      "regular": 8.49,
+      "regular": 2.49,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111071419",
+      "product_id": "0004410015619",
       "location_id": "01400513",
-      "regular": 2.49,
+      "regular": 3.69,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111009081",
+      "location_id": "01400513",
+      "regular": 6.29,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111085607",
+      "location_id": "01400513",
+      "regular": 2.99,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111088301",
+      "location_id": "01400513",
+      "regular": 1.29,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0005527084644",
+      "location_id": "01400513",
+      "regular": 2.79,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -247,9 +275,23 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111002805",
+      "product_id": "0004126036240",
+      "location_id": "01400513",
+      "regular": 9.99,
+      "promo": 9.99,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0003160401617",
+      "location_id": "01400513",
+      "regular": 12.99,
+      "promo": 12.99,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111089875",
       "location_id": "70400357",
-      "regular": 3.29,
+      "regular": 1.99,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -282,9 +324,16 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0004800171127",
+      "product_id": "0003000007210",
       "location_id": "70400357",
-      "regular": 2.59,
+      "regular": 2.99,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111013646",
+      "location_id": "70400357",
+      "regular": 1.99,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -317,30 +366,51 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111084753",
+      "product_id": "0001111089681",
       "location_id": "70400357",
-      "regular": 4.99,
+      "regular": 1.49,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111012215",
+      "product_id": "0001111089620",
       "location_id": "70400357",
       "regular": 1.99,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111015369",
+      "product_id": "0001111071786",
       "location_id": "70400357",
-      "regular": 2.29,
+      "regular": 0.99,
       "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111071789",
+      "location_id": "70400357",
+      "regular": 0.99,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111091342",
+      "location_id": "70400357",
+      "regular": 1.79,
+      "promo": 1.49,
       "fetched_at": "2026-04-20"
     },
     {
       "product_id": "0001111001650",
       "location_id": "70400357",
       "regular": 1.99,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111008287",
+      "location_id": "70400357",
+      "regular": 3.49,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -366,9 +436,9 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111068488",
+      "product_id": "0020891150000",
       "location_id": "70400357",
-      "regular": 8.99,
+      "regular": 3.39,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -387,30 +457,30 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111089084",
+      "product_id": "0001111080775",
       "location_id": "70400357",
-      "regular": 0.97,
+      "regular": 1.29,
+      "promo": 0.89,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111083301",
+      "location_id": "70400357",
+      "regular": 4.29,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111078793",
+      "product_id": "0005527096112",
       "location_id": "70400357",
-      "regular": 2.69,
-      "promo": 2.49,
+      "regular": 1.99,
+      "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
       "product_id": "0079852516099",
       "location_id": "70400357",
       "regular": 2.49,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111089724",
-      "location_id": "70400357",
-      "regular": 1.5,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -422,51 +492,51 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111081250",
-      "location_id": "70400357",
-      "regular": 1.39,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0000000004554",
-      "location_id": "70400357",
-      "regular": 0.99,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0000000004011",
+      "product_id": "0001111081248",
       "location_id": "70400357",
       "regular": 0.79,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111004986",
+      "product_id": "0000000094069",
       "location_id": "70400357",
-      "regular": 3.29,
+      "regular": 1.59,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0002529360023",
+      "product_id": "0001111048480",
+      "location_id": "70400357",
+      "regular": 3.49,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111091435",
+      "location_id": "70400357",
+      "regular": 2.79,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0002529360039",
       "location_id": "70400357",
       "regular": 4.69,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0004157016532",
+      "product_id": "0004410015619",
       "location_id": "70400357",
       "regular": 4.99,
-      "promo": 3.99,
+      "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111013270",
+      "product_id": "0001111085607",
       "location_id": "70400357",
-      "regular": 3.99,
+      "regular": 3.39,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -478,16 +548,9 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111071419",
+      "product_id": "0005527084644",
       "location_id": "70400357",
-      "regular": 1.99,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0007240071124",
-      "location_id": "70400357",
-      "regular": 4.49,
+      "regular": 5.99,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -506,9 +569,9 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111002805",
+      "product_id": "0001111089875",
       "location_id": "03400017",
-      "regular": 3.69,
+      "regular": 1.79,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -534,6 +597,13 @@
       "fetched_at": "2026-04-20"
     },
     {
+      "product_id": "0003000007210",
+      "location_id": "03400017",
+      "regular": 3.49,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
       "product_id": "0081815801219",
       "location_id": "03400017",
       "regular": 5.49,
@@ -541,7 +611,7 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0004800171127",
+      "product_id": "0001111013646",
       "location_id": "03400017",
       "regular": 1.99,
       "promo": null,
@@ -569,6 +639,13 @@
       "fetched_at": "2026-04-20"
     },
     {
+      "product_id": "0001111089668",
+      "location_id": "03400017",
+      "regular": 1.69,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
       "product_id": "0001111089687",
       "location_id": "03400017",
       "regular": 1.99,
@@ -583,37 +660,44 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111084753",
+      "product_id": "0001111089681",
       "location_id": "03400017",
-      "regular": 4.49,
+      "regular": 1.19,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0004133102471",
+      "product_id": "0001111089620",
       "location_id": "03400017",
-      "regular": 2.29,
+      "regular": 1.99,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0003940001734",
+      "product_id": "0001111071786",
       "location_id": "03400017",
-      "regular": 1.49,
+      "regular": 1.0,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111012215",
+      "product_id": "0001111071789",
       "location_id": "03400017",
-      "regular": 1.25,
+      "regular": 1.0,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111015369",
+      "product_id": "0001111091342",
       "location_id": "03400017",
-      "regular": 2.29,
+      "regular": 1.99,
+      "promo": 1.49,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111003553",
+      "location_id": "03400017",
+      "regular": 2.49,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -625,9 +709,16 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0069765820216",
+      "product_id": "0007493600011",
       "location_id": "03400017",
-      "regular": 5.99,
+      "regular": 8.29,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111008287",
+      "location_id": "03400017",
+      "regular": 3.69,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -639,9 +730,9 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111041661",
+      "product_id": "0001111041660",
       "location_id": "03400017",
-      "regular": 1.99,
+      "regular": 3.39,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -681,9 +772,9 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111068488",
+      "product_id": "0020891150000",
       "location_id": "03400017",
-      "regular": 7.99,
+      "regular": 3.99,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -709,51 +800,37 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111089084",
+      "product_id": "0001111080775",
       "location_id": "03400017",
-      "regular": 0.97,
+      "regular": 0.99,
+      "promo": 0.89,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111013900",
+      "location_id": "03400017",
+      "regular": 1.19,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0004800018718",
+      "product_id": "0001111083301",
       "location_id": "03400017",
-      "regular": 1.59,
+      "regular": 4.39,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111080792",
+      "product_id": "0005527096112",
       "location_id": "03400017",
-      "regular": 1.59,
+      "regular": 1.69,
       "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111078793",
-      "location_id": "03400017",
-      "regular": 3.29,
-      "promo": 2.99,
       "fetched_at": "2026-04-20"
     },
     {
       "product_id": "0079852516099",
       "location_id": "03400017",
       "regular": 2.69,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111063602",
-      "location_id": "03400017",
-      "regular": 2.49,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0001111089724",
-      "location_id": "03400017",
-      "regular": 1.25,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -765,72 +842,93 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111081250",
+      "product_id": "0001111081248",
       "location_id": "03400017",
-      "regular": 1.09,
+      "regular": 0.69,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0000000004554",
+      "product_id": "0000000094069",
       "location_id": "03400017",
-      "regular": 1.19,
+      "regular": 1.39,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111004382",
+      "product_id": "0002400016313",
       "location_id": "03400017",
-      "regular": 2.49,
+      "regular": 1.89,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111011975",
+      "product_id": "0001111008663",
+      "location_id": "03400017",
+      "regular": 1.89,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111011974",
       "location_id": "03400017",
       "regular": 1.0,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0000000004011",
+      "product_id": "0001111016103",
       "location_id": "03400017",
-      "regular": 0.49,
+      "regular": 2.49,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111015685",
+      "product_id": "0007990000123",
+      "location_id": "03400017",
+      "regular": 16.99,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111048480",
       "location_id": "03400017",
       "regular": 4.49,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111004986",
+      "product_id": "0001111091435",
       "location_id": "03400017",
-      "regular": 3.29,
+      "regular": 2.29,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0002529360023",
+      "product_id": "0002529360039",
       "location_id": "03400017",
       "regular": 4.29,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0004157016532",
+      "product_id": "0086102900011",
       "location_id": "03400017",
-      "regular": 4.99,
-      "promo": 3.99,
+      "regular": 6.49,
+      "promo": 4.49,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111013270",
+      "product_id": "0004410015619",
       "location_id": "03400017",
-      "regular": 3.99,
+      "regular": 3.69,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0001111009081",
+      "location_id": "03400017",
+      "regular": 6.49,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -842,6 +940,13 @@
       "fetched_at": "2026-04-20"
     },
     {
+      "product_id": "0001111085607",
+      "location_id": "03400017",
+      "regular": 2.99,
+      "promo": null,
+      "fetched_at": "2026-04-20"
+    },
+    {
       "product_id": "0001111088301",
       "location_id": "03400017",
       "regular": 1.29,
@@ -849,23 +954,16 @@
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0001111071419",
+      "product_id": "0007904122638",
       "location_id": "03400017",
-      "regular": 2.69,
+      "regular": 5.79,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
     {
-      "product_id": "0007010007062",
+      "product_id": "0005527084644",
       "location_id": "03400017",
-      "regular": 2.59,
-      "promo": null,
-      "fetched_at": "2026-04-20"
-    },
-    {
-      "product_id": "0007240071124",
-      "location_id": "03400017",
-      "regular": 3.99,
+      "regular": 2.79,
       "promo": null,
       "fetched_at": "2026-04-20"
     },
@@ -889,12 +987,25 @@
       "regular": 10.49,
       "promo": 10.49,
       "fetched_at": "2026-04-20"
+    },
+    {
+      "product_id": "0003160401617",
+      "location_id": "03400017",
+      "regular": 12.99,
+      "promo": 12.99,
+      "fetched_at": "2026-04-20"
     }
   ],
   "missing": [
     {
-      "product_id": "0001111002805",
-      "name": "Simple Truth Organic\u00ae 100% Whole Grain Rolled 1 Minute Oats",
+      "product_id": "0000000834131",
+      "name": "Simple Truth Organic\u00ae 100% Whole Grain Rolled 1 Minute Oats x 2",
+      "location_id": "01400513",
+      "reason": "no price"
+    },
+    {
+      "product_id": "0001111008529",
+      "name": "Kroger\u00ae 100% Whole Wheat Bread",
       "location_id": "01400513",
       "reason": "no price"
     },
@@ -905,38 +1016,32 @@
       "reason": "no price"
     },
     {
-      "product_id": "0003997811403",
-      "name": "Bob's Red Mill Pearl Barley 30 oz",
+      "product_id": "0081815801219",
+      "name": "Kretschmer\u00ae Original Toasted Wheat Germ",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0004800171127",
-      "name": "Maizena\u00ae Corn Starch",
+      "product_id": "0001600014155",
+      "name": "General Mills Honey Nut Cheerios Cereal",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0001111086292",
-      "name": "Simple Truth Organic\u00ae Dry Green Lentils",
+      "product_id": "0001111072567",
+      "name": "Kroger\u00ae Black Beans",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0001111015358",
-      "name": "Kroger\u00ae Pinto Beans BIG DEALl!",
+      "product_id": "0001111071789",
+      "name": "Kroger\u00ae Great Northern Beans",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0004133102471",
-      "name": "Goya\u00ae Red Kidney Beans",
-      "location_id": "01400513",
-      "reason": "no price"
-    },
-    {
-      "product_id": "0001111012215",
-      "name": "Simple Truth Organic\u00ae Low Sodium Great Northern Beans",
+      "product_id": "0001111003553",
+      "name": "Simple Truth Organic\u00ae Frozen Edamame",
       "location_id": "01400513",
       "reason": "no price"
     },
@@ -947,8 +1052,8 @@
       "reason": "no price"
     },
     {
-      "product_id": "0001111008452",
-      "name": "Simple Truth Organic\u00ae Whole Black Chia Seeds",
+      "product_id": "0001111008287",
+      "name": "Simple Truth Organic\u00ae Whole Ground Flaxseed Meal",
       "location_id": "01400513",
       "reason": "no price"
     },
@@ -959,98 +1064,86 @@
       "reason": "no price"
     },
     {
-      "product_id": "0001111018028",
-      "name": "Kroger\u00ae Boneless Skinless Uncooked Chicken Breast With Rib Meat Thin-Sliced",
+      "product_id": "0001111010118",
+      "name": "Kroger\u00ae Reduced Fat Sharp Cheddar Shredded Cheese",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0029062400000",
-      "name": "Fresh Chicken Seasoned Leg Quarters",
+      "product_id": "0020891150000",
+      "name": "Simple Truth Organic\u00ae Fresh Organic Whole Chicken with Giblets",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0020799300000",
-      "name": "Kroger\u00ae Fresh Natural Pork Shoulder Butt Bone In",
+      "product_id": "0001111097971",
+      "name": "Kroger\u00ae 80/20 Ground Beef Roll 1 LB",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0001111089084",
-      "name": "Kroger\u00ae Wild Caught Chunk Light Tuna in Water",
+      "product_id": "0001111013900",
+      "name": "Kroger\u00ae Wild Caught Sardines in Soybean Oil",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0004800018718",
-      "name": "Chicken of the Sea Wild Caught Sardines in Olive Oil",
+      "product_id": "0005527096112",
+      "name": "Grace\u00ae Classic Mackerel with Tomato Sauce",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0001111004986",
-      "name": "Simple Truth Organic\u00ae Seedless Raisins Mulitpack",
+      "product_id": "0001111089739",
+      "name": "Kroger\u00ae Frozen Spinach Cut Leaf",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0002529360023",
-      "name": "Silk Organic Unsweet Dairy Free Vegan Soy Milk",
+      "product_id": "0000000094069",
+      "name": "Organic Green Cabbage",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0004157016532",
-      "name": "Blue Diamond\u2122 Unsweetened Simple Almondmilk",
+      "product_id": "0001111008663",
+      "name": "Kroger\u00ae Cut Candied Sweet Potato Yams",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0001111013270",
-      "name": "Simple Truth\u00ae Plant Based Non Dairy Original Oat Milk",
+      "product_id": "0007990000123",
+      "name": "Wyman's\u00ae Mango Berry Frozen Fruit",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0000000834102",
-      "name": "Kroger\u00ae 100% Pure Vegetable Oil x 2",
+      "product_id": "0002529360039",
+      "name": "Silk Original Dairy Free Vegan Soy Milk Half Gallon",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0001111088301",
-      "name": "Kroger\u00ae Regular Evaporated Milk",
+      "product_id": "0086102900011",
+      "name": "MALK Organic Dairy Free Unsweetened Almond Milk",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0007010007062",
-      "name": "John Morrell\u00ae Snow Cap Edible Lard",
+      "product_id": "0001111004413",
+      "name": "Kroger\u00ae Pure Olive Oil",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0007240071124",
-      "name": "Grandma's\u00ae Original Molasses 12 Fluid Ounce Bottle",
+      "product_id": "0007904122638",
+      "name": "Skylark\u00ae Sliced Beef Liver",
       "location_id": "01400513",
       "reason": "no price"
     },
     {
-      "product_id": "0004126036240",
-      "name": "Kroger\u00ae Calcium 600 mg with 20mcg Vitamin D Bone Health Tablets",
-      "location_id": "01400513",
-      "reason": "no price"
-    },
-    {
-      "product_id": "0003520005512",
-      "name": "Riceland Extra Long Grain White Rice",
-      "location_id": "70400357",
-      "reason": "no price"
-    },
-    {
-      "product_id": "0003997811403",
-      "name": "Bob's Red Mill Pearl Barley 30 oz",
+      "product_id": "0000000834131",
+      "name": "Simple Truth Organic\u00ae 100% Whole Grain Rolled 1 Minute Oats x 2",
       "location_id": "70400357",
       "reason": "no price"
     },
@@ -1067,32 +1160,32 @@
       "reason": "no price"
     },
     {
+      "product_id": "0001111089668",
+      "name": "Kroger\u00ae Navy Beans",
+      "location_id": "70400357",
+      "reason": "no price"
+    },
+    {
       "product_id": "0001111015358",
       "name": "Kroger\u00ae Pinto Beans BIG DEALl!",
       "location_id": "70400357",
       "reason": "no price"
     },
     {
-      "product_id": "0004133102471",
-      "name": "Goya\u00ae Red Kidney Beans",
+      "product_id": "0001111003553",
+      "name": "Simple Truth Organic\u00ae Frozen Edamame",
       "location_id": "70400357",
       "reason": "no price"
     },
     {
-      "product_id": "0003940001734",
-      "name": "Bush's Dark Red Kidney Beans 16 oz",
+      "product_id": "0007493600011",
+      "name": "Hammons\u00ae Fancy Large Black Walnuts",
       "location_id": "70400357",
       "reason": "no price"
     },
     {
-      "product_id": "0069765820216",
-      "name": "MANITOBA HARVEST \u00ae ORGANIC GROUND FLAXSEED",
-      "location_id": "70400357",
-      "reason": "no price"
-    },
-    {
-      "product_id": "0001111041661",
-      "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
+      "product_id": "0001111041660",
+      "name": "Kroger\u00ae 1% Lowfat Milk Gallon",
       "location_id": "70400357",
       "reason": "no price"
     },
@@ -1121,38 +1214,56 @@
       "reason": "no price"
     },
     {
-      "product_id": "0004800018718",
-      "name": "Chicken of the Sea Wild Caught Sardines in Olive Oil",
+      "product_id": "0001111013900",
+      "name": "Kroger\u00ae Wild Caught Sardines in Soybean Oil",
       "location_id": "70400357",
       "reason": "no price"
     },
     {
-      "product_id": "0001111080792",
-      "name": "Kroger\u00ae Wild Caught Canned Pink Salmon",
+      "product_id": "0001111012841",
+      "name": "Kroger\u00ae Frozen Broccoli Florets",
       "location_id": "70400357",
       "reason": "no price"
     },
     {
-      "product_id": "0001111063602",
-      "name": "Heritage Farm\u00ae Chicken Livers",
+      "product_id": "0002400016313",
+      "name": "Del Monte Whole New Potatoes",
       "location_id": "70400357",
       "reason": "no price"
     },
     {
-      "product_id": "0001111004382",
-      "name": "Simple Truth Organic\u00ae Diced Frozen Sweet Potato",
+      "product_id": "0001111008663",
+      "name": "Kroger\u00ae Cut Candied Sweet Potato Yams",
       "location_id": "70400357",
       "reason": "no price"
     },
     {
-      "product_id": "0001111011975",
-      "name": "Kroger\u00ae Petite Diced Tomatoes",
+      "product_id": "0001111011974",
+      "name": "Kroger\u00ae Italian Style Diced Tomatoes",
       "location_id": "70400357",
       "reason": "no price"
     },
     {
-      "product_id": "0001111015685",
-      "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
+      "product_id": "0001111016103",
+      "name": "Kroger\u00ae Frozen Sliced Bananas",
+      "location_id": "70400357",
+      "reason": "no price"
+    },
+    {
+      "product_id": "0007990000123",
+      "name": "Wyman's\u00ae Mango Berry Frozen Fruit",
+      "location_id": "70400357",
+      "reason": "no price"
+    },
+    {
+      "product_id": "0086102900011",
+      "name": "MALK Organic Dairy Free Unsweetened Almond Milk",
+      "location_id": "70400357",
+      "reason": "no price"
+    },
+    {
+      "product_id": "0001111009081",
+      "name": "Simple Truth\u00ae Non-Dairy Nutritional Yeast",
       "location_id": "70400357",
       "reason": "no price"
     },
@@ -1163,14 +1274,8 @@
       "reason": "no price"
     },
     {
-      "product_id": "0000000834102",
-      "name": "Kroger\u00ae 100% Pure Vegetable Oil x 2",
-      "location_id": "70400357",
-      "reason": "no price"
-    },
-    {
-      "product_id": "0007010007062",
-      "name": "John Morrell\u00ae Snow Cap Edible Lard",
+      "product_id": "0007904122638",
+      "name": "Skylark\u00ae Sliced Beef Liver",
       "location_id": "70400357",
       "reason": "no price"
     },
@@ -1181,8 +1286,14 @@
       "reason": "no price"
     },
     {
-      "product_id": "0003520005512",
-      "name": "Riceland Extra Long Grain White Rice",
+      "product_id": "0003160401617",
+      "name": "Nature Made\u00ae Flaxseed Oil Softgels 1000mg",
+      "location_id": "70400357",
+      "reason": "no price"
+    },
+    {
+      "product_id": "0000000834131",
+      "name": "Simple Truth Organic\u00ae 100% Whole Grain Rolled 1 Minute Oats x 2",
       "location_id": "03400017",
       "reason": "no price"
     },
@@ -1193,20 +1304,14 @@
       "reason": "no price"
     },
     {
-      "product_id": "0003997811403",
-      "name": "Bob's Red Mill Pearl Barley 30 oz",
-      "location_id": "03400017",
-      "reason": "no price"
-    },
-    {
       "product_id": "0001111015358",
       "name": "Kroger\u00ae Pinto Beans BIG DEALl!",
       "location_id": "03400017",
       "reason": "no price"
     },
     {
-      "product_id": "0000000834102",
-      "name": "Kroger\u00ae 100% Pure Vegetable Oil x 2",
+      "product_id": "0001111012841",
+      "name": "Kroger\u00ae Frozen Broccoli Florets",
       "location_id": "03400017",
       "reason": "no price"
     }

@@ -49,3 +49,17 @@
   nutrients_per_tablet:
     calcium_mg:  600
     vit_d_mcg:   20
+
+- product_id: "0003160401617"
+  name: "Nature Made® Flaxseed Oil Softgels 1000mg"
+  count: 100
+  # 1000 mg flaxseed oil + softgel shell ≈ 1.2 g per softgel. Flaxseed oil
+  # is ~57% ALA by weight, so a 1000 mg softgel delivers ~0.575 g ALA (label-
+  # claimed and FDC-consistent).
+  tablet_g: 1.2
+  dietary_categories: [supplement, omega_3]
+  # Cap at 3 softgels/day (the label recommended dose is 2; 3 covers the RDA
+  # with headroom when food sources are absent).
+  max_tablets_per_day: 3
+  nutrients_per_tablet:
+    ala_g: 0.575
