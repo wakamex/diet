@@ -1,8 +1,8 @@
 #!/bin/bash
 # Deploy the /diet/ page on mihaicosma.com.
 #
-# Source:  /code/website/diet/index.html  (the static page)
-# Target:  mc-new:/var/www/mihaicosma.com/diet/index.html  (live)
+# Source:  ./site/index.html (colocated with the pipeline that generates data.json)
+# Target:  mc-new:/var/www/mihaicosma.com/diet/index.html
 #
 # Only the /diet/ subfolder of the live site is touched — the rest of
 # mihaicosma.com is left alone. data.json is served from the jsDelivr CDN
@@ -11,7 +11,7 @@
 
 set -euo pipefail
 
-SRC="/code/website/diet/index.html"
+SRC="$(dirname "$(realpath "$0")")/site/index.html"
 ZONE="us-central1-a"
 HOST="mc-new"
 TARGET_DIR="/var/www/mihaicosma.com/diet"
