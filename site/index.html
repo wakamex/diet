@@ -235,6 +235,38 @@
     </p>
     <div id="nutrients"></div>
 
+    <h2>Lineage</h2>
+    <p class="section-note" style="color:#8a7d6a; font-size:0.82rem; margin-bottom: 8px;">
+        Standing on decades of linear programming applied to nutrition — with some deliberate departures.
+    </p>
+    <ul style="font-size:0.88rem; line-height:1.55; color:#b6aa99; padding-left:20px; margin-bottom:12px;">
+        <li><b>Stigler 1945</b>, <i>The Cost of Subsistence</i> — original LP formulation, 9 nutrients, 77 foods, hand-solved heuristic at \$39.93/yr. No cap on per-food quantities. <a href="https://en.wikipedia.org/wiki/Stigler_diet">summary</a></li>
+        <li><b>Dantzig &amp; Laderman 1947</b> — simplex method applied to Stigler's data; 9 clerks × 120 man-days on desk calculators got \$39.69 (Stigler was off by \$0.24). First large-scale LP solution in history.</li>
+        <li><b>Garille &amp; Gass 2001</b>, <i>Stigler's Diet Problem Revisited</i> (<i>Operations Research</i>) — revisit with 1990s prices + RDAs, adds palatability constraints. Our structural reference.</li>
+        <li><b>EAT–Lancet 2019 / 2025</b> — multi-objective extension with planetary-boundary constraints (GHG, water, land). <a href="https://eatforum.org/eat-lancet-commission/">commission</a></li>
+        <li><b>Frontiers in Nutrition 2018</b>, <i>Review of LP to Optimize Diets</i> — canonical survey of cost/nutrition/environment/culture formulations.</li>
+        <li>Full 20-source corpus + per-paper summaries: <a href="https://github.com/wakamex/diet/tree/main/sources">sources/</a></li>
+    </ul>
+    <p style="color:#8a7d6a; font-size:0.82rem; margin-bottom: 4px; margin-top: 6px;">
+        <b style="color:#e0e0e0;">Where this departs from the standard LP-diet literature:</b>
+    </p>
+    <div class="table-scroll" style="margin-bottom: 12px;">
+        <table style="font-size:0.85rem;">
+            <thead><tr><th>Dimension</th><th>Literature standard</th><th>This pipeline</th></tr></thead>
+            <tbody>
+                <tr><td class="name">Prices</td><td>National averages, BLS APR, static</td><td><b>Per-store live</b> via Kroger (3 stores) + Walmart (national)</td></tr>
+                <tr><td class="name">Food representation</td><td>Abstracted food categories</td><td><b>Real shoppable SKUs</b> (Kroger + Walmart product IDs)</td></tr>
+                <tr><td class="name">Dietary modes</td><td>Single-mode</td><td><b>5 modes</b> in one solve (omnivore → vegan)</td></tr>
+                <tr><td class="name">Supplements</td><td>Out of scope</td><td><b>Toggleable variant</b> showing supplement arbitrage</td></tr>
+                <tr><td class="name">Infeasibility</td><td>Bare "infeasible"</td><td><b>Phase-1 LP diagnostic</b> naming blocking nutrients</td></tr>
+                <tr><td class="name">Shadow prices</td><td>Rarely surfaced</td><td><b>First-class output</b> per binding constraint</td></tr>
+                <tr><td class="name">Palatability cap</td><td>Typically added (Garille &amp; Gass)</td><td>None — <b>Stigler-pure</b> LP</td></tr>
+                <tr><td class="name">Environmental objective</td><td>Common in recent work</td><td>Not yet — deferred to v3</td></tr>
+                <tr><td class="name">Update cadence</td><td>One-shot</td><td><b>Daily</b> via GitHub Action</td></tr>
+            </tbody>
+        </table>
+    </div>
+
     <h2>Catalog</h2>
     <p class="section-note" style="color:#8a7d6a; font-size:0.82rem; margin-bottom: 4px;">
         Every SKU the pipeline knows about and its Kroger package price at each location from today's ingest. Missing prices mean Kroger's API returned the SKU without a price field at that location — it may be out of stock, not carried, or a data-feed gap.
