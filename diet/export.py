@@ -5,7 +5,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from pathlib import Path
 
-from diet.foods import load_locations, load_prices, load_skus
+from diet.foods import load_all_skus, load_locations, load_prices
 from diet.solver import NutrientTarget, Solution
 from diet.supplements import load_supplements
 from diet.targets import load_targets
@@ -39,7 +39,7 @@ def _build_catalog() -> tuple[list[dict], list[dict]]:
       unit_display (e.g. "16 oz (454g)" or "240 tab"),
       prices_by_region: {region: {regular, promo, effective} | null}
     """
-    skus = load_skus()
+    skus = load_all_skus()
     supps = load_supplements(DEFAULT_SUPPLEMENTS_PATH) if DEFAULT_SUPPLEMENTS_PATH.exists() else []
     locations = load_locations()
     prices = load_prices() if DEFAULT_PRICES_PATH.exists() else {}

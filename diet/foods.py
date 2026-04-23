@@ -16,6 +16,7 @@ from diet.sources import fdc as fdc_mod
 from diet.util import read_json
 
 DEFAULT_SKUS_PATH = Path("data/skus.yaml")
+DEFAULT_WALMART_SKUS_PATH = Path("data/walmart_skus.yaml")
 DEFAULT_LOCATIONS_PATH = Path("data/locations.yaml")
 DEFAULT_PRICES_PATH = Path("data/prices_current.json")
 DEFAULT_FDC_CACHE = Path("data/raw/fdc")
@@ -26,7 +27,7 @@ DEFAULT_MAX_SERVING_G: float | None = None
 
 @dataclass(frozen=True)
 class SkuSpec:
-    """A row from data/skus.yaml after parsing."""
+    """A row from data/skus.yaml (or walmart_skus.yaml) after parsing."""
 
     product_id: str
     fdc_id: int
@@ -34,6 +35,7 @@ class SkuSpec:
     unit_grams: float
     dietary_categories: frozenset[str]
     max_serving_g: float | None
+    source: str = "kroger"   # "kroger" or "walmart" — routes ingest
 
 
 @dataclass(frozen=True)
@@ -41,11 +43,13 @@ class Location:
     """A row from data/locations.yaml."""
 
     region: str           # short key, e.g. "midwest"
-    location_id: str      # Kroger locationId
-    display: str          # human label, e.g. "Kroger #01400441 — Cincinnati, OH"
+    location_id: str      # Kroger locationId or synthetic for walmart
+    display: str          # human label
+    source: str = "kroger"
 
 
-def load_skus(path: Path | str = DEFAULT_SKUS_PATH) -> list[SkuSpec]:
+def load_skus(path: Path | str = DEFAULT_SKUS_PATH,
+              *, source: str = "kroger") -> list[SkuSpec]:
     raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or []
     out: list[SkuSpec] = []
     for r in raw:
@@ -57,14 +61,24 @@ def load_skus(path: Path | str = DEFAULT_SKUS_PATH) -> list[SkuSpec]:
             unit_grams=float(r["unit_grams"]),
             dietary_categories=frozenset(r.get("dietary_categories") or []),
             max_serving_g=float(cap) if cap is not None else DEFAULT_MAX_SERVING_G,
+            source=r.get("source", source),
         ))
     return out
+
+
+def load_all_skus() -> list[SkuSpec]:
+    """Load Kroger + Walmart SKUs. Walmart file is optional."""
+    skus = load_skus(DEFAULT_SKUS_PATH, source="kroger")
+    if DEFAULT_WALMART_SKUS_PATH.exists():
+        skus += load_skus(DEFAULT_WALMART_SKUS_PATH, source="walmart")
+    return skus
 
 
 def load_locations(path: Path | str = DEFAULT_LOCATIONS_PATH) -> list[Location]:
     raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or []
     return [Location(region=r["region"], location_id=str(r["location_id"]),
-                     display=r.get("display", r["location_id"])) for r in raw]
+                     display=r.get("display", r["location_id"]),
+                     source=r.get("source", "kroger")) for r in raw]
 
 
 def load_prices(path: Path | str = DEFAULT_PRICES_PATH) -> dict[tuple[str, str], dict]:

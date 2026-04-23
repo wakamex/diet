@@ -12,3 +12,11 @@
 - region: south
   location_id: "03400017"
   display: "Kroger — Studemont, 1440 Studemont St, Houston, TX 77007"
+
+# Walmart.com national pricing via Affiliate API (no per-store granularity until
+# OPD partner approval lands). Location ID is synthetic — Affiliate API doesn't
+# take one; the region key is what the ingest code routes on.
+- region: walmart_national
+  location_id: "walmart-national"
+  display: "Walmart.com (national)"
+  source: walmart
