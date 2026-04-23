@@ -30,6 +30,7 @@ class SupplementSpec:
     max_tablets_per_day: float
     dietary_categories: frozenset[str]
     nutrients_per_tablet: dict[str, float]    # keyed by our canonical nutrient ids
+    source: str = "kroger"                    # "kroger" | "walmart" — routes ingest
 
     @property
     def unit_grams(self) -> float:
@@ -58,6 +59,7 @@ def load_supplements(path: Path | str = DEFAULT_SUPPLEMENTS_PATH) -> list[Supple
             max_tablets_per_day=float(r["max_tablets_per_day"]),
             dietary_categories=frozenset(r.get("dietary_categories") or ["supplement"]),
             nutrients_per_tablet=dict(r.get("nutrients_per_tablet") or {}),
+            source=r.get("source", "kroger"),
         ))
     return out
 
@@ -71,6 +73,7 @@ def as_sku_specs(supps: list[SupplementSpec]) -> list[SkuSpec]:
         unit_grams=s.unit_grams,
         dietary_categories=s.dietary_categories,
         max_serving_g=s.max_serving_g,
+        source=s.source,
     ) for s in supps]
 
 
