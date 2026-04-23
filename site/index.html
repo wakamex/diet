@@ -195,7 +195,7 @@
             font-weight: 700;
             letter-spacing: 0.05em;
         }
-        #catalog .unit-suffix {
+        .unit-suffix {
             font-size: 0.7rem;
             font-weight: 400;
             color: #8a7d6a;
@@ -379,17 +379,36 @@
                 const meta = b.meta || {};
                 const priceUsed = meta.price_used;
                 const priceKind = meta.price_kind || 'regular';
-                const unitPrice = (priceUsed != null) ? fmtMoney(priceUsed) : '—';
-                // Pills are shown as tablets/day rather than raw grams.
                 const isSupp = Boolean(meta.is_supplement);
+                // Pills shown as tablets/day; unit price as $/tab. Foods as
+                // grams/day and $/kg. Same normalization as the Catalog table.
                 const qty = isSupp && meta.tablet_g
                     ? (b.grams_per_day / meta.tablet_g).toFixed(1) + ' tab'
                     : fmtGrams(b.grams_per_day);
+                let unitPrice, tooltip;
+                if (priceUsed == null) {
+                    unitPrice = '—';
+                    tooltip = '';
+                } else if (isSupp && meta.count) {
+                    const perTab = priceUsed / meta.count;
+                    unitPrice = `$${perTab.toFixed(3)}<span class="unit-suffix">/tab</span>`;
+                    tooltip = `$${priceUsed.toFixed(2)} / ${meta.count} tab (${priceKind})`;
+                } else if (meta.unit_grams) {
+                    const perKg = priceUsed * 1000 / meta.unit_grams;
+                    const amt = perKg < 1 ? perKg.toFixed(3) : perKg.toFixed(2);
+                    unitPrice = `$${amt}<span class="unit-suffix">/kg</span>`;
+                    tooltip = `$${priceUsed.toFixed(2)} / ${meta.unit_grams >= 1000
+                        ? (meta.unit_grams/1000).toFixed(2) + ' kg'
+                        : Math.round(meta.unit_grams) + ' g'} (${priceKind})`;
+                } else {
+                    unitPrice = fmtMoney(priceUsed);
+                    tooltip = priceKind;
+                }
                 const cls = isSupp ? 'supplement-row' : '';
                 return `<tr class="${cls}">
                     <td class="name">${b.name}</td>
                     <td class="num">${qty}</td>
-                    <td class="num muted" title="${priceKind}">${unitPrice}</td>
+                    <td class="num muted" title="${tooltip}">${unitPrice}</td>
                     <td class="num">${fmtMoney(b.cost_per_day)}</td>
                     <td class="num muted">${b.pct_of_basket}%</td>
                 </tr>`;
@@ -397,7 +416,7 @@
             host.innerHTML = `<div class="table-scroll"><table>
                 <thead><tr>
                     <th>SKU</th><th class="num">Per day</th>
-                    <th class="num">$/pkg</th><th class="num">$/day</th>
+                    <th class="num">Unit $</th><th class="num">$/day</th>
                     <th class="num">% basket</th>
                 </tr></thead>
                 <tbody>${rows}</tbody>
