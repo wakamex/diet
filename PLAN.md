@@ -7,7 +7,26 @@ Light enough to run in a GitHub Action and publish a `data.json` consumed by a s
 page on the website.
 
 Inspired by Stigler 1945 ("The Cost of Subsistence") and Garille & Gass 2001 ("Stigler's
-Diet Problem Revisited"). Source corpus already extracted under `sources/`.
+Diet Problem Revisited"). Full literature corpus with per-paper summaries lives in
+[`sources/README.md`](sources/README.md) — 20 papers organized into foundations
+(Stigler/Dantzig/Garille), modern LP-diet reviews (Frontiers 2018, Wiley 2023,
+Springer 2025), multi-objective/sustainability extensions (MDPI 2015, Brazilian 2022,
+PMC Spanish 2020, planetary-boundaries 2024, arXiv 2025), EAT-Lancet planetary health
+diet (2019/2025), and tutorials (Google OR-Tools, NEOS Guide, MIT BLOSSOMS).
+
+### Where this pipeline differs from the literature
+
+| Dimension | Literature standard | This pipeline |
+|---|---|---|
+| Prices | National averages, BLS APR, static | Per-store live (Kroger 3 stores + Walmart national) |
+| Food representation | Abstracted food categories | Real shoppable SKUs (Kroger + Walmart product IDs) |
+| Dietary modes | Single-mode | 5 modes in one solve |
+| Supplements | Out of scope | Toggleable variant showing supplement arbitrage |
+| Infeasibility | Bare "infeasible" | Phase-1 LP diagnostic naming blocking nutrients |
+| Shadow prices | Rarely surfaced | First-class output per binding constraint |
+| Palatability cap | Typically added (Garille & Gass 2001) | None — Stigler-pure |
+| Environmental objective | Common in recent work | Not yet — deferred to v3 |
+| Update cadence | One-shot | Daily via GitHub Action |
 
 The framing — "the cheapest shoppable basket at *this Kroger* that hits your nutrients
 today, by diet mode" — is honest, falsifiable (you can go to the store and buy it), and
