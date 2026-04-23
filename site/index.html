@@ -195,6 +195,12 @@
             font-weight: 700;
             letter-spacing: 0.05em;
         }
+        #catalog .unit-suffix {
+            font-size: 0.7rem;
+            font-weight: 400;
+            color: #8a7d6a;
+            margin-left: 2px;
+        }
     </style>
 </head>
 <body>
@@ -451,12 +457,30 @@
                 return;
             }
 
-            const priceCell = p => {
+            // Normalize each region's package price to a per-unit price comparable
+            // across rows. Foods → $/kg, supplements → $/tablet. Package price
+            // and size still visible in the hover tooltip.
+            const priceCell = (p, c) => {
                 if (p == null) return '<td class="num muted">—</td>';
-                const reg = fmtMoney(p.effective ?? p.regular);
+                const pkg = p.effective ?? p.regular;
+                let per, suffix, tooltip;
+                if (c.kind === 'supplement' && c.count) {
+                    per = pkg / c.count;
+                    suffix = '/tab';
+                    tooltip = `$${pkg.toFixed(2)} / ${c.count} tab`;
+                } else if (c.unit_grams) {
+                    per = pkg * 1000 / c.unit_grams;
+                    suffix = '/kg';
+                    tooltip = `$${pkg.toFixed(2)} / ${c.unit_grams >= 1000
+                        ? (c.unit_grams/1000).toFixed(2) + ' kg'
+                        : Math.round(c.unit_grams) + ' g'}`;
+                } else {
+                    return `<td class="num">${fmtMoney(pkg)}</td>`;
+                }
+                const amt = per < 1 ? per.toFixed(3) : per.toFixed(2);
                 const promo = (p.promo && p.promo > 0 && p.effective === p.promo)
                     ? ` <span style="color:#ff9800; font-weight:700;">•</span>` : '';
-                return `<td class="num">${reg}${promo}</td>`;
+                return `<td class="num" title="${tooltip}">$${amt}<span class="unit-suffix">${suffix}</span>${promo}</td>`;
             };
             const unit = c => {
                 if (c.kind === 'supplement') {
@@ -476,7 +500,8 @@
                     .filter(t => t !== 'supplement')
                     .join(', ');
                 const cls = c.kind === 'supplement' ? 'is-supplement' : '';
-                const cells = locations.map(l => priceCell(c.prices_by_region[l.region])).join('');
+                const cells = locations.map(l =>
+                    priceCell(c.prices_by_region[l.region], c)).join('');
                 return `<tr class="${cls}">
                     <td class="name">${c.name}</td>
                     <td class="tag">${tags}</td>
