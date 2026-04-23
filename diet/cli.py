@@ -11,7 +11,7 @@ from diet import curate as curate_mod
 from diet import discover as discover_mod
 from diet import ingest as ingest_mod
 from diet.export import serialize_solution, write_data_json
-from diet.foods import build_foods_for_location, load_locations, load_prices, load_skus
+from diet.foods import build_foods_for_location, load_all_skus, load_locations, load_prices, load_skus
 from diet.solver import MODE_EXCLUDES, solve
 from diet.supplements import build_supplement_foods, load_supplements
 from diet.targets import load_targets
@@ -49,7 +49,7 @@ def cmd_solve(args: argparse.Namespace) -> int:
     the cost delta (= the "supplement arbitrage").
     """
     targets = load_targets()
-    skus = load_skus()
+    skus = load_all_skus()
     locations = load_locations()
     prices = load_prices()
 
@@ -101,7 +101,7 @@ def cmd_export(args: argparse.Namespace) -> int:
 
 def cmd_validate(args: argparse.Namespace) -> int:
     targets = load_targets()
-    skus = load_skus()
+    skus = load_all_skus()
     locations = load_locations()
     prices = load_prices() if Path("data/prices_current.json").exists() else {}
 
