@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23T20:41:39Z",
+  "updated": "2026-05-06T13:25:47Z",
   "profile": "adult_male_31_50_moderate",
   "nutrient_targets": [
     {
@@ -139,104 +139,9 @@
   ],
   "catalog": [
     {
-      "product_id": "10534163",
-      "name": "Great Value Evaporated Milk, 12 fl oz",
+      "name": "1% Lowfat Milk Half Gallon",
       "kind": "food",
-      "dietary_categories": [
-        "dairy"
-      ],
-      "unit_grams": 365.5,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 1.0,
-          "promo": null,
-          "effective": 1.0
-        }
-      }
-    },
-    {
-      "product_id": "10415722",
-      "name": "Great Value Instant Nonfat Dry Milk, 25.6 oz Bag",
-      "kind": "food",
-      "dietary_categories": [
-        "dairy"
-      ],
-      "unit_grams": 725.7,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 8.86,
-          "promo": null,
-          "effective": 8.86
-        }
-      }
-    },
-    {
-      "product_id": "10804537",
-      "name": "Great Value Milk 1% Low-fat, Half Gallon, 64 fl oz",
-      "kind": "food",
-      "dietary_categories": [
-        "dairy"
-      ],
-      "unit_grams": 1949.5,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 1.89,
-          "promo": null,
-          "effective": 1.89
-        }
-      }
-    },
-    {
-      "product_id": "26559565",
-      "name": "Great Value Plain Nonfat Greek Yogurt, 32 oz Tub",
-      "kind": "food",
-      "dietary_categories": [
-        "dairy"
-      ],
-      "unit_grams": 907.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 2.94,
-          "promo": null,
-          "effective": 2.94
-        }
-      }
-    },
-    {
-      "product_id": "10452431",
-      "name": "Great Value Sharp Cheddar Finely Shredded Cheese, 8 oz Bag",
-      "kind": "food",
-      "dietary_categories": [
-        "dairy"
-      ],
-      "unit_grams": 226.8,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 2.22,
-          "promo": null,
-          "effective": 2.22
-        }
-      }
-    },
-    {
-      "product_id": "0001111041661",
-      "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
-      "kind": "food",
+      "fdc_id": 170872,
       "dietary_categories": [
         "dairy"
       ],
@@ -253,13 +158,31 @@
           "promo": null,
           "effective": 2.29
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 1.89,
+          "promo": null,
+          "effective": 1.89
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111041661",
+          "name": "Kroger\u00ae 1% Lowfat Milk Half Gallon",
+          "unit_grams": 1949.5
+        },
+        {
+          "source": "walmart",
+          "product_id": "10804537",
+          "name": "Great Value Milk 1% Low-fat, Half Gallon, 64 fl oz",
+          "unit_grams": 1949.5
+        }
+      ]
     },
     {
-      "product_id": "0001111008733",
-      "name": "Kroger\u00ae Instant Non-Fat Dry Milk Pouches",
+      "name": "Instant Non-Fat Dry Milk Pouches",
       "kind": "food",
+      "fdc_id": 170877,
       "dietary_categories": [
         "dairy"
       ],
@@ -272,13 +195,31 @@
           "promo": null,
           "effective": 3.79
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 8.86,
+          "promo": null,
+          "effective": 8.86
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111008733",
+          "name": "Kroger\u00ae Instant Non-Fat Dry Milk Pouches",
+          "unit_grams": 90.7
+        },
+        {
+          "source": "walmart",
+          "product_id": "10415722",
+          "name": "Great Value Instant Nonfat Dry Milk, 25.6 oz Bag",
+          "unit_grams": 725.7
+        }
+      ]
     },
     {
-      "product_id": "0001111050481",
-      "name": "Kroger\u00ae Plain Nonfat Greek Yogurt Cup",
+      "name": "Plain Nonfat Greek Yogurt Cup",
       "kind": "food",
+      "fdc_id": 2647437,
       "dietary_categories": [
         "dairy"
       ],
@@ -299,13 +240,31 @@
           "promo": null,
           "effective": 0.89
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 2.94,
+          "promo": null,
+          "effective": 2.94
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111050481",
+          "name": "Kroger\u00ae Plain Nonfat Greek Yogurt Cup",
+          "unit_grams": 149.7
+        },
+        {
+          "source": "walmart",
+          "product_id": "26559565",
+          "name": "Great Value Plain Nonfat Greek Yogurt, 32 oz Tub",
+          "unit_grams": 907.2
+        }
+      ]
     },
     {
-      "product_id": "0001111088301",
-      "name": "Kroger\u00ae Regular Evaporated Milk",
+      "name": "Regular Evaporated Milk",
       "kind": "food",
+      "fdc_id": 171276,
       "dietary_categories": [
         "dairy"
       ],
@@ -326,13 +285,31 @@
           "promo": null,
           "effective": 1.29
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111088301",
+          "name": "Kroger\u00ae Regular Evaporated Milk",
+          "unit_grams": 365.5
+        },
+        {
+          "source": "walmart",
+          "product_id": "10534163",
+          "name": "Great Value Evaporated Milk, 12 fl oz",
+          "unit_grams": 365.5
+        }
+      ]
     },
     {
-      "product_id": "0001111050158",
-      "name": "Kroger\u00ae Sharp Cheddar Shredded Cheese",
+      "name": "Sharp Cheddar Shredded Cheese",
       "kind": "food",
+      "fdc_id": 169901,
       "dietary_categories": [
         "dairy"
       ],
@@ -353,13 +330,31 @@
           "promo": 2.0,
           "effective": 2.0
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 2.22,
+          "promo": null,
+          "effective": 2.22
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111050158",
+          "name": "Kroger\u00ae Sharp Cheddar Shredded Cheese",
+          "unit_grams": 226.8
+        },
+        {
+          "source": "walmart",
+          "product_id": "10452431",
+          "name": "Great Value Sharp Cheddar Finely Shredded Cheese, 8 oz Bag",
+          "unit_grams": 226.8
+        }
+      ]
     },
     {
-      "product_id": "0001111060903",
-      "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
+      "name": "GRADE A 12CT LARGE EGGS Rack",
       "kind": "food",
+      "fdc_id": 171287,
       "dietary_categories": [
         "egg"
       ],
@@ -373,93 +368,20 @@
           "effective": 1.79
         },
         "walmart_national": null
-      }
-    },
-    {
-      "product_id": "274554918",
-      "name": "Crisco Pure Canola Oil, Cooking Oil, 16 fl oz",
-      "kind": "food",
-      "dietary_categories": [
-        "fat"
-      ],
-      "unit_grams": 433.9,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 2.97,
-          "promo": null,
-          "effective": 2.97
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111060903",
+          "name": "KROGER GRADE A 12CT LARGE EGGS Rack",
+          "unit_grams": 802.9
         }
-      }
+      ]
     },
     {
-      "product_id": "10315102",
-      "name": "Great Value Extra Virgin Olive Oil, 17 fl oz",
+      "name": "100% Pure Canola Oil",
       "kind": "food",
-      "dietary_categories": [
-        "fat"
-      ],
-      "unit_grams": 461.5,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 5.97,
-          "promo": null,
-          "effective": 5.97
-        }
-      }
-    },
-    {
-      "product_id": "10451002",
-      "name": "Great Value Vegetable Oil, Heart Healthy and Versatile, 48 fl oz Bottle",
-      "kind": "food",
-      "dietary_categories": [
-        "fat"
-      ],
-      "unit_grams": 1306.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 3.57,
-          "promo": null,
-          "effective": 3.57
-        }
-      }
-    },
-    {
-      "product_id": "0007010007062",
-      "name": "John Morrell\u00ae Snow Cap Edible Lard",
-      "kind": "food",
-      "dietary_categories": [
-        "fat",
-        "meat_red"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 2.59,
-          "promo": null,
-          "effective": 2.59
-        },
-        "west": null,
-        "south": {
-          "regular": 2.59,
-          "promo": null,
-          "effective": 2.59
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111085634",
-      "name": "Kroger\u00ae 100% Pure Canola Oil",
-      "kind": "food",
+      "fdc_id": 748278,
       "dietary_categories": [
         "fat"
       ],
@@ -480,13 +402,31 @@
           "promo": null,
           "effective": 4.19
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 2.97,
+          "promo": null,
+          "effective": 2.97
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111085634",
+          "name": "Kroger\u00ae 100% Pure Canola Oil",
+          "unit_grams": 1301.7
+        },
+        {
+          "source": "walmart",
+          "product_id": "274554918",
+          "name": "Crisco Pure Canola Oil, Cooking Oil, 16 fl oz",
+          "unit_grams": 433.9
+        }
+      ]
     },
     {
-      "product_id": "0001111085607",
-      "name": "Kroger\u00ae 100% Pure Vegetable Oil",
+      "name": "100% Pure Vegetable Oil",
       "kind": "food",
+      "fdc_id": 172370,
       "dietary_categories": [
         "fat"
       ],
@@ -507,13 +447,31 @@
           "promo": null,
           "effective": 2.99
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 3.57,
+          "promo": null,
+          "effective": 3.57
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111085607",
+          "name": "Kroger\u00ae 100% Pure Vegetable Oil",
+          "unit_grams": 870.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "10451002",
+          "name": "Great Value Vegetable Oil, Heart Healthy and Versatile, 48 fl oz Bottle",
+          "unit_grams": 1306.0
+        }
+      ]
     },
     {
-      "product_id": "0001111004412",
-      "name": "Kroger\u00ae Extra Virgin Olive Oil",
+      "name": "Extra Virgin Olive Oil",
       "kind": "food",
+      "fdc_id": 171413,
       "dietary_categories": [
         "fat"
       ],
@@ -534,113 +492,114 @@
           "promo": null,
           "effective": 6.49
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 5.97,
+          "promo": null,
+          "effective": 5.97
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111004412",
+          "name": "Kroger\u00ae Extra Virgin Olive Oil",
+          "unit_grams": 458.8
+        },
+        {
+          "source": "walmart",
+          "product_id": "10315102",
+          "name": "Great Value Extra Virgin Olive Oil, 17 fl oz",
+          "unit_grams": 461.5
+        }
+      ]
     },
     {
-      "product_id": "13439653",
-      "name": "Morrell Snow Cap\u00ae Lard 16 oz. Box",
+      "name": "Snow Cap Edible Lard",
       "kind": "food",
+      "fdc_id": 171401,
       "dietary_categories": [
         "fat",
         "meat_red"
       ],
       "unit_grams": 453.6,
       "prices_by_region": {
-        "midwest": null,
+        "midwest": {
+          "regular": 2.59,
+          "promo": null,
+          "effective": 2.59
+        },
         "west": null,
-        "south": null,
+        "south": {
+          "regular": 2.59,
+          "promo": null,
+          "effective": 2.59
+        },
         "walmart_national": {
           "regular": 15.45,
           "promo": null,
           "effective": 15.45
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0007010007062",
+          "name": "John Morrell\u00ae Snow Cap Edible Lard",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "13439653",
+          "name": "Morrell Snow Cap\u00ae Lard 16 oz. Box",
+          "unit_grams": 453.6
+        }
+      ]
     },
     {
-      "product_id": "0004800018718",
-      "name": "Chicken of the Sea Wild Caught Sardines in Olive Oil",
+      "name": "Alaskan Red Sockeye Salmon",
       "kind": "food",
+      "fdc_id": 175175,
       "dietary_categories": [
         "fish"
       ],
-      "unit_grams": 104.3,
+      "unit_grams": 213.2,
       "prices_by_region": {
         "midwest": {
-          "regular": 1.59,
+          "regular": 5.99,
           "promo": null,
-          "effective": 1.59
+          "effective": 5.99
         },
         "west": null,
         "south": {
-          "regular": 1.59,
+          "regular": 4.29,
           "promo": null,
-          "effective": 1.59
+          "effective": 4.29
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "1893833345",
-      "name": "Chicken of the Sea Wild Caught Sardines in Olive Oil 3.75 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "fish"
-      ],
-      "unit_grams": 106.3,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 1.98,
-          "promo": null,
-          "effective": 1.98
-        }
-      }
-    },
-    {
-      "product_id": "10295808",
-      "name": "Deming's Wild Alaskan Red Sockeye Salmon, 7.5 oz, No Allergens",
-      "kind": "food",
-      "dietary_categories": [
-        "fish"
-      ],
-      "unit_grams": 212.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
           "regular": 5.47,
           "promo": null,
           "effective": 5.47
         }
-      }
-    },
-    {
-      "product_id": "18480717103",
-      "name": "Grace Mackerel in Tomato Sauce (Classic Mackerel 5.5oz - 10 Pack)",
-      "kind": "food",
-      "dietary_categories": [
-        "fish"
-      ],
-      "unit_grams": 155.9,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 23.9,
-          "promo": null,
-          "effective": 23.9
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111004236",
+          "name": "Kroger\u00ae Alaskan Red Sockeye Salmon",
+          "unit_grams": 213.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "10295808",
+          "name": "Deming's Wild Alaskan Red Sockeye Salmon, 7.5 oz, No Allergens",
+          "unit_grams": 212.6
         }
-      }
+      ]
     },
     {
-      "product_id": "0005527096112",
-      "name": "Grace\u00ae Classic Mackerel with Tomato Sauce",
+      "name": "Classic Mackerel with Tomato Sauce",
       "kind": "food",
+      "fdc_id": 175121,
       "dietary_categories": [
         "fish"
       ],
@@ -661,82 +620,31 @@
           "promo": null,
           "effective": 1.69
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111004236",
-      "name": "Kroger\u00ae Alaskan Red Sockeye Salmon",
-      "kind": "food",
-      "dietary_categories": [
-        "fish"
-      ],
-      "unit_grams": 213.2,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 5.99,
-          "promo": null,
-          "effective": 5.99
-        },
-        "west": null,
-        "south": {
-          "regular": 4.29,
-          "promo": null,
-          "effective": 4.29
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111089084",
-      "name": "Kroger\u00ae Wild Caught Chunk Light Tuna in Water",
-      "kind": "food",
-      "dietary_categories": [
-        "fish"
-      ],
-      "unit_grams": 140.6,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 0.97,
-          "promo": null,
-          "effective": 0.97
-        },
-        "west": {
-          "regular": 0.97,
-          "promo": null,
-          "effective": 0.97
-        },
-        "south": {
-          "regular": 0.97,
-          "promo": null,
-          "effective": 0.97
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "10294375",
-      "name": "Snow's Wild Caught Chopped Clams in Clam Juice, 5g Protein per Serving, Shelf Stable Can, 6.5 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "fish"
-      ],
-      "unit_grams": 5.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
-          "regular": 4.38,
+          "regular": 23.9,
           "promo": null,
-          "effective": 4.38
+          "effective": 23.9
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0005527096112",
+          "name": "Grace\u00ae Classic Mackerel with Tomato Sauce",
+          "unit_grams": 154.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "18480717103",
+          "name": "Grace Mackerel in Tomato Sauce (Classic Mackerel 5.5oz - 10 Pack)",
+          "unit_grams": 155.9
+        }
+      ]
     },
     {
-      "product_id": "0079852516100",
-      "name": "Snow's\u00ae MSC Chopped Clams",
+      "name": "MSC Chopped Clams",
       "kind": "food",
+      "fdc_id": 171976,
       "dietary_categories": [
         "fish"
       ],
@@ -757,91 +665,117 @@
           "promo": null,
           "effective": 2.69
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 4.38,
+          "promo": null,
+          "effective": 4.38
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0079852516100",
+          "name": "Snow's\u00ae MSC Chopped Clams",
+          "unit_grams": 186.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "10294375",
+          "name": "Snow's Wild Caught Chopped Clams in Clam Juice, 5g Protein per Serving, Shelf Stable Can, 6.5 oz",
+          "unit_grams": 5.0
+        }
+      ]
     },
     {
-      "product_id": "51258906",
-      "name": "StarKist Chunk Light Tuna in Water, Wild Caught, 20g Protein, 5 oz, 4 Cans",
+      "name": "Wild Caught Chunk Light Tuna in Water",
       "kind": "food",
+      "fdc_id": 173708,
       "dietary_categories": [
         "fish"
       ],
-      "unit_grams": 20.0,
+      "unit_grams": 140.6,
       "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
+        "midwest": {
+          "regular": 0.97,
+          "promo": null,
+          "effective": 0.97
+        },
+        "west": {
+          "regular": 0.97,
+          "promo": null,
+          "effective": 0.97
+        },
+        "south": {
+          "regular": 0.97,
+          "promo": null,
+          "effective": 0.97
+        },
         "walmart_national": {
           "regular": 4.34,
           "promo": null,
           "effective": 4.34
         }
-      }
-    },
-    {
-      "product_id": "18031819782",
-      "name": "(Pack of 12) MALK Almond Unsweetened Shelf Stable 32 fl oz",
-      "kind": "food",
-      "dietary_categories": [
-        "fortified_b12",
-        "plant_milk"
-      ],
-      "unit_grams": 946.4,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 134.99,
-          "promo": null,
-          "effective": 134.99
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111089084",
+          "name": "Kroger\u00ae Wild Caught Chunk Light Tuna in Water",
+          "unit_grams": 140.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "51258906",
+          "name": "StarKist Chunk Light Tuna in Water, Wild Caught, 20g Protein, 5 oz, 4 Cans",
+          "unit_grams": 20.0
         }
-      }
+      ]
     },
     {
-      "product_id": "38384564",
-      "name": "Bragg Nutritional Yeast Seasoning, \u201cCheesy\u201d Flavor, Dairy-Free, Gluten Free, Active Dry Yeast, 4.5 oz",
+      "name": "Wild Caught Sardines in Olive Oil",
       "kind": "food",
+      "fdc_id": 175139,
       "dietary_categories": [
-        "fortified_b12"
+        "fish"
       ],
-      "unit_grams": 127.6,
+      "unit_grams": 104.3,
       "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 10.95,
+        "midwest": {
+          "regular": 1.59,
           "promo": null,
-          "effective": 10.95
+          "effective": 1.59
+        },
+        "west": null,
+        "south": {
+          "regular": 1.59,
+          "promo": null,
+          "effective": 1.59
+        },
+        "walmart_national": {
+          "regular": 1.98,
+          "promo": null,
+          "effective": 1.98
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0004800018718",
+          "name": "Chicken of the Sea Wild Caught Sardines in Olive Oil",
+          "unit_grams": 104.3
+        },
+        {
+          "source": "walmart",
+          "product_id": "1893833345",
+          "name": "Chicken of the Sea Wild Caught Sardines in Olive Oil 3.75 oz",
+          "unit_grams": 106.3
+        }
+      ]
     },
     {
-      "product_id": "10311408",
-      "name": "Cheerios, Heart Healthy Gluten Free Breakfast Cereal, 8.9 oz",
+      "name": "Cheerios Cereal Cup",
       "kind": "food",
-      "dietary_categories": [
-        "fortified_b12",
-        "grain"
-      ],
-      "unit_grams": 252.3,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 5.95,
-          "promo": null,
-          "effective": 5.95
-        }
-      }
-    },
-    {
-      "product_id": "0001600014159",
-      "name": "General Mills Cheerios Cereal Cup",
-      "kind": "food",
+      "fdc_id": 173884,
       "dietary_categories": [
         "fortified_b12",
         "grain"
@@ -855,13 +789,31 @@
           "promo": null,
           "effective": 1.25
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 5.95,
+          "promo": null,
+          "effective": 5.95
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001600014159",
+          "name": "General Mills Cheerios Cereal Cup",
+          "unit_grams": 36.3
+        },
+        {
+          "source": "walmart",
+          "product_id": "10311408",
+          "name": "Cheerios, Heart Healthy Gluten Free Breakfast Cereal, 8.9 oz",
+          "unit_grams": 252.3
+        }
+      ]
     },
     {
-      "product_id": "0086102900011",
       "name": "MALK Organic Dairy Free Unsweetened Almond Milk",
       "kind": "food",
+      "fdc_id": 1999631,
       "dietary_categories": [
         "fortified_b12",
         "plant_milk"
@@ -879,53 +831,72 @@
           "promo": 4.49,
           "effective": 4.49
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "157991373",
-      "name": "Planet Oat, Original Oatmilk, Dairy Free, 52 oz, Refrigerated Cardboard Carton",
-      "kind": "food",
-      "dietary_categories": [
-        "fortified_b12",
-        "plant_milk"
-      ],
-      "unit_grams": 1474.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
-          "regular": 3.48,
+          "regular": 134.99,
           "promo": null,
-          "effective": 3.48
+          "effective": 134.99
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0086102900011",
+          "name": "MALK Organic Dairy Free Unsweetened Almond Milk",
+          "unit_grams": 852.9
+        },
+        {
+          "source": "walmart",
+          "product_id": "18031819782",
+          "name": "(Pack of 12) MALK Almond Unsweetened Shelf Stable 32 fl oz",
+          "unit_grams": 946.4
+        }
+      ]
     },
     {
-      "product_id": "10295044",
-      "name": "Silk Dairy Free, Gluten Free, Original Soy Milk, Plant Based Milk, 64 fl oz Half Gallon",
+      "name": "Non-Dairy Nutritional Yeast",
       "kind": "food",
+      "fdc_id": 167717,
       "dietary_categories": [
-        "fortified_b12",
-        "plant_milk"
+        "fortified_b12"
       ],
-      "unit_grams": 1949.5,
+      "unit_grams": 127.0,
       "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 3.97,
+        "midwest": {
+          "regular": 6.29,
           "promo": null,
-          "effective": 3.97
+          "effective": 6.29
+        },
+        "west": null,
+        "south": {
+          "regular": 6.49,
+          "promo": null,
+          "effective": 6.49
+        },
+        "walmart_national": {
+          "regular": 10.95,
+          "promo": null,
+          "effective": 10.95
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111009081",
+          "name": "Simple Truth\u00ae Non-Dairy Nutritional Yeast",
+          "unit_grams": 127.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "38384564",
+          "name": "Bragg Nutritional Yeast Seasoning, \u201cCheesy\u201d Flavor, Dairy-Free, Gluten Free, Active Dry Yeast, 4.5 oz",
+          "unit_grams": 127.6
+        }
+      ]
     },
     {
-      "product_id": "0002529360039",
-      "name": "Silk Original Dairy Free Vegan Soy Milk Half Gallon",
+      "name": "Original Dairy Free Vegan Soy Milk Half Gallon",
       "kind": "food",
+      "fdc_id": 173768,
       "dietary_categories": [
         "fortified_b12",
         "plant_milk"
@@ -947,36 +918,31 @@
           "promo": null,
           "effective": 4.29
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 3.97,
+          "promo": null,
+          "effective": 3.97
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0002529360039",
+          "name": "Silk Original Dairy Free Vegan Soy Milk Half Gallon",
+          "unit_grams": 1949.5
+        },
+        {
+          "source": "walmart",
+          "product_id": "10295044",
+          "name": "Silk Dairy Free, Gluten Free, Original Soy Milk, Plant Based Milk, 64 fl oz Half Gallon",
+          "unit_grams": 1949.5
+        }
+      ]
     },
     {
-      "product_id": "0001111009081",
-      "name": "Simple Truth\u00ae Non-Dairy Nutritional Yeast",
+      "name": "Plant Based Non Dairy Original Oat Milk",
       "kind": "food",
-      "dietary_categories": [
-        "fortified_b12"
-      ],
-      "unit_grams": 127.0,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 6.29,
-          "promo": null,
-          "effective": 6.29
-        },
-        "west": null,
-        "south": {
-          "regular": 6.49,
-          "promo": null,
-          "effective": 6.49
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111013270",
-      "name": "Simple Truth\u00ae Plant Based Non Dairy Original Oat Milk",
-      "kind": "food",
+      "fdc_id": 2257046,
       "dietary_categories": [
         "fortified_b12",
         "plant_milk"
@@ -998,97 +964,31 @@
           "promo": null,
           "effective": 3.99
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "1697780379",
-      "name": "(4 pack) Great Value Seedless Golden Raisins Carton, 15 oz (425g)",
-      "kind": "food",
-      "dietary_categories": [
-        "fruit"
-      ],
-      "unit_grams": 425.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
-          "regular": 14.88,
+          "regular": 3.48,
           "promo": null,
-          "effective": 14.88
+          "effective": 3.48
         }
-      }
-    },
-    {
-      "product_id": "15716722",
-      "name": "Grandma's Original Molasses, Unsulphured, 12 fl oz Jar",
-      "kind": "food",
-      "dietary_categories": [
-        "fruit"
-      ],
-      "unit_grams": 354.9,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 9.85,
-          "promo": null,
-          "effective": 9.85
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111013270",
+          "name": "Simple Truth\u00ae Plant Based Non Dairy Original Oat Milk",
+          "unit_grams": 1797.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "157991373",
+          "name": "Planet Oat, Original Oatmilk, Dairy Free, 52 oz, Refrigerated Cardboard Carton",
+          "unit_grams": 1474.2
         }
-      }
+      ]
     },
     {
-      "product_id": "0007240071124",
-      "name": "Grandma's\u00ae Original Molasses 12 Fluid Ounce Bottle",
+      "name": "Frozen Sliced Bananas",
       "kind": "food",
-      "dietary_categories": [
-        "fruit"
-      ],
-      "unit_grams": 354.9,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 3.99,
-          "promo": null,
-          "effective": 3.99
-        },
-        "west": {
-          "regular": 4.49,
-          "promo": null,
-          "effective": 4.49
-        },
-        "south": {
-          "regular": 3.99,
-          "promo": null,
-          "effective": 3.99
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "14336395",
-      "name": "Great Value Sliced Bananas, 16 oz Bag",
-      "kind": "food",
-      "dietary_categories": [
-        "fruit"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 2.47,
-          "promo": null,
-          "effective": 2.47
-        }
-      }
-    },
-    {
-      "product_id": "0001111016103",
-      "name": "Kroger\u00ae Frozen Sliced Bananas",
-      "kind": "food",
+      "fdc_id": 1105073,
       "dietary_categories": [
         "fruit"
       ],
@@ -1105,89 +1005,31 @@
           "promo": null,
           "effective": 2.49
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111015685",
-      "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
-      "kind": "food",
-      "dietary_categories": [
-        "fruit"
-      ],
-      "unit_grams": 1421.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": {
-          "regular": 4.49,
-          "promo": null,
-          "effective": 4.49
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111091435",
-      "name": "Kroger\u00ae Seedless Raisins",
-      "kind": "food",
-      "dietary_categories": [
-        "fruit"
-      ],
-      "unit_grams": 28.3,
-      "prices_by_region": {
-        "midwest": null,
-        "west": {
-          "regular": 2.79,
-          "promo": null,
-          "effective": 2.79
-        },
-        "south": {
-          "regular": 2.29,
-          "promo": null,
-          "effective": 2.29
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "22282247",
-      "name": "Tropicana Pure Premium No Pulp Original Orange Juice 89 Oz",
-      "kind": "food",
-      "dietary_categories": [
-        "fruit"
-      ],
-      "unit_grams": 2523.1,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
-          "regular": 8.27,
+          "regular": 2.47,
           "promo": null,
-          "effective": 8.27
+          "effective": 2.47
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111016103",
+          "name": "Kroger\u00ae Frozen Sliced Bananas",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "14336395",
+          "name": "Great Value Sliced Bananas, 16 oz Bag",
+          "unit_grams": 453.6
+        }
+      ]
     },
     {
-      "product_id": "21943647",
-      "name": "Wyman's Mango Berry, 1 - 48 oz Bag (Frozen)",
+      "name": "Mango Berry Frozen Fruit",
       "kind": "food",
-      "dietary_categories": [
-        "fruit"
-      ],
-      "unit_grams": 1360.8,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0007990000123",
-      "name": "Wyman's\u00ae Mango Berry Frozen Fruit",
-      "kind": "food",
+      "fdc_id": 171710,
       "dietary_categories": [
         "fruit"
       ],
@@ -1205,98 +1047,200 @@
           "effective": 16.99
         },
         "walmart_national": null
-      }
-    },
-    {
-      "product_id": "10294413",
-      "name": "Argo Gluten-Free Corn Starch Thickening Powder,16 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 2.44,
-          "promo": null,
-          "effective": 2.44
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0007990000123",
+          "name": "Wyman's\u00ae Mango Berry Frozen Fruit",
+          "unit_grams": 1360.8
+        },
+        {
+          "source": "walmart",
+          "product_id": "21943647",
+          "name": "Wyman's Mango Berry, 1 - 48 oz Bag (Frozen)",
+          "unit_grams": 1360.8
         }
-      }
+      ]
     },
     {
-      "product_id": "10309200",
-      "name": "Barilla Classic Non-GMO, Kosher Certified Tri-Color Rotini Pasta, 12 oz",
+      "name": "Original Molasses 12 Fluid Ounce Bottle",
       "kind": "food",
+      "fdc_id": 168820,
       "dietary_categories": [
-        "grain"
+        "fruit"
       ],
-      "unit_grams": 340.2,
+      "unit_grams": 354.9,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 3.99,
+          "promo": null,
+          "effective": 3.99
+        },
+        "west": {
+          "regular": 4.49,
+          "promo": null,
+          "effective": 4.49
+        },
+        "south": {
+          "regular": 3.99,
+          "promo": null,
+          "effective": 3.99
+        },
+        "walmart_national": {
+          "regular": 9.85,
+          "promo": null,
+          "effective": 9.85
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0007240071124",
+          "name": "Grandma's\u00ae Original Molasses 12 Fluid Ounce Bottle",
+          "unit_grams": 354.9
+        },
+        {
+          "source": "walmart",
+          "product_id": "15716722",
+          "name": "Grandma's Original Molasses, Unsulphured, 12 fl oz Jar",
+          "unit_grams": 354.9
+        }
+      ]
+    },
+    {
+      "name": "Premium Homestyle Orange Juice with Pulp",
+      "kind": "food",
+      "fdc_id": 169103,
+      "dietary_categories": [
+        "fruit"
+      ],
+      "unit_grams": 1421.6,
       "prices_by_region": {
         "midwest": null,
         "west": null,
-        "south": null,
+        "south": {
+          "regular": 4.49,
+          "promo": null,
+          "effective": 4.49
+        },
         "walmart_national": {
+          "regular": 8.27,
+          "promo": null,
+          "effective": 8.27
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111015685",
+          "name": "Kroger\u00ae Premium Homestyle Orange Juice with Pulp",
+          "unit_grams": 1421.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "22282247",
+          "name": "Tropicana Pure Premium No Pulp Original Orange Juice 89 Oz",
+          "unit_grams": 2523.1
+        }
+      ]
+    },
+    {
+      "name": "Seedless Raisins",
+      "kind": "food",
+      "fdc_id": 168166,
+      "dietary_categories": [
+        "fruit"
+      ],
+      "unit_grams": 28.3,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
           "regular": 2.79,
           "promo": null,
           "effective": 2.79
+        },
+        "south": {
+          "regular": 2.29,
+          "promo": null,
+          "effective": 2.29
+        },
+        "walmart_national": {
+          "regular": 14.88,
+          "promo": null,
+          "effective": 14.88
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111091435",
+          "name": "Kroger\u00ae Seedless Raisins",
+          "unit_grams": 28.3
+        },
+        {
+          "source": "walmart",
+          "product_id": "1697780379",
+          "name": "(4 pack) Great Value Seedless Golden Raisins Carton, 15 oz (425g)",
+          "unit_grams": 425.2
+        }
+      ]
     },
     {
-      "product_id": "0003997811322",
-      "name": "Bob's Red Mill Vital Wheat Gluten Flour",
+      "name": "100% Whole Grain Rolled 1 Minute Oats",
       "kind": "food",
+      "fdc_id": 2346396,
       "dietary_categories": [
         "grain"
       ],
-      "unit_grams": 567.0,
+      "unit_grams": 512.6,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 3.29,
+          "promo": null,
+          "effective": 3.29
+        },
+        "south": {
+          "regular": 3.69,
+          "promo": null,
+          "effective": 3.69
+        },
+        "walmart_national": {
+          "regular": 32.98,
+          "promo": null,
+          "effective": 32.98
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111002805",
+          "name": "Simple Truth Organic\u00ae 100% Whole Grain Rolled 1 Minute Oats",
+          "unit_grams": 512.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "19613752843",
+          "name": "Simple Truth 100% Whole Grain Rolled 1 Minute Oats 18 oz - 5 Pack",
+          "unit_grams": 510.3
+        }
+      ]
+    },
+    {
+      "name": "100% Whole Wheat Bread",
+      "kind": "food",
+      "fdc_id": 174916,
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 680.4,
       "prices_by_region": {
         "midwest": {
-          "regular": 9.99,
+          "regular": 2.49,
           "promo": null,
-          "effective": 9.99
+          "effective": 2.49
         },
-        "west": null,
-        "south": {
-          "regular": 8.99,
-          "promo": null,
-          "effective": 8.99
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "598909418",
-      "name": "Bob's Red Mill Vital Wheat Gluten Flour, 20 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 567.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 13.94,
-          "promo": null,
-          "effective": 13.94
-        }
-      }
-    },
-    {
-      "product_id": "10804551",
-      "name": "Great Value 100% Whole Wheat Round Top Bread, 20 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 567.0,
-      "prices_by_region": {
-        "midwest": null,
         "west": null,
         "south": null,
         "walmart_national": {
@@ -1304,107 +1248,26 @@
           "promo": null,
           "effective": 1.97
         }
-      }
-    },
-    {
-      "product_id": "10403017",
-      "name": "Great Value All-Purpose Enriched Flour, 5 lb Bag",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 2268.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 2.38,
-          "promo": null,
-          "effective": 2.38
-        }
-      }
-    },
-    {
-      "product_id": "13045034",
-      "name": "Great Value Brown Rice, Whole Grain, 16 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 0.88,
-          "promo": null,
-          "effective": 0.88
-        }
-      }
-    },
-    {
-      "product_id": "10315394",
-      "name": "Great Value Long Grain Enriched Rice, 32 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 907.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 1.77,
-          "promo": null,
-          "effective": 1.77
-        }
-      }
-    },
-    {
-      "product_id": "24389861",
-      "name": "Kretschmer Original Toasted Wheat Germ, 4g Plant Protein per Serving, 12 oz Jar",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 4.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 4.58,
-          "promo": null,
-          "effective": 4.58
-        }
-      }
-    },
-    {
-      "product_id": "0081815801219",
-      "name": "Kretschmer\u00ae Original Toasted Wheat Germ",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 340.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": {
-          "regular": 5.49,
-          "promo": null,
-          "effective": 5.49
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111008480",
+          "name": "Kroger\u00ae 100% Whole Wheat Bread",
+          "unit_grams": 680.4
         },
-        "walmart_national": null
-      }
+        {
+          "source": "walmart",
+          "product_id": "10804551",
+          "name": "Great Value 100% Whole Wheat Round Top Bread, 20 oz",
+          "unit_grams": 567.0
+        }
+      ]
     },
     {
-      "product_id": "0001111085072",
-      "name": "Kroger 12 Oz Tri Color Rotini Pasta",
+      "name": "12 Oz Tri Color Rotini Pasta",
       "kind": "food",
+      "fdc_id": 169736,
       "dietary_categories": [
         "grain"
       ],
@@ -1425,32 +1288,31 @@
           "promo": null,
           "effective": 1.25
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111008480",
-      "name": "Kroger\u00ae 100% Whole Wheat Bread",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 680.4,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 2.49,
+        "walmart_national": {
+          "regular": 2.79,
           "promo": null,
-          "effective": 2.49
+          "effective": 2.79
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111085072",
+          "name": "Kroger 12 Oz Tri Color Rotini Pasta",
+          "unit_grams": 340.2
         },
-        "west": null,
-        "south": null,
-        "walmart_national": null
-      }
+        {
+          "source": "walmart",
+          "product_id": "10309200",
+          "name": "Barilla Classic Non-GMO, Kosher Certified Tri-Color Rotini Pasta, 12 oz",
+          "unit_grams": 340.2
+        }
+      ]
     },
     {
-      "product_id": "0001111085401",
-      "name": "Kroger\u00ae All Purpose Bleached Enriched Flour",
+      "name": "All Purpose Bleached Enriched Flour",
       "kind": "food",
+      "fdc_id": 168894,
       "dietary_categories": [
         "grain"
       ],
@@ -1467,13 +1329,31 @@
           "promo": null,
           "effective": 1.59
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 2.38,
+          "promo": null,
+          "effective": 2.38
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111085401",
+          "name": "Kroger\u00ae All Purpose Bleached Enriched Flour",
+          "unit_grams": 907.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "10403017",
+          "name": "Great Value All-Purpose Enriched Flour, 5 lb Bag",
+          "unit_grams": 2268.0
+        }
+      ]
     },
     {
-      "product_id": "0001111089875",
-      "name": "Kroger\u00ae Enriched Long Grain White Rice",
+      "name": "Enriched Long Grain White Rice",
       "kind": "food",
+      "fdc_id": 2512381,
       "dietary_categories": [
         "grain"
       ],
@@ -1490,13 +1370,31 @@
           "promo": null,
           "effective": 1.79
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 1.77,
+          "promo": null,
+          "effective": 1.77
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111089875",
+          "name": "Kroger\u00ae Enriched Long Grain White Rice",
+          "unit_grams": 907.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "10315394",
+          "name": "Great Value Long Grain Enriched Rice, 32 oz",
+          "unit_grams": 907.2
+        }
+      ]
     },
     {
-      "product_id": "0001111089711",
-      "name": "Kroger\u00ae Long Grain Brown Rice",
+      "name": "Long Grain Brown Rice",
       "kind": "food",
+      "fdc_id": 2512380,
       "dietary_categories": [
         "grain"
       ],
@@ -1517,13 +1415,68 @@
           "promo": null,
           "effective": 0.99
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 0.88,
+          "promo": null,
+          "effective": 0.88
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111089711",
+          "name": "Kroger\u00ae Long Grain Brown Rice",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "13045034",
+          "name": "Great Value Brown Rice, Whole Grain, 16 oz",
+          "unit_grams": 453.6
+        }
+      ]
     },
     {
-      "product_id": "0001111013646",
-      "name": "Kroger\u00ae Pure Corn Starch",
+      "name": "Original Toasted Wheat Germ",
       "kind": "food",
+      "fdc_id": 168892,
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 340.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": {
+          "regular": 5.49,
+          "promo": null,
+          "effective": 5.49
+        },
+        "walmart_national": {
+          "regular": 4.58,
+          "promo": null,
+          "effective": 4.58
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0081815801219",
+          "name": "Kretschmer\u00ae Original Toasted Wheat Germ",
+          "unit_grams": 340.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "24389861",
+          "name": "Kretschmer Original Toasted Wheat Germ, 4g Plant Protein per Serving, 12 oz Jar",
+          "unit_grams": 4.0
+        }
+      ]
+    },
+    {
+      "name": "Pure Corn Starch",
+      "kind": "food",
+      "fdc_id": 169698,
       "dietary_categories": [
         "grain"
       ],
@@ -1544,51 +1497,31 @@
           "promo": null,
           "effective": 1.99
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "11994394",
-      "name": "Quaker Quick Pearled Barley, 11 oz, Single Pack, Low Fat, Sodium Free",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 311.8,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
-          "regular": 2.74,
+          "regular": 2.44,
           "promo": null,
-          "effective": 2.74
+          "effective": 2.44
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111013646",
+          "name": "Kroger\u00ae Pure Corn Starch",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "10294413",
+          "name": "Argo Gluten-Free Corn Starch Thickening Powder,16 oz",
+          "unit_grams": 453.6
+        }
+      ]
     },
     {
-      "product_id": "10312465",
-      "name": "Quaker Yellow Enriched and Degerminated Corn Meal, 24 oz. Canister",
+      "name": "Quick Pearled Barley",
       "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 680.4,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 5.99,
-          "promo": null,
-          "effective": 5.99
-        }
-      }
-    },
-    {
-      "product_id": "0003000007210",
-      "name": "Quaker\u00ae Quick Pearled Barley",
-      "kind": "food",
+      "fdc_id": 170284,
       "dietary_categories": [
         "grain"
       ],
@@ -1605,13 +1538,72 @@
           "promo": null,
           "effective": 3.49
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 2.74,
+          "promo": null,
+          "effective": 2.74
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0003000007210",
+          "name": "Quaker\u00ae Quick Pearled Barley",
+          "unit_grams": 313.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "11994394",
+          "name": "Quaker Quick Pearled Barley, 11 oz, Single Pack, Low Fat, Sodium Free",
+          "unit_grams": 311.8
+        }
+      ]
     },
     {
-      "product_id": "0003000003050",
-      "name": "Quaker\u00ae Yellow Corn Meal For Baking",
+      "name": "Vital Wheat Gluten Flour",
       "kind": "food",
+      "fdc_id": 168944,
+      "dietary_categories": [
+        "grain"
+      ],
+      "unit_grams": 567.0,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 9.99,
+          "promo": null,
+          "effective": 9.99
+        },
+        "west": null,
+        "south": {
+          "regular": 8.99,
+          "promo": null,
+          "effective": 8.99
+        },
+        "walmart_national": {
+          "regular": 13.94,
+          "promo": null,
+          "effective": 13.94
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0003997811322",
+          "name": "Bob's Red Mill Vital Wheat Gluten Flour",
+          "unit_grams": 567.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "598909418",
+          "name": "Bob's Red Mill Vital Wheat Gluten Flour, 20 oz",
+          "unit_grams": 567.0
+        }
+      ]
+    },
+    {
+      "name": "Yellow Corn Meal For Baking",
+      "kind": "food",
+      "fdc_id": 169697,
       "dietary_categories": [
         "grain"
       ],
@@ -1628,231 +1620,31 @@
           "promo": null,
           "effective": 3.99
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "19613752843",
-      "name": "Simple Truth 100% Whole Grain Rolled 1 Minute Oats 18 oz - 5 Pack",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 510.3,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
-          "regular": 32.98,
+          "regular": 5.99,
           "promo": null,
-          "effective": 32.98
+          "effective": 5.99
         }
-      }
-    },
-    {
-      "product_id": "0001111002805",
-      "name": "Simple Truth Organic\u00ae 100% Whole Grain Rolled 1 Minute Oats",
-      "kind": "food",
-      "dietary_categories": [
-        "grain"
-      ],
-      "unit_grams": 512.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": {
-          "regular": 3.29,
-          "promo": null,
-          "effective": 3.29
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0003000003050",
+          "name": "Quaker\u00ae Yellow Corn Meal For Baking",
+          "unit_grams": 680.4
         },
-        "south": {
-          "regular": 3.69,
-          "promo": null,
-          "effective": 3.69
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0004133102487",
-      "name": "Goya\u00ae Green Split Peas",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 1.99,
-          "promo": null,
-          "effective": 1.99
-        },
-        "west": null,
-        "south": {
-          "regular": 1.49,
-          "promo": null,
-          "effective": 1.49
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "10534038",
-      "name": "Great Value Black Beans, 15 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 425.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 0.86,
-          "promo": null,
-          "effective": 0.86
+        {
+          "source": "walmart",
+          "product_id": "10312465",
+          "name": "Quaker Yellow Enriched and Degerminated Corn Meal, 24 oz. Canister",
+          "unit_grams": 680.4
         }
-      }
+      ]
     },
     {
-      "product_id": "10315983",
-      "name": "Great Value Black Beans, 32 oz",
+      "name": "Black Beans",
       "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 907.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 2.74,
-          "promo": null,
-          "effective": 2.74
-        }
-      }
-    },
-    {
-      "product_id": "10534042",
-      "name": "Great Value Great Northern Beans, 15.5 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 439.4,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 0.86,
-          "promo": null,
-          "effective": 0.86
-        }
-      }
-    },
-    {
-      "product_id": "223902117",
-      "name": "Great Value Green Split Peas, 1 lb",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 1.42,
-          "promo": null,
-          "effective": 1.42
-        }
-      }
-    },
-    {
-      "product_id": "10534039",
-      "name": "Great Value Light Red Kidney Beans, 15.5 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 439.4,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 0.86,
-          "promo": null,
-          "effective": 0.86
-        }
-      }
-    },
-    {
-      "product_id": "294723013",
-      "name": "Great Value Pinto Beans 1 Lb",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 1.0,
-          "promo": null,
-          "effective": 1.0
-        }
-      }
-    },
-    {
-      "product_id": "10534043",
-      "name": "Great Value Pinto Beans, 15.5 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 439.4,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 0.92,
-          "promo": null,
-          "effective": 0.92
-        }
-      }
-    },
-    {
-      "product_id": "777839120",
-      "name": "Jif Creamy Peanut Butter, 16 oz Jar",
-      "kind": "food",
-      "dietary_categories": [
-        "legume",
-        "nut"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 3.0,
-          "promo": null,
-          "effective": 3.0
-        }
-      }
-    },
-    {
-      "product_id": "0001111072567",
-      "name": "Kroger\u00ae Black Beans",
-      "kind": "food",
+      "fdc_id": 175188,
       "dietary_categories": [
         "legume"
       ],
@@ -1869,13 +1661,72 @@
           "promo": null,
           "effective": 1.0
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 0.86,
+          "promo": null,
+          "effective": 0.86
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111072567",
+          "name": "Kroger\u00ae Black Beans",
+          "unit_grams": 435.4
+        },
+        {
+          "source": "walmart",
+          "product_id": "10534038",
+          "name": "Great Value Black Beans, 15 oz",
+          "unit_grams": 425.2
+        }
+      ]
     },
     {
-      "product_id": "0001111001618",
-      "name": "Kroger\u00ae Creamy Peanut Butter",
+      "name": "Black Beans Dry",
       "kind": "food",
+      "fdc_id": 175186,
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 1.79,
+          "promo": null,
+          "effective": 1.79
+        },
+        "south": {
+          "regular": 1.79,
+          "promo": null,
+          "effective": 1.79
+        },
+        "walmart_national": {
+          "regular": 2.74,
+          "promo": null,
+          "effective": 2.74
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0007152401215",
+          "name": "La Preferida\u00ae Black Beans Dry",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "10315983",
+          "name": "Great Value Black Beans, 32 oz",
+          "unit_grams": 907.2
+        }
+      ]
+    },
+    {
+      "name": "Creamy Peanut Butter",
+      "kind": "food",
+      "fdc_id": 172458,
       "dietary_categories": [
         "legume",
         "nut"
@@ -1893,195 +1744,31 @@
           "promo": 2.19,
           "effective": 2.19
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111015380",
-      "name": "Kroger\u00ae Edamame",
-      "kind": "food",
-      "dietary_categories": [
-        "legume",
-        "soy"
-      ],
-      "unit_grams": 340.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111071789",
-      "name": "Kroger\u00ae Great Northern Beans",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 435.4,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 1.0,
-          "promo": null,
-          "effective": 1.0
-        },
-        "west": {
-          "regular": 0.99,
-          "promo": null,
-          "effective": 0.99
-        },
-        "south": {
-          "regular": 1.0,
-          "promo": null,
-          "effective": 1.0
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111089864",
-      "name": "Kroger\u00ae Pinto Beans",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 907.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": {
-          "regular": 2.49,
-          "promo": null,
-          "effective": 2.49
-        },
-        "south": {
-          "regular": 2.29,
-          "promo": null,
-          "effective": 2.29
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0007152401215",
-      "name": "La Preferida\u00ae Black Beans Dry",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": {
-          "regular": 1.79,
-          "promo": null,
-          "effective": 1.79
-        },
-        "south": {
-          "regular": 1.79,
-          "promo": null,
-          "effective": 1.79
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111071786",
-      "name": "Light Red Kidney Beans",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 435.4,
-      "prices_by_region": {
-        "midwest": null,
-        "west": {
-          "regular": 0.99,
-          "promo": null,
-          "effective": 0.99
-        },
-        "south": {
-          "regular": 1.0,
-          "promo": null,
-          "effective": 1.0
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "19131101402",
-      "name": "Marketside Organic Extra Firm Tofu, 16 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "legume",
-        "soy"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111072565",
-      "name": "Pinto Beans",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 435.4,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": {
-          "regular": 1.0,
-          "promo": null,
-          "effective": 1.0
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "10314018",
-      "name": "S&W Garbanzo Beans - Low Sodium - 15.5 oz. Can",
-      "kind": "food",
-      "dietary_categories": [
-        "legume"
-      ],
-      "unit_grams": 439.4,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
-          "regular": 1.48,
+          "regular": 3.0,
           "promo": null,
-          "effective": 1.48
+          "effective": 3.0
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111001618",
+          "name": "Kroger\u00ae Creamy Peanut Butter",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "777839120",
+          "name": "Jif Creamy Peanut Butter, 16 oz Jar",
+          "unit_grams": 453.6
+        }
+      ]
     },
     {
-      "product_id": "163182093",
-      "name": "Seapoint Farms Edamame Shelled Soybeans, Net Content 12 oz (Frozen)",
+      "name": "Dry Green Lentils",
       "kind": "food",
-      "dietary_categories": [
-        "legume",
-        "soy"
-      ],
-      "unit_grams": 340.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111086292",
-      "name": "Simple Truth Organic\u00ae Dry Green Lentils",
-      "kind": "food",
+      "fdc_id": 2644283,
       "dietary_categories": [
         "legume"
       ],
@@ -2102,13 +1789,61 @@
           "promo": null,
           "effective": 2.99
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 1.78,
+          "promo": null,
+          "effective": 1.78
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111086292",
+          "name": "Simple Truth Organic\u00ae Dry Green Lentils",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "12444736",
+          "name": "Verde Valle Foods Lentils, 15 oz",
+          "unit_grams": 425.2
+        }
+      ]
     },
     {
-      "product_id": "0001111091342",
-      "name": "Simple Truth Organic\u00ae Extra Firm Tofu",
+      "name": "Edamame",
       "kind": "food",
+      "fdc_id": 168410,
+      "dietary_categories": [
+        "legume",
+        "soy"
+      ],
+      "unit_grams": 340.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": null,
+        "south": null,
+        "walmart_national": null
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111015380",
+          "name": "Kroger\u00ae Edamame",
+          "unit_grams": 340.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "163182093",
+          "name": "Seapoint Farms Edamame Shelled Soybeans, Net Content 12 oz (Frozen)",
+          "unit_grams": 340.2
+        }
+      ]
+    },
+    {
+      "name": "Extra Firm Tofu",
+      "kind": "food",
+      "fdc_id": 172475,
       "dietary_categories": [
         "legume",
         "soy"
@@ -2131,12 +1866,153 @@
           "effective": 1.49
         },
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111091342",
+          "name": "Simple Truth Organic\u00ae Extra Firm Tofu",
+          "unit_grams": 399.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "19131101402",
+          "name": "Marketside Organic Extra Firm Tofu, 16 oz",
+          "unit_grams": 453.6
+        }
+      ]
     },
     {
-      "product_id": "0001111012210",
-      "name": "Simple Truth Organic\u00ae Low Sodium Garbanzo Beans",
+      "name": "Great Northern Beans",
       "kind": "food",
+      "fdc_id": 175192,
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 435.4,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        },
+        "west": {
+          "regular": 0.99,
+          "promo": null,
+          "effective": 0.99
+        },
+        "south": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        },
+        "walmart_national": {
+          "regular": 0.86,
+          "promo": null,
+          "effective": 0.86
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111071789",
+          "name": "Kroger\u00ae Great Northern Beans",
+          "unit_grams": 435.4
+        },
+        {
+          "source": "walmart",
+          "product_id": "10534042",
+          "name": "Great Value Great Northern Beans, 15.5 oz",
+          "unit_grams": 439.4
+        }
+      ]
+    },
+    {
+      "name": "Green Split Peas",
+      "kind": "food",
+      "fdc_id": 172428,
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": {
+          "regular": 1.99,
+          "promo": null,
+          "effective": 1.99
+        },
+        "west": null,
+        "south": {
+          "regular": 1.49,
+          "promo": null,
+          "effective": 1.49
+        },
+        "walmart_national": {
+          "regular": 1.42,
+          "promo": null,
+          "effective": 1.42
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0004133102487",
+          "name": "Goya\u00ae Green Split Peas",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "223902117",
+          "name": "Great Value Green Split Peas, 1 lb",
+          "unit_grams": 453.6
+        }
+      ]
+    },
+    {
+      "name": "Light Red Kidney Beans",
+      "kind": "food",
+      "fdc_id": 174285,
+      "dietary_categories": [
+        "legume"
+      ],
+      "unit_grams": 435.4,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 0.99,
+          "promo": null,
+          "effective": 0.99
+        },
+        "south": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        },
+        "walmart_national": {
+          "regular": 0.86,
+          "promo": null,
+          "effective": 0.86
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111071786",
+          "name": "Light Red Kidney Beans",
+          "unit_grams": 435.4
+        },
+        {
+          "source": "walmart",
+          "product_id": "10534039",
+          "name": "Great Value Light Red Kidney Beans, 15.5 oz",
+          "unit_grams": 439.4
+        }
+      ]
+    },
+    {
+      "name": "Low Sodium Garbanzo Beans",
+      "kind": "food",
+      "fdc_id": 2644288,
       "dietary_categories": [
         "legume"
       ],
@@ -2157,62 +2033,109 @@
           "promo": null,
           "effective": 1.25
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 1.48,
+          "promo": null,
+          "effective": 1.48
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111012210",
+          "name": "Simple Truth Organic\u00ae Low Sodium Garbanzo Beans",
+          "unit_grams": 421.8
+        },
+        {
+          "source": "walmart",
+          "product_id": "10314018",
+          "name": "S&W Garbanzo Beans - Low Sodium - 15.5 oz. Can",
+          "unit_grams": 439.4
+        }
+      ]
     },
     {
-      "product_id": "12444736",
-      "name": "Verde Valle Foods Lentils, 15 oz",
+      "name": "Pinto Beans",
       "kind": "food",
+      "fdc_id": 170086,
       "dietary_categories": [
         "legume"
       ],
-      "unit_grams": 425.2,
+      "unit_grams": 907.2,
       "prices_by_region": {
         "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 1.78,
+        "west": {
+          "regular": 2.49,
           "promo": null,
-          "effective": 1.78
+          "effective": 2.49
+        },
+        "south": {
+          "regular": 2.29,
+          "promo": null,
+          "effective": 2.29
+        },
+        "walmart_national": {
+          "regular": 0.92,
+          "promo": null,
+          "effective": 0.92
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111089864",
+          "name": "Kroger\u00ae Pinto Beans",
+          "unit_grams": 907.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "10534043",
+          "name": "Great Value Pinto Beans, 15.5 oz",
+          "unit_grams": 439.4
+        }
+      ]
     },
     {
-      "product_id": "479601462",
-      "name": "80% Lean / 20% Fat Ground Beef Chuck, 1 lb Tray, Fresh, All Natural*",
+      "name": "Pinto Beans",
       "kind": "food",
+      "fdc_id": 175201,
       "dietary_categories": [
-        "meat_red"
+        "legume"
       ],
-      "unit_grams": 453.6,
+      "unit_grams": 435.4,
       "prices_by_region": {
         "midwest": null,
         "west": null,
-        "south": null,
-        "walmart_national": null
-      }
+        "south": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        },
+        "walmart_national": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111072565",
+          "name": "Pinto Beans",
+          "unit_grams": 435.4
+        },
+        {
+          "source": "walmart",
+          "product_id": "294723013",
+          "name": "Great Value Pinto Beans 1 Lb",
+          "unit_grams": 453.6
+        }
+      ]
     },
     {
-      "product_id": "850011309",
-      "name": "Farmer John, Pork Shoulder Butt Roast, 4.9-8.5lb (Fresh), 20 Grams of Protein per 4 oz Serving",
+      "name": "80/20 Ground Beef Roll 1 LB",
       "kind": "food",
-      "dietary_categories": [
-        "meat_red"
-      ],
-      "unit_grams": 3855.5,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111097971",
-      "name": "Kroger\u00ae 80/20 Ground Beef Roll 1 LB",
-      "kind": "food",
+      "fdc_id": 2514744,
       "dietary_categories": [
         "meat_red"
       ],
@@ -2230,12 +2153,26 @@
           "effective": 4.99
         },
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111097971",
+          "name": "Kroger\u00ae 80/20 Ground Beef Roll 1 LB",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "479601462",
+          "name": "80% Lean / 20% Fat Ground Beef Chuck, 1 lb Tray, Fresh, All Natural*",
+          "unit_grams": 453.6
+        }
+      ]
     },
     {
-      "product_id": "0020799300000",
-      "name": "Kroger\u00ae Fresh Natural Pork Shoulder Butt Bone In",
+      "name": "Fresh Natural Pork Shoulder Butt Bone In",
       "kind": "food",
+      "fdc_id": 167843,
       "dietary_categories": [
         "meat_red"
       ],
@@ -2257,57 +2194,100 @@
           "effective": 2.69
         },
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0020799300000",
+          "name": "Kroger\u00ae Fresh Natural Pork Shoulder Butt Bone In",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "850011309",
+          "name": "Farmer John, Pork Shoulder Butt Roast, 4.9-8.5lb (Fresh), 20 Grams of Protein per 4 oz Serving",
+          "unit_grams": 3855.5
+        }
+      ]
     },
     {
-      "product_id": "15935205520",
-      "name": "Foster Farms Chicken Leg Quarters, 20g Protein per 4oz Serving, 10.0 lb Bag",
+      "name": "Boneless Skinless Uncooked Chicken Breast With Rib Meat Thin-Sliced",
       "kind": "food",
+      "fdc_id": 171052,
       "dietary_categories": [
         "meat_white"
       ],
-      "unit_grams": 20.0,
+      "unit_grams": 567.0,
       "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
+        "midwest": {
+          "regular": 5.0,
+          "promo": null,
+          "effective": 5.0
+        },
+        "west": {
+          "regular": 5.0,
+          "promo": null,
+          "effective": 5.0
+        },
+        "south": {
+          "regular": 5.0,
+          "promo": null,
+          "effective": 5.0
+        },
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111018028",
+          "name": "Kroger\u00ae Boneless Skinless Uncooked Chicken Breast With Rib Meat Thin-Sliced",
+          "unit_grams": 567.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "27935840",
+          "name": "Freshness Guaranteed Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray",
+          "unit_grams": 2766.9
+        }
+      ]
     },
     {
-      "product_id": "128300189",
-      "name": "Foster Farms Fresh & Natural Cage Free Chicken Livers, 1.0-1.4 lb",
+      "name": "Chicken Livers",
       "kind": "food",
+      "fdc_id": 171060,
       "dietary_categories": [
         "meat_white"
       ],
-      "unit_grams": 635.0,
+      "unit_grams": 567.0,
       "prices_by_region": {
         "midwest": null,
         "west": null,
-        "south": null,
+        "south": {
+          "regular": 2.49,
+          "promo": null,
+          "effective": 2.49
+        },
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111063602",
+          "name": "Heritage Farm\u00ae Chicken Livers",
+          "unit_grams": 567.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "128300189",
+          "name": "Foster Farms Fresh & Natural Cage Free Chicken Livers, 1.0-1.4 lb",
+          "unit_grams": 635.0
+        }
+      ]
     },
     {
-      "product_id": "140139691",
-      "name": "Foster Farms Fresh & Natural Cage Free Whole Chicken, 5.0-5.5 lb",
-      "kind": "food",
-      "dietary_categories": [
-        "meat_white"
-      ],
-      "unit_grams": 2494.8,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0029062400000",
       "name": "Fresh Chicken Seasoned Leg Quarters",
       "kind": "food",
+      "fdc_id": 172378,
       "dietary_categories": [
         "meat_white"
       ],
@@ -2325,73 +2305,26 @@
           "effective": 1.99
         },
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0029062400000",
+          "name": "Fresh Chicken Seasoned Leg Quarters",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "15935205520",
+          "name": "Foster Farms Chicken Leg Quarters, 20g Protein per 4oz Serving, 10.0 lb Bag",
+          "unit_grams": 20.0
+        }
+      ]
     },
     {
-      "product_id": "27935840",
-      "name": "Freshness Guaranteed Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray",
+      "name": "Fresh Organic Whole Chicken with Giblets",
       "kind": "food",
-      "dietary_categories": [
-        "meat_white"
-      ],
-      "unit_grams": 2766.9,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111063602",
-      "name": "Heritage Farm\u00ae Chicken Livers",
-      "kind": "food",
-      "dietary_categories": [
-        "meat_white"
-      ],
-      "unit_grams": 567.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": {
-          "regular": 2.49,
-          "promo": null,
-          "effective": 2.49
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111018028",
-      "name": "Kroger\u00ae Boneless Skinless Uncooked Chicken Breast With Rib Meat Thin-Sliced",
-      "kind": "food",
-      "dietary_categories": [
-        "meat_white"
-      ],
-      "unit_grams": 567.0,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 5.0,
-          "promo": null,
-          "effective": 5.0
-        },
-        "west": {
-          "regular": 5.0,
-          "promo": null,
-          "effective": 5.0
-        },
-        "south": {
-          "regular": 5.0,
-          "promo": null,
-          "effective": 5.0
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0020891150000",
-      "name": "Simple Truth Organic\u00ae Fresh Organic Whole Chicken with Giblets",
-      "kind": "food",
+      "fdc_id": 171447,
       "dietary_categories": [
         "meat_white"
       ],
@@ -2409,12 +2342,26 @@
           "effective": 3.99
         },
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0020891150000",
+          "name": "Simple Truth Organic\u00ae Fresh Organic Whole Chicken with Giblets",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "140139691",
+          "name": "Foster Farms Fresh & Natural Cage Free Whole Chicken, 5.0-5.5 lb",
+          "unit_grams": 2494.8
+        }
+      ]
     },
     {
-      "product_id": "0060933284834",
       "name": "e.l.f. Cosmetics Hydrating Satin Camo Concealer Tan Walnut",
       "kind": "food",
+      "fdc_id": 2346394,
       "dietary_categories": [
         "nut"
       ],
@@ -2432,31 +2379,20 @@
           "effective": 9.29
         },
         "walmart_national": null
-      }
-    },
-    {
-      "product_id": "52633655",
-      "name": "Great Value Organic Ground Cold Milled Flax Seed, 16 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "seed"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 3.54,
-          "promo": null,
-          "effective": 3.54
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0060933284834",
+          "name": "e.l.f. Cosmetics Hydrating Satin Camo Concealer Tan Walnut",
+          "unit_grams": 5.9
         }
-      }
+      ]
     },
     {
-      "product_id": "0081957301590",
       "name": "Happy Tot Organics Super Morning Stage 4 Organic Bananas, Dragon Fruit, Coconut milk, Oats & Chia",
       "kind": "food",
+      "fdc_id": 170554,
       "dietary_categories": [
         "seed"
       ],
@@ -2477,32 +2413,31 @@
           "promo": 1.5,
           "effective": 1.5
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "47707492",
-      "name": "Happy Tot Organics Super Morning Stage 4, Bananas Blueberries Yogurt & Oats, Organic Tot Food, 4 oz Pouch",
-      "kind": "food",
-      "dietary_categories": [
-        "seed"
-      ],
-      "unit_grams": 113.4,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
           "regular": 1.74,
           "promo": null,
           "effective": 1.74
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0081957301590",
+          "name": "Happy Tot Organics Super Morning Stage 4 Organic Bananas, Dragon Fruit, Coconut milk, Oats & Chia",
+          "unit_grams": 121.8
+        },
+        {
+          "source": "walmart",
+          "product_id": "47707492",
+          "name": "Happy Tot Organics Super Morning Stage 4, Bananas Blueberries Yogurt & Oats, Organic Tot Food, 4 oz Pouch",
+          "unit_grams": 113.4
+        }
+      ]
     },
     {
-      "product_id": "0001111008287",
-      "name": "Simple Truth Organic\u00ae Whole Ground Flaxseed Meal",
+      "name": "Whole Ground Flaxseed Meal",
       "kind": "food",
+      "fdc_id": 169414,
       "dietary_categories": [
         "seed"
       ],
@@ -2523,92 +2458,138 @@
           "promo": null,
           "effective": 3.69
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 3.54,
+          "promo": null,
+          "effective": 3.54
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111008287",
+          "name": "Simple Truth Organic\u00ae Whole Ground Flaxseed Meal",
+          "unit_grams": 453.6
+        },
+        {
+          "source": "walmart",
+          "product_id": "52633655",
+          "name": "Great Value Organic Ground Cold Milled Flax Seed, 16 oz",
+          "unit_grams": 453.6
+        }
+      ]
     },
     {
-      "product_id": "431513547",
-      "name": "Great Value Chopped Spinach, 12 oz (Frozen)",
+      "name": "Diced Frozen Sweet Potato",
       "kind": "food",
+      "fdc_id": 168016,
       "dietary_categories": [
         "vegetable"
       ],
       "unit_grams": 340.2,
       "prices_by_region": {
-        "midwest": null,
+        "midwest": {
+          "regular": 2.49,
+          "promo": null,
+          "effective": 2.49
+        },
         "west": null,
-        "south": null,
+        "south": {
+          "regular": 2.49,
+          "promo": null,
+          "effective": 2.49
+        },
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111004382",
+          "name": "Simple Truth Organic\u00ae Diced Frozen Sweet Potato",
+          "unit_grams": 340.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "106137651",
+          "name": "Great Value Diced Sweet Potatoes, 10 oz (Frozen)",
+          "unit_grams": 283.5
+        }
+      ]
     },
     {
-      "product_id": "106137651",
-      "name": "Great Value Diced Sweet Potatoes, 10 oz (Frozen)",
+      "name": "Frozen Spinach Chopped",
       "kind": "food",
+      "fdc_id": 169287,
       "dietary_categories": [
         "vegetable"
       ],
-      "unit_grams": 283.5,
+      "unit_grams": 285.8,
       "prices_by_region": {
         "midwest": null,
         "west": null,
-        "south": null,
+        "south": {
+          "regular": 1.69,
+          "promo": null,
+          "effective": 1.69
+        },
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111087226",
+          "name": "Kroger\u00ae Frozen Spinach Chopped",
+          "unit_grams": 285.8
+        },
+        {
+          "source": "walmart",
+          "product_id": "431513547",
+          "name": "Great Value Chopped Spinach, 12 oz (Frozen)",
+          "unit_grams": 340.2
+        }
+      ]
     },
     {
-      "product_id": "967902497",
-      "name": "Great Value Frozen Broccoli Cuts, Steamable In Bag, 12 oz",
+      "name": "Italian Style Diced Tomatoes",
       "kind": "food",
+      "fdc_id": 170138,
       "dietary_categories": [
         "vegetable"
       ],
-      "unit_grams": 340.2,
+      "unit_grams": 412.8,
       "prices_by_region": {
         "midwest": null,
         "west": null,
-        "south": null,
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "10416113",
-      "name": "Great Value Italian-Style Petite Diced Tomatoes with Basil, Garlic and Oregano, 14.5 oz",
-      "kind": "food",
-      "dietary_categories": [
-        "vegetable"
-      ],
-      "unit_grams": 411.1,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
+        "south": {
+          "regular": 1.0,
+          "promo": null,
+          "effective": 1.0
+        },
         "walmart_national": {
           "regular": 0.96,
           "promo": null,
           "effective": 0.96
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111011974",
+          "name": "Kroger\u00ae Italian Style Diced Tomatoes",
+          "unit_grams": 412.8
+        },
+        {
+          "source": "walmart",
+          "product_id": "10416113",
+          "name": "Great Value Italian-Style Petite Diced Tomatoes with Basil, Garlic and Oregano, 14.5 oz",
+          "unit_grams": 411.1
+        }
+      ]
     },
     {
-      "product_id": "13925193",
-      "name": "Great Value Sliced Carrots, 8.25 oz Can",
+      "name": "No Salt Added Sliced Carrots - 8.25oz can",
       "kind": "food",
-      "dietary_categories": [
-        "vegetable"
-      ],
-      "unit_grams": 233.9,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111080553",
-      "name": "Kroger No Salt Added Sliced Carrots - 8.25oz can",
-      "kind": "food",
+      "fdc_id": 2258587,
       "dietary_categories": [
         "vegetable"
       ],
@@ -2618,12 +2599,94 @@
         "west": null,
         "south": null,
         "walmart_national": null
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111080553",
+          "name": "Kroger No Salt Added Sliced Carrots - 8.25oz can",
+          "unit_grams": 231.3
+        },
+        {
+          "source": "walmart",
+          "product_id": "13925193",
+          "name": "Great Value Sliced Carrots, 8.25 oz Can",
+          "unit_grams": 233.9
+        }
+      ]
     },
     {
-      "product_id": "0001111081365",
-      "name": "Kroger Whole White Potatoes - 15oz can",
+      "name": "Organic Green Cabbage",
       "kind": "food",
+      "fdc_id": 2346407,
+      "dietary_categories": [
+        "vegetable"
+      ],
+      "unit_grams": 453.6,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 1.59,
+          "promo": null,
+          "effective": 1.59
+        },
+        "south": {
+          "regular": 1.39,
+          "promo": null,
+          "effective": 1.39
+        },
+        "walmart_national": null
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0000000094069",
+          "name": "Organic Green Cabbage",
+          "unit_grams": 453.6
+        }
+      ]
+    },
+    {
+      "name": "Traditional Favorites Frozen Broccoli Cuts",
+      "kind": "food",
+      "fdc_id": 169968,
+      "dietary_categories": [
+        "vegetable"
+      ],
+      "unit_grams": 340.2,
+      "prices_by_region": {
+        "midwest": null,
+        "west": {
+          "regular": 1.5,
+          "promo": null,
+          "effective": 1.5
+        },
+        "south": {
+          "regular": 1.25,
+          "promo": null,
+          "effective": 1.25
+        },
+        "walmart_national": null
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111089724",
+          "name": "Kroger\u00ae Traditional Favorites Frozen Broccoli Cuts",
+          "unit_grams": 340.2
+        },
+        {
+          "source": "walmart",
+          "product_id": "967902497",
+          "name": "Great Value Frozen Broccoli Cuts, Steamable In Bag, 12 oz",
+          "unit_grams": 340.2
+        }
+      ]
+    },
+    {
+      "name": "Whole White Potatoes - 15oz can",
+      "kind": "food",
+      "fdc_id": 170028,
       "dietary_categories": [
         "vegetable"
       ],
@@ -2644,139 +2707,31 @@
           "promo": null,
           "effective": 1.09
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111087226",
-      "name": "Kroger\u00ae Frozen Spinach Chopped",
-      "kind": "food",
-      "dietary_categories": [
-        "vegetable"
-      ],
-      "unit_grams": 285.8,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": {
-          "regular": 1.69,
-          "promo": null,
-          "effective": 1.69
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111011974",
-      "name": "Kroger\u00ae Italian Style Diced Tomatoes",
-      "kind": "food",
-      "dietary_categories": [
-        "vegetable"
-      ],
-      "unit_grams": 412.8,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": {
-          "regular": 1.0,
-          "promo": null,
-          "effective": 1.0
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111089724",
-      "name": "Kroger\u00ae Traditional Favorites Frozen Broccoli Cuts",
-      "kind": "food",
-      "dietary_categories": [
-        "vegetable"
-      ],
-      "unit_grams": 340.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": {
-          "regular": 1.5,
-          "promo": null,
-          "effective": 1.5
-        },
-        "south": {
-          "regular": 1.25,
-          "promo": null,
-          "effective": 1.25
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "14011104614",
-      "name": "Libby's Whole White Potatoes, 2 Pack, 15 oz. Can",
-      "kind": "food",
-      "dietary_categories": [
-        "vegetable"
-      ],
-      "unit_grams": 425.2,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
           "regular": 11.68,
           "promo": null,
           "effective": 11.68
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0001111081365",
+          "name": "Kroger Whole White Potatoes - 15oz can",
+          "unit_grams": 421.8
+        },
+        {
+          "source": "walmart",
+          "product_id": "14011104614",
+          "name": "Libby's Whole White Potatoes, 2 Pack, 15 oz. Can",
+          "unit_grams": 425.2
+        }
+      ]
     },
     {
-      "product_id": "0000000094069",
-      "name": "Organic Green Cabbage",
-      "kind": "food",
-      "dietary_categories": [
-        "vegetable"
-      ],
-      "unit_grams": 453.6,
-      "prices_by_region": {
-        "midwest": null,
-        "west": {
-          "regular": 1.59,
-          "promo": null,
-          "effective": 1.59
-        },
-        "south": {
-          "regular": 1.39,
-          "promo": null,
-          "effective": 1.39
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0001111004382",
-      "name": "Simple Truth Organic\u00ae Diced Frozen Sweet Potato",
-      "kind": "food",
-      "dietary_categories": [
-        "vegetable"
-      ],
-      "unit_grams": 340.2,
-      "prices_by_region": {
-        "midwest": {
-          "regular": 2.49,
-          "promo": null,
-          "effective": 2.49
-        },
-        "west": null,
-        "south": {
-          "regular": 2.49,
-          "promo": null,
-          "effective": 2.49
-        },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "0004126001928",
-      "name": "Kroger\u00ae Vitamin B12 Tablets 1000mcg",
+      "name": "Vitamin B12 Tablets 1000mcg",
       "kind": "supplement",
+      "fdc_id": 0,
       "dietary_categories": [
         "b12",
         "supplement"
@@ -2797,59 +2752,31 @@
           "promo": 8.49,
           "effective": 8.49
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "22027160",
-      "name": "Spring Valley Vitamin B12 Timed-Release 1000 mcg, 60 ct",
-      "kind": "supplement",
-      "dietary_categories": [
-        "b12",
-        "supplement"
-      ],
-      "unit_grams": 18.0,
-      "tablet_g": 0.3,
-      "count": 60,
-      "max_tablets_per_day": 1.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
           "regular": 3.74,
           "promo": null,
           "effective": 3.74
         }
-      }
-    },
-    {
-      "product_id": "10324793",
-      "name": "Equate Calcium + D3 Tablets, 600 mg + 20 mcg D3, 120 ct",
-      "kind": "supplement",
-      "dietary_categories": [
-        "calcium",
-        "supplement"
-      ],
-      "unit_grams": 192.0,
-      "tablet_g": 1.6,
-      "count": 120,
-      "max_tablets_per_day": 2.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
-        "walmart_national": {
-          "regular": 7.98,
-          "promo": null,
-          "effective": 7.98
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0004126001928",
+          "name": "Kroger\u00ae Vitamin B12 Tablets 1000mcg",
+          "unit_grams": 24.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "22027160",
+          "name": "Spring Valley Vitamin B12 Timed-Release 1000 mcg, 60 ct",
+          "unit_grams": 18.0
         }
-      }
+      ]
     },
     {
-      "product_id": "0004126036240",
-      "name": "Kroger\u00ae Calcium 600 mg with 20mcg Vitamin D Bone Health Tablets",
+      "name": "Calcium 600 mg with 20mcg Vitamin D Bone Health Tablets",
       "kind": "supplement",
+      "fdc_id": 0,
       "dietary_categories": [
         "calcium",
         "supplement"
@@ -2866,36 +2793,31 @@
           "promo": 10.49,
           "effective": 10.49
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "14711329",
-      "name": "Equate Complete Multivitamin/Multimineral Tablets, Adults, 200 ct",
-      "kind": "supplement",
-      "dietary_categories": [
-        "multivitamin",
-        "supplement"
-      ],
-      "unit_grams": 260.0,
-      "tablet_g": 1.3,
-      "count": 200,
-      "max_tablets_per_day": 1.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
-          "regular": 9.82,
+          "regular": 7.98,
           "promo": null,
-          "effective": 9.82
+          "effective": 7.98
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0004126036240",
+          "name": "Kroger\u00ae Calcium 600 mg with 20mcg Vitamin D Bone Health Tablets",
+          "unit_grams": 192.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "10324793",
+          "name": "Equate Calcium + D3 Tablets, 600 mg + 20 mcg D3, 120 ct",
+          "unit_grams": 192.0
+        }
+      ]
     },
     {
-      "product_id": "0004126001650",
-      "name": "Kroger\u00ae Men's Multivitamin One Daily Tablets",
+      "name": "Men's Multivitamin One Daily Tablets",
       "kind": "supplement",
+      "fdc_id": 0,
       "dietary_categories": [
         "multivitamin",
         "supplement"
@@ -2920,13 +2842,31 @@
           "promo": null,
           "effective": 12.49
         },
-        "walmart_national": null
-      }
+        "walmart_national": {
+          "regular": 9.82,
+          "promo": null,
+          "effective": 9.82
+        }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0004126001650",
+          "name": "Kroger\u00ae Men's Multivitamin One Daily Tablets",
+          "unit_grams": 312.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "14711329",
+          "name": "Equate Complete Multivitamin/Multimineral Tablets, Adults, 200 ct",
+          "unit_grams": 260.0
+        }
+      ]
     },
     {
-      "product_id": "0003160401617",
-      "name": "Nature Made\u00ae Flaxseed Oil Softgels 1000mg",
+      "name": "Flaxseed Oil Softgels 1000mg",
       "kind": "supplement",
+      "fdc_id": 0,
       "dietary_categories": [
         "omega_3",
         "supplement"
@@ -2947,31 +2887,26 @@
           "promo": 12.99,
           "effective": 12.99
         },
-        "walmart_national": null
-      }
-    },
-    {
-      "product_id": "295377177",
-      "name": "Spring Valley Flaxseed Oil Softgels, 1000 mg, 100 ct",
-      "kind": "supplement",
-      "dietary_categories": [
-        "omega_3",
-        "supplement"
-      ],
-      "unit_grams": 120.0,
-      "tablet_g": 1.2,
-      "count": 100,
-      "max_tablets_per_day": 3.0,
-      "prices_by_region": {
-        "midwest": null,
-        "west": null,
-        "south": null,
         "walmart_national": {
           "regular": 8.16,
           "promo": null,
           "effective": 8.16
         }
-      }
+      },
+      "variants": [
+        {
+          "source": "kroger",
+          "product_id": "0003160401617",
+          "name": "Nature Made\u00ae Flaxseed Oil Softgels 1000mg",
+          "unit_grams": 120.0
+        },
+        {
+          "source": "walmart",
+          "product_id": "295377177",
+          "name": "Spring Valley Flaxseed Oil Softgels, 1000 mg, 100 ct",
+          "unit_grams": 120.0
+        }
+      ]
     }
   ],
   "solutions": [
