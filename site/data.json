@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-06T13:25:47Z",
+  "updated": "2026-05-07T18:22:47Z",
   "profile": "adult_male_31_50_moderate",
   "nutrient_targets": [
     {
@@ -150,18 +150,21 @@
         "midwest": {
           "regular": 2.29,
           "promo": null,
-          "effective": 2.29
+          "effective": 2.29,
+          "unit_grams": 1949.5
         },
         "west": null,
         "south": {
           "regular": 2.29,
           "promo": null,
-          "effective": 2.29
+          "effective": 2.29,
+          "unit_grams": 1949.5
         },
         "walmart_national": {
           "regular": 1.89,
           "promo": null,
-          "effective": 1.89
+          "effective": 1.89,
+          "unit_grams": 1949.5
         }
       },
       "variants": [
@@ -193,12 +196,14 @@
         "south": {
           "regular": 3.79,
           "promo": null,
-          "effective": 3.79
+          "effective": 3.79,
+          "unit_grams": 90.7
         },
         "walmart_national": {
           "regular": 8.86,
           "promo": null,
-          "effective": 8.86
+          "effective": 8.86,
+          "unit_grams": 725.7
         }
       },
       "variants": [
@@ -228,22 +233,26 @@
         "midwest": {
           "regular": 0.89,
           "promo": null,
-          "effective": 0.89
+          "effective": 0.89,
+          "unit_grams": 149.7
         },
         "west": {
           "regular": 0.89,
           "promo": null,
-          "effective": 0.89
+          "effective": 0.89,
+          "unit_grams": 149.7
         },
         "south": {
           "regular": 0.89,
           "promo": null,
-          "effective": 0.89
+          "effective": 0.89,
+          "unit_grams": 149.7
         },
         "walmart_national": {
           "regular": 2.94,
           "promo": null,
-          "effective": 2.94
+          "effective": 2.94,
+          "unit_grams": 907.2
         }
       },
       "variants": [
@@ -273,22 +282,26 @@
         "midwest": {
           "regular": 1.29,
           "promo": null,
-          "effective": 1.29
+          "effective": 1.29,
+          "unit_grams": 365.5
         },
         "west": {
           "regular": 1.39,
           "promo": null,
-          "effective": 1.39
+          "effective": 1.39,
+          "unit_grams": 365.5
         },
         "south": {
           "regular": 1.29,
           "promo": null,
-          "effective": 1.29
+          "effective": 1.29,
+          "unit_grams": 365.5
         },
         "walmart_national": {
           "regular": 1.0,
           "promo": null,
-          "effective": 1.0
+          "effective": 1.0,
+          "unit_grams": 365.5
         }
       },
       "variants": [
@@ -318,22 +331,26 @@
         "midwest": {
           "regular": 2.49,
           "promo": 2.33,
-          "effective": 2.33
+          "effective": 2.33,
+          "unit_grams": 226.8
         },
         "west": {
           "regular": 2.49,
           "promo": 2.33,
-          "effective": 2.33
+          "effective": 2.33,
+          "unit_grams": 226.8
         },
         "south": {
           "regular": 2.49,
           "promo": 2.0,
-          "effective": 2.0
+          "effective": 2.0,
+          "unit_grams": 226.8
         },
         "walmart_national": {
           "regular": 2.22,
           "promo": null,
-          "effective": 2.22
+          "effective": 2.22,
+          "unit_grams": 226.8
         }
       },
       "variants": [
@@ -365,7 +382,8 @@
         "south": {
           "regular": 1.79,
           "promo": null,
-          "effective": 1.79
+          "effective": 1.79,
+          "unit_grams": 802.9
         },
         "walmart_national": null
       },
@@ -390,22 +408,26 @@
         "midwest": {
           "regular": 4.29,
           "promo": null,
-          "effective": 4.29
+          "effective": 4.29,
+          "unit_grams": 1301.7
         },
         "west": {
           "regular": 3.99,
           "promo": null,
-          "effective": 3.99
+          "effective": 3.99,
+          "unit_grams": 1301.7
         },
         "south": {
           "regular": 4.19,
           "promo": null,
-          "effective": 4.19
+          "effective": 4.19,
+          "unit_grams": 1301.7
         },
         "walmart_national": {
           "regular": 2.97,
           "promo": null,
-          "effective": 2.97
+          "effective": 2.97,
+          "unit_grams": 433.9
         }
       },
       "variants": [
@@ -435,22 +457,26 @@
         "midwest": {
           "regular": 2.99,
           "promo": null,
-          "effective": 2.99
+          "effective": 2.99,
+          "unit_grams": 870.6
         },
         "west": {
           "regular": 3.39,
           "promo": null,
-          "effective": 3.39
+          "effective": 3.39,
+          "unit_grams": 870.6
         },
         "south": {
           "regular": 2.99,
           "promo": null,
-          "effective": 2.99
+          "effective": 2.99,
+          "unit_grams": 870.6
         },
         "walmart_national": {
           "regular": 3.57,
           "promo": null,
-          "effective": 3.57
+          "effective": 3.57,
+          "unit_grams": 1306.0
         }
       },
       "variants": [
@@ -480,22 +506,26 @@
         "midwest": {
           "regular": 6.49,
           "promo": null,
-          "effective": 6.49
+          "effective": 6.49,
+          "unit_grams": 458.8
         },
         "west": {
           "regular": 6.99,
           "promo": null,
-          "effective": 6.99
+          "effective": 6.99,
+          "unit_grams": 458.8
         },
         "south": {
           "regular": 6.49,
           "promo": null,
-          "effective": 6.49
+          "effective": 6.49,
+          "unit_grams": 458.8
         },
         "walmart_national": {
           "regular": 5.97,
           "promo": null,
-          "effective": 5.97
+          "effective": 5.97,
+          "unit_grams": 461.5
         }
       },
       "variants": [
@@ -526,18 +556,21 @@
         "midwest": {
           "regular": 2.59,
           "promo": null,
-          "effective": 2.59
+          "effective": 2.59,
+          "unit_grams": 453.6
         },
         "west": null,
         "south": {
           "regular": 2.59,
           "promo": null,
-          "effective": 2.59
+          "effective": 2.59,
+          "unit_grams": 453.6
         },
         "walmart_national": {
           "regular": 15.45,
           "promo": null,
-          "effective": 15.45
+          "effective": 15.45,
+          "unit_grams": 453.6
         }
       },
       "variants": [
@@ -567,18 +600,21 @@
         "midwest": {
           "regular": 5.99,
           "promo": null,
-          "effective": 5.99
+          "effective": 5.99,
+          "unit_grams": 213.2
         },
         "west": null,
         "south": {
           "regular": 4.29,
           "promo": null,
-          "effective": 4.29
+          "effective": 4.29,
+          "unit_grams": 213.2
         },
         "walmart_national": {
           "regular": 5.47,
           "promo": null,
-          "effective": 5.47
+          "effective": 5.47,
+          "unit_grams": 212.6
         }
       },
       "variants": [
@@ -608,22 +644,26 @@
         "midwest": {
           "regular": 1.99,
           "promo": null,
-          "effective": 1.99
+          "effective": 1.99,
+          "unit_grams": 154.2
         },
         "west": {
           "regular": 1.99,
           "promo": null,
-          "effective": 1.99
+          "effective": 1.99,
+          "unit_grams": 154.2
         },
         "south": {
           "regular": 1.69,
           "promo": null,
-          "effective": 1.69
+          "effective": 1.69,
+          "unit_grams": 154.2
         },
         "walmart_national": {
           "regular": 23.9,
           "promo": null,
-          "effective": 23.9
+          "effective": 23.9,
+          "unit_grams": 155.9
         }
       },
       "variants": [
@@ -653,22 +693,26 @@
         "midwest": {
           "regular": 2.99,
           "promo": null,
-          "effective": 2.99
+          "effective": 2.99,
+          "unit_grams": 186.0
         },
         "west": {
           "regular": 2.59,
           "promo": null,
-          "effective": 2.59
+          "effective": 2.59,
+          "unit_grams": 186.0
         },
         "south": {
           "regular": 2.69,
           "promo": null,
-          "effective": 2.69
+          "effective": 2.69,
+          "unit_grams": 186.0
         },
         "walmart_national": {
           "regular": 4.38,
           "promo": null,
-          "effective": 4.38
+          "effective": 4.38,
+          "unit_grams": 5.0
         }
       },
       "variants": [
@@ -698,22 +742,26 @@
         "midwest": {
           "regular": 0.97,
           "promo": null,
-          "effective": 0.97
+          "effective": 0.97,
+          "unit_grams": 140.6
         },
         "west": {
           "regular": 0.97,
           "promo": null,
-          "effective": 0.97
+          "effective": 0.97,
+          "unit_grams": 140.6
         },
         "south": {
           "regular": 0.97,
           "promo": null,
-          "effective": 0.97
+          "effective": 0.97,
+          "unit_grams": 140.6
         },
         "walmart_national": {
           "regular": 4.34,
           "promo": null,
-          "effective": 4.34
+          "effective": 4.34,
+          "unit_grams": 20.0
         }
       },
       "variants": [
@@ -743,18 +791,21 @@
         "midwest": {
           "regular": 1.59,
           "promo": null,
-          "effective": 1.59
+          "effective": 1.59,
+          "unit_grams": 104.3
         },
         "west": null,
         "south": {
           "regular": 1.59,
           "promo": null,
-          "effective": 1.59
+          "effective": 1.59,
+          "unit_grams": 104.3
         },
         "walmart_national": {
           "regular": 1.98,
           "promo": null,
-          "effective": 1.98
+          "effective": 1.98,
+          "unit_grams": 106.3
         }
       },
       "variants": [
@@ -787,12 +838,14 @@
         "south": {
           "regular": 1.25,
           "promo": null,
-          "effective": 1.25
+          "effective": 1.25,
+          "unit_grams": 36.3
         },
         "walmart_national": {
           "regular": 5.95,
           "promo": null,
-          "effective": 5.95
+          "effective": 5.95,
+          "unit_grams": 252.3
         }
       },
       "variants": [
@@ -823,18 +876,21 @@
         "midwest": {
           "regular": 6.99,
           "promo": 4.49,
-          "effective": 4.49
+          "effective": 4.49,
+          "unit_grams": 852.9
         },
         "west": null,
         "south": {
           "regular": 6.49,
           "promo": 4.49,
-          "effective": 4.49
+          "effective": 4.49,
+          "unit_grams": 852.9
         },
         "walmart_national": {
           "regular": 134.99,
           "promo": null,
-          "effective": 134.99
+          "effective": 134.99,
+          "unit_grams": 946.4
         }
       },
       "variants": [
@@ -864,18 +920,21 @@
         "midwest": {
           "regular": 6.29,
           "promo": null,
-          "effective": 6.29
+          "effective": 6.29,
+          "unit_grams": 127.0
         },
         "west": null,
         "south": {
           "regular": 6.49,
           "promo": null,
-          "effective": 6.49
+          "effective": 6.49,
+          "unit_grams": 127.0
         },
         "walmart_national": {
           "regular": 10.95,
           "promo": null,
-          "effective": 10.95
+          "effective": 10.95,
+          "unit_grams": 127.6
         }
       },
       "variants": [
@@ -906,22 +965,26 @@
         "midwest": {
           "regular": 4.29,
           "promo": null,
-          "effective": 4.29
+          "effective": 4.29,
+          "unit_grams": 1949.5
         },
         "west": {
           "regular": 4.69,
           "promo": null,
-          "effective": 4.69
+          "effective": 4.69,
+          "unit_grams": 1949.5
         },
         "south": {
           "regular": 4.29,
           "promo": null,
-          "effective": 4.29
+          "effective": 4.29,
+          "unit_grams": 1949.5
         },
         "walmart_national": {
           "regular": 3.97,
           "promo": null,
-          "effective": 3.97
+          "effective": 3.97,
+          "unit_grams": 1949.5
         }
       },
       "variants": [
@@ -952,22 +1015,26 @@
         "midwest": {
           "regular": 3.99,
           "promo": null,
-          "effective": 3.99
+          "effective": 3.99,
+          "unit_grams": 1797.2
         },
         "west": {
           "regular": 3.99,
           "promo": null,
-          "effective": 3.99
+          "effective": 3.99,
+          "unit_grams": 1797.2
         },
         "south": {
           "regular": 3.99,
           "promo": null,
-          "effective": 3.99
+          "effective": 3.99,
+          "unit_grams": 1797.2
         },
         "walmart_national": {
           "regular": 3.48,
           "promo": null,
-          "effective": 3.48
+          "effective": 3.48,
+          "unit_grams": 1474.2
         }
       },
       "variants": [
@@ -997,18 +1064,21 @@
         "midwest": {
           "regular": 2.99,
           "promo": null,
-          "effective": 2.99
+          "effective": 2.99,
+          "unit_grams": 453.6
         },
         "west": null,
         "south": {
           "regular": 2.49,
           "promo": null,
-          "effective": 2.49
+          "effective": 2.49,
+          "unit_grams": 453.6
         },
         "walmart_national": {
           "regular": 2.47,
           "promo": null,
-          "effective": 2.47
+          "effective": 2.47,
+          "unit_grams": 453.6
         }
       },
       "variants": [
@@ -1038,13 +1108,15 @@
         "midwest": {
           "regular": 15.49,
           "promo": null,
-          "effective": 15.49
+          "effective": 15.49,
+          "unit_grams": 1360.8
         },
         "west": null,
         "south": {
           "regular": 16.99,
           "promo": null,
-          "effective": 16.99
+          "effective": 16.99,
+          "unit_grams": 1360.8
         },
         "walmart_national": null
       },
@@ -1075,22 +1147,26 @@
         "midwest": {
           "regular": 3.99,
           "promo": null,
-          "effective": 3.99
+          "effective": 3.99,
+          "unit_grams": 354.9
         },
         "west": {
           "regular": 4.49,
           "promo": null,
-          "effective": 4.49
+          "effective": 4.49,
+          "unit_grams": 354.9
         },
         "south": {
           "regular": 3.99,
           "promo": null,
-          "effective": 3.99
+          "effective": 3.99,
+          "unit_grams": 354.9
         },
         "walmart_national": {
           "regular": 9.85,
           "promo": null,
-          "effective": 9.85
+          "effective": 9.85,
+          "unit_grams": 354.9
         }
       },
       "variants": [
@@ -1122,12 +1198,14 @@
         "south": {
           "regular": 4.49,
           "promo": null,
-          "effective": 4.49
+          "effective": 4.49,
+          "unit_grams": 1421.6
         },
         "walmart_national": {
           "regular": 8.27,
           "promo": null,
-          "effective": 8.27
+          "effective": 8.27,
+          "unit_grams": 2523.1
         }
       },
       "variants": [
@@ -1158,17 +1236,20 @@
         "west": {
           "regular": 2.79,
           "promo": null,
-          "effective": 2.79
+          "effective": 2.79,
+          "unit_grams": 28.3
         },
         "south": {
           "regular": 2.29,
           "promo": null,
-          "effective": 2.29
+          "effective": 2.29,
+          "unit_grams": 28.3
         },
         "walmart_national": {
           "regular": 14.88,
           "promo": null,
-          "effective": 14.88
+          "effective": 14.88,
+          "unit_grams": 425.2
         }
       },
       "variants": [
@@ -1199,17 +1280,20 @@
         "west": {
           "regular": 3.29,
           "promo": null,
-          "effective": 3.29
+          "effective": 3.29,
+          "unit_grams": 512.6
         },
         "south": {
           "regular": 3.69,
           "promo": null,
-          "effective": 3.69
+          "effective": 3.69,
+          "unit_grams": 512.6
         },
         "walmart_national": {
           "regular": 32.98,
           "promo": null,
-          "effective": 32.98
+          "effective": 32.98,
+          "unit_grams": 510.3
         }
       },
       "variants": [
@@ -1239,14 +1323,16 @@
         "midwest": {
           "regular": 2.49,
           "promo": null,
-          "effective": 2.49
+          "effective": 2.49,
+          "unit_grams": 680.4
         },
         "west": null,
         "south": null,
         "walmart_national": {
           "regular": 1.97,
           "promo": null,
-          "effective": 1.97
+          "effective": 1.97,
+          "unit_grams": 567.0
         }
       },
       "variants": [
@@ -1276,22 +1362,26 @@
         "midwest": {
           "regular": 1.25,
           "promo": null,
-          "effective": 1.25
+          "effective": 1.25,
+          "unit_grams": 340.2
         },
         "west": {
           "regular": 1.39,
           "promo": null,
-          "effective": 1.39
+          "effective": 1.39,
+          "unit_grams": 340.2
         },
         "south": {
           "regular": 1.25,
           "promo": null,
-          "effective": 1.25
+          "effective": 1.25,
+          "unit_grams": 340.2
         },
         "walmart_national": {
           "regular": 2.79,
           "promo": null,
-          "effective": 2.79
+          "effective": 2.79,
+          "unit_grams": 340.2
         }
       },
       "variants": [
@@ -1322,17 +1412,20 @@
         "west": {
           "regular": 1.49,
           "promo": null,
-          "effective": 1.49
+          "effective": 1.49,
+          "unit_grams": 907.2
         },
         "south": {
           "regular": 1.59,
           "promo": null,
-          "effective": 1.59
+          "effective": 1.59,
+          "unit_grams": 907.2
         },
         "walmart_national": {
           "regular": 2.38,
           "promo": null,
-          "effective": 2.38
+          "effective": 2.38,
+          "unit_grams": 2268.0
         }
       },
       "variants": [
@@ -1363,17 +1456,20 @@
         "west": {
           "regular": 1.99,
           "promo": null,
-          "effective": 1.99
+          "effective": 1.99,
+          "unit_grams": 907.2
         },
         "south": {
           "regular": 1.79,
           "promo": null,
-          "effective": 1.79
+          "effective": 1.79,
+          "unit_grams": 907.2
         },
         "walmart_national": {
           "regular": 1.77,
           "promo": null,
-          "effective": 1.77
+          "effective": 1.77,
+          "unit_grams": 907.2
         }
       },
       "variants": [
@@ -1403,22 +1499,26 @@
         "midwest": {
           "regular": 0.99,
           "promo": null,
-          "effective": 0.99
+          "effective": 0.99,
+          "unit_grams": 453.6
         },
         "west": {
           "regular": 1.19,
           "promo": null,
-          "effective": 1.19
+          "effective": 1.19,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 0.99,
           "promo": null,
-          "effective": 0.99
+          "effective": 0.99,
+          "unit_grams": 453.6
         },
         "walmart_national": {
           "regular": 0.88,
           "promo": null,
-          "effective": 0.88
+          "effective": 0.88,
+          "unit_grams": 453.6
         }
       },
       "variants": [
@@ -1450,12 +1550,14 @@
         "south": {
           "regular": 5.49,
           "promo": null,
-          "effective": 5.49
+          "effective": 5.49,
+          "unit_grams": 340.2
         },
         "walmart_national": {
           "regular": 4.58,
           "promo": null,
-          "effective": 4.58
+          "effective": 4.58,
+          "unit_grams": 4.0
         }
       },
       "variants": [
@@ -1485,22 +1587,26 @@
         "midwest": {
           "regular": 2.29,
           "promo": null,
-          "effective": 2.29
+          "effective": 2.29,
+          "unit_grams": 453.6
         },
         "west": {
           "regular": 1.99,
           "promo": null,
-          "effective": 1.99
+          "effective": 1.99,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 1.99,
           "promo": null,
-          "effective": 1.99
+          "effective": 1.99,
+          "unit_grams": 453.6
         },
         "walmart_national": {
           "regular": 2.44,
           "promo": null,
-          "effective": 2.44
+          "effective": 2.44,
+          "unit_grams": 453.6
         }
       },
       "variants": [
@@ -1531,17 +1637,20 @@
         "west": {
           "regular": 2.99,
           "promo": null,
-          "effective": 2.99
+          "effective": 2.99,
+          "unit_grams": 313.0
         },
         "south": {
           "regular": 3.49,
           "promo": null,
-          "effective": 3.49
+          "effective": 3.49,
+          "unit_grams": 313.0
         },
         "walmart_national": {
           "regular": 2.74,
           "promo": null,
-          "effective": 2.74
+          "effective": 2.74,
+          "unit_grams": 311.8
         }
       },
       "variants": [
@@ -1571,18 +1680,21 @@
         "midwest": {
           "regular": 9.99,
           "promo": null,
-          "effective": 9.99
+          "effective": 9.99,
+          "unit_grams": 567.0
         },
         "west": null,
         "south": {
           "regular": 8.99,
           "promo": null,
-          "effective": 8.99
+          "effective": 8.99,
+          "unit_grams": 567.0
         },
         "walmart_national": {
           "regular": 13.94,
           "promo": null,
-          "effective": 13.94
+          "effective": 13.94,
+          "unit_grams": 567.0
         }
       },
       "variants": [
@@ -1612,18 +1724,21 @@
         "midwest": {
           "regular": 3.49,
           "promo": null,
-          "effective": 3.49
+          "effective": 3.49,
+          "unit_grams": 680.4
         },
         "west": null,
         "south": {
           "regular": 3.99,
           "promo": null,
-          "effective": 3.99
+          "effective": 3.99,
+          "unit_grams": 680.4
         },
         "walmart_national": {
           "regular": 5.99,
           "promo": null,
-          "effective": 5.99
+          "effective": 5.99,
+          "unit_grams": 680.4
         }
       },
       "variants": [
@@ -1654,17 +1769,20 @@
         "west": {
           "regular": 0.99,
           "promo": null,
-          "effective": 0.99
+          "effective": 0.99,
+          "unit_grams": 435.4
         },
         "south": {
           "regular": 1.0,
           "promo": null,
-          "effective": 1.0
+          "effective": 1.0,
+          "unit_grams": 435.4
         },
         "walmart_national": {
           "regular": 0.86,
           "promo": null,
-          "effective": 0.86
+          "effective": 0.86,
+          "unit_grams": 425.2
         }
       },
       "variants": [
@@ -1695,17 +1813,20 @@
         "west": {
           "regular": 1.79,
           "promo": null,
-          "effective": 1.79
+          "effective": 1.79,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 1.79,
           "promo": null,
-          "effective": 1.79
+          "effective": 1.79,
+          "unit_grams": 453.6
         },
         "walmart_national": {
           "regular": 2.74,
           "promo": null,
-          "effective": 2.74
+          "effective": 2.74,
+          "unit_grams": 907.2
         }
       },
       "variants": [
@@ -1737,17 +1858,20 @@
         "west": {
           "regular": 2.59,
           "promo": 2.19,
-          "effective": 2.19
+          "effective": 2.19,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 2.29,
           "promo": 2.19,
-          "effective": 2.19
+          "effective": 2.19,
+          "unit_grams": 453.6
         },
         "walmart_national": {
           "regular": 3.0,
           "promo": null,
-          "effective": 3.0
+          "effective": 3.0,
+          "unit_grams": 453.6
         }
       },
       "variants": [
@@ -1777,22 +1901,26 @@
         "midwest": {
           "regular": 3.79,
           "promo": null,
-          "effective": 3.79
+          "effective": 3.79,
+          "unit_grams": 453.6
         },
         "west": {
           "regular": 3.29,
           "promo": null,
-          "effective": 3.29
+          "effective": 3.29,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 2.99,
           "promo": null,
-          "effective": 2.99
+          "effective": 2.99,
+          "unit_grams": 453.6
         },
         "walmart_national": {
           "regular": 1.78,
           "promo": null,
-          "effective": 1.78
+          "effective": 1.78,
+          "unit_grams": 425.2
         }
       },
       "variants": [
@@ -1853,17 +1981,20 @@
         "midwest": {
           "regular": 1.99,
           "promo": 1.49,
-          "effective": 1.49
+          "effective": 1.49,
+          "unit_grams": 399.2
         },
         "west": {
           "regular": 1.79,
           "promo": 1.49,
-          "effective": 1.49
+          "effective": 1.49,
+          "unit_grams": 399.2
         },
         "south": {
           "regular": 1.99,
           "promo": 1.49,
-          "effective": 1.49
+          "effective": 1.49,
+          "unit_grams": 399.2
         },
         "walmart_national": null
       },
@@ -1894,22 +2025,26 @@
         "midwest": {
           "regular": 1.0,
           "promo": null,
-          "effective": 1.0
+          "effective": 1.0,
+          "unit_grams": 435.4
         },
         "west": {
           "regular": 0.99,
           "promo": null,
-          "effective": 0.99
+          "effective": 0.99,
+          "unit_grams": 435.4
         },
         "south": {
           "regular": 1.0,
           "promo": null,
-          "effective": 1.0
+          "effective": 1.0,
+          "unit_grams": 435.4
         },
         "walmart_national": {
           "regular": 0.86,
           "promo": null,
-          "effective": 0.86
+          "effective": 0.86,
+          "unit_grams": 439.4
         }
       },
       "variants": [
@@ -1939,18 +2074,21 @@
         "midwest": {
           "regular": 1.99,
           "promo": null,
-          "effective": 1.99
+          "effective": 1.99,
+          "unit_grams": 453.6
         },
         "west": null,
         "south": {
           "regular": 1.49,
           "promo": null,
-          "effective": 1.49
+          "effective": 1.49,
+          "unit_grams": 453.6
         },
         "walmart_national": {
           "regular": 1.42,
           "promo": null,
-          "effective": 1.42
+          "effective": 1.42,
+          "unit_grams": 453.6
         }
       },
       "variants": [
@@ -1981,17 +2119,20 @@
         "west": {
           "regular": 0.99,
           "promo": null,
-          "effective": 0.99
+          "effective": 0.99,
+          "unit_grams": 435.4
         },
         "south": {
           "regular": 1.0,
           "promo": null,
-          "effective": 1.0
+          "effective": 1.0,
+          "unit_grams": 435.4
         },
         "walmart_national": {
           "regular": 0.86,
           "promo": null,
-          "effective": 0.86
+          "effective": 0.86,
+          "unit_grams": 439.4
         }
       },
       "variants": [
@@ -2021,22 +2162,26 @@
         "midwest": {
           "regular": 1.25,
           "promo": null,
-          "effective": 1.25
+          "effective": 1.25,
+          "unit_grams": 421.8
         },
         "west": {
           "regular": 1.99,
           "promo": null,
-          "effective": 1.99
+          "effective": 1.99,
+          "unit_grams": 421.8
         },
         "south": {
           "regular": 1.25,
           "promo": null,
-          "effective": 1.25
+          "effective": 1.25,
+          "unit_grams": 421.8
         },
         "walmart_national": {
           "regular": 1.48,
           "promo": null,
-          "effective": 1.48
+          "effective": 1.48,
+          "unit_grams": 439.4
         }
       },
       "variants": [
@@ -2067,17 +2212,20 @@
         "west": {
           "regular": 2.49,
           "promo": null,
-          "effective": 2.49
+          "effective": 2.49,
+          "unit_grams": 907.2
         },
         "south": {
           "regular": 2.29,
           "promo": null,
-          "effective": 2.29
+          "effective": 2.29,
+          "unit_grams": 907.2
         },
         "walmart_national": {
           "regular": 0.92,
           "promo": null,
-          "effective": 0.92
+          "effective": 0.92,
+          "unit_grams": 439.4
         }
       },
       "variants": [
@@ -2109,12 +2257,14 @@
         "south": {
           "regular": 1.0,
           "promo": null,
-          "effective": 1.0
+          "effective": 1.0,
+          "unit_grams": 435.4
         },
         "walmart_national": {
           "regular": 1.0,
           "promo": null,
-          "effective": 1.0
+          "effective": 1.0,
+          "unit_grams": 453.6
         }
       },
       "variants": [
@@ -2145,12 +2295,14 @@
         "west": {
           "regular": 7.29,
           "promo": null,
-          "effective": 7.29
+          "effective": 7.29,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 6.79,
           "promo": 4.99,
-          "effective": 4.99
+          "effective": 4.99,
+          "unit_grams": 453.6
         },
         "walmart_national": null
       },
@@ -2181,17 +2333,20 @@
         "midwest": {
           "regular": 2.99,
           "promo": null,
-          "effective": 2.99
+          "effective": 2.99,
+          "unit_grams": 453.6
         },
         "west": {
           "regular": 1.79,
           "promo": null,
-          "effective": 1.79
+          "effective": 1.79,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 2.69,
           "promo": null,
-          "effective": 2.69
+          "effective": 2.69,
+          "unit_grams": 453.6
         },
         "walmart_national": null
       },
@@ -2222,17 +2377,20 @@
         "midwest": {
           "regular": 5.0,
           "promo": null,
-          "effective": 5.0
+          "effective": 5.0,
+          "unit_grams": 567.0
         },
         "west": {
           "regular": 5.0,
           "promo": null,
-          "effective": 5.0
+          "effective": 5.0,
+          "unit_grams": 567.0
         },
         "south": {
           "regular": 5.0,
           "promo": null,
-          "effective": 5.0
+          "effective": 5.0,
+          "unit_grams": 567.0
         },
         "walmart_national": null
       },
@@ -2265,7 +2423,8 @@
         "south": {
           "regular": 2.49,
           "promo": null,
-          "effective": 2.49
+          "effective": 2.49,
+          "unit_grams": 567.0
         },
         "walmart_national": null
       },
@@ -2296,13 +2455,15 @@
         "midwest": {
           "regular": 1.99,
           "promo": 1.49,
-          "effective": 1.49
+          "effective": 1.49,
+          "unit_grams": 453.6
         },
         "west": null,
         "south": {
           "regular": 1.99,
           "promo": null,
-          "effective": 1.99
+          "effective": 1.99,
+          "unit_grams": 453.6
         },
         "walmart_national": null
       },
@@ -2334,12 +2495,14 @@
         "west": {
           "regular": 3.39,
           "promo": null,
-          "effective": 3.39
+          "effective": 3.39,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 3.99,
           "promo": null,
-          "effective": 3.99
+          "effective": 3.99,
+          "unit_grams": 453.6
         },
         "walmart_national": null
       },
@@ -2370,13 +2533,15 @@
         "midwest": {
           "regular": 8.79,
           "promo": null,
-          "effective": 8.79
+          "effective": 8.79,
+          "unit_grams": 5.9
         },
         "west": null,
         "south": {
           "regular": 9.29,
           "promo": null,
-          "effective": 9.29
+          "effective": 9.29,
+          "unit_grams": 5.9
         },
         "walmart_national": null
       },
@@ -2401,22 +2566,26 @@
         "midwest": {
           "regular": 1.79,
           "promo": 1.5,
-          "effective": 1.5
+          "effective": 1.5,
+          "unit_grams": 121.8
         },
         "west": {
           "regular": 1.89,
           "promo": 1.5,
-          "effective": 1.5
+          "effective": 1.5,
+          "unit_grams": 121.8
         },
         "south": {
           "regular": 1.79,
           "promo": 1.5,
-          "effective": 1.5
+          "effective": 1.5,
+          "unit_grams": 121.8
         },
         "walmart_national": {
           "regular": 1.74,
           "promo": null,
-          "effective": 1.74
+          "effective": 1.74,
+          "unit_grams": 113.4
         }
       },
       "variants": [
@@ -2446,22 +2615,26 @@
         "midwest": {
           "regular": 3.99,
           "promo": null,
-          "effective": 3.99
+          "effective": 3.99,
+          "unit_grams": 453.6
         },
         "west": {
           "regular": 3.49,
           "promo": null,
-          "effective": 3.49
+          "effective": 3.49,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 3.69,
           "promo": null,
-          "effective": 3.69
+          "effective": 3.69,
+          "unit_grams": 453.6
         },
         "walmart_national": {
           "regular": 3.54,
           "promo": null,
-          "effective": 3.54
+          "effective": 3.54,
+          "unit_grams": 453.6
         }
       },
       "variants": [
@@ -2491,13 +2664,15 @@
         "midwest": {
           "regular": 2.49,
           "promo": null,
-          "effective": 2.49
+          "effective": 2.49,
+          "unit_grams": 340.2
         },
         "west": null,
         "south": {
           "regular": 2.49,
           "promo": null,
-          "effective": 2.49
+          "effective": 2.49,
+          "unit_grams": 340.2
         },
         "walmart_national": null
       },
@@ -2530,7 +2705,8 @@
         "south": {
           "regular": 1.69,
           "promo": null,
-          "effective": 1.69
+          "effective": 1.69,
+          "unit_grams": 285.8
         },
         "walmart_national": null
       },
@@ -2563,12 +2739,14 @@
         "south": {
           "regular": 1.0,
           "promo": null,
-          "effective": 1.0
+          "effective": 1.0,
+          "unit_grams": 412.8
         },
         "walmart_national": {
           "regular": 0.96,
           "promo": null,
-          "effective": 0.96
+          "effective": 0.96,
+          "unit_grams": 411.1
         }
       },
       "variants": [
@@ -2628,12 +2806,14 @@
         "west": {
           "regular": 1.59,
           "promo": null,
-          "effective": 1.59
+          "effective": 1.59,
+          "unit_grams": 453.6
         },
         "south": {
           "regular": 1.39,
           "promo": null,
-          "effective": 1.39
+          "effective": 1.39,
+          "unit_grams": 453.6
         },
         "walmart_national": null
       },
@@ -2659,12 +2839,14 @@
         "west": {
           "regular": 1.5,
           "promo": null,
-          "effective": 1.5
+          "effective": 1.5,
+          "unit_grams": 340.2
         },
         "south": {
           "regular": 1.25,
           "promo": null,
-          "effective": 1.25
+          "effective": 1.25,
+          "unit_grams": 340.2
         },
         "walmart_national": null
       },
@@ -2695,22 +2877,26 @@
         "midwest": {
           "regular": 1.09,
           "promo": null,
-          "effective": 1.09
+          "effective": 1.09,
+          "unit_grams": 421.8
         },
         "west": {
           "regular": 1.39,
           "promo": null,
-          "effective": 1.39
+          "effective": 1.39,
+          "unit_grams": 421.8
         },
         "south": {
           "regular": 1.09,
           "promo": null,
-          "effective": 1.09
+          "effective": 1.09,
+          "unit_grams": 421.8
         },
         "walmart_national": {
           "regular": 11.68,
           "promo": null,
-          "effective": 11.68
+          "effective": 11.68,
+          "unit_grams": 425.2
         }
       },
       "variants": [
@@ -2745,17 +2931,26 @@
         "west": {
           "regular": 8.49,
           "promo": 8.49,
-          "effective": 8.49
+          "effective": 8.49,
+          "unit_grams": 24.0,
+          "count": 120,
+          "tablet_g": 0.2
         },
         "south": {
           "regular": 8.49,
           "promo": 8.49,
-          "effective": 8.49
+          "effective": 8.49,
+          "unit_grams": 24.0,
+          "count": 120,
+          "tablet_g": 0.2
         },
         "walmart_national": {
           "regular": 3.74,
           "promo": null,
-          "effective": 3.74
+          "effective": 3.74,
+          "unit_grams": 18.0,
+          "count": 60,
+          "tablet_g": 0.3
         }
       },
       "variants": [
@@ -2791,12 +2986,18 @@
         "south": {
           "regular": 10.49,
           "promo": 10.49,
-          "effective": 10.49
+          "effective": 10.49,
+          "unit_grams": 192.0,
+          "count": 120,
+          "tablet_g": 1.6
         },
         "walmart_national": {
           "regular": 7.98,
           "promo": null,
-          "effective": 7.98
+          "effective": 7.98,
+          "unit_grams": 192.0,
+          "count": 120,
+          "tablet_g": 1.6
         }
       },
       "variants": [
@@ -2830,22 +3031,34 @@
         "midwest": {
           "regular": 12.49,
           "promo": null,
-          "effective": 12.49
+          "effective": 12.49,
+          "unit_grams": 312.0,
+          "count": 240,
+          "tablet_g": 1.3
         },
         "west": {
           "regular": 12.99,
           "promo": null,
-          "effective": 12.99
+          "effective": 12.99,
+          "unit_grams": 312.0,
+          "count": 240,
+          "tablet_g": 1.3
         },
         "south": {
           "regular": 12.49,
           "promo": null,
-          "effective": 12.49
+          "effective": 12.49,
+          "unit_grams": 312.0,
+          "count": 240,
+          "tablet_g": 1.3
         },
         "walmart_national": {
           "regular": 9.82,
           "promo": null,
-          "effective": 9.82
+          "effective": 9.82,
+          "unit_grams": 260.0,
+          "count": 200,
+          "tablet_g": 1.3
         }
       },
       "variants": [
@@ -2879,18 +3092,27 @@
         "midwest": {
           "regular": 12.99,
           "promo": 12.99,
-          "effective": 12.99
+          "effective": 12.99,
+          "unit_grams": 120.0,
+          "count": 100,
+          "tablet_g": 1.2
         },
         "west": null,
         "south": {
           "regular": 12.99,
           "promo": 12.99,
-          "effective": 12.99
+          "effective": 12.99,
+          "unit_grams": 120.0,
+          "count": 100,
+          "tablet_g": 1.2
         },
         "walmart_national": {
           "regular": 8.16,
           "promo": null,
-          "effective": 8.16
+          "effective": 8.16,
+          "unit_grams": 120.0,
+          "count": 100,
+          "tablet_g": 1.2
         }
       },
       "variants": [

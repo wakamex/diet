@@ -70,15 +70,21 @@ def _strip_brand(name: str) -> str:
 
 def _merge_prices(rows: list[dict], regions: list[str]) -> dict:
     """Cell-level merge: for each region, take the first non-null price across
-    the input rows. In practice each region only has prices from one source
-    (Kroger regions vs walmart_national), so this is a non-overlapping union."""
+    the input rows. Attaches `unit_grams` (and tablet metadata for supplements)
+    from the *source* SKU so the renderer normalizes each cell against the
+    right package size — Kroger 5oz yogurt cup and Walmart 32oz tub get the
+    correct $/kg even though they share a row."""
     out: dict = {}
     for r in regions:
         out[r] = None
         for row in rows:
             v = row.get("prices_by_region", {}).get(r)
             if v is not None:
-                out[r] = v
+                cell = {**v, "unit_grams": row["unit_grams"]}
+                if row.get("kind") == "supplement":
+                    cell["count"] = row["count"]
+                    cell["tablet_g"] = row["tablet_g"]
+                out[r] = cell
                 break
     return out
 

@@ -508,23 +508,28 @@
                 return;
             }
 
-            // Normalize each region's package price to a per-unit price comparable
-            // across rows. Foods → $/kg, supplements → $/tablet. Package price
-            // and size still visible in the hover tooltip.
+            // Normalize each region's package price to a per-unit price
+            // comparable across rows. Foods → $/kg, supplements → $/tablet.
+            // unit_grams (and supplement count/tablet_g) come from the *source*
+            // cell — different chains can pack the same food in different sizes
+            // (Kroger 5oz yogurt cup vs Walmart 32oz tub) and each must
+            // normalize against its own size, not the dedupe primary's.
             const priceCell = (p, c) => {
                 if (p == null) return '<td class="num muted">—</td>';
                 const pkg = p.effective ?? p.regular;
+                const cellGrams = p.unit_grams ?? c.unit_grams;
+                const cellCount = p.count ?? c.count;
                 let per, suffix, tooltip;
-                if (c.kind === 'supplement' && c.count) {
-                    per = pkg / c.count;
+                if (c.kind === 'supplement' && cellCount) {
+                    per = pkg / cellCount;
                     suffix = '/tab';
-                    tooltip = `$${pkg.toFixed(2)} / ${c.count} tab`;
-                } else if (c.unit_grams) {
-                    per = pkg * 1000 / c.unit_grams;
+                    tooltip = `$${pkg.toFixed(2)} / ${cellCount} tab`;
+                } else if (cellGrams) {
+                    per = pkg * 1000 / cellGrams;
                     suffix = '/kg';
-                    tooltip = `$${pkg.toFixed(2)} / ${c.unit_grams >= 1000
-                        ? (c.unit_grams/1000).toFixed(2) + ' kg'
-                        : Math.round(c.unit_grams) + ' g'}`;
+                    tooltip = `$${pkg.toFixed(2)} / ${cellGrams >= 1000
+                        ? (cellGrams/1000).toFixed(2) + ' kg'
+                        : Math.round(cellGrams) + ' g'}`;
                 } else {
                     return `<td class="num">${fmtMoney(pkg)}</td>`;
                 }
