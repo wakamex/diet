@@ -12,16 +12,6 @@
   _upc: 078742352053
   _sale_price: 1.77
   _kroger_source: Kroger® Enriched Long Grain White Rice
-- product_id: '19613752843'
-  fdc_id: 2346396
-  name: Simple Truth 100% Whole Grain Rolled 1 Minute Oats 18 oz - 5 Pack
-  unit_grams: 510.3
-  dietary_categories:
-  - grain
-  source: walmart
-  _upc: '100136850316'
-  _sale_price: 32.98
-  _kroger_source: Simple Truth Organic® 100% Whole Grain Rolled 1 Minute Oats
 - product_id: '10804551'
   fdc_id: 174916
   name: Great Value 100% Whole Wheat Round Top Bread, 20 oz
@@ -75,7 +65,7 @@
 - product_id: '24389861'
   fdc_id: 168892
   name: Kretschmer Original Toasted Wheat Germ, 4g Plant Protein per Serving, 12 oz Jar
-  unit_grams: 4.0
+  unit_grams: 340.2
   dietary_categories:
   - grain
   source: walmart
@@ -84,7 +74,7 @@
   _kroger_source: Kretschmer® Original Toasted Wheat Germ
 - product_id: '10294413'
   fdc_id: 169698
-  name: Argo Gluten-Free Corn Starch Thickening Powder,16 oz
+  name: Argo 100% Pure Corn Starch, 16 Oz
   unit_grams: 453.6
   dietary_categories:
   - grain
@@ -103,15 +93,15 @@
   _upc: '016000275263'
   _sale_price: 3.47
   _kroger_source: General Mills Cheerios Cereal Cup
-- product_id: '12444736'
+- product_id: '30918509'
   fdc_id: 2644283
-  name: Verde Valle Foods Lentils, 15 oz
-  unit_grams: 425.2
+  name: GOYA Lentils 16 oz Bag
+  unit_grams: 453.6
   dietary_categories:
   - legume
   source: walmart
-  _upc: '781624006790'
-  _sale_price: 1.78
+  _upc: '041331024761'
+  _sale_price: 1.96
   _kroger_source: Simple Truth Organic® Dry Green Lentils
 - product_id: '10314018'
   fdc_id: 2644288
@@ -153,15 +143,15 @@
   _upc: 078742370866
   _sale_price: 0.92
   _kroger_source: Kroger® Pinto Beans
-- product_id: '294723013'
+- product_id: '10314947'
   fdc_id: 175201
-  name: Great Value Pinto Beans 1 Lb
-  unit_grams: 453.6
+  name: Great Value Pinto Beans, 32 oz
+  unit_grams: 907.2
   dietary_categories:
   - legume
   source: walmart
-  _upc: 078742364810
-  _sale_price: 1.0
+  _upc: 078742371474
+  _sale_price: 1.98
   _kroger_source: Pinto Beans
 - product_id: '10534039'
   fdc_id: 174285
@@ -193,27 +183,27 @@
   _upc: 078742114187
   _sale_price: 0.86
   _kroger_source: Kroger® Great Northern Beans
-- product_id: '19131101402'
+- product_id: '10898817'
   fdc_id: 172475
-  name: Marketside Organic Extra Firm Tofu, 16 oz
-  unit_grams: 453.6
+  name: Nasoya Refrigerated Soy Extra Firm Organic Tofu, 14 oz
+  unit_grams: 396.9
   dietary_categories:
   - legume
   - soy
   source: walmart
-  _upc: '194346566105'
-  _sale_price: 2.47
+  _upc: 025484000124
+  _sale_price: 2.92
   _kroger_source: Simple Truth Organic® Extra Firm Tofu
-- product_id: '163182093'
+- product_id: '328567678'
   fdc_id: 168410
-  name: Seapoint Farms Edamame Shelled Soybeans, Net Content 12 oz (Frozen)
+  name: Great Value Frozen Edamame, 12 oz
   unit_grams: 340.2
   dietary_categories:
   - legume
   - soy
   source: walmart
-  _upc: '711575004910'
-  _sale_price: 2.78
+  _upc: 078742350998
+  _sale_price: 1.92
   _kroger_source: Kroger® Edamame
 - product_id: '777839120'
   fdc_id: 172458
@@ -264,7 +254,7 @@
   - dairy
   source: walmart
   _upc: 078742352022
-  _sale_price: 1.96
+  _sale_price: 2.06
   _kroger_source: Kroger® 1% Lowfat Milk Half Gallon
 - product_id: '26559565'
   fdc_id: 2647437
@@ -286,15 +276,15 @@
   _upc: 078742099453
   _sale_price: 1.97
   _kroger_source: Kroger® Sharp Cheddar Shredded Cheese
-- product_id: '10415722'
+- product_id: '15380114943'
   fdc_id: 170877
-  name: Great Value Instant Nonfat Dry Milk, 25.6 oz Bag
-  unit_grams: 725.7
+  name: Nestle Carnation Instant Non-Fat Dry Milk, Vitamin D Added, Cooking Milk, Shelf Milk 9.625 oz
+  unit_grams: 272.9
   dietary_categories:
   - dairy
   source: walmart
-  _upc: 078742010250
-  _sale_price: 9.28
+  _upc: 050000812325
+  _sale_price: 4.58
   _kroger_source: Kroger® Instant Non-Fat Dry Milk Pouches
 - product_id: '27935840'
   fdc_id: 171052
@@ -304,7 +294,7 @@
   - meat_white
   source: walmart
   _upc: '205496000002'
-  _sale_price: 11.57
+  _sale_price: 11.92
   _kroger_source: Kroger® Boneless Skinless Uncooked Chicken Breast With Rib Meat Thin-Sliced
 - product_id: '140139691'
   fdc_id: 171447
@@ -314,17 +304,17 @@
   - meat_white
   source: walmart
   _upc: '259407000001'
-  _sale_price: 6.95
+  _sale_price: 8.16
   _kroger_source: Simple Truth Organic® Fresh Organic Whole Chicken with Giblets
-- product_id: '15935205520'
+- product_id: '734939013'
   fdc_id: 172378
-  name: Foster Farms Chicken Leg Quarters, 20g Protein per 4oz Serving, 10.0 lb Bag
-  unit_grams: 20.0
+  name: Fresh Chicken Leg Quarters, 4.25-6 lb Tray
+  unit_grams: 2721.6
   dietary_categories:
   - meat_white
   source: walmart
-  _upc: 075278016749
-  _sale_price: 8.72
+  _upc: '261639000001'
+  _sale_price: 7.07
   _kroger_source: Fresh Chicken Seasoned Leg Quarters
 - product_id: '479601462'
   fdc_id: 2514744
@@ -346,15 +336,15 @@
   _upc: '262981000008'
   _sale_price: 21.34
   _kroger_source: Kroger® Fresh Natural Pork Shoulder Butt Bone In
-- product_id: '51258906'
+- product_id: '10293459'
   fdc_id: 173708
-  name: StarKist Chunk Light Tuna in Water, Wild Caught, 20g Protein, 5 oz, 4 Cans
-  unit_grams: 20.0
+  name: StarKist Chunk Light Tuna in Water, Wild Caught, 16g Protein, 12 oz Can
+  unit_grams: 340.2
   dietary_categories:
   - fish
   source: walmart
-  _upc: 080000516848
-  _sale_price: 4.34
+  _upc: 080000003348
+  _sale_price: 2.58
   _kroger_source: Kroger® Wild Caught Chunk Light Tuna in Water
 - product_id: '1893833345'
   fdc_id: 175139
@@ -366,30 +356,20 @@
   _upc: 048000187185
   _sale_price: 1.36
   _kroger_source: Chicken of the Sea Wild Caught Sardines in Olive Oil
-- product_id: '10295808'
+- product_id: '10299112'
   fdc_id: 175175
-  name: Deming's Wild Alaskan Red Sockeye Salmon, 7.5 oz, No Allergens
-  unit_grams: 212.6
+  name: Deming's Red Sockeye Wild Caught Alaskan Canned Salmon, 14.75 Oz
+  unit_grams: 418.2
   dietary_categories:
   - fish
   source: walmart
-  _upc: '021100011017'
-  _sale_price: 5.47
+  _upc: '021100021016'
+  _sale_price: 8.82
   _kroger_source: Kroger® Alaskan Red Sockeye Salmon
-- product_id: '18480717103'
-  fdc_id: 175121
-  name: Grace Mackerel in Tomato Sauce (Classic Mackerel 5.5oz - 10 Pack)
-  unit_grams: 155.9
-  dietary_categories:
-  - fish
-  source: walmart
-  _upc: 055270886502
-  _sale_price: 23.9
-  _kroger_source: Grace® Classic Mackerel with Tomato Sauce
 - product_id: '10294375'
   fdc_id: 171976
   name: Snow's Wild Caught Chopped Clams in Clam Juice, 5g Protein per Serving, Shelf Stable Can, 6.5 oz
-  unit_grams: 5.0
+  unit_grams: 184.3
   dietary_categories:
   - fish
   source: walmart
@@ -404,7 +384,7 @@
   - meat_white
   source: walmart
   _upc: '257852000003'
-  _sale_price: 2.48
+  _sale_price: 2.0
   _kroger_source: Heritage Farm® Chicken Livers
 - product_id: '967902497'
   fdc_id: 169968
@@ -436,15 +416,15 @@
   _upc: 078742122656
   _sale_price: 0.67
   _kroger_source: Kroger No Salt Added Sliced Carrots - 8.25oz can
-- product_id: '14011104614'
+- product_id: '10316041'
   fdc_id: 170028
-  name: Libby's Whole White Potatoes, 2 Pack, 15 oz. Can
+  name: Great Value Whole New Potatoes, 15 oz
   unit_grams: 425.2
   dietary_categories:
   - vegetable
   source: walmart
-  _upc: '695845958267'
-  _sale_price: 11.68
+  _upc: 078742083827
+  _sale_price: 0.96
   _kroger_source: Kroger Whole White Potatoes - 15oz can
 - product_id: '106137651'
   fdc_id: 168016
@@ -496,15 +476,15 @@
   _upc: 048500018330
   _sale_price: 8.27
   _kroger_source: Kroger® Premium Homestyle Orange Juice with Pulp
-- product_id: '1697780379'
+- product_id: '20925296'
   fdc_id: 168166
-  name: (4 pack) Great Value Seedless Golden Raisins Carton, 15 oz (425g)
-  unit_grams: 425.2
+  name: Great Value Sun-Dried Raisins Carton, 12 oz (340g)
+  unit_grams: 340.2
   dietary_categories:
   - fruit
   source: walmart
-  _upc: '461697780376'
-  _sale_price: 14.88
+  _upc: 078742016009
+  _sale_price: 2.86
   _kroger_source: Kroger® Seedless Raisins
 - product_id: '10295044'
   fdc_id: 173768
@@ -517,17 +497,6 @@
   _upc: 025293600393
   _sale_price: 3.97
   _kroger_source: Silk Original Dairy Free Vegan Soy Milk Half Gallon
-- product_id: '18031819782'
-  fdc_id: 1999631
-  name: (Pack of 12) MALK Almond Unsweetened Shelf Stable 32 fl oz
-  unit_grams: 946.4
-  dietary_categories:
-  - fortified_b12
-  - plant_milk
-  source: walmart
-  _upc: null
-  _sale_price: 134.99
-  _kroger_source: MALK Organic Dairy Free Unsweetened Almond Milk
 - product_id: '157991373'
   fdc_id: 2257046
   name: Planet Oat, Original Oatmilk, Dairy Free, 52 oz, Refrigerated Cardboard Carton
@@ -569,19 +538,19 @@
   _upc: 078742352961
   _sale_price: 3.93
   _kroger_source: Kroger® 100% Pure Vegetable Oil
-- product_id: '274554918'
+- product_id: '731592644'
   fdc_id: 748278
-  name: Crisco Pure Canola Oil, Cooking Oil, 16 fl oz
-  unit_grams: 433.9
+  name: Crisco Pure Canola Oil, Cooking Oil, 40 fl oz
+  unit_grams: 1084.8
   dietary_categories:
   - fat
   source: walmart
-  _upc: '196005264407'
-  _sale_price: 2.97
+  _upc: '196005708345'
+  _sale_price: 4.57
   _kroger_source: Kroger® 100% Pure Canola Oil
 - product_id: '10534163'
   fdc_id: 171276
-  name: Great Value Evaporated Milk, 12 fl oz
+  name: Great Value Evaporated Milk, 12 fl oz US
   unit_grams: 365.5
   dietary_categories:
   - dairy

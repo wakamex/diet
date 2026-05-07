@@ -34,6 +34,24 @@ NOISE = (
     "baby food", "dog", "cat food", "puppy", "kitten", "kibble", "treat",
     "candy", "chocolate", "cookie", "cake", "ice cream", "soda", "drink mix",
     "subscription", "bundle",
+    # Multi-pack patterns — bootstrap was picking 12-packs whose unit_grams is
+    # one unit's weight but salePrice is the whole pack. Result: \$/kg ×N off.
+    "pack of", "(pack ", " pack)", "value pack", "twin pack", "variety pack",
+    "family pack", "case of", "bulk pack", "-pack", "case pack", "club pack",
+    "multi pack", "multipack", "warehouse pack",
+)
+
+# Catches "(12 pack)", "(6-pack)", "12 ct pack", "(24)", " x12", " x 12",
+# "4 Cans", "6 Bottles" — patterns that mean salePrice covers more units than
+# our parsed unit_grams represents.
+_MULTIPACK_RE = re.compile(
+    r"\(\s*\d+\s*[-\s]?\s*(?:pack|ct|count)\b"
+    r"|\b\d+\s*[-\s]?\s*pack\b"
+    r"|\b(?:pack|case|set)\s+of\s+\d+\b"
+    r"|\(\s*\d+\s*\)\s*$"
+    r"|\sx\s*\d{2,}\b"
+    r"|\b\d+\s*(?:cans|bottles|jars|tubs|boxes|cartons|pouches|tins|sticks)\b",
+    re.IGNORECASE,
 )
 
 
@@ -61,7 +79,11 @@ def _size_from_walmart_name(name: str) -> str | None:
 
 def _is_noisy(desc: str) -> bool:
     d = (desc or "").lower()
-    return any(n in d for n in NOISE)
+    if any(n in d for n in NOISE):
+        return True
+    if _MULTIPACK_RE.search(desc or ""):
+        return True
+    return False
 
 
 def main() -> int:

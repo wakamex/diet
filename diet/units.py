@@ -100,7 +100,10 @@ def parse_size(size_str: str | None) -> tuple[float, str] | None:
     if not matches:
         return None
 
-    # Prefer weight unit > volume unit > count when multiple are present.
+    # Prefer weight unit > volume unit > count. Within a tier, prefer the
+    # *largest* match — Walmart names like "4g Protein per Serving, 12 oz Jar"
+    # mention nutrient-per-serving grams before the package size, and the
+    # package is invariably the bigger number.
     rank = {"weight": 0, "volume": 1, "count": 2}
     best: tuple[float, str] | None = None
 
@@ -140,7 +143,11 @@ def parse_size(size_str: str | None) -> tuple[float, str] | None:
         else:
             continue
 
-        if best is None or rank[kind] < rank[best[1]]:
+        if best is None:
+            best = (g, kind)
+        elif rank[kind] < rank[best[1]]:
+            best = (g, kind)
+        elif rank[kind] == rank[best[1]] and g > best[0]:
             best = (g, kind)
 
     return best
