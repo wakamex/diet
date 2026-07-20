@@ -20,3 +20,8 @@
   location_id: "walmart-national"
   display: "Walmart.com (national)"
   source: walmart
+
+- region: hawaii
+  location_id: "3478"
+  display: "Walmart — 700 Keeaumoku St, Honolulu, HI 96814"
+  source: walmart

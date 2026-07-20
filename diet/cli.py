@@ -36,7 +36,11 @@ def cmd_curate(args: argparse.Namespace) -> int:
 
 def cmd_ingest(args: argparse.Namespace) -> int:
     payload = ingest_mod.ingest()
-    print(f"ingest: {len(payload['prices'])} prices, {len(payload['missing'])} missing")
+    print(
+        f"ingest: {len(payload['prices'])} prices, {len(payload['missing'])} missing, "
+        f"{len(payload['nutrients'])} exact-SKU nutrition records, "
+        f"{len(payload['nutrient_warnings'])} nutrition warnings"
+    )
     return 0
 
 

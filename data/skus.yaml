@@ -286,7 +286,7 @@
   _kroger_categories:
   - Frozen
 - product_id: 0001111001618
-  fdc_id: 172458
+  fdc_id: 174266
   name: Kroger® Creamy Peanut Butter
   unit_grams: 453.6
   dietary_categories:
@@ -295,24 +295,11 @@
   _size: 16 oz
   _net_weight: 1.0 [lb_av]
   _unit_source: netWeight
-  _fdc_match: Peanut butter, smooth, reduced fat
+  _fdc_match: Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Condiment & Sauces
   - Condiment & Sauces
-- product_id: 0060933284834
-  fdc_id: 2346394
-  name: e.l.f. Cosmetics Hydrating Satin Camo Concealer Tan Walnut
-  unit_grams: 5.9
-  dietary_categories:
-  - nut
-  _size: 0.2 fl oz
-  _net_weight: 0.08 [lb_av]
-  _unit_source: size:volume
-  _fdc_match: Nuts, walnuts, English, halves, raw
-  _fdc_dataType: Foundation
-  _kroger_categories:
-  - Beauty
 - product_id: 0001111008287
   fdc_id: 169414
   name: Simple Truth Organic® Whole Ground Flaxseed Meal
@@ -862,3 +849,148 @@
   _fdc_dataType: SR Legacy
   _kroger_categories:
   - Baking Goods
+- product_id: 0002400055078
+  fdc_id: 170409
+  name: Del Monte Golden Sweet Whole Kernel Corn
+  unit_grams: 1728.2
+  dietary_categories:
+  - vegetable
+  _size: 4 ct / 15.25 oz
+  _net_weight: 3.81 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Corn, sweet, yellow, canned, brine pack, regular pack, solids and liquids
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Canned & Packaged
+- product_id: 0001111063769
+  fdc_id: 170162
+  name: Simple Truth® Raw Cashews
+  unit_grams: 453.6
+  dietary_categories:
+  - nut
+  _size: 16 oz
+  _net_weight: 1.0 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Nuts, cashew nuts, raw
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Snacks
+- product_id: 0001111018273
+  fdc_id: 169426
+  name: Simple Truth® Shelled Roasted & Salted Pistachios
+  unit_grams: 907.2
+  dietary_categories:
+  - nut
+  _size: 32 oz
+  _net_weight: 2.0 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Nuts, pistachio nuts, dry roasted, with salt added
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Snacks
+- product_id: 0001111082202
+  fdc_id: 169094
+  name: Kroger® Large Pitted Ripe Black Olives
+  unit_grams: 170.1
+  dietary_categories:
+  - fruit
+  _size: 6 oz
+  _net_weight: 0.98 [lb_av]
+  _unit_source: size:weight (catalog netWeight is inconsistent with package size)
+  _fdc_match: Olives, ripe, canned (small-extra large)
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Canned & Packaged
+- product_id: 0001111014825
+  fdc_id: 173806
+  name: Kroger® Dry Roasted Unsalted Peanuts
+  unit_grams: 453.6
+  dietary_categories:
+  - legume
+  - nut
+  _size: 16 oz
+  _net_weight: 1.0 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Peanuts, all types, dry-roasted, without salt
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Snacks
+- product_id: '0001111002466'
+  fdc_id: 170567
+  name: Simple Truth® Raw Almonds
+  unit_grams: 453.6
+  dietary_categories:
+  - nut
+  _size: 16 oz
+  _net_weight: 1.0 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Nuts, almonds
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Snacks
+  - Produce
+- product_id: '0001111010701'
+  fdc_id: 170187
+  name: Kroger® Gluten Free Vegan Halves and Pieces Walnuts
+  unit_grams: 453.6
+  dietary_categories:
+  - nut
+  _size: 16 oz
+  _net_weight: 1.0 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Nuts, walnuts, english
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Baking Goods
+- product_id: '0001111010702'
+  fdc_id: 170182
+  name: Kroger® Pecan Halves
+  unit_grams: 453.6
+  dietary_categories:
+  - nut
+  _size: 16 oz
+  _net_weight: 1.0 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Nuts, pecans
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Baking Goods
+- product_id: 0001111010692
+  fdc_id: 170583
+  name: Kroger® Roasted Chopped Hazelnuts
+  unit_grams: 226.8
+  dietary_categories:
+  - nut
+  _size: 8 oz
+  _net_weight: 0.5 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Nuts, hazelnuts or filberts, dry roasted, without salt added
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Snacks
+- product_id: 0001111002478
+  fdc_id: 168598
+  name: Simple Truth® Sea Salt Dry Roasted Macadamia Nuts
+  unit_grams: 340.2
+  dietary_categories:
+  - nut
+  _size: 12 oz
+  _net_weight: 0.75 [lb_av]
+  _unit_source: netWeight
+  _fdc_match: Nuts, macadamia nuts, dry roasted, with salt added
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Snacks
+- product_id: 0078735917937
+  fdc_id: 170591
+  name: Fresh Gourmet Raw Whole Pine Nuts
+  unit_grams: 70.9
+  dietary_categories:
+  - nut
+  _size: 2.5 oz
+  _net_weight: 0.16 [lb_av]
+  _unit_source: size:weight
+  _fdc_match: Nuts, pine nuts, dried
+  _fdc_dataType: SR Legacy
+  _kroger_categories:
+  - Snacks

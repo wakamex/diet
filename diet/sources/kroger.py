@@ -13,7 +13,7 @@ import time
 from dataclasses import dataclass
 from pathlib import Path
 
-from diet.util import http_get_json, http_post_form_json, write_json_atomic
+from diet.util import http_get_json, http_post_form_json, read_json, write_json_atomic
 
 KROGER_BASE = "https://api.kroger.com"
 TOKEN_URL = f"{KROGER_BASE}/v1/connect/oauth2/token"
@@ -117,10 +117,25 @@ class KrogerClient:
         cache_root: Path,
         date_str: str,
     ) -> dict:
-        """Fetch a batch and persist the raw JSON under cache_root/<date>/<loc>.json."""
+        """Fetch a batch and merge it into cache_root/<date>/<loc>.json.
+
+        A location can require multiple 50-product requests.  Merging prevents
+        each later batch from overwriting the earlier raw responses.
+        """
         payload = self.lookup(product_ids, location_id=location_id)
         out = cache_root / date_str / f"{location_id}.json"
-        write_json_atomic(out, payload)
+        merged = dict(payload)
+        by_id: dict[str, dict] = {}
+        if out.exists():
+            previous = read_json(out)
+            for product in previous.get("data") or []:
+                if product.get("productId"):
+                    by_id[str(product["productId"])] = product
+        for product in payload.get("data") or []:
+            if product.get("productId"):
+                by_id[str(product["productId"])] = product
+        merged["data"] = list(by_id.values())
+        write_json_atomic(out, merged)
         return payload
 
 
