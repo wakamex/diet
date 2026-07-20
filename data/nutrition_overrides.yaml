@@ -1,0 +1,42 @@
+# Exact-SKU nutrition obtained from authoritative sources that are not exposed
+# through the retailer APIs or USDA Branded database. Values are stored per
+# labeled serving and normalized by diet/nutrition.py. Every override must keep
+# its source URL and derivation notes so it remains auditable.
+
+- source: walmart
+  product_id: "10311408"
+  upc: "016000275263"
+  name: "Cheerios, Heart Healthy Gluten Free Breakfast Cereal, 8.9 oz"
+  serving_size_g: 39
+  serving_basis: "manufacturer label: 1 1/2 cup (39 g), as packaged"
+  source_id: "manufacturer_label:cheerios_original_2026-07-20"
+  source_url: "https://www.cheerios.com/products/original-cheerios"
+  source_title: "Original Cheerios — Nutrition Facts"
+  accessed: "2026-07-20"
+  ingredients: "Whole grain oats, corn starch, sugar, salt, tripotassium phosphate, mixed tocopherols, calcium carbonate, iron, zinc, sodium ascorbate, niacinamide, pyridoxine hydrochloride, vitamin A palmitate, thiamin mononitrate, folic acid, vitamin B12, vitamin D3."
+  notes:
+    - "Manufacturer page lists about 6 servings in the 8.9 oz box."
+    - "Vitamin A, vitamin C, folate DFE, vitamin B12, magnesium, and zinc amounts are derived from the displayed % Daily Value using current US Daily Values."
+    - "ALA and vitamin E are not quantified on the current label and therefore continue to use the USDA reference fallback."
+  derived_from_daily_value:
+    - vit_a_mcg
+    - vit_c_mg
+    - folate_mcg
+    - vit_b12_mcg
+    - magnesium_mg
+    - zinc_mg
+  nutrients_per_serving:
+    energy_kcal: 140
+    protein_g: 5
+    fiber_g: 4
+    vit_a_mcg: 90
+    vit_c_mg: 9
+    vit_d_mcg: 4
+    vit_b12_mcg: 0.48
+    folate_mcg: 80
+    calcium_mg: 130
+    iron_mg: 12.6
+    magnesium_mg: 42
+    potassium_mg: 250
+    sodium_mg: 190
+    zinc_mg: 2.2

@@ -6,6 +6,7 @@ from diet.foods import Location, SkuSpec, build_foods_for_location
 from diet.nutrition import (
     extract_fdc_branded_nutrition,
     extract_kroger_nutrition,
+    load_nutrition_overrides,
     merge_with_usda_fallback,
 )
 
@@ -159,3 +160,27 @@ def test_food_builder_overlays_sku_snapshot_and_exposes_provenance(
         "protein_g": "kroger_label",
         "ala_g": "usda_reference:123",
     }
+
+
+def test_manual_override_normalizes_serving_and_preserves_source(tmp_path):
+    path = tmp_path / "overrides.yaml"
+    path.write_text("""
+- source: walmart
+  product_id: "123"
+  serving_size_g: 40
+  serving_basis: "manufacturer label"
+  source_id: "manufacturer:test"
+  source_url: "https://example.test/label"
+  source_title: "Test label"
+  accessed: "2026-07-20"
+  derived_from_daily_value: [zinc_mg]
+  nutrients_per_serving:
+    protein_g: 5
+    zinc_mg: 2
+""")
+    row = load_nutrition_overrides(path)[("walmart", "123")]
+    assert row["nutrients_per_g"] == {"protein_g": 0.125, "zinc_mg": 0.05}
+    assert row["nutrient_sources"]["zinc_mg"] == "manufacturer:test"
+    details = row["source_details"]["manufacturer:test"]
+    assert details["url"] == "https://example.test/label"
+    assert details["derived_from_daily_value"] == ["zinc_mg"]

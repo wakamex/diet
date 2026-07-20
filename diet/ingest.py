@@ -15,6 +15,7 @@ from diet.foods import Location, SkuSpec, load_all_skus, load_locations
 from diet.nutrition import (
     extract_fdc_branded_nutrition,
     extract_kroger_nutrition,
+    load_nutrition_overrides,
     load_sku_nutrients,
 )
 from diet.sources import fdc as fdc_mod
@@ -238,6 +239,9 @@ def ingest(
     }
     for row in nutrient_rows:
         effective_nutrients[(row["source"], row["product_id"])] = row
+    for key, row in load_nutrition_overrides().items():
+        if key in valid_nutrient_keys:
+            effective_nutrients[key] = row
     nutrition_payload = {
         "updated": payload["updated"],
         "nutrients": sorted(
