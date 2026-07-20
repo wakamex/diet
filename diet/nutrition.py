@@ -11,10 +11,13 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
+import yaml
+
 from diet.sources.fdc import nutrients_per_g as fdc_nutrients_per_g
 from diet.util import read_json
 
 DEFAULT_NUTRIENTS_PATH = Path("data/nutrients_current.json")
+DEFAULT_OVERRIDES_PATH = Path("data/nutrition_overrides.yaml")
 
 # Prefer Kroger's stable nutrient codes, with display-name fallbacks for older
 # or sparsely coded catalog records.
@@ -295,17 +298,65 @@ def extract_fdc_branded_nutrition(
     }
 
 
-def load_sku_nutrients(
-    path: Path | str = DEFAULT_NUTRIENTS_PATH,
+def load_nutrition_overrides(
+    path: Path | str = DEFAULT_OVERRIDES_PATH,
 ) -> dict[tuple[str, str], dict[str, Any]]:
+    """Load auditable manually sourced Nutrition Facts overrides."""
     path = Path(path)
     if not path.exists():
         return {}
-    payload = read_json(path)
-    return {
-        (str(row["source"]), str(row["product_id"])): row
-        for row in payload.get("nutrients") or []
-    }
+    raw = yaml.safe_load(path.read_text(encoding="utf-8")) or []
+    out: dict[tuple[str, str], dict[str, Any]] = {}
+    for entry in raw:
+        serving_g = float(entry["serving_size_g"])
+        if serving_g <= 0:
+            raise ValueError(f"non-positive serving size in {path}: {entry['product_id']}")
+        per_serving = entry.get("nutrients_per_serving") or {}
+        values = {key: float(value) / serving_g for key, value in per_serving.items()}
+        source_id = str(entry["source_id"])
+        row = {
+            "product_id": str(entry["product_id"]),
+            "source": str(entry["source"]),
+            "upc": str(entry.get("upc") or ""),
+            "serving_size_g": serving_g,
+            "serving_basis": str(entry["serving_basis"]),
+            "ingredients": entry.get("ingredients"),
+            "nutrients_per_g": values,
+            "nutrient_sources": {key: source_id for key in values},
+            "source_details": {
+                source_id: {
+                    "kind": "manufacturer_nutrition_facts",
+                    "url": str(entry["source_url"]),
+                    "title": str(entry["source_title"]),
+                    "accessed": str(entry["accessed"]),
+                    "derived_from_daily_value": list(
+                        entry.get("derived_from_daily_value") or []
+                    ),
+                    "notes": list(entry.get("notes") or []),
+                }
+            },
+        }
+        out[(row["source"], row["product_id"])] = row
+    return out
+
+
+def load_sku_nutrients(
+    path: Path | str = DEFAULT_NUTRIENTS_PATH,
+    *,
+    overrides_path: Path | str = DEFAULT_OVERRIDES_PATH,
+) -> dict[tuple[str, str], dict[str, Any]]:
+    path = Path(path)
+    out: dict[tuple[str, str], dict[str, Any]] = {}
+    if path.exists():
+        payload = read_json(path)
+        out.update({
+            (str(row["source"]), str(row["product_id"])): row
+            for row in payload.get("nutrients") or []
+        })
+    # Curated manufacturer labels deliberately take priority over automated
+    # retailer/USDA records and retain their own per-nutrient provenance.
+    out.update(load_nutrition_overrides(overrides_path))
+    return out
 
 
 def merge_with_usda_fallback(
