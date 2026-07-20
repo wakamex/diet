@@ -19,6 +19,8 @@ diet = "diet.cli:main"
 
 [tool.uv]
 package = true
+# Delay newly uploaded releases to reduce exposure to supply-chain attacks.
+exclude-newer = "7 days"
 
 [build-system]
 requires = ["setuptools>=70"]
