@@ -12,6 +12,11 @@ from pathlib import Path
 import yaml
 
 from diet.solver import Food
+from diet.nutrition import (
+    DEFAULT_NUTRIENTS_PATH,
+    load_sku_nutrients,
+    merge_with_usda_fallback,
+)
 from diet.sources import fdc as fdc_mod
 from diet.util import read_json
 
@@ -96,6 +101,7 @@ def build_foods_for_location(
     prices: dict[tuple[str, str], dict],
     *,
     fdc_cache: Path = DEFAULT_FDC_CACHE,
+    nutrients_path: Path | str = DEFAULT_NUTRIENTS_PATH,
     use_promo: bool = True,
 ) -> list[Food]:
     """Materialize Food records for every SKU that has a price at this location.
@@ -104,6 +110,7 @@ def build_foods_for_location(
     `validate` report instead.
     """
     foods: list[Food] = []
+    sku_nutrients = load_sku_nutrients(nutrients_path)
     for sku in skus:
         price_row = prices.get((sku.product_id, location.location_id))
         if not price_row:
@@ -117,7 +124,11 @@ def build_foods_for_location(
         price_per_g = float(chosen) / sku.unit_grams
 
         fdc_payload = fdc_mod.fetch_food_cached(sku.fdc_id, fdc_cache)
-        nutrients = fdc_mod.nutrients_per_g(fdc_payload)
+        fallback = fdc_mod.nutrients_per_g(fdc_payload)
+        sku_row = sku_nutrients.get((sku.source, sku.product_id))
+        nutrients, nutrient_sources = merge_with_usda_fallback(
+            fallback, fdc_id=sku.fdc_id, sku_row=sku_row
+        )
 
         foods.append(Food(
             sku_id=sku.product_id,
@@ -128,6 +139,13 @@ def build_foods_for_location(
             dietary_categories=sku.dietary_categories,
             meta={
                 "fdc_id": sku.fdc_id,
+                "nutrient_sources": nutrient_sources,
+                "sku_nutrition": ({
+                    "upc": sku_row.get("upc"),
+                    "serving_size_g": sku_row.get("serving_size_g"),
+                    "serving_basis": sku_row.get("serving_basis"),
+                    "source_details": sku_row.get("source_details") or {},
+                } if sku_row else None),
                 "unit_grams": sku.unit_grams,
                 "price_regular": regular,
                 "price_promo": promo,

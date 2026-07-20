@@ -206,7 +206,7 @@
   _sale_price: 1.92
   _kroger_source: Kroger® Edamame
 - product_id: '777839120'
-  fdc_id: 172458
+  fdc_id: 174266
   name: Jif Creamy Peanut Butter, 16 oz Jar
   unit_grams: 453.6
   dietary_categories:
@@ -589,3 +589,114 @@
   _upc: '072400711244'
   _sale_price: 3.94
   _kroger_source: Grandma's® Original Molasses 12 Fluid Ounce Bottle
+- product_id: '10315427'
+  fdc_id: 170409
+  name: Great Value Golden Sweet Whole Kernel Corn, 15 oz
+  unit_grams: 425.2
+  dietary_categories:
+  - vegetable
+  source: walmart
+  _upc: 078742369396
+  _sale_price: 0.76
+  _kroger_source: Del Monte Golden Sweet Whole Kernel Corn
+- product_id: '748653717'
+  fdc_id: 170162
+  name: Great Value Organic Raw Whole Cashews, 14 oz
+  unit_grams: 396.9
+  dietary_categories:
+  - nut
+  source: walmart
+  _upc: 078742297071
+  _sale_price: 8.98
+  _kroger_source: Simple Truth® Raw Cashews
+- product_id: '353773773'
+  fdc_id: 169426
+  name: Great Value Roasted & Salted, No Shell Pistachios, 12 oz Resealable Bag
+  unit_grams: 340.2
+  dietary_categories:
+  - nut
+  source: walmart
+  _upc: 078742297057
+  _sale_price: 13.32
+  _kroger_source: Simple Truth® Shelled Roasted & Salted Pistachios
+- product_id: '10315444'
+  fdc_id: 169094
+  name: Great Value Large Pitted Black Olives, 6 oz
+  unit_grams: 170.1
+  dietary_categories:
+  - fruit
+  source: walmart
+  _upc: 078742369792
+  _sale_price: 1.97
+  _kroger_source: Kroger® Large Pitted Ripe Black Olives
+- product_id: '167257162'
+  fdc_id: 173806
+  name: PLANTERS Unsalted Dry Roasted Peanuts, Snacks, Plant Based Protein, 16oz Plastic Jar
+  unit_grams: 453.6
+  dietary_categories:
+  - legume
+  - nut
+  source: walmart
+  _upc: 029000073241
+  _sale_price: 10.0
+  _kroger_source: Kroger® Dry Roasted Unsalted Peanuts
+- product_id: '5284690796'
+  fdc_id: 170567
+  name: Great Value Natural Whole Almonds, 25 oz
+  unit_grams: 708.7
+  dietary_categories:
+  - nut
+  source: walmart
+  _upc: 194346197477
+  _sale_price: 10.48
+  _kroger_source: Simple Truth® Raw Almonds
+- product_id: '124188737'
+  fdc_id: 170187
+  name: Great Value Walnuts Halves & Pieces, 16 oz
+  unit_grams: 453.6
+  dietary_categories:
+  - nut
+  source: walmart
+  _upc: 078742201313
+  _sale_price: 9.96
+  _kroger_source: Kroger® Gluten Free Vegan Halves and Pieces Walnuts
+- product_id: '327976708'
+  fdc_id: 170182
+  name: Great Value Pecan Halves, 32 oz
+  unit_grams: 907.2
+  dietary_categories:
+  - nut
+  source: walmart
+  _upc: 078742201269
+  _sale_price: 22.74
+  _kroger_source: Kroger® Pecan Halves
+- product_id: '1657415345'
+  fdc_id: 170583
+  name: Now Foods Dry Roasted & Unsalted Hazelnuts 16 oz Bag
+  unit_grams: 453.6
+  dietary_categories:
+  - nut
+  source: walmart
+  _upc: 733739070517
+  _sale_price: 21.49
+  _kroger_source: Kroger® Roasted Chopped Hazelnuts
+- product_id: '6189023562'
+  fdc_id: 168598
+  name: bettergoods Dry Roasted and Salted Macadamias, 10 oz
+  unit_grams: 283.5
+  dietary_categories:
+  - nut
+  source: walmart
+  _upc: 194346252305
+  _sale_price: 7.92
+  _kroger_source: Simple Truth® Sea Salt Dry Roasted Macadamia Nuts
+- product_id: '804851997'
+  fdc_id: 170591
+  name: Great Value Pine Nuts, 4 oz
+  unit_grams: 113.4
+  dietary_categories:
+  - nut
+  source: walmart
+  _upc: 078742309439
+  _sale_price: 4.87
+  _kroger_source: Fresh Gourmet Raw Whole Pine Nuts

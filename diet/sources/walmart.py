@@ -106,9 +106,12 @@ class WalmartClient:
         return self._request("GET", f"{WALMART_API_BASE}/affil/product/v2/search",
                              params=params)
 
-    def product_details(self, item_id: str) -> dict:
+    def product_details(self, item_id: str, *, store_id: str | None = None) -> dict:
+        """Return item details, optionally with pricing scoped to a store."""
+        params = {"storeId": store_id} if store_id else None
         return self._request(
-            "GET", f"{WALMART_API_BASE}/affil/product/v2/items/{item_id}"
+            "GET", f"{WALMART_API_BASE}/affil/product/v2/items/{item_id}",
+            params=params,
         )
 
     def realtime_price(self, offer_ids: list[str], *,

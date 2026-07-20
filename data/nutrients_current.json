@@ -1,0 +1,3741 @@
+{
+  "updated": "2026-07-20T05:19:24Z",
+  "nutrients": [
+    {
+      "product_id": "0000000094069",
+      "source": "kroger",
+      "upc": "0000000094069",
+      "serving_size_g": 85.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "cabbage",
+      "nutrients_per_g": {
+        "magnesium_mg": 0.11764705882352941,
+        "calcium_mg": 0.35294117647058826,
+        "energy_kcal": 0.23529411764705882,
+        "fiber_g": 0.023529411764705882,
+        "iron_mg": 0.004705882352941177,
+        "vit_c_mg": 0.36470588235294116,
+        "sodium_mg": 0.17647058823529413,
+        "protein_g": 0.011764705882352941,
+        "potassium_mg": 1.6470588235294117
+      },
+      "nutrient_sources": {
+        "magnesium_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "fiber_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "vit_c_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111001618",
+      "source": "kroger",
+      "upc": "0001111001618",
+      "serving_size_g": 32.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Roasted peanuts, sugar, contains 2% or less of: molasses, fully hydrogenated vegetable oils (rapeseed, cottonseed, soybean), salt.\nCONTAINS: Peanuts.",
+      "nutrients_per_g": {
+        "fiber_g": 0.0625,
+        "energy_kcal": 5.625,
+        "calcium_mg": 0.90625,
+        "sodium_mg": 4.6875,
+        "iron_mg": 0.03125,
+        "protein_g": 0.21875,
+        "potassium_mg": 6.40625
+      },
+      "nutrient_sources": {
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111002466",
+      "source": "kroger",
+      "upc": "0001111002466",
+      "serving_size_g": 30.24,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "ALMONDS.CONTAINS: ALMONDS.PROCESSED ON EQUIPMENT THAT ALSO PROCESSES PEANUTS, OTHER TREE NUTS, MILK, SESAME, SOY, WHEAT.",
+      "nutrients_per_g": {
+        "protein_g": 0.1984126984126984,
+        "fiber_g": 0.0992063492063492,
+        "calcium_mg": 2.645502645502645,
+        "iron_mg": 0.03306878306878307,
+        "energy_kcal": 5.952380952380952,
+        "potassium_mg": 7.2751322751322745
+      },
+      "nutrient_sources": {
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111002478",
+      "source": "kroger",
+      "upc": "0001111002478",
+      "serving_size_g": 28.35,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "MACADAMIA NUTS, SEA SALT.CONTAINS: MACADAMIA NUTS.PROCESSED ON EQUIPMENT THAT ALSO PROCESSES PEANUTS, MILK, OTHER TREE NUTS, SESAME, SOY, WHEAT.",
+      "nutrients_per_g": {
+        "potassium_mg": 3.5273368606701943,
+        "iron_mg": 0.035273368606701945,
+        "protein_g": 0.07054673721340389,
+        "sodium_mg": 4.2328042328042335,
+        "energy_kcal": 7.0546737213403885,
+        "calcium_mg": 0.7054673721340389,
+        "fiber_g": 0.07054673721340389
+      },
+      "nutrient_sources": {
+        "potassium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "fiber_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111002805",
+      "source": "kroger",
+      "upc": "0001111002805",
+      "serving_size_g": 40.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Organic Whole Grain Rolled Oats.",
+      "nutrients_per_g": {
+        "protein_g": 0.125,
+        "iron_mg": 0.025,
+        "fiber_g": 0.1,
+        "calcium_mg": 0.5,
+        "energy_kcal": 3.75,
+        "potassium_mg": 3.75
+      },
+      "nutrient_sources": {
+        "protein_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111004236",
+      "source": "kroger",
+      "upc": "0001111004236",
+      "serving_size_g": 85.28,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Red Salmon, Salt.",
+      "nutrients_per_g": {
+        "sodium_mg": 2.8142589118198873,
+        "protein_g": 0.199343339587242,
+        "energy_kcal": 1.4071294559099436
+      },
+      "nutrient_sources": {
+        "sodium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111004382",
+      "source": "kroger",
+      "upc": "0001111004382",
+      "serving_size_g": 85.05,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Organic Sweet Potatoes.",
+      "nutrients_per_g": {
+        "calcium_mg": 0.35273368606701944,
+        "energy_kcal": 1.0582010582010581,
+        "potassium_mg": 3.76249265138154,
+        "fiber_g": 0.011757789535567314,
+        "protein_g": 0.023515579071134628,
+        "iron_mg": 0.005878894767783657,
+        "sodium_mg": 0.058788947677836566
+      },
+      "nutrient_sources": {
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "sodium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111004412",
+      "source": "kroger",
+      "upc": "0001111004412",
+      "serving_size_g": 13.90303,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Extra Virgin Olive Oil.",
+      "nutrients_per_g": {
+        "energy_kcal": 8.631211857018307
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111008287",
+      "source": "kroger",
+      "upc": "0001111008287",
+      "serving_size_g": 11.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Organic ground flaxseed meal.&nbsp;Processed on equipment that also processes tree nuts.",
+      "nutrients_per_g": {
+        "calcium_mg": 2.727272727272727,
+        "potassium_mg": 7.2727272727272725,
+        "iron_mg": 0.09090909090909091,
+        "energy_kcal": 5.454545454545454,
+        "fiber_g": 0.2727272727272727,
+        "protein_g": 0.18181818181818182
+      },
+      "nutrient_sources": {
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111008480",
+      "source": "kroger",
+      "upc": "0001111008480",
+      "serving_size_g": 34.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Whole Wheat Flour, Water, Vital Wheat Gluten, Yeast, Sugar. Contains Less than 2% of: Molasses, Soybean Oil, Salt, Raisin Juice Concentrate, Sodium Stearoyl Lactylate, Calcium Propionate (Preservative), Ammonium Sulfate, Fumaric Acid.",
+      "nutrients_per_g": {
+        "protein_g": 0.08823529411764706,
+        "fiber_g": 0.058823529411764705,
+        "calcium_mg": 0.8823529411764706,
+        "sodium_mg": 5.882352941176471,
+        "energy_kcal": 2.6470588235294117,
+        "potassium_mg": 2.0588235294117645,
+        "iron_mg": 0.03823529411764706
+      },
+      "nutrient_sources": {
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "iron_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111008733",
+      "source": "kroger",
+      "upc": "0001111008733",
+      "serving_size_g": 23.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Nonfat Dry Milk, Vitamin A Palmitate, Vitamin D3.",
+      "nutrients_per_g": {
+        "sodium_mg": 5.434782608695652,
+        "calcium_mg": 12.173913043478262,
+        "vit_d_mcg": 0.17391304347826086,
+        "potassium_mg": 16.956521739130434,
+        "energy_kcal": 3.4782608695652173,
+        "protein_g": 0.34782608695652173
+      },
+      "nutrient_sources": {
+        "sodium_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "vit_d_mcg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111009081",
+      "source": "kroger",
+      "upc": "0001111009081",
+      "serving_size_g": 9.769231,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Inactive Dry Yeast, Niacin (Vitamin B3), Pyridoxine Hydrochloride (Vitamin B6), Thiamin Hydrochloride (Vitamin B1), Riboflavin (Vitamin B2), Folic Acid (Folate), Cyanocobalamin (Vitamin B12).",
+      "nutrients_per_g": {
+        "iron_mg": 0.06141732283464566,
+        "potassium_mg": 21.49606299212598,
+        "vit_b12_mcg": 1.5354330708661417,
+        "protein_g": 0.5118110236220472,
+        "fiber_g": 0.20472440944881887,
+        "energy_kcal": 4.094488188976378,
+        "sodium_mg": 20.47244094488189
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "vit_b12_mcg": "kroger_label",
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "sodium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111010692",
+      "source": "kroger",
+      "upc": "0001111010692",
+      "serving_size_g": 30.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "HAZELNUTS.\nPROCESSED ON EQUIPMENT THAT ALSO PROCESSES\nSESAME, PEANUTS, OTHER TREE NUTS, DAIRY, SOY, AND WHEAT.",
+      "nutrients_per_g": {
+        "iron_mg": 0.04666666666666666,
+        "potassium_mg": 6.666666666666667,
+        "protein_g": 0.13333333333333333,
+        "fiber_g": 0.1,
+        "calcium_mg": 1.0,
+        "energy_kcal": 6.666666666666667
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111010701",
+      "source": "kroger",
+      "upc": "0001111010701",
+      "serving_size_g": 30.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Walnuts. PROCESSED ON EQUIPMENT THAT ALSO PROCESSES SESAME,\nPEANUTS, OTHER TREE NUTS, DAIRY, SOY, AND WHEAT",
+      "nutrients_per_g": {
+        "fiber_g": 0.06666666666666667,
+        "potassium_mg": 4.333333333333333,
+        "iron_mg": 0.03333333333333333,
+        "protein_g": 0.16666666666666666,
+        "calcium_mg": 1.0,
+        "energy_kcal": 6.666666666666667
+      },
+      "nutrient_sources": {
+        "fiber_g": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111010702",
+      "source": "kroger",
+      "upc": "0001111010702",
+      "serving_size_g": 30.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "PECANS.PROCESSED ON EQUIPMENT THAT ALSO PROCESSES\nSESAME, PEANUTS, OTHER TREE NUTS, DAIRY, SOY, AND WHEAT.",
+      "nutrients_per_g": {
+        "iron_mg": 0.02666666666666667,
+        "fiber_g": 0.1,
+        "protein_g": 0.1,
+        "calcium_mg": 0.6666666666666666,
+        "potassium_mg": 4.0,
+        "energy_kcal": 7.333333333333333
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111011974",
+      "source": "kroger",
+      "upc": "0001111011974",
+      "serving_size_g": 117.942857,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Tomatoes, Tomato Juice, Dried Garlic, Salt, Calcium Chloride, Spices, Natural Flavors, Citric Acid",
+      "nutrients_per_g": {
+        "potassium_mg": 1.950096899224806,
+        "energy_kcal": 0.21196705426356588,
+        "protein_g": 0.008478682170542635,
+        "calcium_mg": 0.1695736434108527,
+        "sodium_mg": 2.119670542635659,
+        "fiber_g": 0.008478682170542635
+      },
+      "nutrient_sources": {
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "fiber_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111012210",
+      "source": "kroger",
+      "upc": "0001111012210",
+      "serving_size_g": 120.514286,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Prepared Organic Garbanzo Beans (Chickpeas), Water, Sea Salt.",
+      "nutrients_per_g": {
+        "iron_mg": 0.01078710289236605,
+        "sodium_mg": 0.9542437174016121,
+        "energy_kcal": 0.9127548601232811,
+        "potassium_mg": 1.7425320056899003,
+        "protein_g": 0.049786628733997154,
+        "fiber_g": 0.03319108582266477,
+        "calcium_mg": 0.24893314366998576
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111013270",
+      "source": "kroger",
+      "upc": "0001111013270",
+      "serving_size_g": 256.742857,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Oatmilk (filtered water, oats), mineral and vitamin blend (tricalcium phosphate, potassium citrate, alpha tocopherol acetate [vitamin E], vitamin A palmitate, vitamin D2, vitamin B12), cane sugar, high oleic sunflower oil, sea salt, guar gum, gellan gum.",
+      "nutrients_per_g": {
+        "sodium_mg": 0.5842421544624973,
+        "potassium_mg": 1.1684843089249946,
+        "vit_d_mcg": 0.015579790785666594,
+        "iron_mg": 0.0019474738482083242,
+        "protein_g": 0.007789895392833297,
+        "vit_e_mg": 0.029212107723124863,
+        "vit_a_mcg": 0.5842421544624973,
+        "fiber_g": 0.0038949476964166485,
+        "energy_kcal": 0.35054529267749834,
+        "calcium_mg": 1.4021811707099934,
+        "vit_b12_mcg": 0.004673937235699978
+      },
+      "nutrient_sources": {
+        "sodium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "vit_d_mcg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "vit_e_mg": "kroger_label",
+        "vit_a_mcg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "vit_b12_mcg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111013646",
+      "source": "kroger",
+      "upc": "0001111013646",
+      "serving_size_g": 9.072,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Corn Starch.",
+      "nutrients_per_g": {
+        "energy_kcal": 3.3068783068783065
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111014825",
+      "source": "kroger",
+      "upc": "0001111014825",
+      "serving_size_g": 28.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Peanuts. CONTAINS: PEANUTS.",
+      "nutrients_per_g": {
+        "protein_g": 0.25,
+        "potassium_mg": 7.142857142857143,
+        "iron_mg": 0.04642857142857143,
+        "fiber_g": 0.07142857142857142,
+        "calcium_mg": 1.0714285714285714,
+        "energy_kcal": 5.714285714285714
+      },
+      "nutrient_sources": {
+        "protein_g": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111015380",
+      "source": "kroger",
+      "upc": "0001111015380",
+      "serving_size_g": 136.08,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Edamame (Soybeans in the Pod).",
+      "nutrients_per_g": {
+        "fiber_g": 0.022045855379188715,
+        "energy_kcal": 0.6613756613756615,
+        "iron_mg": 0.0102880658436214,
+        "protein_g": 0.05878894767783657,
+        "calcium_mg": 0.2939447383891829,
+        "potassium_mg": 2.4250440917107587
+      },
+      "nutrient_sources": {
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111015685",
+      "source": "kroger",
+      "upc": "0001111015685",
+      "serving_size_g": 236.933333,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Orange juice, orange pulp.",
+      "nutrients_per_g": {
+        "iron_mg": 0.0012661789532920653,
+        "sodium_mg": 0.021102982554867755,
+        "calcium_mg": 0.12661789532920653,
+        "potassium_mg": 1.8570624648283627,
+        "vit_c_mg": 0.3376477208778841,
+        "energy_kcal": 0.5064715813168261,
+        "protein_g": 0.008441193021947103,
+        "fiber_g": 0.004220596510973552
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "vit_c_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111016103",
+      "source": "kroger",
+      "upc": "0001111016103",
+      "serving_size_g": 151.2,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Bananas, Ascorbic and Citric Acid (to Promote Color Retention).",
+      "nutrients_per_g": {
+        "energy_kcal": 0.7936507936507936,
+        "protein_g": 0.013227513227513227,
+        "vit_c_mg": 0.07936507936507936,
+        "fiber_g": 0.026455026455026454,
+        "calcium_mg": 0.06613756613756613,
+        "potassium_mg": 3.3068783068783065,
+        "iron_mg": 0.0026455026455026454
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "vit_c_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "iron_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111018028",
+      "source": "kroger",
+      "upc": "0001111018028",
+      "serving_size_g": 113.4,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": null,
+      "nutrients_per_g": {
+        "calcium_mg": 0.08818342151675485,
+        "energy_kcal": 1.146384479717813,
+        "protein_g": 0.2204585537918871,
+        "sodium_mg": 0.4409171075837742,
+        "potassium_mg": 3.262786596119929,
+        "iron_mg": 0.003527336860670194
+      },
+      "nutrient_sources": {
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "iron_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111018273",
+      "source": "kroger",
+      "upc": "0001111018273",
+      "serving_size_g": 30.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Pistachios, Sea Salt.",
+      "nutrients_per_g": {
+        "energy_kcal": 5.666666666666667,
+        "iron_mg": 0.03333333333333333,
+        "calcium_mg": 1.0,
+        "protein_g": 0.2,
+        "fiber_g": 0.1,
+        "sodium_mg": 4.333333333333333,
+        "potassium_mg": 10.0
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label",
+        "iron_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111041661",
+      "source": "kroger",
+      "upc": "0001111041661",
+      "serving_size_g": 243.6875,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Skim milk, milk, vitamin A palmitate, vitamin D3 .",
+      "nutrients_per_g": {
+        "vit_d_mcg": 0.010259040779687098,
+        "energy_kcal": 0.410361631187484,
+        "protein_g": 0.032828930494998715,
+        "sodium_mg": 0.43087971274685816,
+        "calcium_mg": 1.2310848935624519,
+        "vit_a_mcg": 0.6155424467812259,
+        "potassium_mg": 1.5593741985124392
+      },
+      "nutrient_sources": {
+        "vit_d_mcg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "vit_a_mcg": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111050158",
+      "source": "kroger",
+      "upc": "0001111050158",
+      "serving_size_g": 28.35,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Pasteurized milk, cheese culture, salt, enzymes, annatto (for color), potato starch, corn starch, dextrose and calcium sulfate (added to prevent caking), natamycin (a natural mold inhibitor).CONTAINS: MILK",
+      "nutrients_per_g": {
+        "energy_kcal": 4.232804232804233,
+        "calcium_mg": 7.054673721340388,
+        "sodium_mg": 7.054673721340388,
+        "protein_g": 0.21164021164021163
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "protein_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111060903",
+      "source": "kroger",
+      "upc": "0001111060903",
+      "serving_size_g": 50.0,
+      "serving_basis": "declared_grams",
+      "ingredients": null,
+      "nutrients_per_g": {
+        "iron_mg": 0.018000000000000002,
+        "vit_d_mcg": 0.02,
+        "sodium_mg": 1.4,
+        "calcium_mg": 0.6,
+        "potassium_mg": 1.4,
+        "protein_g": 0.12,
+        "energy_kcal": 1.4
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "vit_d_mcg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111063602",
+      "source": "kroger",
+      "upc": "0001111063602",
+      "serving_size_g": 112.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Chicken livers.",
+      "nutrients_per_g": {
+        "sodium_mg": 0.7142857142857143,
+        "potassium_mg": 2.3214285714285716,
+        "energy_kcal": 1.1607142857142858,
+        "protein_g": 0.16964285714285715,
+        "iron_mg": 0.09017857142857143
+      },
+      "nutrient_sources": {
+        "sodium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "iron_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111063769",
+      "source": "kroger",
+      "upc": "0001111063769",
+      "serving_size_g": 28.35,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "CASHEWS.CONTAINS: CASHEWS.PROCESSED ON EQUIPMENT THAT ALSO PROCESSES PEANUTS, MILK, OTHER TREE NUTS, WHEAT, SESAME, SOY.",
+      "nutrients_per_g": {
+        "energy_kcal": 5.64373897707231,
+        "protein_g": 0.1763668430335097,
+        "iron_mg": 0.07054673721340388,
+        "potassium_mg": 6.349206349206349,
+        "fiber_g": 0.03527336860670194,
+        "calcium_mg": 0.3527336860670194
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111071786",
+      "source": "kroger",
+      "upc": "0001111071786",
+      "serving_size_g": 125.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "PREPARED LIGHT RED KIDNEY BEANS, WATER, SUGAR, SALT, CALCIUM CHLORIDE (FIRMING AGENT), DISODIUM EDTA (FOR COLOR RETENTION).",
+      "nutrients_per_g": {
+        "protein_g": 0.056,
+        "iron_mg": 0.024,
+        "sodium_mg": 2.4,
+        "fiber_g": 0.056,
+        "calcium_mg": 0.88,
+        "potassium_mg": 3.52,
+        "energy_kcal": 0.88
+      },
+      "nutrient_sources": {
+        "protein_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111071789",
+      "source": "kroger",
+      "upc": "0001111071789",
+      "serving_size_g": 124.4,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Prepared Great Northern Beans, Water, Salt, Calcium Chloride (Firming Agent).",
+      "nutrients_per_g": {
+        "fiber_g": 0.048231511254019296,
+        "iron_mg": 0.013665594855305467,
+        "energy_kcal": 0.8842443729903537,
+        "potassium_mg": 3.536977491961415,
+        "calcium_mg": 0.48231511254019294,
+        "protein_g": 0.056270096463022515,
+        "sodium_mg": 2.411575562700965
+      },
+      "nutrient_sources": {
+        "fiber_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "sodium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111072565",
+      "source": "kroger",
+      "upc": "0001111072565",
+      "serving_size_g": 125.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "PREPARED PINTO BEANS, WATER, SALT, CALCIUM CHLORIDE (FIRMING AGENT), CALCIUM DISODIUM EDTA (COLOR RETENTION)",
+      "nutrients_per_g": {
+        "energy_kcal": 0.8,
+        "calcium_mg": 0.56,
+        "potassium_mg": 3.76,
+        "sodium_mg": 2.4,
+        "fiber_g": 0.04,
+        "iron_mg": 0.016,
+        "protein_g": 0.056
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111072567",
+      "source": "kroger",
+      "upc": "0001111072567",
+      "serving_size_g": 124.4,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Prepared Black Beans, Water, Salt.",
+      "nutrients_per_g": {
+        "iron_mg": 0.014469453376205789,
+        "calcium_mg": 0.4019292604501608,
+        "fiber_g": 0.04019292604501608,
+        "protein_g": 0.06430868167202573,
+        "sodium_mg": 2.411575562700965,
+        "potassium_mg": 4.260450160771705,
+        "energy_kcal": 0.9646302250803859
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111080553",
+      "source": "kroger",
+      "upc": "0001111080553",
+      "serving_size_g": 233.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "CARROTS, WATER",
+      "nutrients_per_g": {
+        "calcium_mg": 0.2145922746781116,
+        "energy_kcal": 0.15021459227467812,
+        "sodium_mg": 0.23605150214592274,
+        "fiber_g": 0.012875536480686695,
+        "potassium_mg": 1.0729613733905579,
+        "protein_g": 0.004291845493562232,
+        "iron_mg": 0.0034334763948497857
+      },
+      "nutrient_sources": {
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "iron_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111081365",
+      "source": "kroger",
+      "upc": "0001111081365",
+      "serving_size_g": 165.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "POTATOES, WATER, SALT, CALCIUM CHLORIDE (FIRMING AGENT).",
+      "nutrients_per_g": {
+        "fiber_g": 0.012121212121212121,
+        "iron_mg": 0.00787878787878788,
+        "sodium_mg": 1.696969696969697,
+        "potassium_mg": 1.393939393939394,
+        "calcium_mg": 0.06060606060606061,
+        "protein_g": 0.006060606060606061,
+        "energy_kcal": 0.36363636363636365
+      },
+      "nutrient_sources": {
+        "fiber_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111082202",
+      "source": "kroger",
+      "upc": "0001111082202",
+      "serving_size_g": 15.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Pitted Ripe Olives , Water , Salt , Ferrous Gluconate .",
+      "nutrients_per_g": {
+        "sodium_mg": 7.666666666666667,
+        "energy_kcal": 1.6666666666666667
+      },
+      "nutrient_sources": {
+        "sodium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111085072",
+      "source": "kroger",
+      "upc": "0001111085072",
+      "serving_size_g": 56.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Semolina, Durum Flour, Spinach Powder, Tomato Powder, Niacin, Ferrous Sulfate (Iron), Thiamin Mononitrate, Riboflavin, Folic Acid.",
+      "nutrients_per_g": {
+        "potassium_mg": 2.857142857142857,
+        "sodium_mg": 0.17857142857142858,
+        "protein_g": 0.125,
+        "fiber_g": 0.03571428571428571,
+        "energy_kcal": 3.5714285714285716,
+        "iron_mg": 0.033928571428571426
+      },
+      "nutrient_sources": {
+        "potassium_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "iron_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111085401",
+      "source": "kroger",
+      "upc": "0001111085401",
+      "serving_size_g": 30.24,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Enriched Bleached Wheat Flour (Bleached Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Enzyme.",
+      "nutrients_per_g": {
+        "potassium_mg": 1.6534391534391533,
+        "energy_kcal": 3.6375661375661372,
+        "fiber_g": 0.03306878306878307,
+        "protein_g": 0.0992063492063492,
+        "iron_mg": 0.04298941798941799,
+        "calcium_mg": 0.33068783068783064
+      },
+      "nutrient_sources": {
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "calcium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111085607",
+      "source": "kroger",
+      "upc": "0001111085607",
+      "serving_size_g": 13.603125,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Soybean Oil.",
+      "nutrients_per_g": {
+        "energy_kcal": 8.821502412129565
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111085634",
+      "source": "kroger",
+      "upc": "0001111085634",
+      "serving_size_g": 13.559375,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Canola Oil.",
+      "nutrients_per_g": {
+        "energy_kcal": 8.84996542982254
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111086292",
+      "source": "kroger",
+      "upc": "0001111086292",
+      "serving_size_g": 35.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Organic Green Lentils.",
+      "nutrients_per_g": {
+        "iron_mg": 0.06571428571428571,
+        "fiber_g": 0.11428571428571428,
+        "protein_g": 0.2571428571428571,
+        "energy_kcal": 3.142857142857143,
+        "potassium_mg": 6.857142857142857
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111087226",
+      "source": "kroger",
+      "upc": "0001111087226",
+      "serving_size_g": 81.657143,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Spinach.",
+      "nutrients_per_g": {
+        "energy_kcal": 0.36738978306508047,
+        "protein_g": 0.0244926522043387,
+        "sodium_mg": 1.5307907627711685,
+        "fiber_g": 0.01224632610216935
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "fiber_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111088301",
+      "source": "kroger",
+      "upc": "0001111088301",
+      "serving_size_g": 30.458333,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Milk, Dipotassium Phosphate, Carrageenan, Vitamin D3.",
+      "nutrients_per_g": {
+        "potassium_mg": 3.6114911080711356,
+        "sodium_mg": 0.9849521203830369,
+        "vit_d_mcg": 0.03611491108071136,
+        "protein_g": 0.06566347469220246,
+        "calcium_mg": 2.2982216142270864,
+        "energy_kcal": 1.3132694938440492
+      },
+      "nutrient_sources": {
+        "potassium_mg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "vit_d_mcg": "kroger_label",
+        "protein_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111089711",
+      "source": "kroger",
+      "upc": "0001111089711",
+      "serving_size_g": 45.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Long Grain Brown Rice.",
+      "nutrients_per_g": {
+        "iron_mg": 0.013333333333333332,
+        "protein_g": 0.06666666666666667,
+        "fiber_g": 0.044444444444444446,
+        "energy_kcal": 3.5555555555555554,
+        "potassium_mg": 2.4444444444444446
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111089724",
+      "source": "kroger",
+      "upc": "0001111089724",
+      "serving_size_g": 87.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Broccoli.",
+      "nutrients_per_g": {
+        "protein_g": 0.034482758620689655,
+        "iron_mg": 0.006896551724137931,
+        "calcium_mg": 0.3448275862068966,
+        "fiber_g": 0.034482758620689655,
+        "energy_kcal": 0.28735632183908044,
+        "potassium_mg": 2.2988505747126435,
+        "sodium_mg": 0.1724137931034483
+      },
+      "nutrient_sources": {
+        "protein_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "sodium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111089864",
+      "source": "kroger",
+      "upc": "0001111089864",
+      "serving_size_g": 35.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Pinto Beans.",
+      "nutrients_per_g": {
+        "fiber_g": 0.14285714285714285,
+        "energy_kcal": 3.4285714285714284,
+        "calcium_mg": 1.1428571428571428,
+        "potassium_mg": 14.0,
+        "iron_mg": 0.06857142857142857,
+        "protein_g": 0.2
+      },
+      "nutrient_sources": {
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111089875",
+      "source": "kroger",
+      "upc": "0001111089875",
+      "serving_size_g": 45.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Long Grain Rice, Ferric Phosphate, Niacin, Thiamine Mononitrate, Folic Acid.",
+      "nutrients_per_g": {
+        "iron_mg": 0.044444444444444446,
+        "potassium_mg": 1.1111111111111112,
+        "energy_kcal": 3.5555555555555554,
+        "fiber_g": 0.022222222222222223,
+        "protein_g": 0.06666666666666667,
+        "calcium_mg": 0.2222222222222222
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label",
+        "calcium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0001111091342",
+      "source": "kroger",
+      "upc": "0001111091342",
+      "serving_size_g": 85.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Water, Organic Whole Soybeans, Calcium Sulfate, Nigari (Sea Water Extract).",
+      "nutrients_per_g": {
+        "fiber_g": 0.011764705882352941,
+        "sodium_mg": 0.17647058823529413
+      },
+      "nutrient_sources": {
+        "fiber_g": "kroger_label",
+        "sodium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0002400055078",
+      "source": "kroger",
+      "upc": "0002400055078",
+      "serving_size_g": 125.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "CORN, WATER, SEA SALT.",
+      "nutrients_per_g": {
+        "sodium_mg": 2.56,
+        "fiber_g": 0.016,
+        "energy_kcal": 0.48,
+        "protein_g": 0.008
+      },
+      "nutrient_sources": {
+        "sodium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0002529360039",
+      "source": "kroger",
+      "upc": "0002529360039",
+      "serving_size_g": 243.6875,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "SOYMILK (WATER, SOYBEANS), CANE SUGAR, VITAMIN AND MINERAL BLEND CALCIUM PHOSPHATE, CALCIUM CARBONATE, VITAMIN E ACETATE, VITAMIN A PALMITATE, VITAMIN D2, VITAMIN B12, RIBOFLAVIN [B2], POTASSIUM IODIDE), SEA SALT, NATURAL FLAVOR, GELLAN GUM, SODIUM ASCORBATE (VITAMIN C TO PROTECT FRESHNESS)",
+      "nutrients_per_g": {
+        "vit_d_mcg": 0.01231084893562452,
+        "protein_g": 0.032828930494998715,
+        "calcium_mg": 1.9286996665811746,
+        "energy_kcal": 0.4513977943062324,
+        "fiber_g": 0.008207232623749679,
+        "vit_a_mcg": 0.6155424467812259,
+        "sodium_mg": 0.36932546806873556,
+        "potassium_mg": 1.436265709156194,
+        "iron_mg": 0.001641446524749936,
+        "vit_b12_mcg": 0.010259040779687098
+      },
+      "nutrient_sources": {
+        "vit_d_mcg": "kroger_label",
+        "protein_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "fiber_g": "kroger_label",
+        "vit_a_mcg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "vit_b12_mcg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0003000003050",
+      "source": "kroger",
+      "upc": "0003000003050",
+      "serving_size_g": 27.216,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Degerminated Yellow Corn Meal, Niacin*, Reduced Iron, Thiamin Mononitrate*, Riboflavin*, Folic Acid*. * One of the B Vitamins.",
+      "nutrients_per_g": {
+        "iron_mg": 0.036743092298647854,
+        "fiber_g": 0.036743092298647854,
+        "protein_g": 0.07348618459729571,
+        "energy_kcal": 3.306878306878307
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0003000007210",
+      "source": "kroger",
+      "upc": "0003000007210",
+      "serving_size_g": 44.714286,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Pearled Barley.",
+      "nutrients_per_g": {
+        "iron_mg": 0.026837060702875396,
+        "energy_kcal": 3.801916932907348,
+        "calcium_mg": 0.22364217252396165,
+        "potassium_mg": 2.9073482428115014,
+        "fiber_g": 0.11182108626198083,
+        "protein_g": 0.11182108626198083
+      },
+      "nutrient_sources": {
+        "iron_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0003997811322",
+      "source": "kroger",
+      "upc": "0003997811322",
+      "serving_size_g": 29.842105,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Vital Wheat Gluten.",
+      "nutrients_per_g": {
+        "sodium_mg": 0.6701940035273369,
+        "iron_mg": 0.03350970017636684,
+        "calcium_mg": 0.30158730158730157,
+        "protein_g": 0.7707231040564374,
+        "energy_kcal": 4.021164021164021,
+        "potassium_mg": 0.8042328042328043
+      },
+      "nutrient_sources": {
+        "sodium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0004133102487",
+      "source": "kroger",
+      "upc": "0004133102487",
+      "serving_size_g": 49.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Ingredients: Green Split Peas",
+      "nutrients_per_g": {
+        "fiber_g": 0.34857142857142853,
+        "iron_mg": 0.022040816326530613,
+        "protein_g": 0.22448979591836735,
+        "energy_kcal": 3.4693877551020407,
+        "potassium_mg": 7.673469387755102
+      },
+      "nutrient_sources": {
+        "fiber_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "potassium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0005527096112",
+      "source": "kroger",
+      "upc": "0005527096112",
+      "serving_size_g": 78.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Mackerel (Fish), Tomato Sauce (Water, Tomato Paste, Corn Starch, Sugar, Guar Gum, Paprika (Color)), Salt.",
+      "nutrients_per_g": {
+        "potassium_mg": 1.794871794871795,
+        "vit_d_mcg": 0.015384615384615384,
+        "sodium_mg": 4.358974358974359,
+        "iron_mg": 0.014102564102564105,
+        "fiber_g": 0.01282051282051282,
+        "energy_kcal": 0.8974358974358975,
+        "protein_g": 0.1282051282051282,
+        "calcium_mg": 2.6923076923076925
+      },
+      "nutrient_sources": {
+        "potassium_mg": "kroger_label",
+        "vit_d_mcg": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "calcium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0007010007062",
+      "source": "kroger",
+      "upc": "0007010007062",
+      "serving_size_g": 13.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Ingredients: Contains Lard, Hydrogenated Lard, BHT, and BHA (preservatives).",
+      "nutrients_per_g": {
+        "energy_kcal": 9.23076923076923
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0007152401215",
+      "source": "kroger",
+      "upc": "0007152401215",
+      "serving_size_g": 56.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Black Beans",
+      "nutrients_per_g": {
+        "potassium_mg": 15.178571428571429,
+        "energy_kcal": 2.3214285714285716,
+        "fiber_g": 0.30357142857142855,
+        "iron_mg": 0.05892857142857143,
+        "protein_g": 0.23214285714285715,
+        "sodium_mg": 0.17857142857142858,
+        "calcium_mg": 0.32142857142857145
+      },
+      "nutrient_sources": {
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "fiber_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "calcium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0007240071124",
+      "source": "kroger",
+      "upc": "0007240071124",
+      "serving_size_g": 14.7875,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Unsulfured Molasses",
+      "nutrients_per_g": {
+        "potassium_mg": 7.438715131022824,
+        "energy_kcal": 4.057480980557903,
+        "sodium_mg": 1.3524936601859678
+      },
+      "nutrient_sources": {
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "sodium_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0007990000123",
+      "source": "kroger",
+      "upc": "0007990000123",
+      "serving_size_g": 136.08,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Mangos, Strawberries, Wild Blueberries.",
+      "nutrients_per_g": {
+        "vit_c_mg": 0.2865961199294533,
+        "potassium_mg": 1.322751322751323,
+        "fiber_g": 0.029394473838918286,
+        "protein_g": 0.007348618459729572,
+        "iron_mg": 0.0051440329218107,
+        "calcium_mg": 0.14697236919459145,
+        "energy_kcal": 0.5144032921810701
+      },
+      "nutrient_sources": {
+        "vit_c_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "protein_g": "kroger_label",
+        "iron_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0078735917937",
+      "source": "kroger",
+      "upc": "0078735917937",
+      "serving_size_g": 9.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Pine Nut Kernels.",
+      "nutrients_per_g": {
+        "potassium_mg": 6.0,
+        "protein_g": 0.1111111111111111,
+        "energy_kcal": 6.666666666666667
+      },
+      "nutrient_sources": {
+        "potassium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0079852516100",
+      "source": "kroger",
+      "upc": "0079852516100",
+      "serving_size_g": 85.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Ingredients: Clams in Clam Juice, Water, Salt, Sugar, Sodium Tripolyphosphate (To Retain Natural Juices), Calcium Disodium EDTA (To Protect Color).",
+      "nutrients_per_g": {
+        "energy_kcal": 0.47058823529411764,
+        "protein_g": 0.058823529411764705,
+        "sodium_mg": 6.235294117647059,
+        "iron_mg": 0.012941176470588237
+      },
+      "nutrient_sources": {
+        "energy_kcal": "kroger_label",
+        "protein_g": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "iron_mg": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0081815801219",
+      "source": "kroger",
+      "upc": "0081815801219",
+      "serving_size_g": 15.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "Ingredients: Wheat Germ, Vitamin E Acetate (D-l-alpha-tocopheryl Acetate), Vitamin A Palmitate, Folic Acid.",
+      "nutrients_per_g": {
+        "protein_g": 0.26666666666666666,
+        "calcium_mg": 0.6666666666666666,
+        "iron_mg": 0.060000000000000005,
+        "magnesium_mg": 2.3333333333333335,
+        "zinc_mg": 0.12000000000000001,
+        "vit_a_mcg": 8.666666666666666,
+        "vit_e_mg": 0.18666666666666665,
+        "fiber_g": 0.13333333333333333,
+        "potassium_mg": 8.666666666666666,
+        "energy_kcal": 4.0
+      },
+      "nutrient_sources": {
+        "protein_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "magnesium_mg": "kroger_label",
+        "zinc_mg": "kroger_label",
+        "vit_a_mcg": "kroger_label",
+        "vit_e_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0081957301590",
+      "source": "kroger",
+      "upc": "0081957301590",
+      "serving_size_g": 113.0,
+      "serving_basis": "declared_grams",
+      "ingredients": "BANANA PUREE*, WATER, DRAGON FRUIT PUREE*, COCONUTMILK* (COCONUT*, WATER), MILLED CHIA SEEDS*, MILLED WHOLE GRAIN OATS*, <2% OF: VANILLA EXTRACT*, LEMON JUICE CONCENTRATE*, ASCORBIC ACID (VITAMIN C) TO PRESERVE FRESHNESS. *ORGANIC",
+      "nutrients_per_g": {
+        "calcium_mg": 0.17699115044247787,
+        "energy_kcal": 0.7964601769911505,
+        "iron_mg": 0.003539823008849558,
+        "potassium_mg": 1.7699115044247788,
+        "protein_g": 0.017699115044247787,
+        "fiber_g": 0.017699115044247787
+      },
+      "nutrient_sources": {
+        "calcium_mg": "kroger_label",
+        "energy_kcal": "kroger_label",
+        "iron_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "fiber_g": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "0086102900011",
+      "source": "kroger",
+      "upc": "0086102900011",
+      "serving_size_g": 243.685714,
+      "serving_basis": "package_weight_divided_by_servings",
+      "ingredients": "Filtered Water, Organic Almonds, Himalayan Pink Salt.",
+      "nutrients_per_g": {
+        "fiber_g": 0.012310939148786493,
+        "calcium_mg": 0.16414585531715326,
+        "potassium_mg": 0.3282917106343065,
+        "protein_g": 0.008207292765857662,
+        "sodium_mg": 0.5745104936100364,
+        "energy_kcal": 0.2872552468050182
+      },
+      "nutrient_sources": {
+        "fiber_g": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "potassium_mg": "kroger_label",
+        "protein_g": "kroger_label",
+        "sodium_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
+      },
+      "source_details": {
+        "kroger_label": {
+          "kind": "retailer_nutrition_facts",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10294375",
+      "source": "walmart",
+      "upc": "798525161008",
+      "serving_size_g": 55.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "CLAMS IN THEIR NATURAL JUICES, WATER, SALT SUGAR, SODIUM TRIPOLYPHOSPHATE (TO RETAIN NATURAL JUICES), CALCIUM DISODIUM EDTA (TO PROTECT COLOR)",
+      "nutrients_per_g": {
+        "protein_g": 0.0545,
+        "vit_a_mcg": 0.0,
+        "iron_mg": 0.0131,
+        "fiber_g": 0.0,
+        "vit_d_mcg": 0.0,
+        "calcium_mg": 0.0,
+        "potassium_mg": 0.45,
+        "energy_kcal": 0.45,
+        "vit_c_mg": 0.0,
+        "sodium_mg": 6.36
+      },
+      "nutrient_sources": {
+        "protein_g": "usda_branded_upc:2627994",
+        "vit_a_mcg": "usda_branded_upc:2627994",
+        "iron_mg": "usda_branded_upc:2627994",
+        "fiber_g": "usda_branded_upc:2627994",
+        "vit_d_mcg": "usda_branded_upc:2627994",
+        "calcium_mg": "usda_branded_upc:2627994",
+        "potassium_mg": "usda_branded_upc:2627994",
+        "energy_kcal": "usda_branded_upc:2627994",
+        "vit_c_mg": "usda_branded_upc:2627994",
+        "sodium_mg": "usda_branded_upc:2627994"
+      },
+      "source_details": {
+        "usda_branded_upc:2627994": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2627994,
+          "publication_date": "8/31/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10294413",
+      "source": "walmart",
+      "upc": "761720071045",
+      "serving_size_g": 8.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "CORN STARCH",
+      "nutrients_per_g": {
+        "energy_kcal": 3.75,
+        "protein_g": 0.0,
+        "sodium_mg": 0.0
+      },
+      "nutrient_sources": {
+        "energy_kcal": "usda_branded_upc:2209859",
+        "protein_g": "usda_branded_upc:2209859",
+        "sodium_mg": "usda_branded_upc:2209859"
+      },
+      "source_details": {
+        "usda_branded_upc:2209859": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2209859,
+          "publication_date": "1/6/2022",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10295044",
+      "source": "walmart",
+      "upc": "025293600393",
+      "serving_size_g": null,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "SOYMILK (FILTERED WATER, SOYBEANS), CANE SUGAR, VITAMIN AND MINERAL BLEND (TRICALCIUM PHOSPHATE, CALCIUM CARBONATE, VITAMIN A PALMITATE, VITAMIN D2, RIBOFLAVIN [B2], VITAMIN B12), SEA SALT, NATURAL FLAVOR, GELLAN GUM.",
+      "nutrients_per_g": {
+        "protein_g": 0.0333,
+        "vit_b12_mcg": 0.0125,
+        "energy_kcal": 0.46,
+        "iron_mg": 0.0054,
+        "calcium_mg": 1.88,
+        "sodium_mg": 0.38,
+        "magnesium_mg": 0.21,
+        "potassium_mg": 1.58,
+        "fiber_g": 0.008
+      },
+      "nutrient_sources": {
+        "protein_g": "usda_branded_upc:2466744",
+        "vit_b12_mcg": "usda_branded_upc:2466744",
+        "energy_kcal": "usda_branded_upc:2466744",
+        "iron_mg": "usda_branded_upc:2466744",
+        "calcium_mg": "usda_branded_upc:2466744",
+        "sodium_mg": "usda_branded_upc:2466744",
+        "magnesium_mg": "usda_branded_upc:2466744",
+        "potassium_mg": "usda_branded_upc:2466744",
+        "fiber_g": "usda_branded_upc:2466744"
+      },
+      "source_details": {
+        "usda_branded_upc:2466744": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2466744,
+          "publication_date": "2/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10299112",
+      "source": "walmart",
+      "upc": "021100021016",
+      "serving_size_g": 63.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "SOCKEYE SALMON AND SALT.",
+      "nutrients_per_g": {
+        "fiber_g": 0.0,
+        "energy_kcal": 1.75,
+        "iron_mg": 0.005699999999999999,
+        "protein_g": 0.20629999999999998,
+        "vit_c_mg": 0.0,
+        "calcium_mg": 1.59,
+        "sodium_mg": 3.65
+      },
+      "nutrient_sources": {
+        "fiber_g": "usda_branded_upc:2028334",
+        "energy_kcal": "usda_branded_upc:2028334",
+        "iron_mg": "usda_branded_upc:2028334",
+        "protein_g": "usda_branded_upc:2028334",
+        "vit_c_mg": "usda_branded_upc:2028334",
+        "calcium_mg": "usda_branded_upc:2028334",
+        "sodium_mg": "usda_branded_upc:2028334"
+      },
+      "source_details": {
+        "usda_branded_upc:2028334": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2028334,
+          "publication_date": "10/28/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10309200",
+      "source": "walmart",
+      "upc": "076808518290",
+      "serving_size_g": 56.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "SEMOLINA (WHEAT), DURUM WHEAT FLOUR, DRIED TOMATO, DRIED SPINACH. VITAMINS/MINERALS: VITAMIN B3 (NIACIN), IRON (FERROUS SULFATE), VITAMIN B1 (THIAMINE MONONITRATE), VITAMIN B2 (RIBOFLAVIN), FOLIC ACID.",
+      "nutrients_per_g": {
+        "protein_g": 0.125,
+        "potassium_mg": 2.8,
+        "energy_kcal": 3.57,
+        "vit_d_mcg": 0.0,
+        "iron_mg": 0.035699999999999996,
+        "sodium_mg": 0.18,
+        "calcium_mg": 0.32,
+        "fiber_g": 0.054000000000000006
+      },
+      "nutrient_sources": {
+        "protein_g": "usda_branded_upc:2581196",
+        "potassium_mg": "usda_branded_upc:2581196",
+        "energy_kcal": "usda_branded_upc:2581196",
+        "vit_d_mcg": "usda_branded_upc:2581196",
+        "iron_mg": "usda_branded_upc:2581196",
+        "sodium_mg": "usda_branded_upc:2581196",
+        "calcium_mg": "usda_branded_upc:2581196",
+        "fiber_g": "usda_branded_upc:2581196"
+      },
+      "source_details": {
+        "usda_branded_upc:2581196": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2581196,
+          "publication_date": "6/29/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10312465",
+      "source": "walmart",
+      "upc": "030000030509",
+      "serving_size_g": 27.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "DEGERMINATED YELLOW CORN MEAL, NIACIN*, REDUCED IRON, THIAMIN MONONITRATE*, RIBOFLAVIN*, FOLIC ACID*.",
+      "nutrients_per_g": {
+        "energy_kcal": 3.33,
+        "iron_mg": 0.037000000000000005,
+        "sodium_mg": 0.0,
+        "fiber_g": 0.037000000000000005,
+        "protein_g": 0.0741
+      },
+      "nutrient_sources": {
+        "energy_kcal": "usda_branded_upc:2483877",
+        "iron_mg": "usda_branded_upc:2483877",
+        "sodium_mg": "usda_branded_upc:2483877",
+        "fiber_g": "usda_branded_upc:2483877",
+        "protein_g": "usda_branded_upc:2483877"
+      },
+      "source_details": {
+        "usda_branded_upc:2483877": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2483877,
+          "publication_date": "2/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10314018",
+      "source": "walmart",
+      "upc": "072273393134",
+      "serving_size_g": 130.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "PREPARED GARBANZOS (CHICK PEAS), WATER, SALT, SODIUM METABISULFITE AND CALCIUM DISODIUM EDTA (TO PROMOTE AND PROTECT COLOR).",
+      "nutrients_per_g": {
+        "calcium_mg": 0.19,
+        "potassium_mg": 1.85,
+        "energy_kcal": 0.92,
+        "protein_g": 0.0538,
+        "iron_mg": 0.0108,
+        "sodium_mg": 1.08,
+        "fiber_g": 0.046
+      },
+      "nutrient_sources": {
+        "calcium_mg": "usda_branded_upc:2402606",
+        "potassium_mg": "usda_branded_upc:2402606",
+        "energy_kcal": "usda_branded_upc:2402606",
+        "protein_g": "usda_branded_upc:2402606",
+        "iron_mg": "usda_branded_upc:2402606",
+        "sodium_mg": "usda_branded_upc:2402606",
+        "fiber_g": "usda_branded_upc:2402606"
+      },
+      "source_details": {
+        "usda_branded_upc:2402606": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2402606,
+          "publication_date": "12/22/2022",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10314947",
+      "source": "walmart",
+      "upc": "078742371474",
+      "serving_size_g": 35.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "PINTO BEANS.",
+      "nutrients_per_g": {
+        "sodium_mg": 0.0,
+        "fiber_g": 0.14300000000000002,
+        "calcium_mg": 1.14,
+        "potassium_mg": 14.0,
+        "energy_kcal": 2.86,
+        "iron_mg": 0.051399999999999994,
+        "protein_g": 0.2286,
+        "vit_d_mcg": 0.0
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:2603664",
+        "fiber_g": "usda_branded_upc:2603664",
+        "calcium_mg": "usda_branded_upc:2603664",
+        "potassium_mg": "usda_branded_upc:2603664",
+        "energy_kcal": "usda_branded_upc:2603664",
+        "iron_mg": "usda_branded_upc:2603664",
+        "protein_g": "usda_branded_upc:2603664",
+        "vit_d_mcg": "usda_branded_upc:2603664"
+      },
+      "source_details": {
+        "usda_branded_upc:2603664": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2603664,
+          "publication_date": "7/13/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10315102",
+      "source": "walmart",
+      "upc": "078742427782",
+      "serving_size_g": null,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "EXTRA VIRGIN OLIVE OIL.",
+      "nutrients_per_g": {
+        "energy_kcal": 8.0,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "fiber_g": 0.0,
+        "vit_c_mg": 0.0,
+        "sodium_mg": 0.0,
+        "potassium_mg": 0.0,
+        "protein_g": 0.0
+      },
+      "nutrient_sources": {
+        "energy_kcal": "usda_branded_upc:1909473",
+        "calcium_mg": "usda_branded_upc:1909473",
+        "iron_mg": "usda_branded_upc:1909473",
+        "fiber_g": "usda_branded_upc:1909473",
+        "vit_c_mg": "usda_branded_upc:1909473",
+        "sodium_mg": "usda_branded_upc:1909473",
+        "potassium_mg": "usda_branded_upc:1909473",
+        "protein_g": "usda_branded_upc:1909473"
+      },
+      "source_details": {
+        "usda_branded_upc:1909473": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 1909473,
+          "publication_date": "7/29/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10315394",
+      "source": "walmart",
+      "upc": "078742352053",
+      "serving_size_g": 45.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "LONG GRAIN WHITE RICE, IRON PHOSPHATE, NIACIN, THIAMINE MONONITRATE, FOLIC ACID.",
+      "nutrients_per_g": {
+        "iron_mg": 0.0311,
+        "calcium_mg": 0.0,
+        "energy_kcal": 3.56,
+        "potassium_mg": 1.11,
+        "sodium_mg": 0.0,
+        "protein_g": 0.0889
+      },
+      "nutrient_sources": {
+        "iron_mg": "usda_branded_upc:2483562",
+        "calcium_mg": "usda_branded_upc:2483562",
+        "energy_kcal": "usda_branded_upc:2483562",
+        "potassium_mg": "usda_branded_upc:2483562",
+        "sodium_mg": "usda_branded_upc:2483562",
+        "protein_g": "usda_branded_upc:2483562"
+      },
+      "source_details": {
+        "usda_branded_upc:2483562": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2483562,
+          "publication_date": "2/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10315427",
+      "source": "walmart",
+      "upc": "078742369396",
+      "serving_size_g": 130.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "SWEET CORN, WATER, SALT, CITRIC ACID.",
+      "nutrients_per_g": {
+        "fiber_g": 0.015,
+        "potassium_mg": 0.92,
+        "sodium_mg": 1.31,
+        "iron_mg": 0.0,
+        "calcium_mg": 0.08,
+        "vit_d_mcg": 0.0,
+        "protein_g": 0.0154,
+        "energy_kcal": 0.46
+      },
+      "nutrient_sources": {
+        "fiber_g": "usda_branded_upc:2676385",
+        "potassium_mg": "usda_branded_upc:2676385",
+        "sodium_mg": "usda_branded_upc:2676385",
+        "iron_mg": "usda_branded_upc:2676385",
+        "calcium_mg": "usda_branded_upc:2676385",
+        "vit_d_mcg": "usda_branded_upc:2676385",
+        "protein_g": "usda_branded_upc:2676385",
+        "energy_kcal": "usda_branded_upc:2676385"
+      },
+      "source_details": {
+        "usda_branded_upc:2676385": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2676385,
+          "publication_date": "11/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10315444",
+      "source": "walmart",
+      "upc": "078742369792",
+      "serving_size_g": null,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "BLACK OLIVES, WATER, SALT, FERROUS GLUCONATE.",
+      "nutrients_per_g": {
+        "calcium_mg": 0.0,
+        "potassium_mg": 0.0,
+        "energy_kcal": 1.67,
+        "protein_g": 0.0,
+        "fiber_g": 0.0,
+        "iron_mg": 0.0,
+        "sodium_mg": 7.67,
+        "vit_c_mg": 0.0
+      },
+      "nutrient_sources": {
+        "calcium_mg": "usda_branded_upc:2505344",
+        "potassium_mg": "usda_branded_upc:2505344",
+        "energy_kcal": "usda_branded_upc:2505344",
+        "protein_g": "usda_branded_upc:2505344",
+        "fiber_g": "usda_branded_upc:2505344",
+        "iron_mg": "usda_branded_upc:2505344",
+        "sodium_mg": "usda_branded_upc:2505344",
+        "vit_c_mg": "usda_branded_upc:2505344"
+      },
+      "source_details": {
+        "usda_branded_upc:2505344": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2505344,
+          "publication_date": "3/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10315983",
+      "source": "walmart",
+      "upc": "078742077864",
+      "serving_size_g": 35.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "BLACK BEANS.",
+      "nutrients_per_g": {
+        "fiber_g": 0.14300000000000002,
+        "energy_kcal": 2.86,
+        "iron_mg": 0.051399999999999994,
+        "sodium_mg": 0.0,
+        "potassium_mg": 14.86,
+        "calcium_mg": 1.23,
+        "protein_g": 0.2286
+      },
+      "nutrient_sources": {
+        "fiber_g": "usda_branded_upc:2549787",
+        "energy_kcal": "usda_branded_upc:2549787",
+        "iron_mg": "usda_branded_upc:2549787",
+        "sodium_mg": "usda_branded_upc:2549787",
+        "potassium_mg": "usda_branded_upc:2549787",
+        "calcium_mg": "usda_branded_upc:2549787",
+        "protein_g": "usda_branded_upc:2549787"
+      },
+      "source_details": {
+        "usda_branded_upc:2549787": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2549787,
+          "publication_date": "5/25/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10316041",
+      "source": "walmart",
+      "upc": "078742083827",
+      "serving_size_g": 156.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "POTATOES, WATER, SALT, CALCIUM CHLORIDE (TO HELP MAINTAIN FIRMNESS).",
+      "nutrients_per_g": {
+        "iron_mg": 0.0032,
+        "energy_kcal": 0.38,
+        "calcium_mg": 0.26,
+        "fiber_g": 0.013000000000000001,
+        "protein_g": 0.0064,
+        "potassium_mg": 1.67,
+        "sodium_mg": 1.79
+      },
+      "nutrient_sources": {
+        "iron_mg": "usda_branded_upc:1850358",
+        "energy_kcal": "usda_branded_upc:1850358",
+        "calcium_mg": "usda_branded_upc:1850358",
+        "fiber_g": "usda_branded_upc:1850358",
+        "protein_g": "usda_branded_upc:1850358",
+        "potassium_mg": "usda_branded_upc:1850358",
+        "sodium_mg": "usda_branded_upc:1850358"
+      },
+      "source_details": {
+        "usda_branded_upc:1850358": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 1850358,
+          "publication_date": "7/29/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10403017",
+      "source": "walmart",
+      "upc": "078742370064",
+      "serving_size_g": 30.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "BLEACHED WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID.",
+      "nutrients_per_g": {
+        "sodium_mg": 0.0,
+        "calcium_mg": 0.13,
+        "potassium_mg": 1.0,
+        "iron_mg": 0.0467,
+        "protein_g": 0.1,
+        "energy_kcal": 3.67,
+        "fiber_g": 0.033
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:2476599",
+        "calcium_mg": "usda_branded_upc:2476599",
+        "potassium_mg": "usda_branded_upc:2476599",
+        "iron_mg": "usda_branded_upc:2476599",
+        "protein_g": "usda_branded_upc:2476599",
+        "energy_kcal": "usda_branded_upc:2476599",
+        "fiber_g": "usda_branded_upc:2476599"
+      },
+      "source_details": {
+        "usda_branded_upc:2476599": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2476599,
+          "publication_date": "2/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10416113",
+      "source": "walmart",
+      "upc": "078742092188",
+      "serving_size_g": 123.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "TOMATOES, TOMATO JUICE, LESS THAN 2% OF: SEA SALT, DEHYDRATED GARLIC, DEHYDRATED ONION, BASIL, OREGANO, CITRIC ACID. CALCIUM CHLORIDE.",
+      "nutrients_per_g": {
+        "potassium_mg": 1.87,
+        "sodium_mg": 2.03,
+        "energy_kcal": 0.2,
+        "protein_g": 0.008100000000000001,
+        "fiber_g": 0.008,
+        "calcium_mg": 0.08,
+        "iron_mg": 0.0
+      },
+      "nutrient_sources": {
+        "potassium_mg": "usda_branded_upc:2504828",
+        "sodium_mg": "usda_branded_upc:2504828",
+        "energy_kcal": "usda_branded_upc:2504828",
+        "protein_g": "usda_branded_upc:2504828",
+        "fiber_g": "usda_branded_upc:2504828",
+        "calcium_mg": "usda_branded_upc:2504828",
+        "iron_mg": "usda_branded_upc:2504828"
+      },
+      "source_details": {
+        "usda_branded_upc:2504828": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2504828,
+          "publication_date": "3/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10451002",
+      "source": "walmart",
+      "upc": "078742352961",
+      "serving_size_g": 14.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "SOYBEAN OIL.",
+      "nutrients_per_g": {
+        "sodium_mg": 0.0,
+        "vit_c_mg": 0.0,
+        "energy_kcal": 8.57,
+        "calcium_mg": 0.0,
+        "iron_mg": 0.0,
+        "protein_g": 0.0,
+        "potassium_mg": 0.0,
+        "fiber_g": 0.0
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:2023464",
+        "vit_c_mg": "usda_branded_upc:2023464",
+        "energy_kcal": "usda_branded_upc:2023464",
+        "calcium_mg": "usda_branded_upc:2023464",
+        "iron_mg": "usda_branded_upc:2023464",
+        "protein_g": "usda_branded_upc:2023464",
+        "potassium_mg": "usda_branded_upc:2023464",
+        "fiber_g": "usda_branded_upc:2023464"
+      },
+      "source_details": {
+        "usda_branded_upc:2023464": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2023464,
+          "publication_date": "10/28/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10452431",
+      "source": "walmart",
+      "upc": "078742099453",
+      "serving_size_g": 28.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES, ANNATTO [COLOR]), ANTI-CAKING BLEND (POTATO STARCH, TAPIOCA STARCH, NATAMYCIN [A NATURAL MOLD INHIBITOR]).",
+      "nutrients_per_g": {
+        "sodium_mg": 6.43,
+        "potassium_mg": 0.71,
+        "fiber_g": 0.0,
+        "iron_mg": 0.0,
+        "protein_g": 0.2143,
+        "energy_kcal": 3.93,
+        "calcium_mg": 6.79
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:2549810",
+        "potassium_mg": "usda_branded_upc:2549810",
+        "fiber_g": "usda_branded_upc:2549810",
+        "iron_mg": "usda_branded_upc:2549810",
+        "protein_g": "usda_branded_upc:2549810",
+        "energy_kcal": "usda_branded_upc:2549810",
+        "calcium_mg": "usda_branded_upc:2549810"
+      },
+      "source_details": {
+        "usda_branded_upc:2549810": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2549810,
+          "publication_date": "5/25/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10534038",
+      "source": "walmart",
+      "upc": "078742075761",
+      "serving_size_g": 130.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "PREPARED BLACK BEANS, WATER, SALT.",
+      "nutrients_per_g": {
+        "iron_mg": 0.0208,
+        "energy_kcal": 0.85,
+        "fiber_g": 0.054000000000000006,
+        "vit_c_mg": 0.0,
+        "protein_g": 0.0538,
+        "sodium_mg": 2.85,
+        "calcium_mg": 0.46,
+        "potassium_mg": 2.62
+      },
+      "nutrient_sources": {
+        "iron_mg": "usda_branded_upc:2338487",
+        "energy_kcal": "usda_branded_upc:2338487",
+        "fiber_g": "usda_branded_upc:2338487",
+        "vit_c_mg": "usda_branded_upc:2338487",
+        "protein_g": "usda_branded_upc:2338487",
+        "sodium_mg": "usda_branded_upc:2338487",
+        "calcium_mg": "usda_branded_upc:2338487",
+        "potassium_mg": "usda_branded_upc:2338487"
+      },
+      "source_details": {
+        "usda_branded_upc:2338487": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2338487,
+          "publication_date": "9/15/2022",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10534039",
+      "source": "walmart",
+      "upc": "078742110554",
+      "serving_size_g": 130.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "LIGHT RED KIDNEY BEANS, WATER, SALT, CALCIUM CHLORIDE (TO HELP MAINTAIN FIRMNESS), DISODIUM EDTA (TO PROMOTE COLOR RETENTION).",
+      "nutrients_per_g": {
+        "protein_g": 0.0538,
+        "calcium_mg": 0.31,
+        "energy_kcal": 0.85,
+        "potassium_mg": 2.62,
+        "iron_mg": 0.0123,
+        "fiber_g": 0.054000000000000006,
+        "sodium_mg": 1.0
+      },
+      "nutrient_sources": {
+        "protein_g": "usda_branded_upc:2504900",
+        "calcium_mg": "usda_branded_upc:2504900",
+        "energy_kcal": "usda_branded_upc:2504900",
+        "potassium_mg": "usda_branded_upc:2504900",
+        "iron_mg": "usda_branded_upc:2504900",
+        "fiber_g": "usda_branded_upc:2504900",
+        "sodium_mg": "usda_branded_upc:2504900"
+      },
+      "source_details": {
+        "usda_branded_upc:2504900": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2504900,
+          "publication_date": "3/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10534042",
+      "source": "walmart",
+      "upc": "078742114187",
+      "serving_size_g": 130.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "PREPARED WHITE BEANS, WATER, SALT, DISODIUM EDTA ADDED TO PROMOTE COLOR RETENTION.",
+      "nutrients_per_g": {
+        "iron_mg": 0.0138,
+        "sodium_mg": 3.15,
+        "protein_g": 0.0538,
+        "energy_kcal": 0.69,
+        "vit_c_mg": 0.0,
+        "calcium_mg": 0.31,
+        "potassium_mg": 2.0,
+        "fiber_g": 0.046
+      },
+      "nutrient_sources": {
+        "iron_mg": "usda_branded_upc:1860267",
+        "sodium_mg": "usda_branded_upc:1860267",
+        "protein_g": "usda_branded_upc:1860267",
+        "energy_kcal": "usda_branded_upc:1860267",
+        "vit_c_mg": "usda_branded_upc:1860267",
+        "calcium_mg": "usda_branded_upc:1860267",
+        "potassium_mg": "usda_branded_upc:1860267",
+        "fiber_g": "usda_branded_upc:1860267"
+      },
+      "source_details": {
+        "usda_branded_upc:1860267": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 1860267,
+          "publication_date": "7/29/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10534043",
+      "source": "walmart",
+      "upc": "078742370866",
+      "serving_size_g": 130.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "PREPARED PINTO BEANS, WATER, SALT, CALCIUM CHLORIDE (FIRMING AGENT), CALCIUM DISODIUM EDTA ADDED TO PROMOTE COLOR RETENTION.",
+      "nutrients_per_g": {
+        "sodium_mg": 3.15,
+        "energy_kcal": 0.69,
+        "potassium_mg": 2.31,
+        "fiber_g": 0.054000000000000006,
+        "iron_mg": 0.0138,
+        "calcium_mg": 0.31,
+        "protein_g": 0.0462,
+        "vit_c_mg": 0.0
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:2324270",
+        "energy_kcal": "usda_branded_upc:2324270",
+        "potassium_mg": "usda_branded_upc:2324270",
+        "fiber_g": "usda_branded_upc:2324270",
+        "iron_mg": "usda_branded_upc:2324270",
+        "calcium_mg": "usda_branded_upc:2324270",
+        "protein_g": "usda_branded_upc:2324270",
+        "vit_c_mg": "usda_branded_upc:2324270"
+      },
+      "source_details": {
+        "usda_branded_upc:2324270": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2324270,
+          "publication_date": "6/21/2022",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10534163",
+      "source": "walmart",
+      "upc": "078742370378",
+      "serving_size_g": null,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "MILK, DIPOTASSIUM PHOSPHATE, CARRAGEENAN, VITAMIN D3.",
+      "nutrients_per_g": {
+        "protein_g": 0.0667,
+        "potassium_mg": 3.67,
+        "iron_mg": 0.0,
+        "calcium_mg": 2.33,
+        "sodium_mg": 1.0,
+        "energy_kcal": 1.33,
+        "fiber_g": 0.0
+      },
+      "nutrient_sources": {
+        "protein_g": "usda_branded_upc:2550179",
+        "potassium_mg": "usda_branded_upc:2550179",
+        "iron_mg": "usda_branded_upc:2550179",
+        "calcium_mg": "usda_branded_upc:2550179",
+        "sodium_mg": "usda_branded_upc:2550179",
+        "energy_kcal": "usda_branded_upc:2550179",
+        "fiber_g": "usda_branded_upc:2550179"
+      },
+      "source_details": {
+        "usda_branded_upc:2550179": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2550179,
+          "publication_date": "5/25/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "106137651",
+      "source": "walmart",
+      "upc": "078742361840",
+      "serving_size_g": 110.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "SWEET POTATO.",
+      "nutrients_per_g": {
+        "energy_kcal": 1.0,
+        "fiber_g": 0.018000000000000002,
+        "iron_mg": 0.0055000000000000005,
+        "potassium_mg": 3.73,
+        "protein_g": 0.0182,
+        "calcium_mg": 0.36,
+        "sodium_mg": 0.09
+      },
+      "nutrient_sources": {
+        "energy_kcal": "usda_branded_upc:2329493",
+        "fiber_g": "usda_branded_upc:2329493",
+        "iron_mg": "usda_branded_upc:2329493",
+        "potassium_mg": "usda_branded_upc:2329493",
+        "protein_g": "usda_branded_upc:2329493",
+        "calcium_mg": "usda_branded_upc:2329493",
+        "sodium_mg": "usda_branded_upc:2329493"
+      },
+      "source_details": {
+        "usda_branded_upc:2329493": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2329493,
+          "publication_date": "6/21/2022",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10804537",
+      "source": "walmart",
+      "upc": "078742352022",
+      "serving_size_g": null,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "LOWFAT MILK, VITAMIN A PALMITATE, VITAMIN D3 ADDED.",
+      "nutrients_per_g": {
+        "calcium_mg": 1.04,
+        "potassium_mg": 1.17,
+        "vit_d_mcg": 0.01,
+        "sodium_mg": 0.4,
+        "energy_kcal": 0.46,
+        "protein_g": 0.0333,
+        "iron_mg": 0.0,
+        "fiber_g": 0.0,
+        "vit_a_mcg": 0.56
+      },
+      "nutrient_sources": {
+        "calcium_mg": "usda_branded_upc:2676436",
+        "potassium_mg": "usda_branded_upc:2676436",
+        "vit_d_mcg": "usda_branded_upc:2676436",
+        "sodium_mg": "usda_branded_upc:2676436",
+        "energy_kcal": "usda_branded_upc:2676436",
+        "protein_g": "usda_branded_upc:2676436",
+        "iron_mg": "usda_branded_upc:2676436",
+        "fiber_g": "usda_branded_upc:2676436",
+        "vit_a_mcg": "usda_branded_upc:2676436"
+      },
+      "source_details": {
+        "usda_branded_upc:2676436": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2676436,
+          "publication_date": "11/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10804551",
+      "source": "walmart",
+      "upc": "078742366906",
+      "serving_size_g": 28.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "WHOLE WHEAT FLOUR, WATER, YEAST, SUGAR, WHEAT GLUTEN, CONTAINS 2% OR LESS OF THE FOLLOWING: SOYBEAN OIL, CULTURED WHEAT FLOUR, VINEGAR, SALT, HONEY, DOUGH CONDITIONERS (MONOGLYCERIDES, ETHOXYLATED MONO & DIGLYCERIDES, SODIUM STEAROYL LACTYLATE, AZODICARBONAMIDE, ASCORBIC ACID, CALCIUM PEROXIDE), FLAXSEED, FUMARIC ACID, YEAST NUTRIENTS (CALCIUM SULFATE, MONOCALCIUM PHOSPHATE, AMMONIUM SULFATE), WHEAT STARCH, SOY LECITHIN",
+      "nutrients_per_g": {
+        "protein_g": 0.10710000000000001,
+        "vit_a_mcg": 0.0,
+        "energy_kcal": 2.14,
+        "fiber_g": 0.071,
+        "iron_mg": 0.025699999999999997,
+        "potassium_mg": 2.14,
+        "sodium_mg": 4.29,
+        "vit_c_mg": 0.0,
+        "calcium_mg": 0.71
+      },
+      "nutrient_sources": {
+        "protein_g": "usda_branded_upc:2656952",
+        "vit_a_mcg": "usda_branded_upc:2656952",
+        "energy_kcal": "usda_branded_upc:2656952",
+        "fiber_g": "usda_branded_upc:2656952",
+        "iron_mg": "usda_branded_upc:2656952",
+        "potassium_mg": "usda_branded_upc:2656952",
+        "sodium_mg": "usda_branded_upc:2656952",
+        "vit_c_mg": "usda_branded_upc:2656952",
+        "calcium_mg": "usda_branded_upc:2656952"
+      },
+      "source_details": {
+        "usda_branded_upc:2656952": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2656952,
+          "publication_date": "10/26/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "10898817",
+      "source": "walmart",
+      "upc": "025484000124",
+      "serving_size_g": 85.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "WATER, ORGANIC SOYBEANS, LESS THAN 2% OF CALCIUM SULFATE, MAGNESIUM CHLORIDE.",
+      "nutrients_per_g": {
+        "vit_d_mcg": 0.0,
+        "fiber_g": 0.012,
+        "energy_kcal": 1.06,
+        "protein_g": 0.1059,
+        "iron_mg": 0.0169,
+        "sodium_mg": 0.06,
+        "calcium_mg": 1.18,
+        "potassium_mg": 0.82
+      },
+      "nutrient_sources": {
+        "vit_d_mcg": "usda_branded_upc:2675296",
+        "fiber_g": "usda_branded_upc:2675296",
+        "energy_kcal": "usda_branded_upc:2675296",
+        "protein_g": "usda_branded_upc:2675296",
+        "iron_mg": "usda_branded_upc:2675296",
+        "sodium_mg": "usda_branded_upc:2675296",
+        "calcium_mg": "usda_branded_upc:2675296",
+        "potassium_mg": "usda_branded_upc:2675296"
+      },
+      "source_details": {
+        "usda_branded_upc:2675296": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2675296,
+          "publication_date": "11/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "124188737",
+      "source": "walmart",
+      "upc": "078742201313",
+      "serving_size_g": 28.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "WALNUTS.",
+      "nutrients_per_g": {
+        "sodium_mg": 0.0,
+        "calcium_mg": 1.07,
+        "fiber_g": 0.071,
+        "potassium_mg": 4.29,
+        "protein_g": 0.1429,
+        "iron_mg": 0.0286,
+        "energy_kcal": 6.79
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:2549916",
+        "calcium_mg": "usda_branded_upc:2549916",
+        "fiber_g": "usda_branded_upc:2549916",
+        "potassium_mg": "usda_branded_upc:2549916",
+        "protein_g": "usda_branded_upc:2549916",
+        "iron_mg": "usda_branded_upc:2549916",
+        "energy_kcal": "usda_branded_upc:2549916"
+      },
+      "source_details": {
+        "usda_branded_upc:2549916": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2549916,
+          "publication_date": "5/25/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "13045034",
+      "source": "walmart",
+      "upc": "078742122229",
+      "serving_size_g": 45.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "LONG GRAIN BROWN RICE. ",
+      "nutrients_per_g": {
+        "potassium_mg": 2.22,
+        "iron_mg": 0.016,
+        "vit_c_mg": 0.0,
+        "sodium_mg": 0.0,
+        "energy_kcal": 3.56,
+        "fiber_g": 0.044000000000000004,
+        "protein_g": 0.0889,
+        "calcium_mg": 0.0
+      },
+      "nutrient_sources": {
+        "potassium_mg": "usda_branded_upc:2010552",
+        "iron_mg": "usda_branded_upc:2010552",
+        "vit_c_mg": "usda_branded_upc:2010552",
+        "sodium_mg": "usda_branded_upc:2010552",
+        "energy_kcal": "usda_branded_upc:2010552",
+        "fiber_g": "usda_branded_upc:2010552",
+        "protein_g": "usda_branded_upc:2010552",
+        "calcium_mg": "usda_branded_upc:2010552"
+      },
+      "source_details": {
+        "usda_branded_upc:2010552": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2010552,
+          "publication_date": "10/28/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "13439653",
+      "source": "walmart",
+      "upc": "070100070623",
+      "serving_size_g": 13.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "SNOW CAP LARD.",
+      "nutrients_per_g": {
+        "energy_kcal": 9.23,
+        "protein_g": 0.0,
+        "sodium_mg": 0.0
+      },
+      "nutrient_sources": {
+        "energy_kcal": "usda_branded_upc:2027586",
+        "protein_g": "usda_branded_upc:2027586",
+        "sodium_mg": "usda_branded_upc:2027586"
+      },
+      "source_details": {
+        "usda_branded_upc:2027586": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2027586,
+          "publication_date": "10/28/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "13925193",
+      "source": "walmart",
+      "upc": "078742122656",
+      "serving_size_g": 234.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "CARROTS, WATER, SALT, CALCIUM CHLORIDE (FIRMING AGENT).",
+      "nutrients_per_g": {
+        "sodium_mg": 2.14,
+        "fiber_g": 0.013000000000000001,
+        "protein_g": 0.0043,
+        "iron_mg": 0.0043,
+        "potassium_mg": 1.09,
+        "energy_kcal": 0.15,
+        "calcium_mg": 0.32
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:2549829",
+        "fiber_g": "usda_branded_upc:2549829",
+        "protein_g": "usda_branded_upc:2549829",
+        "iron_mg": "usda_branded_upc:2549829",
+        "potassium_mg": "usda_branded_upc:2549829",
+        "energy_kcal": "usda_branded_upc:2549829",
+        "calcium_mg": "usda_branded_upc:2549829"
+      },
+      "source_details": {
+        "usda_branded_upc:2549829": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2549829,
+          "publication_date": "5/25/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "14336395",
+      "source": "walmart",
+      "upc": "078742146294",
+      "serving_size_g": 140.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "BANANAS, ASCORBIC ACID, CITRIC ACID (TO PROMOTE COLOR RETENTION).",
+      "nutrients_per_g": {
+        "iron_mg": 0.0029,
+        "protein_g": 0.0143,
+        "sodium_mg": 0.0,
+        "fiber_g": 0.028999999999999998,
+        "calcium_mg": 0.0,
+        "energy_kcal": 1.0,
+        "potassium_mg": 3.57
+      },
+      "nutrient_sources": {
+        "iron_mg": "usda_branded_upc:2328338",
+        "protein_g": "usda_branded_upc:2328338",
+        "sodium_mg": "usda_branded_upc:2328338",
+        "fiber_g": "usda_branded_upc:2328338",
+        "calcium_mg": "usda_branded_upc:2328338",
+        "energy_kcal": "usda_branded_upc:2328338",
+        "potassium_mg": "usda_branded_upc:2328338"
+      },
+      "source_details": {
+        "usda_branded_upc:2328338": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2328338,
+          "publication_date": "6/21/2022",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "15716722",
+      "source": "walmart",
+      "upc": "072400711244",
+      "serving_size_g": null,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "MOLASSES",
+      "nutrients_per_g": {
+        "sodium_mg": 1.33,
+        "energy_kcal": 4.0,
+        "protein_g": 0.0,
+        "potassium_mg": 7.33,
+        "magnesium_mg": 0.53,
+        "calcium_mg": 1.33,
+        "iron_mg": 0.024
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:2149621",
+        "energy_kcal": "usda_branded_upc:2149621",
+        "protein_g": "usda_branded_upc:2149621",
+        "potassium_mg": "usda_branded_upc:2149621",
+        "magnesium_mg": "usda_branded_upc:2149621",
+        "calcium_mg": "usda_branded_upc:2149621",
+        "iron_mg": "usda_branded_upc:2149621"
+      },
+      "source_details": {
+        "usda_branded_upc:2149621": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2149621,
+          "publication_date": "10/28/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "157991373",
+      "source": "walmart",
+      "upc": "044100156182",
+      "serving_size_g": null,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "OATMILK (FILTERED WATER, OATS), CALCIUM CARBONATE, DIPOTASSIUM PHOSPHATE (STABILIZER), SEA SALT, GELLAN GUM, VITAMIN A PALMITATE, VITAMIN D2, RIBOFLAVIN (VITAMIN B2) AND VITAMIN B12.",
+      "nutrients_per_g": {
+        "potassium_mg": 1.67,
+        "energy_kcal": 0.38,
+        "vit_a_mcg": 0.75,
+        "sodium_mg": 0.5,
+        "fiber_g": 0.008,
+        "vit_d_mcg": 0.02,
+        "iron_mg": 0.0012,
+        "vit_b12_mcg": 0.001,
+        "protein_g": 0.0083,
+        "calcium_mg": 1.46
+      },
+      "nutrient_sources": {
+        "potassium_mg": "usda_branded_upc:2679447",
+        "energy_kcal": "usda_branded_upc:2679447",
+        "vit_a_mcg": "usda_branded_upc:2679447",
+        "sodium_mg": "usda_branded_upc:2679447",
+        "fiber_g": "usda_branded_upc:2679447",
+        "vit_d_mcg": "usda_branded_upc:2679447",
+        "iron_mg": "usda_branded_upc:2679447",
+        "vit_b12_mcg": "usda_branded_upc:2679447",
+        "protein_g": "usda_branded_upc:2679447",
+        "calcium_mg": "usda_branded_upc:2679447"
+      },
+      "source_details": {
+        "usda_branded_upc:2679447": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2679447,
+          "publication_date": "11/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "167257162",
+      "source": "walmart",
+      "upc": "029000073241",
+      "serving_size_g": 28.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "PEANUTS.",
+      "nutrients_per_g": {
+        "protein_g": 0.2857,
+        "sodium_mg": 0.18,
+        "calcium_mg": 1.07,
+        "magnesium_mg": 1.43,
+        "energy_kcal": 6.07,
+        "iron_mg": 0.0464,
+        "fiber_g": 0.071,
+        "potassium_mg": 7.5
+      },
+      "nutrient_sources": {
+        "protein_g": "usda_branded_upc:2469619",
+        "sodium_mg": "usda_branded_upc:2469619",
+        "calcium_mg": "usda_branded_upc:2469619",
+        "magnesium_mg": "usda_branded_upc:2469619",
+        "energy_kcal": "usda_branded_upc:2469619",
+        "iron_mg": "usda_branded_upc:2469619",
+        "fiber_g": "usda_branded_upc:2469619",
+        "potassium_mg": "usda_branded_upc:2469619"
+      },
+      "source_details": {
+        "usda_branded_upc:2469619": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2469619,
+          "publication_date": "2/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "20925296",
+      "source": "walmart",
+      "upc": "078742016009",
+      "serving_size_g": 40.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "RAISINS.",
+      "nutrients_per_g": {
+        "calcium_mg": 0.5,
+        "fiber_g": 0.05,
+        "sodium_mg": 0.0,
+        "vit_c_mg": 0.03,
+        "energy_kcal": 3.0,
+        "iron_mg": 0.018000000000000002,
+        "protein_g": 0.025,
+        "potassium_mg": 7.5
+      },
+      "nutrient_sources": {
+        "calcium_mg": "usda_branded_upc:1856544",
+        "fiber_g": "usda_branded_upc:1856544",
+        "sodium_mg": "usda_branded_upc:1856544",
+        "vit_c_mg": "usda_branded_upc:1856544",
+        "energy_kcal": "usda_branded_upc:1856544",
+        "iron_mg": "usda_branded_upc:1856544",
+        "protein_g": "usda_branded_upc:1856544",
+        "potassium_mg": "usda_branded_upc:1856544"
+      },
+      "source_details": {
+        "usda_branded_upc:1856544": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 1856544,
+          "publication_date": "7/29/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "223902117",
+      "source": "walmart",
+      "upc": "078742364728",
+      "serving_size_g": 35.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "GREEN SPLIT PEAS.",
+      "nutrients_per_g": {
+        "iron_mg": 0.048600000000000004,
+        "potassium_mg": 8.57,
+        "calcium_mg": 0.57,
+        "fiber_g": 0.22899999999999998,
+        "sodium_mg": 0.0
+      },
+      "nutrient_sources": {
+        "iron_mg": "usda_branded_upc:2368695",
+        "potassium_mg": "usda_branded_upc:2368695",
+        "calcium_mg": "usda_branded_upc:2368695",
+        "fiber_g": "usda_branded_upc:2368695",
+        "sodium_mg": "usda_branded_upc:2368695"
+      },
+      "source_details": {
+        "usda_branded_upc:2368695": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2368695,
+          "publication_date": "12/7/2022",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "24389861",
+      "source": "walmart",
+      "upc": "818158012192",
+      "serving_size_g": 15.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "WHEAT GERM, VITAMIN E ACETATE (D-L-ALPHA-TOCOPHEROL ACETATE), VITAMIN A PALMITATE, FOLIC ACID.",
+      "nutrients_per_g": {
+        "iron_mg": 0.06,
+        "energy_kcal": 4.0,
+        "magnesium_mg": 2.33,
+        "zinc_mg": 0.12,
+        "calcium_mg": 0.67,
+        "fiber_g": 0.133,
+        "sodium_mg": 0.0,
+        "protein_g": 0.2667,
+        "potassium_mg": 8.67
+      },
+      "nutrient_sources": {
+        "iron_mg": "usda_branded_upc:2469872",
+        "energy_kcal": "usda_branded_upc:2469872",
+        "magnesium_mg": "usda_branded_upc:2469872",
+        "zinc_mg": "usda_branded_upc:2469872",
+        "calcium_mg": "usda_branded_upc:2469872",
+        "fiber_g": "usda_branded_upc:2469872",
+        "sodium_mg": "usda_branded_upc:2469872",
+        "protein_g": "usda_branded_upc:2469872",
+        "potassium_mg": "usda_branded_upc:2469872"
+      },
+      "source_details": {
+        "usda_branded_upc:2469872": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2469872,
+          "publication_date": "2/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "26559565",
+      "source": "walmart",
+      "upc": "078742016856",
+      "serving_size_g": 170.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "CULTURED PASTEURIZED NONFAT MILK.",
+      "nutrients_per_g": {
+        "vit_d_mcg": 0.0,
+        "sodium_mg": 0.29,
+        "calcium_mg": 0.94,
+        "potassium_mg": 1.24,
+        "protein_g": 0.1,
+        "energy_kcal": 0.59,
+        "iron_mg": 0.0,
+        "fiber_g": 0.0
+      },
+      "nutrient_sources": {
+        "vit_d_mcg": "usda_branded_upc:2676178",
+        "sodium_mg": "usda_branded_upc:2676178",
+        "calcium_mg": "usda_branded_upc:2676178",
+        "potassium_mg": "usda_branded_upc:2676178",
+        "protein_g": "usda_branded_upc:2676178",
+        "energy_kcal": "usda_branded_upc:2676178",
+        "iron_mg": "usda_branded_upc:2676178",
+        "fiber_g": "usda_branded_upc:2676178"
+      },
+      "source_details": {
+        "usda_branded_upc:2676178": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2676178,
+          "publication_date": "11/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "30918509",
+      "source": "walmart",
+      "upc": "041331024761",
+      "serving_size_g": 45.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "",
+      "nutrients_per_g": {
+        "sodium_mg": 0.0,
+        "calcium_mg": 0.44,
+        "protein_g": 0.2444,
+        "vit_c_mg": 0.053,
+        "fiber_g": 0.111,
+        "potassium_mg": 6.67,
+        "energy_kcal": 3.56,
+        "iron_mg": 0.06
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:1505382",
+        "calcium_mg": "usda_branded_upc:1505382",
+        "protein_g": "usda_branded_upc:1505382",
+        "vit_c_mg": "usda_branded_upc:1505382",
+        "fiber_g": "usda_branded_upc:1505382",
+        "potassium_mg": "usda_branded_upc:1505382",
+        "energy_kcal": "usda_branded_upc:1505382",
+        "iron_mg": "usda_branded_upc:1505382"
+      },
+      "source_details": {
+        "usda_branded_upc:1505382": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 1505382,
+          "publication_date": "3/19/2021",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "327976708",
+      "source": "walmart",
+      "upc": "078742201269",
+      "serving_size_g": 28.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "PECANS.",
+      "nutrients_per_g": {
+        "energy_kcal": 7.14,
+        "sodium_mg": 0.0,
+        "protein_g": 0.10710000000000001,
+        "fiber_g": 0.107,
+        "iron_mg": 0.035699999999999996,
+        "potassium_mg": 4.29,
+        "calcium_mg": 0.71
+      },
+      "nutrient_sources": {
+        "energy_kcal": "usda_branded_upc:2549913",
+        "sodium_mg": "usda_branded_upc:2549913",
+        "protein_g": "usda_branded_upc:2549913",
+        "fiber_g": "usda_branded_upc:2549913",
+        "iron_mg": "usda_branded_upc:2549913",
+        "potassium_mg": "usda_branded_upc:2549913",
+        "calcium_mg": "usda_branded_upc:2549913"
+      },
+      "source_details": {
+        "usda_branded_upc:2549913": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2549913,
+          "publication_date": "5/25/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "353773773",
+      "source": "walmart",
+      "upc": "078742297057",
+      "serving_size_g": 30.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "DRY ROASTED PISTACHIOS, SEA SALT.",
+      "nutrients_per_g": {
+        "fiber_g": 0.1,
+        "potassium_mg": 10.0,
+        "iron_mg": 0.036699999999999997,
+        "protein_g": 0.2,
+        "energy_kcal": 5.67,
+        "calcium_mg": 1.0,
+        "sodium_mg": 5.67
+      },
+      "nutrient_sources": {
+        "fiber_g": "usda_branded_upc:2550074",
+        "potassium_mg": "usda_branded_upc:2550074",
+        "iron_mg": "usda_branded_upc:2550074",
+        "protein_g": "usda_branded_upc:2550074",
+        "energy_kcal": "usda_branded_upc:2550074",
+        "calcium_mg": "usda_branded_upc:2550074",
+        "sodium_mg": "usda_branded_upc:2550074"
+      },
+      "source_details": {
+        "usda_branded_upc:2550074": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2550074,
+          "publication_date": "5/25/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "38384564",
+      "source": "walmart",
+      "upc": "074305066054",
+      "serving_size_g": 10.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "DRIED YEAST, NIACIN, PYRIDOXINE HYDROCHLORIDE (VITAMIN B6), THIAMIN HYDROCHLORIDE (VITAMIN B1), RIBOFLAVIN (VITAMIN B2), FOLIC ACID (VITAMIN B9), CYANOCOBALAMIN (VITAMIN B12).",
+      "nutrients_per_g": {
+        "vit_b12_mcg": 1.5,
+        "iron_mg": 0.1,
+        "fiber_g": 0.2,
+        "energy_kcal": 4.0,
+        "potassium_mg": 21.4,
+        "protein_g": 0.5,
+        "sodium_mg": 2.0
+      },
+      "nutrient_sources": {
+        "vit_b12_mcg": "usda_branded_upc:2486564",
+        "iron_mg": "usda_branded_upc:2486564",
+        "fiber_g": "usda_branded_upc:2486564",
+        "energy_kcal": "usda_branded_upc:2486564",
+        "potassium_mg": "usda_branded_upc:2486564",
+        "protein_g": "usda_branded_upc:2486564",
+        "sodium_mg": "usda_branded_upc:2486564"
+      },
+      "source_details": {
+        "usda_branded_upc:2486564": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2486564,
+          "publication_date": "2/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "431513547",
+      "source": "walmart",
+      "upc": "078742237404",
+      "serving_size_g": 85.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "SPINACH.",
+      "nutrients_per_g": {
+        "iron_mg": 0.0271,
+        "calcium_mg": 0.94,
+        "sodium_mg": 0.76,
+        "fiber_g": 0.024,
+        "energy_kcal": 0.24,
+        "potassium_mg": 5.53,
+        "protein_g": 0.0235
+      },
+      "nutrient_sources": {
+        "iron_mg": "usda_branded_upc:2339039",
+        "calcium_mg": "usda_branded_upc:2339039",
+        "sodium_mg": "usda_branded_upc:2339039",
+        "fiber_g": "usda_branded_upc:2339039",
+        "energy_kcal": "usda_branded_upc:2339039",
+        "potassium_mg": "usda_branded_upc:2339039",
+        "protein_g": "usda_branded_upc:2339039"
+      },
+      "source_details": {
+        "usda_branded_upc:2339039": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2339039,
+          "publication_date": "9/15/2022",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "52633655",
+      "source": "walmart",
+      "upc": "078742141619",
+      "serving_size_g": 13.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "ORGANIC GROUND FLAX.",
+      "nutrients_per_g": {
+        "vit_d_mcg": 0.01,
+        "calcium_mg": 2.31,
+        "potassium_mg": 6.92,
+        "fiber_g": 0.231,
+        "protein_g": 0.23079999999999998,
+        "iron_mg": 0.061500000000000006,
+        "energy_kcal": 6.15,
+        "sodium_mg": 0.0
+      },
+      "nutrient_sources": {
+        "vit_d_mcg": "usda_branded_upc:2676650",
+        "calcium_mg": "usda_branded_upc:2676650",
+        "potassium_mg": "usda_branded_upc:2676650",
+        "fiber_g": "usda_branded_upc:2676650",
+        "protein_g": "usda_branded_upc:2676650",
+        "iron_mg": "usda_branded_upc:2676650",
+        "energy_kcal": "usda_branded_upc:2676650",
+        "sodium_mg": "usda_branded_upc:2676650"
+      },
+      "source_details": {
+        "usda_branded_upc:2676650": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2676650,
+          "publication_date": "11/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "598909418",
+      "source": "walmart",
+      "upc": "039978113221",
+      "serving_size_g": 30.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "VITAL WHEAT GLUTEN.",
+      "nutrients_per_g": {
+        "energy_kcal": 4.0,
+        "vit_d_mcg": 0.0,
+        "potassium_mg": 0.8,
+        "sodium_mg": 0.67,
+        "fiber_g": 0.0,
+        "calcium_mg": 0.3,
+        "iron_mg": 0.0333,
+        "protein_g": 0.7667
+      },
+      "nutrient_sources": {
+        "energy_kcal": "usda_branded_upc:2673405",
+        "vit_d_mcg": "usda_branded_upc:2673405",
+        "potassium_mg": "usda_branded_upc:2673405",
+        "sodium_mg": "usda_branded_upc:2673405",
+        "fiber_g": "usda_branded_upc:2673405",
+        "calcium_mg": "usda_branded_upc:2673405",
+        "iron_mg": "usda_branded_upc:2673405",
+        "protein_g": "usda_branded_upc:2673405"
+      },
+      "source_details": {
+        "usda_branded_upc:2673405": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2673405,
+          "publication_date": "11/16/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "731592644",
+      "source": "walmart",
+      "upc": "196005708345",
+      "serving_size_g": 14.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "CANOLA OIL.",
+      "nutrients_per_g": {
+        "sodium_mg": 0.0,
+        "energy_kcal": 9.29,
+        "protein_g": 0.0
+      },
+      "nutrient_sources": {
+        "sodium_mg": "usda_branded_upc:2308100",
+        "energy_kcal": "usda_branded_upc:2308100",
+        "protein_g": "usda_branded_upc:2308100"
+      },
+      "source_details": {
+        "usda_branded_upc:2308100": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2308100,
+          "publication_date": "5/23/2022",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "748653717",
+      "source": "walmart",
+      "upc": "078742297071",
+      "serving_size_g": 28.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "ORGANIC CASHEWS.",
+      "nutrients_per_g": {
+        "fiber_g": 0.036000000000000004,
+        "potassium_mg": 6.43,
+        "protein_g": 0.17859999999999998,
+        "vit_d_mcg": 0.0,
+        "sodium_mg": 0.0,
+        "calcium_mg": 0.36,
+        "iron_mg": 0.0679,
+        "energy_kcal": 5.36
+      },
+      "nutrient_sources": {
+        "fiber_g": "usda_branded_upc:2656958",
+        "potassium_mg": "usda_branded_upc:2656958",
+        "protein_g": "usda_branded_upc:2656958",
+        "vit_d_mcg": "usda_branded_upc:2656958",
+        "sodium_mg": "usda_branded_upc:2656958",
+        "calcium_mg": "usda_branded_upc:2656958",
+        "iron_mg": "usda_branded_upc:2656958",
+        "energy_kcal": "usda_branded_upc:2656958"
+      },
+      "source_details": {
+        "usda_branded_upc:2656958": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2656958,
+          "publication_date": "10/26/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    },
+    {
+      "product_id": "804851997",
+      "source": "walmart",
+      "upc": "078742309439",
+      "serving_size_g": 28.0,
+      "serving_basis": "usda_branded_record",
+      "ingredients": "PINE NUTS.",
+      "nutrients_per_g": {
+        "calcium_mg": 0.0,
+        "fiber_g": 0.107,
+        "potassium_mg": 6.43,
+        "sodium_mg": 0.71,
+        "vit_d_mcg": 0.0,
+        "protein_g": 0.10710000000000001,
+        "energy_kcal": 6.43,
+        "iron_mg": 0.0321
+      },
+      "nutrient_sources": {
+        "calcium_mg": "usda_branded_upc:2591368",
+        "fiber_g": "usda_branded_upc:2591368",
+        "potassium_mg": "usda_branded_upc:2591368",
+        "sodium_mg": "usda_branded_upc:2591368",
+        "vit_d_mcg": "usda_branded_upc:2591368",
+        "protein_g": "usda_branded_upc:2591368",
+        "energy_kcal": "usda_branded_upc:2591368",
+        "iron_mg": "usda_branded_upc:2591368"
+      },
+      "source_details": {
+        "usda_branded_upc:2591368": {
+          "kind": "usda_branded_exact_upc",
+          "fdc_id": 2591368,
+          "publication_date": "6/29/2023",
+          "fetched_at": "2026-07-20"
+        }
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "product_id": "0001111085072",
+      "source": "kroger",
+      "warning": "serving count is inconsistent with package weight (2 \u00d7 56 g != 340.2 g)"
+    },
+    {
+      "product_id": "0001600014159",
+      "source": "kroger",
+      "warning": "serving size cannot be converted to grams"
+    },
+    {
+      "product_id": "0001111050481",
+      "source": "kroger",
+      "warning": "serving size cannot be converted to grams"
+    },
+    {
+      "product_id": "0001111008733",
+      "source": "kroger",
+      "warning": "serving count is inconsistent with package weight (12 \u00d7 23 g != 90.7 g)"
+    },
+    {
+      "product_id": "0001111060903",
+      "source": "kroger",
+      "warning": "serving count is inconsistent with package weight (12 \u00d7 50 g != 802.9 g)"
+    },
+    {
+      "product_id": "0020891150000",
+      "source": "kroger",
+      "warning": "serving size cannot be converted to grams"
+    },
+    {
+      "product_id": "0029062400000",
+      "source": "kroger",
+      "warning": "no usable structured Nutrition Facts panel"
+    },
+    {
+      "product_id": "0001111097971",
+      "source": "kroger",
+      "warning": "no usable structured Nutrition Facts panel"
+    },
+    {
+      "product_id": "0020799300000",
+      "source": "kroger",
+      "warning": "serving size cannot be converted to grams"
+    },
+    {
+      "product_id": "0001111089084",
+      "source": "kroger",
+      "warning": "no usable structured Nutrition Facts panel"
+    },
+    {
+      "product_id": "0004800018718",
+      "source": "kroger",
+      "warning": "no usable structured Nutrition Facts panel"
+    },
+    {
+      "product_id": "0001111091435",
+      "source": "kroger",
+      "warning": "serving size cannot be converted to grams"
+    },
+    {
+      "product_id": "0001111018273",
+      "source": "kroger",
+      "warning": "serving count is inconsistent with package weight (4 \u00d7 30 g != 907.2 g)"
+    },
+    {
+      "product_id": "11994394",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 030000072103"
+    },
+    {
+      "product_id": "10311408",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 016000275263"
+    },
+    {
+      "product_id": "777839120",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 051500255162"
+    },
+    {
+      "product_id": "47707492",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 819573010664"
+    },
+    {
+      "product_id": "15380114943",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 050000812325"
+    },
+    {
+      "product_id": "10293459",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 080000003348"
+    },
+    {
+      "product_id": "1893833345",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 048000187185"
+    },
+    {
+      "product_id": "22282247",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 048500018330"
+    },
+    {
+      "product_id": "5284690796",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 194346197477"
+    },
+    {
+      "product_id": "1657415345",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 733739070517"
+    },
+    {
+      "product_id": "6189023562",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 194346252305"
+    }
+  ]
+}

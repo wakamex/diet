@@ -24,6 +24,7 @@ FDC_NUTRIENT_MAP: dict[str, str] = {
     "Energy (Atwater Specific Factors)":            "energy_kcal",
     "Protein":                                      "protein_g",
     "Fiber, total dietary":                         "fiber_g",
+    "PUFA 18:3":                                    "ala_g",
     "PUFA 18:3 n-3 c,c,c (ALA)":                    "ala_g",
     "Fatty acids, total polyunsaturated 18:3 n-3 c,c,c (ALA)": "ala_g",
     "Vitamin A, RAE":                               "vit_a_mcg",
@@ -38,6 +39,16 @@ FDC_NUTRIENT_MAP: dict[str, str] = {
     "Potassium, K":                                 "potassium_mg",
     "Sodium, Na":                                   "sodium_mg",
     "Zinc, Zn":                                     "zinc_mg",
+}
+
+# Older SR Legacy records often expose only the generic ``PUFA 18:3`` name,
+# while newer records can also provide the explicit n-3 ALA measurement. Use
+# the generic value as a fallback, but prefer the explicit measurement whenever
+# both are present regardless of their order in the API payload.
+FDC_NUTRIENT_PRIORITY: dict[str, int] = {
+    "PUFA 18:3": 0,
+    "PUFA 18:3 n-3 c,c,c (ALA)": 1,
+    "Fatty acids, total polyunsaturated 18:3 n-3 c,c,c (ALA)": 1,
 }
 
 
@@ -74,6 +85,33 @@ def search_foods(query: str, *, page_size: int = 5,
         },
     )
     return payload.get("foods") or []
+
+
+def search_branded_upc_cached(upc: str, cache_root: Path) -> dict | None:
+    """Return an exact USDA Branded match for a UPC/GTIN, caching misses too.
+
+    FDC's free-text search can return nearby product codes, so a result is only
+    accepted when its normalized GTIN exactly equals the requested code.
+    """
+    digits = "".join(ch for ch in str(upc) if ch.isdigit())
+    if not digits:
+        return None
+    normalized = digits.lstrip("0") or "0"
+    cache_path = cache_root / "upc" / f"{digits}.json"
+    if cache_path.exists():
+        payload = read_json(cache_path)
+    else:
+        hits = search_foods(digits, page_size=20, data_types=("Branded",))
+        payload = {"upc": digits, "foods": hits}
+        write_json_atomic(cache_path, payload)
+    for hit in payload.get("foods") or []:
+        candidate = "".join(ch for ch in str(hit.get("gtinUpc") or "") if ch.isdigit())
+        if (candidate.lstrip("0") or "0") != normalized:
+            continue
+        fdc_id = hit.get("fdcId")
+        if fdc_id:
+            return fetch_food_cached(int(fdc_id), cache_root)
+    return None
 
 
 def best_match(query: str) -> dict | None:
@@ -132,6 +170,7 @@ def nutrients_per_g(food_payload: dict) -> dict[str, float]:
     FDC_NUTRIENT_MAP. Nutrients we don't track are dropped silently.
     """
     out: dict[str, float] = {}
+    priorities: dict[str, int] = {}
     for entry in food_payload.get("foodNutrients") or []:
         nutrient = entry.get("nutrient") or {}
         name = nutrient.get("name")
@@ -141,9 +180,11 @@ def nutrients_per_g(food_payload: dict) -> dict[str, float]:
         canonical = FDC_NUTRIENT_MAP.get(name)
         if not canonical:
             continue
-        # Don't overwrite if multiple FDC names map to the same canonical (e.g. Energy):
-        # take the first one we see.
-        if canonical in out:
+        priority = FDC_NUTRIENT_PRIORITY.get(name, 0)
+        # Keep first-match behavior by default, but allow an explicit ALA value
+        # to replace the generic SR Legacy 18:3 fallback.
+        if canonical in out and priority <= priorities[canonical]:
             continue
         out[canonical] = float(amount) / 100.0
+        priorities[canonical] = priority
     return out

@@ -53,22 +53,19 @@
 - product_id: "0003160401617"
   name: "Nature Made® Flaxseed Oil Softgels 1000mg"
   count: 100
-  # 1000 mg flaxseed oil + softgel shell ≈ 1.2 g per softgel. Flaxseed oil
-  # is ~57% ALA by weight, so a 1000 mg softgel delivers ~0.575 g ALA (label-
-  # claimed and FDC-consistent).
+  # Current manufacturer label: 1000 mg flaxseed oil containing 500 mg ALA.
+  # The softgel shell brings total tablet mass to approximately 1.2 g.
   tablet_g: 1.2
   dietary_categories: [supplement, omega_3]
-  # Cap at 3 softgels/day (the label recommended dose is 2; 3 covers the RDA
-  # with headroom when food sources are absent).
-  max_tablets_per_day: 3
+  # Current label direction is one softgel daily.
+  max_tablets_per_day: 1
   nutrients_per_tablet:
-    ala_g: 0.575
+    ala_g: 0.5
 
 # --- Walmart supplements (priced via Affiliate API, same as walmart foods) ---
 # Cheaper across the board; Walmart-brand Equate and Spring Valley dominate
-# the pill market on price. Same nutrient profiles as their Kroger equivalents
-# (generic multivitamin / B12 / Ca+D3 / flaxseed oil formulations are
-# effectively identical between store brands).
+# the pill market on price. Multivitamin / B12 / Ca+D3 profiles mirror their
+# Kroger equivalents; flaxseed oil retains its separately documented estimate.
 
 - product_id: "14711329"
   name: "Equate Complete Multivitamin/Multimineral Tablets, Adults, 200 ct"
@@ -119,4 +116,6 @@
   max_tablets_per_day: 3
   source: walmart
   nutrients_per_tablet:
+    # The product page gives 1000 mg flaxseed oil but not an ALA assay; use the
+    # FDC-consistent estimate of 57.5% ALA by oil weight.
     ala_g: 0.575
