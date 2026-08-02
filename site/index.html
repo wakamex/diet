@@ -197,6 +197,30 @@
         }
         #catalog td.value-score { font-family: "D2Coding"; }
         #catalog td.value-score.is-included { color: #ff9800; }
+        #catalog th.sortable { padding: 0; }
+        #catalog .sort-button {
+            align-items: center;
+            background: transparent;
+            border: 0;
+            color: inherit;
+            cursor: pointer;
+            display: flex;
+            font: inherit;
+            font-weight: inherit;
+            gap: 5px;
+            justify-content: flex-start;
+            letter-spacing: inherit;
+            padding: 8px;
+            text-align: left;
+            text-transform: inherit;
+            width: 100%;
+        }
+        #catalog th.num .sort-button { justify-content: flex-end; }
+        #catalog .sort-button:hover,
+        #catalog .sort-button:focus-visible { color: #ff9800; outline: none; }
+        #catalog .sort-indicator { color: #6b5a35; font-size: 0.7rem; }
+        #catalog th[aria-sort="ascending"] .sort-indicator,
+        #catalog th[aria-sort="descending"] .sort-indicator { color: #ff9800; }
         .value-explainer {
             border: 1px solid #6b5a35;
             border-radius: 6px;
@@ -327,6 +351,7 @@
                              vegetarian:'vegetarian', ovo_lacto:'ovo-lacto', vegan:'vegan'};
         const VARIANTS = ['food_only', 'with_supplements'];
         const VARIANT_LABELS = {food_only:'food only', with_supplements:'food + pills'};
+        const CATALOG_SORT = {key: null, direction: 'asc'};
 
         let DATA = null;
 
@@ -552,9 +577,20 @@
             // cell — different chains can pack the same food in different sizes
             // (Kroger 5oz yogurt cup vs Walmart 32oz tub) and each must
             // normalize against its own size, not the dedupe primary's.
+            const normalizedPrice = (p, c) => {
+                if (p == null) return null;
+                const pkg = p.effective ?? p.regular;
+                if (pkg == null) return null;
+                const cellGrams = p.unit_grams ?? c.unit_grams;
+                const cellCount = p.count ?? c.count;
+                if (c.kind === 'supplement' && cellCount) return pkg / cellCount;
+                if (cellGrams) return pkg * 1000 / cellGrams;
+                return pkg;
+            };
             const priceCell = (p, c) => {
                 if (p == null) return '<td class="num muted">—</td>';
                 const pkg = p.effective ?? p.regular;
+                if (pkg == null) return '<td class="num muted">—</td>';
                 const cellGrams = p.unit_grams ?? c.unit_grams;
                 const cellCount = p.count ?? c.count;
                 let per, suffix, tooltip;
@@ -597,14 +633,56 @@
                     : `Useful nutrients justify ${Math.round(score * 100)}% of price; needs about a ${discount}% discount to enter`;
                 return `<td class="num value-score${included ? ' is-included' : ''}" title="${title}">${score.toFixed(2)}</td>`;
             };
+            const category = c => (c.dietary_categories || [])
+                .filter(t => t !== 'supplement')
+                .join(', ');
+            const sortValue = (c, key) => {
+                if (key === 'name') return c.name.toLocaleLowerCase();
+                if (key === 'category') return category(c).toLocaleLowerCase();
+                if (key === 'unit') return c.kind === 'supplement' ? c.count : c.unit_grams;
+                if (key === 'value') return c.value_score;
+                if (key.startsWith('price:')) {
+                    const region = key.slice(6);
+                    return normalizedPrice(c.prices_by_region[region], c);
+                }
+                return null;
+            };
+            const sortedCatalog = catalog.map((item, index) => ({item, index}));
+            if (CATALOG_SORT.key) {
+                sortedCatalog.sort((a, b) => {
+                    const av = sortValue(a.item, CATALOG_SORT.key);
+                    const bv = sortValue(b.item, CATALOG_SORT.key);
+                    const aMissing = av === null || av === undefined || Number.isNaN(av);
+                    const bMissing = bv === null || bv === undefined || Number.isNaN(bv);
+                    if (aMissing && bMissing) return a.index - b.index;
+                    if (aMissing) return 1;
+                    if (bMissing) return -1;
+                    const cmp = typeof av === 'string'
+                        ? av.localeCompare(bv)
+                        : Number(av) - Number(bv);
+                    return (CATALOG_SORT.direction === 'asc' ? cmp : -cmp)
+                        || a.index - b.index;
+                });
+            }
+            const sortHeader = (label, key, numeric=false, title='') => {
+                const active = CATALOG_SORT.key === key;
+                const direction = active ? CATALOG_SORT.direction : 'none';
+                const ariaSort = direction === 'asc' ? 'ascending'
+                    : direction === 'desc' ? 'descending' : 'none';
+                const indicator = direction === 'asc' ? '▲'
+                    : direction === 'desc' ? '▼' : '↕';
+                return `<th class="sortable${numeric ? ' num' : ''}" aria-sort="${ariaSort}">
+                    <button type="button" class="sort-button" data-sort-key="${key}"${title ? ` title="${title}"` : ''}>
+                        <span>${label}</span><span class="sort-indicator" aria-hidden="true">${indicator}</span>
+                    </button>
+                </th>`;
+            };
 
             const locHeaders = locations.map(l =>
-                `<th class="num" title="${l.display}">${l.region}</th>`).join('');
+                sortHeader(l.region, `price:${l.region}`, true, l.display)).join('');
 
-            const rows = catalog.map(c => {
-                const tags = (c.dietary_categories || [])
-                    .filter(t => t !== 'supplement')
-                    .join(', ');
+            const rows = sortedCatalog.map(({item: c}) => {
+                const tags = category(c);
                 const cls = c.kind === 'supplement' ? 'is-supplement' : '';
                 const cells = locations.map(l =>
                     priceCell(c.prices_by_region[l.region], c)).join('');
@@ -619,14 +697,26 @@
 
             host.innerHTML = `<div class="table-scroll"><table>
                 <thead><tr>
-                    <th>SKU</th>
-                    <th>Category</th>
-                    <th class="num">Unit</th>
-                    <th class="num" title="Walmart-national · omnivore · food + pills">Value</th>
+                    ${sortHeader('SKU', 'name')}
+                    ${sortHeader('Category', 'category')}
+                    ${sortHeader('Unit', 'unit', true)}
+                    ${sortHeader('Value', 'value', true, 'Walmart-national · omnivore · food + pills')}
                     ${locHeaders}
                 </tr></thead>
                 <tbody>${rows}</tbody>
             </table></div>`;
+            host.querySelectorAll('.sort-button').forEach(button => {
+                button.addEventListener('click', () => {
+                    const key = button.dataset.sortKey;
+                    if (CATALOG_SORT.key === key) {
+                        CATALOG_SORT.direction = CATALOG_SORT.direction === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        CATALOG_SORT.key = key;
+                        CATALOG_SORT.direction = key === 'value' ? 'desc' : 'asc';
+                    }
+                    renderCatalog();
+                });
+            });
         }
 
         function render() {
