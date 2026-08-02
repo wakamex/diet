@@ -89,6 +89,40 @@ def test_shadow_price_matches_marginal_food():
     assert n["shadow_price_per_unit"] == pytest.approx(expected, rel=0.05)
 
 
+def test_value_score_is_one_for_selected_and_price_ratio_for_substitute():
+    """Value is nutrient shadow value / price, independent of serving size."""
+    foods = [
+        _food("cheap", "Cheap calories", price=0.01, nutrients={"kcal": 1.0}),
+        _food("costly", "Costly calories", price=0.02, nutrients={"kcal": 1.0}),
+    ]
+    s = solve(foods, [NutrientTarget("kcal", rda=100, unit="kcal")])
+    assert s.status == "optimal"
+    assert s.value_scores["cheap"] == 1.0
+    assert s.value_scores["costly"] == pytest.approx(0.5)
+
+
+def test_value_score_adds_contributions_from_multiple_binding_nutrients():
+    foods = [
+        _food("energy", "Energy source", price=0.01, nutrients={"kcal": 1.0}),
+        _food("protein", "Protein source", price=0.02, nutrients={"protein": 1.0}),
+        _food(
+            "combo",
+            "Combined source",
+            price=0.06,
+            nutrients={"kcal": 1.0, "protein": 1.0},
+        ),
+    ]
+    targets = [
+        NutrientTarget("kcal", rda=100, unit="kcal"),
+        NutrientTarget("protein", rda=100, unit="g"),
+    ]
+    s = solve(foods, targets)
+    assert s.status == "optimal"
+    # $0.01 of energy value + $0.02 of protein value per gram, divided
+    # by the combo food's $0.06/g price.
+    assert s.value_scores["combo"] == pytest.approx(0.5)
+
+
 def test_upper_bound_blocks_excess_sodium():
     """Salt water is cheapest per kcal but exceeds sodium UL — solver must dilute."""
     foods = [

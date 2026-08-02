@@ -142,6 +142,12 @@
       "display": "Walmart \u2014 700 Keeaumoku St, Honolulu, HI 96814"
     }
   ],
+  "value_benchmark": {
+    "region": "walmart_national",
+    "mode": "omnivore",
+    "variant": "with_supplements",
+    "label": "Walmart national \u00b7 omnivore \u00b7 food + pills"
+  },
   "catalog": [
     {
       "name": "1% Lowfat Milk Half Gallon",
@@ -151,6 +157,7 @@
         "dairy"
       ],
       "unit_grams": 1949.5,
+      "value_score": 0.407009,
       "prices_by_region": {
         "midwest": {
           "regular": 2.59,
@@ -196,6 +203,7 @@
         "dairy"
       ],
       "unit_grams": 90.7,
+      "value_score": 0.258691,
       "prices_by_region": {
         "midwest": {
           "regular": 4.39,
@@ -246,6 +254,7 @@
         "dairy"
       ],
       "unit_grams": 149.7,
+      "value_score": 0.128741,
       "prices_by_region": {
         "midwest": {
           "regular": 0.89,
@@ -301,6 +310,7 @@
         "dairy"
       ],
       "unit_grams": 365.5,
+      "value_score": 0.394565,
       "prices_by_region": {
         "midwest": {
           "regular": 1.29,
@@ -356,6 +366,7 @@
         "dairy"
       ],
       "unit_grams": 226.8,
+      "value_score": 0.232429,
       "prices_by_region": {
         "midwest": {
           "regular": 2.0,
@@ -411,6 +422,7 @@
         "egg"
       ],
       "unit_grams": 802.9,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 1.89,
@@ -445,6 +457,7 @@
         "fat"
       ],
       "unit_grams": 1301.7,
+      "value_score": 0.73688,
       "prices_by_region": {
         "midwest": {
           "regular": 4.39,
@@ -500,6 +513,7 @@
         "fat"
       ],
       "unit_grams": 870.6,
+      "value_score": 1.0,
       "prices_by_region": {
         "midwest": {
           "regular": 3.29,
@@ -555,6 +569,7 @@
         "fat"
       ],
       "unit_grams": 458.8,
+      "value_score": 0.20665,
       "prices_by_region": {
         "midwest": {
           "regular": 6.49,
@@ -611,6 +626,7 @@
         "meat_red"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.107865,
       "prices_by_region": {
         "midwest": {
           "regular": 2.59,
@@ -661,6 +677,7 @@
         "fish"
       ],
       "unit_grams": 213.2,
+      "value_score": 0.054712,
       "prices_by_region": {
         "midwest": {
           "regular": 5.99,
@@ -716,6 +733,7 @@
         "fish"
       ],
       "unit_grams": 154.2,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 1.99,
@@ -755,6 +773,7 @@
         "fish"
       ],
       "unit_grams": 186.0,
+      "value_score": 0.014251,
       "prices_by_region": {
         "midwest": {
           "regular": 2.99,
@@ -810,6 +829,7 @@
         "fish"
       ],
       "unit_grams": 140.6,
+      "value_score": 0.092801,
       "prices_by_region": {
         "midwest": {
           "regular": 0.97,
@@ -865,6 +885,7 @@
         "fish"
       ],
       "unit_grams": 104.3,
+      "value_score": 0.057145,
       "prices_by_region": {
         "midwest": {
           "regular": 1.59,
@@ -916,6 +937,7 @@
         "grain"
       ],
       "unit_grams": 36.3,
+      "value_score": 0.109459,
       "prices_by_region": {
         "midwest": {
           "regular": 1.25,
@@ -967,6 +989,7 @@
         "plant_milk"
       ],
       "unit_grams": 852.9,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 6.99,
@@ -1001,6 +1024,7 @@
         "fortified_b12"
       ],
       "unit_grams": 127.0,
+      "value_score": 0.0,
       "prices_by_region": {
         "midwest": {
           "regular": 6.29,
@@ -1052,6 +1076,7 @@
         "plant_milk"
       ],
       "unit_grams": 1949.5,
+      "value_score": 0.284635,
       "prices_by_region": {
         "midwest": {
           "regular": 4.29,
@@ -1108,6 +1133,7 @@
         "plant_milk"
       ],
       "unit_grams": 1797.2,
+      "value_score": 0.189093,
       "prices_by_region": {
         "midwest": {
           "regular": 3.59,
@@ -1163,6 +1189,7 @@
         "fruit"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.106338,
       "prices_by_region": {
         "midwest": {
           "regular": 2.99,
@@ -1213,6 +1240,7 @@
         "fruit"
       ],
       "unit_grams": 170.1,
+      "value_score": 0.050223,
       "prices_by_region": {
         "midwest": {
           "regular": 1.99,
@@ -1268,6 +1296,7 @@
         "fruit"
       ],
       "unit_grams": 1360.8,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 15.49,
@@ -1308,6 +1337,7 @@
         "fruit"
       ],
       "unit_grams": 354.9,
+      "value_score": 0.073321,
       "prices_by_region": {
         "midwest": {
           "regular": 3.99,
@@ -1363,6 +1393,7 @@
         "fruit"
       ],
       "unit_grams": 1421.6,
+      "value_score": 0.221866,
       "prices_by_region": {
         "midwest": {
           "regular": 4.49,
@@ -1413,6 +1444,7 @@
         "fruit"
       ],
       "unit_grams": 28.3,
+      "value_score": 0.205098,
       "prices_by_region": {
         "midwest": {
           "regular": 2.49,
@@ -1468,6 +1500,7 @@
         "grain"
       ],
       "unit_grams": 512.6,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 3.69,
@@ -1507,6 +1540,7 @@
         "grain"
       ],
       "unit_grams": 680.4,
+      "value_score": 0.361041,
       "prices_by_region": {
         "midwest": {
           "regular": 2.49,
@@ -1552,6 +1586,7 @@
         "grain"
       ],
       "unit_grams": 340.2,
+      "value_score": 0.101468,
       "prices_by_region": {
         "midwest": {
           "regular": 1.33,
@@ -1607,6 +1642,7 @@
         "grain"
       ],
       "unit_grams": 907.2,
+      "value_score": 1.0,
       "prices_by_region": {
         "midwest": {
           "regular": 1.69,
@@ -1662,6 +1698,7 @@
         "grain"
       ],
       "unit_grams": 907.2,
+      "value_score": 0.719455,
       "prices_by_region": {
         "midwest": {
           "regular": 1.79,
@@ -1717,6 +1754,7 @@
         "grain"
       ],
       "unit_grams": 453.6,
+      "value_score": 1.0,
       "prices_by_region": {
         "midwest": {
           "regular": 0.99,
@@ -1772,6 +1810,7 @@
         "grain"
       ],
       "unit_grams": 340.2,
+      "value_score": 0.088565,
       "prices_by_region": {
         "midwest": {
           "regular": 5.99,
@@ -1822,6 +1861,7 @@
         "grain"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.236645,
       "prices_by_region": {
         "midwest": {
           "regular": 2.29,
@@ -1877,6 +1917,7 @@
         "grain"
       ],
       "unit_grams": 313.0,
+      "value_score": 0.094327,
       "prices_by_region": {
         "midwest": {
           "regular": 3.29,
@@ -1932,6 +1973,7 @@
         "grain"
       ],
       "unit_grams": 567.0,
+      "value_score": 0.083333,
       "prices_by_region": {
         "midwest": {
           "regular": 10.49,
@@ -1982,6 +2024,7 @@
         "grain"
       ],
       "unit_grams": 680.4,
+      "value_score": 0.240795,
       "prices_by_region": {
         "midwest": {
           "regular": 3.49,
@@ -2032,6 +2075,7 @@
         "legume"
       ],
       "unit_grams": 435.4,
+      "value_score": 0.30566,
       "prices_by_region": {
         "midwest": {
           "regular": 1.0,
@@ -2087,6 +2131,7 @@
         "legume"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.785299,
       "prices_by_region": {
         "midwest": {
           "regular": 1.69,
@@ -2143,6 +2188,7 @@
         "nut"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.162945,
       "prices_by_region": {
         "midwest": {
           "regular": 2.29,
@@ -2198,6 +2244,7 @@
         "legume"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.120107,
       "prices_by_region": {
         "midwest": {
           "regular": 3.79,
@@ -2254,6 +2301,7 @@
         "nut"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.148789,
       "prices_by_region": {
         "midwest": {
           "regular": 2.69,
@@ -2310,6 +2358,7 @@
         "soy"
       ],
       "unit_grams": 340.2,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 2.49,
@@ -2346,6 +2395,7 @@
         "soy"
       ],
       "unit_grams": 399.2,
+      "value_score": 0.109504,
       "prices_by_region": {
         "midwest": {
           "regular": 1.99,
@@ -2401,6 +2451,7 @@
         "legume"
       ],
       "unit_grams": 435.4,
+      "value_score": 0.287723,
       "prices_by_region": {
         "midwest": {
           "regular": 1.0,
@@ -2456,6 +2507,7 @@
         "legume"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.695278,
       "prices_by_region": {
         "midwest": {
           "regular": 1.99,
@@ -2506,6 +2558,7 @@
         "legume"
       ],
       "unit_grams": 435.4,
+      "value_score": 0.315775,
       "prices_by_region": {
         "midwest": {
           "regular": 1.0,
@@ -2561,6 +2614,7 @@
         "legume"
       ],
       "unit_grams": 421.8,
+      "value_score": 0.179054,
       "prices_by_region": {
         "midwest": {
           "regular": 1.25,
@@ -2616,6 +2670,7 @@
         "legume"
       ],
       "unit_grams": 907.2,
+      "value_score": 0.261343,
       "prices_by_region": {
         "midwest": {
           "regular": 2.29,
@@ -2671,6 +2726,7 @@
         "legume"
       ],
       "unit_grams": 435.4,
+      "value_score": 1.0,
       "prices_by_region": {
         "midwest": {
           "regular": 1.0,
@@ -2721,6 +2777,7 @@
         "meat_red"
       ],
       "unit_grams": 453.6,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 7.29,
@@ -2766,6 +2823,7 @@
         "meat_red"
       ],
       "unit_grams": 453.6,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 2.99,
@@ -2811,6 +2869,7 @@
         "meat_white"
       ],
       "unit_grams": 567.0,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 5.0,
@@ -2856,6 +2915,7 @@
         "meat_white"
       ],
       "unit_grams": 567.0,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 2.49,
@@ -2896,6 +2956,7 @@
         "meat_white"
       ],
       "unit_grams": 453.6,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 1.99,
@@ -2936,6 +2997,7 @@
         "meat_white"
       ],
       "unit_grams": 453.6,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 3.99,
@@ -2981,6 +3043,7 @@
         "nut"
       ],
       "unit_grams": 70.9,
+      "value_score": 0.089686,
       "prices_by_region": {
         "midwest": {
           "regular": 5.99,
@@ -3036,6 +3099,7 @@
         "nut"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.153825,
       "prices_by_region": {
         "midwest": {
           "regular": 10.29,
@@ -3091,6 +3155,7 @@
         "nut"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.134058,
       "prices_by_region": {
         "midwest": {
           "regular": 14.99,
@@ -3146,6 +3211,7 @@
         "nut"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.276135,
       "prices_by_region": {
         "midwest": {
           "regular": 7.99,
@@ -3201,6 +3267,7 @@
         "nut"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.166126,
       "prices_by_region": {
         "midwest": {
           "regular": 8.99,
@@ -3256,6 +3323,7 @@
         "nut"
       ],
       "unit_grams": 226.8,
+      "value_score": 0.075983,
       "prices_by_region": {
         "midwest": {
           "regular": 11.99,
@@ -3306,6 +3374,7 @@
         "nut"
       ],
       "unit_grams": 340.2,
+      "value_score": 0.11884,
       "prices_by_region": {
         "midwest": {
           "regular": 7.99,
@@ -3361,6 +3430,7 @@
         "nut"
       ],
       "unit_grams": 907.2,
+      "value_score": 0.081591,
       "prices_by_region": {
         "midwest": {
           "regular": 14.99,
@@ -3416,6 +3486,7 @@
         "seed"
       ],
       "unit_grams": 121.8,
+      "value_score": 0.283182,
       "prices_by_region": {
         "midwest": {
           "regular": 1.79,
@@ -3471,6 +3542,7 @@
         "seed"
       ],
       "unit_grams": 453.6,
+      "value_score": 0.603879,
       "prices_by_region": {
         "midwest": {
           "regular": 3.99,
@@ -3526,6 +3598,7 @@
         "vegetable"
       ],
       "unit_grams": 340.2,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 2.59,
@@ -3571,6 +3644,7 @@
         "vegetable"
       ],
       "unit_grams": 285.8,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 1.79,
@@ -3616,6 +3690,7 @@
         "vegetable"
       ],
       "unit_grams": 1728.2,
+      "value_score": 0.142733,
       "prices_by_region": {
         "midwest": {
           "regular": 6.49,
@@ -3671,6 +3746,7 @@
         "vegetable"
       ],
       "unit_grams": 412.8,
+      "value_score": 0.106733,
       "prices_by_region": {
         "midwest": {
           "regular": 1.0,
@@ -3721,6 +3797,7 @@
         "vegetable"
       ],
       "unit_grams": 231.3,
+      "value_score": 0.051994,
       "prices_by_region": {
         "midwest": {
           "regular": 0.69,
@@ -3771,6 +3848,7 @@
         "vegetable"
       ],
       "unit_grams": 453.6,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 1.69,
@@ -3810,6 +3888,7 @@
         "vegetable"
       ],
       "unit_grams": 340.2,
+      "value_score": null,
       "prices_by_region": {
         "midwest": {
           "regular": 1.29,
@@ -3855,6 +3934,7 @@
         "vegetable"
       ],
       "unit_grams": 421.8,
+      "value_score": 0.15784,
       "prices_by_region": {
         "midwest": {
           "regular": 1.09,
@@ -3914,6 +3994,7 @@
       "tablet_g": 0.2,
       "count": 120,
       "max_tablets_per_day": 1.0,
+      "value_score": 0.0,
       "prices_by_region": {
         "midwest": {
           "regular": 8.79,
@@ -3983,6 +4064,7 @@
       "tablet_g": 1.6,
       "count": 120,
       "max_tablets_per_day": 2.0,
+      "value_score": 1.0,
       "prices_by_region": {
         "midwest": {
           "regular": 9.99,
@@ -4045,6 +4127,7 @@
       "tablet_g": 1.3,
       "count": 240,
       "max_tablets_per_day": 1.0,
+      "value_score": 1.0,
       "prices_by_region": {
         "midwest": {
           "regular": 12.49,
@@ -4114,6 +4197,7 @@
       "tablet_g": 1.2,
       "count": 100,
       "max_tablets_per_day": 1.0,
+      "value_score": 0.0,
       "prices_by_region": {
         "midwest": {
           "regular": 12.99,

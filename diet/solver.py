@@ -52,6 +52,7 @@ class Solution:
     basket: list[dict]                           # selected foods
     nutrients: list[dict]                        # delivery + shadow prices
     diagnosis: list[dict] = field(default_factory=list)  # populated on infeasible
+    value_scores: dict[str, float] = field(default_factory=dict)
 
 
 # Mode → excluded dietary_categories. Single source of truth.
@@ -197,8 +198,28 @@ def solve(
         })
         seen.add(name)
 
+    # A zero-bound variable's HiGHS lower marginal is its reduced cost: how much
+    # cheaper one gram would need to become before entering this optimum. Thus
+    # 1 - reduced_cost / current_price is the fraction of its price justified by
+    # the shadow-priced nutrients it supplies. Positive selected variables have
+    # zero reduced cost by complementary slackness and receive a score of 1.
+    lower = getattr(res, "lower", None)
+    lower_marginals = (
+        list(lower.marginals) if lower is not None else [0.0] * n_foods
+    )
+    value_scores: dict[str, float] = {}
+    for f, grams, unit_cost, reduced_cost in zip(eligible, x, c, lower_marginals):
+        if grams >= EPSILON_G:
+            score = 1.0
+        elif unit_cost > 0:
+            score = 1.0 - float(reduced_cost) / float(unit_cost)
+            score = min(1.0, max(0.0, score))
+        else:
+            score = 0.0
+        value_scores[f.sku_id] = round(score, 6)
+
     return Solution("optimal", "optimal solution found", round(cost, 4),
-                    basket, nutrient_rows)
+                    basket, nutrient_rows, value_scores=value_scores)
 
 
 def _diagnose(
