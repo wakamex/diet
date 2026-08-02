@@ -195,6 +195,31 @@
             font-weight: 700;
             letter-spacing: 0.05em;
         }
+        #catalog td.value-score { font-family: "D2Coding"; }
+        #catalog td.value-score.is-included { color: #ff9800; }
+        .value-explainer {
+            border: 1px solid #6b5a35;
+            border-radius: 6px;
+            background: #0e0e10;
+            margin: 10px 0 12px;
+        }
+        .value-explainer summary {
+            cursor: pointer;
+            color: #e0e0e0;
+            font-size: 0.86rem;
+            font-weight: 700;
+            padding: 10px 12px;
+        }
+        .value-explainer summary:hover { color: #ff9800; }
+        .value-explainer .details-body {
+            border-top: 1px solid #1a1916;
+            color: #b6aa99;
+            font-size: 0.84rem;
+            line-height: 1.55;
+            padding: 10px 14px 12px;
+        }
+        .value-explainer p { margin: 0 0 8px; }
+        .value-explainer ul { margin: 6px 0 10px 20px; padding: 0; }
         .unit-suffix {
             font-size: 0.7rem;
             font-weight: 400;
@@ -269,8 +294,21 @@
 
     <h2>Catalog</h2>
     <p class="section-note" style="color:#8a7d6a; font-size:0.82rem; margin-bottom: 4px;">
-        Every SKU the pipeline knows about and its Kroger package price at each location from today's ingest. Missing prices mean Kroger's API returned the SKU without a price field at that location — it may be out of stock, not carried, or a data-feed gap.
+        Every item the pipeline knows about and its normalized price at each location. <b style="color:#e0e0e0;">Value</b> compares the item's combined useful nutrients with its current price in the Walmart-national, omnivore, food-plus-pills benchmark.
     </p>
+    <details class="value-explainer">
+        <summary>How to interpret the Value score</summary>
+        <div class="details-body">
+            <p>Value is a serving-independent score from 0 to 1. The optimizer gives each nutrient a marginal dollar value based on how difficult its target is to satisfy, adds the value of every nutrient the item supplies, subtracts pressure on binding upper limits, and divides that total by the item's Walmart-national price.</p>
+            <ul>
+                <li><b>1.00</b> means the item is included in the benchmark optimum (or is equally competitive at the margin).</li>
+                <li><b>0.80</b> means its useful nutrients justify about 80% of its price; it would need roughly a 20% discount to enter.</li>
+                <li><b>0.24</b> means it would need roughly a 76% discount.</li>
+                <li><b>—</b> means no usable Walmart-national price is available; it is unscored, not worth zero.</li>
+            </ul>
+            <p>All nutrients are combined—not just the item's strongest nutrient. Nutrients already abundant in the benchmark receive little or no value, while scarce binding nutrients receive more. The score is therefore economic usefulness toward this diet's specific criteria, not a general health rating. It is recalculated whenever prices or nutrition data change.</p>
+        </div>
+    </details>
     <div id="catalog" class="loading">Loading…</div>
 
     <div class="footer">
@@ -547,6 +585,18 @@
                 if (g >= 100) return Math.round(g) + ' g';
                 return g.toFixed(0) + ' g';
             };
+            const valueCell = c => {
+                if (c.value_score === null || c.value_score === undefined) {
+                    return '<td class="num muted value-score" title="No Walmart-national benchmark price">—</td>';
+                }
+                const score = Math.max(0, Math.min(1, Number(c.value_score)));
+                const included = score >= 0.9995;
+                const discount = Math.round((1 - score) * 100);
+                const title = included
+                    ? 'Included in the Walmart-national food + pills optimum'
+                    : `Useful nutrients justify ${Math.round(score * 100)}% of price; needs about a ${discount}% discount to enter`;
+                return `<td class="num value-score${included ? ' is-included' : ''}" title="${title}">${score.toFixed(2)}</td>`;
+            };
 
             const locHeaders = locations.map(l =>
                 `<th class="num" title="${l.display}">${l.region}</th>`).join('');
@@ -562,6 +612,7 @@
                     <td class="name">${c.name}</td>
                     <td class="tag">${tags}</td>
                     <td class="num muted">${unit(c)}</td>
+                    ${valueCell(c)}
                     ${cells}
                 </tr>`;
             }).join('');
@@ -571,6 +622,7 @@
                     <th>SKU</th>
                     <th>Category</th>
                     <th class="num">Unit</th>
+                    <th class="num" title="Walmart-national · omnivore · food + pills">Value</th>
                     ${locHeaders}
                 </tr></thead>
                 <tbody>${rows}</tbody>
