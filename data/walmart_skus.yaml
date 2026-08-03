@@ -629,15 +629,15 @@
   _upc: 078742370378
   _sale_price: 1.0
   _kroger_source: Kroger® Regular Evaporated Milk
-- product_id: '463797452'
+- product_id: '15383452501'
   fdc_id: 168867
-  name: Pearl Milling Company Yellow Corn Meal, 80 oz
-  unit_grams: 2268.0
+  name: Great Value Enriched Yellow Corn Meal, 4 x 80 oz Bags
+  unit_grams: 9071.8
   dietary_categories:
   - grain
   source: walmart
-  _upc: 030000573761
-  _sale_price: 4.32
+  _upc: 460325010120
+  _sale_price: 15.08
   _kroger_source: Quaker® Yellow Corn Meal For Baking
 - product_id: '10403009'
   fdc_id: 746784
