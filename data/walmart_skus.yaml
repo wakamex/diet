@@ -2,15 +2,15 @@
 # Underscore fields are provenance only; ignored by the loader.
 # Regenerate with scripts/bootstrap_walmart_skus.py.
 
-- product_id: '10315394'
-  fdc_id: 2512381
-  name: Great Value Long Grain Enriched Rice, 32 oz
-  unit_grams: 907.2
+- product_id: '46535121'
+  fdc_id: 168877
+  name: Carolina Enriched Extra Long Grain White Rice, 20 lb Bag
+  unit_grams: 9071.8
   dietary_categories:
   - grain
   source: walmart
-  _upc: 078742352053
-  _sale_price: 1.77
+  _upc: 017400110000
+  _sale_price: 10.68
   _kroger_source: Kroger® Enriched Long Grain White Rice
 - product_id: '10804551'
   fdc_id: 174916
@@ -32,16 +32,57 @@
   _upc: 076808518290
   _sale_price: 1.84
   _kroger_source: Kroger 12 Oz Tri Color Rotini Pasta
-- product_id: '10403017'
+- product_id: '12444466'
   fdc_id: 168894
-  name: Great Value All-Purpose Enriched Flour, 5 lb Bag
+  name: Great Value All-Purpose Enriched Bleached Wheat Flour, 25 lb Bag
+  unit_grams: 11339.8
+  dietary_categories:
+  - grain
+  source: walmart
+  _upc: 078742370071
+  _sale_price: 10.77
+  _kroger_source: Kroger® All Purpose Bleached Enriched Flour
+- product_id: '10402992'
+  fdc_id: 168895
+  name: Great Value Self-Rising Enriched Bleached Flour, 5 lb Bag
   unit_grams: 2268.0
   dietary_categories:
   - grain
   source: walmart
-  _upc: 078742370064
+  _upc: 078742432281
+  _sale_price: 3.24
+  _discovery: value_search_2026-08-02
+- product_id: '917801417'
+  fdc_id: 169694
+  name: Great Value Corn Masa Flour, 4 lb
+  unit_grams: 1814.4
+  dietary_categories:
+  - grain
+  source: walmart
+  _upc: 078742006192
+  _sale_price: 2.86
+  _discovery: value_search_2026-08-02
+- product_id: '1952326595'
+  fdc_id: 167959
+  name: Great Value Yellow Popping Corn, 32 oz
+  unit_grams: 907.2
+  dietary_categories:
+  - grain
+  source: walmart
+  _upc: 194346000227
   _sale_price: 2.38
-  _kroger_source: Kroger® All Purpose Bleached Enriched Flour
+  _discovery: value_search_2026-08-02
+- product_id: '10314920'
+  fdc_id: 172772
+  name: Great Value Complete Buttermilk Pancake and Waffle Mix, 32 oz
+  unit_grams: 907.2
+  dietary_categories:
+  - grain
+  - dairy
+  source: walmart
+  _upc: 078742370828
+  _sale_price: 1.98
+  _discovery: value_search_2026-08-02
 - product_id: '13045034'
   fdc_id: 2512380
   name: Great Value Brown Rice, Whole Grain, 16 oz
@@ -163,6 +204,26 @@
   _upc: 078742110554
   _sale_price: 0.86
   _kroger_source: Light Red Kidney Beans
+- product_id: '963577064'
+  fdc_id: 173744
+  name: Great Value Light Red Kidney Beans, 1 lb
+  unit_grams: 453.6
+  dietary_categories:
+  - legume
+  source: walmart
+  _upc: 078742364773
+  _sale_price: 1.22
+  _discovery: value_search_2026-08-02
+- product_id: '963541867'
+  fdc_id: 173745
+  name: Great Value Navy Beans, 1 lb
+  unit_grams: 453.6
+  dietary_categories:
+  - legume
+  source: walmart
+  _upc: 078742364797
+  _sale_price: 1.28
+  _discovery: value_search_2026-08-02
 - product_id: '223902117'
   fdc_id: 172428
   name: Great Value Green Split Peas, 1 lb
@@ -205,16 +266,16 @@
   _upc: 078742350998
   _sale_price: 1.92
   _kroger_source: Kroger® Edamame
-- product_id: '777839120'
-  fdc_id: 174266
-  name: Jif Creamy Peanut Butter, 16 oz Jar
-  unit_grams: 453.6
+- product_id: '972758579'
+  fdc_id: 172470
+  name: Great Value No Stir Creamy Natural Peanut Butter Spread, 40 oz
+  unit_grams: 1134.0
   dietary_categories:
   - legume
   - nut
   source: walmart
-  _upc: '051500255162'
-  _sale_price: 2.98
+  _upc: 078742008318
+  _sale_price: 3.74
   _kroger_source: Kroger® Creamy Peanut Butter
 - product_id: '52633655'
   fdc_id: 169414
@@ -528,16 +589,26 @@
   _upc: 078742427782
   _sale_price: 6.12
   _kroger_source: Kroger® Extra Virgin Olive Oil
-- product_id: '10451002'
-  fdc_id: 172370
-  name: Great Value Vegetable Oil, Heart Healthy and Versatile, 48 fl oz Bottle
-  unit_grams: 1306.0
+- product_id: '10451011'
+  fdc_id: 171413
+  name: Great Value Vegetable Oil, 1 Gallon Bottle
+  unit_grams: 3482.6
   dietary_categories:
   - fat
   source: walmart
-  _upc: 078742352961
-  _sale_price: 3.93
+  _upc: 078742210001
+  _sale_price: 8.74
   _kroger_source: Kroger® 100% Pure Vegetable Oil
+- product_id: '10451495'
+  fdc_id: 748323
+  name: Great Value Corn Oil, 1 Gallon Bottle
+  unit_grams: 3490.2
+  dietary_categories:
+  - fat
+  source: walmart
+  _upc: 078742228792
+  _sale_price: 11.98
+  _discovery: value_search_2026-08-02
 - product_id: '731592644'
   fdc_id: 748278
   name: Crisco Pure Canola Oil, Cooking Oil, 40 fl oz
@@ -558,16 +629,26 @@
   _upc: 078742370378
   _sale_price: 1.0
   _kroger_source: Kroger® Regular Evaporated Milk
-- product_id: '10312465'
-  fdc_id: 169697
-  name: Quaker Yellow Enriched and Degerminated Corn Meal, 24 oz. Canister
-  unit_grams: 680.4
+- product_id: '463797452'
+  fdc_id: 168867
+  name: Pearl Milling Company Yellow Corn Meal, 80 oz
+  unit_grams: 2268.0
   dietary_categories:
   - grain
   source: walmart
-  _upc: 030000030509
-  _sale_price: 3.28
+  _upc: 030000573761
+  _sale_price: 4.32
   _kroger_source: Quaker® Yellow Corn Meal For Baking
+- product_id: '10403009'
+  fdc_id: 746784
+  name: Great Value Pure Granulated Sugar, 25 lb
+  unit_grams: 11339.8
+  dietary_categories:
+  - sweetener
+  source: walmart
+  _upc: 078742314297
+  _sale_price: 18.24
+  _discovery: value_search_2026-08-02
 - product_id: '13439653'
   fdc_id: 171401
   name: Morrell Snow Cap® Lard 16 oz. Box

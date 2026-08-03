@@ -116,16 +116,58 @@ def _ingest_walmart(
         nutrition_attempted = False
         for loc in locations:
             store_id = None if loc.location_id == "walmart-national" else loc.location_id
+            search_item = None
+            search_exc = None
             try:
-                p = client.product_details(sku.product_id, store_id=store_id)
-                write_json_atomic(
-                    raw_root / today / loc.location_id / f"{sku.product_id}.json", p
+                search = client.search(sku.name, num_items=25, store_id=store_id)
+                search_item = next(
+                    item for item in (search.get("items") or [])
+                    if str(item.get("itemId")) == sku.product_id
                 )
             except Exception as exc:
-                missing.append({"product_id": sku.product_id, "name": sku.name,
-                                "location_id": loc.location_id,
-                                "reason": f"walmart {type(exc).__name__}: {exc}"})
-                continue
+                search_exc = exc
+
+            # Search results are offer-specific, whereas item details can pick
+            # an unrelated marketplace seller for the same item ID. Prefer an
+            # exact Walmart-sold search offer; otherwise retain details as a
+            # fallback for products search does not return.
+            if search_item is not None and not search_item.get("marketplace", False):
+                p = search_item
+            else:
+                try:
+                    details = client.product_details(sku.product_id, store_id=store_id)
+                except Exception as details_exc:
+                    if search_item is not None:
+                        p = search_item
+                    else:
+                        missing.append({
+                            "product_id": sku.product_id,
+                            "name": sku.name,
+                            "location_id": loc.location_id,
+                            "reason": (
+                                f"walmart exact search "
+                                f"{type(search_exc).__name__}: {search_exc}; "
+                                f"details {type(details_exc).__name__}: {details_exc}"
+                            ),
+                        })
+                        continue
+                else:
+                    p = (
+                        details
+                        if not details.get("marketplace", False)
+                        else search_item or details
+                    )
+                if not p:
+                    missing.append({
+                        "product_id": sku.product_id,
+                        "name": sku.name,
+                        "location_id": loc.location_id,
+                        "reason": "walmart search/details returned no item",
+                    })
+                    continue
+            write_json_atomic(
+                raw_root / today / loc.location_id / f"{sku.product_id}.json", p
+            )
             if sku.fdc_id and not nutrition_attempted:
                 nutrition_attempted = True
                 upc = str(p.get("upc") or "")
