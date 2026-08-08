@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T22:47:52Z",
+  "updated": "2026-08-08T23:23:47Z",
   "nutrients": [
     {
       "product_id": "0000000094069",
@@ -4069,9 +4069,24 @@
       "warning": "no exact USDA Branded match for UPC 017400110000"
     },
     {
+      "product_id": "10309200",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 076808518290"
+    },
+    {
       "product_id": "11994394",
       "source": "walmart",
       "warning": "no exact USDA Branded match for UPC 030000072103"
+    },
+    {
+      "product_id": "24389861",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 818158012192"
+    },
+    {
+      "product_id": "10294413",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 761720071045"
     },
     {
       "product_id": "10311408",
@@ -4139,9 +4154,34 @@
       "warning": "no exact USDA Branded match for UPC 048500018330"
     },
     {
+      "product_id": "20925296",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 078742016009"
+    },
+    {
+      "product_id": "10295044",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 025293600393"
+    },
+    {
+      "product_id": "157991373",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 044100156182"
+    },
+    {
+      "product_id": "731592644",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 196005708345"
+    },
+    {
       "product_id": "15383452501",
       "source": "walmart",
       "warning": "no exact USDA Branded match for UPC 460325010120"
+    },
+    {
+      "product_id": "167257162",
+      "source": "walmart",
+      "warning": "no exact USDA Branded match for UPC 029000073241"
     },
     {
       "product_id": "5284690796",

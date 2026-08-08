@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T22:48:03Z",
+  "updated": "2026-08-08T23:25:16Z",
   "profile": "adult_male_31_50_moderate",
   "nutrient_targets": [
     {
@@ -5406,9 +5406,9 @@
           "unit_grams": 340.2
         },
         "hawaii": {
-          "regular": 13.32,
+          "regular": 16.52,
           "promo": null,
-          "effective": 13.32,
+          "effective": 16.52,
           "unit_grams": 340.2
         },
         "metro_reference": {
@@ -35184,7 +35184,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243"
           }
@@ -35225,7 +35225,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -35267,7 +35267,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -35309,7 +35309,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
@@ -35351,7 +35351,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513"
           }
@@ -35392,7 +35392,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -35434,7 +35434,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105"
           }
@@ -35476,7 +35476,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059749892582"
           }
@@ -35755,7 +35755,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243"
           }
@@ -35796,7 +35796,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -35838,7 +35838,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
@@ -35880,7 +35880,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513"
           }
@@ -35922,7 +35922,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
@@ -35963,7 +35963,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -36005,7 +36005,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -36033,7 +36033,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769"
           }
@@ -36312,7 +36312,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243"
           }
@@ -36353,7 +36353,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -36395,7 +36395,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
@@ -36437,7 +36437,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513"
           }
@@ -36479,7 +36479,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
@@ -36520,7 +36520,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -36562,7 +36562,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -36590,7 +36590,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769"
           }
@@ -36869,7 +36869,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243"
           }
@@ -36910,7 +36910,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -36952,7 +36952,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
@@ -36994,7 +36994,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513"
           }
@@ -37036,7 +37036,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
@@ -37077,7 +37077,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -37119,7 +37119,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -37147,7 +37147,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769"
           }
@@ -37421,7 +37421,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025"
           }
@@ -37463,7 +37463,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
@@ -37504,7 +37504,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -37538,7 +37538,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/large-green-lentils/p/062356507299"
           }
@@ -37580,7 +37580,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -37622,7 +37622,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335"
           }
@@ -37664,7 +37664,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/dried-yellow-split-peas/p/059072054046"
           }
@@ -37705,7 +37705,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -37747,7 +37747,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
@@ -38026,7 +38026,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243"
           }
@@ -38067,7 +38067,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -38109,7 +38109,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -38151,7 +38151,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
@@ -38193,7 +38193,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513"
           }
@@ -38234,7 +38234,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -38276,7 +38276,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105"
           }
@@ -38318,7 +38318,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059749892582"
           }
@@ -38597,7 +38597,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243"
           }
@@ -38638,7 +38638,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -38680,7 +38680,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
@@ -38722,7 +38722,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513"
           }
@@ -38764,7 +38764,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
@@ -38805,7 +38805,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -38847,7 +38847,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -38875,7 +38875,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769"
           }
@@ -39154,7 +39154,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243"
           }
@@ -39195,7 +39195,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -39237,7 +39237,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
@@ -39279,7 +39279,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513"
           }
@@ -39321,7 +39321,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
@@ -39362,7 +39362,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -39404,7 +39404,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -39432,7 +39432,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769"
           }
@@ -39711,7 +39711,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243"
           }
@@ -39752,7 +39752,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -39794,7 +39794,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
@@ -39836,7 +39836,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513"
           }
@@ -39878,7 +39878,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
@@ -39919,7 +39919,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -39961,7 +39961,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -39989,7 +39989,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769"
           }
@@ -40263,7 +40263,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025"
           }
@@ -40305,7 +40305,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
@@ -40346,7 +40346,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
@@ -40380,7 +40380,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/large-green-lentils/p/062356507299"
           }
@@ -40422,7 +40422,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
@@ -40464,7 +40464,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335"
           }
@@ -40506,7 +40506,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/dried-yellow-split-peas/p/059072054046"
           }
@@ -40547,7 +40547,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
@@ -40589,7 +40589,7 @@
             "currency": "CAD",
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
-            "price_observed_at": "2026-08-08T22:47:40Z",
+            "price_observed_at": "2026-08-08T23:23:43Z",
             "price_stale": false,
             "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
@@ -40829,7 +40829,7 @@
       "cost_per_day": 3.0138,
       "cost_per_day_usd": 2.161514738578498,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "055270853221",
@@ -40869,7 +40869,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/mackerel-in-tomato-sauce/p/055270853221"
           }
         },
@@ -40911,7 +40911,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -40952,7 +40952,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -40994,7 +40994,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093"
           }
         },
@@ -41036,7 +41036,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -41077,7 +41077,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -41119,7 +41119,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105"
           }
         },
@@ -41161,7 +41161,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         },
@@ -41203,7 +41203,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
         }
@@ -41442,7 +41442,7 @@
       "cost_per_day": 3.0915,
       "cost_per_day_usd": 2.2172416266226778,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "055300111093",
@@ -41482,7 +41482,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093"
           }
         },
@@ -41524,7 +41524,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/mackerel-in-tomato-sauce/p/055270853221"
           }
         },
@@ -41565,7 +41565,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -41607,7 +41607,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -41649,7 +41649,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -41690,7 +41690,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -41732,7 +41732,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
         },
@@ -41774,7 +41774,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         }
@@ -42013,7 +42013,7 @@
       "cost_per_day": 3.1723,
       "cost_per_day_usd": 2.2751918525424943,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "055300111093",
@@ -42053,7 +42053,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093"
           }
         },
@@ -42094,7 +42094,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -42136,7 +42136,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -42178,7 +42178,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -42220,7 +42220,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         },
@@ -42261,7 +42261,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -42303,7 +42303,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
         },
@@ -42331,7 +42331,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/cholesterol-free-corn-oil/p/688054001794"
           }
         }
@@ -42570,7 +42570,7 @@
       "cost_per_day": 3.1723,
       "cost_per_day_usd": 2.2751918525424943,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "055300111093",
@@ -42610,7 +42610,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093"
           }
         },
@@ -42651,7 +42651,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -42693,7 +42693,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -42735,7 +42735,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -42777,7 +42777,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         },
@@ -42818,7 +42818,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -42860,7 +42860,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
         },
@@ -42888,7 +42888,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/cholesterol-free-corn-oil/p/688054001794"
           }
         }
@@ -43127,7 +43127,7 @@
       "cost_per_day": 3.9449,
       "cost_per_day_usd": 2.829305027612422,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "626027811025",
@@ -43162,7 +43162,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025"
           }
         },
@@ -43204,7 +43204,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -43245,7 +43245,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -43287,7 +43287,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335"
           }
         },
@@ -43321,7 +43321,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/large-green-lentils/p/062356507299"
           }
         },
@@ -43363,7 +43363,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
         },
@@ -43405,7 +43405,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -43446,7 +43446,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -43488,7 +43488,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:49Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/split-green-peas/p/062356506360"
           }
         },
@@ -43530,7 +43530,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         }
@@ -43769,7 +43769,7 @@
       "cost_per_day": 3.0138,
       "cost_per_day_usd": 2.161514738578498,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "055270853221",
@@ -43809,7 +43809,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/mackerel-in-tomato-sauce/p/055270853221"
           }
         },
@@ -43851,7 +43851,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -43892,7 +43892,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -43934,7 +43934,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093"
           }
         },
@@ -43976,7 +43976,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -44017,7 +44017,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -44059,7 +44059,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105"
           }
         },
@@ -44101,7 +44101,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         },
@@ -44143,7 +44143,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
         }
@@ -44382,7 +44382,7 @@
       "cost_per_day": 3.0915,
       "cost_per_day_usd": 2.2172416266226778,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "055300111093",
@@ -44422,7 +44422,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093"
           }
         },
@@ -44464,7 +44464,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/mackerel-in-tomato-sauce/p/055270853221"
           }
         },
@@ -44505,7 +44505,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -44547,7 +44547,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -44589,7 +44589,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -44630,7 +44630,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -44672,7 +44672,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
         },
@@ -44714,7 +44714,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         }
@@ -44953,7 +44953,7 @@
       "cost_per_day": 3.1723,
       "cost_per_day_usd": 2.2751918525424943,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "055300111093",
@@ -44993,7 +44993,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093"
           }
         },
@@ -45034,7 +45034,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -45076,7 +45076,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -45118,7 +45118,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -45160,7 +45160,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         },
@@ -45201,7 +45201,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -45243,7 +45243,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
         },
@@ -45271,7 +45271,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/cholesterol-free-corn-oil/p/688054001794"
           }
         }
@@ -45510,7 +45510,7 @@
       "cost_per_day": 3.1723,
       "cost_per_day_usd": 2.2751918525424943,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "055300111093",
@@ -45550,7 +45550,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093"
           }
         },
@@ -45591,7 +45591,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -45633,7 +45633,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -45675,7 +45675,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -45717,7 +45717,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         },
@@ -45758,7 +45758,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -45800,7 +45800,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036"
           }
         },
@@ -45828,7 +45828,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/cholesterol-free-corn-oil/p/688054001794"
           }
         }
@@ -46067,7 +46067,7 @@
       "cost_per_day": 3.9449,
       "cost_per_day_usd": 2.829305027612422,
       "price_as_of": "2026-08-08",
-      "has_stale_prices": false,
+      "has_stale_prices": true,
       "basket": [
         {
           "sku_id": "626027811025",
@@ -46102,7 +46102,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025"
           }
         },
@@ -46144,7 +46144,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652"
           }
         },
@@ -46185,7 +46185,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806"
           }
         },
@@ -46227,7 +46227,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335"
           }
         },
@@ -46261,7 +46261,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/large-green-lentils/p/062356507299"
           }
         },
@@ -46303,7 +46303,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449"
           }
         },
@@ -46345,7 +46345,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:52Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624"
           }
         },
@@ -46386,7 +46386,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:51Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339"
           }
         },
@@ -46428,7 +46428,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:49Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/split-green-peas/p/062356506360"
           }
         },
@@ -46470,7 +46470,7 @@
             "price_scope": "reference",
             "price_fetched_at": "2026-08-08",
             "price_observed_at": "2026-08-08T22:47:46Z",
-            "price_stale": false,
+            "price_stale": true,
             "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
           }
         }

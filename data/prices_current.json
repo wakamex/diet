@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T22:47:52Z",
+  "updated": "2026-08-08T23:23:47Z",
   "prices": [
     {
       "product_id": "0001111089875",
@@ -2398,7 +2398,7 @@
     {
       "product_id": "353773773",
       "location_id": "3478",
-      "regular": 13.32,
+      "regular": 16.52,
       "promo": null,
       "fetched_at": "2026-08-08"
     },
@@ -2580,7 +2580,7 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/long-grain-white-rice/p/059749902403",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2594,7 +2594,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/large-oats/p/055577101018",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2608,7 +2608,7 @@
       "price_basis": "package",
       "package": "675 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/bread-bakery-products/packaged-bread/whole-wheat-grain/whole-wheat-sliced-bread/p/059749916387",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2622,7 +2622,7 @@
       "price_basis": "package",
       "package": "900 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/fettuccine-pasta/p/059749893084",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2636,7 +2636,7 @@
       "price_basis": "package",
       "package": "2.5 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059749892582",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2650,7 +2650,7 @@
       "price_basis": "package",
       "package": "2.2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/wholegrain-brown-rice/p/058496464684",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2664,7 +2664,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/quinoa-specialty-grains/pearl-barley/p/062356505578",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2678,7 +2678,7 @@
       "price_basis": "package",
       "package": "340 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/toasted-wheat-germ/p/818158012505",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2692,7 +2692,7 @@
       "price_basis": "package",
       "package": "454 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2706,7 +2706,7 @@
       "price_basis": "package",
       "package": "570 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2720,7 +2720,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/large-green-lentils/p/062356507299",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2734,7 +2734,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/chickpeas/p/059749998543",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2748,7 +2748,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2762,7 +2762,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749998574",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2776,7 +2776,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/canned-pinto-bean/p/059749998536",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2790,7 +2790,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/pinto-beans/p/062356510411",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2804,7 +2804,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/dark-red-kidney-beans/p/059749929981",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2818,7 +2818,7 @@
       "price_basis": "package",
       "package": "900 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/dried-yellow-split-peas/p/059072054046",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2832,7 +2832,7 @@
       "price_basis": "package",
       "package": "400 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/extra-firm-plain-tofu/p/059072054343",
-      "observed_at": "2026-08-08T22:47:42Z",
+      "observed_at": "2026-08-08T23:23:44Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2846,7 +2846,7 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/blends-edamame/frozen-shelled-soybeans/p/062356545116",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2860,7 +2860,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2874,7 +2874,7 @@
       "price_basis": "package",
       "package": "453 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/fruit-seeds-nuts/whole-ground-flaxseed-meal/p/039978333308",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2888,7 +2888,7 @@
       "price_basis": "package",
       "package": "300 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/organic-groceries/pantry/organic-nuts-seeds-dried-fruits/whole-black-chia-seeds/p/059749979443",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2902,7 +2902,7 @@
       "price_basis": "package",
       "package": "4 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2916,7 +2916,7 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/yogurt/yogurt-tubs/0-plain-greek-yogurt/p/059749984225",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2930,7 +2930,7 @@
       "price_basis": "package",
       "package": "400 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/packaged-cheese/cheese-blocks/old-cheddar-cheese/p/059749969468",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2944,7 +2944,7 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/canned-powdered-milk/instant-skim-milk-powder/p/059749977951",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2958,7 +2958,7 @@
       "price_basis": "package",
       "package": "18 un",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/059749896078",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2972,7 +2972,7 @@
       "price_basis": "storefront_unit_price",
       "package": "5 breasts per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/breasts/boneless-and-skinless-chicken-breasts/p/206022",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -2986,7 +2986,7 @@
       "price_basis": "storefront_unit_price",
       "package": "1 per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/whole-roasting/fresh-whole-chicken/p/215008",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -3000,7 +3000,7 @@
       "price_basis": "storefront_unit_price",
       "package": "3 to 5 per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/back-attached-chicken-legs-quarters/p/245111",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -3014,7 +3014,7 @@
       "price_basis": "storefront_unit_price",
       "package": "A tray contains on average 450 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/ground/medium-ground-beef/p/201021",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -3028,7 +3028,7 @@
       "price_basis": "storefront_unit_price",
       "package": null,
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/pork/ribs-roasts/pork-shoulder-picnic-roast/p/203003",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -3042,7 +3042,511 @@
       "price_basis": "package",
       "package": "170 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/flaked-light-tuna-in-water/p/059749931915",
-      "observed_at": "2026-08-08T22:47:40Z",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "061362401003",
+      "location_id": "metro-reference",
+      "regular": 7.79,
+      "promo": 7.19,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "213 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/wild-red-pacific-sockeye-salmon/p/061362401003",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "061362442006",
+      "location_id": "metro-reference",
+      "regular": 3.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "142 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/whole-yellow-baby-clams-in-water/p/061362442006",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "226105",
+      "location_id": "metro-reference",
+      "regular": 9.9,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "storefront_unit_price",
+      "package": "1 per tray",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749974721",
+      "location_id": "metro-reference",
+      "regular": 8.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1.25 kg",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-broccoli-florets/p/059749974721",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749973335",
+      "location_id": "metro-reference",
+      "regular": 4.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "500 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749887465",
+      "location_id": "metro-reference",
+      "regular": 1.49,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "398 mL",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/sliced-carrots/p/059749887465",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "4069",
+      "location_id": "metro-reference",
+      "regular": 2.84,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "storefront_unit_price",
+      "package": null,
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/broccoli-cauliflower-cabbage/green-cabbage/p/4069",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749887700",
+      "location_id": "metro-reference",
+      "regular": 1.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "540 mL",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/whole-white-potatoes/p/059749887700",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749893435",
+      "location_id": "metro-reference",
+      "regular": 1.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "796 mL",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/tomatoes-paste/diced-tomatoes/p/059749893435",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749992183",
+      "location_id": "metro-reference",
+      "regular": 6.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "600 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-banana-slices/p/059749992183",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749875950",
+      "location_id": "metro-reference",
+      "regular": 5.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "600 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-summertime-blend-mixed-fruit/p/059749875950",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "067311018339",
+      "location_id": "metro-reference",
+      "regular": 2.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "960 mL",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "041143029435",
+      "location_id": "metro-reference",
+      "regular": 10.49,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "750 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/dried-fruit/natural-california-raisins/p/041143029435",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "025293600713",
+      "location_id": "metro-reference",
+      "regular": 4.5,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1.89 L",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-fortified-soy-beverage/p/025293600713",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "626027087819",
+      "location_id": "metro-reference",
+      "regular": 4.99,
+      "promo": 4.49,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1.75 L",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/unsweetened-original-flavour-organic-almond-beverage/p/626027087819",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "626027811025",
+      "location_id": "metro-reference",
+      "regular": 4.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1.75 L",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749917667",
+      "location_id": "metro-reference",
+      "regular": 11.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1 L",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/059749917667",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749888806",
+      "location_id": "metro-reference",
+      "regular": 10.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "3 L",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749888769",
+      "location_id": "metro-reference",
+      "regular": 10.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "3 L",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749948111",
+      "location_id": "metro-reference",
+      "regular": 1.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "354 mL",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/canned-powdered-milk/evaporated-milk/p/059749948111",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "055270846452",
+      "location_id": "metro-reference",
+      "regular": 4.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "2 kg",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "063100199043",
+      "location_id": "metro-reference",
+      "regular": 7.29,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "454 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/shortening-fats/pure-lard/p/063100199043",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "068932401234",
+      "location_id": "metro-reference",
+      "regular": 5.49,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "675 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/honey-syrup/fancy-molasses/p/068932401234",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749887564",
+      "location_id": "metro-reference",
+      "regular": 1.49,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "341 mL",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/whole-kernel-corn/p/059749887564",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749979078",
+      "location_id": "metro-reference",
+      "regular": 5.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "200 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/unsalted-roasted-pistachios/p/059749979078",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749897921",
+      "location_id": "metro-reference",
+      "regular": 2.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "398 mL",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/pickles-antipasto/pitted-black-olives/p/059749897921",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749963237",
+      "location_id": "metro-reference",
+      "regular": 19.99,
+      "promo": 17.99,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1 kg",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/whole-natural-almonds/p/059749963237",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749963251",
+      "location_id": "metro-reference",
+      "regular": 19.99,
+      "promo": 17.99,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "750 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/nuts-seeds-jerky/halves-and-pieces-of-walnuts/p/059749963251",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749964531",
+      "location_id": "metro-reference",
+      "regular": 9.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "125 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/pine-nuts/p/059749964531",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059000014845",
+      "location_id": "metro-reference",
+      "regular": 5.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1 kg",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/self-raising-cake-and-pastry-flour/p/059000014845",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "037297914475",
+      "location_id": "metro-reference",
+      "regular": 10.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1.8 kg",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/instant-corn-masa-flour/p/037297914475",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749881036",
+      "location_id": "metro-reference",
+      "regular": 2.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1 kg",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "059749887113",
+      "location_id": "metro-reference",
+      "regular": 3.49,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "1 kg",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/kits-mixes-fillings/buttermilk-pancake-and-waffle-mix/p/059749887113",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "068100084665",
+      "location_id": "metro-reference",
+      "regular": 8.49,
+      "promo": 4.99,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "750 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/natural-smooth-peanut-butter/p/068100084665",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "062847210233",
+      "location_id": "metro-reference",
+      "regular": 3.49,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "2 kg",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/sugar-sweeteners/special-fine-granulated-sugar/p/062847210233",
+      "observed_at": "2026-08-08T23:23:43Z",
+      "fetched_at": "2026-08-08",
+      "stale": false
+    },
+    {
+      "product_id": "064642028235",
+      "location_id": "metro-reference",
+      "regular": 19.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "80 un - time-release caplets",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/b-12-vitamin/p/064642028235",
+      "observed_at": "2026-08-08T23:23:43Z",
       "fetched_at": "2026-08-08",
       "stale": false
     },
@@ -3058,343 +3562,8 @@
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/boneless-sardine-fillets-in-olive-oil/p/061362460079",
       "observed_at": "2026-08-08T22:47:44Z",
       "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "061362401003",
-      "location_id": "metro-reference",
-      "regular": 7.79,
-      "promo": 7.19,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "213 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/wild-red-pacific-sockeye-salmon/p/061362401003",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "061362442006",
-      "location_id": "metro-reference",
-      "regular": 3.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "142 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/whole-yellow-baby-clams-in-water/p/061362442006",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "226105",
-      "location_id": "metro-reference",
-      "regular": 9.9,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "storefront_unit_price",
-      "package": "1 per tray",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749974721",
-      "location_id": "metro-reference",
-      "regular": 8.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1.25 kg",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-broccoli-florets/p/059749974721",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749973335",
-      "location_id": "metro-reference",
-      "regular": 4.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "500 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749887465",
-      "location_id": "metro-reference",
-      "regular": 1.49,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "398 mL",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/sliced-carrots/p/059749887465",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "4069",
-      "location_id": "metro-reference",
-      "regular": 2.84,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "storefront_unit_price",
-      "package": null,
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/broccoli-cauliflower-cabbage/green-cabbage/p/4069",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749887700",
-      "location_id": "metro-reference",
-      "regular": 1.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "540 mL",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/whole-white-potatoes/p/059749887700",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749893435",
-      "location_id": "metro-reference",
-      "regular": 1.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "796 mL",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/tomatoes-paste/diced-tomatoes/p/059749893435",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749992183",
-      "location_id": "metro-reference",
-      "regular": 6.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "600 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-banana-slices/p/059749992183",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749875950",
-      "location_id": "metro-reference",
-      "regular": 5.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "600 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-summertime-blend-mixed-fruit/p/059749875950",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "067311018339",
-      "location_id": "metro-reference",
-      "regular": 2.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "960 mL",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "041143029435",
-      "location_id": "metro-reference",
-      "regular": 10.49,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "750 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/dried-fruit/natural-california-raisins/p/041143029435",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "025293600713",
-      "location_id": "metro-reference",
-      "regular": 4.5,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1.89 L",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-fortified-soy-beverage/p/025293600713",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "626027087819",
-      "location_id": "metro-reference",
-      "regular": 4.99,
-      "promo": 4.49,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1.75 L",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/unsweetened-original-flavour-organic-almond-beverage/p/626027087819",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "626027811025",
-      "location_id": "metro-reference",
-      "regular": 4.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1.75 L",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749917667",
-      "location_id": "metro-reference",
-      "regular": 11.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1 L",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/059749917667",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749888806",
-      "location_id": "metro-reference",
-      "regular": 10.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "3 L",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749888769",
-      "location_id": "metro-reference",
-      "regular": 10.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "3 L",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749948111",
-      "location_id": "metro-reference",
-      "regular": 1.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "354 mL",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/canned-powdered-milk/evaporated-milk/p/059749948111",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "055270846452",
-      "location_id": "metro-reference",
-      "regular": 4.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "2 kg",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "063100199043",
-      "location_id": "metro-reference",
-      "regular": 7.29,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "454 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/shortening-fats/pure-lard/p/063100199043",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "068932401234",
-      "location_id": "metro-reference",
-      "regular": 5.49,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "675 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/honey-syrup/fancy-molasses/p/068932401234",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749887564",
-      "location_id": "metro-reference",
-      "regular": 1.49,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "341 mL",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/whole-kernel-corn/p/059749887564",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "064777115497",
@@ -3408,63 +3577,8 @@
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/raw-cashews/p/064777115497",
       "observed_at": "2026-08-08T22:47:45Z",
       "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749979078",
-      "location_id": "metro-reference",
-      "regular": 5.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "200 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/unsalted-roasted-pistachios/p/059749979078",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749897921",
-      "location_id": "metro-reference",
-      "regular": 2.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "398 mL",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/pickles-antipasto/pitted-black-olives/p/059749897921",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749963237",
-      "location_id": "metro-reference",
-      "regular": 19.99,
-      "promo": 17.99,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1 kg",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/whole-natural-almonds/p/059749963237",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749963251",
-      "location_id": "metro-reference",
-      "regular": 19.99,
-      "promo": 17.99,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "750 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/nuts-seeds-jerky/halves-and-pieces-of-walnuts/p/059749963251",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749979122",
@@ -3478,77 +3592,8 @@
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/pecan-halves/p/059749979122",
       "observed_at": "2026-08-08T22:47:45Z",
       "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749964531",
-      "location_id": "metro-reference",
-      "regular": 9.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "125 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/pine-nuts/p/059749964531",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059000014845",
-      "location_id": "metro-reference",
-      "regular": 5.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1 kg",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/self-raising-cake-and-pastry-flour/p/059000014845",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "037297914475",
-      "location_id": "metro-reference",
-      "regular": 10.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1.8 kg",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/instant-corn-masa-flour/p/037297914475",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749881036",
-      "location_id": "metro-reference",
-      "regular": 2.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1 kg",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "059749887113",
-      "location_id": "metro-reference",
-      "regular": 3.49,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "1 kg",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/kits-mixes-fillings/buttermilk-pancake-and-waffle-mix/p/059749887113",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059072054084",
@@ -3562,49 +3607,8 @@
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/white-navy-beans/p/059072054084",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "068100084665",
-      "location_id": "metro-reference",
-      "regular": 8.49,
-      "promo": 4.99,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "750 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/natural-smooth-peanut-butter/p/068100084665",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "062847210233",
-      "location_id": "metro-reference",
-      "regular": 3.49,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "2 kg",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/sugar-sweeteners/special-fine-granulated-sugar/p/062847210233",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
-    },
-    {
-      "product_id": "064642028235",
-      "location_id": "metro-reference",
-      "regular": 19.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "80 un - time-release caplets",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/b-12-vitamin/p/064642028235",
-      "observed_at": "2026-08-08T22:47:40Z",
-      "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749902403",
@@ -3618,7 +3622,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/rice/long-grain-white-rice/p/059749902403",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "770795131257",
@@ -3632,7 +3637,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/rolled-oats/p/770795131257",
       "observed_at": "2026-08-08T22:47:48Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749916387",
@@ -3646,7 +3652,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/bread-bakery-products/packaged-bread/whole-wheat-grain/whole-wheat-sliced-bread/p/059749916387",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749893084",
@@ -3660,7 +3667,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/fettuccine-pasta/p/059749893084",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749892582",
@@ -3674,7 +3682,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059749892582",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "058496464684",
@@ -3688,7 +3697,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/rice/wholegrain-brown-rice/p/058496464684",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "062356505578",
@@ -3702,7 +3712,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/quinoa-specialty-grains/pearl-barley/p/062356505578",
       "observed_at": "2026-08-08T22:47:48Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "818158012505",
@@ -3716,7 +3727,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/toasted-wheat-germ/p/818158012505",
       "observed_at": "2026-08-08T22:47:49Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749887199",
@@ -3730,7 +3742,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "065633134652",
@@ -3744,7 +3757,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "062356507299",
@@ -3758,7 +3772,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/large-green-lentils/p/062356507299",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749998543",
@@ -3772,7 +3787,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/chickpea/p/059749998543",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "062356506513",
@@ -3786,7 +3802,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749998574",
@@ -3800,7 +3817,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749998574",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749998536",
@@ -3814,7 +3832,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/canned-pinto-bean/p/059749998536",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "062356510411",
@@ -3828,7 +3847,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/pinto-beans/p/062356510411",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749929981",
@@ -3842,7 +3862,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/dark-red-kidney-beans/p/059749929981",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "062356506360",
@@ -3856,7 +3877,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/split-green-peas/p/062356506360",
       "observed_at": "2026-08-08T22:47:49Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "057864001445",
@@ -3870,7 +3892,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/firm-tofu/p/057864001445",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "062356545116",
@@ -3884,7 +3907,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/blends-edamame/frozen-shelled-soybeans/p/062356545116",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749894449",
@@ -3898,7 +3922,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "039978333308",
@@ -3912,7 +3937,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/fruit-seeds-nuts/whole-ground-flaxseed-meal/p/039978333308",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749979443",
@@ -3926,7 +3952,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/organic-groceries/pantry/organic-nuts-seeds-dried-fruits/whole-black-chia-seeds/p/059749979443",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "055300111093",
@@ -3940,7 +3967,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749984225",
@@ -3954,7 +3982,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/yogurt/yogurt-tubs/0-plain-greek-yogurt/p/059749984225",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749969468",
@@ -3968,7 +3997,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/packaged-cheese/cheese-blocks/old-cheddar-cheese/p/059749969468",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749977951",
@@ -3982,7 +4012,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/canned-powdered-milk/instant-skim-milk-powder/p/059749977951",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749896078",
@@ -3996,7 +4027,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/059749896078",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "234960",
@@ -4010,7 +4042,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/breasts/boneless-and-skinless-chicken-breast/p/234960",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "222236",
@@ -4024,7 +4057,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/whole-roasting/whole-chicken/p/222236",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "215800",
@@ -4038,7 +4072,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/halal-chicken-leg-quarters/p/215800",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "201021",
@@ -4052,7 +4087,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/beef-veal/ground/medium-ground-beef/p/201021",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "203003",
@@ -4066,7 +4102,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/pork/ribs-roasts/pork-shoulder-picnic-roast/p/203003",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749931915",
@@ -4080,7 +4117,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/flaked-light-tuna-in-water/p/059749931915",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "062273551900",
@@ -4094,7 +4132,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/sardines-in-vegetable-olive-oil/p/062273551900",
       "observed_at": "2026-08-08T22:47:50Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "061362401003",
@@ -4108,7 +4147,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/wild-red-pacific-sockeye-salmon/p/061362401003",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "055270853221",
@@ -4122,7 +4162,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/mackerel-in-tomato-sauce/p/055270853221",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "226105",
@@ -4136,7 +4177,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749974721",
@@ -4150,7 +4192,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/vegetables/frozen-broccoli-florets/p/059749974721",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749973335",
@@ -4164,7 +4207,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749887465",
@@ -4178,7 +4222,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/vegetables/sliced-carrots/p/059749887465",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "4069",
@@ -4192,7 +4237,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/fruits-vegetables/vegetables/broccoli-cauliflower-cabbage/green-cabbage/p/4069",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749887700",
@@ -4206,7 +4252,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/vegetables/whole-white-potatoes/p/059749887700",
       "observed_at": "2026-08-08T22:47:50Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749893435",
@@ -4220,7 +4267,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/tomatoes-paste/diced-tomatoes/p/059749893435",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749992183",
@@ -4234,7 +4282,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/fruit/frozen-banana-slices/p/059749992183",
       "observed_at": "2026-08-08T22:47:50Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749875950",
@@ -4248,7 +4297,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/fruit/frozen-summertime-blend-mixed-fruit/p/059749875950",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "067311018339",
@@ -4262,7 +4312,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339",
       "observed_at": "2026-08-08T22:47:51Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "041143029435",
@@ -4276,7 +4327,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/dried-fruit/natural-california-raisins/p/041143029435",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "025293600713",
@@ -4290,7 +4342,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-fortified-soy-beverage/p/025293600713",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "626027087819",
@@ -4304,7 +4357,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/unsweetened-original-flavour-organic-almond-beverage/p/626027087819",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "626027811025",
@@ -4318,7 +4372,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749917667",
@@ -4332,7 +4387,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/059749917667",
       "observed_at": "2026-08-08T22:47:51Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749888806",
@@ -4346,7 +4402,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749888769",
@@ -4360,7 +4417,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749948111",
@@ -4374,7 +4432,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/canned-powdered-milk/evaporated-milk/p/059749948111",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "055270846452",
@@ -4388,7 +4447,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "063100199043",
@@ -4402,7 +4462,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/shortening-fats/pure-lard/p/063100199043",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "068932401234",
@@ -4416,7 +4477,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/honey-syrup/fancy-molasses/p/068932401234",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749887564",
@@ -4430,7 +4492,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/vegetables/whole-kernel-corn/p/059749887564",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059072050130",
@@ -4444,7 +4507,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/snacks/whole-raw-cashew-nuts/p/059072050130",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749979078",
@@ -4458,7 +4522,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/nuts-seeds/unsalted-roasted-pistachios/p/059749979078",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749897921",
@@ -4472,7 +4537,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/pickles-antipasto/pitted-black-olives/p/059749897921",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749963237",
@@ -4486,7 +4552,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/nuts-seeds/whole-natural-almonds/p/059749963237",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749963251",
@@ -4500,7 +4567,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/nuts-seeds-jerky/halves-and-pieces-of-walnuts/p/059749963251",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749903363",
@@ -4514,7 +4582,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/fruit-seeds-nuts/pecan-pieces/p/059749903363",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749950749",
@@ -4528,7 +4597,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/fruit-seeds-nuts/pine-nuts/p/059749950749",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059000014845",
@@ -4542,7 +4612,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/self-raising-cake-and-pastry-flour/p/059000014845",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "037297914475",
@@ -4556,7 +4627,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/instant-corn-masa-flour/p/037297914475",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749881036",
@@ -4570,7 +4642,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059749887113",
@@ -4584,7 +4657,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/kits-mixes-fillings/buttermilk-pancake-and-waffle-mix/p/059749887113",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "062781068624",
@@ -4598,7 +4672,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624",
       "observed_at": "2026-08-08T22:47:52Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "059072054084",
@@ -4612,7 +4687,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/white-navy-beans/p/059072054084",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "068100084665",
@@ -4626,7 +4702,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/natural-smooth-peanut-butter/p/068100084665",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "688054001794",
@@ -4640,7 +4717,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/cholesterol-free-corn-oil/p/688054001794",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "062847210233",
@@ -4654,7 +4732,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/sugar-sweeteners/special-fine-granulated-sugar/p/062847210233",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     },
     {
       "product_id": "064642028235",
@@ -4668,7 +4747,8 @@
       "source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/b-12-vitamin/p/064642028235",
       "observed_at": "2026-08-08T22:47:46Z",
       "fetched_at": "2026-08-08",
-      "stale": false
+      "stale": true,
+      "retained_at": "2026-08-08T23:23:47Z"
     }
   ],
   "missing": [
@@ -4845,10 +4925,490 @@
       "name": "Kroger No Salt Added Sliced Carrots - 8.25oz can",
       "location_id": "03400017",
       "reason": "no price"
+    },
+    {
+      "product_id": "061362460079",
+      "name": "Clover Leaf Boneless Sardine Fillets in Olive Oil",
+      "location_id": "metro-reference",
+      "reason": "not returned"
+    },
+    {
+      "product_id": "064777115497",
+      "name": "Johnvince Raw Cashews",
+      "location_id": "metro-reference",
+      "reason": "not returned"
+    },
+    {
+      "product_id": "059749979122",
+      "name": "Selection Pecan Halves",
+      "location_id": "metro-reference",
+      "reason": "not returned"
+    },
+    {
+      "product_id": "059072054084",
+      "name": "Life Smart White Navy Beans",
+      "location_id": "metro-reference",
+      "reason": "not returned"
+    },
+    {
+      "product_id": "059749902403",
+      "name": "Selection Long Grain White Rice",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "770795131257",
+      "name": "Dan-D-Pak Rolled Oats",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749916387",
+      "name": "Selection Whole Wheat Sliced Bread",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749893084",
+      "name": "Selection Fettuccine Pasta",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749892582",
+      "name": "Selection All-Purpose Flour",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "058496464684",
+      "name": "Ben's Original Wholegrain Brown Rice",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "062356505578",
+      "name": "Cedar Phoenicia Pearl Barley",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "818158012505",
+      "name": "Kretschmer Toasted Wheat Germ",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749887199",
+      "name": "Selection Corn Starch",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "065633134652",
+      "name": "Cheerios Oats Cereal Value Pack",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "062356507299",
+      "name": "Cedar Phoenicia Large Green Lentils",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749998543",
+      "name": "Life Smart Chickpeas",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "062356506513",
+      "name": "Cedar Phoenicia Black Turtle Beans",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749998574",
+      "name": "Life Smart Black Beans",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749998536",
+      "name": "Selection Canned Pinto Beans",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "062356510411",
+      "name": "Cedar Phoenicia Pinto Beans",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749929981",
+      "name": "Selection Dark Red Kidney Beans",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "062356506360",
+      "name": "Cedar Phoenicia Split Green Peas",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "057864001445",
+      "name": "Sunrise Soya Foods Firm Tofu",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "062356545116",
+      "name": "Cedar Phoenicia Frozen Shelled Soybeans",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749894449",
+      "name": "Selection Smooth Peanut Butter",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "039978333308",
+      "name": "Bob's Red Mill Whole Ground Flaxseed Meal",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749979443",
+      "name": "Life Smart Whole Black Chia Seeds",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "055300111093",
+      "name": "Beatrice 1% Milk",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749984225",
+      "name": "Irr\u00e9sistible 0% Plain Greek Yogurt",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749969468",
+      "name": "Selection Old Cheddar Cheese",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749977951",
+      "name": "Life Smart Instant Skim Milk Powder",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749896078",
+      "name": "Selection Large Eggs",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "234960",
+      "name": "Boneless and Skinless Chicken Breast",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "222236",
+      "name": "Maple Lodge Whole Chicken",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "215800",
+      "name": "Halal Chicken Leg Quarters",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "201021",
+      "name": "Medium Ground Beef",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "203003",
+      "name": "Pork Shoulder Picnic Roast Value Pack",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749931915",
+      "name": "Selection Flaked Light Tuna in Water",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "062273551900",
+      "name": "Sabor Do Mar Sardines in Vegetable Olive Oil",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "061362401003",
+      "name": "Clover Leaf Wild Red Pacific Sockeye Salmon",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "055270853221",
+      "name": "Grace Mackerel in Tomato Sauce",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "226105",
+      "name": "Chicken Livers",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749974721",
+      "name": "Selection Frozen Broccoli Florets Value Pack",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749973335",
+      "name": "Selection Frozen Chopped Spinach",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749887465",
+      "name": "Selection Sliced Carrots",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "4069",
+      "name": "Green Cabbage",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749887700",
+      "name": "Selection Whole White Potatoes",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749893435",
+      "name": "Selection Diced Tomatoes",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749992183",
+      "name": "Life Smart Frozen Banana Slices",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749875950",
+      "name": "Irr\u00e9sistible Frozen Summertime Blend Mixed Fruit",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "067311018339",
+      "name": "Oasis Pure Breakfast Orange Juice",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "041143029435",
+      "name": "Sun-Maid Natural California Raisins",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "025293600713",
+      "name": "Silk Organic Fortified Soy Beverage",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "626027087819",
+      "name": "Earth's Own Unsweetened Organic Almond Beverage",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "626027811025",
+      "name": "Earth's Own Original Oat Beverage",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749917667",
+      "name": "Selection Extra Virgin Olive Oil",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749888806",
+      "name": "Selection Vegetable Oil Value Pack",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749888769",
+      "name": "Selection Canola Oil Value Pack",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749948111",
+      "name": "Selection Evaporated Milk",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "055270846452",
+      "name": "Grace Corn Meal",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "063100199043",
+      "name": "Tenderflake Pure Lard",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "068932401234",
+      "name": "Grandma Fancy Molasses",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749887564",
+      "name": "Selection Whole Kernel Corn",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059072050130",
+      "name": "Selection Whole Raw Cashew Nuts",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749979078",
+      "name": "Irr\u00e9sistible Unsalted Roasted Pistachios",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749897921",
+      "name": "Selection Pitted Black Olives",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749963237",
+      "name": "Irr\u00e9sistible Whole Natural Almonds Value Pack",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749963251",
+      "name": "Irr\u00e9sistible Walnut Halves and Pieces Value Pack",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749903363",
+      "name": "Selection Pecan Pieces",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749950749",
+      "name": "Selection Pine Nuts",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059000014845",
+      "name": "Brodie Self-Raising Cake and Pastry Flour",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "037297914475",
+      "name": "Maseca Instant Corn Masa Flour",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749881036",
+      "name": "Selection Popcorn Kernels",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059749887113",
+      "name": "Selection Buttermilk Pancake and Waffle Mix",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "062781068624",
+      "name": "Divya Dry Kidney Beans",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "059072054084",
+      "name": "Life Smart White Navy Beans",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "068100084665",
+      "name": "Kraft Natural Smooth Peanut Butter Only Peanuts",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "688054001794",
+      "name": "Saporito Corn Oil",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "062847210233",
+      "name": "Redpath Special Fine Granulated Sugar",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
+    },
+    {
+      "product_id": "064642028235",
+      "name": "Jamieson Vitamin B12 1,000 mcg Time-Release Caplets",
+      "location_id": "foodbasics-reference",
+      "reason": "reference request failed: foodbasics reference request failed: HTTP Error 403: Forbidden"
     }
   ],
   "fx": {
-    "updated": "2026-08-08T22:47:52Z",
+    "updated": "2026-08-08T23:23:47Z",
     "rates": {
       "USD": {
         "currency": "USD",
@@ -4861,7 +5421,7 @@
         "currency": "CAD",
         "to_usd": 0.7172057663343613,
         "as_of": "2026-08-07",
-        "observed_at": "2026-08-08T22:47:52Z",
+        "observed_at": "2026-08-08T23:23:47Z",
         "source": "bank_of_canada_valet",
         "source_url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1"
       }
