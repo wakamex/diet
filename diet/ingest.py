@@ -1,9 +1,8 @@
-"""Daily ingest: refresh prices for every (sku × location), write prices_current.json.
+"""Daily ingest: refresh prices for every (SKU × location), write current data.
 
 Routes each SKU to its source's API (Kroger Products API or Walmart.io Affiliate
-Product Details) based on the SkuSpec.source field. Walmart Affiliate only has
-national pricing, so the single `walmart_national` location pulls one price per
-Walmart SKU.
+Product Details, or the Metro Inc. reference catalog) based on the
+``SkuSpec.source`` field.
 """
 
 from __future__ import annotations
@@ -19,15 +18,23 @@ from diet.nutrition import (
     load_sku_nutrients,
 )
 from diet.sources import fdc as fdc_mod
+from diet.sources.bank_of_canada import BankOfCanadaClient, BankOfCanadaError
 from diet.sources.kroger import KrogerClient, extract_price
+from diet.sources.metro_reference import (
+    MetroReferenceClient,
+    MetroReferenceError,
+    MetroReferenceQuote,
+)
 from diet.sources.walmart import WalmartClient
 from diet.supplements import as_sku_specs, load_supplements
-from diet.util import write_json_atomic
+from diet.util import read_json, write_json_atomic
 
 DEFAULT_RAW_ROOT = Path("data/raw/kroger")
 DEFAULT_WALMART_RAW_ROOT = Path("data/raw/walmart")
+DEFAULT_METRO_RAW_ROOT = Path("data/raw/metro_reference")
 DEFAULT_OUT_PATH = Path("data/prices_current.json")
 DEFAULT_NUTRIENTS_OUT_PATH = Path("data/nutrients_current.json")
+DEFAULT_FX_OUT_PATH = Path("data/fx_current.json")
 DEFAULT_FDC_CACHE = Path("data/raw/fdc")
 KROGER_BATCH_SIZE = 50
 
@@ -220,17 +227,197 @@ def _ingest_walmart(
     return rows, missing, nutrient_rows, warnings
 
 
+def _weighted_reference_price(
+    sku: SkuSpec, quote: MetroReferenceQuote
+) -> tuple[float, float | None] | None:
+    """Return a synthetic unit-price package matching the curated gram basis."""
+    if (
+        quote.unit_price_cad is None
+        or quote.unit_quantity is None
+        or quote.unit_measure is None
+    ):
+        return None
+    if quote.unit_measure == "g":
+        basis_g = quote.unit_quantity
+    elif quote.unit_measure == "kg":
+        basis_g = quote.unit_quantity * 1000
+    else:
+        return None
+    if abs(basis_g - sku.unit_grams) > max(0.1, basis_g * 0.001):
+        return None
+    return quote.unit_price_cad, None
+
+
+def _ingest_metro_reference(
+    skus: list[SkuSpec],
+    location: Location,
+    client: MetroReferenceClient,
+    today: str,
+    raw_root: Path,
+) -> tuple[list[dict], list[dict]]:
+    """Batch exact curated UPCs from one unlocalized Metro Inc. catalog."""
+    try:
+        result = client.quote_products([sku.product_id for sku in skus])
+    except MetroReferenceError as exc:
+        return [], [{
+            "product_id": sku.product_id,
+            "name": sku.name,
+            "location_id": location.location_id,
+            "reason": f"reference request failed: {exc}",
+        } for sku in skus]
+
+    quotes = {quote.product_id: quote for quote in result.quotes}
+    fallback_searches: list[dict] = []
+    for sku in skus:
+        if sku.product_id in quotes or not sku.search_query:
+            continue
+        try:
+            search = client.search_products(sku.search_query)
+        except MetroReferenceError:
+            continue
+        fallback_searches.append(search.as_dict())
+        exact = next(
+            (quote for quote in search.quotes if quote.product_id == sku.product_id),
+            None,
+        )
+        if exact is not None:
+            quotes[sku.product_id] = exact
+    raw_payload = result.as_dict()
+    raw_payload["search_fallbacks"] = fallback_searches
+    write_json_atomic(
+        raw_root / today / f"{location.source}.json", raw_payload
+    )
+    rows: list[dict] = []
+    missing: list[dict] = []
+    for sku in skus:
+        quote = quotes.get(sku.product_id)
+        reason = None
+        if quote is None:
+            reason = "not returned"
+        elif sku.package_label and quote.package != sku.package_label:
+            reason = (
+                f"package changed: expected {sku.package_label!r}, "
+                f"received {quote.package!r}"
+            )
+        if reason:
+            missing.append({
+                "product_id": sku.product_id,
+                "name": sku.name,
+                "location_id": location.location_id,
+                "reason": reason,
+            })
+            continue
+
+        if quote.is_weighted:
+            prices = _weighted_reference_price(sku, quote)
+            if prices is None:
+                missing.append({
+                    "product_id": sku.product_id,
+                    "name": sku.name,
+                    "location_id": location.location_id,
+                    "reason": "weighted item has no matching unit-price gram basis",
+                })
+                continue
+            regular, promo = prices
+            price_basis = "storefront_unit_price"
+        else:
+            regular = quote.regular_price_cad or quote.effective_price_cad
+            promo = quote.promo_price_cad
+            price_basis = "package"
+        rows.append({
+            "product_id": sku.product_id,
+            "location_id": location.location_id,
+            "regular": regular,
+            "promo": promo,
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_basis": price_basis,
+            "package": quote.package,
+            "source_url": quote.source_url,
+            "observed_at": quote.observed_at,
+            "fetched_at": today,
+            "stale": False,
+        })
+    return rows, missing
+
+
+def _retain_reference_prices(
+    rows: list[dict],
+    previous_rows: list[dict],
+    *,
+    skus: list[SkuSpec],
+    locations: list[Location],
+    retained_at: str,
+) -> list[dict]:
+    """Keep the last good Canadian quote when today's exact lookup misses."""
+    reference_locations = {
+        location.location_id: location.source
+        for location in locations
+        if location.price_scope == "reference"
+    }
+    valid = {
+        (sku.product_id, location_id)
+        for location_id, source in reference_locations.items()
+        for sku in skus
+        if sku.source == source
+    }
+    fresh = {(row["product_id"], row["location_id"]) for row in rows}
+    retained: list[dict] = []
+    for row in previous_rows:
+        key = (row.get("product_id"), row.get("location_id"))
+        if key not in valid or key in fresh:
+            continue
+        retained.append({
+            **row,
+            "stale": True,
+            "retained_at": retained_at,
+        })
+    return rows + retained
+
+
+def _refresh_fx(
+    client: BankOfCanadaClient,
+    path: Path,
+    updated: str,
+) -> tuple[dict | None, str | None]:
+    try:
+        cad = client.cad_to_usd()
+    except BankOfCanadaError as exc:
+        if path.exists():
+            return read_json(path), str(exc)
+        return None, str(exc)
+    payload = {
+        "updated": updated,
+        "rates": {
+            "USD": {
+                "currency": "USD",
+                "to_usd": 1.0,
+                "as_of": cad.as_of,
+                "source": cad.source,
+                "source_url": cad.source_url,
+            },
+            "CAD": cad.as_dict(),
+        },
+    }
+    write_json_atomic(path, payload)
+    return payload, None
+
+
 def ingest(
     *,
     skus: list[SkuSpec] | None = None,
     locations: list[Location] | None = None,
     kroger_client: KrogerClient | None = None,
     walmart_client: WalmartClient | None = None,
+    metro_clients: dict[str, MetroReferenceClient] | None = None,
+    fx_client: BankOfCanadaClient | None = None,
     raw_root: Path = DEFAULT_RAW_ROOT,
     walmart_raw_root: Path = DEFAULT_WALMART_RAW_ROOT,
+    metro_raw_root: Path = DEFAULT_METRO_RAW_ROOT,
     fdc_cache: Path = DEFAULT_FDC_CACHE,
     out_path: Path = DEFAULT_OUT_PATH,
     nutrients_out_path: Path = DEFAULT_NUTRIENTS_OUT_PATH,
+    fx_out_path: Path = DEFAULT_FX_OUT_PATH,
 ) -> dict:
     skus = skus or load_all_skus()
     locations = locations or load_locations()
@@ -243,6 +430,7 @@ def ingest(
     walmart_skus = [s for s in skus if s.source == "walmart"]
     kroger_locs = [l for l in locations if l.source == "kroger"]
     walmart_locs = [l for l in locations if l.source == "walmart"]
+    reference_locs = [l for l in locations if l.source in {"metro", "foodbasics"}]
 
     rows: list[dict] = []
     missing: list[dict] = []
@@ -263,11 +451,41 @@ def ingest(
         )
         rows += r; missing += m; nutrient_rows += n; nutrient_warnings += w
 
+    metro_clients = metro_clients or {}
+    for loc in reference_locs:
+        retailer_skus = [sku for sku in skus if sku.source == loc.source]
+        if not retailer_skus:
+            continue
+        client = metro_clients.get(loc.source) or MetroReferenceClient(loc.source)
+        r, m = _ingest_metro_reference(
+            retailer_skus, loc, client, today, metro_raw_root
+        )
+        rows += r
+        missing += m
+
+    updated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    previous_rows = []
+    if out_path.exists():
+        previous_rows = (read_json(out_path).get("prices") or [])
+    rows = _retain_reference_prices(
+        rows,
+        previous_rows,
+        skus=skus,
+        locations=locations,
+        retained_at=updated,
+    )
     payload = {
-        "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "updated": updated,
         "prices": rows,
         "missing": missing,
     }
+    if any(location.currency == "CAD" for location in locations):
+        fx, fx_warning = _refresh_fx(
+            fx_client or BankOfCanadaClient(), fx_out_path, updated
+        )
+        payload["fx"] = fx
+        if fx_warning:
+            payload["fx_warning"] = fx_warning
     write_json_atomic(out_path, payload)
     # Nutrition changes much less often than price and a product API can be
     # transiently unavailable. Retain the last exact-SKU snapshot for still-

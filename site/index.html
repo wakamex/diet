@@ -255,7 +255,7 @@
 <body>
     <p class="back"><a href="/">&larr; Back</a></p>
     <h1>Stigler 2026</h1>
-    <p class="tagline">The cheapest shoppable basket at Kroger that hits your daily nutrient targets — by diet mode and region.</p>
+    <p class="tagline">The cheapest current retailer basket that hits your daily nutrient targets — by diet mode and market.</p>
 
     <div class="pillrow-label">Diet</div>
     <div class="pillrow" id="modes" role="tablist"></div>
@@ -271,8 +271,8 @@
     <div class="summary" id="summary">
         <div class="item"><div class="label">Daily cost</div><div class="value" id="cost">—</div><div class="meta" id="cost-delta"></div></div>
         <div class="item"><div class="label">Items</div><div class="value" id="food-count">—</div></div>
-        <div class="item"><div class="label">Store</div><div class="value" id="store">—</div></div>
-        <div class="item"><div class="label">Updated</div><div class="value" id="updated">—</div></div>
+        <div class="item"><div class="label">Source</div><div class="value" id="store">—</div></div>
+        <div class="item"><div class="label">Price date</div><div class="value" id="updated">—</div></div>
     </div>
 
     <h2>Basket</h2>
@@ -280,7 +280,7 @@
 
     <h2>Nutrients</h2>
     <p class="section-note" style="color:#8a7d6a; font-size:0.82rem; margin-bottom: 4px;">
-        <span style="color:#ff9800; font-weight: 700;">Orange</span> rows are binding constraints — the marginal $/unit-of-nutrient at the optimum is the shadow price.
+        <span style="color:#ff9800; font-weight: 700;">Orange</span> rows are binding constraints — the marginal cost per unit of nutrient at the optimum is the shadow price.
     </p>
     <div id="nutrients"></div>
 
@@ -303,8 +303,8 @@
         <table style="font-size:0.85rem;">
             <thead><tr><th>Dimension</th><th>Literature standard</th><th>This pipeline</th></tr></thead>
             <tbody>
-                <tr><td class="name">Prices</td><td>National averages, BLS APR, static</td><td><b>Per-store live</b> via Kroger (3 stores) + Walmart (national)</td></tr>
-                <tr><td class="name">Food representation</td><td>Abstracted food categories</td><td><b>Real shoppable SKUs</b> (Kroger + Walmart product IDs)</td></tr>
+                <tr><td class="name">Prices</td><td>National averages, BLS APR, static</td><td><b>Current retailer quotes</b> via Kroger, Walmart, Metro Reference, and Food Basics Reference</td></tr>
+                <tr><td class="name">Food representation</td><td>Abstracted food categories</td><td><b>Real shoppable SKUs</b> with retailer product IDs and explicit reviewed misses</td></tr>
                 <tr><td class="name">Dietary modes</td><td>Single-mode</td><td><b>5 modes</b> in one solve (omnivore → vegan)</td></tr>
                 <tr><td class="name">Supplements</td><td>Out of scope</td><td><b>Toggleable variant</b> showing supplement arbitrage</td></tr>
                 <tr><td class="name">Infeasibility</td><td>Bare "infeasible"</td><td><b>Phase-1 LP diagnostic</b> naming blocking nutrients</td></tr>
@@ -336,10 +336,10 @@
     <div id="catalog" class="loading">Loading…</div>
 
     <div class="footer">
-        <p>Linear program: minimize daily $ subject to RDAs/ULs (NIH ODS, adult M 31–50), supplement dosage caps, and dietary-mode exclusions. Solved with HiGHS via <code>scipy.optimize.linprog</code>.</p>
-        <p>Prices: <a href="https://developer.kroger.com/">Kroger Public Products API</a> and Walmart product feeds at the listed stores and markets. Nutrients: <a href="https://fdc.nal.usda.gov/">USDA FoodData Central</a>. Targets: <a href="https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx">NIH ODS DRIs</a>.</p>
-        <p>Limits: Prices and availability vary by store, and promotions may require membership. The model uses one adult profile and ignores cooking, waste, bioavailability, and palatability. Foods have no serving caps.</p>
-        <p>The <b>food + pills</b> variant adds multivitamin, B12, calcium+D3, and flaxseed-oil supplements priced through the same retailer feeds. Nutrients come from each Supplement Facts label. The cost delta between variants is the supplement arbitrage — typically $1–2/day.</p>
+        <p>Linear program: minimize daily cost in each market's native currency subject to RDAs/ULs (NIH ODS, adult M 31–50), supplement dosage caps, and dietary-mode exclusions. Solved with HiGHS via <code>scipy.optimize.linprog</code>.</p>
+        <p>Prices: <a href="https://developer.kroger.com/">Kroger Public Products API</a>, Walmart product feeds, and the Metro Inc. storefront reference catalogs. CAD→USD comparisons use the <a href="https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1">Bank of Canada daily rate</a>. Nutrients: <a href="https://fdc.nal.usda.gov/">USDA FoodData Central</a>. Targets: <a href="https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx">NIH ODS DRIs</a>.</p>
+        <p>Limits: Metro Reference and Food Basics Reference are unlocalized online-catalog prices, not chain-wide minima or Ottawa-store quotes, and do not prove availability. Prices and promotions vary. The model uses one adult profile and ignores cooking, waste, bioavailability, and palatability. Foods have no serving caps.</p>
+        <p>The <b>food + pills</b> variant adds only the supplements curated and currently priced by that retailer. Nutrients come from each Supplement Facts label; Canadian ALA is currently food-sourced from flax and chia.</p>
         <p><a href="https://github.com/wakamex/diet">Source code</a></p>
     </div>
 
@@ -355,17 +355,23 @@
 
         let DATA = null;
 
-        function fmtMoney(n) { return '$' + Number(n).toFixed(2); }
+        function currencySymbol(currency) {
+            return currency === 'CAD' ? 'CA$' : 'US$';
+        }
+        function fmtMoney(n, currency='USD') {
+            return currencySymbol(currency) + Number(n).toFixed(2);
+        }
         function fmtGrams(g) { return Math.round(g) + ' g'; }
         function fmtNumber(n, digits) {
             if (n === null || n === undefined) return '—';
             return Number(n).toFixed(digits ?? 1);
         }
-        function fmtShadow(s, unit) {
+        function fmtShadow(s, unit, currency='USD') {
             if (s === null || s === undefined || s === 0) return '—';
             const abs = Math.abs(s);
-            if (abs < 0.001) return '$' + s.toExponential(2) + '/' + unit;
-            return '$' + abs.toFixed(4) + '/' + unit;
+            const symbol = currencySymbol(currency);
+            if (abs < 0.001) return symbol + s.toExponential(2) + '/' + unit;
+            return symbol + abs.toFixed(4) + '/' + unit;
         }
         function fmtUpdated(iso) {
             const d = new Date(iso);
@@ -393,7 +399,11 @@
         }
 
         function renderLocationPills(regions, currentRegion) {
-            buildPills('locations', regions, currentRegion, r => r, r => r,
+            const labels = Object.fromEntries((DATA.locations || []).map(l => [
+                l.region,
+                l.region.replaceAll('_', ' '),
+            ]));
+            buildPills('locations', regions, currentRegion, r => r, r => labels[r] || r,
                        k => { STATE.region = k; render(); });
         }
 
@@ -434,7 +444,7 @@
                     }).join('');
                     detail = `Blocking nutrients:<ul style="margin: 6px 0 0 20px; padding: 0;">${rows}</ul>`;
                 }
-                host.innerHTML = `<div class="banner error"><b>No feasible ${MODE_LABELS[sol.mode]} diet at ${sol.location_region}</b> from Kroger SKUs priced today.<br>${detail}</div>`;
+                host.innerHTML = `<div class="banner error"><b>No feasible ${MODE_LABELS[sol.mode]} diet at ${sol.location_region}</b> from the currently priced curated SKUs.<br>${detail}</div>`;
             } else if (sol.status !== 'optimal') {
                 host.innerHTML = `<div class="banner">Solver returned <b>${sol.status}</b>: ${sol.message || ''}</div>`;
             }
@@ -442,12 +452,13 @@
 
         function renderSummary(sol) {
             document.getElementById('cost').textContent = sol && sol.cost_per_day != null
-                ? fmtMoney(sol.cost_per_day) : '—';
+                ? fmtMoney(sol.cost_per_day, sol.currency) : '—';
             document.getElementById('food-count').textContent = sol && sol.basket
                 ? sol.basket.length : '—';
             document.getElementById('store').textContent = sol ? sol.location_display : '—';
-            document.getElementById('updated').textContent = DATA.updated
-                ? fmtUpdated(DATA.updated) : '—';
+            document.getElementById('updated').textContent = sol && sol.price_as_of
+                ? `${sol.price_as_of}${sol.has_stale_prices ? ' (some retained)' : ''}`
+                : (DATA.updated ? fmtUpdated(DATA.updated) : '—');
 
             // Cost delta: compare current variant to the other one at this (mode, region).
             const deltaEl = document.getElementById('cost-delta');
@@ -458,9 +469,14 @@
                 const diff = sol.cost_per_day - other.cost_per_day;
                 const sign = diff > 0 ? '+' : '';
                 const otherLabel = VARIANT_LABELS[other.variant || 'food_only'];
-                deltaEl.textContent = `${sign}${fmtMoney(diff)} vs ${otherLabel}`;
+                deltaEl.textContent = `${sign}${fmtMoney(diff, sol.currency)} vs ${otherLabel}`;
             } else if (other && other.status === 'infeasible') {
                 deltaEl.textContent = `(other variant infeasible)`;
+            }
+            if (sol.currency !== 'USD' && sol.cost_per_day_usd != null) {
+                const equivalent = `${fmtMoney(sol.cost_per_day_usd, 'USD')} at ${sol.fx_as_of}`;
+                deltaEl.textContent = deltaEl.textContent
+                    ? `${deltaEl.textContent} · ${equivalent}` : equivalent;
             }
         }
 
@@ -486,17 +502,17 @@
                     tooltip = '';
                 } else if (isSupp && meta.count) {
                     const perTab = priceUsed / meta.count;
-                    unitPrice = `$${perTab.toFixed(3)}<span class="unit-suffix">/tab</span>`;
-                    tooltip = `$${priceUsed.toFixed(2)} / ${meta.count} tab (${priceKind})`;
+                    unitPrice = `${currencySymbol(sol.currency)}${perTab.toFixed(3)}<span class="unit-suffix">/tab</span>`;
+                    tooltip = `${fmtMoney(priceUsed, sol.currency)} / ${meta.count} tab (${priceKind})`;
                 } else if (meta.unit_grams) {
                     const perKg = priceUsed * 1000 / meta.unit_grams;
                     const amt = perKg < 1 ? perKg.toFixed(3) : perKg.toFixed(2);
-                    unitPrice = `$${amt}<span class="unit-suffix">/kg</span>`;
-                    tooltip = `$${priceUsed.toFixed(2)} / ${meta.unit_grams >= 1000
+                    unitPrice = `${currencySymbol(sol.currency)}${amt}<span class="unit-suffix">/kg</span>`;
+                    tooltip = `${fmtMoney(priceUsed, sol.currency)} / ${meta.unit_grams >= 1000
                         ? (meta.unit_grams/1000).toFixed(2) + ' kg'
                         : Math.round(meta.unit_grams) + ' g'} (${priceKind})`;
                 } else {
-                    unitPrice = fmtMoney(priceUsed);
+                    unitPrice = fmtMoney(priceUsed, sol.currency);
                     tooltip = priceKind;
                 }
                 const cls = isSupp ? 'supplement-row' : '';
@@ -504,14 +520,14 @@
                     <td class="name">${b.name}</td>
                     <td class="num">${qty}</td>
                     <td class="num muted" title="${tooltip}">${unitPrice}</td>
-                    <td class="num">${fmtMoney(b.cost_per_day)}</td>
+                    <td class="num">${fmtMoney(b.cost_per_day, sol.currency)}</td>
                     <td class="num muted">${b.pct_of_basket}%</td>
                 </tr>`;
             }).join('');
             host.innerHTML = `<div class="table-scroll"><table>
                 <thead><tr>
                     <th>SKU</th><th class="num">Per day</th>
-                    <th class="num">Unit $</th><th class="num">$/day</th>
+                    <th class="num">Unit price</th><th class="num">Cost/day</th>
                     <th class="num">% basket</th>
                 </tr></thead>
                 <tbody>${rows}</tbody>
@@ -530,7 +546,7 @@
                 const t = labelMap[n.nutrient] || {};
                 const cls = n.binding ? 'binding' : '';
                 const kind = n.kind === 'rda' ? '≥' : '≤';
-                const shadow = fmtShadow(n.shadow_price_per_unit, n.unit);
+                const shadow = fmtShadow(n.shadow_price_per_unit, n.unit, sol.currency);
                 return `<tr class="${cls}">
                     <td class="name">${n.nutrient}</td>
                     <td class="num muted">${kind} ${fmtNumber(n.target, 2)} ${n.unit}</td>
@@ -587,7 +603,7 @@
                 if (cellGrams) return pkg * 1000 / cellGrams;
                 return pkg;
             };
-            const priceCell = (p, c) => {
+            const priceCell = (p, c, location) => {
                 if (p == null) return '<td class="num muted">—</td>';
                 const pkg = p.effective ?? p.regular;
                 if (pkg == null) return '<td class="num muted">—</td>';
@@ -597,20 +613,20 @@
                 if (c.kind === 'supplement' && cellCount) {
                     per = pkg / cellCount;
                     suffix = '/tab';
-                    tooltip = `$${pkg.toFixed(2)} / ${cellCount} tab`;
+                    tooltip = `${fmtMoney(pkg, location.currency)} / ${cellCount} tab`;
                 } else if (cellGrams) {
                     per = pkg * 1000 / cellGrams;
                     suffix = '/kg';
-                    tooltip = `$${pkg.toFixed(2)} / ${cellGrams >= 1000
+                    tooltip = `${fmtMoney(pkg, location.currency)} / ${cellGrams >= 1000
                         ? (cellGrams/1000).toFixed(2) + ' kg'
                         : Math.round(cellGrams) + ' g'}`;
                 } else {
-                    return `<td class="num">${fmtMoney(pkg)}</td>`;
+                    return `<td class="num">${fmtMoney(pkg, location.currency)}</td>`;
                 }
                 const amt = per < 1 ? per.toFixed(3) : per.toFixed(2);
                 const promo = (p.promo && p.promo > 0 && p.effective === p.promo)
                     ? ` <span style="color:#ff9800; font-weight:700;">•</span>` : '';
-                return `<td class="num" title="${tooltip}">$${amt}<span class="unit-suffix">${suffix}</span>${promo}</td>`;
+                return `<td class="num" title="${tooltip}">${currencySymbol(location.currency)}${amt}<span class="unit-suffix">${suffix}</span>${promo}</td>`;
             };
             const unit = c => {
                 if (c.kind === 'supplement') {
@@ -679,13 +695,13 @@
             };
 
             const locHeaders = locations.map(l =>
-                sortHeader(l.region, `price:${l.region}`, true, l.display)).join('');
+                sortHeader(`${l.region.replaceAll('_', ' ')} (${l.currency})`, `price:${l.region}`, true, l.display)).join('');
 
             const rows = sortedCatalog.map(({item: c}) => {
                 const tags = category(c);
                 const cls = c.kind === 'supplement' ? 'is-supplement' : '';
                 const cells = locations.map(l =>
-                    priceCell(c.prices_by_region[l.region], c)).join('');
+                    priceCell(c.prices_by_region[l.region], c, l)).join('');
                 return `<tr class="${cls}">
                     <td class="name">${c.name}</td>
                     <td class="tag">${tags}</td>

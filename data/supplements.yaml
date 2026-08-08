@@ -119,3 +119,24 @@
     # The product page gives 1000 mg flaxseed oil but not an ALA assay; use the
     # FDC-consistent estimate of 57.5% ALA by oil weight.
     ala_g: 0.575
+
+# --- Metro Inc. reference supplements (Canadian labels) ---
+# Exact UPC and count are returned by both reference catalogs. The product is
+# Jamieson's 1,000 mcg timed-release B12 caplet; one daily is below the label's
+# maximum and supplies the solver's B12 requirement. Canadian ALA remains food-
+# sourced from the curated flax/chia foods because neither banner returned a
+# matching flaxseed-oil supplement in the reviewed discovery pass.
+
+- product_id: "064642028235"
+  name: "Jamieson Vitamin B12 1,000 mcg Time-Release Caplets"
+  query: "vitamin b12 1000 mcg"
+  package: "80 un - time-release caplets"
+  count: 80
+  tablet_g: 0.3
+  dietary_categories: [supplement, b12]
+  max_tablets_per_day: 1
+  sources: [metro, foodbasics]
+  _price_source: "Metro Inc. product UPC 064642028235"
+  _nutrient_source: "Jamieson product label"
+  nutrients_per_tablet:
+    vit_b12_mcg: 1000

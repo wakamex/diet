@@ -32,15 +32,26 @@ jobs:
         uses: actions/cache@v4
         with:
           path: data/raw/fdc
-          key: ${{ runner.os }}-diet-fdc-${{ hashFiles('data/skus.yaml') }}
+          key: ${{ runner.os }}-diet-fdc-${{ hashFiles('data/skus.yaml', 'data/walmart_skus.yaml', 'data/canada_product_map.yaml') }}
           restore-keys: |
             ${{ runner.os }}-diet-fdc-
+
+      - name: Prepare Walmart credentials
+        env:
+          WALMART_PRIVATE_KEY: ${{ secrets.WALMART_PRIVATE_KEY }}
+        run: |
+          key_path="$RUNNER_TEMP/walmart-private-key.pem"
+          install -m 600 /dev/null "$key_path"
+          printf '%s\n' "$WALMART_PRIVATE_KEY" > "$key_path"
+          echo "WALMART_PRIVATE_KEY_PATH=$key_path" >> "$GITHUB_ENV"
 
       - name: Run pipeline
         env:
           KROGER_CLIENT_ID: ${{ secrets.KROGER_CLIENT_ID }}
           KROGER_CLIENT_SECRET: ${{ secrets.KROGER_CLIENT_SECRET }}
           FDC_API_KEY: ${{ secrets.FDC_API_KEY }}
+          WALMART_CONSUMER_ID: ${{ secrets.WALMART_CONSUMER_ID }}
+          WALMART_KEY_VERSION: ${{ secrets.WALMART_KEY_VERSION }}
         run: |
           retry() {
             for i in 1 2 3; do
@@ -53,11 +64,11 @@ jobs:
           .venv/bin/diet solve
           .venv/bin/diet export
 
-      - name: Commit site/data.json
+      - name: Commit current data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add site/data.json
+          git add data/prices_current.json data/nutrients_current.json data/fx_current.json site/data.json
           git diff --cached --quiet && echo "No price change since last run" && exit 0
           git commit -m "Update site/data.json [skip ci]"
           git push
