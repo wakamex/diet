@@ -31,6 +31,8 @@ class SupplementSpec:
     dietary_categories: frozenset[str]
     nutrients_per_tablet: dict[str, float]    # keyed by our canonical nutrient ids
     source: str = "kroger"                    # "kroger" | "walmart" — routes ingest
+    package_label: str | None = None
+    search_query: str | None = None
 
     @property
     def unit_grams(self) -> float:
@@ -51,16 +53,22 @@ def load_supplements(path: Path | str = DEFAULT_SUPPLEMENTS_PATH) -> list[Supple
     raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or []
     out: list[SupplementSpec] = []
     for r in raw:
-        out.append(SupplementSpec(
-            product_id=str(r["product_id"]),
-            name=str(r["name"]),
-            count=int(r["count"]),
-            tablet_g=float(r["tablet_g"]),
-            max_tablets_per_day=float(r["max_tablets_per_day"]),
-            dietary_categories=frozenset(r.get("dietary_categories") or ["supplement"]),
-            nutrients_per_tablet=dict(r.get("nutrients_per_tablet") or {}),
-            source=r.get("source", "kroger"),
-        ))
+        sources = r.get("sources") or [r.get("source", "kroger")]
+        for source in sources:
+            out.append(SupplementSpec(
+                product_id=str(r["product_id"]),
+                name=str(r["name"]),
+                count=int(r["count"]),
+                tablet_g=float(r["tablet_g"]),
+                max_tablets_per_day=float(r["max_tablets_per_day"]),
+                dietary_categories=frozenset(
+                    r.get("dietary_categories") or ["supplement"]
+                ),
+                nutrients_per_tablet=dict(r.get("nutrients_per_tablet") or {}),
+                source=source,
+                package_label=r.get("package"),
+                search_query=r.get("query"),
+            ))
     return out
 
 
@@ -74,6 +82,8 @@ def as_sku_specs(supps: list[SupplementSpec]) -> list[SkuSpec]:
         dietary_categories=s.dietary_categories,
         max_serving_g=s.max_serving_g,
         source=s.source,
+        package_label=s.package_label,
+        search_query=s.search_query,
     ) for s in supps]
 
 
@@ -88,6 +98,8 @@ def build_supplement_foods(
     price at that location (same semantics as foods.build_foods_for_location)."""
     foods: list[Food] = []
     for s in supps:
+        if s.source != location.source:
+            continue
         row = prices.get((s.product_id, location.location_id))
         if not row:
             continue
@@ -116,6 +128,12 @@ def build_supplement_foods(
                 "price_kind": "promo" if (use_promo and promo) else "regular",
                 "location_id": location.location_id,
                 "location_display": location.display,
+                "currency": location.currency,
+                "price_scope": location.price_scope,
+                "price_fetched_at": row.get("fetched_at"),
+                "price_observed_at": row.get("observed_at"),
+                "price_stale": bool(row.get("stale", False)),
+                "price_source_url": row.get("source_url"),
             },
         ))
     return foods

@@ -1,0 +1,13 @@
+{
+  "seriesDetail": {
+    "FXUSDCAD": {
+      "label": "USD/CAD"
+    }
+  },
+  "observations": [
+    {
+      "d": "2026-08-07",
+      "FXUSDCAD": {"v": "1.3943"}
+    }
+  ]
+}

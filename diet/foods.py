@@ -22,6 +22,7 @@ from diet.util import read_json
 
 DEFAULT_SKUS_PATH = Path("data/skus.yaml")
 DEFAULT_WALMART_SKUS_PATH = Path("data/walmart_skus.yaml")
+DEFAULT_CANADA_PRODUCT_MAP_PATH = Path("data/canada_product_map.yaml")
 DEFAULT_LOCATIONS_PATH = Path("data/locations.yaml")
 DEFAULT_PRICES_PATH = Path("data/prices_current.json")
 DEFAULT_FDC_CACHE = Path("data/raw/fdc")
@@ -40,7 +41,9 @@ class SkuSpec:
     unit_grams: float
     dietary_categories: frozenset[str]
     max_serving_g: float | None
-    source: str = "kroger"   # "kroger" or "walmart" — routes ingest
+    source: str = "kroger"   # retailer/source key — routes ingest
+    package_label: str | None = None
+    search_query: str | None = None
 
 
 @dataclass(frozen=True)
@@ -51,6 +54,8 @@ class Location:
     location_id: str      # Kroger locationId or synthetic for walmart
     display: str          # human label
     source: str = "kroger"
+    currency: str = "USD"
+    price_scope: str = "store"
 
 
 def load_skus(path: Path | str = DEFAULT_SKUS_PATH,
@@ -67,23 +72,64 @@ def load_skus(path: Path | str = DEFAULT_SKUS_PATH,
             dietary_categories=frozenset(r.get("dietary_categories") or []),
             max_serving_g=float(cap) if cap is not None else DEFAULT_MAX_SERVING_G,
             source=r.get("source", source),
+            package_label=r.get("_package"),
+            search_query=r.get("query"),
         ))
     return out
 
 
 def load_all_skus() -> list[SkuSpec]:
-    """Load Kroger + Walmart SKUs. Walmart file is optional."""
+    """Load every configured retailer SKU file."""
     skus = load_skus(DEFAULT_SKUS_PATH, source="kroger")
     if DEFAULT_WALMART_SKUS_PATH.exists():
         skus += load_skus(DEFAULT_WALMART_SKUS_PATH, source="walmart")
+    if DEFAULT_CANADA_PRODUCT_MAP_PATH.exists():
+        skus += load_canada_skus(skus, DEFAULT_CANADA_PRODUCT_MAP_PATH)
     return skus
+
+
+def load_canada_skus(
+    base_skus: list[SkuSpec],
+    path: Path | str = DEFAULT_CANADA_PRODUCT_MAP_PATH,
+) -> list[SkuSpec]:
+    """Expand curated Canadian UPC mappings and inherit concept nutrition tags."""
+    raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or []
+    concepts: dict[int, SkuSpec] = {}
+    for sku in base_skus:
+        concepts.setdefault(sku.fdc_id, sku)
+    out: list[SkuSpec] = []
+    for row in raw:
+        fdc_id = int(row["fdc_id"])
+        concept = concepts.get(fdc_id)
+        if concept is None:
+            raise ValueError(f"Canadian mapping references unknown FDC concept {fdc_id}")
+        sources = row.get("sources") or [row.get("source")]
+        if not sources or any(source not in {"metro", "foodbasics"} for source in sources):
+            raise ValueError(
+                f"Canadian mapping {row.get('product_id')!r} has invalid sources"
+            )
+        for source in sources:
+            out.append(SkuSpec(
+                product_id=str(row["product_id"]),
+                fdc_id=fdc_id,
+                name=str(row["name"]),
+                unit_grams=float(row["unit_grams"]),
+                dietary_categories=concept.dietary_categories,
+                max_serving_g=concept.max_serving_g,
+                source=source,
+                package_label=row.get("package"),
+                search_query=row.get("query"),
+            ))
+    return out
 
 
 def load_locations(path: Path | str = DEFAULT_LOCATIONS_PATH) -> list[Location]:
     raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or []
     return [Location(region=r["region"], location_id=str(r["location_id"]),
                      display=r.get("display", r["location_id"]),
-                     source=r.get("source", "kroger")) for r in raw]
+                     source=r.get("source", "kroger"),
+                     currency=r.get("currency", "USD").upper(),
+                     price_scope=r.get("price_scope", "store")) for r in raw]
 
 
 def load_prices(path: Path | str = DEFAULT_PRICES_PATH) -> dict[tuple[str, str], dict]:
@@ -112,6 +158,8 @@ def build_foods_for_location(
     foods: list[Food] = []
     sku_nutrients = load_sku_nutrients(nutrients_path)
     for sku in skus:
+        if sku.source != location.source:
+            continue
         price_row = prices.get((sku.product_id, location.location_id))
         if not price_row:
             continue
@@ -153,6 +201,12 @@ def build_foods_for_location(
                 "price_kind": "promo" if (use_promo and promo) else "regular",
                 "location_id": location.location_id,
                 "location_display": location.display,
+                "currency": location.currency,
+                "price_scope": location.price_scope,
+                "price_fetched_at": price_row.get("fetched_at"),
+                "price_observed_at": price_row.get("observed_at"),
+                "price_stale": bool(price_row.get("stale", False)),
+                "price_source_url": price_row.get("source_url"),
             },
         ))
     return foods

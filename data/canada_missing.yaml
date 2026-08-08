@@ -1,0 +1,57 @@
+# Explicit reviewed misses from the 2026-08-08 all-concept discovery pass.
+# A concept/retailer pair belongs here when ranked search returned no nutritionally
+# equivalent SKU, or when mapping it would duplicate another identical physical
+# product inside the same LP universe.
+
+- fdc_id: 175192
+  query: canned great northern beans
+  retailers: [metro, foodbasics]
+  reason: only mixed beans and white kidney beans returned
+- fdc_id: 168944
+  query: vital wheat gluten
+  retailers: [metro, foodbasics]
+  reason: search returned gluten-free flour and bread, not vital wheat gluten
+- fdc_id: 168016
+  query: frozen sweet potato
+  retailers: [metro, foodbasics]
+  reason: search returned seasoned fries or fresh sweet potatoes, not plain frozen sweet potato
+- fdc_id: 167717
+  query: nutritional yeast
+  retailers: [metro, foodbasics]
+  reason: search returned baking yeast or Marmite, not nutritional yeast flakes
+- fdc_id: 173806
+  query: unsalted peanuts
+  retailers: [metro, foodbasics]
+  reason: only in-shell unsalted peanuts or shelled products with unspecified salt returned
+- fdc_id: 170583
+  query: hazelnuts
+  retailers: [metro, foodbasics]
+  reason: search returned chocolate hazelnut spreads, not whole hazelnuts
+- fdc_id: 168598
+  query: macadamia nuts
+  retailers: [metro, foodbasics]
+  reason: search returned cookies, not plain macadamia nuts
+- fdc_id: 168877
+  query: white rice
+  retailers: [metro, foodbasics]
+  reason: duplicate physical concept of the curated long-grain white rice mapping
+- fdc_id: 748323
+  query: corn oil
+  retailers: [metro]
+  reason: no corn oil returned; Food Basics has a mapped SKU
+- fdc_id: 168867
+  query: yellow cornmeal
+  retailers: [metro, foodbasics]
+  reason: duplicate physical concept of the curated Grace cornmeal mapping
+- fdc_id: 173744
+  query: dry kidney beans
+  retailers: [metro]
+  reason: Metro search returned canned kidney beans only; Food Basics has a mapped dry SKU
+- fdc_id: 175121
+  query: canned mackerel
+  retailers: [metro]
+  reason: Metro's available olive-oil mackerel is not equivalent to the tomato-sauce nutrient concept
+- fdc_id: 171976
+  query: canned clams
+  retailers: [foodbasics]
+  reason: Food Basics search did not return canned clams; Metro has a mapped SKU

@@ -1,0 +1,642 @@
+# Curated exact UPC mappings for the Metro Inc. unlocalized reference catalogs.
+# `sources` expands one physical SKU into retailer-specific variants. Nutrition,
+# dietary tags, and serving caps are inherited from the existing FDC concept.
+# Volume-to-mass estimates are explicit; weighted products use a synthetic 1 kg
+# package priced from the storefront's $/kg field.
+
+- fdc_id: 2512381
+  query: white rice
+  product_id: "059749902403"
+  name: Selection Long Grain White Rice
+  package: 2 kg
+  unit_grams: 2000
+  sources: [metro, foodbasics]
+- fdc_id: 2346396
+  query: rolled oats
+  product_id: "055577101018"
+  name: Quaker Large Oats
+  package: 1 kg
+  unit_grams: 1000
+  sources: [metro]
+- fdc_id: 2346396
+  query: rolled oats
+  product_id: "770795131257"
+  name: Dan-D-Pak Rolled Oats
+  package: 1 kg
+  unit_grams: 1000
+  sources: [foodbasics]
+- fdc_id: 174916
+  query: whole wheat bread
+  product_id: "059749916387"
+  name: Selection Whole Wheat Sliced Bread
+  package: 675 g
+  unit_grams: 675
+  sources: [metro, foodbasics]
+- fdc_id: 169736
+  query: dry pasta
+  product_id: "059749893084"
+  name: Selection Fettuccine Pasta
+  package: 900 g
+  unit_grams: 900
+  sources: [metro, foodbasics]
+- fdc_id: 168894
+  query: all purpose flour
+  product_id: "059749892582"
+  name: Selection All-Purpose Flour
+  package: 2.5 kg
+  unit_grams: 2500
+  sources: [metro, foodbasics]
+- fdc_id: 2512380
+  query: brown rice
+  product_id: "058496464684"
+  name: Ben's Original Wholegrain Brown Rice
+  package: 2.2 kg
+  unit_grams: 2200
+  sources: [metro, foodbasics]
+- fdc_id: 170284
+  query: pearl barley
+  product_id: "062356505578"
+  name: Cedar Phoenicia Pearl Barley
+  package: 907 g
+  unit_grams: 907
+  sources: [metro, foodbasics]
+- fdc_id: 168892
+  query: wheat germ
+  product_id: "818158012505"
+  name: Kretschmer Toasted Wheat Germ
+  package: 340 g
+  unit_grams: 340
+  sources: [metro, foodbasics]
+- fdc_id: 169698
+  query: corn starch
+  product_id: "059749887199"
+  name: Selection Corn Starch
+  package: 454 g
+  unit_grams: 454
+  sources: [metro, foodbasics]
+- fdc_id: 173884
+  query: cheerios
+  product_id: "065633134652"
+  name: Cheerios Oats Cereal Value Pack
+  package: 570 g
+  unit_grams: 570
+  sources: [metro, foodbasics]
+- fdc_id: 2644283
+  query: green lentils
+  product_id: "062356507299"
+  name: Cedar Phoenicia Large Green Lentils
+  package: 907 g
+  unit_grams: 907
+  sources: [metro, foodbasics]
+- fdc_id: 2644288
+  query: canned chickpeas
+  product_id: "059749998543"
+  name: Life Smart Chickpeas
+  package: 540 mL
+  unit_grams: 540
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL aqueous canned-food estimate
+- fdc_id: 175186
+  query: black turtle beans
+  product_id: "062356506513"
+  name: Cedar Phoenicia Black Turtle Beans
+  package: 907 g
+  unit_grams: 907
+  sources: [metro, foodbasics]
+- fdc_id: 175188
+  query: canned black beans
+  product_id: "059749998574"
+  name: Life Smart Black Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL aqueous canned-food estimate
+- fdc_id: 170086
+  query: canned pinto beans
+  product_id: "059749998536"
+  name: Selection Canned Pinto Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL aqueous canned-food estimate
+- fdc_id: 175201
+  query: dry pinto beans
+  product_id: "062356510411"
+  name: Cedar Phoenicia Pinto Beans
+  package: 907 g
+  unit_grams: 907
+  sources: [metro, foodbasics]
+- fdc_id: 174285
+  query: canned kidney beans
+  product_id: "059749929981"
+  name: Selection Dark Red Kidney Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL aqueous canned-food estimate
+- fdc_id: 172428
+  query: split peas
+  product_id: "062356506360"
+  name: Cedar Phoenicia Split Green Peas
+  package: 907 g
+  unit_grams: 907
+  sources: [foodbasics]
+- fdc_id: 172428
+  query: split peas
+  product_id: "059072054046"
+  name: Life Smart Dried Yellow Split Peas
+  package: 900 g
+  unit_grams: 900
+  sources: [metro]
+- fdc_id: 172475
+  query: firm tofu
+  product_id: "059072054343"
+  name: Life Smart Extra Firm Plain Tofu
+  package: 400 g
+  unit_grams: 400
+  sources: [metro]
+- fdc_id: 172475
+  query: firm tofu
+  product_id: "057864001445"
+  name: Sunrise Soya Foods Firm Tofu
+  package: 500 g
+  unit_grams: 500
+  sources: [foodbasics]
+- fdc_id: 168410
+  query: frozen edamame
+  product_id: "062356545116"
+  name: Cedar Phoenicia Frozen Shelled Soybeans
+  package: 500 g
+  unit_grams: 500
+  sources: [metro, foodbasics]
+- fdc_id: 174266
+  query: peanut butter
+  product_id: "059749894449"
+  name: Selection Smooth Peanut Butter
+  package: 1 kg
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+- fdc_id: 169414
+  query: ground flaxseed
+  product_id: "039978333308"
+  name: Bob's Red Mill Whole Ground Flaxseed Meal
+  package: 453 g
+  unit_grams: 453
+  sources: [metro, foodbasics]
+- fdc_id: 170554
+  query: chia seeds
+  product_id: "059749979443"
+  name: Life Smart Whole Black Chia Seeds
+  package: 300 g
+  unit_grams: 300
+  sources: [metro, foodbasics]
+- fdc_id: 170872
+  query: 1% milk
+  product_id: "068200010243"
+  name: Lactantia 1% Milk PūrFiltre
+  package: 4 L
+  unit_grams: 4120
+  sources: [metro]
+  _unit_basis: 1.03 g/mL milk density
+- fdc_id: 170872
+  query: 1% milk
+  product_id: "055300111093"
+  name: Beatrice 1% Milk
+  package: 4 L
+  unit_grams: 4120
+  sources: [foodbasics]
+  _unit_basis: 1.03 g/mL milk density
+- fdc_id: 2647437
+  query: plain greek yogurt
+  product_id: "059749984225"
+  name: Irrésistible 0% Plain Greek Yogurt
+  package: 750 g
+  unit_grams: 750
+  sources: [metro, foodbasics]
+- fdc_id: 169901
+  query: cheddar cheese
+  product_id: "059749969468"
+  name: Selection Old Cheddar Cheese
+  package: 400 g
+  unit_grams: 400
+  sources: [metro, foodbasics]
+- fdc_id: 170877
+  query: skim milk powder
+  product_id: "059749977951"
+  name: Life Smart Instant Skim Milk Powder
+  package: 500 g
+  unit_grams: 500
+  sources: [metro, foodbasics]
+- fdc_id: 171287
+  query: large eggs
+  product_id: "059749896078"
+  name: Selection Large Eggs
+  package: 18 un
+  unit_grams: 900
+  sources: [metro, foodbasics]
+  _unit_basis: 50 g edible mass per large egg
+- fdc_id: 171052
+  query: chicken breast
+  product_id: "206022"
+  name: Boneless and Skinless Chicken Breasts Value Pack
+  package: 5 breasts per tray
+  unit_grams: 1000
+  sources: [metro]
+  _unit_basis: storefront price per kg
+- fdc_id: 171052
+  query: chicken breast
+  product_id: "234960"
+  name: Boneless and Skinless Chicken Breast
+  package: 900 g
+  unit_grams: 900
+  sources: [foodbasics]
+- fdc_id: 171447
+  query: whole chicken
+  product_id: "215008"
+  name: Fresh Whole Chicken
+  package: 1 per tray
+  unit_grams: 1000
+  sources: [metro]
+  _unit_basis: storefront price per kg
+- fdc_id: 171447
+  query: whole chicken
+  product_id: "222236"
+  name: Maple Lodge Whole Chicken
+  package: 1 per tray
+  unit_grams: 1000
+  sources: [foodbasics]
+  _unit_basis: storefront price per kg
+- fdc_id: 172378
+  query: chicken leg quarters
+  product_id: "245111"
+  name: Back Attached Chicken Leg Quarters
+  package: 3 to 5 per tray
+  unit_grams: 1000
+  sources: [metro]
+  _unit_basis: storefront price per kg
+- fdc_id: 172378
+  query: chicken leg quarters
+  product_id: "215800"
+  name: Halal Chicken Leg Quarters
+  unit_grams: 1000
+  sources: [foodbasics]
+  _unit_basis: storefront price per kg
+- fdc_id: 2514744
+  query: ground beef
+  product_id: "201021"
+  name: Medium Ground Beef
+  package: A tray contains on average 450 g
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+  _unit_basis: storefront price per kg
+- fdc_id: 167843
+  query: pork shoulder
+  product_id: "203003"
+  name: Pork Shoulder Picnic Roast Value Pack
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+  _unit_basis: storefront price per kg
+- fdc_id: 173708
+  query: canned tuna
+  product_id: "059749931915"
+  name: Selection Flaked Light Tuna in Water
+  package: 170 g
+  unit_grams: 170
+  sources: [metro, foodbasics]
+- fdc_id: 175139
+  query: sardines olive oil
+  product_id: "061362460079"
+  name: Clover Leaf Boneless Sardine Fillets in Olive Oil
+  package: 106 g
+  unit_grams: 106
+  sources: [metro]
+- fdc_id: 175139
+  query: sardines olive oil
+  product_id: "062273551900"
+  name: Sabor Do Mar Sardines in Vegetable Olive Oil
+  package: 120 g
+  unit_grams: 120
+  sources: [foodbasics]
+- fdc_id: 175175
+  query: canned sockeye salmon
+  product_id: "061362401003"
+  name: Clover Leaf Wild Red Pacific Sockeye Salmon
+  package: 213 g
+  unit_grams: 213
+  sources: [metro, foodbasics]
+- fdc_id: 175121
+  query: canned mackerel
+  product_id: "055270853221"
+  name: Grace Mackerel in Tomato Sauce
+  package: 155 g
+  unit_grams: 155
+  sources: [foodbasics]
+- fdc_id: 171976
+  query: canned clams
+  product_id: "061362442006"
+  name: Clover Leaf Whole Yellow Baby Clams in Water
+  package: 142 g
+  unit_grams: 142
+  sources: [metro]
+- fdc_id: 171060
+  query: chicken livers
+  product_id: "226105"
+  name: Chicken Livers
+  package: 1 per tray
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+  _unit_basis: storefront price per kg
+- fdc_id: 169968
+  query: frozen broccoli
+  product_id: "059749974721"
+  name: Selection Frozen Broccoli Florets Value Pack
+  package: 1.25 kg
+  unit_grams: 1250
+  sources: [metro, foodbasics]
+- fdc_id: 169287
+  query: frozen spinach
+  product_id: "059749973335"
+  name: Selection Frozen Chopped Spinach
+  package: 500 g
+  unit_grams: 500
+  sources: [metro, foodbasics]
+- fdc_id: 2258587
+  query: canned carrots
+  product_id: "059749887465"
+  name: Selection Sliced Carrots
+  package: 398 mL
+  unit_grams: 398
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL aqueous canned-food estimate
+- fdc_id: 2346407
+  query: green cabbage
+  product_id: "4069"
+  name: Green Cabbage
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+  _unit_basis: storefront price per kg
+- fdc_id: 170028
+  query: canned potatoes
+  product_id: "059749887700"
+  name: Selection Whole White Potatoes
+  package: 540 mL
+  unit_grams: 540
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL aqueous canned-food estimate
+- fdc_id: 170138
+  query: canned diced tomatoes
+  product_id: "059749893435"
+  name: Selection Diced Tomatoes
+  package: 796 mL
+  unit_grams: 796
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL aqueous canned-food estimate
+- fdc_id: 1105073
+  query: frozen bananas
+  product_id: "059749992183"
+  name: Life Smart Frozen Banana Slices
+  package: 600 g
+  unit_grams: 600
+  sources: [metro, foodbasics]
+- fdc_id: 171710
+  query: frozen mixed fruit
+  product_id: "059749875950"
+  name: Irrésistible Frozen Summertime Blend Mixed Fruit
+  package: 600 g
+  unit_grams: 600
+  sources: [metro, foodbasics]
+- fdc_id: 169103
+  query: orange juice
+  product_id: "067311018339"
+  name: Oasis Pure Breakfast Orange Juice
+  package: 960 mL
+  unit_grams: 998.4
+  sources: [metro, foodbasics]
+  _unit_basis: 1.04 g/mL orange juice density
+- fdc_id: 168166
+  query: raisins
+  product_id: "041143029435"
+  name: Sun-Maid Natural California Raisins
+  package: 750 g
+  unit_grams: 750
+  sources: [metro, foodbasics]
+- fdc_id: 173768
+  query: soy milk
+  product_id: "025293600713"
+  name: Silk Organic Fortified Soy Beverage
+  package: 1.89 L
+  unit_grams: 1890
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL beverage estimate
+- fdc_id: 1999631
+  query: almond milk
+  product_id: "626027087819"
+  name: Earth's Own Unsweetened Organic Almond Beverage
+  package: 1.75 L
+  unit_grams: 1750
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL beverage estimate
+- fdc_id: 2257046
+  query: oat milk
+  product_id: "626027811025"
+  name: Earth's Own Original Oat Beverage
+  package: 1.75 L
+  unit_grams: 1750
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL beverage estimate
+- fdc_id: 171413
+  query: extra virgin olive oil
+  product_id: "059749917667"
+  name: Selection Extra Virgin Olive Oil
+  package: 1 L
+  unit_grams: 910
+  sources: [metro, foodbasics]
+  _unit_basis: 0.91 g/mL olive oil density
+- fdc_id: 172370
+  query: vegetable oil
+  product_id: "059749888806"
+  name: Selection Vegetable Oil Value Pack
+  package: 3 L
+  unit_grams: 2760
+  sources: [metro, foodbasics]
+  _unit_basis: 0.92 g/mL vegetable oil density
+- fdc_id: 748278
+  query: canola oil
+  product_id: "059749888769"
+  name: Selection Canola Oil Value Pack
+  package: 3 L
+  unit_grams: 2760
+  sources: [metro, foodbasics]
+  _unit_basis: 0.92 g/mL canola oil density
+- fdc_id: 171276
+  query: evaporated milk
+  product_id: "059749948111"
+  name: Selection Evaporated Milk
+  package: 354 mL
+  unit_grams: 378.8
+  sources: [metro, foodbasics]
+  _unit_basis: 1.07 g/mL evaporated milk density
+- fdc_id: 169697
+  query: corn meal
+  product_id: "055270846452"
+  name: Grace Corn Meal
+  package: 2 kg
+  unit_grams: 2000
+  sources: [metro, foodbasics]
+- fdc_id: 171401
+  query: lard
+  product_id: "063100199043"
+  name: Tenderflake Pure Lard
+  package: 454 g
+  unit_grams: 454
+  sources: [metro, foodbasics]
+- fdc_id: 168820
+  query: molasses
+  product_id: "068932401234"
+  name: Grandma Fancy Molasses
+  package: 675 g
+  unit_grams: 675
+  sources: [metro, foodbasics]
+- fdc_id: 170409
+  query: canned corn
+  product_id: "059749887564"
+  name: Selection Whole Kernel Corn
+  package: 341 mL
+  unit_grams: 341
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL aqueous canned-food estimate
+- fdc_id: 170162
+  query: raw cashews
+  product_id: "064777115497"
+  name: Johnvince Raw Cashews
+  package: 200 g
+  unit_grams: 200
+  sources: [metro]
+- fdc_id: 170162
+  query: raw cashews
+  product_id: "059072050130"
+  name: Selection Whole Raw Cashew Nuts
+  package: 100 g
+  unit_grams: 100
+  sources: [foodbasics]
+- fdc_id: 169426
+  query: shelled pistachios
+  product_id: "059749979078"
+  name: Irrésistible Unsalted Roasted Pistachios
+  package: 200 g
+  unit_grams: 200
+  sources: [metro, foodbasics]
+- fdc_id: 169094
+  query: black olives
+  product_id: "059749897921"
+  name: Selection Pitted Black Olives
+  package: 398 mL
+  unit_grams: 398
+  sources: [metro, foodbasics]
+  _unit_basis: 1.0 g/mL canned-food estimate
+- fdc_id: 170567
+  query: raw almonds
+  product_id: "059749963237"
+  name: Irrésistible Whole Natural Almonds Value Pack
+  package: 1 kg
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+- fdc_id: 170187
+  query: walnuts
+  product_id: "059749963251"
+  name: Irrésistible Walnut Halves and Pieces Value Pack
+  package: 750 g
+  unit_grams: 750
+  sources: [metro, foodbasics]
+- fdc_id: 170182
+  query: pecans
+  product_id: "059749979122"
+  name: Selection Pecan Halves
+  package: 350 g
+  unit_grams: 350
+  sources: [metro]
+- fdc_id: 170182
+  query: pecans
+  product_id: "059749903363"
+  name: Selection Pecan Pieces
+  package: 100 g
+  unit_grams: 100
+  sources: [foodbasics]
+- fdc_id: 170591
+  query: pine nuts
+  product_id: "059749964531"
+  name: Irrésistible Pine Nuts
+  package: 125 g
+  unit_grams: 125
+  sources: [metro]
+- fdc_id: 170591
+  query: pine nuts
+  product_id: "059749950749"
+  name: Selection Pine Nuts
+  package: 80 g
+  unit_grams: 80
+  sources: [foodbasics]
+- fdc_id: 168895
+  query: self rising flour
+  product_id: "059000014845"
+  name: Brodie Self-Raising Cake and Pastry Flour
+  package: 1 kg
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+- fdc_id: 169694
+  query: corn masa flour
+  product_id: "037297914475"
+  name: Maseca Instant Corn Masa Flour
+  package: 1.8 kg
+  unit_grams: 1800
+  sources: [metro, foodbasics]
+- fdc_id: 167959
+  query: popcorn kernels
+  product_id: "059749881036"
+  name: Selection Popcorn Kernels
+  package: 1 kg
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+- fdc_id: 172772
+  query: pancake mix
+  product_id: "059749887113"
+  name: Selection Buttermilk Pancake and Waffle Mix
+  package: 1 kg
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+- fdc_id: 173744
+  query: dry kidney beans
+  product_id: "062781068624"
+  name: Divya Dry Kidney Beans
+  package: 1.81 kg
+  unit_grams: 1810
+  sources: [foodbasics]
+- fdc_id: 173745
+  query: dry navy beans
+  product_id: "059072054084"
+  name: Life Smart White Navy Beans
+  package: 900 g
+  unit_grams: 900
+  sources: [metro, foodbasics]
+- fdc_id: 172470
+  query: natural peanut butter
+  product_id: "068100084665"
+  name: Kraft Natural Smooth Peanut Butter Only Peanuts
+  package: 750 g
+  unit_grams: 750
+  sources: [metro, foodbasics]
+- fdc_id: 748323
+  query: corn oil
+  product_id: "688054001794"
+  name: Saporito Corn Oil
+  package: 2.84 L
+  unit_grams: 2612.8
+  sources: [foodbasics]
+  _unit_basis: 0.92 g/mL corn oil density
+- fdc_id: 746784
+  query: granulated sugar
+  product_id: "062847210233"
+  name: Redpath Special Fine Granulated Sugar
+  package: 2 kg
+  unit_grams: 2000
+  sources: [metro, foodbasics]

@@ -20,8 +20,23 @@
   location_id: "walmart-national"
   display: "Walmart.com (national)"
   source: walmart
+  price_scope: national
 
 - region: hawaii
   location_id: "3478"
   display: "Walmart — 700 Keeaumoku St, Honolulu, HI 96814"
   source: walmart
+
+- region: metro_reference
+  location_id: "metro-reference"
+  display: "Metro Reference (Canada; unlocalized online catalog)"
+  source: metro
+  currency: CAD
+  price_scope: reference
+
+- region: foodbasics_reference
+  location_id: "foodbasics-reference"
+  display: "Food Basics Reference (Canada; unlocalized online catalog)"
+  source: foodbasics
+  currency: CAD
+  price_scope: reference

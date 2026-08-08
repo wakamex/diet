@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
 
 from diet.foods import (
     build_foods_for_location,
@@ -15,24 +16,66 @@ from diet.solver import NutrientTarget, Solution, solve
 from diet.supplements import build_supplement_foods, load_supplements
 from diet.targets import load_targets
 from diet.util import write_json_atomic
+from diet.util import read_json
 
 DEFAULT_OUT_PATH = Path("site/data.json")
 DEFAULT_SUPPLEMENTS_PATH = Path("data/supplements.yaml")
 DEFAULT_PRICES_PATH = Path("data/prices_current.json")
+DEFAULT_FX_PATH = Path("data/fx_current.json")
 VALUE_REGION = "walmart_national"
 VALUE_MODE = "omnivore"
 VALUE_VARIANT = "with_supplements"
 
 
-def serialize_solution(s: Solution, *, mode: str, location_region: str,
-                       location_display: str) -> dict:
+def load_fx_rates(path: Path | str = DEFAULT_FX_PATH) -> dict[str, dict[str, Any]]:
+    rates: dict[str, dict[str, Any]] = {
+        "USD": {"currency": "USD", "to_usd": 1.0, "as_of": None}
+    }
+    path = Path(path)
+    if path.exists():
+        for currency, row in (read_json(path).get("rates") or {}).items():
+            if isinstance(row, dict) and row.get("to_usd") is not None:
+                rates[currency.upper()] = row
+    return rates
+
+
+def serialize_solution(
+    s: Solution,
+    *,
+    mode: str,
+    location_region: str,
+    location_display: str,
+    currency: str = "USD",
+    price_scope: str = "store",
+    fx_rate: dict[str, Any] | None = None,
+) -> dict:
+    fx_to_usd = float(fx_rate["to_usd"]) if fx_rate else None
+    fetched_dates = [
+        item.get("meta", {}).get("price_fetched_at")
+        for item in s.basket
+        if item.get("meta", {}).get("price_fetched_at")
+    ]
+    has_stale = any(
+        item.get("meta", {}).get("price_stale", False) for item in s.basket
+    )
     return {
         "mode": mode,
         "location_region": location_region,
         "location_display": location_display,
+        "currency": currency,
+        "price_scope": price_scope,
+        "fx_to_usd": fx_to_usd,
+        "fx_as_of": fx_rate.get("as_of") if fx_rate else None,
         "status": s.status,
         "message": s.message,
         "cost_per_day": s.cost_per_day,
+        "cost_per_day_usd": (
+            s.cost_per_day * fx_to_usd
+            if s.cost_per_day is not None and fx_to_usd is not None
+            else None
+        ),
+        "price_as_of": min(fetched_dates) if fetched_dates else None,
+        "has_stale_prices": has_stale,
         "basket": s.basket,
         "nutrients": s.nutrients,
         "diagnosis": s.diagnosis,
@@ -108,8 +151,16 @@ def _build_catalog(value_scores: dict[str, float] | None = None) -> tuple[list[d
     locations = load_locations()
     prices = load_prices() if DEFAULT_PRICES_PATH.exists() else {}
 
-    loc_payload = [{"region": l.region, "location_id": l.location_id,
-                    "display": l.display} for l in locations]
+    fx_rates = load_fx_rates()
+    loc_payload = [{
+        "region": l.region,
+        "location_id": l.location_id,
+        "display": l.display,
+        "currency": l.currency,
+        "price_scope": l.price_scope,
+        "fx_to_usd": (fx_rates.get(l.currency) or {}).get("to_usd"),
+        "fx_as_of": (fx_rates.get(l.currency) or {}).get("as_of"),
+    } for l in locations]
     region_keys = [l.region for l in locations]
 
     # First, build per-SKU rows with prices_by_region.
