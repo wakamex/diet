@@ -10,6 +10,120 @@
         h1 { font-size: 2rem; }
         .tagline { color: #b6aa99; margin-bottom: 24px; }
 
+        .results-overview { margin: 0 0 24px; }
+        .overview-titlebar {
+            align-items: baseline;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 16px;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        .overview-title {
+            color: #ff9800;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        .overview-note {
+            color: #8a7d6a;
+            font-size: 0.76rem;
+        }
+        .overview-frame {
+            background: #0a0a0c;
+            border: 1px solid #6b5a35;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        .overview-frame .table-scroll { margin: 0; }
+        .overview-table {
+            margin: 0;
+            min-width: 860px;
+            table-layout: fixed;
+        }
+        .overview-table th {
+            background: #0e0e10;
+            padding: 7px 6px;
+            text-align: center;
+        }
+        .overview-table th.venue-head {
+            text-align: left;
+            width: 176px;
+        }
+        .overview-table tbody th {
+            border-bottom: 1px solid #1a1916;
+            color: #b6aa99;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 1.25;
+            padding: 6px 8px;
+            text-align: left;
+            text-transform: none;
+        }
+        .overview-table td { padding: 3px; }
+        .overview-pair { display: grid; gap: 3px; }
+        .overview-result {
+            --bar-width: 0%;
+            align-items: center;
+            background: transparent;
+            border: 1px solid transparent;
+            border-radius: 3px;
+            color: #b6aa99;
+            cursor: pointer;
+            display: flex;
+            font-family: inherit;
+            font-size: 0.69rem;
+            gap: 5px;
+            justify-content: space-between;
+            min-height: 25px;
+            overflow: hidden;
+            padding: 4px 5px;
+            position: relative;
+            width: 100%;
+            z-index: 0;
+        }
+        .overview-result::before {
+            background: rgba(181,107,0,0.16);
+            bottom: 0;
+            content: "";
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: var(--bar-width);
+            z-index: -1;
+        }
+        .overview-result:hover,
+        .overview-result:focus-visible {
+            border-color: #c4b5a0;
+            color: #e0e0e0;
+            outline: none;
+        }
+        .overview-result.active {
+            border-color: #ff9800;
+            box-shadow: inset 0 0 0 1px rgba(255,152,0,0.25);
+            color: #e0e0e0;
+        }
+        .overview-result.best .overview-cost { color: #ff9800; }
+        .overview-kind {
+            color: #8a7d6a;
+            font-size: 0.61rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+        .overview-cost {
+            font-family: "D2Coding";
+            font-variant-numeric: tabular-nums;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .overview-result.unavailable {
+            color: #6b5a35;
+            cursor: default;
+        }
+
         /* Tables: keep the full column set readable on narrow viewports by
            scrolling the table horizontally inside its container rather than
            clipping columns or shrinking cells to the point of illegibility. */
@@ -176,6 +290,7 @@
         /* Reserve the data-bearing regions until JS swaps in real content (avoids
            a flash of "Loading…"). After body.fade-in is set, regions reveal. */
         body:not(.fade-in) .summary,
+        body:not(.fade-in) #overview,
         body:not(.fade-in) #nutrients,
         body:not(.fade-in) #catalog { visibility: hidden; }
 
@@ -256,6 +371,14 @@
     <p class="back"><a href="/">&larr; Back</a></p>
     <h1>Stigler 2026</h1>
     <p class="tagline">The cheapest current retailer basket that hits your daily nutrient targets — by diet mode and market.</p>
+
+    <section class="results-overview" aria-labelledby="overview-title">
+        <div class="overview-titlebar">
+            <div class="overview-title" id="overview-title">Results at a glance</div>
+            <div class="overview-note">Food / + pills · bar length is USD-equivalent cost · orange is cheapest for that diet/variant</div>
+        </div>
+        <div class="overview-frame" id="overview"></div>
+    </section>
 
     <div class="pillrow-label">Diet</div>
     <div class="pillrow" id="modes" role="tablist"></div>
@@ -378,6 +501,23 @@
             return d.toISOString().slice(0, 10);
         }
 
+        function shortLocationLabel(location) {
+            const display = location.display || location.region.replaceAll('_', ' ');
+            if (display.startsWith('Walmart.com')) return 'Walmart national';
+            if (display.includes(' Reference')) return display.split(' (')[0];
+            const [store, address] = display.split(' — ');
+            if (!address) return display;
+            const parts = address.split(',').map(part => part.trim());
+            const city = parts.length >= 2 ? parts[parts.length - 2] : '';
+            return city ? `${store} · ${city}` : store;
+        }
+
+        function comparisonCost(sol) {
+            if (!sol || sol.status !== 'optimal' || sol.cost_per_day == null) return null;
+            if (sol.cost_per_day_usd != null) return Number(sol.cost_per_day_usd);
+            return sol.currency === 'USD' ? Number(sol.cost_per_day) : null;
+        }
+
         function buildPills(hostId, items, currentKey, getKey, getLabel, onClick) {
             const host = document.getElementById(hostId);
             host.innerHTML = '';
@@ -407,15 +547,85 @@
                        k => { STATE.region = k; render(); });
         }
 
-        function findSolution(variant) {
-            variant = variant || STATE.variant;
-            return DATA.solutions.find(s => s.mode === STATE.mode
-                && s.location_region === STATE.region
+        function solutionFor(mode, region, variant) {
+            return DATA.solutions.find(s => s.mode === mode
+                && s.location_region === region
                 && (s.variant || 'food_only') === variant);
+        }
+
+        function findSolution(variant) {
+            return solutionFor(STATE.mode, STATE.region, variant || STATE.variant);
         }
 
         function hasAnySupplementSolution() {
             return DATA.solutions.some(s => s.variant === 'with_supplements');
+        }
+
+        function renderOverview() {
+            const host = document.getElementById('overview');
+            const locations = DATA.locations || [];
+            const costs = DATA.solutions.map(comparisonCost).filter(cost => cost != null);
+            const maxCost = costs.length ? Math.max(...costs) : 0;
+            const best = {};
+            MODES.forEach(mode => VARIANTS.forEach(variant => {
+                const candidates = DATA.solutions
+                    .filter(sol => sol.mode === mode
+                        && (sol.variant || 'food_only') === variant)
+                    .map(comparisonCost)
+                    .filter(cost => cost != null);
+                best[`${mode}:${variant}`] = candidates.length ? Math.min(...candidates) : null;
+            }));
+
+            const headers = MODES.map(mode =>
+                `<th scope="col">${MODE_LABELS[mode] || mode}</th>`).join('');
+            const rows = locations.map(location => {
+                const cells = MODES.map(mode => {
+                    const buttons = VARIANTS.map(variant => {
+                        const sol = solutionFor(mode, location.region, variant);
+                        const cost = comparisonCost(sol);
+                        if (cost == null) {
+                            return `<button type="button" class="overview-result unavailable" disabled>
+                                <span class="overview-kind">${variant === 'food_only' ? 'food' : '+ pills'}</span>
+                                <span class="overview-cost">—</span>
+                            </button>`;
+                        }
+                        const active = mode === STATE.mode
+                            && location.region === STATE.region
+                            && variant === STATE.variant;
+                        const isBest = Math.abs(cost - best[`${mode}:${variant}`]) < 1e-8;
+                        const width = maxCost ? Math.max(4, cost / maxCost * 100) : 0;
+                        const usd = sol.currency === 'USD'
+                            ? '' : ` · ${fmtMoney(cost, 'USD')} equivalent`;
+                        const label = `${shortLocationLabel(location)} · ${MODE_LABELS[mode] || mode} · ${VARIANT_LABELS[variant]}`;
+                        return `<button type="button" class="overview-result${active ? ' active' : ''}${isBest ? ' best' : ''}"
+                            data-mode="${mode}" data-region="${location.region}" data-variant="${variant}"
+                            style="--bar-width:${width.toFixed(1)}%"
+                            title="${label}: ${fmtMoney(sol.cost_per_day, sol.currency)} per day${usd}"
+                            aria-label="${label}: ${fmtMoney(sol.cost_per_day, sol.currency)} per day">
+                            <span class="overview-kind">${variant === 'food_only' ? 'food' : '+ pills'}</span>
+                            <span class="overview-cost">${fmtMoney(sol.cost_per_day, sol.currency)}</span>
+                        </button>`;
+                    }).join('');
+                    return `<td><div class="overview-pair">${buttons}</div></td>`;
+                }).join('');
+                return `<tr>
+                    <th scope="row" title="${location.display}">${shortLocationLabel(location)}</th>
+                    ${cells}
+                </tr>`;
+            }).join('');
+
+            host.innerHTML = `<div class="table-scroll"><table class="overview-table">
+                <thead><tr><th class="venue-head" scope="col">Venue</th>${headers}</tr></thead>
+                <tbody>${rows}</tbody>
+            </table></div>`;
+            host.querySelectorAll('.overview-result[data-mode]').forEach(button => {
+                button.addEventListener('click', () => {
+                    STATE.mode = button.dataset.mode;
+                    STATE.region = button.dataset.region;
+                    STATE.variant = button.dataset.variant;
+                    render();
+                });
+            });
         }
 
         function labelFor(nutrientId) {
@@ -736,9 +946,10 @@
         }
 
         function render() {
-            renderModePills(STATE.mode);
             const regions = [...new Set(DATA.solutions.map(s => s.location_region))];
             if (!STATE.region || !regions.includes(STATE.region)) STATE.region = regions[0];
+            renderOverview();
+            renderModePills(STATE.mode);
             renderLocationPills(regions, STATE.region);
             renderVariantPills();
             const sol = findSolution();
