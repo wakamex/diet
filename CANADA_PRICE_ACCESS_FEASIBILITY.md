@@ -1,6 +1,6 @@
 # Canada grocery-price access: feasibility and proposed design
 
-Status: Metro/Food Basics integrated into daily optimizer/site; PC Express client implemented
+Status: Metro/Food Basics and PC Express reference venues integrated into daily optimizer/site
 Target geography: Ottawa, Ontario
 Retailers: Loblaws, Real Canadian Superstore, No Frills, Metro, Food Basics, Farm Boy, Costco
 Observed: 2026-08-08
@@ -10,8 +10,7 @@ Observed: 2026-08-08
 The first phase is implemented in
 [`diet/sources/pc_express.py`](diet/sources/pc_express.py). It exposes normalized
 store lookup, product search, and exact-LIAM quote matching. It deliberately
-does not expose PC Express's add, remove, update, or clear-cart tools and is not
-connected to the optimizer ingest path.
+does not expose PC Express's add, remove, update, or clear-cart tools.
 
 ```sh
 # Nearby stores, normalized as JSON
@@ -30,6 +29,22 @@ uv run diet pcx search "long grain rice" \
 The client returns effective package price and stock state. Package size must
 still be verified and stored in curated SKU metadata before a quote can affect
 the solver.
+
+Superstore and No Frills are connected to the optimizer through explicit banner
+reference stores, rather than through an ambiguous storeless quote. Inspection
+of each storefront's loaded app configuration found that `defaultStoreId`,
+`masterStoreId`, and `highAssortmentStoreId` currently agree:
+
+| Banner | Configured store ID | Reference store |
+| --- | --- | --- |
+| Real Canadian Superstore | `1033` | Dufferin & Steeles, 51 Gerry Fitzgerald Dr, Toronto |
+| No Frills | `3787` | Chris & Tanya's, 680 O'Brien Rd, Renfrew |
+
+Those IDs are declared in `data/locations.yaml`, passed explicitly on every MCP
+product search, and persisted with the raw response and normalized price. They
+are useful stable banner references, not national averages, chain minima, or
+Ottawa prices. Curated exact LIAMs cover the inexpensive staples needed to
+produce feasible baskets plus three Canadian-label Jamieson supplements.
 
 ## Implemented Metro and Food Basics reference surface
 
@@ -75,6 +90,14 @@ the FX rate and date are persisted in `data/fx_current.json`. A uniform exchange
 rate cannot change the LP basket. Failed Canadian refreshes retain the last good
 quote with its original price date and a visible stale marker.
 
+`All Canada Reference` is a derived fifth optimizer view over the four Canadian
+reference venues. It does not ingest or manufacture prices: each food and
+supplement retains the member chain and concrete quote it came from, and the LP
+may mix retailers to minimize total daily cost. Identical physical supplements
+are collapsed to their cheapest chain quote so duplicate retailer listings
+cannot multiply a label dosage cap. The view is explicitly a multi-stop
+mathematical basket, not a basket available from one store.
+
 ## Decision
 
 We can build a useful API-equivalent price service for this project, but we
@@ -101,8 +124,8 @@ every retailer's full catalog:
   approved feed or receipt/price-tag observations; Same-Day prices require
   approved Instacart developer access.
 
-The client layer now covers the three PC Express banners with local quotes plus
-Metro and Food Basics with reference quotes. Exact Farm Boy and Costco
+The client layer covers PC Express local store lookup, two explicit PC Express
+banner references, and Metro/Food Basics catalog references. Exact Farm Boy and Costco
 **in-store** coverage is not currently feasible through a supported public API.
 
 ## What “price” means
@@ -439,7 +462,7 @@ For one developer familiar with this repository:
 
 | Work | Estimate | External gate |
 | --- | ---: | --- |
-| PC Express proof and adapter | 1–2 days | Clarify permitted scheduled/public use |
+| PC Express proof, adapter, and two reference venues | Implemented | Clarify permitted scheduled/public use |
 | Metro/Food Basics reference parser | Implemented | Clarify permitted scheduled/public use |
 | Metro location counterfactual and hardening | 2–3 days | Must prove store attribution |
 | Canadian normalized schema and ingest integration | Implemented | None |
@@ -448,17 +471,17 @@ For one developer familiar with this repository:
 | Instacart production integration | engineering is modest | Approximately 30–40 days approval path |
 | Farm Boy or Costco first-party feed | unknown | Retailer agreement required |
 
-The Metro Inc. reference path is implemented through the main site. Six-banner
-delivery and warehouse coverage remains an external-data partnership project,
-not merely a scraping task.
+The Metro Inc. path and the Superstore/No Frills reference-store paths are
+implemented through the main site. Six-banner delivery and warehouse coverage
+remains an external-data partnership project, not merely a scraping task.
 
 ## Recommended sequence
 
 1. Ask Loblaw whether the PC Express MCP endpoint may be used for a low-rate,
    non-commercial daily price optimizer and whether effective prices may be
    displayed publicly.
-2. Curate exact PC Express LIAMs before connecting those local sources to the
-   optimizer; its current MCP search does not provide package size.
+2. Expand the exact PC Express LIAM set only when package size has been
+   independently verified; its current MCP search does not provide that field.
 3. Build a separate store-selected Metro Inc. adapter only if local quotes are
    required; it must pass a fresh two-store counterfactual.
 4. Apply to Instacart for item-level product/price access and explicit storage,

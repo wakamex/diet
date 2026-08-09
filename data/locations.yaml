@@ -27,6 +27,20 @@
   display: "Walmart — 700 Keeaumoku St, Honolulu, HI 96814"
   source: walmart
 
+# Derived optimizer venue: every currently priced Canadian SKU is eligible,
+# while basket rows retain the member retailer that supplies their price.
+- region: canada_reference
+  location_id: "canada-reference"
+  display: "All Canada Reference (best across four chains)"
+  source: canada
+  currency: CAD
+  price_scope: reference
+  member_regions:
+    - metro_reference
+    - foodbasics_reference
+    - superstore_reference
+    - nofrills_reference
+
 - region: metro_reference
   location_id: "metro-reference"
   display: "Metro Reference (Canada; unlocalized online catalog)"
@@ -40,3 +54,26 @@
   source: foodbasics
   currency: CAD
   price_scope: reference
+
+# PC Express storefront defaults are explicit store-scoped references. These
+# IDs are the banners' configured defaultStoreId/masterStoreId, not a national
+# average or the cheapest store in the chain.
+- region: superstore_reference
+  location_id: "1033"
+  display: "Superstore Reference — Dufferin & Steeles, Toronto"
+  source: superstore
+  currency: CAD
+  price_scope: reference
+  reference_store_name: "Real Canadian Superstore — Dufferin & Steeles"
+  reference_store_address: "51 Gerry Fitzgerald Dr, Toronto, ON M3J 3N4"
+  reference_store_basis: "PC Express storefront defaultStoreId/masterStoreId"
+
+- region: nofrills_reference
+  location_id: "3787"
+  display: "No Frills Reference — Chris & Tanya's, Renfrew"
+  source: nofrills
+  currency: CAD
+  price_scope: reference
+  reference_store_name: "Chris & Tanya's No Frills"
+  reference_store_address: "680 O'Brien Rd, Renfrew, ON K7V 3S1"
+  reference_store_basis: "PC Express storefront defaultStoreId/masterStoreId"

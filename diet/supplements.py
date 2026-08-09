@@ -14,7 +14,7 @@ from pathlib import Path
 
 import yaml
 
-from diet.foods import Location, SkuSpec
+from diet.foods import Location, SkuSpec, price_locations_for
 from diet.solver import Food
 
 DEFAULT_SUPPLEMENTS_PATH = Path("data/supplements.yaml")
@@ -30,7 +30,7 @@ class SupplementSpec:
     max_tablets_per_day: float
     dietary_categories: frozenset[str]
     nutrients_per_tablet: dict[str, float]    # keyed by our canonical nutrient ids
-    source: str = "kroger"                    # "kroger" | "walmart" — routes ingest
+    source: str = "kroger"                    # retailer/source key — routes ingest
     package_label: str | None = None
     search_query: str | None = None
 
@@ -93,14 +93,17 @@ def build_supplement_foods(
     prices: dict[tuple[str, str], dict],
     *,
     use_promo: bool = True,
+    locations: list[Location] | None = None,
 ) -> list[Food]:
     """Build Food records for supplements at one location. Skips any without a
     price at that location (same semantics as foods.build_foods_for_location)."""
     foods: list[Food] = []
+    price_locations = price_locations_for(location, locations)
     for s in supps:
-        if s.source != location.source:
+        price_location = price_locations.get(s.source)
+        if price_location is None:
             continue
-        row = prices.get((s.product_id, location.location_id))
+        row = prices.get((s.product_id, price_location.location_id))
         if not row:
             continue
         regular = row.get("regular")
@@ -110,7 +113,10 @@ def build_supplement_foods(
             continue
         price_per_g = float(chosen) / s.unit_grams
         foods.append(Food(
-            sku_id=s.product_id,
+            sku_id=(
+                f"{s.source}:{s.product_id}"
+                if location.member_regions else s.product_id
+            ),
             name=s.name,
             price_per_g=price_per_g,
             nutrients_per_g=s.nutrients_per_g,
@@ -125,15 +131,48 @@ def build_supplement_foods(
                 "price_regular": regular,
                 "price_promo": promo,
                 "price_used": chosen,
-                "price_kind": "promo" if (use_promo and promo) else "regular",
-                "location_id": location.location_id,
-                "location_display": location.display,
+                "price_kind": (
+                    "promo" if (use_promo and promo)
+                    else row.get("price_kind", "regular")
+                ),
+                "location_id": price_location.location_id,
+                "location_display": price_location.display,
+                **({
+                    "price_retailer": s.source,
+                    "solution_location_id": location.location_id,
+                    "solution_location_display": location.display,
+                } if location.member_regions else {}),
                 "currency": location.currency,
                 "price_scope": location.price_scope,
+                "price_channel": row.get("channel"),
                 "price_fetched_at": row.get("fetched_at"),
                 "price_observed_at": row.get("observed_at"),
                 "price_stale": bool(row.get("stale", False)),
                 "price_source_url": row.get("source_url"),
             },
         ))
-    return foods
+    if not location.member_regions:
+        return foods
+
+    # The same physical supplement may be mapped with different retailer IDs.
+    # Keep only its cheapest quote so a composite venue cannot evade a label's
+    # per-day cap by buying duplicate packages from multiple chains.
+    specs_by_sku_id = {
+        f"{spec.source}:{spec.product_id}": spec
+        for spec in supps
+        if spec.source in price_locations
+    }
+    cheapest: dict[tuple, Food] = {}
+    for food in foods:
+        spec = specs_by_sku_id[food.sku_id]
+        signature = (
+            spec.name,
+            spec.count,
+            spec.tablet_g,
+            spec.max_tablets_per_day,
+            tuple(sorted(spec.nutrients_per_tablet.items())),
+        )
+        current = cheapest.get(signature)
+        if current is None or food.price_per_g < current.price_per_g:
+            cheapest[signature] = food
+    return list(cheapest.values())

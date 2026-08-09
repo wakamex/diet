@@ -49,8 +49,8 @@ def cmd_ingest(args: argparse.Namespace) -> int:
 def cmd_solve(args: argparse.Namespace) -> int:
     """Solve every (mode × location × variant).
 
-    Variant `food_only` uses just the Kroger food SKUs; `with_supplements`
-    adds the Kroger-brand multivitamin/B12/calcium+D from data/supplements.yaml.
+    Variant `food_only` uses the location's food SKUs; `with_supplements`
+    adds the supplements curated and currently priced for that retailer.
     Both variants are emitted so the website can toggle between them and show
     the cost delta (= the "supplement arbitrage").
     """
@@ -65,11 +65,15 @@ def cmd_solve(args: argparse.Namespace) -> int:
 
     solutions: list[dict] = []
     for loc in locations:
-        food_foods = build_foods_for_location(skus, loc, prices, use_promo=True)
+        food_foods = build_foods_for_location(
+            skus, loc, prices, use_promo=True, locations=locations
+        )
         if not food_foods:
             print(f"solve: no priced foods at {loc.region} ({loc.location_id}); skipping")
             continue
-        supp_foods = build_supplement_foods(supps, loc, prices, use_promo=True)
+        supp_foods = build_supplement_foods(
+            supps, loc, prices, use_promo=True, locations=locations
+        )
         variants: list[tuple[str, list]] = [("food_only", food_foods)]
         if supp_foods:
             variants.append(("with_supplements", food_foods + supp_foods))

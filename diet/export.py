@@ -7,10 +7,12 @@ from pathlib import Path
 from typing import Any
 
 from diet.foods import (
+    Location,
     build_foods_for_location,
     load_all_skus,
     load_locations,
     load_prices,
+    price_locations_for,
 )
 from diet.solver import NutrientTarget, Solution, solve
 from diet.supplements import build_supplement_foods, load_supplements
@@ -119,24 +121,44 @@ def _strip_brand(name: str) -> str:
     return s.strip(" ®™") or name
 
 
-def _merge_prices(rows: list[dict], regions: list[str]) -> dict:
-    """Cell-level merge: for each region, take the first non-null price across
-    the input rows. Attaches `unit_grams` (and tablet metadata for supplements)
-    from the *source* SKU so the renderer normalizes each cell against the
-    right package size — Kroger 5oz yogurt cup and Walmart 32oz tub get the
-    correct $/kg even though they share a row."""
+def _merge_prices(rows: list[dict], locations: list[Location]) -> dict:
+    """Merge concept prices, choosing the best normalized composite quote.
+
+    The selected cell retains the source SKU's package size so Kroger's 5 oz
+    yogurt and Walmart's 32 oz tub normalize correctly even on one catalog row.
+    """
     out: dict = {}
-    for r in regions:
-        out[r] = None
-        for row in rows:
-            v = row.get("prices_by_region", {}).get(r)
-            if v is not None:
-                cell = {**v, "unit_grams": row["unit_grams"]}
-                if row.get("kind") == "supplement":
-                    cell["count"] = row["count"]
-                    cell["tablet_g"] = row["tablet_g"]
-                out[r] = cell
-                break
+    for location in locations:
+        candidates = [
+            (row, row.get("prices_by_region", {}).get(location.region))
+            for row in rows
+            if row.get("prices_by_region", {}).get(location.region) is not None
+        ]
+        if not candidates:
+            out[location.region] = None
+            continue
+        if location.member_regions:
+            def normalized(candidate):
+                row, value = candidate
+                package_price = value["effective"]
+                divisor = (
+                    row.get("count")
+                    if row.get("kind") == "supplement"
+                    else row.get("unit_grams")
+                )
+                return package_price / divisor
+
+            row, value = min(candidates, key=normalized)
+        else:
+            row, value = candidates[0]
+        cell = {**value, "unit_grams": row["unit_grams"]}
+        if location.member_regions:
+            cell["retailer"] = row["source"]
+            cell["product_id"] = row["product_id"]
+        if row.get("kind") == "supplement":
+            cell["count"] = row["count"]
+            cell["tablet_g"] = row["tablet_g"]
+        out[location.region] = cell
     return out
 
 
@@ -158,17 +180,28 @@ def _build_catalog(value_scores: dict[str, float] | None = None) -> tuple[list[d
         "display": l.display,
         "currency": l.currency,
         "price_scope": l.price_scope,
+        "reference_store_name": l.reference_store_name,
+        "reference_store_address": l.reference_store_address,
+        "reference_store_basis": l.reference_store_basis,
+        "member_regions": list(l.member_regions) or None,
         "fx_to_usd": (fx_rates.get(l.currency) or {}).get("to_usd"),
         "fx_as_of": (fx_rates.get(l.currency) or {}).get("as_of"),
     } for l in locations]
-    region_keys = [l.region for l in locations]
+    price_locations = {
+        location.region: price_locations_for(location, locations)
+        for location in locations
+    }
 
     # First, build per-SKU rows with prices_by_region.
     raw: list[dict] = []
     for sku in skus:
         prices_by_region: dict = {}
         for loc in locations:
-            row = prices.get((sku.product_id, loc.location_id))
+            price_location = price_locations[loc.region].get(sku.source)
+            row = (
+                prices.get((sku.product_id, price_location.location_id))
+                if price_location else None
+            )
             if row is None:
                 prices_by_region[loc.region] = None
             else:
@@ -192,7 +225,11 @@ def _build_catalog(value_scores: dict[str, float] | None = None) -> tuple[list[d
     for s in supps:
         prices_by_region = {}
         for loc in locations:
-            row = prices.get((s.product_id, loc.location_id))
+            price_location = price_locations[loc.region].get(s.source)
+            row = (
+                prices.get((s.product_id, price_location.location_id))
+                if price_location else None
+            )
             if row is None:
                 prices_by_region[loc.region] = None
             else:
@@ -250,7 +287,7 @@ def _build_catalog(value_scores: dict[str, float] | None = None) -> tuple[list[d
                 (m["value_score"] for m in members if m["value_score"] is not None),
                 None,
             ),
-            "prices_by_region": _merge_prices(members, region_keys),
+            "prices_by_region": _merge_prices(members, locations),
             "variants": [
                 {"source": m["source"], "product_id": m["product_id"],
                  "name": m["name"], "unit_grams": m["unit_grams"]}

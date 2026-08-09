@@ -56,6 +56,10 @@ class Location:
     source: str = "kroger"
     currency: str = "USD"
     price_scope: str = "store"
+    reference_store_name: str | None = None
+    reference_store_address: str | None = None
+    reference_store_basis: str | None = None
+    member_regions: tuple[str, ...] = ()
 
 
 def load_skus(path: Path | str = DEFAULT_SKUS_PATH,
@@ -104,7 +108,10 @@ def load_canada_skus(
         if concept is None:
             raise ValueError(f"Canadian mapping references unknown FDC concept {fdc_id}")
         sources = row.get("sources") or [row.get("source")]
-        if not sources or any(source not in {"metro", "foodbasics"} for source in sources):
+        if not sources or any(
+            source not in {"metro", "foodbasics", "superstore", "nofrills"}
+            for source in sources
+        ):
             raise ValueError(
                 f"Canadian mapping {row.get('product_id')!r} has invalid sources"
             )
@@ -129,7 +136,38 @@ def load_locations(path: Path | str = DEFAULT_LOCATIONS_PATH) -> list[Location]:
                      display=r.get("display", r["location_id"]),
                      source=r.get("source", "kroger"),
                      currency=r.get("currency", "USD").upper(),
-                     price_scope=r.get("price_scope", "store")) for r in raw]
+                     price_scope=r.get("price_scope", "store"),
+                     reference_store_name=r.get("reference_store_name"),
+                     reference_store_address=r.get("reference_store_address"),
+                     reference_store_basis=r.get("reference_store_basis"),
+                     member_regions=tuple(r.get("member_regions") or ())) for r in raw]
+
+
+def price_locations_for(
+    location: Location,
+    locations: list[Location] | None = None,
+) -> dict[str, Location]:
+    """Map retailer source keys to the concrete locations supplying prices."""
+    if not location.member_regions:
+        return {location.source: location}
+    configured = locations or load_locations()
+    by_region = {item.region: item for item in configured}
+    missing = [region for region in location.member_regions if region not in by_region]
+    if missing:
+        raise ValueError(
+            f"composite location {location.region!r} has unknown members: {missing}"
+        )
+    members = [by_region[region] for region in location.member_regions]
+    sources = {member.source: member for member in members}
+    if len(sources) != len(members):
+        raise ValueError(
+            f"composite location {location.region!r} has duplicate retailer sources"
+        )
+    if any(member.currency != location.currency for member in members):
+        raise ValueError(
+            f"composite location {location.region!r} mixes currencies"
+        )
+    return sources
 
 
 def load_prices(path: Path | str = DEFAULT_PRICES_PATH) -> dict[tuple[str, str], dict]:
@@ -149,6 +187,7 @@ def build_foods_for_location(
     fdc_cache: Path = DEFAULT_FDC_CACHE,
     nutrients_path: Path | str = DEFAULT_NUTRIENTS_PATH,
     use_promo: bool = True,
+    locations: list[Location] | None = None,
 ) -> list[Food]:
     """Materialize Food records for every SKU that has a price at this location.
 
@@ -157,10 +196,12 @@ def build_foods_for_location(
     """
     foods: list[Food] = []
     sku_nutrients = load_sku_nutrients(nutrients_path)
+    price_locations = price_locations_for(location, locations)
     for sku in skus:
-        if sku.source != location.source:
+        price_location = price_locations.get(sku.source)
+        if price_location is None:
             continue
-        price_row = prices.get((sku.product_id, location.location_id))
+        price_row = prices.get((sku.product_id, price_location.location_id))
         if not price_row:
             continue
         regular = price_row.get("regular")
@@ -179,7 +220,10 @@ def build_foods_for_location(
         )
 
         foods.append(Food(
-            sku_id=sku.product_id,
+            sku_id=(
+                f"{sku.source}:{sku.product_id}"
+                if location.member_regions else sku.product_id
+            ),
             name=sku.name,
             price_per_g=price_per_g,
             nutrients_per_g=nutrients,
@@ -198,11 +242,20 @@ def build_foods_for_location(
                 "price_regular": regular,
                 "price_promo": promo,
                 "price_used": chosen,
-                "price_kind": "promo" if (use_promo and promo) else "regular",
-                "location_id": location.location_id,
-                "location_display": location.display,
+                "price_kind": (
+                    "promo" if (use_promo and promo)
+                    else price_row.get("price_kind", "regular")
+                ),
+                "location_id": price_location.location_id,
+                "location_display": price_location.display,
+                **({
+                    "price_retailer": sku.source,
+                    "solution_location_id": location.location_id,
+                    "solution_location_display": location.display,
+                } if location.member_regions else {}),
                 "currency": location.currency,
                 "price_scope": location.price_scope,
+                "price_channel": price_row.get("channel"),
                 "price_fetched_at": price_row.get("fetched_at"),
                 "price_observed_at": price_row.get("observed_at"),
                 "price_stale": bool(price_row.get("stale", False)),
