@@ -288,6 +288,13 @@
             color: #b6aa99;
         }
         td.name { color: #e0e0e0; }
+        .retailer-note {
+            display: block;
+            margin-top: 2px;
+            color: #8a7d6a;
+            font-size: 0.7rem;
+            letter-spacing: 0.03em;
+        }
         td.num {
             text-align: right;
             font-variant-numeric: tabular-nums;
@@ -493,8 +500,8 @@
 
     <div class="footer">
         <p>Linear program: minimize daily cost in each market's native currency subject to RDAs/ULs (NIH ODS, adult M 31–50), supplement dosage caps, and dietary-mode exclusions. Solved with HiGHS via <code>scipy.optimize.linprog</code>.</p>
-        <p>Prices: <a href="https://developer.kroger.com/">Kroger Public Products API</a>, Walmart product feeds, and the Metro Inc. storefront reference catalogs. CAD→USD comparisons use the <a href="https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1">Bank of Canada daily rate</a>. Nutrients: <a href="https://fdc.nal.usda.gov/">USDA FoodData Central</a>. Targets: <a href="https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx">NIH ODS DRIs</a>.</p>
-        <p>Limits: Metro Reference and Food Basics Reference are unlocalized online-catalog prices, not chain-wide minima or Ottawa-store quotes, and do not prove availability. Prices and promotions vary. The model uses one adult profile and ignores cooking, waste, bioavailability, and palatability. Foods have no serving caps.</p>
+        <p>Prices: <a href="https://developer.kroger.com/">Kroger Public Products API</a>, Walmart product feeds, the Metro Inc. storefront reference catalogs, and the first-party PC Express catalog API. CAD→USD comparisons use the <a href="https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1">Bank of Canada daily rate</a>. Nutrients: <a href="https://fdc.nal.usda.gov/">USDA FoodData Central</a>. Targets: <a href="https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx">NIH ODS DRIs</a>.</p>
+        <p>Limits: Metro and Food Basics are unlocalized catalog references. Superstore and No Frills use each storefront's configured default/master store, shown by name in the selector; they are not chain-wide averages, minima, or Ottawa quotes. All Canada Reference is a mathematical cross-retailer basket and may require shopping at multiple chains. Prices and promotions vary. The model uses one adult profile and ignores cooking, waste, bioavailability, and palatability. Foods have no serving caps.</p>
         <p>The <b>food + pills</b> variant adds only the supplements curated and currently priced by that retailer. Nutrients come from each Supplement Facts label; Canadian ALA is currently food-sourced from flax and chia.</p>
         <p><a href="https://github.com/wakamex/diet">Source code</a></p>
     </div>
@@ -507,6 +514,10 @@
                              vegetarian:'vegetarian', ovo_lacto:'ovo-lacto', vegan:'vegan'};
         const VARIANTS = ['food_only', 'with_supplements'];
         const VARIANT_LABELS = {food_only:'food only', with_supplements:'food + pills'};
+        const RETAILER_LABELS = {
+            metro: 'Metro', foodbasics: 'Food Basics',
+            superstore: 'Superstore', nofrills: 'No Frills',
+        };
         const CATALOG_SORT = {key: null, direction: 'asc'};
 
         let DATA = null;
@@ -537,6 +548,12 @@
         function shortLocationLabel(location) {
             const display = location.display || location.region.replaceAll('_', ' ');
             if (display.startsWith('Walmart.com')) return 'Walmart national';
+            if (location.reference_store_name) {
+                const [banner, store] = display.split(' — ');
+                return store
+                    ? `${banner.replace(' Reference', '')} · ${store.split(',')[0]}`
+                    : banner;
+            }
             if (display.includes(' Reference')) return display.split(' (')[0];
             const [store, address] = display.split(' — ');
             if (!address) return display;
@@ -574,7 +591,7 @@
         function renderLocationPills(regions, currentRegion) {
             const labels = Object.fromEntries((DATA.locations || []).map(l => [
                 l.region,
-                l.region.replaceAll('_', ' '),
+                shortLocationLabel(l),
             ]));
             buildPills('locations', regions, currentRegion, r => r, r => labels[r] || r,
                        k => { STATE.region = k; render(); });
@@ -764,8 +781,12 @@
                     tooltip = priceKind;
                 }
                 const cls = isSupp ? 'supplement-row' : '';
+                const retailer = sol.location_region === 'canada_reference'
+                    && meta.price_retailer
+                    ? `<span class="retailer-note">${RETAILER_LABELS[meta.price_retailer] || meta.price_retailer}</span>`
+                    : '';
                 return `<tr class="${cls}">
-                    <td class="name">${b.name}</td>
+                    <td class="name">${b.name}${retailer}</td>
                     <td class="num">${qty}</td>
                     <td class="num muted" title="${tooltip}">${unitPrice}</td>
                     <td class="num">${fmtMoney(b.cost_per_day, sol.currency)}</td>
@@ -874,6 +895,9 @@
                 const amt = per < 1 ? per.toFixed(3) : per.toFixed(2);
                 const promo = (p.promo && p.promo > 0 && p.effective === p.promo)
                     ? ` <span style="color:#ff9800; font-weight:700;">•</span>` : '';
+                if (location.member_regions?.length && p.retailer) {
+                    tooltip += ` · ${RETAILER_LABELS[p.retailer] || p.retailer}`;
+                }
                 return `<td class="num" title="${tooltip}">${currencySymbol(location.currency)}${amt}<span class="unit-suffix">${suffix}</span>${promo}</td>`;
             };
             const unit = c => {

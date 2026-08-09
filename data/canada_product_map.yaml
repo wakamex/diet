@@ -640,3 +640,94 @@
   package: 2 kg
   unit_grams: 2000
   sources: [metro, foodbasics]
+
+# PC Express banner reference-store mappings. These use exact LIAMs and
+# separately verified package sizes because the MCP result exposes current
+# effective price and stock, but not package quantity.
+- fdc_id: 2644283
+  query: green lentils
+  product_id: "20629679_EA"
+  name: PC Blue Menu Green Lentils
+  package: 900 g
+  unit_grams: 900
+  sources: [superstore, nofrills]
+- fdc_id: 175186
+  query: black turtle beans
+  product_id: "20629153_EA"
+  name: PC Blue Menu Black Turtle Beans
+  package: 900 g
+  unit_grams: 900
+  sources: [superstore, nofrills]
+- fdc_id: 173744
+  query: dry kidney beans
+  product_id: "20629494_EA"
+  name: PC Blue Menu Red Kidney Beans
+  package: 900 g
+  unit_grams: 900
+  sources: [superstore, nofrills]
+- fdc_id: 172428
+  query: green split peas
+  product_id: "20629219_EA"
+  name: PC Blue Menu Green Split Peas
+  package: 900 g
+  unit_grams: 900
+  sources: [superstore, nofrills]
+- fdc_id: 169287
+  query: frozen chopped spinach
+  product_id: "21096445_EA"
+  name: President's Choice Chopped Spinach
+  package: 500 g
+  unit_grams: 500
+  sources: [superstore, nofrills]
+- fdc_id: 172370
+  query: vegetable oil
+  product_id: "20103390_EA"
+  name: No Name 100% Pure Vegetable Oil
+  package: 3 L
+  unit_grams: 2760
+  sources: [superstore, nofrills]
+  _unit_basis: 0.92 g/mL vegetable oil density
+- fdc_id: 174266
+  query: smooth peanut butter
+  product_id: "20296985001_EA"
+  name: No Name Smooth Peanut Butter
+  package: 1 kg
+  unit_grams: 1000
+  sources: [superstore, nofrills]
+- fdc_id: 2257046
+  query: original oat milk
+  product_id: "21037796_EA"
+  name: Earth's Own Original Oat Milk Alternative
+  package: 1.75 L
+  unit_grams: 1750
+  sources: [superstore, nofrills]
+  _unit_basis: 1.0 g/mL beverage estimate
+- fdc_id: 173884
+  query: original cheerios family size
+  product_id: "21103499_EA"
+  name: General Mills Original Cheerios Family Size
+  package: 570 g
+  unit_grams: 570
+  sources: [superstore, nofrills]
+- fdc_id: 169103
+  query: Oasis orange juice
+  product_id: "20336722005_EA"
+  name: Oasis Orange Pure Breakfast Juice
+  package: 960 mL
+  unit_grams: 998.4
+  sources: [superstore, nofrills]
+  _unit_basis: 1.04 g/mL orange juice density
+- fdc_id: 169697
+  query: Grace cornmeal
+  product_id: "20602161_EA"
+  name: Grace Cornmeal
+  package: 2 kg
+  unit_grams: 2000
+  source: superstore
+- fdc_id: 169697
+  query: Unico cornmeal
+  product_id: "20105105_EA"
+  name: Unico Cornmeal
+  package: 750 g
+  unit_grams: 750
+  source: nofrills

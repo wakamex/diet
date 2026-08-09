@@ -1,7 +1,7 @@
 """Daily ingest: refresh prices for every (SKU × location), write current data.
 
-Routes each SKU to its source's API (Kroger Products API or Walmart.io Affiliate
-Product Details, or the Metro Inc. reference catalog) based on the
+Routes each SKU to its source's API (Kroger Products API, Walmart.io Affiliate
+Product Details, Metro Inc. reference catalogs, or PC Express reference stores) based on the
 ``SkuSpec.source`` field.
 """
 
@@ -25,6 +25,12 @@ from diet.sources.metro_reference import (
     MetroReferenceError,
     MetroReferenceQuote,
 )
+from diet.sources.pc_express import (
+    PC_EXPRESS_MCP_URL,
+    PCExpressClient,
+    PCExpressError,
+    PCExpressQuote,
+)
 from diet.sources.walmart import WalmartClient
 from diet.supplements import as_sku_specs, load_supplements
 from diet.util import read_json, write_json_atomic
@@ -32,6 +38,7 @@ from diet.util import read_json, write_json_atomic
 DEFAULT_RAW_ROOT = Path("data/raw/kroger")
 DEFAULT_WALMART_RAW_ROOT = Path("data/raw/walmart")
 DEFAULT_METRO_RAW_ROOT = Path("data/raw/metro_reference")
+DEFAULT_PC_EXPRESS_RAW_ROOT = Path("data/raw/pc_express")
 DEFAULT_OUT_PATH = Path("data/prices_current.json")
 DEFAULT_NUTRIENTS_OUT_PATH = Path("data/nutrients_current.json")
 DEFAULT_FX_OUT_PATH = Path("data/fx_current.json")
@@ -341,6 +348,107 @@ def _ingest_metro_reference(
     return rows, missing
 
 
+_PC_EXPRESS_PRODUCT_ROOTS = {
+    "superstore": "https://www.realcanadiansuperstore.ca/en/p/",
+    "nofrills": "https://www.nofrills.ca/en/p/",
+}
+
+
+def _ingest_pc_express_reference(
+    skus: list[SkuSpec],
+    location: Location,
+    client: PCExpressClient,
+    today: str,
+    raw_root: Path,
+) -> tuple[list[dict], list[dict]]:
+    """Search exact curated LIAMs at an explicit PC Express reference store."""
+    rows: list[dict] = []
+    missing: list[dict] = []
+    searches: list[dict] = []
+    for sku in skus:
+        if not sku.search_query:
+            missing.append({
+                "product_id": sku.product_id,
+                "name": sku.name,
+                "location_id": location.location_id,
+                "reason": "curated PC Express SKU has no search query",
+            })
+            continue
+        try:
+            search = client.search_products(
+                store_id=location.location_id,
+                banner=location.source,
+                terms=sku.search_query,
+                num_results=100,
+            )
+        except (PCExpressError, ValueError) as exc:
+            missing.append({
+                "product_id": sku.product_id,
+                "name": sku.name,
+                "location_id": location.location_id,
+                "reason": f"reference request failed: {exc}",
+            })
+            continue
+        searches.append(search.as_dict())
+        product = next(
+            (item for item in search.products if item.product_id == sku.product_id),
+            None,
+        )
+        if product is None:
+            reason = "exact LIAM not returned"
+        elif product.in_stock is False:
+            reason = "out of stock at reference store"
+        else:
+            reason = None
+        if reason:
+            missing.append({
+                "product_id": sku.product_id,
+                "name": sku.name,
+                "location_id": location.location_id,
+                "reason": reason,
+            })
+            continue
+
+        quote = PCExpressQuote.from_search(search, product)
+        rows.append({
+            "product_id": sku.product_id,
+            "location_id": location.location_id,
+            # MCP exposes one current effective price, without a regular/promo split.
+            "regular": quote.effective_price_cad,
+            "promo": None,
+            "currency": "CAD",
+            "price_scope": "reference",
+            "channel": quote.channel,
+            "price_kind": "effective",
+            "price_basis": "package",
+            "package": sku.package_label,
+            "source_url": _PC_EXPRESS_PRODUCT_ROOTS[location.source] + sku.product_id,
+            "api_source_url": PC_EXPRESS_MCP_URL,
+            "observed_at": quote.observed_at,
+            "fetched_at": today,
+            "stale": False,
+            "banner": quote.banner,
+            "store_id": quote.store_id,
+            "reference_store_name": location.reference_store_name,
+            "reference_store_address": location.reference_store_address,
+            "reference_store_basis": location.reference_store_basis,
+        })
+    write_json_atomic(
+        raw_root / today / f"{location.source}-{location.location_id}.json",
+        {
+            "source": "pc_express_mcp",
+            "source_url": PC_EXPRESS_MCP_URL,
+            "banner": location.source,
+            "store_id": location.location_id,
+            "reference_store_name": location.reference_store_name,
+            "reference_store_address": location.reference_store_address,
+            "reference_store_basis": location.reference_store_basis,
+            "searches": searches,
+        },
+    )
+    return rows, missing
+
+
 def _retain_reference_prices(
     rows: list[dict],
     previous_rows: list[dict],
@@ -410,10 +518,12 @@ def ingest(
     kroger_client: KrogerClient | None = None,
     walmart_client: WalmartClient | None = None,
     metro_clients: dict[str, MetroReferenceClient] | None = None,
+    pc_express_clients: dict[str, PCExpressClient] | None = None,
     fx_client: BankOfCanadaClient | None = None,
     raw_root: Path = DEFAULT_RAW_ROOT,
     walmart_raw_root: Path = DEFAULT_WALMART_RAW_ROOT,
     metro_raw_root: Path = DEFAULT_METRO_RAW_ROOT,
+    pc_express_raw_root: Path = DEFAULT_PC_EXPRESS_RAW_ROOT,
     fdc_cache: Path = DEFAULT_FDC_CACHE,
     out_path: Path = DEFAULT_OUT_PATH,
     nutrients_out_path: Path = DEFAULT_NUTRIENTS_OUT_PATH,
@@ -430,7 +540,12 @@ def ingest(
     walmart_skus = [s for s in skus if s.source == "walmart"]
     kroger_locs = [l for l in locations if l.source == "kroger"]
     walmart_locs = [l for l in locations if l.source == "walmart"]
-    reference_locs = [l for l in locations if l.source in {"metro", "foodbasics"}]
+    metro_reference_locs = [
+        l for l in locations if l.source in {"metro", "foodbasics"}
+    ]
+    pc_express_reference_locs = [
+        l for l in locations if l.source in {"superstore", "nofrills"}
+    ]
 
     rows: list[dict] = []
     missing: list[dict] = []
@@ -452,13 +567,25 @@ def ingest(
         rows += r; missing += m; nutrient_rows += n; nutrient_warnings += w
 
     metro_clients = metro_clients or {}
-    for loc in reference_locs:
+    for loc in metro_reference_locs:
         retailer_skus = [sku for sku in skus if sku.source == loc.source]
         if not retailer_skus:
             continue
         client = metro_clients.get(loc.source) or MetroReferenceClient(loc.source)
         r, m = _ingest_metro_reference(
             retailer_skus, loc, client, today, metro_raw_root
+        )
+        rows += r
+        missing += m
+
+    pc_express_clients = pc_express_clients or {}
+    for loc in pc_express_reference_locs:
+        retailer_skus = [sku for sku in skus if sku.source == loc.source]
+        if not retailer_skus:
+            continue
+        client = pc_express_clients.get(loc.source) or PCExpressClient()
+        r, m = _ingest_pc_express_reference(
+            retailer_skus, loc, client, today, pc_express_raw_root
         )
         rows += r
         missing += m
