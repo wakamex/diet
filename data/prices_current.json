@@ -5362,6 +5362,22 @@
       "reference_store_name": "Chris & Tanya's No Frills",
       "reference_store_address": "680 O'Brien Rd, Renfrew, ON K7V 3S1",
       "reference_store_basis": "PC Express storefront defaultStoreId/masterStoreId"
+    },
+    {
+      "product_id": "6000204673258",
+      "location_id": "walmart-ca-reference",
+      "regular": 17.57,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "channel": "online_catalog",
+      "price_kind": "effective",
+      "price_basis": "package",
+      "package": "250 tablets",
+      "source_url": "https://www.walmart.ca/en/ip/equate-multivitamin-250-tablets-value-size-unisex/6000204673258",
+      "observed_at": "2026-08-09T06:03:23Z",
+      "fetched_at": "2026-08-09",
+      "stale": false
     }
   ],
   "missing": [

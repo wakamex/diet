@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T04:01:25Z",
+  "updated": "2026-08-09T06:03:53Z",
   "profile": "adult_male_31_50_moderate",
   "nutrient_targets": [
     {
@@ -184,7 +184,7 @@
     {
       "region": "canada_reference",
       "location_id": "canada-reference",
-      "display": "All Canada Reference (best across four chains)",
+      "display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "reference_store_name": null,
@@ -194,7 +194,8 @@
         "metro_reference",
         "foodbasics_reference",
         "superstore_reference",
-        "nofrills_reference"
+        "nofrills_reference",
+        "walmart_ca_reference"
       ],
       "fx_to_usd": 0.7172057663343613,
       "fx_as_of": "2026-08-07"
@@ -247,6 +248,19 @@
       "reference_store_name": "Chris & Tanya's No Frills",
       "reference_store_address": "680 O'Brien Rd, Renfrew, ON K7V 3S1",
       "reference_store_basis": "PC Express storefront defaultStoreId/masterStoreId",
+      "member_regions": null,
+      "fx_to_usd": 0.7172057663343613,
+      "fx_as_of": "2026-08-07"
+    },
+    {
+      "region": "walmart_ca_reference",
+      "location_id": "walmart-ca-reference",
+      "display": "Walmart.ca Reference (unlocalized online catalog)",
+      "currency": "CAD",
+      "price_scope": "reference",
+      "reference_store_name": null,
+      "reference_store_address": null,
+      "reference_store_basis": null,
       "member_regions": null,
       "fx_to_usd": 0.7172057663343613,
       "fx_as_of": "2026-08-07"
@@ -315,7 +329,8 @@
           "unit_grams": 4120.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -391,7 +406,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -470,7 +486,8 @@
           "unit_grams": 500.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -560,7 +577,8 @@
           "unit_grams": 750.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -650,7 +668,8 @@
           "unit_grams": 378.8
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -740,7 +759,8 @@
           "unit_grams": 400.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -815,7 +835,8 @@
           "unit_grams": 900.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -899,7 +920,8 @@
           "unit_grams": 2760.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -989,7 +1011,8 @@
           "promo": null,
           "effective": 7.99,
           "unit_grams": 2760.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1065,7 +1088,8 @@
           "unit_grams": 2612.8
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1143,7 +1167,8 @@
           "unit_grams": 910.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1235,7 +1260,8 @@
           "unit_grams": 454.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1325,7 +1351,8 @@
           "unit_grams": 213.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1400,7 +1427,8 @@
           "unit_grams": 155.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1473,7 +1501,8 @@
         },
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1557,7 +1586,8 @@
           "unit_grams": 170.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1642,7 +1672,8 @@
           "unit_grams": 120.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1738,7 +1769,8 @@
           "promo": null,
           "effective": 5.5,
           "unit_grams": 570.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1826,7 +1858,8 @@
           "unit_grams": 1750.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1888,7 +1921,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -1967,7 +2001,8 @@
           "unit_grams": 1890.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2068,7 +2103,8 @@
           "promo": null,
           "effective": 4.0,
           "unit_grams": 1750.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2165,7 +2201,8 @@
           "unit_grams": 600.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2255,7 +2292,8 @@
           "unit_grams": 398.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2335,7 +2373,8 @@
           "unit_grams": 600.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2425,7 +2464,8 @@
           "unit_grams": 675.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2520,7 +2560,8 @@
           "promo": null,
           "effective": 2.25,
           "unit_grams": 998.4
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2622,7 +2663,8 @@
           "unit_grams": 750.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2702,7 +2744,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2776,7 +2819,8 @@
           "unit_grams": 675.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2866,7 +2910,8 @@
           "unit_grams": 900.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -2956,7 +3001,8 @@
           "unit_grams": 2500.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3031,7 +3077,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3083,7 +3130,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3140,7 +3188,8 @@
           "unit_grams": 1800.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3214,7 +3263,8 @@
           "unit_grams": 2000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3266,7 +3316,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3338,7 +3389,8 @@
           "unit_grams": 2200.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3423,7 +3475,8 @@
           "unit_grams": 340.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3513,7 +3566,8 @@
           "unit_grams": 454.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3603,7 +3657,8 @@
           "unit_grams": 907.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3671,7 +3726,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3744,7 +3800,8 @@
           "promo": null,
           "effective": 2.49,
           "unit_grams": 750.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3825,7 +3882,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -3909,7 +3967,8 @@
           "unit_grams": 540.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4009,7 +4068,8 @@
           "promo": null,
           "effective": 3.79,
           "unit_grams": 900.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4112,7 +4172,8 @@
           "promo": null,
           "effective": 4.5,
           "unit_grams": 1000.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4198,7 +4259,8 @@
           "promo": null,
           "effective": 3.79,
           "unit_grams": 900.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4298,7 +4360,8 @@
           "promo": null,
           "effective": 3.79,
           "unit_grams": 900.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4384,7 +4447,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4453,7 +4517,8 @@
           "unit_grams": 500.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4544,7 +4609,8 @@
           "unit_grams": 500.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4617,7 +4683,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4700,7 +4767,8 @@
           "promo": null,
           "effective": 3.79,
           "unit_grams": 900.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4802,7 +4870,8 @@
           "unit_grams": 540.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4892,7 +4961,8 @@
           "unit_grams": 540.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -4967,7 +5037,8 @@
           "unit_grams": 900.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5037,7 +5108,8 @@
           "unit_grams": 750.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5121,7 +5193,8 @@
           "unit_grams": 540.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5206,7 +5279,8 @@
           "unit_grams": 907.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5296,7 +5370,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5386,7 +5461,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5476,7 +5552,8 @@
           "unit_grams": 900.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5561,7 +5638,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5646,7 +5724,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5736,7 +5815,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5826,7 +5906,8 @@
           "unit_grams": 80.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -5916,7 +5997,8 @@
           "unit_grams": 750.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6006,7 +6088,8 @@
           "unit_grams": 100.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6096,7 +6179,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6186,7 +6270,8 @@
           "unit_grams": 100.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6254,7 +6339,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6315,7 +6401,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6393,7 +6480,8 @@
           "unit_grams": 200.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6483,7 +6571,8 @@
           "unit_grams": 300.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6573,7 +6662,8 @@
           "unit_grams": 453.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6648,7 +6738,8 @@
           "unit_grams": 2000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6710,7 +6801,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6793,7 +6885,8 @@
           "promo": null,
           "effective": 4.5,
           "unit_grams": 500.0
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6895,7 +6988,8 @@
           "unit_grams": 341.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -6980,7 +7074,8 @@
           "unit_grams": 796.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -7065,7 +7160,8 @@
           "unit_grams": 398.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -7145,7 +7241,8 @@
           "unit_grams": 1000.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -7229,7 +7326,8 @@
           "unit_grams": 1250.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -7319,7 +7417,8 @@
           "unit_grams": 540.0
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -7429,7 +7528,8 @@
           "tablet_g": 0.3
         },
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -7546,7 +7646,8 @@
           "unit_grams": 320.0,
           "count": 200,
           "tablet_g": 1.6
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -7642,13 +7743,13 @@
           "tablet_g": 1.3
         },
         "canada_reference": {
-          "regular": 24.99,
-          "promo": 16.99,
-          "effective": 16.99,
-          "unit_grams": 149.5,
-          "retailer": "metro",
-          "product_id": "064642098900",
-          "count": 115,
+          "regular": 17.57,
+          "promo": null,
+          "effective": 17.57,
+          "unit_grams": 325.0,
+          "retailer": "walmart_ca",
+          "product_id": "6000204673258",
+          "count": 250,
           "tablet_g": 1.3
         },
         "metro_reference": {
@@ -7682,6 +7783,14 @@
           "unit_grams": 149.5,
           "count": 115,
           "tablet_g": 1.3
+        },
+        "walmart_ca_reference": {
+          "regular": 17.57,
+          "promo": null,
+          "effective": 17.57,
+          "unit_grams": 325.0,
+          "count": 250,
+          "tablet_g": 1.3
         }
       },
       "variants": [
@@ -7696,6 +7805,12 @@
           "product_id": "14711329",
           "name": "Equate Complete Multivitamin/Multimineral Tablets, Adults, 200 ct",
           "unit_grams": 260.0
+        },
+        {
+          "source": "walmart_ca",
+          "product_id": "6000204673258",
+          "name": "Equate Multivitamin, 250 Tablets, Value Size",
+          "unit_grams": 325.0
         },
         {
           "source": "metro",
@@ -7774,7 +7889,8 @@
         "metro_reference": null,
         "foodbasics_reference": null,
         "superstore_reference": null,
-        "nofrills_reference": null
+        "nofrills_reference": null,
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -7851,7 +7967,8 @@
           "unit_grams": 48.0,
           "count": 240,
           "tablet_g": 0.2
-        }
+        },
+        "walmart_ca_reference": null
       },
       "variants": [
         {
@@ -36817,7 +36934,7 @@
     {
       "mode": "omnivore",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
@@ -36865,7 +36982,7 @@
             "location_display": "Metro Reference (Canada; unlocalized online catalog)",
             "price_retailer": "metro",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -36910,7 +37027,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -36956,7 +37073,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37002,7 +37119,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37048,7 +37165,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37093,7 +37210,7 @@
             "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
             "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -37125,7 +37242,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37171,7 +37288,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37217,7 +37334,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37452,7 +37569,7 @@
     {
       "mode": "pescatarian",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
@@ -37500,7 +37617,7 @@
             "location_display": "Metro Reference (Canada; unlocalized online catalog)",
             "price_retailer": "metro",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37545,7 +37662,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -37591,7 +37708,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37637,7 +37754,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37683,7 +37800,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37729,7 +37846,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -37774,7 +37891,7 @@
             "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
             "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -37806,7 +37923,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38041,7 +38158,7 @@
     {
       "mode": "vegetarian",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
@@ -38089,7 +38206,7 @@
             "location_display": "Metro Reference (Canada; unlocalized online catalog)",
             "price_retailer": "metro",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38134,7 +38251,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -38180,7 +38297,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38226,7 +38343,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38272,7 +38389,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38318,7 +38435,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38363,7 +38480,7 @@
             "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
             "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -38395,7 +38512,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38630,7 +38747,7 @@
     {
       "mode": "ovo_lacto",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
@@ -38678,7 +38795,7 @@
             "location_display": "Metro Reference (Canada; unlocalized online catalog)",
             "price_retailer": "metro",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38723,7 +38840,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -38769,7 +38886,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38815,7 +38932,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38861,7 +38978,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38907,7 +39024,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -38952,7 +39069,7 @@
             "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
             "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -38984,7 +39101,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -39219,7 +39336,7 @@
     {
       "mode": "vegan",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
@@ -39262,7 +39379,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -39308,7 +39425,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -39346,7 +39463,7 @@
             "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
             "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -39391,7 +39508,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -39437,7 +39554,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -39483,7 +39600,7 @@
             "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
             "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -39529,7 +39646,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -39561,7 +39678,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -39606,7 +39723,7 @@
             "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
             "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -39841,24 +39958,24 @@
     {
       "mode": "omnivore",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
       "fx_as_of": "2026-08-07",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.8081,
-      "cost_per_day_usd": 1.2967797461091586,
+      "cost_per_day": 1.6389,
+      "cost_per_day_usd": 1.1754285304453846,
       "price_as_of": "2026-08-09",
       "has_stale_prices": false,
       "basket": [
         {
           "sku_id": "foodbasics:062781068624",
           "name": "Divya Dry Kidney Beans",
-          "grams_per_day": 179.55,
-          "cost_per_day": 0.5942,
-          "pct_of_basket": 32.9,
+          "grams_per_day": 174.98,
+          "cost_per_day": 0.5791,
+          "pct_of_basket": 35.3,
           "meta": {
             "fdc_id": 173744,
             "nutrient_sources": {
@@ -39889,7 +40006,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -39902,9 +40019,9 @@
         {
           "sku_id": "nofrills:20103390_EA",
           "name": "No Name 100% Pure Vegetable Oil",
-          "grams_per_day": 157.94,
-          "cost_per_day": 0.4572,
-          "pct_of_basket": 25.3,
+          "grams_per_day": 164.11,
+          "cost_per_day": 0.4751,
+          "pct_of_basket": 29.0,
           "meta": {
             "fdc_id": 172370,
             "nutrient_sources": {
@@ -39934,7 +40051,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -39947,9 +40064,9 @@
         {
           "sku_id": "superstore:20629679_EA",
           "name": "PC Blue Menu Green Lentils",
-          "grams_per_day": 81.47,
-          "cost_per_day": 0.3168,
-          "pct_of_basket": 17.5,
+          "grams_per_day": 85.63,
+          "cost_per_day": 0.333,
+          "pct_of_basket": 20.3,
           "meta": {
             "fdc_id": 2644283,
             "nutrient_sources": {
@@ -39972,7 +40089,7 @@
             "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
             "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -39983,57 +40100,11 @@
           }
         },
         {
-          "sku_id": "foodbasics:226105",
-          "name": "Chicken Livers",
-          "grams_per_day": 17.85,
-          "cost_per_day": 0.1649,
-          "pct_of_basket": 9.1,
-          "meta": {
-            "fdc_id": 171060,
-            "nutrient_sources": {
-              "energy_kcal": "usda_reference:171060",
-              "protein_g": "usda_reference:171060",
-              "fiber_g": "usda_reference:171060",
-              "calcium_mg": "usda_reference:171060",
-              "iron_mg": "usda_reference:171060",
-              "magnesium_mg": "usda_reference:171060",
-              "potassium_mg": "usda_reference:171060",
-              "sodium_mg": "usda_reference:171060",
-              "zinc_mg": "usda_reference:171060",
-              "vit_c_mg": "usda_reference:171060",
-              "folate_mcg": "usda_reference:171060",
-              "vit_b12_mcg": "usda_reference:171060",
-              "vit_a_mcg": "usda_reference:171060",
-              "vit_e_mg": "usda_reference:171060",
-              "vit_d_mcg": "usda_reference:171060",
-              "ala_g": "usda_reference:171060"
-            },
-            "sku_nutrition": null,
-            "unit_grams": 1000.0,
-            "price_regular": 9.24,
-            "price_promo": null,
-            "price_used": 9.24,
-            "price_kind": "regular",
-            "location_id": "foodbasics-reference",
-            "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "foodbasics",
-            "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
-            "currency": "CAD",
-            "price_scope": "reference",
-            "price_channel": null,
-            "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:55Z",
-            "price_stale": false,
-            "price_source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105"
-          }
-        },
-        {
           "sku_id": "foodbasics:064642079619",
           "name": "Jamieson Mega Cal Calcium with Vitamin D3",
-          "grams_per_day": 1.74,
-          "cost_per_day": 0.109,
-          "pct_of_basket": 6.0,
+          "grams_per_day": 1.55,
+          "cost_per_day": 0.0971,
+          "pct_of_basket": 5.9,
           "meta": {
             "is_supplement": true,
             "count": 250,
@@ -40048,7 +40119,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -40061,9 +40132,9 @@
         {
           "sku_id": "foodbasics:055270846452",
           "name": "Grace Corn Meal",
-          "grams_per_day": 50.81,
-          "cost_per_day": 0.1014,
-          "pct_of_basket": 5.6,
+          "grams_per_day": 36.06,
+          "cost_per_day": 0.0719,
+          "pct_of_basket": 4.4,
           "meta": {
             "fdc_id": 169697,
             "nutrient_sources": {
@@ -40094,7 +40165,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -40105,33 +40176,124 @@
           }
         },
         {
-          "sku_id": "metro:064642098900",
-          "name": "Jamieson 100% Complete Multivitamin for Men",
-          "grams_per_day": 0.57,
-          "cost_per_day": 0.0646,
-          "pct_of_basket": 3.6,
+          "sku_id": "walmart_ca:6000204673258",
+          "name": "Equate Multivitamin, 250 Tablets, Value Size",
+          "grams_per_day": 0.97,
+          "cost_per_day": 0.0523,
+          "pct_of_basket": 3.2,
           "meta": {
             "is_supplement": true,
-            "count": 115,
+            "count": 250,
             "tablet_g": 1.3,
             "max_tablets_per_day": 1.0,
-            "unit_grams": 149.5,
-            "price_regular": 24.99,
-            "price_promo": 16.99,
-            "price_used": 16.99,
-            "price_kind": "promo",
-            "location_id": "metro-reference",
-            "location_display": "Metro Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "metro",
+            "unit_grams": 325.0,
+            "price_regular": 17.57,
+            "price_promo": null,
+            "price_used": 17.57,
+            "price_kind": "effective",
+            "location_id": "walmart-ca-reference",
+            "location_display": "Walmart.ca Reference (unlocalized online catalog)",
+            "price_retailer": "walmart_ca",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
-            "price_channel": null,
+            "price_channel": "online_catalog",
             "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:51Z",
+            "price_observed_at": "2026-08-09T06:03:23Z",
             "price_stale": false,
-            "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-men/p/064642098900"
+            "price_source_url": "https://www.walmart.ca/en/ip/equate-multivitamin-250-tablets-value-size-unisex/6000204673258"
+          }
+        },
+        {
+          "sku_id": "superstore:20336722005_EA",
+          "name": "Oasis Orange Pure Breakfast Juice",
+          "grams_per_day": 11.08,
+          "cost_per_day": 0.0199,
+          "pct_of_basket": 1.2,
+          "meta": {
+            "fdc_id": 169103,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:169103",
+              "protein_g": "usda_reference:169103",
+              "fiber_g": "usda_reference:169103",
+              "calcium_mg": "usda_reference:169103",
+              "iron_mg": "usda_reference:169103",
+              "magnesium_mg": "usda_reference:169103",
+              "potassium_mg": "usda_reference:169103",
+              "sodium_mg": "usda_reference:169103",
+              "zinc_mg": "usda_reference:169103",
+              "vit_c_mg": "usda_reference:169103",
+              "folate_mcg": "usda_reference:169103",
+              "vit_b12_mcg": "usda_reference:169103",
+              "vit_a_mcg": "usda_reference:169103",
+              "vit_e_mg": "usda_reference:169103",
+              "ala_g": "usda_reference:169103"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 998.4,
+            "price_regular": 1.79,
+            "price_promo": null,
+            "price_used": 1.79,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:08Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20336722005_EA"
+          }
+        },
+        {
+          "sku_id": "superstore:20629219_EA",
+          "name": "PC Blue Menu Green Split Peas",
+          "grams_per_day": 2.69,
+          "cost_per_day": 0.0105,
+          "pct_of_basket": 0.6,
+          "meta": {
+            "fdc_id": 172428,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:172428",
+              "protein_g": "usda_reference:172428",
+              "fiber_g": "usda_reference:172428",
+              "calcium_mg": "usda_reference:172428",
+              "iron_mg": "usda_reference:172428",
+              "magnesium_mg": "usda_reference:172428",
+              "potassium_mg": "usda_reference:172428",
+              "sodium_mg": "usda_reference:172428",
+              "zinc_mg": "usda_reference:172428",
+              "vit_c_mg": "usda_reference:172428",
+              "folate_mcg": "usda_reference:172428",
+              "vit_b12_mcg": "usda_reference:172428",
+              "vit_a_mcg": "usda_reference:172428",
+              "vit_e_mg": "usda_reference:172428",
+              "vit_d_mcg": "usda_reference:172428",
+              "ala_g": "usda_reference:172428"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 900.0,
+            "price_regular": 3.5,
+            "price_promo": null,
+            "price_used": 3.5,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:04Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629219_EA"
           }
         }
       ],
@@ -40149,7 +40311,7 @@
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 66.7995,
+          "delivered": 63.3215,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40161,13 +40323,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.001264
+          "shadow_price_per_unit": 0.001513
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 10.9935,
+          "delivered": 11.3775,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40179,7 +40341,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000332
+          "shadow_price_per_unit": 0.000143
         },
         {
           "nutrient": "vit_a_mcg",
@@ -40197,7 +40359,7 @@
           "delivered": 90.0,
           "unit": "mg",
           "binding": true,
-          "shadow_price_per_unit": 0.000419
+          "shadow_price_per_unit": 0.00044
         },
         {
           "nutrient": "vit_c_mg",
@@ -40212,7 +40374,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 19.6494,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40221,7 +40383,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 19.6494,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40230,7 +40392,7 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 25.3566,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40239,7 +40401,7 @@
           "nutrient": "vit_e_mg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 25.3566,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40248,7 +40410,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 13.4559,
+          "delivered": 14.892,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40269,7 +40431,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000476
+          "shadow_price_per_unit": 0.000486
         },
         {
           "nutrient": "calcium_mg",
@@ -40293,7 +40455,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 23.8567,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40302,7 +40464,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 23.8567,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40311,10 +40473,10 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 439.3637,
+          "delivered": 420.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 5e-06
         },
         {
           "nutrient": "potassium_mg",
@@ -40329,7 +40491,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 52.0007,
+          "delivered": 34.0852,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40338,7 +40500,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 14.3689,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40347,7 +40509,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 14.3689,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40359,108 +40521,24 @@
     {
       "mode": "pescatarian",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
       "fx_as_of": "2026-08-07",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.8888,
-      "cost_per_day_usd": 1.3546582514523415,
+      "cost_per_day": 1.6389,
+      "cost_per_day_usd": 1.1754285304453846,
       "price_as_of": "2026-08-09",
       "has_stale_prices": false,
       "basket": [
         {
-          "sku_id": "superstore:20629679_EA",
-          "name": "PC Blue Menu Green Lentils",
-          "grams_per_day": 141.71,
-          "cost_per_day": 0.5511,
-          "pct_of_basket": 29.2,
-          "meta": {
-            "fdc_id": 2644283,
-            "nutrient_sources": {
-              "energy_kcal": "usda_reference:2644283",
-              "protein_g": "usda_reference:2644283",
-              "calcium_mg": "usda_reference:2644283",
-              "iron_mg": "usda_reference:2644283",
-              "magnesium_mg": "usda_reference:2644283",
-              "potassium_mg": "usda_reference:2644283",
-              "sodium_mg": "usda_reference:2644283",
-              "zinc_mg": "usda_reference:2644283"
-            },
-            "sku_nutrition": null,
-            "unit_grams": 900.0,
-            "price_regular": 3.5,
-            "price_promo": null,
-            "price_used": 3.5,
-            "price_kind": "effective",
-            "location_id": "1033",
-            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
-            "price_retailer": "superstore",
-            "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
-            "currency": "CAD",
-            "price_scope": "reference",
-            "price_channel": "pickup",
-            "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:49:03Z",
-            "price_stale": false,
-            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629679_EA"
-          }
-        },
-        {
-          "sku_id": "foodbasics:055270846452",
-          "name": "Grace Corn Meal",
-          "grams_per_day": 196.37,
-          "cost_per_day": 0.3918,
-          "pct_of_basket": 20.7,
-          "meta": {
-            "fdc_id": 169697,
-            "nutrient_sources": {
-              "energy_kcal": "usda_reference:169697",
-              "protein_g": "usda_reference:169697",
-              "fiber_g": "usda_reference:169697",
-              "calcium_mg": "usda_reference:169697",
-              "iron_mg": "usda_reference:169697",
-              "magnesium_mg": "usda_reference:169697",
-              "potassium_mg": "usda_reference:169697",
-              "sodium_mg": "usda_reference:169697",
-              "zinc_mg": "usda_reference:169697",
-              "vit_c_mg": "usda_reference:169697",
-              "folate_mcg": "usda_reference:169697",
-              "vit_b12_mcg": "usda_reference:169697",
-              "vit_a_mcg": "usda_reference:169697",
-              "vit_e_mg": "usda_reference:169697",
-              "vit_d_mcg": "usda_reference:169697",
-              "ala_g": "usda_reference:169697"
-            },
-            "sku_nutrition": null,
-            "unit_grams": 2000.0,
-            "price_regular": 4.49,
-            "price_promo": 3.99,
-            "price_used": 3.99,
-            "price_kind": "promo",
-            "location_id": "foodbasics-reference",
-            "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "foodbasics",
-            "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
-            "currency": "CAD",
-            "price_scope": "reference",
-            "price_channel": null,
-            "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:55Z",
-            "price_stale": false,
-            "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
-          }
-        },
-        {
           "sku_id": "foodbasics:062781068624",
           "name": "Divya Dry Kidney Beans",
-          "grams_per_day": 109.64,
-          "cost_per_day": 0.3628,
-          "pct_of_basket": 19.2,
+          "grams_per_day": 174.98,
+          "cost_per_day": 0.5791,
+          "pct_of_basket": 35.3,
           "meta": {
             "fdc_id": 173744,
             "nutrient_sources": {
@@ -40491,7 +40569,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -40504,9 +40582,9 @@
         {
           "sku_id": "nofrills:20103390_EA",
           "name": "No Name 100% Pure Vegetable Oil",
-          "grams_per_day": 102.84,
-          "cost_per_day": 0.2977,
-          "pct_of_basket": 15.8,
+          "grams_per_day": 164.11,
+          "cost_per_day": 0.4751,
+          "pct_of_basket": 29.0,
           "meta": {
             "fdc_id": 172370,
             "nutrient_sources": {
@@ -40536,7 +40614,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -40547,41 +40625,49 @@
           }
         },
         {
-          "sku_id": "metro:064642098900",
-          "name": "Jamieson 100% Complete Multivitamin for Men",
-          "grams_per_day": 1.3,
-          "cost_per_day": 0.1477,
-          "pct_of_basket": 7.8,
+          "sku_id": "superstore:20629679_EA",
+          "name": "PC Blue Menu Green Lentils",
+          "grams_per_day": 85.63,
+          "cost_per_day": 0.333,
+          "pct_of_basket": 20.3,
           "meta": {
-            "is_supplement": true,
-            "count": 115,
-            "tablet_g": 1.3,
-            "max_tablets_per_day": 1.0,
-            "unit_grams": 149.5,
-            "price_regular": 24.99,
-            "price_promo": 16.99,
-            "price_used": 16.99,
-            "price_kind": "promo",
-            "location_id": "metro-reference",
-            "location_display": "Metro Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "metro",
+            "fdc_id": 2644283,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:2644283",
+              "protein_g": "usda_reference:2644283",
+              "calcium_mg": "usda_reference:2644283",
+              "iron_mg": "usda_reference:2644283",
+              "magnesium_mg": "usda_reference:2644283",
+              "potassium_mg": "usda_reference:2644283",
+              "sodium_mg": "usda_reference:2644283",
+              "zinc_mg": "usda_reference:2644283"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 900.0,
+            "price_regular": 3.5,
+            "price_promo": null,
+            "price_used": 3.5,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
-            "price_channel": null,
+            "price_channel": "pickup",
             "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:51Z",
+            "price_observed_at": "2026-08-09T03:49:03Z",
             "price_stale": false,
-            "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-men/p/064642098900"
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629679_EA"
           }
         },
         {
           "sku_id": "foodbasics:064642079619",
           "name": "Jamieson Mega Cal Calcium with Vitamin D3",
-          "grams_per_day": 1.44,
-          "cost_per_day": 0.0901,
-          "pct_of_basket": 4.8,
+          "grams_per_day": 1.55,
+          "cost_per_day": 0.0971,
+          "pct_of_basket": 5.9,
           "meta": {
             "is_supplement": true,
             "count": 250,
@@ -40596,7 +40682,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -40607,33 +40693,170 @@
           }
         },
         {
-          "sku_id": "foodbasics:625273031867",
-          "name": "Webber Naturals Most Complete Multivitamin for Women",
-          "grams_per_day": 0.31,
-          "cost_per_day": 0.0475,
-          "pct_of_basket": 2.5,
+          "sku_id": "foodbasics:055270846452",
+          "name": "Grace Corn Meal",
+          "grams_per_day": 36.06,
+          "cost_per_day": 0.0719,
+          "pct_of_basket": 4.4,
           "meta": {
-            "is_supplement": true,
-            "count": 90,
-            "tablet_g": 1.3,
-            "max_tablets_per_day": 1.0,
-            "unit_grams": 117.0,
-            "price_regular": 17.99,
-            "price_promo": null,
-            "price_used": 17.99,
-            "price_kind": "regular",
+            "fdc_id": 169697,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:169697",
+              "protein_g": "usda_reference:169697",
+              "fiber_g": "usda_reference:169697",
+              "calcium_mg": "usda_reference:169697",
+              "iron_mg": "usda_reference:169697",
+              "magnesium_mg": "usda_reference:169697",
+              "potassium_mg": "usda_reference:169697",
+              "sodium_mg": "usda_reference:169697",
+              "zinc_mg": "usda_reference:169697",
+              "vit_c_mg": "usda_reference:169697",
+              "folate_mcg": "usda_reference:169697",
+              "vit_b12_mcg": "usda_reference:169697",
+              "vit_a_mcg": "usda_reference:169697",
+              "vit_e_mg": "usda_reference:169697",
+              "vit_d_mcg": "usda_reference:169697",
+              "ala_g": "usda_reference:169697"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 2000.0,
+            "price_regular": 4.49,
+            "price_promo": 3.99,
+            "price_used": 3.99,
+            "price_kind": "promo",
             "location_id": "foodbasics-reference",
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
             "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:49:01Z",
+            "price_observed_at": "2026-08-09T03:48:55Z",
             "price_stale": false,
-            "price_source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/natural-products/women-complete-multivitamins/p/625273031867"
+            "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
+          }
+        },
+        {
+          "sku_id": "walmart_ca:6000204673258",
+          "name": "Equate Multivitamin, 250 Tablets, Value Size",
+          "grams_per_day": 0.97,
+          "cost_per_day": 0.0523,
+          "pct_of_basket": 3.2,
+          "meta": {
+            "is_supplement": true,
+            "count": 250,
+            "tablet_g": 1.3,
+            "max_tablets_per_day": 1.0,
+            "unit_grams": 325.0,
+            "price_regular": 17.57,
+            "price_promo": null,
+            "price_used": 17.57,
+            "price_kind": "effective",
+            "location_id": "walmart-ca-reference",
+            "location_display": "Walmart.ca Reference (unlocalized online catalog)",
+            "price_retailer": "walmart_ca",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "online_catalog",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T06:03:23Z",
+            "price_stale": false,
+            "price_source_url": "https://www.walmart.ca/en/ip/equate-multivitamin-250-tablets-value-size-unisex/6000204673258"
+          }
+        },
+        {
+          "sku_id": "superstore:20336722005_EA",
+          "name": "Oasis Orange Pure Breakfast Juice",
+          "grams_per_day": 11.08,
+          "cost_per_day": 0.0199,
+          "pct_of_basket": 1.2,
+          "meta": {
+            "fdc_id": 169103,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:169103",
+              "protein_g": "usda_reference:169103",
+              "fiber_g": "usda_reference:169103",
+              "calcium_mg": "usda_reference:169103",
+              "iron_mg": "usda_reference:169103",
+              "magnesium_mg": "usda_reference:169103",
+              "potassium_mg": "usda_reference:169103",
+              "sodium_mg": "usda_reference:169103",
+              "zinc_mg": "usda_reference:169103",
+              "vit_c_mg": "usda_reference:169103",
+              "folate_mcg": "usda_reference:169103",
+              "vit_b12_mcg": "usda_reference:169103",
+              "vit_a_mcg": "usda_reference:169103",
+              "vit_e_mg": "usda_reference:169103",
+              "ala_g": "usda_reference:169103"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 998.4,
+            "price_regular": 1.79,
+            "price_promo": null,
+            "price_used": 1.79,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:08Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20336722005_EA"
+          }
+        },
+        {
+          "sku_id": "superstore:20629219_EA",
+          "name": "PC Blue Menu Green Split Peas",
+          "grams_per_day": 2.69,
+          "cost_per_day": 0.0105,
+          "pct_of_basket": 0.6,
+          "meta": {
+            "fdc_id": 172428,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:172428",
+              "protein_g": "usda_reference:172428",
+              "fiber_g": "usda_reference:172428",
+              "calcium_mg": "usda_reference:172428",
+              "iron_mg": "usda_reference:172428",
+              "magnesium_mg": "usda_reference:172428",
+              "potassium_mg": "usda_reference:172428",
+              "sodium_mg": "usda_reference:172428",
+              "zinc_mg": "usda_reference:172428",
+              "vit_c_mg": "usda_reference:172428",
+              "folate_mcg": "usda_reference:172428",
+              "vit_b12_mcg": "usda_reference:172428",
+              "vit_a_mcg": "usda_reference:172428",
+              "vit_e_mg": "usda_reference:172428",
+              "vit_d_mcg": "usda_reference:172428",
+              "ala_g": "usda_reference:172428"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 900.0,
+            "price_regular": 3.5,
+            "price_promo": null,
+            "price_used": 3.5,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:04Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629219_EA"
           }
         }
       ],
@@ -40651,7 +40874,7 @@
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 74.0451,
+          "delivered": 63.3215,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40663,13 +40886,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.000871
+          "shadow_price_per_unit": 0.001513
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 7.2114,
+          "delivered": 11.3775,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40681,7 +40904,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000547
+          "shadow_price_per_unit": 0.000143
         },
         {
           "nutrient": "vit_a_mcg",
@@ -40696,16 +40919,16 @@
           "nutrient": "vit_c_mg",
           "kind": "rda",
           "target": 90,
-          "delivered": 208.7203,
+          "delivered": 90.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.00044
         },
         {
           "nutrient": "vit_c_mg",
           "kind": "ul",
           "target": 2000,
-          "delivered": 208.7203,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40714,7 +40937,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 34.9587,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40723,7 +40946,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 34.9587,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40732,7 +40955,7 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 41.0247,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40741,7 +40964,7 @@
           "nutrient": "vit_e_mg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 41.0247,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40750,7 +40973,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 31.136,
+          "delivered": 14.892,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40771,7 +40994,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000456
+          "shadow_price_per_unit": 0.000486
         },
         {
           "nutrient": "calcium_mg",
@@ -40795,7 +41018,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 32.0575,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40804,7 +41027,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 32.0575,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40813,10 +41036,10 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 647.7842,
+          "delivered": 420.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 5e-06
         },
         {
           "nutrient": "potassium_mg",
@@ -40831,7 +41054,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 81.886,
+          "delivered": 34.0852,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40840,7 +41063,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 25.4856,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40849,7 +41072,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 25.4856,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -40861,108 +41084,24 @@
     {
       "mode": "vegetarian",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
       "fx_as_of": "2026-08-07",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.8888,
-      "cost_per_day_usd": 1.3546582514523415,
+      "cost_per_day": 1.6389,
+      "cost_per_day_usd": 1.1754285304453846,
       "price_as_of": "2026-08-09",
       "has_stale_prices": false,
       "basket": [
         {
-          "sku_id": "superstore:20629679_EA",
-          "name": "PC Blue Menu Green Lentils",
-          "grams_per_day": 141.71,
-          "cost_per_day": 0.5511,
-          "pct_of_basket": 29.2,
-          "meta": {
-            "fdc_id": 2644283,
-            "nutrient_sources": {
-              "energy_kcal": "usda_reference:2644283",
-              "protein_g": "usda_reference:2644283",
-              "calcium_mg": "usda_reference:2644283",
-              "iron_mg": "usda_reference:2644283",
-              "magnesium_mg": "usda_reference:2644283",
-              "potassium_mg": "usda_reference:2644283",
-              "sodium_mg": "usda_reference:2644283",
-              "zinc_mg": "usda_reference:2644283"
-            },
-            "sku_nutrition": null,
-            "unit_grams": 900.0,
-            "price_regular": 3.5,
-            "price_promo": null,
-            "price_used": 3.5,
-            "price_kind": "effective",
-            "location_id": "1033",
-            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
-            "price_retailer": "superstore",
-            "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
-            "currency": "CAD",
-            "price_scope": "reference",
-            "price_channel": "pickup",
-            "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:49:03Z",
-            "price_stale": false,
-            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629679_EA"
-          }
-        },
-        {
-          "sku_id": "foodbasics:055270846452",
-          "name": "Grace Corn Meal",
-          "grams_per_day": 196.37,
-          "cost_per_day": 0.3918,
-          "pct_of_basket": 20.7,
-          "meta": {
-            "fdc_id": 169697,
-            "nutrient_sources": {
-              "energy_kcal": "usda_reference:169697",
-              "protein_g": "usda_reference:169697",
-              "fiber_g": "usda_reference:169697",
-              "calcium_mg": "usda_reference:169697",
-              "iron_mg": "usda_reference:169697",
-              "magnesium_mg": "usda_reference:169697",
-              "potassium_mg": "usda_reference:169697",
-              "sodium_mg": "usda_reference:169697",
-              "zinc_mg": "usda_reference:169697",
-              "vit_c_mg": "usda_reference:169697",
-              "folate_mcg": "usda_reference:169697",
-              "vit_b12_mcg": "usda_reference:169697",
-              "vit_a_mcg": "usda_reference:169697",
-              "vit_e_mg": "usda_reference:169697",
-              "vit_d_mcg": "usda_reference:169697",
-              "ala_g": "usda_reference:169697"
-            },
-            "sku_nutrition": null,
-            "unit_grams": 2000.0,
-            "price_regular": 4.49,
-            "price_promo": 3.99,
-            "price_used": 3.99,
-            "price_kind": "promo",
-            "location_id": "foodbasics-reference",
-            "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "foodbasics",
-            "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
-            "currency": "CAD",
-            "price_scope": "reference",
-            "price_channel": null,
-            "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:55Z",
-            "price_stale": false,
-            "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
-          }
-        },
-        {
           "sku_id": "foodbasics:062781068624",
           "name": "Divya Dry Kidney Beans",
-          "grams_per_day": 109.64,
-          "cost_per_day": 0.3628,
-          "pct_of_basket": 19.2,
+          "grams_per_day": 174.98,
+          "cost_per_day": 0.5791,
+          "pct_of_basket": 35.3,
           "meta": {
             "fdc_id": 173744,
             "nutrient_sources": {
@@ -40993,7 +41132,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -41006,9 +41145,9 @@
         {
           "sku_id": "nofrills:20103390_EA",
           "name": "No Name 100% Pure Vegetable Oil",
-          "grams_per_day": 102.84,
-          "cost_per_day": 0.2977,
-          "pct_of_basket": 15.8,
+          "grams_per_day": 164.11,
+          "cost_per_day": 0.4751,
+          "pct_of_basket": 29.0,
           "meta": {
             "fdc_id": 172370,
             "nutrient_sources": {
@@ -41038,7 +41177,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -41049,41 +41188,49 @@
           }
         },
         {
-          "sku_id": "metro:064642098900",
-          "name": "Jamieson 100% Complete Multivitamin for Men",
-          "grams_per_day": 1.3,
-          "cost_per_day": 0.1477,
-          "pct_of_basket": 7.8,
+          "sku_id": "superstore:20629679_EA",
+          "name": "PC Blue Menu Green Lentils",
+          "grams_per_day": 85.63,
+          "cost_per_day": 0.333,
+          "pct_of_basket": 20.3,
           "meta": {
-            "is_supplement": true,
-            "count": 115,
-            "tablet_g": 1.3,
-            "max_tablets_per_day": 1.0,
-            "unit_grams": 149.5,
-            "price_regular": 24.99,
-            "price_promo": 16.99,
-            "price_used": 16.99,
-            "price_kind": "promo",
-            "location_id": "metro-reference",
-            "location_display": "Metro Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "metro",
+            "fdc_id": 2644283,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:2644283",
+              "protein_g": "usda_reference:2644283",
+              "calcium_mg": "usda_reference:2644283",
+              "iron_mg": "usda_reference:2644283",
+              "magnesium_mg": "usda_reference:2644283",
+              "potassium_mg": "usda_reference:2644283",
+              "sodium_mg": "usda_reference:2644283",
+              "zinc_mg": "usda_reference:2644283"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 900.0,
+            "price_regular": 3.5,
+            "price_promo": null,
+            "price_used": 3.5,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
-            "price_channel": null,
+            "price_channel": "pickup",
             "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:51Z",
+            "price_observed_at": "2026-08-09T03:49:03Z",
             "price_stale": false,
-            "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-men/p/064642098900"
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629679_EA"
           }
         },
         {
           "sku_id": "foodbasics:064642079619",
           "name": "Jamieson Mega Cal Calcium with Vitamin D3",
-          "grams_per_day": 1.44,
-          "cost_per_day": 0.0901,
-          "pct_of_basket": 4.8,
+          "grams_per_day": 1.55,
+          "cost_per_day": 0.0971,
+          "pct_of_basket": 5.9,
           "meta": {
             "is_supplement": true,
             "count": 250,
@@ -41098,7 +41245,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -41109,33 +41256,170 @@
           }
         },
         {
-          "sku_id": "foodbasics:625273031867",
-          "name": "Webber Naturals Most Complete Multivitamin for Women",
-          "grams_per_day": 0.31,
-          "cost_per_day": 0.0475,
-          "pct_of_basket": 2.5,
+          "sku_id": "foodbasics:055270846452",
+          "name": "Grace Corn Meal",
+          "grams_per_day": 36.06,
+          "cost_per_day": 0.0719,
+          "pct_of_basket": 4.4,
           "meta": {
-            "is_supplement": true,
-            "count": 90,
-            "tablet_g": 1.3,
-            "max_tablets_per_day": 1.0,
-            "unit_grams": 117.0,
-            "price_regular": 17.99,
-            "price_promo": null,
-            "price_used": 17.99,
-            "price_kind": "regular",
+            "fdc_id": 169697,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:169697",
+              "protein_g": "usda_reference:169697",
+              "fiber_g": "usda_reference:169697",
+              "calcium_mg": "usda_reference:169697",
+              "iron_mg": "usda_reference:169697",
+              "magnesium_mg": "usda_reference:169697",
+              "potassium_mg": "usda_reference:169697",
+              "sodium_mg": "usda_reference:169697",
+              "zinc_mg": "usda_reference:169697",
+              "vit_c_mg": "usda_reference:169697",
+              "folate_mcg": "usda_reference:169697",
+              "vit_b12_mcg": "usda_reference:169697",
+              "vit_a_mcg": "usda_reference:169697",
+              "vit_e_mg": "usda_reference:169697",
+              "vit_d_mcg": "usda_reference:169697",
+              "ala_g": "usda_reference:169697"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 2000.0,
+            "price_regular": 4.49,
+            "price_promo": 3.99,
+            "price_used": 3.99,
+            "price_kind": "promo",
             "location_id": "foodbasics-reference",
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
             "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:49:01Z",
+            "price_observed_at": "2026-08-09T03:48:55Z",
             "price_stale": false,
-            "price_source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/natural-products/women-complete-multivitamins/p/625273031867"
+            "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
+          }
+        },
+        {
+          "sku_id": "walmart_ca:6000204673258",
+          "name": "Equate Multivitamin, 250 Tablets, Value Size",
+          "grams_per_day": 0.97,
+          "cost_per_day": 0.0523,
+          "pct_of_basket": 3.2,
+          "meta": {
+            "is_supplement": true,
+            "count": 250,
+            "tablet_g": 1.3,
+            "max_tablets_per_day": 1.0,
+            "unit_grams": 325.0,
+            "price_regular": 17.57,
+            "price_promo": null,
+            "price_used": 17.57,
+            "price_kind": "effective",
+            "location_id": "walmart-ca-reference",
+            "location_display": "Walmart.ca Reference (unlocalized online catalog)",
+            "price_retailer": "walmart_ca",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "online_catalog",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T06:03:23Z",
+            "price_stale": false,
+            "price_source_url": "https://www.walmart.ca/en/ip/equate-multivitamin-250-tablets-value-size-unisex/6000204673258"
+          }
+        },
+        {
+          "sku_id": "superstore:20336722005_EA",
+          "name": "Oasis Orange Pure Breakfast Juice",
+          "grams_per_day": 11.08,
+          "cost_per_day": 0.0199,
+          "pct_of_basket": 1.2,
+          "meta": {
+            "fdc_id": 169103,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:169103",
+              "protein_g": "usda_reference:169103",
+              "fiber_g": "usda_reference:169103",
+              "calcium_mg": "usda_reference:169103",
+              "iron_mg": "usda_reference:169103",
+              "magnesium_mg": "usda_reference:169103",
+              "potassium_mg": "usda_reference:169103",
+              "sodium_mg": "usda_reference:169103",
+              "zinc_mg": "usda_reference:169103",
+              "vit_c_mg": "usda_reference:169103",
+              "folate_mcg": "usda_reference:169103",
+              "vit_b12_mcg": "usda_reference:169103",
+              "vit_a_mcg": "usda_reference:169103",
+              "vit_e_mg": "usda_reference:169103",
+              "ala_g": "usda_reference:169103"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 998.4,
+            "price_regular": 1.79,
+            "price_promo": null,
+            "price_used": 1.79,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:08Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20336722005_EA"
+          }
+        },
+        {
+          "sku_id": "superstore:20629219_EA",
+          "name": "PC Blue Menu Green Split Peas",
+          "grams_per_day": 2.69,
+          "cost_per_day": 0.0105,
+          "pct_of_basket": 0.6,
+          "meta": {
+            "fdc_id": 172428,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:172428",
+              "protein_g": "usda_reference:172428",
+              "fiber_g": "usda_reference:172428",
+              "calcium_mg": "usda_reference:172428",
+              "iron_mg": "usda_reference:172428",
+              "magnesium_mg": "usda_reference:172428",
+              "potassium_mg": "usda_reference:172428",
+              "sodium_mg": "usda_reference:172428",
+              "zinc_mg": "usda_reference:172428",
+              "vit_c_mg": "usda_reference:172428",
+              "folate_mcg": "usda_reference:172428",
+              "vit_b12_mcg": "usda_reference:172428",
+              "vit_a_mcg": "usda_reference:172428",
+              "vit_e_mg": "usda_reference:172428",
+              "vit_d_mcg": "usda_reference:172428",
+              "ala_g": "usda_reference:172428"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 900.0,
+            "price_regular": 3.5,
+            "price_promo": null,
+            "price_used": 3.5,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:04Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629219_EA"
           }
         }
       ],
@@ -41153,7 +41437,7 @@
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 74.0451,
+          "delivered": 63.3215,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41165,13 +41449,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.000871
+          "shadow_price_per_unit": 0.001513
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 7.2114,
+          "delivered": 11.3775,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41183,7 +41467,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000547
+          "shadow_price_per_unit": 0.000143
         },
         {
           "nutrient": "vit_a_mcg",
@@ -41198,16 +41482,16 @@
           "nutrient": "vit_c_mg",
           "kind": "rda",
           "target": 90,
-          "delivered": 208.7203,
+          "delivered": 90.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.00044
         },
         {
           "nutrient": "vit_c_mg",
           "kind": "ul",
           "target": 2000,
-          "delivered": 208.7203,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41216,7 +41500,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 34.9587,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41225,7 +41509,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 34.9587,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41234,7 +41518,7 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 41.0247,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41243,7 +41527,7 @@
           "nutrient": "vit_e_mg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 41.0247,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41252,7 +41536,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 31.136,
+          "delivered": 14.892,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41273,7 +41557,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000456
+          "shadow_price_per_unit": 0.000486
         },
         {
           "nutrient": "calcium_mg",
@@ -41297,7 +41581,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 32.0575,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41306,7 +41590,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 32.0575,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41315,10 +41599,10 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 647.7842,
+          "delivered": 420.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 5e-06
         },
         {
           "nutrient": "potassium_mg",
@@ -41333,7 +41617,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 81.886,
+          "delivered": 34.0852,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41342,7 +41626,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 25.4856,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41351,7 +41635,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 25.4856,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41363,108 +41647,24 @@
     {
       "mode": "ovo_lacto",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
       "fx_as_of": "2026-08-07",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.8888,
-      "cost_per_day_usd": 1.3546582514523415,
+      "cost_per_day": 1.6389,
+      "cost_per_day_usd": 1.1754285304453846,
       "price_as_of": "2026-08-09",
       "has_stale_prices": false,
       "basket": [
         {
-          "sku_id": "superstore:20629679_EA",
-          "name": "PC Blue Menu Green Lentils",
-          "grams_per_day": 141.71,
-          "cost_per_day": 0.5511,
-          "pct_of_basket": 29.2,
-          "meta": {
-            "fdc_id": 2644283,
-            "nutrient_sources": {
-              "energy_kcal": "usda_reference:2644283",
-              "protein_g": "usda_reference:2644283",
-              "calcium_mg": "usda_reference:2644283",
-              "iron_mg": "usda_reference:2644283",
-              "magnesium_mg": "usda_reference:2644283",
-              "potassium_mg": "usda_reference:2644283",
-              "sodium_mg": "usda_reference:2644283",
-              "zinc_mg": "usda_reference:2644283"
-            },
-            "sku_nutrition": null,
-            "unit_grams": 900.0,
-            "price_regular": 3.5,
-            "price_promo": null,
-            "price_used": 3.5,
-            "price_kind": "effective",
-            "location_id": "1033",
-            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
-            "price_retailer": "superstore",
-            "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
-            "currency": "CAD",
-            "price_scope": "reference",
-            "price_channel": "pickup",
-            "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:49:03Z",
-            "price_stale": false,
-            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629679_EA"
-          }
-        },
-        {
-          "sku_id": "foodbasics:055270846452",
-          "name": "Grace Corn Meal",
-          "grams_per_day": 196.37,
-          "cost_per_day": 0.3918,
-          "pct_of_basket": 20.7,
-          "meta": {
-            "fdc_id": 169697,
-            "nutrient_sources": {
-              "energy_kcal": "usda_reference:169697",
-              "protein_g": "usda_reference:169697",
-              "fiber_g": "usda_reference:169697",
-              "calcium_mg": "usda_reference:169697",
-              "iron_mg": "usda_reference:169697",
-              "magnesium_mg": "usda_reference:169697",
-              "potassium_mg": "usda_reference:169697",
-              "sodium_mg": "usda_reference:169697",
-              "zinc_mg": "usda_reference:169697",
-              "vit_c_mg": "usda_reference:169697",
-              "folate_mcg": "usda_reference:169697",
-              "vit_b12_mcg": "usda_reference:169697",
-              "vit_a_mcg": "usda_reference:169697",
-              "vit_e_mg": "usda_reference:169697",
-              "vit_d_mcg": "usda_reference:169697",
-              "ala_g": "usda_reference:169697"
-            },
-            "sku_nutrition": null,
-            "unit_grams": 2000.0,
-            "price_regular": 4.49,
-            "price_promo": 3.99,
-            "price_used": 3.99,
-            "price_kind": "promo",
-            "location_id": "foodbasics-reference",
-            "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "foodbasics",
-            "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
-            "currency": "CAD",
-            "price_scope": "reference",
-            "price_channel": null,
-            "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:55Z",
-            "price_stale": false,
-            "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
-          }
-        },
-        {
           "sku_id": "foodbasics:062781068624",
           "name": "Divya Dry Kidney Beans",
-          "grams_per_day": 109.64,
-          "cost_per_day": 0.3628,
-          "pct_of_basket": 19.2,
+          "grams_per_day": 174.98,
+          "cost_per_day": 0.5791,
+          "pct_of_basket": 35.3,
           "meta": {
             "fdc_id": 173744,
             "nutrient_sources": {
@@ -41495,7 +41695,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -41508,9 +41708,9 @@
         {
           "sku_id": "nofrills:20103390_EA",
           "name": "No Name 100% Pure Vegetable Oil",
-          "grams_per_day": 102.84,
-          "cost_per_day": 0.2977,
-          "pct_of_basket": 15.8,
+          "grams_per_day": 164.11,
+          "cost_per_day": 0.4751,
+          "pct_of_basket": 29.0,
           "meta": {
             "fdc_id": 172370,
             "nutrient_sources": {
@@ -41540,7 +41740,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -41551,41 +41751,49 @@
           }
         },
         {
-          "sku_id": "metro:064642098900",
-          "name": "Jamieson 100% Complete Multivitamin for Men",
-          "grams_per_day": 1.3,
-          "cost_per_day": 0.1477,
-          "pct_of_basket": 7.8,
+          "sku_id": "superstore:20629679_EA",
+          "name": "PC Blue Menu Green Lentils",
+          "grams_per_day": 85.63,
+          "cost_per_day": 0.333,
+          "pct_of_basket": 20.3,
           "meta": {
-            "is_supplement": true,
-            "count": 115,
-            "tablet_g": 1.3,
-            "max_tablets_per_day": 1.0,
-            "unit_grams": 149.5,
-            "price_regular": 24.99,
-            "price_promo": 16.99,
-            "price_used": 16.99,
-            "price_kind": "promo",
-            "location_id": "metro-reference",
-            "location_display": "Metro Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "metro",
+            "fdc_id": 2644283,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:2644283",
+              "protein_g": "usda_reference:2644283",
+              "calcium_mg": "usda_reference:2644283",
+              "iron_mg": "usda_reference:2644283",
+              "magnesium_mg": "usda_reference:2644283",
+              "potassium_mg": "usda_reference:2644283",
+              "sodium_mg": "usda_reference:2644283",
+              "zinc_mg": "usda_reference:2644283"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 900.0,
+            "price_regular": 3.5,
+            "price_promo": null,
+            "price_used": 3.5,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
-            "price_channel": null,
+            "price_channel": "pickup",
             "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:51Z",
+            "price_observed_at": "2026-08-09T03:49:03Z",
             "price_stale": false,
-            "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-men/p/064642098900"
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629679_EA"
           }
         },
         {
           "sku_id": "foodbasics:064642079619",
           "name": "Jamieson Mega Cal Calcium with Vitamin D3",
-          "grams_per_day": 1.44,
-          "cost_per_day": 0.0901,
-          "pct_of_basket": 4.8,
+          "grams_per_day": 1.55,
+          "cost_per_day": 0.0971,
+          "pct_of_basket": 5.9,
           "meta": {
             "is_supplement": true,
             "count": 250,
@@ -41600,7 +41808,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -41611,33 +41819,170 @@
           }
         },
         {
-          "sku_id": "foodbasics:625273031867",
-          "name": "Webber Naturals Most Complete Multivitamin for Women",
-          "grams_per_day": 0.31,
-          "cost_per_day": 0.0475,
-          "pct_of_basket": 2.5,
+          "sku_id": "foodbasics:055270846452",
+          "name": "Grace Corn Meal",
+          "grams_per_day": 36.06,
+          "cost_per_day": 0.0719,
+          "pct_of_basket": 4.4,
           "meta": {
-            "is_supplement": true,
-            "count": 90,
-            "tablet_g": 1.3,
-            "max_tablets_per_day": 1.0,
-            "unit_grams": 117.0,
-            "price_regular": 17.99,
-            "price_promo": null,
-            "price_used": 17.99,
-            "price_kind": "regular",
+            "fdc_id": 169697,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:169697",
+              "protein_g": "usda_reference:169697",
+              "fiber_g": "usda_reference:169697",
+              "calcium_mg": "usda_reference:169697",
+              "iron_mg": "usda_reference:169697",
+              "magnesium_mg": "usda_reference:169697",
+              "potassium_mg": "usda_reference:169697",
+              "sodium_mg": "usda_reference:169697",
+              "zinc_mg": "usda_reference:169697",
+              "vit_c_mg": "usda_reference:169697",
+              "folate_mcg": "usda_reference:169697",
+              "vit_b12_mcg": "usda_reference:169697",
+              "vit_a_mcg": "usda_reference:169697",
+              "vit_e_mg": "usda_reference:169697",
+              "vit_d_mcg": "usda_reference:169697",
+              "ala_g": "usda_reference:169697"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 2000.0,
+            "price_regular": 4.49,
+            "price_promo": 3.99,
+            "price_used": 3.99,
+            "price_kind": "promo",
             "location_id": "foodbasics-reference",
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
             "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:49:01Z",
+            "price_observed_at": "2026-08-09T03:48:55Z",
             "price_stale": false,
-            "price_source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/natural-products/women-complete-multivitamins/p/625273031867"
+            "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
+          }
+        },
+        {
+          "sku_id": "walmart_ca:6000204673258",
+          "name": "Equate Multivitamin, 250 Tablets, Value Size",
+          "grams_per_day": 0.97,
+          "cost_per_day": 0.0523,
+          "pct_of_basket": 3.2,
+          "meta": {
+            "is_supplement": true,
+            "count": 250,
+            "tablet_g": 1.3,
+            "max_tablets_per_day": 1.0,
+            "unit_grams": 325.0,
+            "price_regular": 17.57,
+            "price_promo": null,
+            "price_used": 17.57,
+            "price_kind": "effective",
+            "location_id": "walmart-ca-reference",
+            "location_display": "Walmart.ca Reference (unlocalized online catalog)",
+            "price_retailer": "walmart_ca",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "online_catalog",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T06:03:23Z",
+            "price_stale": false,
+            "price_source_url": "https://www.walmart.ca/en/ip/equate-multivitamin-250-tablets-value-size-unisex/6000204673258"
+          }
+        },
+        {
+          "sku_id": "superstore:20336722005_EA",
+          "name": "Oasis Orange Pure Breakfast Juice",
+          "grams_per_day": 11.08,
+          "cost_per_day": 0.0199,
+          "pct_of_basket": 1.2,
+          "meta": {
+            "fdc_id": 169103,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:169103",
+              "protein_g": "usda_reference:169103",
+              "fiber_g": "usda_reference:169103",
+              "calcium_mg": "usda_reference:169103",
+              "iron_mg": "usda_reference:169103",
+              "magnesium_mg": "usda_reference:169103",
+              "potassium_mg": "usda_reference:169103",
+              "sodium_mg": "usda_reference:169103",
+              "zinc_mg": "usda_reference:169103",
+              "vit_c_mg": "usda_reference:169103",
+              "folate_mcg": "usda_reference:169103",
+              "vit_b12_mcg": "usda_reference:169103",
+              "vit_a_mcg": "usda_reference:169103",
+              "vit_e_mg": "usda_reference:169103",
+              "ala_g": "usda_reference:169103"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 998.4,
+            "price_regular": 1.79,
+            "price_promo": null,
+            "price_used": 1.79,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:08Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20336722005_EA"
+          }
+        },
+        {
+          "sku_id": "superstore:20629219_EA",
+          "name": "PC Blue Menu Green Split Peas",
+          "grams_per_day": 2.69,
+          "cost_per_day": 0.0105,
+          "pct_of_basket": 0.6,
+          "meta": {
+            "fdc_id": 172428,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:172428",
+              "protein_g": "usda_reference:172428",
+              "fiber_g": "usda_reference:172428",
+              "calcium_mg": "usda_reference:172428",
+              "iron_mg": "usda_reference:172428",
+              "magnesium_mg": "usda_reference:172428",
+              "potassium_mg": "usda_reference:172428",
+              "sodium_mg": "usda_reference:172428",
+              "zinc_mg": "usda_reference:172428",
+              "vit_c_mg": "usda_reference:172428",
+              "folate_mcg": "usda_reference:172428",
+              "vit_b12_mcg": "usda_reference:172428",
+              "vit_a_mcg": "usda_reference:172428",
+              "vit_e_mg": "usda_reference:172428",
+              "vit_d_mcg": "usda_reference:172428",
+              "ala_g": "usda_reference:172428"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 900.0,
+            "price_regular": 3.5,
+            "price_promo": null,
+            "price_used": 3.5,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:04Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629219_EA"
           }
         }
       ],
@@ -41655,7 +42000,7 @@
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 74.0451,
+          "delivered": 63.3215,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41667,13 +42012,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.000871
+          "shadow_price_per_unit": 0.001513
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 7.2114,
+          "delivered": 11.3775,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41685,7 +42030,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000547
+          "shadow_price_per_unit": 0.000143
         },
         {
           "nutrient": "vit_a_mcg",
@@ -41700,16 +42045,16 @@
           "nutrient": "vit_c_mg",
           "kind": "rda",
           "target": 90,
-          "delivered": 208.7203,
+          "delivered": 90.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.00044
         },
         {
           "nutrient": "vit_c_mg",
           "kind": "ul",
           "target": 2000,
-          "delivered": 208.7203,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41718,7 +42063,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 34.9587,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41727,7 +42072,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 34.9587,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41736,7 +42081,7 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 41.0247,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41745,7 +42090,7 @@
           "nutrient": "vit_e_mg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 41.0247,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41754,7 +42099,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 31.136,
+          "delivered": 14.892,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41775,7 +42120,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000456
+          "shadow_price_per_unit": 0.000486
         },
         {
           "nutrient": "calcium_mg",
@@ -41799,7 +42144,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 32.0575,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41808,7 +42153,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 32.0575,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41817,10 +42162,10 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 647.7842,
+          "delivered": 420.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 5e-06
         },
         {
           "nutrient": "potassium_mg",
@@ -41835,7 +42180,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 81.886,
+          "delivered": 34.0852,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41844,7 +42189,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 25.4856,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41853,7 +42198,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 25.4856,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -41865,108 +42210,24 @@
     {
       "mode": "vegan",
       "location_region": "canada_reference",
-      "location_display": "All Canada Reference (best across four chains)",
+      "location_display": "All Canada Reference (best across five chains)",
       "currency": "CAD",
       "price_scope": "reference",
       "fx_to_usd": 0.7172057663343613,
       "fx_as_of": "2026-08-07",
       "status": "optimal",
       "message": "optimal solution found",
-      "cost_per_day": 1.8888,
-      "cost_per_day_usd": 1.3546582514523415,
+      "cost_per_day": 1.6389,
+      "cost_per_day_usd": 1.1754285304453846,
       "price_as_of": "2026-08-09",
       "has_stale_prices": false,
       "basket": [
         {
-          "sku_id": "superstore:20629679_EA",
-          "name": "PC Blue Menu Green Lentils",
-          "grams_per_day": 141.71,
-          "cost_per_day": 0.5511,
-          "pct_of_basket": 29.2,
-          "meta": {
-            "fdc_id": 2644283,
-            "nutrient_sources": {
-              "energy_kcal": "usda_reference:2644283",
-              "protein_g": "usda_reference:2644283",
-              "calcium_mg": "usda_reference:2644283",
-              "iron_mg": "usda_reference:2644283",
-              "magnesium_mg": "usda_reference:2644283",
-              "potassium_mg": "usda_reference:2644283",
-              "sodium_mg": "usda_reference:2644283",
-              "zinc_mg": "usda_reference:2644283"
-            },
-            "sku_nutrition": null,
-            "unit_grams": 900.0,
-            "price_regular": 3.5,
-            "price_promo": null,
-            "price_used": 3.5,
-            "price_kind": "effective",
-            "location_id": "1033",
-            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
-            "price_retailer": "superstore",
-            "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
-            "currency": "CAD",
-            "price_scope": "reference",
-            "price_channel": "pickup",
-            "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:49:03Z",
-            "price_stale": false,
-            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629679_EA"
-          }
-        },
-        {
-          "sku_id": "foodbasics:055270846452",
-          "name": "Grace Corn Meal",
-          "grams_per_day": 196.37,
-          "cost_per_day": 0.3918,
-          "pct_of_basket": 20.7,
-          "meta": {
-            "fdc_id": 169697,
-            "nutrient_sources": {
-              "energy_kcal": "usda_reference:169697",
-              "protein_g": "usda_reference:169697",
-              "fiber_g": "usda_reference:169697",
-              "calcium_mg": "usda_reference:169697",
-              "iron_mg": "usda_reference:169697",
-              "magnesium_mg": "usda_reference:169697",
-              "potassium_mg": "usda_reference:169697",
-              "sodium_mg": "usda_reference:169697",
-              "zinc_mg": "usda_reference:169697",
-              "vit_c_mg": "usda_reference:169697",
-              "folate_mcg": "usda_reference:169697",
-              "vit_b12_mcg": "usda_reference:169697",
-              "vit_a_mcg": "usda_reference:169697",
-              "vit_e_mg": "usda_reference:169697",
-              "vit_d_mcg": "usda_reference:169697",
-              "ala_g": "usda_reference:169697"
-            },
-            "sku_nutrition": null,
-            "unit_grams": 2000.0,
-            "price_regular": 4.49,
-            "price_promo": 3.99,
-            "price_used": 3.99,
-            "price_kind": "promo",
-            "location_id": "foodbasics-reference",
-            "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "foodbasics",
-            "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
-            "currency": "CAD",
-            "price_scope": "reference",
-            "price_channel": null,
-            "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:55Z",
-            "price_stale": false,
-            "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
-          }
-        },
-        {
           "sku_id": "foodbasics:062781068624",
           "name": "Divya Dry Kidney Beans",
-          "grams_per_day": 109.64,
-          "cost_per_day": 0.3628,
-          "pct_of_basket": 19.2,
+          "grams_per_day": 174.98,
+          "cost_per_day": 0.5791,
+          "pct_of_basket": 35.3,
           "meta": {
             "fdc_id": 173744,
             "nutrient_sources": {
@@ -41997,7 +42258,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -42010,9 +42271,9 @@
         {
           "sku_id": "nofrills:20103390_EA",
           "name": "No Name 100% Pure Vegetable Oil",
-          "grams_per_day": 102.84,
-          "cost_per_day": 0.2977,
-          "pct_of_basket": 15.8,
+          "grams_per_day": 164.11,
+          "cost_per_day": 0.4751,
+          "pct_of_basket": 29.0,
           "meta": {
             "fdc_id": 172370,
             "nutrient_sources": {
@@ -42042,7 +42303,7 @@
             "location_display": "No Frills Reference \u2014 Chris & Tanya's, Renfrew",
             "price_retailer": "nofrills",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": "pickup",
@@ -42053,41 +42314,49 @@
           }
         },
         {
-          "sku_id": "metro:064642098900",
-          "name": "Jamieson 100% Complete Multivitamin for Men",
-          "grams_per_day": 1.3,
-          "cost_per_day": 0.1477,
-          "pct_of_basket": 7.8,
+          "sku_id": "superstore:20629679_EA",
+          "name": "PC Blue Menu Green Lentils",
+          "grams_per_day": 85.63,
+          "cost_per_day": 0.333,
+          "pct_of_basket": 20.3,
           "meta": {
-            "is_supplement": true,
-            "count": 115,
-            "tablet_g": 1.3,
-            "max_tablets_per_day": 1.0,
-            "unit_grams": 149.5,
-            "price_regular": 24.99,
-            "price_promo": 16.99,
-            "price_used": 16.99,
-            "price_kind": "promo",
-            "location_id": "metro-reference",
-            "location_display": "Metro Reference (Canada; unlocalized online catalog)",
-            "price_retailer": "metro",
+            "fdc_id": 2644283,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:2644283",
+              "protein_g": "usda_reference:2644283",
+              "calcium_mg": "usda_reference:2644283",
+              "iron_mg": "usda_reference:2644283",
+              "magnesium_mg": "usda_reference:2644283",
+              "potassium_mg": "usda_reference:2644283",
+              "sodium_mg": "usda_reference:2644283",
+              "zinc_mg": "usda_reference:2644283"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 900.0,
+            "price_regular": 3.5,
+            "price_promo": null,
+            "price_used": 3.5,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
-            "price_channel": null,
+            "price_channel": "pickup",
             "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:48:51Z",
+            "price_observed_at": "2026-08-09T03:49:03Z",
             "price_stale": false,
-            "price_source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-men/p/064642098900"
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629679_EA"
           }
         },
         {
           "sku_id": "foodbasics:064642079619",
           "name": "Jamieson Mega Cal Calcium with Vitamin D3",
-          "grams_per_day": 1.44,
-          "cost_per_day": 0.0901,
-          "pct_of_basket": 4.8,
+          "grams_per_day": 1.55,
+          "cost_per_day": 0.0971,
+          "pct_of_basket": 5.9,
           "meta": {
             "is_supplement": true,
             "count": 250,
@@ -42102,7 +42371,7 @@
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
@@ -42113,33 +42382,170 @@
           }
         },
         {
-          "sku_id": "foodbasics:625273031867",
-          "name": "Webber Naturals Most Complete Multivitamin for Women",
-          "grams_per_day": 0.31,
-          "cost_per_day": 0.0475,
-          "pct_of_basket": 2.5,
+          "sku_id": "foodbasics:055270846452",
+          "name": "Grace Corn Meal",
+          "grams_per_day": 36.06,
+          "cost_per_day": 0.0719,
+          "pct_of_basket": 4.4,
           "meta": {
-            "is_supplement": true,
-            "count": 90,
-            "tablet_g": 1.3,
-            "max_tablets_per_day": 1.0,
-            "unit_grams": 117.0,
-            "price_regular": 17.99,
-            "price_promo": null,
-            "price_used": 17.99,
-            "price_kind": "regular",
+            "fdc_id": 169697,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:169697",
+              "protein_g": "usda_reference:169697",
+              "fiber_g": "usda_reference:169697",
+              "calcium_mg": "usda_reference:169697",
+              "iron_mg": "usda_reference:169697",
+              "magnesium_mg": "usda_reference:169697",
+              "potassium_mg": "usda_reference:169697",
+              "sodium_mg": "usda_reference:169697",
+              "zinc_mg": "usda_reference:169697",
+              "vit_c_mg": "usda_reference:169697",
+              "folate_mcg": "usda_reference:169697",
+              "vit_b12_mcg": "usda_reference:169697",
+              "vit_a_mcg": "usda_reference:169697",
+              "vit_e_mg": "usda_reference:169697",
+              "vit_d_mcg": "usda_reference:169697",
+              "ala_g": "usda_reference:169697"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 2000.0,
+            "price_regular": 4.49,
+            "price_promo": 3.99,
+            "price_used": 3.99,
+            "price_kind": "promo",
             "location_id": "foodbasics-reference",
             "location_display": "Food Basics Reference (Canada; unlocalized online catalog)",
             "price_retailer": "foodbasics",
             "solution_location_id": "canada-reference",
-            "solution_location_display": "All Canada Reference (best across four chains)",
+            "solution_location_display": "All Canada Reference (best across five chains)",
             "currency": "CAD",
             "price_scope": "reference",
             "price_channel": null,
             "price_fetched_at": "2026-08-09",
-            "price_observed_at": "2026-08-09T03:49:01Z",
+            "price_observed_at": "2026-08-09T03:48:55Z",
             "price_stale": false,
-            "price_source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/natural-products/women-complete-multivitamins/p/625273031867"
+            "price_source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452"
+          }
+        },
+        {
+          "sku_id": "walmart_ca:6000204673258",
+          "name": "Equate Multivitamin, 250 Tablets, Value Size",
+          "grams_per_day": 0.97,
+          "cost_per_day": 0.0523,
+          "pct_of_basket": 3.2,
+          "meta": {
+            "is_supplement": true,
+            "count": 250,
+            "tablet_g": 1.3,
+            "max_tablets_per_day": 1.0,
+            "unit_grams": 325.0,
+            "price_regular": 17.57,
+            "price_promo": null,
+            "price_used": 17.57,
+            "price_kind": "effective",
+            "location_id": "walmart-ca-reference",
+            "location_display": "Walmart.ca Reference (unlocalized online catalog)",
+            "price_retailer": "walmart_ca",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "online_catalog",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T06:03:23Z",
+            "price_stale": false,
+            "price_source_url": "https://www.walmart.ca/en/ip/equate-multivitamin-250-tablets-value-size-unisex/6000204673258"
+          }
+        },
+        {
+          "sku_id": "superstore:20336722005_EA",
+          "name": "Oasis Orange Pure Breakfast Juice",
+          "grams_per_day": 11.08,
+          "cost_per_day": 0.0199,
+          "pct_of_basket": 1.2,
+          "meta": {
+            "fdc_id": 169103,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:169103",
+              "protein_g": "usda_reference:169103",
+              "fiber_g": "usda_reference:169103",
+              "calcium_mg": "usda_reference:169103",
+              "iron_mg": "usda_reference:169103",
+              "magnesium_mg": "usda_reference:169103",
+              "potassium_mg": "usda_reference:169103",
+              "sodium_mg": "usda_reference:169103",
+              "zinc_mg": "usda_reference:169103",
+              "vit_c_mg": "usda_reference:169103",
+              "folate_mcg": "usda_reference:169103",
+              "vit_b12_mcg": "usda_reference:169103",
+              "vit_a_mcg": "usda_reference:169103",
+              "vit_e_mg": "usda_reference:169103",
+              "ala_g": "usda_reference:169103"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 998.4,
+            "price_regular": 1.79,
+            "price_promo": null,
+            "price_used": 1.79,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:08Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20336722005_EA"
+          }
+        },
+        {
+          "sku_id": "superstore:20629219_EA",
+          "name": "PC Blue Menu Green Split Peas",
+          "grams_per_day": 2.69,
+          "cost_per_day": 0.0105,
+          "pct_of_basket": 0.6,
+          "meta": {
+            "fdc_id": 172428,
+            "nutrient_sources": {
+              "energy_kcal": "usda_reference:172428",
+              "protein_g": "usda_reference:172428",
+              "fiber_g": "usda_reference:172428",
+              "calcium_mg": "usda_reference:172428",
+              "iron_mg": "usda_reference:172428",
+              "magnesium_mg": "usda_reference:172428",
+              "potassium_mg": "usda_reference:172428",
+              "sodium_mg": "usda_reference:172428",
+              "zinc_mg": "usda_reference:172428",
+              "vit_c_mg": "usda_reference:172428",
+              "folate_mcg": "usda_reference:172428",
+              "vit_b12_mcg": "usda_reference:172428",
+              "vit_a_mcg": "usda_reference:172428",
+              "vit_e_mg": "usda_reference:172428",
+              "vit_d_mcg": "usda_reference:172428",
+              "ala_g": "usda_reference:172428"
+            },
+            "sku_nutrition": null,
+            "unit_grams": 900.0,
+            "price_regular": 3.5,
+            "price_promo": null,
+            "price_used": 3.5,
+            "price_kind": "effective",
+            "location_id": "1033",
+            "location_display": "Superstore Reference \u2014 Dufferin & Steeles, Toronto",
+            "price_retailer": "superstore",
+            "solution_location_id": "canada-reference",
+            "solution_location_display": "All Canada Reference (best across five chains)",
+            "currency": "CAD",
+            "price_scope": "reference",
+            "price_channel": "pickup",
+            "price_fetched_at": "2026-08-09",
+            "price_observed_at": "2026-08-09T03:49:04Z",
+            "price_stale": false,
+            "price_source_url": "https://www.realcanadiansuperstore.ca/en/p/20629219_EA"
           }
         }
       ],
@@ -42157,7 +42563,7 @@
           "nutrient": "protein_g",
           "kind": "rda",
           "target": 56,
-          "delivered": 74.0451,
+          "delivered": 63.3215,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42169,13 +42575,13 @@
           "delivered": 31.0,
           "unit": "g",
           "binding": true,
-          "shadow_price_per_unit": 0.000871
+          "shadow_price_per_unit": 0.001513
         },
         {
           "nutrient": "ala_g",
           "kind": "rda",
           "target": 1.6,
-          "delivered": 7.2114,
+          "delivered": 11.3775,
           "unit": "g",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42187,7 +42593,7 @@
           "delivered": 900.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000547
+          "shadow_price_per_unit": 0.000143
         },
         {
           "nutrient": "vit_a_mcg",
@@ -42202,16 +42608,16 @@
           "nutrient": "vit_c_mg",
           "kind": "rda",
           "target": 90,
-          "delivered": 208.7203,
+          "delivered": 90.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 0.00044
         },
         {
           "nutrient": "vit_c_mg",
           "kind": "ul",
           "target": 2000,
-          "delivered": 208.7203,
+          "delivered": 90.0,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42220,7 +42626,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "rda",
           "target": 15,
-          "delivered": 34.9587,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42229,7 +42635,7 @@
           "nutrient": "vit_d_mcg",
           "kind": "ul",
           "target": 100,
-          "delivered": 34.9587,
+          "delivered": 20.8867,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42238,7 +42644,7 @@
           "nutrient": "vit_e_mg",
           "kind": "rda",
           "target": 15,
-          "delivered": 41.0247,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42247,7 +42653,7 @@
           "nutrient": "vit_e_mg",
           "kind": "ul",
           "target": 1000,
-          "delivered": 41.0247,
+          "delivered": 30.7275,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42256,7 +42662,7 @@
           "nutrient": "vit_b12_mcg",
           "kind": "rda",
           "target": 2.4,
-          "delivered": 31.136,
+          "delivered": 14.892,
           "unit": "mcg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42277,7 +42683,7 @@
           "delivered": 1000.0,
           "unit": "mcg",
           "binding": true,
-          "shadow_price_per_unit": 0.000456
+          "shadow_price_per_unit": 0.000486
         },
         {
           "nutrient": "calcium_mg",
@@ -42301,7 +42707,7 @@
           "nutrient": "iron_mg",
           "kind": "rda",
           "target": 8,
-          "delivered": 32.0575,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42310,7 +42716,7 @@
           "nutrient": "iron_mg",
           "kind": "ul",
           "target": 45,
-          "delivered": 32.0575,
+          "delivered": 26.7745,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42319,10 +42725,10 @@
           "nutrient": "magnesium_mg",
           "kind": "rda",
           "target": 420,
-          "delivered": 647.7842,
+          "delivered": 420.0,
           "unit": "mg",
-          "binding": false,
-          "shadow_price_per_unit": 0.0
+          "binding": true,
+          "shadow_price_per_unit": 5e-06
         },
         {
           "nutrient": "potassium_mg",
@@ -42337,7 +42743,7 @@
           "nutrient": "sodium_mg",
           "kind": "ul",
           "target": 2300,
-          "delivered": 81.886,
+          "delivered": 34.0852,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42346,7 +42752,7 @@
           "nutrient": "zinc_mg",
           "kind": "rda",
           "target": 11,
-          "delivered": 25.4856,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0
@@ -42355,7 +42761,7 @@
           "nutrient": "zinc_mg",
           "kind": "ul",
           "target": 40,
-          "delivered": 25.4856,
+          "delivered": 14.5523,
           "unit": "mg",
           "binding": false,
           "shadow_price_per_unit": 0.0

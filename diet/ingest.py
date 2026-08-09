@@ -32,6 +32,7 @@ from diet.sources.pc_express import (
     PCExpressQuote,
 )
 from diet.sources.walmart import WalmartClient
+from diet.sources.walmart_ca import WalmartCanadaClient, WalmartCanadaError
 from diet.supplements import as_sku_specs, load_supplements
 from diet.util import read_json, write_json_atomic
 
@@ -39,6 +40,7 @@ DEFAULT_RAW_ROOT = Path("data/raw/kroger")
 DEFAULT_WALMART_RAW_ROOT = Path("data/raw/walmart")
 DEFAULT_METRO_RAW_ROOT = Path("data/raw/metro_reference")
 DEFAULT_PC_EXPRESS_RAW_ROOT = Path("data/raw/pc_express")
+DEFAULT_WALMART_CA_RAW_ROOT = Path("data/raw/walmart_ca")
 DEFAULT_OUT_PATH = Path("data/prices_current.json")
 DEFAULT_NUTRIENTS_OUT_PATH = Path("data/nutrients_current.json")
 DEFAULT_FX_OUT_PATH = Path("data/fx_current.json")
@@ -449,6 +451,57 @@ def _ingest_pc_express_reference(
     return rows, missing
 
 
+def _ingest_walmart_ca_reference(
+    skus: list[SkuSpec],
+    location: Location,
+    client: WalmartCanadaClient,
+    today: str,
+    raw_root: Path,
+) -> tuple[list[dict], list[dict]]:
+    """Read exact Walmart.ca SKUs from their unlocalized product pages."""
+    rows: list[dict] = []
+    missing: list[dict] = []
+    quotes: list[dict] = []
+    for sku in skus:
+        try:
+            quote = client.quote_product(sku.product_id)
+        except (WalmartCanadaError, ValueError) as exc:
+            missing.append({
+                "product_id": sku.product_id,
+                "name": sku.name,
+                "location_id": location.location_id,
+                "reason": f"reference request failed: {exc}",
+            })
+            continue
+        quotes.append(quote.as_dict())
+        rows.append({
+            "product_id": sku.product_id,
+            "location_id": location.location_id,
+            # JSON-LD exposes the current offer, without a regular/promo split.
+            "regular": quote.effective_price_cad,
+            "promo": None,
+            "currency": "CAD",
+            "price_scope": "reference",
+            "channel": quote.channel,
+            "price_kind": "effective",
+            "price_basis": "package",
+            "package": sku.package_label,
+            "source_url": quote.source_url,
+            "observed_at": quote.observed_at,
+            "fetched_at": today,
+            "stale": False,
+        })
+    write_json_atomic(
+        raw_root / today / f"{location.source}.json",
+        {
+            "source": "walmart_ca_product_page",
+            "price_scope": "reference",
+            "quotes": quotes,
+        },
+    )
+    return rows, missing
+
+
 def _retain_reference_prices(
     rows: list[dict],
     previous_rows: list[dict],
@@ -519,11 +572,13 @@ def ingest(
     walmart_client: WalmartClient | None = None,
     metro_clients: dict[str, MetroReferenceClient] | None = None,
     pc_express_clients: dict[str, PCExpressClient] | None = None,
+    walmart_ca_client: WalmartCanadaClient | None = None,
     fx_client: BankOfCanadaClient | None = None,
     raw_root: Path = DEFAULT_RAW_ROOT,
     walmart_raw_root: Path = DEFAULT_WALMART_RAW_ROOT,
     metro_raw_root: Path = DEFAULT_METRO_RAW_ROOT,
     pc_express_raw_root: Path = DEFAULT_PC_EXPRESS_RAW_ROOT,
+    walmart_ca_raw_root: Path = DEFAULT_WALMART_CA_RAW_ROOT,
     fdc_cache: Path = DEFAULT_FDC_CACHE,
     out_path: Path = DEFAULT_OUT_PATH,
     nutrients_out_path: Path = DEFAULT_NUTRIENTS_OUT_PATH,
@@ -545,6 +600,9 @@ def ingest(
     ]
     pc_express_reference_locs = [
         l for l in locations if l.source in {"superstore", "nofrills"}
+    ]
+    walmart_ca_reference_locs = [
+        l for l in locations if l.source == "walmart_ca"
     ]
 
     rows: list[dict] = []
@@ -586,6 +644,20 @@ def ingest(
         client = pc_express_clients.get(loc.source) or PCExpressClient()
         r, m = _ingest_pc_express_reference(
             retailer_skus, loc, client, today, pc_express_raw_root
+        )
+        rows += r
+        missing += m
+
+    for loc in walmart_ca_reference_locs:
+        retailer_skus = [sku for sku in skus if sku.source == loc.source]
+        if not retailer_skus:
+            continue
+        r, m = _ingest_walmart_ca_reference(
+            retailer_skus,
+            loc,
+            walmart_ca_client or WalmartCanadaClient(),
+            today,
+            walmart_ca_raw_root,
         )
         rows += r
         missing += m

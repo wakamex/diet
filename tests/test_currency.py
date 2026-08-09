@@ -14,6 +14,7 @@ def test_canadian_locations_are_native_cad_reference_scopes():
         "foodbasics_reference",
         "superstore_reference",
         "nofrills_reference",
+        "walmart_ca_reference",
         "canada_reference",
     ):
         assert locations[region].currency == "CAD"
@@ -30,6 +31,7 @@ def test_canadian_locations_are_native_cad_reference_scopes():
         "foodbasics_reference",
         "superstore_reference",
         "nofrills_reference",
+        "walmart_ca_reference",
     )
     assert {
         source: location.region
@@ -41,6 +43,7 @@ def test_canadian_locations_are_native_cad_reference_scopes():
         "foodbasics": "foodbasics_reference",
         "superstore": "superstore_reference",
         "nofrills": "nofrills_reference",
+        "walmart_ca": "walmart_ca_reference",
     }
 
 
