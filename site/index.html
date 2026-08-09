@@ -10,7 +10,19 @@
         h1 { font-size: 2rem; }
         .tagline { color: #b6aa99; margin-bottom: 24px; }
 
-        .results-overview { margin: 0 0 24px; }
+        /* The compact pills are the progressive-enhancement fallback. When the
+           selector's actual content box can fit the full matrix, the matrix
+           replaces them entirely and becomes the only interactive selector. */
+        .selector-switch {
+            container-name: result-selector;
+            container-type: inline-size;
+        }
+        .results-overview { display: none; margin: 0 0 24px; }
+        .compact-selectors { display: block; }
+        @container result-selector (min-width: 880px) {
+            .results-overview { display: block; }
+            .compact-selectors { display: none; }
+        }
         .overview-titlebar {
             align-items: baseline;
             display: flex;
@@ -372,22 +384,26 @@
     <h1>Stigler 2026</h1>
     <p class="tagline">The cheapest current retailer basket that hits your daily nutrient targets — by diet mode and market.</p>
 
-    <section class="results-overview" aria-labelledby="overview-title">
-        <div class="overview-titlebar">
-            <div class="overview-title" id="overview-title">Results at a glance</div>
-            <div class="overview-note">Food / + pills · bar length is USD-equivalent cost · orange is cheapest for that diet/variant</div>
+    <div class="selector-switch">
+        <section class="results-overview" aria-labelledby="overview-title">
+            <div class="overview-titlebar">
+                <div class="overview-title" id="overview-title">Results at a glance</div>
+                <div class="overview-note">Food / + pills · bar length is USD-equivalent cost · orange is cheapest for that diet/variant</div>
+            </div>
+            <div class="overview-frame" id="overview"></div>
+        </section>
+
+        <div class="compact-selectors">
+            <div class="pillrow-label">Diet</div>
+            <div class="pillrow" id="modes" role="tablist"></div>
+
+            <div class="pillrow-label">Location</div>
+            <div class="pillrow" id="locations" role="tablist"></div>
+
+            <div class="pillrow-label">Basket</div>
+            <div class="pillrow" id="variants" role="tablist"></div>
         </div>
-        <div class="overview-frame" id="overview"></div>
-    </section>
-
-    <div class="pillrow-label">Diet</div>
-    <div class="pillrow" id="modes" role="tablist"></div>
-
-    <div class="pillrow-label">Location</div>
-    <div class="pillrow" id="locations" role="tablist"></div>
-
-    <div class="pillrow-label">Basket</div>
-    <div class="pillrow" id="variants" role="tablist"></div>
+    </div>
 
     <div id="banner-host"></div>
 
