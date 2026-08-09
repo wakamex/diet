@@ -74,6 +74,23 @@
             text-align: left;
             text-transform: none;
         }
+        .overview-table tbody .overview-group th {
+            background: #0b0b0d;
+            border-bottom: 1px solid #29251f;
+            border-top: 1px solid #29251f;
+            color: #8a7d6a;
+            font-size: 0.62rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            padding: 5px 8px 4px;
+            text-transform: uppercase;
+        }
+        .overview-group-note {
+            color: #6f675b;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            text-transform: none;
+        }
         .overview-table td { padding: 3px; }
         .overview-pair { display: grid; gap: 3px; }
         .overview-result {
@@ -594,7 +611,12 @@
 
             const headers = MODES.map(mode =>
                 `<th scope="col">${MODE_LABELS[mode] || mode}</th>`).join('');
+            let canadianHeadingAdded = false;
             const rows = locations.map(location => {
+                const canadianHeading = location.currency === 'CAD' && !canadianHeadingAdded
+                    ? `<tr class="overview-group"><th colspan="${MODES.length + 1}">Canada <span class="overview-group-note">· USD equivalents</span></th></tr>`
+                    : '';
+                if (location.currency === 'CAD') canadianHeadingAdded = true;
                 const cells = MODES.map(mode => {
                     const buttons = VARIANTS.map(variant => {
                         const sol = solutionFor(mode, location.region, variant);
@@ -610,21 +632,21 @@
                             && variant === STATE.variant;
                         const isBest = Math.abs(cost - best[`${mode}:${variant}`]) < 1e-8;
                         const width = maxCost ? Math.max(4, cost / maxCost * 100) : 0;
-                        const usd = sol.currency === 'USD'
-                            ? '' : ` · ${fmtMoney(cost, 'USD')} equivalent`;
+                        const native = sol.currency === 'USD'
+                            ? '' : ` · ${fmtMoney(sol.cost_per_day, sol.currency)} native`;
                         const label = `${shortLocationLabel(location)} · ${MODE_LABELS[mode] || mode} · ${VARIANT_LABELS[variant]}`;
                         return `<button type="button" class="overview-result${active ? ' active' : ''}${isBest ? ' best' : ''}"
                             data-mode="${mode}" data-region="${location.region}" data-variant="${variant}"
                             style="--bar-width:${width.toFixed(1)}%"
-                            title="${label}: ${fmtMoney(sol.cost_per_day, sol.currency)} per day${usd}"
-                            aria-label="${label}: ${fmtMoney(sol.cost_per_day, sol.currency)} per day">
+                            title="${label}: ${fmtMoney(cost, 'USD')} equivalent per day${native}"
+                            aria-label="${label}: ${fmtMoney(cost, 'USD')} equivalent per day">
                             <span class="overview-kind">${variant === 'food_only' ? 'food' : '+ pills'}</span>
-                            <span class="overview-cost">${fmtMoney(sol.cost_per_day, sol.currency)}</span>
+                            <span class="overview-cost">${fmtMoney(cost, 'USD')}</span>
                         </button>`;
                     }).join('');
                     return `<td><div class="overview-pair">${buttons}</div></td>`;
                 }).join('');
-                return `<tr>
+                return `${canadianHeading}<tr>
                     <th scope="row" title="${location.display}">${shortLocationLabel(location)}</th>
                     ${cells}
                 </tr>`;
