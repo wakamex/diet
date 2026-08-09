@@ -57,6 +57,7 @@ def test_canadian_supplements_use_exact_retailer_skus_and_label_profiles():
     nofrills_multivitamin = supplements[("21589918_EA", "nofrills")]
     superstore_calcium = supplements[("20316359001_EA", "superstore")]
     nofrills_d3 = supplements[("20299993_EA", "nofrills")]
+    walmart_ca_multivitamin = supplements[("6000204673258", "walmart_ca")]
 
     assert d3_metro.count == d3_foodbasics.count == 240
     assert d3_metro.nutrients_per_tablet == {"vit_d_mcg": 25}
@@ -88,6 +89,21 @@ def test_canadian_supplements_use_exact_retailer_skus_and_label_profiles():
     assert superstore_calcium.nutrients_per_tablet == metro_calcium.nutrients_per_tablet
     assert nofrills_d3.count == 240
     assert nofrills_d3.nutrients_per_tablet == {"vit_d_mcg": 25}
+    assert walmart_ca_multivitamin.count == 250
+    assert walmart_ca_multivitamin.max_tablets_per_day == 1
+    assert walmart_ca_multivitamin.nutrients_per_tablet == {
+        "vit_a_mcg": 1200,
+        "vit_c_mg": 90,
+        "vit_d_mcg": 15,
+        "vit_e_mg": 22.5,
+        "vit_b12_mcg": 20,
+        "folate_mcg": 400,
+        "calcium_mg": 200,
+        "iron_mg": 10,
+        "magnesium_mg": 50,
+        "potassium_mg": 80,
+        "zinc_mg": 7.5,
+    }
 
 
 def test_pc_express_effective_price_semantics_reach_solution_metadata():

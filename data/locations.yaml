@@ -31,7 +31,7 @@
 # while basket rows retain the member retailer that supplies their price.
 - region: canada_reference
   location_id: "canada-reference"
-  display: "All Canada Reference (best across four chains)"
+  display: "All Canada Reference (best across five chains)"
   source: canada
   currency: CAD
   price_scope: reference
@@ -40,6 +40,7 @@
     - foodbasics_reference
     - superstore_reference
     - nofrills_reference
+    - walmart_ca_reference
 
 - region: metro_reference
   location_id: "metro-reference"
@@ -77,3 +78,10 @@
   reference_store_name: "Chris & Tanya's No Frills"
   reference_store_address: "680 O'Brien Rd, Renfrew, ON K7V 3S1"
   reference_store_basis: "PC Express storefront defaultStoreId/masterStoreId"
+
+- region: walmart_ca_reference
+  location_id: "walmart-ca-reference"
+  display: "Walmart.ca Reference (unlocalized online catalog)"
+  source: walmart_ca
+  currency: CAD
+  price_scope: reference

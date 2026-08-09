@@ -500,8 +500,8 @@
 
     <div class="footer">
         <p>Linear program: minimize daily cost in each market's native currency subject to RDAs/ULs (NIH ODS, adult M 31–50), supplement dosage caps, and dietary-mode exclusions. Solved with HiGHS via <code>scipy.optimize.linprog</code>.</p>
-        <p>Prices: <a href="https://developer.kroger.com/">Kroger Public Products API</a>, Walmart product feeds, the Metro Inc. storefront reference catalogs, and the first-party PC Express catalog API. CAD→USD comparisons use the <a href="https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1">Bank of Canada daily rate</a>. Nutrients: <a href="https://fdc.nal.usda.gov/">USDA FoodData Central</a>. Targets: <a href="https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx">NIH ODS DRIs</a>.</p>
-        <p>Limits: Metro and Food Basics are unlocalized catalog references. Superstore and No Frills use each storefront's configured default/master store, shown by name in the selector; they are not chain-wide averages, minima, or Ottawa quotes. All Canada Reference is a mathematical cross-retailer basket and may require shopping at multiple chains. Prices and promotions vary. The model uses one adult profile and ignores cooking, waste, bioavailability, and palatability. Foods have no serving caps.</p>
+        <p>Prices: <a href="https://developer.kroger.com/">Kroger Public Products API</a>, Walmart product feeds and Walmart.ca product pages, the Metro Inc. storefront reference catalogs, and the first-party PC Express catalog API. CAD→USD comparisons use the <a href="https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1">Bank of Canada daily rate</a>. Nutrients: <a href="https://fdc.nal.usda.gov/">USDA FoodData Central</a>. Targets: <a href="https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx">NIH ODS DRIs</a>.</p>
+        <p>Limits: Metro, Food Basics, and Walmart.ca are unlocalized catalog references. Superstore and No Frills use each storefront's configured default/master store, shown by name in the selector; they are not chain-wide averages, minima, or Ottawa quotes. All Canada Reference is a mathematical cross-retailer basket and may require shopping at multiple chains. Prices and promotions vary. The model uses one adult profile and ignores cooking, waste, bioavailability, and palatability. Foods have no serving caps.</p>
         <p>The <b>food + pills</b> variant adds only the supplements curated and currently priced by that retailer. Nutrients come from each Supplement Facts label; Canadian ALA is currently food-sourced from flax and chia.</p>
         <p><a href="https://github.com/wakamex/diet">Source code</a></p>
     </div>
@@ -517,6 +517,7 @@
         const RETAILER_LABELS = {
             metro: 'Metro', foodbasics: 'Food Basics',
             superstore: 'Superstore', nofrills: 'No Frills',
+            walmart_ca: 'Walmart.ca',
         };
         const CATALOG_SORT = {key: null, direction: 'asc'};
 
@@ -613,7 +614,10 @@
 
         function renderOverview() {
             const host = document.getElementById('overview');
-            const locations = DATA.locations || [];
+            const solvedRegions = new Set(DATA.solutions.map(s => s.location_region));
+            const locations = (DATA.locations || []).filter(
+                location => solvedRegions.has(location.region)
+            );
             const costs = DATA.solutions.map(comparisonCost).filter(cost => cost != null);
             const maxCost = costs.length ? Math.max(...costs) : 0;
             const best = {};
