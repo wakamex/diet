@@ -43,7 +43,9 @@ def test_canadian_supplements_use_exact_retailer_skus_and_label_profiles():
     d3_metro = supplements[("064642052544", "metro")]
     d3_foodbasics = supplements[("064642052544", "foodbasics")]
     multivitamin = supplements[("064642098900", "metro")]
-    calcium_d3 = supplements[("064642061164", "foodbasics")]
+    foodbasics_multivitamin = supplements[("625273031867", "foodbasics")]
+    metro_calcium = supplements[("064642026743", "metro")]
+    foodbasics_calcium = supplements[("064642079619", "foodbasics")]
 
     assert d3_metro.count == d3_foodbasics.count == 240
     assert d3_metro.nutrients_per_tablet == {"vit_d_mcg": 25}
@@ -51,8 +53,21 @@ def test_canadian_supplements_use_exact_retailer_skus_and_label_profiles():
     assert multivitamin.nutrients_per_tablet["vit_a_mcg"] == 700
     assert multivitamin.nutrients_per_tablet["vit_d_mcg"] == 20
     assert multivitamin.nutrients_per_tablet["zinc_mg"] == 11
-    assert calcium_d3.count == 90
-    assert calcium_d3.nutrients_per_tablet == {
-        "calcium_mg": 500,
-        "vit_d_mcg": 25,
+    assert foodbasics_multivitamin.count == 90
+    assert foodbasics_multivitamin.nutrients_per_tablet["vit_a_mcg"] == 750
+    assert foodbasics_multivitamin.nutrients_per_tablet["vit_e_mg"] == 20
+    assert foodbasics_multivitamin.nutrients_per_tablet["folate_mcg"] == 500
+    assert foodbasics_multivitamin.nutrients_per_tablet["zinc_mg"] == 10
+    assert metro_calcium.count == 200
+    assert metro_calcium.max_tablets_per_day == 3
+    assert metro_calcium.nutrients_per_tablet == {
+        "calcium_mg": 333,
+        "magnesium_mg": 167,
+        "vit_d_mcg": 5,
+    }
+    assert foodbasics_calcium.count == 250
+    assert foodbasics_calcium.max_tablets_per_day == 2
+    assert foodbasics_calcium.nutrients_per_tablet == {
+        "calcium_mg": 650,
+        "vit_d_mcg": 10,
     }

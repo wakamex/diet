@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T01:27:53Z",
+  "updated": "2026-08-09T02:31:30Z",
   "prices": [
     {
       "product_id": "0001111089875",
@@ -1901,7 +1901,7 @@
     {
       "product_id": "15380114943",
       "location_id": "walmart-national",
-      "regular": 4.58,
+      "regular": 13.4,
       "promo": null,
       "fetched_at": "2026-08-09"
     },
@@ -2398,7 +2398,7 @@
     {
       "product_id": "353773773",
       "location_id": "3478",
-      "regular": 13.32,
+      "regular": 16.52,
       "promo": null,
       "fetched_at": "2026-08-09"
     },
@@ -2580,7 +2580,7 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/long-grain-white-rice/p/059749902403",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2594,7 +2594,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/large-oats/p/055577101018",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2608,7 +2608,7 @@
       "price_basis": "package",
       "package": "675 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/bread-bakery-products/packaged-bread/whole-wheat-grain/whole-wheat-sliced-bread/p/059749916387",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2622,7 +2622,7 @@
       "price_basis": "package",
       "package": "900 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/fettuccine-pasta/p/059749893084",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2636,7 +2636,7 @@
       "price_basis": "package",
       "package": "2.5 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059749892582",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2650,7 +2650,7 @@
       "price_basis": "package",
       "package": "2.2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/wholegrain-brown-rice/p/058496464684",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2664,7 +2664,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/quinoa-specialty-grains/pearl-barley/p/062356505578",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2678,7 +2678,7 @@
       "price_basis": "package",
       "package": "340 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/toasted-wheat-germ/p/818158012505",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2692,7 +2692,7 @@
       "price_basis": "package",
       "package": "454 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2706,7 +2706,7 @@
       "price_basis": "package",
       "package": "570 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2720,7 +2720,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/large-green-lentils/p/062356507299",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2734,7 +2734,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/chickpeas/p/059749998543",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2748,7 +2748,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2762,7 +2762,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749998574",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2776,7 +2776,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/canned-pinto-bean/p/059749998536",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2790,7 +2790,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/pinto-beans/p/062356510411",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2804,7 +2804,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/dark-red-kidney-beans/p/059749929981",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2818,7 +2818,7 @@
       "price_basis": "package",
       "package": "900 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/dried-yellow-split-peas/p/059072054046",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2832,7 +2832,7 @@
       "price_basis": "package",
       "package": "400 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/extra-firm-plain-tofu/p/059072054343",
-      "observed_at": "2026-08-09T01:27:44Z",
+      "observed_at": "2026-08-09T02:31:21Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2846,7 +2846,7 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/blends-edamame/frozen-shelled-soybeans/p/062356545116",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2860,7 +2860,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2874,7 +2874,7 @@
       "price_basis": "package",
       "package": "453 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/fruit-seeds-nuts/whole-ground-flaxseed-meal/p/039978333308",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2888,7 +2888,7 @@
       "price_basis": "package",
       "package": "300 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/organic-groceries/pantry/organic-nuts-seeds-dried-fruits/whole-black-chia-seeds/p/059749979443",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2902,7 +2902,7 @@
       "price_basis": "package",
       "package": "4 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2916,7 +2916,7 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/yogurt/yogurt-tubs/0-plain-greek-yogurt/p/059749984225",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2930,7 +2930,7 @@
       "price_basis": "package",
       "package": "400 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/packaged-cheese/cheese-blocks/old-cheddar-cheese/p/059749969468",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2944,7 +2944,7 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/canned-powdered-milk/instant-skim-milk-powder/p/059749977951",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2958,7 +2958,7 @@
       "price_basis": "package",
       "package": "18 un",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/059749896078",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2972,7 +2972,7 @@
       "price_basis": "storefront_unit_price",
       "package": "5 breasts per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/breasts/boneless-and-skinless-chicken-breasts/p/206022",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -2986,7 +2986,7 @@
       "price_basis": "storefront_unit_price",
       "package": "1 per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/whole-roasting/fresh-whole-chicken/p/215008",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3000,7 +3000,7 @@
       "price_basis": "storefront_unit_price",
       "package": "3 to 5 per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/back-attached-chicken-legs-quarters/p/245111",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3014,7 +3014,7 @@
       "price_basis": "storefront_unit_price",
       "package": "A tray contains on average 450 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/ground/medium-ground-beef/p/201021",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3028,7 +3028,7 @@
       "price_basis": "storefront_unit_price",
       "package": null,
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/pork/ribs-roasts/pork-shoulder-picnic-roast/p/203003",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3042,7 +3042,7 @@
       "price_basis": "package",
       "package": "170 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/flaked-light-tuna-in-water/p/059749931915",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3056,7 +3056,7 @@
       "price_basis": "package",
       "package": "106 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/boneless-sardine-fillets-in-olive-oil/p/061362460079",
-      "observed_at": "2026-08-09T01:27:44Z",
+      "observed_at": "2026-08-09T02:31:22Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3070,7 +3070,7 @@
       "price_basis": "package",
       "package": "213 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/wild-red-pacific-sockeye-salmon/p/061362401003",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3084,7 +3084,7 @@
       "price_basis": "package",
       "package": "142 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/whole-yellow-baby-clams-in-water/p/061362442006",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3098,7 +3098,7 @@
       "price_basis": "storefront_unit_price",
       "package": "1 per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3112,7 +3112,7 @@
       "price_basis": "package",
       "package": "1.25 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-broccoli-florets/p/059749974721",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3126,7 +3126,7 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3140,7 +3140,7 @@
       "price_basis": "package",
       "package": "398 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/sliced-carrots/p/059749887465",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3154,7 +3154,7 @@
       "price_basis": "storefront_unit_price",
       "package": null,
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/broccoli-cauliflower-cabbage/green-cabbage/p/4069",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3168,7 +3168,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/whole-white-potatoes/p/059749887700",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3182,7 +3182,7 @@
       "price_basis": "package",
       "package": "796 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/tomatoes-paste/diced-tomatoes/p/059749893435",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3196,7 +3196,7 @@
       "price_basis": "package",
       "package": "600 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-banana-slices/p/059749992183",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3210,7 +3210,7 @@
       "price_basis": "package",
       "package": "600 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-summertime-blend-mixed-fruit/p/059749875950",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3224,7 +3224,7 @@
       "price_basis": "package",
       "package": "960 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3238,7 +3238,7 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/dried-fruit/natural-california-raisins/p/041143029435",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3252,7 +3252,7 @@
       "price_basis": "package",
       "package": "1.89 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-fortified-soy-beverage/p/025293600713",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3266,7 +3266,7 @@
       "price_basis": "package",
       "package": "1.75 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/unsweetened-original-flavour-organic-almond-beverage/p/626027087819",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3280,7 +3280,7 @@
       "price_basis": "package",
       "package": "1.75 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3294,7 +3294,7 @@
       "price_basis": "package",
       "package": "1 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/059749917667",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3308,7 +3308,7 @@
       "price_basis": "package",
       "package": "3 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3322,7 +3322,7 @@
       "price_basis": "package",
       "package": "3 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3336,7 +3336,7 @@
       "price_basis": "package",
       "package": "354 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/canned-powdered-milk/evaporated-milk/p/059749948111",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3350,7 +3350,7 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3364,7 +3364,7 @@
       "price_basis": "package",
       "package": "454 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/shortening-fats/pure-lard/p/063100199043",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3378,7 +3378,7 @@
       "price_basis": "package",
       "package": "675 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/honey-syrup/fancy-molasses/p/068932401234",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3392,7 +3392,7 @@
       "price_basis": "package",
       "package": "341 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/whole-kernel-corn/p/059749887564",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3406,7 +3406,7 @@
       "price_basis": "package",
       "package": "200 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/raw-cashews/p/064777115497",
-      "observed_at": "2026-08-09T01:27:45Z",
+      "observed_at": "2026-08-09T02:31:22Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3420,7 +3420,7 @@
       "price_basis": "package",
       "package": "200 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/unsalted-roasted-pistachios/p/059749979078",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3434,7 +3434,7 @@
       "price_basis": "package",
       "package": "398 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/pickles-antipasto/pitted-black-olives/p/059749897921",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3448,7 +3448,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/whole-natural-almonds/p/059749963237",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3462,7 +3462,7 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/nuts-seeds-jerky/halves-and-pieces-of-walnuts/p/059749963251",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3476,7 +3476,7 @@
       "price_basis": "package",
       "package": "350 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/pecan-halves/p/059749979122",
-      "observed_at": "2026-08-09T01:27:45Z",
+      "observed_at": "2026-08-09T02:31:23Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3490,7 +3490,7 @@
       "price_basis": "package",
       "package": "125 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/pine-nuts/p/059749964531",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3504,7 +3504,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/self-raising-cake-and-pastry-flour/p/059000014845",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3518,7 +3518,7 @@
       "price_basis": "package",
       "package": "1.8 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/instant-corn-masa-flour/p/037297914475",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3532,7 +3532,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3546,7 +3546,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/kits-mixes-fillings/buttermilk-pancake-and-waffle-mix/p/059749887113",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3560,7 +3560,7 @@
       "price_basis": "package",
       "package": "900 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/white-navy-beans/p/059072054084",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:23Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3574,7 +3574,7 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/natural-smooth-peanut-butter/p/068100084665",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3588,7 +3588,7 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/sugar-sweeteners/special-fine-granulated-sugar/p/062847210233",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3602,7 +3602,7 @@
       "price_basis": "package",
       "package": "80 un - time-release caplets",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/b-12-vitamin/p/064642028235",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3616,7 +3616,7 @@
       "price_basis": "package",
       "package": "240 un",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/vitamin-d-1-000-iu/p/064642052544",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3630,7 +3630,21 @@
       "price_basis": "package",
       "package": "115 un",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-men/p/064642098900",
-      "observed_at": "2026-08-09T01:27:42Z",
+      "observed_at": "2026-08-09T02:31:20Z",
+      "fetched_at": "2026-08-09",
+      "stale": false
+    },
+    {
+      "product_id": "064642026743",
+      "location_id": "metro-reference",
+      "regular": 17.99,
+      "promo": 13.99,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "200 un",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/calcium-magnesium-and-vitamin-d/p/064642026743",
+      "observed_at": "2026-08-09T02:31:20Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3644,7 +3658,7 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/rice/long-grain-white-rice/p/059749902403",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3658,7 +3672,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/rolled-oats/p/770795131257",
-      "observed_at": "2026-08-09T01:27:49Z",
+      "observed_at": "2026-08-09T02:31:25Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3672,7 +3686,7 @@
       "price_basis": "package",
       "package": "675 g",
       "source_url": "https://www.foodbasics.ca/aisles/bread-bakery-products/packaged-bread/whole-wheat-grain/whole-wheat-sliced-bread/p/059749916387",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3686,7 +3700,7 @@
       "price_basis": "package",
       "package": "900 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/fettuccine-pasta/p/059749893084",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3700,7 +3714,7 @@
       "price_basis": "package",
       "package": "2.5 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059749892582",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3714,7 +3728,7 @@
       "price_basis": "package",
       "package": "2.2 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/rice/wholegrain-brown-rice/p/058496464684",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3728,7 +3742,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/quinoa-specialty-grains/pearl-barley/p/062356505578",
-      "observed_at": "2026-08-09T01:27:49Z",
+      "observed_at": "2026-08-09T02:31:26Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3742,7 +3756,7 @@
       "price_basis": "package",
       "package": "340 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/toasted-wheat-germ/p/818158012505",
-      "observed_at": "2026-08-09T01:27:50Z",
+      "observed_at": "2026-08-09T02:31:26Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3756,7 +3770,7 @@
       "price_basis": "package",
       "package": "454 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3770,7 +3784,7 @@
       "price_basis": "package",
       "package": "570 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3784,7 +3798,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/large-green-lentils/p/062356507299",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3798,7 +3812,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/chickpea/p/059749998543",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3812,7 +3826,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3826,7 +3840,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749998574",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3840,7 +3854,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/canned-pinto-bean/p/059749998536",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3854,7 +3868,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/pinto-beans/p/062356510411",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3868,7 +3882,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/dark-red-kidney-beans/p/059749929981",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3882,7 +3896,7 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/split-green-peas/p/062356506360",
-      "observed_at": "2026-08-09T01:27:50Z",
+      "observed_at": "2026-08-09T02:31:27Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3896,7 +3910,7 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.foodbasics.ca/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/firm-tofu/p/057864001445",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3910,7 +3924,7 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/blends-edamame/frozen-shelled-soybeans/p/062356545116",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3924,7 +3938,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3938,7 +3952,7 @@
       "price_basis": "package",
       "package": "453 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/fruit-seeds-nuts/whole-ground-flaxseed-meal/p/039978333308",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3952,7 +3966,7 @@
       "price_basis": "package",
       "package": "300 g",
       "source_url": "https://www.foodbasics.ca/aisles/organic-groceries/pantry/organic-nuts-seeds-dried-fruits/whole-black-chia-seeds/p/059749979443",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3966,7 +3980,7 @@
       "price_basis": "package",
       "package": "4 L",
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/055300111093",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3980,7 +3994,7 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/yogurt/yogurt-tubs/0-plain-greek-yogurt/p/059749984225",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -3994,7 +4008,7 @@
       "price_basis": "package",
       "package": "400 g",
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/packaged-cheese/cheese-blocks/old-cheddar-cheese/p/059749969468",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4008,7 +4022,7 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/canned-powdered-milk/instant-skim-milk-powder/p/059749977951",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4022,7 +4036,7 @@
       "price_basis": "package",
       "package": "18 un",
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/059749896078",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4036,7 +4050,7 @@
       "price_basis": "package",
       "package": "900 g",
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/breasts/boneless-and-skinless-chicken-breast/p/234960",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4050,7 +4064,7 @@
       "price_basis": "storefront_unit_price",
       "package": "1 per tray",
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/whole-roasting/whole-chicken/p/222236",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4064,7 +4078,7 @@
       "price_basis": "storefront_unit_price",
       "package": null,
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/halal-chicken-leg-quarters/p/215800",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4078,7 +4092,7 @@
       "price_basis": "storefront_unit_price",
       "package": "A tray contains on average 450 g",
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/beef-veal/ground/medium-ground-beef/p/201021",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4092,7 +4106,7 @@
       "price_basis": "storefront_unit_price",
       "package": null,
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/pork/ribs-roasts/pork-shoulder-picnic-roast/p/203003",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4106,7 +4120,7 @@
       "price_basis": "package",
       "package": "170 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/flaked-light-tuna-in-water/p/059749931915",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4120,7 +4134,7 @@
       "price_basis": "package",
       "package": "120 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/sardines-in-vegetable-olive-oil/p/062273551900",
-      "observed_at": "2026-08-09T01:27:51Z",
+      "observed_at": "2026-08-09T02:31:27Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4134,7 +4148,7 @@
       "price_basis": "package",
       "package": "213 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/wild-red-pacific-sockeye-salmon/p/061362401003",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4148,7 +4162,7 @@
       "price_basis": "package",
       "package": "155 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fish-seafood/mackerel-in-tomato-sauce/p/055270853221",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4162,7 +4176,7 @@
       "price_basis": "storefront_unit_price",
       "package": "1 per tray",
       "source_url": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4176,7 +4190,7 @@
       "price_basis": "package",
       "package": "1.25 kg",
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/vegetables/frozen-broccoli-florets/p/059749974721",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4190,7 +4204,7 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4204,7 +4218,7 @@
       "price_basis": "package",
       "package": "398 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/vegetables/sliced-carrots/p/059749887465",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4218,7 +4232,7 @@
       "price_basis": "storefront_unit_price",
       "package": null,
       "source_url": "https://www.foodbasics.ca/aisles/fruits-vegetables/vegetables/broccoli-cauliflower-cabbage/green-cabbage/p/4069",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4232,7 +4246,7 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/vegetables/whole-white-potatoes/p/059749887700",
-      "observed_at": "2026-08-09T01:27:51Z",
+      "observed_at": "2026-08-09T02:31:27Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4246,7 +4260,7 @@
       "price_basis": "package",
       "package": "796 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/tomatoes-paste/diced-tomatoes/p/059749893435",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4260,7 +4274,7 @@
       "price_basis": "package",
       "package": "600 g",
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/fruit/frozen-banana-slices/p/059749992183",
-      "observed_at": "2026-08-09T01:27:51Z",
+      "observed_at": "2026-08-09T02:31:28Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4274,7 +4288,7 @@
       "price_basis": "package",
       "package": "600 g",
       "source_url": "https://www.foodbasics.ca/aisles/frozen/fruit-vegetables/fruit/frozen-summertime-blend-mixed-fruit/p/059749875950",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4288,7 +4302,7 @@
       "price_basis": "package",
       "package": "960 mL",
       "source_url": "https://www.foodbasics.ca/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339",
-      "observed_at": "2026-08-09T01:27:52Z",
+      "observed_at": "2026-08-09T02:31:28Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4302,7 +4316,7 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/dried-fruit/natural-california-raisins/p/041143029435",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4316,7 +4330,7 @@
       "price_basis": "package",
       "package": "1.89 L",
       "source_url": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-fortified-soy-beverage/p/025293600713",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4330,7 +4344,7 @@
       "price_basis": "package",
       "package": "1.75 L",
       "source_url": "https://www.foodbasics.ca/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/unsweetened-original-flavour-organic-almond-beverage/p/626027087819",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4344,7 +4358,7 @@
       "price_basis": "package",
       "package": "1.75 L",
       "source_url": "https://www.foodbasics.ca/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4358,7 +4372,7 @@
       "price_basis": "package",
       "package": "1 L",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/059749917667",
-      "observed_at": "2026-08-09T01:27:52Z",
+      "observed_at": "2026-08-09T02:31:29Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4372,7 +4386,7 @@
       "price_basis": "package",
       "package": "3 L",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4386,7 +4400,7 @@
       "price_basis": "package",
       "package": "3 L",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4400,7 +4414,7 @@
       "price_basis": "package",
       "package": "354 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/canned-powdered-milk/evaporated-milk/p/059749948111",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4414,7 +4428,7 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4428,7 +4442,7 @@
       "price_basis": "package",
       "package": "454 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/shortening-fats/pure-lard/p/063100199043",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4442,7 +4456,7 @@
       "price_basis": "package",
       "package": "675 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/honey-syrup/fancy-molasses/p/068932401234",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4456,7 +4470,7 @@
       "price_basis": "package",
       "package": "341 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/vegetables/whole-kernel-corn/p/059749887564",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4470,7 +4484,7 @@
       "price_basis": "package",
       "package": "100 g",
       "source_url": "https://www.foodbasics.ca/aisles/snacks/whole-raw-cashew-nuts/p/059072050130",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4484,7 +4498,7 @@
       "price_basis": "package",
       "package": "200 g",
       "source_url": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/nuts-seeds/unsalted-roasted-pistachios/p/059749979078",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4498,7 +4512,7 @@
       "price_basis": "package",
       "package": "398 mL",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/pickles-antipasto/pitted-black-olives/p/059749897921",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4512,7 +4526,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/nuts-seeds/whole-natural-almonds/p/059749963237",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4526,7 +4540,7 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/nuts-seeds-jerky/halves-and-pieces-of-walnuts/p/059749963251",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4540,7 +4554,7 @@
       "price_basis": "package",
       "package": "100 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/fruit-seeds-nuts/pecan-pieces/p/059749903363",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4554,7 +4568,7 @@
       "price_basis": "package",
       "package": "80 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/fruit-seeds-nuts/pine-nuts/p/059749950749",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4568,7 +4582,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/self-raising-cake-and-pastry-flour/p/059000014845",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4582,7 +4596,7 @@
       "price_basis": "package",
       "package": "1.8 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/instant-corn-masa-flour/p/037297914475",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4596,7 +4610,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4610,7 +4624,7 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/kits-mixes-fillings/buttermilk-pancake-and-waffle-mix/p/059749887113",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4624,7 +4638,7 @@
       "price_basis": "package",
       "package": "1.81 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/kidney-beans/p/062781068624",
-      "observed_at": "2026-08-09T01:27:53Z",
+      "observed_at": "2026-08-09T02:31:29Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4638,7 +4652,7 @@
       "price_basis": "package",
       "package": "900 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/white-navy-beans/p/059072054084",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4652,7 +4666,7 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/natural-smooth-peanut-butter/p/068100084665",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4666,7 +4680,7 @@
       "price_basis": "package",
       "package": "2.84 L",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/oils-vinegars/vegetable-oil/cholesterol-free-corn-oil/p/688054001794",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4680,7 +4694,7 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/sugar-sweeteners/special-fine-granulated-sugar/p/062847210233",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4694,7 +4708,7 @@
       "price_basis": "package",
       "package": "80 un - time-release caplets",
       "source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/b-12-vitamin/p/064642028235",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
@@ -4708,21 +4722,35 @@
       "price_basis": "package",
       "package": "240 un",
       "source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/vitamin-d-1-000-iu/p/064642052544",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "observed_at": "2026-08-09T02:31:24Z",
       "fetched_at": "2026-08-09",
       "stale": false
     },
     {
-      "product_id": "064642061164",
+      "product_id": "625273031867",
       "location_id": "foodbasics-reference",
-      "regular": 13.49,
+      "regular": 17.99,
       "promo": null,
       "currency": "CAD",
       "price_scope": "reference",
       "price_basis": "package",
-      "package": "90 un",
-      "source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/calcium-with-vitamin-d-1-000-iu/p/064642061164",
-      "observed_at": "2026-08-09T01:27:46Z",
+      "package": "90 un - capsules",
+      "source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/natural-products/women-complete-multivitamins/p/625273031867",
+      "observed_at": "2026-08-09T02:31:29Z",
+      "fetched_at": "2026-08-09",
+      "stale": false
+    },
+    {
+      "product_id": "064642079619",
+      "location_id": "foodbasics-reference",
+      "regular": 24.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "250 un - mini tab",
+      "source_url": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/calcium-with-vitamin-d-400-iu/p/064642079619",
+      "observed_at": "2026-08-09T02:31:30Z",
       "fetched_at": "2026-08-09",
       "stale": false
     }
@@ -4904,7 +4932,7 @@
     }
   ],
   "fx": {
-    "updated": "2026-08-09T01:27:53Z",
+    "updated": "2026-08-09T02:31:30Z",
     "rates": {
       "USD": {
         "currency": "USD",
@@ -4917,7 +4945,7 @@
         "currency": "CAD",
         "to_usd": 0.7172057663343613,
         "as_of": "2026-08-07",
-        "observed_at": "2026-08-09T01:27:53Z",
+        "observed_at": "2026-08-09T02:31:30Z",
         "source": "bank_of_canada_valet",
         "source_url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1"
       }
