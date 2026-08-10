@@ -1,2574 +1,2525 @@
 {
-  "updated": "2026-08-09T13:23:13Z",
+  "updated": "2026-08-10T13:32:17Z",
   "prices": [
     {
       "product_id": "0001111089875",
       "location_id": "01400513",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111002805",
       "location_id": "01400513",
       "regular": 3.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111008480",
       "location_id": "01400513",
       "regular": 2.49,
       "promo": 1.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085072",
       "location_id": "01400513",
       "regular": 1.33,
       "promo": 1.25,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085401",
       "location_id": "01400513",
       "regular": 1.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089711",
       "location_id": "01400513",
       "regular": 0.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0003000007210",
       "location_id": "01400513",
       "regular": 3.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0081815801219",
       "location_id": "01400513",
       "regular": 5.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111013646",
       "location_id": "01400513",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001600014159",
       "location_id": "01400513",
       "regular": 1.25,
       "promo": 1.0,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111086292",
       "location_id": "01400513",
       "regular": 3.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111012210",
       "location_id": "01400513",
       "regular": 1.25,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007152401215",
       "location_id": "01400513",
       "regular": 1.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111072567",
       "location_id": "01400513",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089864",
       "location_id": "01400513",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111072565",
       "location_id": "01400513",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111071786",
       "location_id": "01400513",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004133102487",
       "location_id": "01400513",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111071789",
       "location_id": "01400513",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111091342",
       "location_id": "01400513",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111015380",
       "location_id": "01400513",
       "regular": 2.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111001618",
       "location_id": "01400513",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111008287",
       "location_id": "01400513",
       "regular": 3.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0081957301590",
       "location_id": "01400513",
       "regular": 1.79,
       "promo": 1.69,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0003997811322",
       "location_id": "01400513",
       "regular": 10.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111041661",
       "location_id": "01400513",
       "regular": 2.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111050481",
       "location_id": "01400513",
       "regular": 0.89,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111050158",
       "location_id": "01400513",
       "regular": 2.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111008733",
       "location_id": "01400513",
       "regular": 4.39,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111060903",
       "location_id": "01400513",
       "regular": 2.09,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111018028",
       "location_id": "01400513",
       "regular": 5.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0020891150000",
       "location_id": "01400513",
       "regular": 3.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0029062400000",
       "location_id": "01400513",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111097971",
       "location_id": "01400513",
       "regular": 7.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0020799300000",
       "location_id": "01400513",
       "regular": 2.99,
       "promo": 1.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089084",
       "location_id": "01400513",
       "regular": 0.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004800018718",
       "location_id": "01400513",
       "regular": 1.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111004236",
       "location_id": "01400513",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0005527096112",
       "location_id": "01400513",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0079852516100",
       "location_id": "01400513",
       "regular": 2.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111063602",
       "location_id": "01400513",
       "regular": 2.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089724",
       "location_id": "01400513",
       "regular": 1.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111087226",
       "location_id": "01400513",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111080553",
       "location_id": "01400513",
       "regular": 0.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0000000094069",
       "location_id": "01400513",
       "regular": 1.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111081365",
       "location_id": "01400513",
       "regular": 1.09,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111004382",
       "location_id": "01400513",
       "regular": 2.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111011974",
       "location_id": "01400513",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111016103",
       "location_id": "01400513",
       "regular": 2.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007990000123",
       "location_id": "01400513",
       "regular": 15.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111015685",
       "location_id": "01400513",
       "regular": 4.39,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111091435",
       "location_id": "01400513",
       "regular": 2.49,
       "promo": 1.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0002529360039",
       "location_id": "01400513",
       "regular": 4.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0086102900011",
       "location_id": "01400513",
       "regular": 6.99,
       "promo": 5.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111013270",
       "location_id": "01400513",
       "regular": 3.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111009081",
       "location_id": "01400513",
       "regular": 6.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111004412",
       "location_id": "01400513",
       "regular": 6.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085607",
       "location_id": "01400513",
       "regular": 3.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085634",
       "location_id": "01400513",
       "regular": 4.39,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111088301",
       "location_id": "01400513",
       "regular": 1.19,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0003000003050",
       "location_id": "01400513",
       "regular": 3.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007010007062",
       "location_id": "01400513",
       "regular": 2.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007240071124",
       "location_id": "01400513",
       "regular": 3.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0002400055078",
       "location_id": "01400513",
       "regular": 6.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111063769",
       "location_id": "01400513",
       "regular": 8.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111018273",
       "location_id": "01400513",
       "regular": 14.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111082202",
       "location_id": "01400513",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111014825",
       "location_id": "01400513",
       "regular": 2.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111002466",
       "location_id": "01400513",
       "regular": 7.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111010701",
       "location_id": "01400513",
       "regular": 10.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111010702",
       "location_id": "01400513",
       "regular": 14.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111010692",
       "location_id": "01400513",
       "regular": 11.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111002478",
       "location_id": "01400513",
       "regular": 7.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0078735917937",
       "location_id": "01400513",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004126001650",
       "location_id": "01400513",
       "regular": 12.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004126001928",
       "location_id": "01400513",
       "regular": 8.79,
       "promo": 8.79,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004126036240",
       "location_id": "01400513",
       "regular": 9.99,
       "promo": 9.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0003160401617",
       "location_id": "01400513",
       "regular": 12.99,
       "promo": 12.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089875",
       "location_id": "70400357",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111002805",
       "location_id": "70400357",
       "regular": 3.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085072",
       "location_id": "70400357",
       "regular": 1.49,
       "promo": 1.0,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085401",
       "location_id": "70400357",
       "regular": 1.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089711",
       "location_id": "70400357",
       "regular": 1.19,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0003000007210",
       "location_id": "70400357",
       "regular": 2.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111013646",
       "location_id": "70400357",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111086292",
       "location_id": "70400357",
       "regular": 3.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111012210",
       "location_id": "70400357",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007152401215",
       "location_id": "70400357",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111072567",
       "location_id": "70400357",
       "regular": 0.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089864",
       "location_id": "70400357",
       "regular": 2.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111071786",
       "location_id": "70400357",
       "regular": 0.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111071789",
       "location_id": "70400357",
       "regular": 0.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111091342",
       "location_id": "70400357",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111001618",
       "location_id": "70400357",
       "regular": 2.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111008287",
       "location_id": "70400357",
       "regular": 3.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0081957301590",
       "location_id": "70400357",
       "regular": 1.89,
       "promo": 1.69,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111050481",
       "location_id": "70400357",
       "regular": 0.89,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111050158",
       "location_id": "70400357",
       "regular": 2.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111018028",
       "location_id": "70400357",
       "regular": 5.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0020891150000",
       "location_id": "70400357",
       "regular": 3.39,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111097971",
       "location_id": "70400357",
       "regular": 7.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0020799300000",
       "location_id": "70400357",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089084",
       "location_id": "70400357",
       "regular": 0.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111004236",
       "location_id": "70400357",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0005527096112",
       "location_id": "70400357",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0079852516100",
       "location_id": "70400357",
       "regular": 2.59,
       "promo": 2.39,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089724",
       "location_id": "70400357",
       "regular": 1.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111080553",
       "location_id": "70400357",
       "regular": 0.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0000000094069",
       "location_id": "70400357",
       "regular": 1.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111081365",
       "location_id": "70400357",
       "regular": 1.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111091435",
       "location_id": "70400357",
       "regular": 2.79,
       "promo": 1.69,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0002529360039",
       "location_id": "70400357",
       "regular": 4.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111013270",
       "location_id": "70400357",
       "regular": 3.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111004412",
       "location_id": "70400357",
       "regular": 7.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085607",
       "location_id": "70400357",
       "regular": 3.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085634",
       "location_id": "70400357",
       "regular": 4.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111088301",
       "location_id": "70400357",
       "regular": 1.39,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007240071124",
       "location_id": "70400357",
       "regular": 4.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0002400055078",
       "location_id": "70400357",
       "regular": 7.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111063769",
       "location_id": "70400357",
       "regular": 7.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111018273",
       "location_id": "70400357",
       "regular": 14.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111082202",
       "location_id": "70400357",
       "regular": 2.19,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111014825",
       "location_id": "70400357",
       "regular": 2.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111002466",
       "location_id": "70400357",
       "regular": 7.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111010701",
       "location_id": "70400357",
       "regular": 10.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111010702",
       "location_id": "70400357",
       "regular": 13.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111002478",
       "location_id": "70400357",
       "regular": 7.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0078735917937",
       "location_id": "70400357",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004126001650",
       "location_id": "70400357",
       "regular": 12.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004126001928",
       "location_id": "70400357",
       "regular": 8.49,
       "promo": 8.49,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089875",
       "location_id": "03400017",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111002805",
       "location_id": "03400017",
       "regular": 3.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085072",
       "location_id": "03400017",
       "regular": 1.33,
       "promo": 1.25,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085401",
       "location_id": "03400017",
       "regular": 1.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089711",
       "location_id": "03400017",
       "regular": 0.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0003000007210",
       "location_id": "03400017",
       "regular": 3.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0081815801219",
       "location_id": "03400017",
       "regular": 5.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111013646",
       "location_id": "03400017",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001600014159",
       "location_id": "03400017",
       "regular": 1.25,
       "promo": 1.0,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111086292",
       "location_id": "03400017",
       "regular": 2.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111012210",
       "location_id": "03400017",
       "regular": 1.25,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007152401215",
       "location_id": "03400017",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111072567",
       "location_id": "03400017",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089864",
       "location_id": "03400017",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111072565",
       "location_id": "03400017",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111071786",
       "location_id": "03400017",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004133102487",
       "location_id": "03400017",
       "regular": 1.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111071789",
       "location_id": "03400017",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111091342",
       "location_id": "03400017",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111001618",
       "location_id": "03400017",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111008287",
       "location_id": "03400017",
       "regular": 3.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0081957301590",
       "location_id": "03400017",
       "regular": 1.79,
       "promo": 1.69,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0003997811322",
       "location_id": "03400017",
       "regular": 8.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111041661",
       "location_id": "03400017",
       "regular": 2.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111050481",
       "location_id": "03400017",
       "regular": 0.89,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111050158",
       "location_id": "03400017",
       "regular": 2.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111008733",
       "location_id": "03400017",
       "regular": 4.39,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111060903",
       "location_id": "03400017",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111018028",
       "location_id": "03400017",
       "regular": 5.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0020891150000",
       "location_id": "03400017",
       "regular": 3.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0029062400000",
       "location_id": "03400017",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111097971",
       "location_id": "03400017",
       "regular": 7.29,
       "promo": 5.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0020799300000",
       "location_id": "03400017",
       "regular": 2.69,
       "promo": 1.49,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089084",
       "location_id": "03400017",
       "regular": 0.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004800018718",
       "location_id": "03400017",
       "regular": 1.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111004236",
       "location_id": "03400017",
       "regular": 4.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0005527096112",
       "location_id": "03400017",
       "regular": 1.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0079852516100",
       "location_id": "03400017",
       "regular": 2.89,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111063602",
       "location_id": "03400017",
       "regular": 2.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111089724",
       "location_id": "03400017",
       "regular": 1.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111087226",
       "location_id": "03400017",
       "regular": 1.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0000000094069",
       "location_id": "03400017",
       "regular": 1.39,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111081365",
       "location_id": "03400017",
       "regular": 1.09,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111004382",
       "location_id": "03400017",
       "regular": 2.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111011974",
       "location_id": "03400017",
       "regular": 1.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111016103",
       "location_id": "03400017",
       "regular": 2.79,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007990000123",
       "location_id": "03400017",
       "regular": 16.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111015685",
       "location_id": "03400017",
       "regular": 4.39,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111091435",
       "location_id": "03400017",
       "regular": 2.29,
       "promo": 1.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0002529360039",
       "location_id": "03400017",
       "regular": 4.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0086102900011",
       "location_id": "03400017",
       "regular": 6.99,
       "promo": 5.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111013270",
       "location_id": "03400017",
       "regular": 3.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111009081",
       "location_id": "03400017",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111004412",
       "location_id": "03400017",
       "regular": 6.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085607",
       "location_id": "03400017",
       "regular": 3.29,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111085634",
       "location_id": "03400017",
       "regular": 4.39,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111088301",
       "location_id": "03400017",
       "regular": 1.19,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0003000003050",
       "location_id": "03400017",
       "regular": 3.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007010007062",
       "location_id": "03400017",
       "regular": 2.59,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0007240071124",
       "location_id": "03400017",
       "regular": 3.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0002400055078",
       "location_id": "03400017",
       "regular": 6.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111063769",
       "location_id": "03400017",
       "regular": 8.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111018273",
       "location_id": "03400017",
       "regular": 14.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111082202",
       "location_id": "03400017",
       "regular": 1.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111014825",
       "location_id": "03400017",
       "regular": 2.69,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111002466",
       "location_id": "03400017",
       "regular": 7.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111010701",
       "location_id": "03400017",
       "regular": 10.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111010702",
       "location_id": "03400017",
       "regular": 13.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111010692",
       "location_id": "03400017",
       "regular": 9.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0001111002478",
       "location_id": "03400017",
       "regular": 7.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0078735917937",
       "location_id": "03400017",
       "regular": 5.99,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004126001650",
       "location_id": "03400017",
       "regular": 12.49,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004126001928",
       "location_id": "03400017",
       "regular": 8.49,
       "promo": 8.49,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0004126036240",
       "location_id": "03400017",
       "regular": 10.49,
       "promo": 10.49,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "0003160401617",
       "location_id": "03400017",
       "regular": 12.99,
       "promo": 12.99,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "46535121",
       "location_id": "walmart-national",
       "regular": 10.68,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "46535121",
       "location_id": "3478",
       "regular": 10.68,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10804551",
       "location_id": "walmart-national",
       "regular": 1.78,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10804551",
       "location_id": "3478",
       "regular": 1.78,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10309200",
       "location_id": "walmart-national",
       "regular": 1.84,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10309200",
       "location_id": "3478",
       "regular": 1.84,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "12444466",
       "location_id": "walmart-national",
       "regular": 10.77,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "12444466",
       "location_id": "3478",
       "regular": 10.77,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10402992",
       "location_id": "walmart-national",
       "regular": 3.24,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10402992",
       "location_id": "3478",
       "regular": 3.24,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "917801417",
       "location_id": "walmart-national",
       "regular": 2.86,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "917801417",
       "location_id": "3478",
       "regular": 2.86,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "1952326595",
       "location_id": "walmart-national",
       "regular": 2.38,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "1952326595",
       "location_id": "3478",
       "regular": 2.38,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10314920",
       "location_id": "walmart-national",
       "regular": 1.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10314920",
       "location_id": "3478",
       "regular": 1.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "13045034",
       "location_id": "walmart-national",
       "regular": 0.88,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "13045034",
       "location_id": "3478",
       "regular": 0.88,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "11994394",
       "location_id": "walmart-national",
       "regular": 2.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "11994394",
       "location_id": "3478",
       "regular": 2.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "24389861",
       "location_id": "walmart-national",
       "regular": 4.58,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "24389861",
       "location_id": "3478",
       "regular": 4.58,
       "promo": null,
-      "fetched_at": "2026-08-09"
-    },
-    {
-      "product_id": "10294413",
-      "location_id": "walmart-national",
-      "regular": 2.56,
-      "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10294413",
       "location_id": "3478",
-      "regular": 2.56,
+      "regular": 3.08,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10311408",
       "location_id": "walmart-national",
       "regular": 3.47,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10311408",
       "location_id": "3478",
       "regular": 3.47,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "30918509",
       "location_id": "walmart-national",
       "regular": 1.96,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "30918509",
       "location_id": "3478",
       "regular": 1.96,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10314018",
       "location_id": "walmart-national",
       "regular": 1.48,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10314018",
       "location_id": "3478",
       "regular": 1.48,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10315983",
       "location_id": "walmart-national",
       "regular": 2.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10315983",
       "location_id": "3478",
       "regular": 2.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10534038",
       "location_id": "walmart-national",
       "regular": 0.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10534038",
       "location_id": "3478",
       "regular": 0.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10534043",
       "location_id": "walmart-national",
       "regular": 0.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10534043",
       "location_id": "3478",
       "regular": 0.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10314947",
       "location_id": "walmart-national",
       "regular": 1.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10314947",
       "location_id": "3478",
       "regular": 1.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10534039",
       "location_id": "walmart-national",
       "regular": 0.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10534039",
       "location_id": "3478",
       "regular": 0.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "963577064",
       "location_id": "walmart-national",
       "regular": 1.22,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "963577064",
       "location_id": "3478",
       "regular": 1.22,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "963541867",
       "location_id": "walmart-national",
       "regular": 1.28,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "963541867",
       "location_id": "3478",
       "regular": 1.28,
       "promo": null,
-      "fetched_at": "2026-08-09"
-    },
-    {
-      "product_id": "223902117",
-      "location_id": "walmart-national",
-      "regular": 1.42,
-      "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "223902117",
       "location_id": "3478",
       "regular": 1.42,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10534042",
       "location_id": "walmart-national",
       "regular": 0.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10534042",
       "location_id": "3478",
       "regular": 0.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10898817",
       "location_id": "walmart-national",
       "regular": 2.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10898817",
       "location_id": "3478",
       "regular": 2.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "328567678",
       "location_id": "walmart-national",
       "regular": 1.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "328567678",
       "location_id": "3478",
       "regular": 1.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "972758579",
       "location_id": "walmart-national",
       "regular": 3.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "972758579",
       "location_id": "3478",
       "regular": 3.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "52633655",
       "location_id": "walmart-national",
       "regular": 3.54,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "52633655",
       "location_id": "3478",
       "regular": 3.54,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "47707492",
       "location_id": "walmart-national",
       "regular": 1.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "47707492",
       "location_id": "3478",
       "regular": 1.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "598909418",
       "location_id": "walmart-national",
       "regular": 8.24,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "598909418",
       "location_id": "3478",
       "regular": 8.24,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10804537",
       "location_id": "walmart-national",
       "regular": 2.1,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10804537",
       "location_id": "3478",
       "regular": 2.1,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "26559565",
       "location_id": "walmart-national",
       "regular": 2.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "26559565",
       "location_id": "3478",
       "regular": 2.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10452431",
       "location_id": "walmart-national",
       "regular": 1.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10452431",
       "location_id": "3478",
       "regular": 1.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "15380114943",
       "location_id": "walmart-national",
       "regular": 10.26,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "15380114943",
       "location_id": "3478",
-      "regular": 4.58,
+      "regular": 10.26,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "27935840",
       "location_id": "walmart-national",
       "regular": 11.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "27935840",
       "location_id": "3478",
       "regular": 11.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "140139691",
       "location_id": "walmart-national",
       "regular": 8.62,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "140139691",
       "location_id": "3478",
       "regular": 8.62,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "734939013",
       "location_id": "walmart-national",
       "regular": 7.22,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "734939013",
       "location_id": "3478",
       "regular": 7.22,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "479601462",
       "location_id": "walmart-national",
       "regular": 7.23,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "479601462",
       "location_id": "3478",
       "regular": 7.23,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "850011309",
       "location_id": "walmart-national",
       "regular": 18.82,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "850011309",
       "location_id": "3478",
       "regular": 18.82,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10293459",
       "location_id": "walmart-national",
       "regular": 2.58,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10293459",
       "location_id": "3478",
       "regular": 2.58,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "1893833345",
       "location_id": "walmart-national",
       "regular": 1.47,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "1893833345",
       "location_id": "3478",
       "regular": 1.47,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10299112",
       "location_id": "walmart-national",
       "regular": 8.82,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10299112",
       "location_id": "3478",
       "regular": 8.82,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10294375",
       "location_id": "walmart-national",
       "regular": 2.47,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10294375",
       "location_id": "3478",
       "regular": 2.47,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "128300189",
       "location_id": "walmart-national",
       "regular": 2.26,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "128300189",
       "location_id": "3478",
       "regular": 2.26,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "967902497",
       "location_id": "walmart-national",
       "regular": 0.94,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "967902497",
       "location_id": "3478",
       "regular": 0.94,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "431513547",
       "location_id": "walmart-national",
       "regular": 1.26,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "431513547",
       "location_id": "3478",
       "regular": 1.26,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "13925193",
       "location_id": "walmart-national",
       "regular": 0.67,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "13925193",
       "location_id": "3478",
       "regular": 0.67,
       "promo": null,
-      "fetched_at": "2026-08-09"
-    },
-    {
-      "product_id": "10316041",
-      "location_id": "walmart-national",
-      "regular": 0.96,
-      "promo": null,
-      "fetched_at": "2026-08-09"
-    },
-    {
-      "product_id": "10316041",
-      "location_id": "3478",
-      "regular": 1.32,
-      "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "106137651",
       "location_id": "walmart-national",
       "regular": 1.82,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "106137651",
       "location_id": "3478",
       "regular": 1.82,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10416113",
       "location_id": "walmart-national",
       "regular": 0.96,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10416113",
       "location_id": "3478",
       "regular": 0.96,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "14336395",
       "location_id": "walmart-national",
       "regular": 2.47,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "14336395",
       "location_id": "3478",
       "regular": 2.47,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "21943647",
       "location_id": "walmart-national",
       "regular": 13.5,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "21943647",
       "location_id": "3478",
       "regular": 13.5,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "22282247",
       "location_id": "walmart-national",
       "regular": 8.27,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "22282247",
       "location_id": "3478",
       "regular": 8.27,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "20925296",
       "location_id": "walmart-national",
       "regular": 2.86,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "20925296",
       "location_id": "3478",
       "regular": 2.86,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10295044",
       "location_id": "walmart-national",
       "regular": 3.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10295044",
       "location_id": "3478",
       "regular": 3.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "157991373",
       "location_id": "walmart-national",
       "regular": 3.38,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "157991373",
       "location_id": "3478",
       "regular": 3.38,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "38384564",
       "location_id": "walmart-national",
       "regular": 5.58,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "38384564",
       "location_id": "3478",
       "regular": 5.58,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10315102",
       "location_id": "walmart-national",
       "regular": 6.12,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10315102",
       "location_id": "3478",
       "regular": 6.12,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10451011",
       "location_id": "walmart-national",
       "regular": 8.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10451011",
       "location_id": "3478",
-      "regular": 10.74,
+      "regular": 8.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10451495",
       "location_id": "walmart-national",
       "regular": 11.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10451495",
       "location_id": "3478",
       "regular": 11.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "731592644",
       "location_id": "walmart-national",
       "regular": 4.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "731592644",
       "location_id": "3478",
       "regular": 4.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
-    },
-    {
-      "product_id": "10534163",
-      "location_id": "walmart-national",
-      "regular": 1.0,
-      "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10534163",
       "location_id": "3478",
       "regular": 1.28,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "15383452501",
       "location_id": "walmart-national",
       "regular": 15.84,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "15383452501",
       "location_id": "3478",
       "regular": 15.84,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10403009",
       "location_id": "walmart-national",
       "regular": 18.24,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10403009",
       "location_id": "3478",
       "regular": 18.24,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "13439653",
       "location_id": "walmart-national",
       "regular": 13.32,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "13439653",
       "location_id": "3478",
       "regular": 13.32,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "15716722",
       "location_id": "walmart-national",
       "regular": 3.94,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "15716722",
       "location_id": "3478",
       "regular": 3.94,
       "promo": null,
-      "fetched_at": "2026-08-09"
-    },
-    {
-      "product_id": "10315427",
-      "location_id": "walmart-national",
-      "regular": 0.82,
-      "promo": null,
-      "fetched_at": "2026-08-09"
-    },
-    {
-      "product_id": "10315427",
-      "location_id": "3478",
-      "regular": 1.07,
-      "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "748653717",
       "location_id": "walmart-national",
       "regular": 8.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "748653717",
       "location_id": "3478",
       "regular": 8.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "353773773",
       "location_id": "walmart-national",
       "regular": 13.32,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "353773773",
       "location_id": "3478",
       "regular": 13.32,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10315444",
       "location_id": "walmart-national",
       "regular": 1.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10315444",
       "location_id": "3478",
       "regular": 1.97,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "167257162",
       "location_id": "walmart-national",
       "regular": 2.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "167257162",
       "location_id": "3478",
       "regular": 2.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "5284690796",
       "location_id": "walmart-national",
       "regular": 11.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "5284690796",
       "location_id": "3478",
       "regular": 11.0,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "124188737",
       "location_id": "walmart-national",
       "regular": 9.96,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "124188737",
       "location_id": "3478",
       "regular": 9.96,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "327976708",
       "location_id": "walmart-national",
       "regular": 22.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "327976708",
       "location_id": "3478",
       "regular": 22.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "1657415345",
       "location_id": "walmart-national",
       "regular": 21.18,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "1657415345",
       "location_id": "3478",
       "regular": 21.18,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "6189023562",
       "location_id": "walmart-national",
       "regular": 7.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "6189023562",
       "location_id": "3478",
       "regular": 7.92,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "804851997",
       "location_id": "walmart-national",
       "regular": 4.87,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "804851997",
       "location_id": "3478",
       "regular": 4.87,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "14711329",
       "location_id": "walmart-national",
       "regular": 8.83,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "14711329",
       "location_id": "3478",
       "regular": 8.83,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "22027160",
       "location_id": "walmart-national",
       "regular": 3.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "22027160",
       "location_id": "3478",
       "regular": 3.74,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10324793",
       "location_id": "walmart-national",
       "regular": 7.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "10324793",
       "location_id": "3478",
       "regular": 7.98,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "295377177",
       "location_id": "walmart-national",
       "regular": 7.34,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "295377177",
       "location_id": "3478",
       "regular": 7.34,
       "promo": null,
-      "fetched_at": "2026-08-09"
+      "fetched_at": "2026-08-10"
     },
     {
       "product_id": "059749902403",
@@ -2580,8 +2531,8 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/long-grain-white-rice/p/059749902403",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2594,8 +2545,8 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/large-oats/p/055577101018",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2608,8 +2559,8 @@
       "price_basis": "package",
       "package": "675 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/bread-bakery-products/packaged-bread/whole-wheat-grain/whole-wheat-sliced-bread/p/059749916387",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2622,8 +2573,8 @@
       "price_basis": "package",
       "package": "900 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/pasta/fettuccine-pasta/p/059749893084",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2636,8 +2587,8 @@
       "price_basis": "package",
       "package": "2.5 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059749892582",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2650,8 +2601,8 @@
       "price_basis": "package",
       "package": "2.2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/rice/wholegrain-brown-rice/p/058496464684",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:54Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2664,8 +2615,8 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/quinoa-specialty-grains/pearl-barley/p/062356505578",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2678,8 +2629,8 @@
       "price_basis": "package",
       "package": "340 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/toasted-wheat-germ/p/818158012505",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2692,8 +2643,8 @@
       "price_basis": "package",
       "package": "454 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2706,8 +2657,8 @@
       "price_basis": "package",
       "package": "570 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/family-cereals/oats-cereal/p/065633134652",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2720,8 +2671,8 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/large-green-lentils/p/062356507299",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2734,8 +2685,8 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/chickpeas/p/059749998543",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2748,8 +2699,8 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2762,8 +2713,8 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749998574",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2776,8 +2727,8 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/canned-pinto-bean/p/059749998536",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2790,8 +2741,8 @@
       "price_basis": "package",
       "package": "907 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/pinto-beans/p/062356510411",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2804,22 +2755,8 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/beans-legumes/dark-red-kidney-beans/p/059749929981",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
-      "stale": false
-    },
-    {
-      "product_id": "059072054046",
-      "location_id": "metro-reference",
-      "regular": 3.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "900 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/dried-yellow-split-peas/p/059072054046",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2832,8 +2769,8 @@
       "price_basis": "package",
       "package": "400 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegan-vegetarian/tofu-tempeh/extra-firm-plain-tofu/p/059072054343",
-      "observed_at": "2026-08-09T13:22:53Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:55Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2846,8 +2783,8 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/blends-edamame/frozen-shelled-soybeans/p/062356545116",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2860,8 +2797,8 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/059749894449",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2874,8 +2811,8 @@
       "price_basis": "package",
       "package": "453 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/fruit-seeds-nuts/whole-ground-flaxseed-meal/p/039978333308",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2888,8 +2825,8 @@
       "price_basis": "package",
       "package": "300 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/organic-groceries/pantry/organic-nuts-seeds-dried-fruits/whole-black-chia-seeds/p/059749979443",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2902,8 +2839,8 @@
       "price_basis": "package",
       "package": "4 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/1-skim-milk/1-milk/p/068200010243",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2916,8 +2853,8 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/yogurt/yogurt-tubs/0-plain-greek-yogurt/p/059749984225",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2930,8 +2867,8 @@
       "price_basis": "package",
       "package": "400 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/packaged-cheese/cheese-blocks/old-cheddar-cheese/p/059749969468",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2944,8 +2881,8 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/canned-powdered-milk/instant-skim-milk-powder/p/059749977951",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2958,8 +2895,8 @@
       "price_basis": "package",
       "package": "18 un",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/eggs/whole-eggs/large-eggs/p/059749896078",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2972,8 +2909,8 @@
       "price_basis": "storefront_unit_price",
       "package": "5 breasts per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/breasts/boneless-and-skinless-chicken-breasts/p/206022",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -2986,8 +2923,8 @@
       "price_basis": "storefront_unit_price",
       "package": "1 per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/whole-roasting/fresh-whole-chicken/p/215008",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3000,8 +2937,8 @@
       "price_basis": "storefront_unit_price",
       "package": "3 to 5 per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/legs-drumsticks-wings/back-attached-chicken-legs-quarters/p/245111",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3014,8 +2951,8 @@
       "price_basis": "storefront_unit_price",
       "package": "A tray contains on average 450 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/beef-veal/ground/medium-ground-beef/p/201021",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3028,8 +2965,8 @@
       "price_basis": "storefront_unit_price",
       "package": null,
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/pork/ribs-roasts/pork-shoulder-picnic-roast/p/203003",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3042,8 +2979,8 @@
       "price_basis": "package",
       "package": "170 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/flaked-light-tuna-in-water/p/059749931915",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3056,8 +2993,8 @@
       "price_basis": "package",
       "package": "213 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/wild-red-pacific-sockeye-salmon/p/061362401003",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3070,8 +3007,8 @@
       "price_basis": "package",
       "package": "142 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/fish-seafood/whole-yellow-baby-clams-in-water/p/061362442006",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3084,8 +3021,8 @@
       "price_basis": "storefront_unit_price",
       "package": "1 per tray",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/meat-poultry/chicken-turkey/giblets/chicken-livers/p/226105",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3098,8 +3035,8 @@
       "price_basis": "package",
       "package": "1.25 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-broccoli-florets/p/059749974721",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3112,8 +3049,8 @@
       "price_basis": "package",
       "package": "500 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/vegetables/frozen-chopped-spinach/p/059749973335",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3126,8 +3063,8 @@
       "price_basis": "package",
       "package": "398 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/sliced-carrots/p/059749887465",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3140,8 +3077,8 @@
       "price_basis": "storefront_unit_price",
       "package": null,
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables/broccoli-cauliflower-cabbage/green-cabbage/p/4069",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3154,8 +3091,8 @@
       "price_basis": "package",
       "package": "540 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/whole-white-potatoes/p/059749887700",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3168,8 +3105,8 @@
       "price_basis": "package",
       "package": "796 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/tomatoes-paste/diced-tomatoes/p/059749893435",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3182,8 +3119,8 @@
       "price_basis": "package",
       "package": "600 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-banana-slices/p/059749992183",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3196,8 +3133,8 @@
       "price_basis": "package",
       "package": "600 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/frozen/fruit-vegetables/fruit/frozen-summertime-blend-mixed-fruit/p/059749875950",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3210,8 +3147,8 @@
       "price_basis": "package",
       "package": "960 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/juices-drinks/shelf-juices-drinks/orange-juice/p/067311018339",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3224,8 +3161,8 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/dried-fruit/natural-california-raisins/p/041143029435",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3238,8 +3175,8 @@
       "price_basis": "package",
       "package": "1.89 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/organic-fortified-soy-beverage/p/025293600713",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3252,8 +3189,8 @@
       "price_basis": "package",
       "package": "1.75 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/unsweetened-original-flavour-organic-almond-beverage/p/626027087819",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3266,8 +3203,8 @@
       "price_basis": "package",
       "package": "1.75 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/beverages/soy-rice-nut-beverages/nut-seed-milk/gluten-free-original-oat-beverage/p/626027811025",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3280,8 +3217,8 @@
       "price_basis": "package",
       "package": "1 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/olive-oil/extra-virgin-olive-oil/p/059749917667",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3294,8 +3231,8 @@
       "price_basis": "package",
       "package": "3 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/vegetable-oil/p/059749888806",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3308,8 +3245,8 @@
       "price_basis": "package",
       "package": "3 L",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/oils-vinegars/vegetable-oil/canola-oil/p/059749888769",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3322,8 +3259,8 @@
       "price_basis": "package",
       "package": "354 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/canned-powdered-milk/evaporated-milk/p/059749948111",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3336,8 +3273,8 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-meal/p/055270846452",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3350,8 +3287,8 @@
       "price_basis": "package",
       "package": "454 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/shortening-fats/pure-lard/p/063100199043",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3364,8 +3301,8 @@
       "price_basis": "package",
       "package": "675 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/honey-syrup/fancy-molasses/p/068932401234",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3378,8 +3315,22 @@
       "price_basis": "package",
       "package": "341 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/canned-jarred/vegetables/whole-kernel-corn/p/059749887564",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
+      "stale": false
+    },
+    {
+      "product_id": "064777115497",
+      "location_id": "metro-reference",
+      "regular": 5.49,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "200 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/raw-cashews/p/064777115497",
+      "observed_at": "2026-08-10T13:31:56Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3392,8 +3343,8 @@
       "price_basis": "package",
       "package": "200 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/unsalted-roasted-pistachios/p/059749979078",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3406,8 +3357,8 @@
       "price_basis": "package",
       "package": "398 mL",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/condiments-toppings/pickles-antipasto/pitted-black-olives/p/059749897921",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3420,8 +3371,8 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/whole-natural-almonds/p/059749963237",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3434,8 +3385,22 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/nuts-seeds-jerky/halves-and-pieces-of-walnuts/p/059749963251",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
+      "stale": false
+    },
+    {
+      "product_id": "059749979122",
+      "location_id": "metro-reference",
+      "regular": 14.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "350 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/pecan-halves/p/059749979122",
+      "observed_at": "2026-08-10T13:31:57Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3448,8 +3413,8 @@
       "price_basis": "package",
       "package": "125 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/pine-nuts/p/059749964531",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3462,8 +3427,8 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/self-raising-cake-and-pastry-flour/p/059000014845",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3476,8 +3441,8 @@
       "price_basis": "package",
       "package": "1.8 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/flour-baking-essentials/instant-corn-masa-flour/p/037297914475",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3490,8 +3455,8 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/salty-snacks/popcorn-kernels/popcorn-kernels/p/059749881036",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3504,8 +3469,8 @@
       "price_basis": "package",
       "package": "1 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/kits-mixes-fillings/buttermilk-pancake-and-waffle-mix/p/059749887113",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3518,8 +3483,8 @@
       "price_basis": "package",
       "package": "750 g",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/natural-smooth-peanut-butter/p/068100084665",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3532,8 +3497,8 @@
       "price_basis": "package",
       "package": "2 kg",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/baking-ingredients/sugar-sweeteners/special-fine-granulated-sugar/p/062847210233",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3546,22 +3511,8 @@
       "price_basis": "package",
       "package": "80 un - time-release caplets",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/b-12-vitamin/p/064642028235",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
-      "stale": false
-    },
-    {
-      "product_id": "064642052544",
-      "location_id": "metro-reference",
-      "regular": 9.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "240 un",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/vitamin-d-1-000-iu/p/064642052544",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3574,8 +3525,8 @@
       "price_basis": "package",
       "package": "115 un",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-men/p/064642098900",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3588,8 +3539,8 @@
       "price_basis": "package",
       "package": "200 un",
       "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/calcium-magnesium-and-vitamin-d/p/064642026743",
-      "observed_at": "2026-08-09T13:22:49Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:51Z",
+      "fetched_at": "2026-08-10",
       "stale": false
     },
     {
@@ -3605,8 +3556,8 @@
       "package": "900 g",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20629679_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:22:56Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:31:59Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3627,8 +3578,8 @@
       "package": "900 g",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20629153_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:22:57Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:00Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3649,8 +3600,8 @@
       "package": "900 g",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20629494_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:22:58Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:00Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3671,8 +3622,8 @@
       "package": "900 g",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20629219_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:22:58Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:01Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3693,8 +3644,8 @@
       "package": "500 g",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/21096445_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:22:59Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:02Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3715,8 +3666,8 @@
       "package": "3 L",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20103390_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:00Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:03Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3737,8 +3688,8 @@
       "package": "1 kg",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20296985001_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:00Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:03Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3759,8 +3710,8 @@
       "package": "1.75 L",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/21037796_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:01Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:04Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3781,8 +3732,8 @@
       "package": "570 g",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/21103499_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:01Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:05Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3803,8 +3754,8 @@
       "package": "960 mL",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20336722005_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:02Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:05Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3825,8 +3776,8 @@
       "package": "2 kg",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20602161_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:03Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:06Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3847,8 +3798,8 @@
       "package": "115 un",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/21589918_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:03Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:07Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3869,8 +3820,8 @@
       "package": "200 un",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20316359001_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:04Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:07Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3891,8 +3842,8 @@
       "package": "240 un",
       "source_url": "https://www.realcanadiansuperstore.ca/en/p/20299993_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:04Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:08Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "superstore",
       "store_id": "1033",
@@ -3913,8 +3864,8 @@
       "package": "900 g",
       "source_url": "https://www.nofrills.ca/en/p/20629679_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:05Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:09Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -3935,8 +3886,8 @@
       "package": "900 g",
       "source_url": "https://www.nofrills.ca/en/p/20629153_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:06Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:09Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -3957,8 +3908,8 @@
       "package": "900 g",
       "source_url": "https://www.nofrills.ca/en/p/20629494_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:06Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:10Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -3979,8 +3930,8 @@
       "package": "900 g",
       "source_url": "https://www.nofrills.ca/en/p/20629219_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:07Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:11Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4001,8 +3952,8 @@
       "package": "500 g",
       "source_url": "https://www.nofrills.ca/en/p/21096445_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:07Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:11Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4023,8 +3974,8 @@
       "package": "3 L",
       "source_url": "https://www.nofrills.ca/en/p/20103390_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:08Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:12Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4045,8 +3996,8 @@
       "package": "1 kg",
       "source_url": "https://www.nofrills.ca/en/p/20296985001_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:09Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:12Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4067,8 +4018,8 @@
       "package": "1.75 L",
       "source_url": "https://www.nofrills.ca/en/p/21037796_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:09Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:13Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4089,8 +4040,8 @@
       "package": "570 g",
       "source_url": "https://www.nofrills.ca/en/p/21103499_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:10Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:14Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4111,8 +4062,8 @@
       "package": "960 mL",
       "source_url": "https://www.nofrills.ca/en/p/20336722005_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:11Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:15Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4133,8 +4084,8 @@
       "package": "750 g",
       "source_url": "https://www.nofrills.ca/en/p/20105105_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:11Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:15Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4155,8 +4106,8 @@
       "package": "115 un",
       "source_url": "https://www.nofrills.ca/en/p/21589918_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:12Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:16Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4177,8 +4128,8 @@
       "package": "200 un",
       "source_url": "https://www.nofrills.ca/en/p/20316359001_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:12Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:16Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
@@ -4199,14 +4150,44 @@
       "package": "240 un",
       "source_url": "https://www.nofrills.ca/en/p/20299993_EA",
       "api_source_url": "https://api.pcexpress.ca/v1/agents/mcp",
-      "observed_at": "2026-08-09T13:23:13Z",
-      "fetched_at": "2026-08-09",
+      "observed_at": "2026-08-10T13:32:17Z",
+      "fetched_at": "2026-08-10",
       "stale": false,
       "banner": "nofrills",
       "store_id": "3787",
       "reference_store_name": "Chris & Tanya's No Frills",
       "reference_store_address": "680 O'Brien Rd, Renfrew, ON K7V 3S1",
       "reference_store_basis": "PC Express storefront defaultStoreId/masterStoreId"
+    },
+    {
+      "product_id": "059072054046",
+      "location_id": "metro-reference",
+      "regular": 3.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "900 g",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pantry/pasta-rice-beans/dried-beans/dried-yellow-split-peas/p/059072054046",
+      "observed_at": "2026-08-09T13:22:49Z",
+      "fetched_at": "2026-08-09",
+      "stale": true,
+      "retained_at": "2026-08-10T13:32:17Z"
+    },
+    {
+      "product_id": "064642052544",
+      "location_id": "metro-reference",
+      "regular": 9.99,
+      "promo": null,
+      "currency": "CAD",
+      "price_scope": "reference",
+      "price_basis": "package",
+      "package": "240 un",
+      "source_url": "https://www.metro.ca/en/online-grocery/aisles/pharmacy/vitamins-supplements-dietary-products/single-vitamins-minerals/vitamin-d-1-000-iu/p/064642052544",
+      "observed_at": "2026-08-09T13:22:49Z",
+      "fetched_at": "2026-08-09",
+      "stale": true,
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "061362460079",
@@ -4221,37 +4202,7 @@
       "observed_at": "2026-08-09T03:48:53Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
-    },
-    {
-      "product_id": "064777115497",
-      "location_id": "metro-reference",
-      "regular": 5.49,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "200 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/raw-cashews/p/064777115497",
-      "observed_at": "2026-08-09T03:48:54Z",
-      "fetched_at": "2026-08-09",
-      "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
-    },
-    {
-      "product_id": "059749979122",
-      "location_id": "metro-reference",
-      "regular": 16.99,
-      "promo": null,
-      "currency": "CAD",
-      "price_scope": "reference",
-      "price_basis": "package",
-      "package": "350 g",
-      "source_url": "https://www.metro.ca/en/online-grocery/aisles/snacks/nuts-seeds-fruit/nuts-seeds/pecan-halves/p/059749979122",
-      "observed_at": "2026-08-09T03:48:54Z",
-      "fetched_at": "2026-08-09",
-      "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059072054084",
@@ -4266,7 +4217,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749902403",
@@ -4281,7 +4232,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "770795131257",
@@ -4296,7 +4247,7 @@
       "observed_at": "2026-08-09T03:48:57Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749916387",
@@ -4311,7 +4262,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749893084",
@@ -4326,7 +4277,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749892582",
@@ -4341,7 +4292,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "058496464684",
@@ -4356,7 +4307,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "062356505578",
@@ -4371,7 +4322,7 @@
       "observed_at": "2026-08-09T03:48:57Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "818158012505",
@@ -4386,7 +4337,7 @@
       "observed_at": "2026-08-09T03:48:58Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749887199",
@@ -4401,7 +4352,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "065633134652",
@@ -4416,7 +4367,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "062356507299",
@@ -4431,7 +4382,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749998543",
@@ -4446,7 +4397,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "062356506513",
@@ -4461,7 +4412,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749998574",
@@ -4476,7 +4427,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749998536",
@@ -4491,7 +4442,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "062356510411",
@@ -4506,7 +4457,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749929981",
@@ -4521,7 +4472,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "062356506360",
@@ -4536,7 +4487,7 @@
       "observed_at": "2026-08-09T03:48:58Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "057864001445",
@@ -4551,7 +4502,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "062356545116",
@@ -4566,7 +4517,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749894449",
@@ -4581,7 +4532,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "039978333308",
@@ -4596,7 +4547,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749979443",
@@ -4611,7 +4562,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "055300111093",
@@ -4626,7 +4577,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749984225",
@@ -4641,7 +4592,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749969468",
@@ -4656,7 +4607,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749977951",
@@ -4671,7 +4622,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749896078",
@@ -4686,7 +4637,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "234960",
@@ -4701,7 +4652,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "222236",
@@ -4716,7 +4667,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "215800",
@@ -4731,7 +4682,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "201021",
@@ -4746,7 +4697,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "203003",
@@ -4761,7 +4712,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749931915",
@@ -4776,7 +4727,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "062273551900",
@@ -4791,7 +4742,7 @@
       "observed_at": "2026-08-09T03:48:59Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "061362401003",
@@ -4806,7 +4757,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "055270853221",
@@ -4821,7 +4772,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "226105",
@@ -4836,7 +4787,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749974721",
@@ -4851,7 +4802,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749973335",
@@ -4866,7 +4817,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749887465",
@@ -4881,7 +4832,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "4069",
@@ -4896,7 +4847,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749887700",
@@ -4911,7 +4862,7 @@
       "observed_at": "2026-08-09T03:48:59Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749893435",
@@ -4926,7 +4877,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749992183",
@@ -4941,7 +4892,7 @@
       "observed_at": "2026-08-09T03:48:59Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749875950",
@@ -4956,7 +4907,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "067311018339",
@@ -4971,7 +4922,7 @@
       "observed_at": "2026-08-09T03:49:00Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "041143029435",
@@ -4986,7 +4937,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "025293600713",
@@ -5001,7 +4952,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "626027087819",
@@ -5016,7 +4967,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "626027811025",
@@ -5031,7 +4982,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749917667",
@@ -5046,7 +4997,7 @@
       "observed_at": "2026-08-09T03:49:00Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749888806",
@@ -5061,7 +5012,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749888769",
@@ -5076,7 +5027,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749948111",
@@ -5091,7 +5042,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "055270846452",
@@ -5106,7 +5057,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "063100199043",
@@ -5121,7 +5072,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "068932401234",
@@ -5136,7 +5087,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749887564",
@@ -5151,7 +5102,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059072050130",
@@ -5166,7 +5117,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749979078",
@@ -5181,7 +5132,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749897921",
@@ -5196,7 +5147,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749963237",
@@ -5211,7 +5162,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749963251",
@@ -5226,7 +5177,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749903363",
@@ -5241,7 +5192,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749950749",
@@ -5256,7 +5207,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059000014845",
@@ -5271,7 +5222,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "037297914475",
@@ -5286,7 +5237,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749881036",
@@ -5301,7 +5252,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059749887113",
@@ -5316,7 +5267,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "062781068624",
@@ -5331,7 +5282,7 @@
       "observed_at": "2026-08-09T03:49:01Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "059072054084",
@@ -5346,7 +5297,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "068100084665",
@@ -5361,7 +5312,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "688054001794",
@@ -5376,7 +5327,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "062847210233",
@@ -5391,7 +5342,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "064642028235",
@@ -5406,7 +5357,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "064642052544",
@@ -5421,7 +5372,7 @@
       "observed_at": "2026-08-09T03:48:55Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "625273031867",
@@ -5436,7 +5387,7 @@
       "observed_at": "2026-08-09T03:49:01Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "064642079619",
@@ -5451,7 +5402,7 @@
       "observed_at": "2026-08-09T03:49:02Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     },
     {
       "product_id": "6000204673258",
@@ -5468,7 +5419,7 @@
       "observed_at": "2026-08-09T06:03:23Z",
       "fetched_at": "2026-08-09",
       "stale": true,
-      "retained_at": "2026-08-09T13:23:13Z"
+      "retained_at": "2026-08-10T13:32:17Z"
     }
   ],
   "missing": [
@@ -5647,26 +5598,68 @@
       "reason": "no price"
     },
     {
+      "product_id": "10294413",
+      "name": "Argo 100% Pure Corn Starch, 16 Oz",
+      "location_id": "walmart-national",
+      "reason": "walmart exact search StopIteration: ; details HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "product_id": "223902117",
+      "name": "Great Value Green Split Peas, 1 lb",
+      "location_id": "walmart-national",
+      "reason": "walmart exact search StopIteration: ; details HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "product_id": "10316041",
+      "name": "Great Value Whole New Potatoes, 15 oz",
+      "location_id": "walmart-national",
+      "reason": "walmart exact search StopIteration: ; details HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "product_id": "10316041",
+      "name": "Great Value Whole New Potatoes, 15 oz",
+      "location_id": "3478",
+      "reason": "walmart exact search StopIteration: ; details HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "product_id": "10534163",
+      "name": "Great Value Evaporated Milk, 12 fl oz US",
+      "location_id": "walmart-national",
+      "reason": "walmart exact search StopIteration: ; details HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "product_id": "10315427",
+      "name": "Great Value Golden Sweet Whole Kernel Corn, 15 oz",
+      "location_id": "walmart-national",
+      "reason": "walmart exact search StopIteration: ; details HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "product_id": "10315427",
+      "name": "Great Value Golden Sweet Whole Kernel Corn, 15 oz",
+      "location_id": "3478",
+      "reason": "walmart exact search StopIteration: ; details HTTPError: HTTP Error 400: Bad Request"
+    },
+    {
+      "product_id": "059072054046",
+      "name": "Life Smart Dried Yellow Split Peas",
+      "location_id": "metro-reference",
+      "reason": "not returned"
+    },
+    {
       "product_id": "061362460079",
       "name": "Clover Leaf Boneless Sardine Fillets in Olive Oil",
       "location_id": "metro-reference",
       "reason": "not returned"
     },
     {
-      "product_id": "064777115497",
-      "name": "Johnvince Raw Cashews",
-      "location_id": "metro-reference",
-      "reason": "not returned"
-    },
-    {
-      "product_id": "059749979122",
-      "name": "Selection Pecan Halves",
-      "location_id": "metro-reference",
-      "reason": "not returned"
-    },
-    {
       "product_id": "059072054084",
       "name": "Life Smart White Navy Beans",
+      "location_id": "metro-reference",
+      "reason": "not returned"
+    },
+    {
+      "product_id": "064642052544",
+      "name": "Jamieson Vitamin D3 1,000 IU Tablets",
       "location_id": "metro-reference",
       "reason": "not returned"
     },
@@ -6152,7 +6145,7 @@
     }
   ],
   "fx": {
-    "updated": "2026-08-09T13:23:13Z",
+    "updated": "2026-08-10T13:32:17Z",
     "rates": {
       "USD": {
         "currency": "USD",
@@ -6165,7 +6158,7 @@
         "currency": "CAD",
         "to_usd": 0.7172057663343613,
         "as_of": "2026-08-07",
-        "observed_at": "2026-08-09T13:23:13Z",
+        "observed_at": "2026-08-10T13:32:17Z",
         "source": "bank_of_canada_valet",
         "source_url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1"
       }
