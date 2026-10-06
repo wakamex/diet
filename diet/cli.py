@@ -7,18 +7,24 @@ import json
 import sys
 from pathlib import Path
 
+import yaml
+
 from diet import curate as curate_mod
 from diet import discover as discover_mod
 from diet import ingest as ingest_mod
 from diet.export import load_fx_rates, serialize_solution, write_data_json
 from diet.foods import build_foods_for_location, load_all_skus, load_locations, load_prices, load_skus
 from diet.solver import MODE_EXCLUDES, solve
+from diet.sources.flipp import DEFAULT_MERCHANTS, FlippError, pull_flyers
 from diet.sources.metro_reference import MetroReferenceClient, MetroReferenceError
 from diet.sources.pc_express import PCExpressClient, PCExpressError
 from diet.supplements import build_supplement_foods, load_supplements
 from diet.targets import load_targets
+from diet.util import write_json_atomic
 
 REPORTS_DIR = Path("reports")
+FLIPP_RAW_ROOT = Path("data/raw/flipp")
+CANADA_PRODUCT_MAP_PATH = Path("data/canada_product_map.yaml")
 SOLUTIONS_PATH = REPORTS_DIR / "solutions.json"
 
 
@@ -238,6 +244,52 @@ def cmd_canada_reference(args: argparse.Namespace) -> int:
     return 1 if result.missing_product_ids else 0
 
 
+def cmd_flyers(args: argparse.Namespace) -> int:
+    merchants = None if args.all_grocery else (args.merchant or DEFAULT_MERCHANTS)
+    try:
+        snapshot = pull_flyers(
+            args.postal_code, merchants=merchants, cache_root=FLIPP_RAW_ROOT
+        )
+    except (FlippError, ValueError) as exc:
+        print(f"flyers: {exc}", file=sys.stderr)
+        return 1
+    day = snapshot["observed_at"][:10]
+    out = args.out or (
+        FLIPP_RAW_ROOT / day / f"{snapshot['postal_code'].replace(' ', '')}.json"
+    )
+    write_json_atomic(out, snapshot)
+
+    for flyer in snapshot["flyers"]:
+        print(
+            f"flyers: {flyer['merchant']:<26} {flyer['valid_from'][:10]}"
+            f"..{flyer['valid_to'][:10]}  {flyer['item_count']:>4} items"
+        )
+    print(f"flyers: wrote {len(snapshot['items'])} items to {out}")
+
+    mapped = yaml.safe_load(CANADA_PRODUCT_MAP_PATH.read_text(encoding="utf-8")) or []
+    basket_ids = {str(row["product_id"]) for row in mapped}
+    seen: set[tuple] = set()
+    for item in snapshot["items"]:
+        if item["product_id"] in basket_ids:
+            terms = " ".join(
+                part for part in (
+                    item["price_prefix"],
+                    f"${item['price']:.2f}" if item["price"] is not None else None,
+                    item["price_suffix"],
+                    item["sale_story"],
+                ) if part
+            )
+            key = (item["merchant"], item["product_id"], terms)
+            if key in seen:
+                continue
+            seen.add(key)
+            print(
+                f"basket: {item['merchant']:<26} {item['product_id']:<16} "
+                f"{item['name']} | {terms}"
+            )
+    return 0
+
+
 def cmd_all(args: argparse.Namespace) -> int:
     rc = cmd_ingest(args) or cmd_solve(args) or cmd_export(args)
     return rc
@@ -310,6 +362,25 @@ def main(argv: list[str] | None = None) -> int:
     sp.add_argument("product_ids", nargs="+", help="one or more exact product IDs/UPCs")
     sp.add_argument("--json", action="store_true", help="emit normalized JSON")
     sp.set_defaults(fn=cmd_canada_reference)
+
+    sp = sub.add_parser(
+        "flyers",
+        help="snapshot current grocery flyer promotions for a postal code (Flipp)",
+    )
+    sp.add_argument("postal_code", help="Canadian postal code, e.g. K1S 5B6")
+    sp.add_argument(
+        "--merchant", action="append",
+        help=f"flyer merchant to include (repeatable; default: {', '.join(DEFAULT_MERCHANTS)})",
+    )
+    sp.add_argument(
+        "--all-grocery", action="store_true",
+        help="include every grocery flyer for the postal code",
+    )
+    sp.add_argument(
+        "--out", type=Path,
+        help="snapshot path (default: data/raw/flipp/<date>/<postal>.json)",
+    )
+    sp.set_defaults(fn=cmd_flyers)
 
     sp = sub.add_parser("all", help="ingest → solve → export (the CI command)")
     sp.set_defaults(fn=cmd_all)

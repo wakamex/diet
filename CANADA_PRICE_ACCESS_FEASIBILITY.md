@@ -337,11 +337,22 @@ is negotiated.
 
 ### Flyers and Flipp
 
-Flyers are useful for sale discovery but cannot support a cheapest-basket solver
-by themselves because non-promoted items disappear. Unofficial Flipp endpoints
-would also introduce another private interface and another set of terms. Prefer
-the retailer's own flyer where available, store the validity interval, and label
-the quote `flyer`.
+Flyers record which prices are promotions, with their validity dates and terms, but they cannot support a cheapest-basket solver by themselves because non-promoted items are absent. [Flipp](https://flipp.com/) aggregates the weekly flyers of every chain in this document except Costco by postal code, through an unofficial app backend that needs no key.
+
+[`diet/sources/flipp.py`](diet/sources/flipp.py) snapshots the current grocery flyers for a postal code:
+
+```sh
+# Default chains: Loblaws, No Frills, Superstore, Metro, Food Basics, Walmart
+uv run diet flyers "K1S 5B6"
+
+# Other chains, or every grocery flyer for the area
+uv run diet flyers "K1S 5B6" --merchant "Farm Boy" --merchant FreshCo
+uv run diet flyers "K1S 5B6" --all-grocery
+```
+
+The snapshot goes to `data/raw/flipp/<date>/<postal>.json`, and the command prints the flyer items whose product ID matches a curated SKU in `data/canada_product_map.yaml`. The listing and per-flyer endpoints return only a name and price, so the client reads each item's detail record. That record carries the promotion terms: multi-buy prefixes such as `2/ $7.50 or $3.99 EA.`, member-only prices, `AFTER LIMIT` prices, sale stories, and PC Optimum offers. A flyer's items do not change once published, so each flyer is cached under `data/raw/flipp/flyers/<id>.json` and later pulls fetch only new flyers. A cold pull of the six default chains in Ottawa on 2026-10-05 read 10 flyers and 3,441 items in about 70 seconds.
+
+`product_id` is set only when an item's `sku` equals the product ID in its click-through link. That holds for Loblaw-banner items, whose IDs are PC Express product codes, and for Walmart. Metro and Food Basics flyers use internal ad codes as `sku`, and their links often point at an unrelated product (Tropicana juice links to Selection eggs), so their parsed link is kept as `link_product_id`, a hint only. A `SELECTED VARIETIES` item's ID names one representative product.
 
 ### Commercial “scraping APIs”
 
