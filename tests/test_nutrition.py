@@ -240,3 +240,30 @@ def test_override_with_several_sources_applies_to_each_retailer(tmp_path):
 
     assert set(overrides) == {("metro", "626027841022"), ("foodbasics", "626027841022")}
     assert overrides[("metro", "626027841022")]["nutrients_per_g"]["vit_b12_mcg"] == pytest.approx(0.004)
+
+
+def test_drained_records_are_scaled_to_net_can_weight():
+    from diet.nutrition import scale_drained
+
+    values = {"protein_g": 0.09, "choline_mg": 0.4, "calcium_mg": 0.5}
+    sources = {
+        "protein_g": "usda_reference:2644288",  # drained record: scaled
+        "choline_mg": "usda_reference:175250",  # whole-can gap fill: kept
+        "calcium_mg": "kroger_label",           # label value: kept
+    }
+
+    scaled = scale_drained(values, sources, {"usda_reference:2644288": 0.6})
+
+    assert scaled == pytest.approx({"protein_g": 0.054, "choline_mg": 0.4, "calcium_mg": 0.5})
+
+
+def test_drained_fraction_file_names_drained_records():
+    import json
+    from diet.nutrition import load_drained_fractions
+
+    cache = Path("data/raw/fdc")
+    for source, share in load_drained_fractions().items():
+        assert 0 < share < 1
+        record = cache / f"{source.split(':')[1]}.json"
+        if record.exists():
+            assert "canned" in json.loads(record.read_text())["description"].lower(), source

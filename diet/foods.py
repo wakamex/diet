@@ -13,11 +13,14 @@ import yaml
 
 from diet.solver import Food
 from diet.nutrition import (
+    DEFAULT_DRAINED_PATH,
     DEFAULT_FALLBACKS_PATH,
     DEFAULT_NUTRIENTS_PATH,
+    load_drained_fractions,
     load_sku_nutrients,
     load_usda_fallbacks,
     merge_with_usda_fallback,
+    scale_drained,
     usda_reference,
 )
 from diet.util import read_json
@@ -189,6 +192,7 @@ def build_foods_for_location(
     fdc_cache: Path = DEFAULT_FDC_CACHE,
     nutrients_path: Path | str = DEFAULT_NUTRIENTS_PATH,
     fallbacks_path: Path | str = DEFAULT_FALLBACKS_PATH,
+    drained_path: Path | str = DEFAULT_DRAINED_PATH,
     use_promo: bool = True,
     locations: list[Location] | None = None,
 ) -> list[Food]:
@@ -200,6 +204,7 @@ def build_foods_for_location(
     foods: list[Food] = []
     sku_nutrients = load_sku_nutrients(nutrients_path)
     usda_fallbacks = load_usda_fallbacks(fallbacks_path)
+    drained = load_drained_fractions(drained_path)
     price_locations = price_locations_for(location, locations)
     for sku in skus:
         price_location = price_locations.get(sku.source)
@@ -221,6 +226,7 @@ def build_foods_for_location(
         nutrients, nutrient_sources = merge_with_usda_fallback(
             fallback, fdc_id=sku.fdc_id, sku_row=sku_row, fallback_sources=fallback_sources
         )
+        nutrients = scale_drained(nutrients, nutrient_sources, drained)
 
         foods.append(Food(
             sku_id=(

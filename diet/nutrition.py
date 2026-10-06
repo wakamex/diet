@@ -20,6 +20,7 @@ from diet.util import read_json
 DEFAULT_NUTRIENTS_PATH = Path("data/nutrients_current.json")
 DEFAULT_OVERRIDES_PATH = Path("data/nutrition_overrides.yaml")
 DEFAULT_FALLBACKS_PATH = Path("data/nutrient_fallbacks.yaml")
+DEFAULT_DRAINED_PATH = Path("data/drained_fractions.yaml")
 
 # Prefer Kroger's stable nutrient codes, with display-name fallbacks for older
 # or sparsely coded catalog records.
@@ -401,6 +402,22 @@ def usda_reference(
                 values[key] = value
                 sources[key] = f"usda_reference:{alternate}"
     return values, sources
+
+
+def load_drained_fractions(path: Path | str = DEFAULT_DRAINED_PATH) -> dict[str, float]:
+    """Drained shares keyed by the provenance id of the USDA record they apply to."""
+    path = Path(path)
+    if not path.exists():
+        return {}
+    raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return {f"usda_reference:{int(k)}": float(v) for k, v in raw.items()}
+
+
+def scale_drained(
+    values: dict[str, float], sources: dict[str, str], fractions: dict[str, float]
+) -> dict[str, float]:
+    """Express drained-solids USDA values per gram of a can's net weight."""
+    return {key: value * fractions.get(sources.get(key, ""), 1.0) for key, value in values.items()}
 
 
 def merge_with_usda_fallback(
