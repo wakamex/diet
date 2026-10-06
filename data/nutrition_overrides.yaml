@@ -20,6 +20,7 @@
     - "ALA and vitamin E are not quantified on the current label and therefore continue to use the USDA reference fallback."
   derived_from_daily_value:
     - vit_a_mcg
+    - retinol_mcg
     - vit_c_mg
     - folate_mcg
     - vit_b12_mcg
@@ -30,6 +31,7 @@
     protein_g: 5
     fiber_g: 4
     vit_a_mcg: 90
+    retinol_mcg: 90
     vit_c_mg: 9
     vit_d_mcg: 4
     vit_b12_mcg: 0.48
@@ -61,6 +63,7 @@
     protein_g: 7
     fiber_g: 2
     vit_a_mcg: 100
+    retinol_mcg: 100
     vit_d_mcg: 2
     vit_b12_mcg: 1
     calcium_mg: 300
@@ -84,6 +87,7 @@
     protein_g: 3
     fiber_g: 2
     vit_a_mcg: 100
+    retinol_mcg: 100
     vit_d_mcg: 2
     vit_b12_mcg: 1
     calcium_mg: 300
@@ -119,6 +123,7 @@
     protein_g: 1
     fiber_g: 1
     vit_a_mcg: 100
+    retinol_mcg: 100
     vit_d_mcg: 2
     vit_b12_mcg: 1
     calcium_mg: 300

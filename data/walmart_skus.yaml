@@ -13,7 +13,7 @@
   _sale_price: 10.68
   _kroger_source: Kroger® Enriched Long Grain White Rice
 - product_id: '10804551'
-  fdc_id: 174916
+  fdc_id: 172688
   name: Great Value 100% Whole Wheat Round Top Bread, 20 oz
   unit_grams: 567.0
   dietary_categories:
@@ -175,7 +175,7 @@
   _sale_price: 0.86
   _kroger_source: Kroger® Black Beans
 - product_id: '10534043'
-  fdc_id: 170086
+  fdc_id: 175201
   name: Great Value Pinto Beans, 15.5 oz
   unit_grams: 439.4
   dietary_categories:
@@ -185,7 +185,7 @@
   _sale_price: 0.92
   _kroger_source: Kroger® Pinto Beans
 - product_id: '10314947'
-  fdc_id: 175201
+  fdc_id: 175199
   name: Great Value Pinto Beans, 32 oz
   unit_grams: 907.2
   dietary_categories:
@@ -298,7 +298,7 @@
   _sale_price: 1.74
   _kroger_source: Happy Tot Organics Super Morning Stage 4 Organic Bananas, Dragon Fruit, Coconut milk, Oats & Chia
 - product_id: '598909418'
-  fdc_id: 168944
+  fdc_id: 168147
   name: Bob's Red Mill Vital Wheat Gluten Flour, 20 oz
   unit_grams: 567.0
   dietary_categories:
@@ -318,7 +318,7 @@
   _sale_price: 2.06
   _kroger_source: Kroger® 1% Lowfat Milk Half Gallon
 - product_id: '26559565'
-  fdc_id: 2647437
+  fdc_id: 170894
   name: Great Value Plain Nonfat Greek Yogurt, 32 oz Tub
   unit_grams: 907.2
   dietary_categories:
@@ -328,7 +328,7 @@
   _sale_price: 2.94
   _kroger_source: Kroger® Plain Nonfat Greek Yogurt Cup
 - product_id: '10452431'
-  fdc_id: 169901
+  fdc_id: 173414
   name: Great Value Sharp Cheddar Finely Shredded Cheese, 8 oz Bag
   unit_grams: 226.8
   dietary_categories:
@@ -398,7 +398,7 @@
   _sale_price: 21.34
   _kroger_source: Kroger® Fresh Natural Pork Shoulder Butt Bone In
 - product_id: '10293459'
-  fdc_id: 173708
+  fdc_id: 171986
   name: StarKist Chunk Light Tuna in Water, Wild Caught, 16g Protein, 12 oz Can
   unit_grams: 340.2
   dietary_categories:
@@ -468,7 +468,7 @@
   _sale_price: 1.26
   _kroger_source: Kroger® Frozen Spinach Chopped
 - product_id: '13925193'
-  fdc_id: 2258587
+  fdc_id: 170395
   name: Great Value Sliced Carrots, 8.25 oz Can
   unit_grams: 233.9
   dietary_categories:
@@ -478,7 +478,7 @@
   _sale_price: 0.67
   _kroger_source: Kroger No Salt Added Sliced Carrots - 8.25oz can
 - product_id: '10316041'
-  fdc_id: 170028
+  fdc_id: 170444
   name: Great Value Whole New Potatoes, 15 oz
   unit_grams: 425.2
   dietary_categories:
@@ -488,7 +488,7 @@
   _sale_price: 0.96
   _kroger_source: Kroger Whole White Potatoes - 15oz can
 - product_id: '106137651'
-  fdc_id: 168016
+  fdc_id: 168482
   name: Great Value Diced Sweet Potatoes, 10 oz (Frozen)
   unit_grams: 283.5
   dietary_categories:
@@ -528,7 +528,7 @@
   _sale_price: 13.5
   _kroger_source: Wyman's® Mango Berry Frozen Fruit
 - product_id: '22282247'
-  fdc_id: 169103
+  fdc_id: 169100
   name: Tropicana Pure Premium No Pulp Original Orange Juice 89 Oz
   unit_grams: 2523.1
   dietary_categories:

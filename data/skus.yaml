@@ -30,7 +30,7 @@
   _kroger_categories:
   - Breakfast
 - product_id: 0001111008480
-  fdc_id: 174916
+  fdc_id: 172688
   name: Kroger® 100% Whole Wheat Bread
   unit_grams: 680.4
   dietary_categories:
@@ -190,7 +190,7 @@
   _kroger_categories:
   - Canned & Packaged
 - product_id: 0001111089864
-  fdc_id: 170086
+  fdc_id: 175199
   name: Kroger® Pinto Beans
   unit_grams: 907.2
   dietary_categories:
@@ -329,7 +329,7 @@
   - Baby
   - Baby
 - product_id: 0003997811322
-  fdc_id: 168944
+  fdc_id: 168147
   name: Bob's Red Mill Vital Wheat Gluten Flour
   unit_grams: 567.0
   dietary_categories:
@@ -356,7 +356,7 @@
   _kroger_categories:
   - Dairy
 - product_id: 0001111050481
-  fdc_id: 2647437
+  fdc_id: 170894
   name: Kroger® Plain Nonfat Greek Yogurt Cup
   unit_grams: 149.7
   dietary_categories:
@@ -369,7 +369,7 @@
   _kroger_categories:
   - Dairy
 - product_id: 0001111050158
-  fdc_id: 169901
+  fdc_id: 173414
   name: Kroger® Sharp Cheddar Shredded Cheese
   unit_grams: 226.8
   dietary_categories:
@@ -476,7 +476,7 @@
   - Meat & Seafood
   - Natural & Organic
 - product_id: 0001111089084
-  fdc_id: 173708
+  fdc_id: 171986
   name: Kroger® Wild Caught Chunk Light Tuna in Water
   unit_grams: 140.6
   dietary_categories:
@@ -581,7 +581,7 @@
   _kroger_categories:
   - Frozen
 - product_id: 0001111080553
-  fdc_id: 2258587
+  fdc_id: 170395
   name: Kroger No Salt Added Sliced Carrots - 8.25oz can
   unit_grams: 231.3
   dietary_categories:
@@ -609,7 +609,7 @@
   - Natural & Organic
   - Produce
 - product_id: 0001111081365
-  fdc_id: 170028
+  fdc_id: 170444
   name: Kroger Whole White Potatoes - 15oz can
   unit_grams: 421.8
   dietary_categories:
@@ -622,7 +622,7 @@
   _kroger_categories:
   - Canned & Packaged
 - product_id: 0001111004382
-  fdc_id: 168016
+  fdc_id: 168482
   name: Simple Truth Organic® Diced Frozen Sweet Potato
   unit_grams: 340.2
   dietary_categories:
@@ -675,7 +675,7 @@
   _kroger_categories:
   - Frozen
 - product_id: 0001111015685
-  fdc_id: 169103
+  fdc_id: 169100
   name: Kroger® Premium Homestyle Orange Juice with Pulp
   unit_grams: 1421.6
   dietary_categories:

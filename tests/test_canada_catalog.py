@@ -34,7 +34,7 @@ def test_canadian_mappings_have_unique_positive_exact_skus_per_retailer():
         assert all(sku.dietary_categories for sku in rows)
 
     pcx_required = {
-        169103, 169287, 169697, 172370, 172428, 173744,
+        169100, 169287, 169697, 172370, 172428, 173744,
         173884, 174266, 175186, 2257046, 2644283,
     }
     for retailer in ("superstore", "nofrills"):
@@ -93,6 +93,7 @@ def test_canadian_supplements_use_exact_retailer_skus_and_label_profiles():
     assert walmart_ca_multivitamin.max_tablets_per_day == 1
     assert walmart_ca_multivitamin.nutrients_per_tablet == {
         "vit_a_mcg": 1200,
+        "retinol_mcg": 300,
         "vit_c_mg": 90,
         "vit_d_mcg": 15,
         "vit_e_mg": 22.5,

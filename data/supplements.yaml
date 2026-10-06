@@ -8,7 +8,9 @@
 # supplement and the website rounds display to tablets/day via tablet_g.
 #
 # Supplement folate is folic acid, so each `folate_mcg` dose is repeated as
-# `folic_acid_mcg`, the amount the folate upper limit applies to.
+# `folic_acid_mcg`, the amount the folate upper limit applies to. Likewise
+# `retinol_mcg` is the preformed share of `vit_a_mcg`, the amount the vitamin A
+# upper limit applies to.
 #
 # The `supplement` dietary_category is NOT in any mode's MODE_EXCLUDES, so
 # supplements are available across omnivore, pescatarian, vegetarian, ovo_lacto,
@@ -23,6 +25,8 @@
   max_tablets_per_day: 1
   nutrients_per_tablet:
     vit_a_mcg:    900
+    # Preformed share not recorded; counted as all preformed.
+    retinol_mcg:  900
     vit_c_mg:     90
     vit_d_mcg:    20
     vit_e_mg:     13.5
@@ -80,6 +84,8 @@
   source: walmart
   nutrients_per_tablet:
     vit_a_mcg:    900
+    # Preformed share not recorded; counted as all preformed.
+    retinol_mcg:  900
     vit_c_mg:     90
     vit_d_mcg:    20
     vit_e_mg:     13.5
@@ -172,6 +178,8 @@
   _nutrient_source: "Jamieson Canadian product label"
   nutrients_per_tablet:
     vit_a_mcg:    700
+    # Preformed share not recorded; counted as all preformed.
+    retinol_mcg:  700
     vit_c_mg:     180
     vit_d_mcg:    20
     vit_e_mg:     26.8
@@ -198,6 +206,7 @@
   _nutrient_source: "Webber Naturals Canadian product label; NIH ODS vitamin A RAE conversion"
   nutrients_per_tablet:
     vit_a_mcg:    750
+    retinol_mcg:  375
     vit_c_mg:     100
     vit_d_mcg:    25
     vit_e_mg:     20
@@ -260,6 +269,8 @@
   _nutrient_source: "Jamieson Canadian product label"
   nutrients_per_tablet:
     vit_a_mcg:    700
+    # Preformed share not recorded; counted as all preformed.
+    retinol_mcg:  700
     vit_c_mg:     180
     vit_d_mcg:    20
     vit_e_mg:     26.8
@@ -320,6 +331,7 @@
   _nutrient_source: "Walmart.ca Canadian product label; NIH ODS vitamin A RAE conversion"
   nutrients_per_tablet:
     vit_a_mcg:    1200
+    retinol_mcg:  300
     vit_c_mg:     90
     vit_d_mcg:    15
     vit_e_mg:     22.5

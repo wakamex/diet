@@ -4,21 +4,18 @@
 # Mostly newer Foundation records without choline or vitamin K.
 #
 # Still missing, with no SR Legacy food reporting them: chia seeds (170554)
-# and oat milk (2257046) for both, raw cashews (170162) for
-# choline, and pancake mix (172772) for vitamin K. These count as zero.
+# and oat milk (2257046) for both, raw cashews (170162) and vital wheat
+# gluten (168147) for choline, and pancake mix (172772) for vitamin K. These
+# count as zero.
 
 172772: 175006    # pancake mix -> pancakes, dry mix, complete, prepared
 748323: 171029    # corn oil -> oil, corn, all purpose salad or cooking
 746784: 169655    # granulated sugar (Foundation) -> granulated sugar (SR Legacy)
-2258587: 170396   # baby carrots -> carrots, canned, drained solids
 748278: 172336    # canola oil (Foundation) -> canola oil (SR Legacy)
 2514744: 174036   # ground beef 80/20 (Foundation) -> same food (SR Legacy)
 2512381: 169756   # white rice, unenriched (Foundation) -> same food (SR Legacy)
 1105073: 173944   # bananas, overripe -> bananas, raw
 2512380: 169703   # brown rice (Foundation) -> same food (SR Legacy)
-170086: 175201    # pinto beans, sprouted -> pinto beans, canned
-2647437: 170894   # nonfat plain yogurt -> Greek yogurt, plain, nonfat
-169103: 169098    # orange peel -> orange juice, raw
 170583: 170581    # roasted hazelnuts -> hazelnuts
 168166: 168165    # raisins, seeded -> raisins, seedless
 175186: 173734    # black turtle beans, raw -> black beans, raw
@@ -27,9 +24,10 @@
 2346407: 169975   # green cabbage (Foundation) -> cabbage, raw
 173768: 173766    # light soy milk with added calcium -> same, with vitamins A and D
 2346396: 173904   # rolled oats (Foundation) -> oats, not fortified, dry
-168016: 168482    # sweet potato puffs -> sweet potato, raw
 2644283: 172420   # lentils, dry (Foundation) -> lentils, raw
 172475: 172448    # firm tofu, calcium sulfate -> firm tofu, calcium sulfate and magnesium chloride
 2644288: 175250   # chickpeas, canned (Foundation) -> chickpeas, canned
 174286: 175201    # pinto beans, canned, drained -> pinto beans, canned
 168892: 173896    # wheat germ, crude -> wheat germ, toasted, plain
+171986: 175158    # light tuna in water, unsalted -> white tuna in water (not in oil, whose oil adds vitamins E and K)
+170444: 170026    # potatoes, canned, drained solids -> potatoes, flesh and skin, raw

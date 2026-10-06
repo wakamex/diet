@@ -267,3 +267,18 @@ def test_drained_fraction_file_names_drained_records():
         record = cache / f"{source.split(':')[1]}.json"
         if record.exists():
             assert "canned" in json.loads(record.read_text())["description"].lower(), source
+
+
+def test_vitamin_a_limit_counts_preformed_vitamin_a_only():
+    import json
+    from diet.sources.fdc import nutrients_per_g
+
+    targets = {t["nutrient"]: t for t in json.loads(Path("data/dri.json").read_text())["nutrients"]}
+    assert targets["vit_a_mcg"]["ul"] is None
+    assert targets["retinol_mcg"]["ul"] == 3000
+
+    carrots = nutrients_per_g({"foodNutrients": [
+        {"nutrient": {"name": "Vitamin A, RAE"}, "amount": 835},
+        {"nutrient": {"name": "Retinol"}, "amount": 0},
+    ]})
+    assert carrots == pytest.approx({"vit_a_mcg": 8.35, "retinol_mcg": 0.0})

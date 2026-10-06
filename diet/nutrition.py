@@ -93,6 +93,7 @@ _CANONICAL_UNIT = {
     "sodium_mg": "mg",
     "zinc_mg": "mg",
     "folic_acid_mcg": "mcg",
+    "retinol_mcg": "mcg",
     "choline_mg": "mg",
     "vit_k_mcg": "mcg",
 }

@@ -40,6 +40,7 @@ FDC_NUTRIENT_MAP: dict[str, str] = {
     "Sodium, Na":                                   "sodium_mg",
     "Zinc, Zn":                                     "zinc_mg",
     "Folic acid":                                   "folic_acid_mcg",
+    "Retinol":                                      "retinol_mcg",
     "Choline, total":                               "choline_mg",
     "Vitamin K (phylloquinone)":                    "vit_k_mcg",
 }

@@ -1,12 +1,13 @@
 {
-  "_comment": "Dietary Reference Intakes for adult male 31-50, moderate activity. Sourced from NIH ODS (https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx) and IOM Food and Nutrition Board tables. `rda` holds the RDA, or the Adequate Intake where no RDA exists (fiber, ALA, potassium, choline, vitamin K). The folate upper limit applies only to folic acid from fortified foods and supplements, so it is a separate folic_acid_mcg row; folate naturally in food has no upper limit. Iodine is not tracked: USDA reports it for few foods, and most dietary iodine comes from iodized salt, which recipes and baskets do not count.",
+  "_comment": "Dietary Reference Intakes for adult male 31-50, moderate activity. Sourced from NIH ODS (https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx) and IOM Food and Nutrition Board tables. `rda` holds the RDA, or the Adequate Intake where no RDA exists (fiber, ALA, potassium, choline, vitamin K). The folate upper limit applies only to folic acid from fortified foods and supplements, so it is a separate folic_acid_mcg row; folate naturally in food has no upper limit. Likewise the vitamin A upper limit applies only to preformed vitamin A (retinol and retinyl esters), so it is a separate retinol_mcg row; beta-carotene counts toward the vitamin A target but not the limit. Iodine is not tracked: USDA reports it for few foods, and most dietary iodine comes from iodized salt, which recipes and baskets do not count.",
   "profile": "adult_male_31_50_moderate",
   "nutrients": [
     {"nutrient": "energy_kcal",  "rda": 2500,  "ul": null,   "unit": "kcal", "label": "Energy"},
     {"nutrient": "protein_g",    "rda": 56,    "ul": null,   "unit": "g",    "label": "Protein"},
     {"nutrient": "fiber_g",      "rda": 31,    "ul": null,   "unit": "g",    "label": "Fiber"},
     {"nutrient": "ala_g",        "rda": 1.6,   "ul": null,   "unit": "g",    "label": "Omega-3 ALA"},
-    {"nutrient": "vit_a_mcg",    "rda": 900,   "ul": 3000,   "unit": "mcg",  "label": "Vitamin A (RAE)"},
+    {"nutrient": "vit_a_mcg",    "rda": 900,   "ul": null,   "unit": "mcg",  "label": "Vitamin A (RAE)"},
+    {"nutrient": "retinol_mcg",  "rda": null,  "ul": 3000,   "unit": "mcg",  "label": "Vitamin A, preformed"},
     {"nutrient": "vit_c_mg",     "rda": 90,    "ul": 2000,   "unit": "mg",   "label": "Vitamin C"},
     {"nutrient": "vit_d_mcg",    "rda": 15,    "ul": 100,    "unit": "mcg",  "label": "Vitamin D"},
     {"nutrient": "vit_e_mg",     "rda": 15,    "ul": 1000,   "unit": "mg",   "label": "Vitamin E"},
