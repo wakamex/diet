@@ -1,6 +1,98 @@
 {
-  "updated": "2026-10-05T13:13:40Z",
+  "updated": "2026-10-06T13:09:59Z",
   "nutrients": [
+    {
+      "product_id": "025293600713",
+      "source": "foodbasics",
+      "upc": "025293600713",
+      "serving_size_g": 250.0,
+      "serving_basis": "manufacturer label: 1 cup (250 mL) at 1.0 g/mL",
+      "ingredients": null,
+      "nutrients_per_g": {
+        "energy_kcal": 0.4,
+        "protein_g": 0.028,
+        "fiber_g": 0.008,
+        "vit_a_mcg": 0.4,
+        "vit_d_mcg": 0.008,
+        "vit_b12_mcg": 0.004,
+        "calcium_mg": 1.2,
+        "iron_mg": 0.004,
+        "potassium_mg": 1.2,
+        "sodium_mg": 0.46,
+        "zinc_mg": 0.004
+      },
+      "nutrient_sources": {
+        "energy_kcal": "manufacturer_label:silk_organic_original_soy",
+        "protein_g": "manufacturer_label:silk_organic_original_soy",
+        "fiber_g": "manufacturer_label:silk_organic_original_soy",
+        "vit_a_mcg": "manufacturer_label:silk_organic_original_soy",
+        "vit_d_mcg": "manufacturer_label:silk_organic_original_soy",
+        "vit_b12_mcg": "manufacturer_label:silk_organic_original_soy",
+        "calcium_mg": "manufacturer_label:silk_organic_original_soy",
+        "iron_mg": "manufacturer_label:silk_organic_original_soy",
+        "potassium_mg": "manufacturer_label:silk_organic_original_soy",
+        "sodium_mg": "manufacturer_label:silk_organic_original_soy",
+        "zinc_mg": "manufacturer_label:silk_organic_original_soy"
+      },
+      "source_details": {
+        "manufacturer_label:silk_organic_original_soy": {
+          "kind": "manufacturer_nutrition_facts",
+          "url": "https://www.silkcanada.ca/products/plant-based-beverage/original-soy-beverage/",
+          "title": "Silk Canada - Original Soy Beverage, Nutrition Facts",
+          "accessed": "2026-10-05",
+          "derived_from_daily_value": [],
+          "notes": [
+            "Values read from the page's Nutrition Facts image (wp-content/uploads/2020/03/Soy_Org_Ref-1.png), which the page shows for the refrigerated 1.89 L organic soy beverage."
+          ]
+        }
+      }
+    },
+    {
+      "product_id": "626027811025",
+      "source": "foodbasics",
+      "upc": "626027811025",
+      "serving_size_g": 250.0,
+      "serving_basis": "manufacturer label: 1 cup (250 mL) at 1.0 g/mL",
+      "ingredients": null,
+      "nutrients_per_g": {
+        "energy_kcal": 0.48,
+        "protein_g": 0.012,
+        "fiber_g": 0.008,
+        "vit_a_mcg": 0.4,
+        "vit_d_mcg": 0.008,
+        "vit_b12_mcg": 0.004,
+        "calcium_mg": 1.2,
+        "iron_mg": 0.003,
+        "magnesium_mg": 0.08,
+        "potassium_mg": 0.4,
+        "sodium_mg": 0.48,
+        "zinc_mg": 0.004
+      },
+      "nutrient_sources": {
+        "energy_kcal": "manufacturer_label:earths_own_oat_original",
+        "protein_g": "manufacturer_label:earths_own_oat_original",
+        "fiber_g": "manufacturer_label:earths_own_oat_original",
+        "vit_a_mcg": "manufacturer_label:earths_own_oat_original",
+        "vit_d_mcg": "manufacturer_label:earths_own_oat_original",
+        "vit_b12_mcg": "manufacturer_label:earths_own_oat_original",
+        "calcium_mg": "manufacturer_label:earths_own_oat_original",
+        "iron_mg": "manufacturer_label:earths_own_oat_original",
+        "magnesium_mg": "manufacturer_label:earths_own_oat_original",
+        "potassium_mg": "manufacturer_label:earths_own_oat_original",
+        "sodium_mg": "manufacturer_label:earths_own_oat_original",
+        "zinc_mg": "manufacturer_label:earths_own_oat_original"
+      },
+      "source_details": {
+        "manufacturer_label:earths_own_oat_original": {
+          "kind": "manufacturer_nutrition_facts",
+          "url": "https://earthsown.com/products/oat-original-chilled-carton/",
+          "title": "Earth's Own - Oat Original, Nutrition",
+          "accessed": "2026-10-05",
+          "derived_from_daily_value": [],
+          "notes": []
+        }
+      }
+    },
     {
       "product_id": "0000000094069",
       "source": "kroger",
@@ -33,7 +125,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -65,7 +157,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -95,7 +187,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -127,7 +219,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -157,7 +249,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -181,7 +273,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -213,7 +305,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -233,7 +325,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -263,7 +355,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -295,7 +387,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -325,7 +417,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -357,7 +449,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -387,7 +479,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -417,7 +509,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -447,7 +539,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -477,7 +569,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -509,7 +601,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -549,7 +641,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -569,7 +661,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -599,7 +691,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -629,7 +721,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -663,7 +755,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -695,7 +787,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -725,7 +817,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -757,7 +849,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -789,7 +881,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -815,7 +907,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -845,7 +937,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -877,7 +969,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -905,7 +997,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -935,7 +1027,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -967,7 +1059,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -999,7 +1091,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1031,7 +1123,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1063,7 +1155,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1095,7 +1187,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1127,7 +1219,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1151,7 +1243,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1165,6 +1257,7 @@
       "nutrients_per_g": {
         "potassium_mg": 0.9994121105232217,
         "sodium_mg": 0.058788947677836566,
+        "folic_acid_mcg": 0.6466784244562023,
         "calcium_mg": 0.11757789535567313,
         "protein_g": 0.0411522633744856,
         "fiber_g": 0.011757789535567314,
@@ -1174,6 +1267,7 @@
       "nutrient_sources": {
         "potassium_mg": "kroger_label",
         "sodium_mg": "kroger_label",
+        "folic_acid_mcg": "kroger_label",
         "calcium_mg": "kroger_label",
         "protein_g": "kroger_label",
         "fiber_g": "kroger_label",
@@ -1183,7 +1277,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1200,7 +1294,8 @@
         "fiber_g": 0.03306878306878307,
         "protein_g": 0.0992063492063492,
         "iron_mg": 0.04298941798941799,
-        "calcium_mg": 0.33068783068783064
+        "calcium_mg": 0.33068783068783064,
+        "folic_acid_mcg": 1.455026455026455
       },
       "nutrient_sources": {
         "potassium_mg": "kroger_label",
@@ -1208,12 +1303,13 @@
         "fiber_g": "kroger_label",
         "protein_g": "kroger_label",
         "iron_mg": "kroger_label",
-        "calcium_mg": "kroger_label"
+        "calcium_mg": "kroger_label",
+        "folic_acid_mcg": "kroger_label"
       },
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1233,7 +1329,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1253,7 +1349,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1281,7 +1377,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1307,7 +1403,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1337,7 +1433,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1365,7 +1461,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1397,7 +1493,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1427,7 +1523,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1441,6 +1537,7 @@
       "nutrients_per_g": {
         "potassium_mg": 1.1111111111111112,
         "energy_kcal": 3.5555555555555554,
+        "folic_acid_mcg": 1.3333333333333333,
         "fiber_g": 0.022222222222222223,
         "protein_g": 0.06666666666666667,
         "calcium_mg": 0.2222222222222222,
@@ -1449,6 +1546,7 @@
       "nutrient_sources": {
         "potassium_mg": "kroger_label",
         "energy_kcal": "kroger_label",
+        "folic_acid_mcg": "kroger_label",
         "fiber_g": "kroger_label",
         "protein_g": "kroger_label",
         "calcium_mg": "kroger_label",
@@ -1457,7 +1555,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1479,7 +1577,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1539,7 +1637,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1577,7 +1675,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1590,12 +1688,14 @@
       "ingredients": "Degerminated Yellow Corn Meal, Niacin*, Reduced Iron, Thiamin Mononitrate*, Riboflavin*, Folic Acid*. * One of the B Vitamins.",
       "nutrients_per_g": {
         "fiber_g": 0.036743092298647854,
+        "folic_acid_mcg": 1.54320987654321,
         "protein_g": 0.07348618459729571,
         "energy_kcal": 3.306878306878307,
         "iron_mg": 0.036743092298647854
       },
       "nutrient_sources": {
         "fiber_g": "kroger_label",
+        "folic_acid_mcg": "kroger_label",
         "protein_g": "kroger_label",
         "energy_kcal": "kroger_label",
         "iron_mg": "kroger_label"
@@ -1603,7 +1703,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1633,7 +1733,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1663,7 +1763,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1691,7 +1791,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1725,7 +1825,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1745,7 +1845,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1777,7 +1877,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1801,7 +1901,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1833,7 +1933,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1857,7 +1957,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1883,7 +1983,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1921,7 +2021,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1951,7 +2051,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -1981,7 +2081,191 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
+        }
+      }
+    },
+    {
+      "product_id": "025293600713",
+      "source": "metro",
+      "upc": "025293600713",
+      "serving_size_g": 250.0,
+      "serving_basis": "manufacturer label: 1 cup (250 mL) at 1.0 g/mL",
+      "ingredients": null,
+      "nutrients_per_g": {
+        "energy_kcal": 0.4,
+        "protein_g": 0.028,
+        "fiber_g": 0.008,
+        "vit_a_mcg": 0.4,
+        "vit_d_mcg": 0.008,
+        "vit_b12_mcg": 0.004,
+        "calcium_mg": 1.2,
+        "iron_mg": 0.004,
+        "potassium_mg": 1.2,
+        "sodium_mg": 0.46,
+        "zinc_mg": 0.004
+      },
+      "nutrient_sources": {
+        "energy_kcal": "manufacturer_label:silk_organic_original_soy",
+        "protein_g": "manufacturer_label:silk_organic_original_soy",
+        "fiber_g": "manufacturer_label:silk_organic_original_soy",
+        "vit_a_mcg": "manufacturer_label:silk_organic_original_soy",
+        "vit_d_mcg": "manufacturer_label:silk_organic_original_soy",
+        "vit_b12_mcg": "manufacturer_label:silk_organic_original_soy",
+        "calcium_mg": "manufacturer_label:silk_organic_original_soy",
+        "iron_mg": "manufacturer_label:silk_organic_original_soy",
+        "potassium_mg": "manufacturer_label:silk_organic_original_soy",
+        "sodium_mg": "manufacturer_label:silk_organic_original_soy",
+        "zinc_mg": "manufacturer_label:silk_organic_original_soy"
+      },
+      "source_details": {
+        "manufacturer_label:silk_organic_original_soy": {
+          "kind": "manufacturer_nutrition_facts",
+          "url": "https://www.silkcanada.ca/products/plant-based-beverage/original-soy-beverage/",
+          "title": "Silk Canada - Original Soy Beverage, Nutrition Facts",
+          "accessed": "2026-10-05",
+          "derived_from_daily_value": [],
+          "notes": [
+            "Values read from the page's Nutrition Facts image (wp-content/uploads/2020/03/Soy_Org_Ref-1.png), which the page shows for the refrigerated 1.89 L organic soy beverage."
+          ]
+        }
+      }
+    },
+    {
+      "product_id": "626027811025",
+      "source": "metro",
+      "upc": "626027811025",
+      "serving_size_g": 250.0,
+      "serving_basis": "manufacturer label: 1 cup (250 mL) at 1.0 g/mL",
+      "ingredients": null,
+      "nutrients_per_g": {
+        "energy_kcal": 0.48,
+        "protein_g": 0.012,
+        "fiber_g": 0.008,
+        "vit_a_mcg": 0.4,
+        "vit_d_mcg": 0.008,
+        "vit_b12_mcg": 0.004,
+        "calcium_mg": 1.2,
+        "iron_mg": 0.003,
+        "magnesium_mg": 0.08,
+        "potassium_mg": 0.4,
+        "sodium_mg": 0.48,
+        "zinc_mg": 0.004
+      },
+      "nutrient_sources": {
+        "energy_kcal": "manufacturer_label:earths_own_oat_original",
+        "protein_g": "manufacturer_label:earths_own_oat_original",
+        "fiber_g": "manufacturer_label:earths_own_oat_original",
+        "vit_a_mcg": "manufacturer_label:earths_own_oat_original",
+        "vit_d_mcg": "manufacturer_label:earths_own_oat_original",
+        "vit_b12_mcg": "manufacturer_label:earths_own_oat_original",
+        "calcium_mg": "manufacturer_label:earths_own_oat_original",
+        "iron_mg": "manufacturer_label:earths_own_oat_original",
+        "magnesium_mg": "manufacturer_label:earths_own_oat_original",
+        "potassium_mg": "manufacturer_label:earths_own_oat_original",
+        "sodium_mg": "manufacturer_label:earths_own_oat_original",
+        "zinc_mg": "manufacturer_label:earths_own_oat_original"
+      },
+      "source_details": {
+        "manufacturer_label:earths_own_oat_original": {
+          "kind": "manufacturer_nutrition_facts",
+          "url": "https://earthsown.com/products/oat-original-chilled-carton/",
+          "title": "Earth's Own - Oat Original, Nutrition",
+          "accessed": "2026-10-05",
+          "derived_from_daily_value": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "product_id": "21037796_EA",
+      "source": "nofrills",
+      "upc": "",
+      "serving_size_g": 250.0,
+      "serving_basis": "manufacturer label: 1 cup (250 mL) at 1.0 g/mL",
+      "ingredients": null,
+      "nutrients_per_g": {
+        "energy_kcal": 0.48,
+        "protein_g": 0.012,
+        "fiber_g": 0.008,
+        "vit_a_mcg": 0.4,
+        "vit_d_mcg": 0.008,
+        "vit_b12_mcg": 0.004,
+        "calcium_mg": 1.2,
+        "iron_mg": 0.003,
+        "magnesium_mg": 0.08,
+        "potassium_mg": 0.4,
+        "sodium_mg": 0.48,
+        "zinc_mg": 0.004
+      },
+      "nutrient_sources": {
+        "energy_kcal": "manufacturer_label:earths_own_oat_original",
+        "protein_g": "manufacturer_label:earths_own_oat_original",
+        "fiber_g": "manufacturer_label:earths_own_oat_original",
+        "vit_a_mcg": "manufacturer_label:earths_own_oat_original",
+        "vit_d_mcg": "manufacturer_label:earths_own_oat_original",
+        "vit_b12_mcg": "manufacturer_label:earths_own_oat_original",
+        "calcium_mg": "manufacturer_label:earths_own_oat_original",
+        "iron_mg": "manufacturer_label:earths_own_oat_original",
+        "magnesium_mg": "manufacturer_label:earths_own_oat_original",
+        "potassium_mg": "manufacturer_label:earths_own_oat_original",
+        "sodium_mg": "manufacturer_label:earths_own_oat_original",
+        "zinc_mg": "manufacturer_label:earths_own_oat_original"
+      },
+      "source_details": {
+        "manufacturer_label:earths_own_oat_original": {
+          "kind": "manufacturer_nutrition_facts",
+          "url": "https://earthsown.com/products/oat-original-chilled-carton/",
+          "title": "Earth's Own - Oat Original, Nutrition",
+          "accessed": "2026-10-05",
+          "derived_from_daily_value": [],
+          "notes": []
+        }
+      }
+    },
+    {
+      "product_id": "21037796_EA",
+      "source": "superstore",
+      "upc": "",
+      "serving_size_g": 250.0,
+      "serving_basis": "manufacturer label: 1 cup (250 mL) at 1.0 g/mL",
+      "ingredients": null,
+      "nutrients_per_g": {
+        "energy_kcal": 0.48,
+        "protein_g": 0.012,
+        "fiber_g": 0.008,
+        "vit_a_mcg": 0.4,
+        "vit_d_mcg": 0.008,
+        "vit_b12_mcg": 0.004,
+        "calcium_mg": 1.2,
+        "iron_mg": 0.003,
+        "magnesium_mg": 0.08,
+        "potassium_mg": 0.4,
+        "sodium_mg": 0.48,
+        "zinc_mg": 0.004
+      },
+      "nutrient_sources": {
+        "energy_kcal": "manufacturer_label:earths_own_oat_original",
+        "protein_g": "manufacturer_label:earths_own_oat_original",
+        "fiber_g": "manufacturer_label:earths_own_oat_original",
+        "vit_a_mcg": "manufacturer_label:earths_own_oat_original",
+        "vit_d_mcg": "manufacturer_label:earths_own_oat_original",
+        "vit_b12_mcg": "manufacturer_label:earths_own_oat_original",
+        "calcium_mg": "manufacturer_label:earths_own_oat_original",
+        "iron_mg": "manufacturer_label:earths_own_oat_original",
+        "magnesium_mg": "manufacturer_label:earths_own_oat_original",
+        "potassium_mg": "manufacturer_label:earths_own_oat_original",
+        "sodium_mg": "manufacturer_label:earths_own_oat_original",
+        "zinc_mg": "manufacturer_label:earths_own_oat_original"
+      },
+      "source_details": {
+        "manufacturer_label:earths_own_oat_original": {
+          "kind": "manufacturer_nutrition_facts",
+          "url": "https://earthsown.com/products/oat-original-chilled-carton/",
+          "title": "Earth's Own - Oat Original, Nutrition",
+          "accessed": "2026-10-05",
+          "derived_from_daily_value": [],
+          "notes": []
         }
       }
     },
@@ -2021,7 +2305,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2627994,
           "publication_date": "8/31/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2119,7 +2403,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2028334,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2250,7 +2534,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2402606,
           "publication_date": "12/22/2022",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2286,7 +2570,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676415,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2322,7 +2606,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2603664,
           "publication_date": "7/13/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2337,6 +2621,7 @@
         "energy_kcal": 8.0,
         "calcium_mg": 0.0,
         "iron_mg": 0.0,
+        "folic_acid_mcg": 0.0,
         "fiber_g": 0.0,
         "vit_c_mg": 0.0,
         "sodium_mg": 0.0,
@@ -2347,6 +2632,7 @@
         "energy_kcal": "usda_branded_upc:1909473",
         "calcium_mg": "usda_branded_upc:1909473",
         "iron_mg": "usda_branded_upc:1909473",
+        "folic_acid_mcg": "usda_branded_upc:1909473",
         "fiber_g": "usda_branded_upc:1909473",
         "vit_c_mg": "usda_branded_upc:1909473",
         "sodium_mg": "usda_branded_upc:1909473",
@@ -2358,7 +2644,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1909473,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2394,7 +2680,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676385,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2430,7 +2716,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2505344,
           "publication_date": "3/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2464,7 +2750,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549787,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2498,7 +2784,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1850358,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2534,7 +2820,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1859545,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2553,6 +2839,7 @@
         "sodium_mg": 0.0,
         "vit_c_mg": 0.0,
         "energy_kcal": 3.75,
+        "folic_acid_mcg": 0.0,
         "protein_g": 0.0
       },
       "nutrient_sources": {
@@ -2563,6 +2850,7 @@
         "sodium_mg": "usda_branded_upc:1905226",
         "vit_c_mg": "usda_branded_upc:1905226",
         "energy_kcal": "usda_branded_upc:1905226",
+        "folic_acid_mcg": "usda_branded_upc:1905226",
         "protein_g": "usda_branded_upc:1905226"
       },
       "source_details": {
@@ -2570,7 +2858,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1905226,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2604,7 +2892,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2504828,
           "publication_date": "3/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2623,7 +2911,8 @@
         "iron_mg": 0.0,
         "calcium_mg": 0.0,
         "sodium_mg": 0.0,
-        "vit_c_mg": 0.0
+        "vit_c_mg": 0.0,
+        "folic_acid_mcg": 0.0
       },
       "nutrient_sources": {
         "fiber_g": "usda_branded_upc:2023462",
@@ -2633,14 +2922,15 @@
         "iron_mg": "usda_branded_upc:2023462",
         "calcium_mg": "usda_branded_upc:2023462",
         "sodium_mg": "usda_branded_upc:2023462",
-        "vit_c_mg": "usda_branded_upc:2023462"
+        "vit_c_mg": "usda_branded_upc:2023462",
+        "folic_acid_mcg": "usda_branded_upc:2023462"
       },
       "source_details": {
         "usda_branded_upc:2023462": {
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2023462,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2658,6 +2948,7 @@
         "potassium_mg": 0.0,
         "fiber_g": 0.0,
         "vit_c_mg": 0.0,
+        "folic_acid_mcg": 0.0,
         "energy_kcal": 8.57,
         "protein_g": 0.0
       },
@@ -2668,6 +2959,7 @@
         "potassium_mg": "usda_branded_upc:2339261",
         "fiber_g": "usda_branded_upc:2339261",
         "vit_c_mg": "usda_branded_upc:2339261",
+        "folic_acid_mcg": "usda_branded_upc:2339261",
         "energy_kcal": "usda_branded_upc:2339261",
         "protein_g": "usda_branded_upc:2339261"
       },
@@ -2676,7 +2968,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2339261,
           "publication_date": "9/15/2022",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2710,7 +3002,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549810,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2724,6 +3016,7 @@
       "nutrients_per_g": {
         "iron_mg": 0.0208,
         "energy_kcal": 0.85,
+        "folic_acid_mcg": 0.0,
         "fiber_g": 0.054000000000000006,
         "vit_c_mg": 0.0,
         "protein_g": 0.0538,
@@ -2734,6 +3027,7 @@
       "nutrient_sources": {
         "iron_mg": "usda_branded_upc:2338487",
         "energy_kcal": "usda_branded_upc:2338487",
+        "folic_acid_mcg": "usda_branded_upc:2338487",
         "fiber_g": "usda_branded_upc:2338487",
         "vit_c_mg": "usda_branded_upc:2338487",
         "protein_g": "usda_branded_upc:2338487",
@@ -2746,7 +3040,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2338487,
           "publication_date": "9/15/2022",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2780,7 +3074,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2504900,
           "publication_date": "3/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2795,6 +3089,7 @@
         "iron_mg": 0.0138,
         "sodium_mg": 3.15,
         "protein_g": 0.0538,
+        "folic_acid_mcg": 0.0,
         "energy_kcal": 0.69,
         "vit_c_mg": 0.0,
         "calcium_mg": 0.31,
@@ -2805,6 +3100,7 @@
         "iron_mg": "usda_branded_upc:1860267",
         "sodium_mg": "usda_branded_upc:1860267",
         "protein_g": "usda_branded_upc:1860267",
+        "folic_acid_mcg": "usda_branded_upc:1860267",
         "energy_kcal": "usda_branded_upc:1860267",
         "vit_c_mg": "usda_branded_upc:1860267",
         "calcium_mg": "usda_branded_upc:1860267",
@@ -2816,7 +3112,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1860267,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2828,6 +3124,7 @@
       "serving_basis": "usda_branded_record",
       "ingredients": "PREPARED PINTO BEANS, WATER, SALT, CALCIUM CHLORIDE (FIRMING AGENT), CALCIUM DISODIUM EDTA ADDED TO PROMOTE COLOR RETENTION.",
       "nutrients_per_g": {
+        "folic_acid_mcg": 0.0,
         "sodium_mg": 3.15,
         "energy_kcal": 0.69,
         "potassium_mg": 2.31,
@@ -2838,6 +3135,7 @@
         "vit_c_mg": 0.0
       },
       "nutrient_sources": {
+        "folic_acid_mcg": "usda_branded_upc:2324270",
         "sodium_mg": "usda_branded_upc:2324270",
         "energy_kcal": "usda_branded_upc:2324270",
         "potassium_mg": "usda_branded_upc:2324270",
@@ -2852,7 +3150,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2324270,
           "publication_date": "6/21/2022",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2886,7 +3184,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2550179,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2920,7 +3218,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2329493,
           "publication_date": "6/21/2022",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2958,7 +3256,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676436,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -2978,6 +3276,7 @@
         "potassium_mg": 2.14,
         "sodium_mg": 4.29,
         "vit_c_mg": 0.0,
+        "folic_acid_mcg": 0.29,
         "calcium_mg": 0.71
       },
       "nutrient_sources": {
@@ -2989,6 +3288,7 @@
         "potassium_mg": "usda_branded_upc:2656952",
         "sodium_mg": "usda_branded_upc:2656952",
         "vit_c_mg": "usda_branded_upc:2656952",
+        "folic_acid_mcg": "usda_branded_upc:2656952",
         "calcium_mg": "usda_branded_upc:2656952"
       },
       "source_details": {
@@ -2996,7 +3296,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2656952,
           "publication_date": "10/26/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3032,7 +3332,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2675296,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3066,7 +3366,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549916,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3084,6 +3384,7 @@
         "fiber_g": 0.033,
         "calcium_mg": 0.0,
         "potassium_mg": 0.0,
+        "folic_acid_mcg": 1.47,
         "sodium_mg": 0.0
       },
       "nutrient_sources": {
@@ -3093,6 +3394,7 @@
         "fiber_g": "usda_branded_upc:2476513",
         "calcium_mg": "usda_branded_upc:2476513",
         "potassium_mg": "usda_branded_upc:2476513",
+        "folic_acid_mcg": "usda_branded_upc:2476513",
         "sodium_mg": "usda_branded_upc:2476513"
       },
       "source_details": {
@@ -3100,7 +3402,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2476513,
           "publication_date": "2/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3136,7 +3438,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2010552,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3162,7 +3464,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2027586,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3196,7 +3498,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549829,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3230,7 +3532,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2328338,
           "publication_date": "6/21/2022",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3264,7 +3566,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2149621,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3374,7 +3676,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2550580,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3440,7 +3742,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2368695,
           "publication_date": "12/7/2022",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3514,7 +3816,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676178,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3550,7 +3852,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1505382,
           "publication_date": "3/19/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3584,7 +3886,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549913,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3618,7 +3920,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2550119,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3652,7 +3954,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2550074,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3670,6 +3972,7 @@
         "energy_kcal": 4.0,
         "potassium_mg": 21.4,
         "protein_g": 0.5,
+        "folic_acid_mcg": 20.8,
         "sodium_mg": 2.0
       },
       "nutrient_sources": {
@@ -3679,6 +3982,7 @@
         "energy_kcal": "usda_branded_upc:2486564",
         "potassium_mg": "usda_branded_upc:2486564",
         "protein_g": "usda_branded_upc:2486564",
+        "folic_acid_mcg": "usda_branded_upc:2486564",
         "sodium_mg": "usda_branded_upc:2486564"
       },
       "source_details": {
@@ -3686,7 +3990,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2486564,
           "publication_date": "2/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3720,7 +4024,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2339039,
           "publication_date": "9/15/2022",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3750,7 +4054,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1938883,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3786,7 +4090,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676650,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3822,7 +4126,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2673405,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3884,7 +4188,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2656958,
           "publication_date": "10/26/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3920,7 +4224,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2591368,
           "publication_date": "6/29/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3934,6 +4238,7 @@
       "nutrients_per_g": {
         "protein_g": 0.1,
         "fiber_g": 0.067,
+        "folic_acid_mcg": 1.33,
         "sodium_mg": 0.0,
         "energy_kcal": 3.67,
         "potassium_mg": 3.17,
@@ -3944,6 +4249,7 @@
       "nutrient_sources": {
         "protein_g": "usda_branded_upc:2504484",
         "fiber_g": "usda_branded_upc:2504484",
+        "folic_acid_mcg": "usda_branded_upc:2504484",
         "sodium_mg": "usda_branded_upc:2504484",
         "energy_kcal": "usda_branded_upc:2504484",
         "potassium_mg": "usda_branded_upc:2504484",
@@ -3956,7 +4262,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2504484,
           "publication_date": "3/16/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -3992,7 +4298,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2603660,
           "publication_date": "7/13/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -4026,7 +4332,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2553160,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     },
@@ -4060,7 +4366,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2328293,
           "publication_date": "6/21/2022",
-          "fetched_at": "2026-10-05"
+          "fetched_at": "2026-10-06"
         }
       }
     }
