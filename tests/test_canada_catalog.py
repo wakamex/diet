@@ -14,6 +14,11 @@ def test_initial_canadian_pass_accounts_for_every_food_concept():
     misses = yaml.safe_load(Path("data/canada_missing.yaml").read_text())
 
     assert len(concepts) == 85
+    canadian_only = {
+        int(row["fdc_id"])
+        for row in yaml.safe_load(Path("data/canada_product_map.yaml").read_text())
+        if row.get("dietary_categories")
+    }
     for retailer in ("metro", "foodbasics"):
         mapped = {sku.fdc_id for sku in skus if sku.source == retailer}
         explicit_misses = {
@@ -22,7 +27,10 @@ def test_initial_canadian_pass_accounts_for_every_food_concept():
             if retailer in row["retailers"]
         }
         assert mapped.isdisjoint(explicit_misses)
-        assert mapped | explicit_misses == concepts
+        # Every US concept is priced in Canada or listed as missing; extra
+        # Canadian foods must declare their own dietary categories.
+        assert (mapped & concepts) | explicit_misses == concepts
+        assert mapped - concepts <= canadian_only
 
 
 def test_canadian_mappings_have_unique_positive_exact_skus_per_retailer():
@@ -34,8 +42,9 @@ def test_canadian_mappings_have_unique_positive_exact_skus_per_retailer():
         assert all(sku.dietary_categories for sku in rows)
 
     pcx_required = {
-        169100, 169287, 169697, 172370, 172428, 173744,
-        173884, 174266, 175186, 2257046, 2644283,
+        169100, 169287, 169697, 169917, 169968, 170000, 170026, 170393,
+        171688, 172370, 172428, 173744, 173756, 173884, 174266, 175186,
+        2257046, 2644283, 2705412,
     }
     for retailer in ("superstore", "nofrills"):
         assert {sku.fdc_id for sku in skus if sku.source == retailer} == pcx_required

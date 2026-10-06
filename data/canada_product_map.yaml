@@ -436,7 +436,7 @@
   unit_grams: 1750
   sources: [metro, foodbasics]
   _unit_basis: 1.0 g/mL beverage estimate
-- fdc_id: 2257046
+- fdc_id: 2705412
   query: oat milk
   product_id: "626027811025"
   name: Earth's Own Original Oat Beverage
@@ -694,7 +694,7 @@
   package: 1 kg
   unit_grams: 1000
   sources: [superstore, nofrills]
-- fdc_id: 2257046
+- fdc_id: 2705412
   query: original oat milk
   product_id: "21037796_EA"
   name: Earth's Own Original Oat Milk Alternative
@@ -731,3 +731,168 @@
   package: 750 g
   unit_grams: 750
   source: nofrills
+
+# Fresh produce and other products added for recipe planning. Foods with no
+# US SKU declare their own dietary categories.
+- fdc_id: 170000
+  query: "yellow onions"
+  product_id: "059749900133"
+  name: "Yellow Onions"
+  package: 2 lb
+  unit_grams: 907
+  sources: [metro, foodbasics]
+  dietary_categories: [vegetable]
+- fdc_id: 170000
+  query: "yellow onions"
+  product_id: "20811994001_EA"
+  name: "Farmer's Market Yellow Onions"
+  package: 3 lb
+  unit_grams: 1361
+  sources: [superstore, nofrills]
+  dietary_categories: [vegetable]
+- fdc_id: 170393
+  query: "carrots"
+  product_id: "059749854368"
+  name: "Bag of Carrots"
+  package: 2 lb
+  unit_grams: 907
+  sources: [metro, foodbasics]
+  dietary_categories: [vegetable]
+- fdc_id: 170393
+  query: "carrots"
+  product_id: "20600927001_EA"
+  name: "Farmer's Market Carrots"
+  package: 3 lb
+  unit_grams: 1361
+  sources: [superstore, nofrills]
+  dietary_categories: [vegetable]
+- fdc_id: 170026
+  query: "russet potatoes"
+  product_id: "059749911153"
+  name: "Russet Potatoes"
+  package: 5 lb
+  unit_grams: 2268
+  sources: [metro, foodbasics]
+  dietary_categories: [vegetable]
+- fdc_id: 170026
+  query: "russet potatoes"
+  product_id: "20616206001_EA"
+  name: "President's Choice Russet Potatoes"
+  package: 5 lb
+  unit_grams: 2268
+  sources: [superstore, nofrills]
+  dietary_categories: [vegetable]
+- fdc_id: 1105314
+  query: "bananas"
+  product_id: "4011"
+  name: "Banana"
+  unit_grams: 1000
+  sources: [metro, foodbasics]
+  dietary_categories: [fruit]
+  _unit_basis: storefront price per kg
+- fdc_id: 169917
+  query: "navel oranges"
+  product_id: "033383119427"
+  name: "Navel Oranges"
+  package: 3 lb
+  unit_grams: 1361
+  sources: [metro, foodbasics]
+  dietary_categories: [fruit]
+- fdc_id: 169917
+  query: "navel oranges"
+  product_id: "20162945001_EA"
+  name: "Farmer's Market Oranges"
+  package: 3 lb
+  unit_grams: 1361
+  sources: [superstore, nofrills]
+  dietary_categories: [fruit]
+- fdc_id: 171688
+  query: "gala apples"
+  product_id: "033383007410"
+  name: "Bag of Apples, Royal Gala"
+  package: 3 lb
+  unit_grams: 1361
+  sources: [metro, foodbasics]
+  dietary_categories: [fruit]
+- fdc_id: 171688
+  query: "gala apples"
+  product_id: "20767998001_EA"
+  name: "Farmer's Market Gala Apples"
+  package: 4 lb
+  unit_grams: 1814
+  sources: [superstore, nofrills]
+  dietary_categories: [fruit]
+- fdc_id: 169968
+  query: "frozen broccoli"
+  product_id: "190569141730"
+  name: "Green Giant Frozen Cut Broccoli, Valley Selections"
+  package: 500 g
+  unit_grams: 500
+  sources: [metro]
+  dietary_categories: [vegetable]
+- fdc_id: 169968
+  query: "frozen broccoli"
+  product_id: "059749995092"
+  name: "Life Smart Frozen Broccoli Florets, Organic"
+  package: 450 g
+  unit_grams: 450
+  sources: [metro, foodbasics]
+  dietary_categories: [vegetable]
+- fdc_id: 169968
+  query: "frozen broccoli"
+  product_id: "21022373_EA"
+  name: "Green Giant Valley Selections Cut Broccoli"
+  package: 500 g
+  unit_grams: 500
+  sources: [superstore, nofrills]
+  dietary_categories: [vegetable]
+- fdc_id: 173756
+  query: "dry chickpeas"
+  product_id: "062781060857"
+  name: "Divya Dry Chickpeas"
+  package: 1.81 kg
+  unit_grams: 1810
+  sources: [foodbasics]
+  dietary_categories: [legume]
+- fdc_id: 173756
+  query: "dry chickpeas"
+  product_id: "062356505561"
+  name: "Cedar Phoenicia Chick Peas"
+  package: 907 g
+  unit_grams: 907
+  sources: [metro]
+  dietary_categories: [legume]
+- fdc_id: 173756
+  query: "chickpeas"
+  product_id: "21173924_EA"
+  name: "PC Blue Menu Chickpeas"
+  package: 900 g
+  unit_grams: 900
+  sources: [superstore, nofrills]
+  dietary_categories: [legume]
+- fdc_id: 2257046
+  query: "earth's own oat zero sugar"
+  product_id: "626027841022"
+  name: "Earth's Own Oat Zero Sugar Original"
+  package: 1.75 L
+  unit_grams: 1750
+  sources: [metro, foodbasics]
+  dietary_categories: [plant_milk, fortified_b12]
+  _unit_basis: 1.0 g/mL beverage estimate
+- fdc_id: 2257046
+  query: "earth's own oat zero sugar"
+  product_id: "21517729_EA"
+  name: "Earth's Own Zero Sugar Original Oat Milk Alternative"
+  package: 1.75 L
+  unit_grams: 1750
+  sources: [superstore, nofrills]
+  dietary_categories: [plant_milk, fortified_b12]
+  _unit_basis: 1.0 g/mL beverage estimate
+- fdc_id: 175204
+  query: "white kidney beans"
+  product_id: "059749929974"
+  name: "Selection White Kidney Beans"
+  package: 540 mL
+  unit_grams: 540
+  sources: [metro, foodbasics]
+  dietary_categories: [legume]

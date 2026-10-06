@@ -561,7 +561,7 @@ def _ingest_shoppers_reference(
     return rows, missing
 
 
-def _retain_reference_prices(
+def retain_previous_prices(
     rows: list[dict],
     previous_rows: list[dict],
     *,
@@ -569,17 +569,15 @@ def _retain_reference_prices(
     locations: list[Location],
     retained_at: str,
 ) -> list[dict]:
-    """Keep the last good Canadian quote when today's exact lookup misses."""
-    reference_locations = {
-        location.location_id: location.source
-        for location in locations
-        if location.price_scope == "reference"
-    }
+    """Keep the last good quote, marked stale, for products today's fetch missed.
+
+    Only products still sold at the given locations are retained.
+    """
     valid = {
-        (sku.product_id, location_id)
-        for location_id, source in reference_locations.items()
+        (sku.product_id, location.location_id)
+        for location in locations
         for sku in skus
-        if sku.source == source
+        if sku.source == location.source
     }
     fresh = {(row["product_id"], row["location_id"]) for row in rows}
     retained: list[dict] = []
@@ -753,11 +751,11 @@ def ingest(
     previous_rows = []
     if out_path.exists():
         previous_rows = (read_json(out_path).get("prices") or [])
-    rows = _retain_reference_prices(
+    rows = retain_previous_prices(
         rows,
         previous_rows,
         skus=skus,
-        locations=locations,
+        locations=[location for location in locations if location.price_scope == "reference"],
         retained_at=updated,
     )
     payload = {

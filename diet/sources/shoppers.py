@@ -29,8 +29,15 @@ from datetime import datetime, timezone
 from typing import Any
 
 SHOPPERS_SOURCE = "shoppers_product_api"
-API_ROOT = "https://api.shoppersdrugmart.ca/beauty/v2/shoppersdrugmart/product/variantProduct/"
+API_HOST = "https://api.shoppersdrugmart.ca/beauty/"
+API_ROOT = API_HOST + "v2/shoppersdrugmart/product/variantProduct/"
 PRODUCT_PAGE_ROOT = "https://www.shoppersdrugmart.ca/p/BB_"
+
+
+def product_page(product_id: str) -> str:
+    # The short /p/BB_<code> page fetches only base-product data; with
+    # variantCode it also calls the variant API whose prices the client reads.
+    return f"{PRODUCT_PAGE_ROOT}{product_id}?variantCode={product_id}"
 # Any current product page works; this one only earns the session.
 SEED_PRODUCT = "057800273073"
 PROVINCE = "ON"
@@ -145,15 +152,18 @@ def start_session(
                 "screenWidth": 1366, "screenHeight": 900,
             })
             api_requests = []
-            page.on("request", lambda r: api_requests.append(r) if r.url.startswith(API_ROOT) else None)
-            page.goto(PRODUCT_PAGE_ROOT + SEED_PRODUCT, timeout=timeout_s * 1000)
+            # Every request to the product API carries the site's key.
+            page.on("request", lambda r: api_requests.append(r) if r.url.startswith(API_HOST) else None)
+            page.goto(product_page(SEED_PRODUCT), timeout=timeout_s * 1000)
             page.wait_for_timeout(8000)
             if not api_requests:
                 title = page.title()
                 if "access denied" in title.lower():
                     raise ShoppersBlocked("Akamai refused the browser session")
                 raise ShoppersError(f"product page made no API call (title {title!r})")
-            sent = api_requests[0].all_headers()
+            sent = next(
+                (h for h in (r.all_headers() for r in api_requests) if h.get("x-apikey")), {}
+            )
             api_key = sent.get("x-apikey")
             if not api_key:
                 raise ShoppersError("product API call carried no x-apikey header")
@@ -202,7 +212,7 @@ def parse_product(product_id: str, payload: dict[str, Any]) -> ShoppersQuote:
         promo_price_cad=effective if effective < regular else None,
         size=float(size) if size is not None else None,
         in_stock=None if out_of_stock is None else not out_of_stock,
-        source_url=PRODUCT_PAGE_ROOT + product_id,
+        source_url=product_page(product_id),
         observed_at=_utc_now(),
     )
 

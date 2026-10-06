@@ -20,7 +20,7 @@ from diet.util import read_json
 DEFAULT_NUTRIENTS_PATH = Path("data/nutrients_current.json")
 DEFAULT_OVERRIDES_PATH = Path("data/nutrition_overrides.yaml")
 DEFAULT_FALLBACKS_PATH = Path("data/nutrient_fallbacks.yaml")
-DEFAULT_DRAINED_PATH = Path("data/drained_fractions.yaml")
+DEFAULT_EDIBLE_PATH = Path("data/edible_shares.yaml")
 
 # Prefer Kroger's stable nutrient codes, with display-name fallbacks for older
 # or sparsely coded catalog records.
@@ -405,8 +405,8 @@ def usda_reference(
     return values, sources
 
 
-def load_drained_fractions(path: Path | str = DEFAULT_DRAINED_PATH) -> dict[str, float]:
-    """Drained shares keyed by the provenance id of the USDA record they apply to."""
+def load_edible_shares(path: Path | str = DEFAULT_EDIBLE_PATH) -> dict[str, float]:
+    """Edible or drained shares keyed by the provenance id of the USDA record they apply to."""
     path = Path(path)
     if not path.exists():
         return {}
@@ -414,11 +414,33 @@ def load_drained_fractions(path: Path | str = DEFAULT_DRAINED_PATH) -> dict[str,
     return {f"usda_reference:{int(k)}": float(v) for k, v in raw.items()}
 
 
-def scale_drained(
-    values: dict[str, float], sources: dict[str, str], fractions: dict[str, float]
+def scale_edible(
+    values: dict[str, float], sources: dict[str, str], shares: dict[str, float]
 ) -> dict[str, float]:
-    """Express drained-solids USDA values per gram of a can's net weight."""
-    return {key: value * fractions.get(sources.get(key, ""), 1.0) for key, value in values.items()}
+    """Express USDA values for the edible or drained part per gram as purchased."""
+    return {key: value * shares.get(sources.get(key, ""), 1.0) for key, value in values.items()}
+
+
+def nutrients_as_sold(
+    fdc_id: int,
+    *,
+    sku_row: dict[str, Any] | None,
+    fdc_cache: Path,
+    fallbacks: dict[int, int],
+    shares: dict[str, float],
+) -> tuple[dict[str, float], dict[str, str]]:
+    """Per-gram nutrients of a product as purchased, with provenance.
+
+    Label values come first; the product's USDA record fills the rest, with
+    its own gaps filled from data/nutrient_fallbacks.yaml, and values from
+    records that describe only the edible or drained part are scaled to the
+    purchased weight (data/edible_shares.yaml).
+    """
+    usda, usda_sources = usda_reference(fdc_id, fdc_cache, fallbacks)
+    values, sources = merge_with_usda_fallback(
+        usda, fdc_id=fdc_id, sku_row=sku_row, fallback_sources=usda_sources
+    )
+    return scale_edible(values, sources, shares), sources
 
 
 def merge_with_usda_fallback(

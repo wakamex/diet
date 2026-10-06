@@ -1,0 +1,39 @@
+# USDA records that describe only part of what is sold, mapped to that part's
+# share of the purchased weight. Products are priced by purchased weight, so
+# values from these records are scaled by this share. Values from product
+# labels and from records that describe the whole purchase are unchanged.
+#
+# Bone, peel and core shares are the Canadian Nutrient File's total refuse
+# for the same food. Drained cans: a US 15.5 oz (439 g) can of beans drains to
+# about 253 to 260 g, and 170 g tuna cans to about 120 g; salmon, sardines,
+# mackerel, clams and canned potatoes are estimates. The great northern and
+# white bean records are denser than whole can contents (114 kcal/100 g,
+# against about 85 implied by dried beans at 4 g of can per gram), so they
+# count as 74% of can weight.
+
+# Drained canned food
+2644288: 0.6    # chickpeas, canned, drained and rinsed
+174285: 0.6     # kidney beans, canned, drained solids
+175243: 0.6     # kidney beans, canned, drained solids, rinsed
+175192: 0.74    # great northern beans, canned
+175204: 0.74    # white beans, canned
+171986: 0.7     # tuna, light, canned in water, drained solids
+175175: 0.85    # salmon, pink, canned, drained solids
+175139: 0.85    # sardines, canned in oil, drained solids with bone
+175121: 0.85    # mackerel, canned, drained solids
+171976: 0.5     # clams, canned, drained solids
+170444: 0.6     # potatoes, canned, drained solids
+
+# Bone-in meat
+171447: 0.68    # chicken, meat and skin (whole birds): 32% bone
+172378: 0.73    # chicken leg, meat and skin (leg quarters): 27% bone
+167843: 0.75    # pork shoulder, whole, lean and fat (bone-in roasts): 25% bone
+
+# Peel, core and trimmings
+1105314: 0.64   # bananas, ripe, raw (fresh bananas): 36% skin
+169917: 0.68    # oranges, navels: 32% peel
+2346407: 0.8    # cabbage, green, raw: 20% core and outer leaves
+169975: 0.8     # cabbage, raw (gap fill for the above)
+170000: 0.9     # onions, raw: 10% skin and ends
+170393: 0.89    # carrots, raw: 11% tops and scrapings
+171688: 0.9     # apples, raw, with skin: 10% core and stem

@@ -13,15 +13,13 @@ import yaml
 
 from diet.solver import Food
 from diet.nutrition import (
-    DEFAULT_DRAINED_PATH,
+    DEFAULT_EDIBLE_PATH,
     DEFAULT_FALLBACKS_PATH,
     DEFAULT_NUTRIENTS_PATH,
-    load_drained_fractions,
+    load_edible_shares,
     load_sku_nutrients,
     load_usda_fallbacks,
-    merge_with_usda_fallback,
-    scale_drained,
-    usda_reference,
+    nutrients_as_sold,
 )
 from diet.util import read_json
 
@@ -111,7 +109,17 @@ def load_canada_skus(
         fdc_id = int(row["fdc_id"])
         concept = concepts.get(fdc_id)
         if concept is None:
-            raise ValueError(f"Canadian mapping references unknown FDC concept {fdc_id}")
+            # A Canadian-only food declares what a US concept would supply.
+            if not row.get("dietary_categories"):
+                raise ValueError(
+                    f"Canadian mapping {row.get('product_id')!r} references FDC concept "
+                    f"{fdc_id}, which no US SKU uses, and declares no dietary_categories"
+                )
+            concept = SkuSpec(
+                product_id="", fdc_id=fdc_id, name="", unit_grams=1.0,
+                dietary_categories=frozenset(row["dietary_categories"]),
+                max_serving_g=row.get("max_serving_g"),
+            )
         sources = row.get("sources") or [row.get("source")]
         if not sources or any(
             source not in {"metro", "foodbasics", "superstore", "nofrills"}
@@ -192,7 +200,7 @@ def build_foods_for_location(
     fdc_cache: Path = DEFAULT_FDC_CACHE,
     nutrients_path: Path | str = DEFAULT_NUTRIENTS_PATH,
     fallbacks_path: Path | str = DEFAULT_FALLBACKS_PATH,
-    drained_path: Path | str = DEFAULT_DRAINED_PATH,
+    edible_path: Path | str = DEFAULT_EDIBLE_PATH,
     use_promo: bool = True,
     locations: list[Location] | None = None,
 ) -> list[Food]:
@@ -204,7 +212,7 @@ def build_foods_for_location(
     foods: list[Food] = []
     sku_nutrients = load_sku_nutrients(nutrients_path)
     usda_fallbacks = load_usda_fallbacks(fallbacks_path)
-    drained = load_drained_fractions(drained_path)
+    shares = load_edible_shares(edible_path)
     price_locations = price_locations_for(location, locations)
     for sku in skus:
         price_location = price_locations.get(sku.source)
@@ -221,12 +229,11 @@ def build_foods_for_location(
         # Convert package $ → $/g. Nutrients come from FDC per-100g, normalized to per-g.
         price_per_g = float(chosen) / sku.unit_grams
 
-        fallback, fallback_sources = usda_reference(sku.fdc_id, fdc_cache, usda_fallbacks)
         sku_row = sku_nutrients.get((sku.source, sku.product_id))
-        nutrients, nutrient_sources = merge_with_usda_fallback(
-            fallback, fdc_id=sku.fdc_id, sku_row=sku_row, fallback_sources=fallback_sources
+        nutrients, nutrient_sources = nutrients_as_sold(
+            sku.fdc_id, sku_row=sku_row, fdc_cache=fdc_cache,
+            fallbacks=usda_fallbacks, shares=shares,
         )
-        nutrients = scale_drained(nutrients, nutrient_sources, drained)
 
         foods.append(Food(
             sku_id=(

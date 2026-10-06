@@ -29,7 +29,7 @@ The pinto records were swapped across the two product groups, and the Kroger lis
 | Products | Record | Why it stays |
 |---|---|---|
 | Frozen mixed fruit blends (mango, berries) | 171710, Blackberries, frozen, unsweetened | FDC has no mixed frozen fruit record |
-| Frozen sliced bananas | 1105073, Bananas, overripe, raw | Close to plain frozen banana |
+| Frozen sliced bananas | 1105073, Bananas, overripe, raw | Close to plain frozen banana; fresh bananas use 1105314, Bananas, ripe and slightly ripe, raw |
 | Unsalted roasted pistachios | 169426, Nuts, pistachio nuts, dry roasted, with salt added | Differs only in sodium |
 | Nutritional yeast | 167717, Yeast extract spread | FDC has no generic nutritional yeast record; product label values take precedence where retailers supply them |
 | Kroger enriched white rice | 2512381, Rice, white, long grain, unenriched, raw | Shared with Canadian white rice, which is not enriched; understates the US product's added thiamin, iron and folic acid |
@@ -40,24 +40,26 @@ Many newer FDC Foundation records omit choline, vitamin K, folate or other track
 
 ## Nutrients that applied to the wrong weight
 
-Canned products are priced by net weight, including liquid, but several records describe drained solids. `data/drained_fractions.yaml` scales values from those records to the can's net weight: beans 0.6, tuna 0.7, salmon, sardines and mackerel 0.85, clams 0.5, canned potatoes 0.6. Great northern beans' record is denser than whole can contents, so it counts as 74% of can weight.
+Canned products are priced by net weight, including liquid, but several records describe drained solids. `data/edible_shares.yaml` scales values from those records to the can's net weight: beans 0.6, tuna 0.7, salmon, sardines and mackerel 0.85, clams 0.5, canned potatoes 0.6. Great northern beans' record is denser than whole can contents, so it counts as 74% of can weight.
 
 ## Upper limits that counted the wrong form
 
 The folate upper limit applies only to synthetic folic acid, and the vitamin A upper limit only to preformed vitamin A (retinol and retinyl esters). Both had been applied to all forms, which capped legumes and every food with beta-carotene. They are now separate `folic_acid_mcg` and `retinol_mcg` rows in `data/dri.json`, read from FDC's "Folic acid" and "Retinol" values, supplement labels and fortified-product labels. Three multivitamins do not record how much of their vitamin A is preformed, so all of it is counted as preformed.
 
-## Open issue
+## Bone, peel and core
 
-Bone-in meats are priced by whole weight, but their records describe meat and skin only: whole chickens (171447), chicken leg quarters (172378) and bone-in pork shoulder (167843). Their nutrients are overstated by roughly the bone's share, about 25 to 30% of the weight. This needs an edible share like the drained one, applied per product, since some products using these records are boneless.
+Bone-in meats and whole produce are priced by whole weight, but their records describe the edible part. `data/edible_shares.yaml` gives each such record its edible share from the Canadian Nutrient File's refuse data: whole chickens 0.68, leg quarters 0.73, bone-in pork shoulder 0.75, fresh bananas 0.64, navel oranges 0.68, cabbage 0.8, onions and apples 0.9, carrots 0.89. Every product on these records is bought whole; boneless chicken breast uses a separate meat-only record.
 
 ## All records in use
 
-Generated from the product files after these fixes. Gap fill is the record that supplies missing nutrients; drained share scales drained-solids values to net can weight.
+Generated from the product files after these fixes. Gap fill is the record that supplies missing nutrients; edible share scales values to the purchased weight.
 
-| FDC ID | USDA description | Gap fill from | Drained share | Products |
+| FDC ID | USDA description | Gap fill from | Edible share | Products |
 |---|---|---|---|---|
 | 1999631 | Almond milk, unsweetened, plain, shelf stable | 168751 |  | Canada: Earth's Own Unsweetened Organic Almond Beverage; Kroger: MALK Organic Dairy Free Unsweetened Almond Milk |
+| 171688 | Apples, raw, with skin (Includes foods for USDA's Food Distribution Program) |  | 0.9 | Canada: Bag of Apples, Royal Gala; Canada: Farmer's Market Gala Apples |
 | 1105073 | Bananas, overripe, raw | 173944 |  | Canada: Life Smart Frozen Banana Slices; Kroger: Kroger® Frozen Sliced Bananas; Walmart: Great Value Sliced Bananas, 16 oz Bag |
+| 1105314 | Bananas, ripe and slightly ripe, raw |  | 0.64 | Canada: Banana |
 | 170284 | Barley, pearled, raw |  |  | Canada: Cedar Phoenicia Pearl Barley; Kroger: Quaker® Quick Pearled Barley; Walmart: Quaker Quick Pearled Barley, 11 oz, Single Pack, Low Fat, Sodium Free |
 | 175188 | Beans, black turtle, mature seeds, canned |  |  | Canada: Life Smart Black Beans; Kroger: Kroger® Black Beans; Walmart: Great Value Black Beans, 15 oz |
 | 175186 | Beans, black turtle, mature seeds, raw | 173734 |  | Canada: Cedar Phoenicia Black Turtle Beans; Canada: PC Blue Menu Black Turtle Beans; Kroger: La Preferida® Black Beans Dry; Walmart: Great Value Black Beans, 32 oz |
@@ -67,19 +69,22 @@ Generated from the product files after these fixes. Gap fill is the record that 
 | 173745 | Beans, navy, mature seeds, raw |  |  | Canada: Life Smart White Navy Beans; Walmart: Great Value Navy Beans, 1 lb |
 | 175201 | Beans, pinto, mature seeds, canned, solids and liquids |  |  | Canada: Selection Canned Pinto Beans; Kroger: Pinto Beans; Walmart: Great Value Pinto Beans, 15.5 oz |
 | 175199 | Beans, pinto, mature seeds, raw (Includes foods for USDA's Food Distribution Program) |  |  | Canada: Cedar Phoenicia Pinto Beans; Kroger: Kroger® Pinto Beans; Walmart: Great Value Pinto Beans, 32 oz |
+| 175204 | Beans, white, mature seeds, canned |  | 0.74 | Canada: Selection White Kidney Beans |
 | 2514744 | Beef, ground, 80% lean meat / 20% fat, raw | 174036 |  | Canada: Medium Ground Beef; Kroger: Kroger® 80/20 Ground Beef Roll 1 LB; Walmart: 80% Lean / 20% Fat Ground Beef Chuck, 1 lb Tray, Fresh, All Natural* |
 | 171710 | Blackberries, frozen, unsweetened |  |  | Canada: Irrésistible Frozen Summertime Blend Mixed Fruit; Kroger: Wyman's® Mango Berry Frozen Fruit; Walmart: Wyman's Mango Berry, 1 - 48 oz Bag (Frozen) |
 | 172688 | Bread, whole-wheat, commercially prepared |  |  | Canada: Selection Whole Wheat Sliced Bread; Kroger: Kroger® 100% Whole Wheat Bread; Walmart: Great Value 100% Whole Wheat Round Top Bread, 20 oz |
-| 169968 | Broccoli, frozen, chopped, unprepared |  |  | Canada: Selection Frozen Broccoli Florets Value Pack; Kroger: Kroger® Traditional Favorites Frozen Broccoli Cuts; Walmart: Great Value Frozen Broccoli Cuts, Steamable In Bag, 12 oz |
-| 2346407 | Cabbage, green, raw | 169975 |  | Canada: Green Cabbage; Kroger: Organic Green Cabbage |
+| 169968 | Broccoli, frozen, chopped, unprepared |  |  | Canada: Green Giant Frozen Cut Broccoli, Valley Selections; Canada: Green Giant Valley Selections Cut Broccoli; Canada: Life Smart Frozen Broccoli Florets, Organic; Canada: Selection Frozen Broccoli Florets Value Pack; and 2 more |
+| 2346407 | Cabbage, green, raw | 169975 | 0.8 | Canada: Green Cabbage; Kroger: Organic Green Cabbage |
 | 170395 | Carrots, canned, regular pack, solids and liquids |  |  | Canada: Selection Sliced Carrots; Kroger: Kroger No Salt Added Sliced Carrots - 8.25oz can; Walmart: Great Value Sliced Carrots, 8.25 oz Can |
+| 170393 | Carrots, raw |  | 0.89 | Canada: Bag of Carrots; Canada: Farmer's Market Carrots |
 | 173884 | Cereals ready-to-eat, GENERAL MILLS, CHEERIOS |  |  | Canada: Cheerios Oats Cereal Value Pack; Canada: General Mills Original Cheerios Family Size; Kroger: General Mills Cheerios Cereal Cup; Walmart: Cheerios, Heart Healthy Gluten Free Breakfast Cereal, 8.9 oz |
 | 173414 | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) |  |  | Canada: Selection Old Cheddar Cheese; Kroger: Kroger® Sharp Cheddar Shredded Cheese; Walmart: Great Value Sharp Cheddar Finely Shredded Cheese, 8 oz Bag |
-| 172378 | Chicken, broilers or fryers, leg, meat and skin, raw |  |  | Canada: Back Attached Chicken Leg Quarters; Canada: Halal Chicken Leg Quarters; Kroger: Fresh Chicken Seasoned Leg Quarters; Walmart: Fresh Chicken Leg Quarters, 4.25-6 lb Tray |
-| 171447 | Chicken, broilers or fryers, meat and skin, raw |  |  | Canada: Fresh Whole Chicken; Canada: Maple Lodge Whole Chicken; Kroger: Simple Truth Organic® Fresh Organic Whole Chicken with Giblets; Walmart: Foster Farms Fresh & Natural Cage Free Whole Chicken, 5.0-5.5 lb |
+| 172378 | Chicken, broilers or fryers, leg, meat and skin, raw |  | 0.73 | Canada: Back Attached Chicken Leg Quarters; Canada: Halal Chicken Leg Quarters; Kroger: Fresh Chicken Seasoned Leg Quarters; Walmart: Fresh Chicken Leg Quarters, 4.25-6 lb Tray |
+| 171447 | Chicken, broilers or fryers, meat and skin, raw |  | 0.68 | Canada: Fresh Whole Chicken; Canada: Maple Lodge Whole Chicken; Kroger: Simple Truth Organic® Fresh Organic Whole Chicken with Giblets; Walmart: Foster Farms Fresh & Natural Cage Free Whole Chicken, 5.0-5.5 lb |
 | 171052 | Chicken, broilers or fryers, meat only, raw |  |  | Canada: Boneless and Skinless Chicken Breast; Canada: Boneless and Skinless Chicken Breasts Value Pack; Kroger: Kroger® Boneless Skinless Uncooked Chicken Breast With Rib Meat Thin-Sliced; Walmart: Freshness Guaranteed Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray |
 | 171060 | Chicken, liver, all classes, raw |  |  | Canada: Chicken Livers; Kroger: Heritage Farm® Chicken Livers; Walmart: Foster Farms Fresh & Natural Cage Free Chicken Livers, 1.0-1.4 lb |
 | 2644288 | Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed | 175250 | 0.6 | Canada: Life Smart Chickpeas; Kroger: Simple Truth Organic® Low Sodium Garbanzo Beans; Walmart: S&W Garbanzo Beans - Low Sodium - 15.5 oz. Can |
+| 173756 | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw |  |  | Canada: Cedar Phoenicia Chick Peas; Canada: Divya Dry Chickpeas; Canada: PC Blue Menu Chickpeas |
 | 169694 | Corn flour, masa, enriched, white |  |  | Canada: Maseca Instant Corn Masa Flour; Walmart: Great Value Corn Masa Flour, 4 lb |
 | 170409 | Corn, sweet, yellow, canned, brine pack, regular pack, solids and liquids |  |  | Canada: Selection Whole Kernel Corn; Kroger: Del Monte Golden Sweet Whole Kernel Corn; Walmart: Great Value Golden Sweet Whole Kernel Corn, 15 oz |
 | 168867 | Cornmeal, degermed, enriched, yellow |  |  | Walmart: Great Value Enriched Yellow Corn Meal, 4 x 80 oz Bags |
@@ -106,22 +111,26 @@ Generated from the product files after these fixes. Gap fill is the record that 
 | 170591 | Nuts, pine nuts, dried |  |  | Canada: Irrésistible Pine Nuts; Canada: Selection Pine Nuts; Kroger: Fresh Gourmet Raw Whole Pine Nuts; Walmart: Great Value Pine Nuts, 4 oz |
 | 169426 | Nuts, pistachio nuts, dry roasted, with salt added |  |  | Canada: Irrésistible Unsalted Roasted Pistachios; Kroger: Simple Truth® Shelled Roasted & Salted Pistachios; Walmart: Great Value Roasted & Salted, No Shell Pistachios, 12 oz Resealable Bag |
 | 170187 | Nuts, walnuts, english |  |  | Canada: Irrésistible Walnut Halves and Pieces Value Pack; Kroger: Kroger® Gluten Free Vegan Halves and Pieces Walnuts; Walmart: Great Value Walnuts Halves & Pieces, 16 oz |
-| 2257046 | Oat milk, unsweetened, plain, refrigerated |  |  | Canada: Earth's Own Original Oat Beverage; Canada: Earth's Own Original Oat Milk Alternative; Kroger: Simple Truth® Plant Based Non Dairy Original Oat Milk; Walmart: Planet Oat, Original Oatmilk, Dairy Free, 52 oz, Refrigerated Cardboard Carton |
+| 2705412 | Oat milk |  |  | Canada: Earth's Own Original Oat Beverage; Canada: Earth's Own Original Oat Milk Alternative; Kroger: Simple Truth® Plant Based Non Dairy Original Oat Milk; Walmart: Planet Oat, Original Oatmilk, Dairy Free, 52 oz, Refrigerated Cardboard Carton |
+| 2257046 | Oat milk, unsweetened, plain, refrigerated | 2705412 |  | Canada: Earth's Own Oat Zero Sugar Original; Canada: Earth's Own Zero Sugar Original Oat Milk Alternative |
 | 2346396 | Oats, whole grain, rolled, old fashioned | 173904 |  | Canada: Dan-D-Pak Rolled Oats; Canada: Quaker Large Oats; Kroger: Simple Truth Organic® 100% Whole Grain Rolled 1 Minute Oats |
 | 748278 | Oil, canola | 172336 |  | Canada: Selection Canola Oil Value Pack; Kroger: Kroger® 100% Pure Canola Oil; Walmart: Crisco Pure Canola Oil, Cooking Oil, 40 fl oz |
 | 748323 | Oil, corn | 171029 |  | Canada: Saporito Corn Oil; Walmart: Great Value Corn Oil, 1 Gallon Bottle |
 | 171413 | Oil, olive, salad or cooking |  |  | Canada: Selection Extra Virgin Olive Oil; Kroger: Kroger® Extra Virgin Olive Oil; Walmart: Great Value Extra Virgin Olive Oil, 17 fl oz; Walmart: Great Value Vegetable Oil, 1 Gallon Bottle |
 | 172370 | Oil, vegetable, soybean, refined |  |  | Canada: No Name 100% Pure Vegetable Oil; Canada: Selection Vegetable Oil Value Pack; Kroger: Kroger® 100% Pure Vegetable Oil |
 | 169094 | Olives, ripe, canned (small-extra large) |  |  | Canada: Selection Pitted Black Olives; Kroger: Kroger® Large Pitted Ripe Black Olives; Walmart: Great Value Large Pitted Black Olives, 6 oz |
+| 170000 | Onions, raw |  | 0.9 | Canada: Farmer's Market Yellow Onions; Canada: Yellow Onions |
 | 169100 | Orange juice, chilled, includes from concentrate |  |  | Canada: Oasis Orange Pure Breakfast Juice; Canada: Oasis Pure Breakfast Orange Juice; Kroger: Kroger® Premium Homestyle Orange Juice with Pulp; Walmart: Tropicana Pure Premium No Pulp Original Orange Juice 89 Oz |
+| 169917 | Oranges, raw, navels (Includes foods for USDA's Food Distribution Program) |  | 0.68 | Canada: Farmer's Market Oranges; Canada: Navel Oranges |
 | 172772 | Pancakes, plain, dry mix, complete (includes buttermilk) | 175006 |  | Canada: Selection Buttermilk Pancake and Waffle Mix; Walmart: Great Value Complete Buttermilk Pancake and Waffle Mix, 32 oz |
 | 169736 | Pasta, dry, enriched |  |  | Canada: Selection Fettuccine Pasta; Kroger: Kroger 12 Oz Tri Color Rotini Pasta; Walmart: Barilla Classic Non-GMO, Kosher Certified Tri-Color Rotini Pasta, 12 oz |
 | 174266 | Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program) |  |  | Canada: No Name Smooth Peanut Butter; Canada: Selection Smooth Peanut Butter; Kroger: Kroger® Creamy Peanut Butter |
 | 172470 | Peanut butter, smooth style, without salt |  |  | Canada: Kraft Natural Smooth Peanut Butter Only Peanuts; Walmart: Great Value No Stir Creamy Natural Peanut Butter Spread, 40 oz |
 | 173806 | Peanuts, all types, dry-roasted, without salt |  |  | Kroger: Kroger® Dry Roasted Unsalted Peanuts; Walmart: PLANTERS Unsalted Dry Roasted Peanuts, Snacks, Plant Based Protein, 16oz Plastic Jar |
 | 172428 | Peas, green, split, mature seeds, raw |  |  | Canada: Cedar Phoenicia Split Green Peas; Canada: Life Smart Dried Yellow Split Peas; Canada: PC Blue Menu Green Split Peas; Kroger: Goya® Green Split Peas; and 1 more |
-| 167843 | Pork, fresh, shoulder, whole, separable lean and fat, raw |  |  | Canada: Pork Shoulder Picnic Roast Value Pack; Kroger: Kroger® Fresh Natural Pork Shoulder Butt Bone In; Walmart: Farmer John, Pork Shoulder Butt Roast, 4.9-8.5lb (Fresh), 20 Grams of Protein per 4 oz Serving |
+| 167843 | Pork, fresh, shoulder, whole, separable lean and fat, raw |  | 0.75 | Canada: Pork Shoulder Picnic Roast Value Pack; Kroger: Kroger® Fresh Natural Pork Shoulder Butt Bone In; Walmart: Farmer John, Pork Shoulder Butt Roast, 4.9-8.5lb (Fresh), 20 Grams of Protein per 4 oz Serving |
 | 170444 | Potatoes, canned, drained solids | 170026 | 0.6 | Canada: Selection Whole White Potatoes; Kroger: Kroger Whole White Potatoes - 15oz can; Walmart: Great Value Whole New Potatoes, 15 oz |
+| 170026 | Potatoes, flesh and skin, raw |  |  | Canada: President's Choice Russet Potatoes; Canada: Russet Potatoes |
 | 168166 | Raisins, seeded | 168165 |  | Canada: Sun-Maid Natural California Raisins; Kroger: Kroger® Seedless Raisins; Walmart: Great Value Sun-Dried Raisins Carton, 12 oz (340g) |
 | 2512380 | Rice, brown, long grain, unenriched, raw | 169703 |  | Canada: Ben's Original Wholegrain Brown Rice; Kroger: Kroger® Long Grain Brown Rice; Walmart: Great Value Brown Rice, Whole Grain, 16 oz |
 | 2512381 | Rice, white, long grain, unenriched, raw | 169756 |  | Canada: Selection Long Grain White Rice; Kroger: Kroger® Enriched Long Grain White Rice |

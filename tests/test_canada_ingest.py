@@ -7,7 +7,7 @@ from diet.foods import Location, SkuSpec
 from diet.ingest import (
     _ingest_metro_reference,
     _ingest_pc_express_reference,
-    _retain_reference_prices,
+    retain_previous_prices,
 )
 from diet.sources.metro_reference import MetroReferenceClient
 from diet.sources.pc_express import PCExpressProduct, PCExpressProductSearch
@@ -126,7 +126,7 @@ def test_retains_only_still_curated_missing_reference_quotes():
         "location_id": "foodbasics-reference",
         "regular": 1.0,
     }]
-    rows = _retain_reference_prices(
+    rows = retain_previous_prices(
         [], previous, skus=[_sku()], locations=[location],
         retained_at="2026-08-08T12:00:00Z",
     )

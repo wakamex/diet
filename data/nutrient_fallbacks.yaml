@@ -4,8 +4,7 @@
 # Mostly newer Foundation records without choline or vitamin K.
 #
 # Still missing, with no SR Legacy food reporting them: chia seeds (170554)
-# and oat milk (2257046) for both, raw cashews (170162) and vital wheat
-# gluten (168147) for choline, and pancake mix (172772) for vitamin K. These
+# for both, raw cashews (170162) and vital wheat gluten (168147) for choline, and pancake mix (172772) for vitamin K. These
 # count as zero.
 
 172772: 175006    # pancake mix -> pancakes, dry mix, complete, prepared
@@ -31,3 +30,4 @@
 168892: 173896    # wheat germ, crude -> wheat germ, toasted, plain
 171986: 175158    # light tuna in water, unsalted -> white tuna in water (not in oil, whose oil adds vitamins E and K)
 170444: 170026    # potatoes, canned, drained solids -> potatoes, flesh and skin, raw
+2257046: 2705412   # oat milk, unsweetened (Foundation) -> oat milk (FNDDS)
