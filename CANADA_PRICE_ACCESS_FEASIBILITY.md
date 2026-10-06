@@ -98,6 +98,28 @@ are collapsed to their cheapest chain quote so duplicate retailer listings
 cannot multiply a label dosage cap. The view is explicitly a multi-stop
 mathematical basket, not a basket available from one store.
 
+## Implemented Shoppers Drug Mart surface
+
+[`diet/sources/shoppers.py`](diet/sources/shoppers.py) prices Shoppers Drug Mart products, mainly Life Brand supplements, by product code. Prices are Shoppers' Ontario online prices, with a regular price, the current price (lower during a sale) and stock.
+
+Shoppers has no public API, the PC Express agent endpoint covers only grocery banners, and both shoppersdrugmart.ca and its product API (`api.shoppersdrugmart.ca/beauty/v2/shoppersdrugmart/product/variantProduct/<code>/details`) sit behind [Akamai Bot Manager](https://www.akamai.com/products/bot-manager). Tests on 2026-10-05 established what it rejects:
+
+| Client | Result |
+|---|---|
+| curl or any plain HTTP client, with or without the site's API key or a browser user agent | 403, from this host and from another machine on the same network |
+| Headless Chromium | 403: the `HeadlessChrome` user agent and an 800x600 screen inside a larger window each trigger it |
+| Any Chromium launched with `--enable-automation`, as Playwright and Selenium do | 403: the flag sets `navigator.webdriver` |
+| Headless Chromium with a normal user agent, a screen matching its window, and no automation flag | Loads, and the page's own API calls succeed |
+| curl_cffi with Chrome's TLS fingerprint, plus that browser's cookies, client hints and API key | 200, for at least 30 minutes after the browser closed |
+
+The client uses the last two rows: one headless Chromium visit (about 15 seconds) earns a session, then each product is one direct API call. The response also carries the label's medicinal ingredients and Natural Product Number, which is where the Shoppers entries in `data/supplements.yaml` take their doses.
+
+This works by making automation indistinguishable from an ordinary browser to Shoppers' bot protection, so it can stop working whenever Shoppers changes that protection. It is meant for a short curated list refreshed at a modest pace. A refused session raises `ShoppersBlocked`, ingest marks the remaining products missing without further calls, and the last good prices are kept and marked stale. Walmart.ca needs none of this. Its product pages and search, including third-party marketplace listings, answer the existing plain-HTTP client in [`diet/sources/walmart_ca.py`](diet/sources/walmart_ca.py), which sends a Firefox user agent; requests sending a Chrome user agent without Chrome's client hints were sent to its press-and-hold challenge on 2026-10-05. Marketplace product IDs (such as `7KA07BSLFKP3`) price the same way as Walmart's own numeric IDs.
+
+```sh
+uv run playwright install chromium   # once, for the session browser
+```
+
 ## Decision
 
 We can build a useful API-equivalent price service for this project, but we

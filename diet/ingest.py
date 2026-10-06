@@ -32,6 +32,12 @@ from diet.sources.pc_express import (
     PCExpressQuote,
 )
 from diet.sources.walmart import WalmartClient
+from diet.sources.shoppers import (
+    SHOPPERS_SOURCE,
+    ShoppersBlocked,
+    ShoppersClient,
+    ShoppersError,
+)
 from diet.sources.walmart_ca import WalmartCanadaClient, WalmartCanadaError
 from diet.supplements import as_sku_specs, load_supplements
 from diet.util import read_json, write_json_atomic
@@ -41,6 +47,7 @@ DEFAULT_WALMART_RAW_ROOT = Path("data/raw/walmart")
 DEFAULT_METRO_RAW_ROOT = Path("data/raw/metro_reference")
 DEFAULT_PC_EXPRESS_RAW_ROOT = Path("data/raw/pc_express")
 DEFAULT_WALMART_CA_RAW_ROOT = Path("data/raw/walmart_ca")
+DEFAULT_SHOPPERS_RAW_ROOT = Path("data/raw/shoppers")
 DEFAULT_OUT_PATH = Path("data/prices_current.json")
 DEFAULT_NUTRIENTS_OUT_PATH = Path("data/nutrients_current.json")
 DEFAULT_FX_OUT_PATH = Path("data/fx_current.json")
@@ -351,6 +358,7 @@ def _ingest_metro_reference(
 
 
 _PC_EXPRESS_PRODUCT_ROOTS = {
+    "loblaw": "https://www.loblaws.ca/en/p/",
     "superstore": "https://www.realcanadiansuperstore.ca/en/p/",
     "nofrills": "https://www.nofrills.ca/en/p/",
 }
@@ -502,6 +510,57 @@ def _ingest_walmart_ca_reference(
     return rows, missing
 
 
+def _ingest_shoppers_reference(
+    skus: list[SkuSpec],
+    location: Location,
+    client: ShoppersClient,
+    today: str,
+    raw_root: Path,
+) -> tuple[list[dict], list[dict]]:
+    """Read exact Shoppers Drug Mart product codes from its product API."""
+    rows: list[dict] = []
+    missing: list[dict] = []
+    quotes: list[dict] = []
+    blocked: ShoppersBlocked | None = None
+    for sku in skus:
+        try:
+            if blocked:
+                raise blocked  # the session is refused; skip the remaining calls
+            quote = client.quote_product(sku.product_id)
+        except (ShoppersError, ValueError) as exc:
+            if isinstance(exc, ShoppersBlocked):
+                blocked = exc
+            missing.append({
+                "product_id": sku.product_id,
+                "name": sku.name,
+                "location_id": location.location_id,
+                "reason": f"reference request failed: {exc}",
+            })
+            continue
+        quotes.append(quote.as_dict())
+        rows.append({
+            "product_id": sku.product_id,
+            "location_id": location.location_id,
+            "regular": quote.regular_price_cad,
+            "promo": quote.promo_price_cad,
+            "currency": "CAD",
+            "price_scope": "reference",
+            "channel": quote.channel,
+            "price_basis": "package",
+            "package": sku.package_label,
+            "in_stock": quote.in_stock,
+            "source_url": quote.source_url,
+            "observed_at": quote.observed_at,
+            "fetched_at": today,
+            "stale": False,
+        })
+    write_json_atomic(
+        raw_root / today / f"{location.source}.json",
+        {"source": SHOPPERS_SOURCE, "price_scope": "reference", "quotes": quotes},
+    )
+    return rows, missing
+
+
 def _retain_reference_prices(
     rows: list[dict],
     previous_rows: list[dict],
@@ -564,6 +623,66 @@ def _refresh_fx(
     return payload, None
 
 
+CANADIAN_REFERENCE_SOURCES = frozenset(
+    {"metro", "foodbasics", "walmart_ca", "shoppers", *_PC_EXPRESS_PRODUCT_ROOTS}
+)
+
+
+def price_canadian_references(
+    skus: list[SkuSpec],
+    locations: list[Location],
+    *,
+    today: str,
+    metro_clients: dict[str, MetroReferenceClient] | None = None,
+    pc_express_clients: dict[str, PCExpressClient] | None = None,
+    walmart_ca_client: WalmartCanadaClient | None = None,
+    shoppers_client: ShoppersClient | None = None,
+    metro_raw_root: Path = DEFAULT_METRO_RAW_ROOT,
+    pc_express_raw_root: Path = DEFAULT_PC_EXPRESS_RAW_ROOT,
+    walmart_ca_raw_root: Path = DEFAULT_WALMART_CA_RAW_ROOT,
+    shoppers_raw_root: Path = DEFAULT_SHOPPERS_RAW_ROOT,
+) -> tuple[list[dict], list[dict]]:
+    """Price each location's SKUs (matched by `source`) at Canadian stores.
+
+    Metro and Food Basics are unlocalized catalogs, PC Express banners are
+    priced at the location's store ID, Walmart.ca reads product pages, and
+    Shoppers Drug Mart reads its product API through one browser session.
+    """
+    metro_clients = metro_clients or {}
+    pc_express_clients = pc_express_clients or {}
+    rows: list[dict] = []
+    missing: list[dict] = []
+    for loc in locations:
+        if loc.source not in CANADIAN_REFERENCE_SOURCES:
+            raise ValueError(f"{loc.region}: unsupported Canadian source {loc.source!r}")
+        retailer_skus = [sku for sku in skus if sku.source == loc.source]
+        if not retailer_skus:
+            continue
+        if loc.source in {"metro", "foodbasics"}:
+            client = metro_clients.get(loc.source) or MetroReferenceClient(loc.source)
+            r, m = _ingest_metro_reference(
+                retailer_skus, loc, client, today, metro_raw_root
+            )
+        elif loc.source == "walmart_ca":
+            r, m = _ingest_walmart_ca_reference(
+                retailer_skus, loc, walmart_ca_client or WalmartCanadaClient(),
+                today, walmart_ca_raw_root,
+            )
+        elif loc.source == "shoppers":
+            r, m = _ingest_shoppers_reference(
+                retailer_skus, loc, shoppers_client or ShoppersClient(),
+                today, shoppers_raw_root,
+            )
+        else:
+            client = pc_express_clients.get(loc.source) or PCExpressClient()
+            r, m = _ingest_pc_express_reference(
+                retailer_skus, loc, client, today, pc_express_raw_root
+            )
+        rows += r
+        missing += m
+    return rows, missing
+
+
 def ingest(
     *,
     skus: list[SkuSpec] | None = None,
@@ -595,15 +714,7 @@ def ingest(
     walmart_skus = [s for s in skus if s.source == "walmart"]
     kroger_locs = [l for l in locations if l.source == "kroger"]
     walmart_locs = [l for l in locations if l.source == "walmart"]
-    metro_reference_locs = [
-        l for l in locations if l.source in {"metro", "foodbasics"}
-    ]
-    pc_express_reference_locs = [
-        l for l in locations if l.source in {"superstore", "nofrills"}
-    ]
-    walmart_ca_reference_locs = [
-        l for l in locations if l.source == "walmart_ca"
-    ]
+    canadian_locs = [l for l in locations if l.source in CANADIAN_REFERENCE_SOURCES]
 
     rows: list[dict] = []
     missing: list[dict] = []
@@ -624,43 +735,19 @@ def ingest(
         )
         rows += r; missing += m; nutrient_rows += n; nutrient_warnings += w
 
-    metro_clients = metro_clients or {}
-    for loc in metro_reference_locs:
-        retailer_skus = [sku for sku in skus if sku.source == loc.source]
-        if not retailer_skus:
-            continue
-        client = metro_clients.get(loc.source) or MetroReferenceClient(loc.source)
-        r, m = _ingest_metro_reference(
-            retailer_skus, loc, client, today, metro_raw_root
-        )
-        rows += r
-        missing += m
-
-    pc_express_clients = pc_express_clients or {}
-    for loc in pc_express_reference_locs:
-        retailer_skus = [sku for sku in skus if sku.source == loc.source]
-        if not retailer_skus:
-            continue
-        client = pc_express_clients.get(loc.source) or PCExpressClient()
-        r, m = _ingest_pc_express_reference(
-            retailer_skus, loc, client, today, pc_express_raw_root
-        )
-        rows += r
-        missing += m
-
-    for loc in walmart_ca_reference_locs:
-        retailer_skus = [sku for sku in skus if sku.source == loc.source]
-        if not retailer_skus:
-            continue
-        r, m = _ingest_walmart_ca_reference(
-            retailer_skus,
-            loc,
-            walmart_ca_client or WalmartCanadaClient(),
-            today,
-            walmart_ca_raw_root,
-        )
-        rows += r
-        missing += m
+    r, m = price_canadian_references(
+        skus,
+        canadian_locs,
+        today=today,
+        metro_clients=metro_clients,
+        pc_express_clients=pc_express_clients,
+        walmart_ca_client=walmart_ca_client,
+        metro_raw_root=metro_raw_root,
+        pc_express_raw_root=pc_express_raw_root,
+        walmart_ca_raw_root=walmart_ca_raw_root,
+    )
+    rows += r
+    missing += m
 
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     previous_rows = []

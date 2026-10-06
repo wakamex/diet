@@ -331,3 +331,109 @@
     magnesium_mg: 50
     potassium_mg: 80
     zinc_mg:      7.5
+
+# Shoppers Drug Mart Life Brand. Prices come from the Shoppers product API
+# (diet/sources/shoppers.py, Ontario online prices). Label values are the
+# medicinal ingredients that API returns for each product code; tablet weights
+# are estimates, as for the other supplements.
+
+- product_id: "057800840138"
+  name: "Life Brand Vitamin D3 1000 IU"
+  package: "100 un"
+  count: 100
+  tablet_g: 0.2
+  dietary_categories: [supplement, vitamin_d]
+  max_tablets_per_day: 1
+  source: shoppers
+  _nutrient_source: "Shoppers product API medicinal ingredients, NPN 80003663"
+  nutrients_per_tablet:
+    vit_d_mcg: 25
+
+- product_id: "057800840244"
+  name: "Life Brand Vitamin B12 1000 mcg"
+  package: "100 un"
+  count: 100
+  tablet_g: 0.2
+  dietary_categories: [supplement, b12]
+  max_tablets_per_day: 1
+  source: shoppers
+  _nutrient_source: "Shoppers product API medicinal ingredients, NPN 80006939"
+  nutrients_per_tablet:
+    vit_b12_mcg: 1000
+
+- product_id: "057800270461"
+  name: "Life Brand Calcium Magnesium with Vitamin D3 200 IU"
+  package: "200 un"
+  count: 200
+  tablet_g: 1.3
+  dietary_categories: [supplement, calcium]
+  # Label: 1 to 3 tablets daily.
+  max_tablets_per_day: 3
+  source: shoppers
+  _nutrient_source: "Shoppers product API medicinal ingredients"
+  nutrients_per_tablet:
+    calcium_mg: 333
+    magnesium_mg: 166.66
+    vit_d_mcg: 5
+
+- product_id: "057800839965"
+  name: "Life Brand Maximum Calcium 650 mg with Vitamin D3 400 IU"
+  package: "120 un"
+  count: 120
+  tablet_g: 1.3
+  dietary_categories: [supplement, calcium]
+  max_tablets_per_day: 1
+  source: shoppers
+  _nutrient_source: "Shoppers product API medicinal ingredients, NPN 80026707"
+  nutrients_per_tablet:
+    calcium_mg: 650
+    vit_d_mcg: 10
+
+- product_id: "057800273073"
+  name: "Life Brand B50 Vitamin Complex"
+  package: "120 un"
+  count: 120
+  tablet_g: 0.8
+  dietary_categories: [supplement, b_complex]
+  max_tablets_per_day: 1
+  source: shoppers
+  _nutrient_source: "Shoppers product API medicinal ingredients"
+  nutrients_per_tablet:
+    vit_b12_mcg: 50
+    folate_mcg: 1000
+    folic_acid_mcg: 1000
+    choline_mg: 50
+
+# Walmart.ca marketplace choline supplements, priced from their product pages
+# like the Equate multivitamin. The listings give no Canadian NPN label, so the
+# dose comes from each listing's description and specifications, converted to
+# choline by molecular weight: choline is 41.1% of choline bitartrate and 40.5%
+# of L-alpha-glycerophosphorylcholine (alpha GPC).
+
+- product_id: "7KA07BSLFKP3"
+  name: "BRONX Choline Bitartrate 410 mg, 270 Vegan Capsules"
+  package: "270 un"
+  count: 270
+  tablet_g: 0.5
+  dietary_categories: [supplement, choline]
+  # 410 mg choline bitartrate per 2-capsule serving (135 servings of 270).
+  max_tablets_per_day: 2
+  source: walmart_ca
+  _price_source: "Walmart.ca product 7KA07BSLFKP3, sold by Celex Laboratories Inc."
+  _nutrient_source: "Walmart.ca listing: 410 mg choline bitartrate per serving, 135 servings of 270 capsules"
+  nutrients_per_tablet:
+    choline_mg: 84.3
+
+- product_id: "1VII03UUO5DL"
+  name: "Inno Nutrition Alpha GPC Choline 600 mg, 150 Vegan Capsules"
+  package: "150 un"
+  count: 150
+  tablet_g: 0.6
+  dietary_categories: [supplement, choline]
+  # 600 mg alpha GPC per 2-capsule serving; directions: 1 capsule twice daily.
+  max_tablets_per_day: 2
+  source: walmart_ca
+  _price_source: "Walmart.ca product 1VII03UUO5DL, sold by Inno Nutrition"
+  _nutrient_source: "Walmart.ca listing: 600 mg alpha GPC per 2-capsule serving"
+  nutrients_per_tablet:
+    choline_mg: 121.5

@@ -1,0 +1,24 @@
+{
+ "code": "SDM_057800840138",
+ "name": "Vitamin D3 1000  IU",
+ "brandName": "Life Brand",
+ "price": {
+  "currencyIso": "CAD",
+  "endDate": "2099-12-31T23:59:59Z",
+  "formattedValue": "$8.49",
+  "value": 8.49
+ },
+ "effectivePrice": {
+  "currencyIso": "CAD",
+  "endDate": "2099-12-31T23:59:59Z",
+  "formattedValue": "$8.49",
+  "value": 8.49
+ },
+ "isOnSale": false,
+ "isOutOfStock": false,
+ "size": "100.0",
+ "stock": {
+  "stockLevel": 11
+ },
+ "ingredients": "MEDICINAL INGREDIENT: \nEach tablet contains: \nVitamin D3 (Cholecalciferol) 25 mcg (1000 IU)\nNON-MEDICINAL INGREDIENTS (descending): Microcrystalline Cellulose, Dibasic Calcium Phosphate Dihydrate, Vegetable Grade Magnesium Stearate.\nNo preservatives, artificial flavour or colour."
+}
