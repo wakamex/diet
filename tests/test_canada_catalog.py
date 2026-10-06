@@ -98,6 +98,7 @@ def test_canadian_supplements_use_exact_retailer_skus_and_label_profiles():
         "vit_e_mg": 22.5,
         "vit_b12_mcg": 20,
         "folate_mcg": 400,
+        "folic_acid_mcg": 400,
         "calcium_mg": 200,
         "iron_mg": 10,
         "magnesium_mg": 50,

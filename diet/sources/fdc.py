@@ -39,6 +39,9 @@ FDC_NUTRIENT_MAP: dict[str, str] = {
     "Potassium, K":                                 "potassium_mg",
     "Sodium, Na":                                   "sodium_mg",
     "Zinc, Zn":                                     "zinc_mg",
+    "Folic acid":                                   "folic_acid_mcg",
+    "Choline, total":                               "choline_mg",
+    "Vitamin K (phylloquinone)":                    "vit_k_mcg",
 }
 
 # Older SR Legacy records often expose only the generic ``PUFA 18:3`` name,

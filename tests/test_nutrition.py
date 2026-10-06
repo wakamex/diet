@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 import pytest
 
@@ -7,7 +8,9 @@ from diet.nutrition import (
     extract_fdc_branded_nutrition,
     extract_kroger_nutrition,
     load_nutrition_overrides,
+    load_usda_fallbacks,
     merge_with_usda_fallback,
+    usda_reference,
 )
 
 
@@ -138,7 +141,7 @@ def test_food_builder_overlays_sku_snapshot_and_exposes_provenance(
     path = tmp_path / "nutrients.json"
     path.write_text(json.dumps(snapshot))
     monkeypatch.setattr(
-        "diet.foods.fdc_mod.fetch_food_cached",
+        "diet.nutrition.fetch_food_cached",
         lambda *args, **kwargs: {"foodNutrients": [
             {"nutrient": {"name": "Protein"}, "amount": 10},
             {"nutrient": {"name": "PUFA 18:3"}, "amount": 1},
@@ -184,3 +187,56 @@ def test_manual_override_normalizes_serving_and_preserves_source(tmp_path):
     details = row["source_details"]["manufacturer:test"]
     assert details["url"] == "https://example.test/label"
     assert details["derived_from_daily_value"] == ["zinc_mg"]
+
+
+def test_usda_reference_fills_only_missing_nutrients_from_the_fallback(monkeypatch):
+    records = {
+        1: {"foodNutrients": [{"nutrient": {"name": "Protein"}, "amount": 10}]},
+        2: {"foodNutrients": [
+            {"nutrient": {"name": "Protein"}, "amount": 99},
+            {"nutrient": {"name": "Choline, total"}, "amount": 50},
+            {"nutrient": {"name": "Vitamin K (phylloquinone)"}, "amount": 20},
+        ]},
+    }
+    monkeypatch.setattr("diet.nutrition.fetch_food_cached", lambda fdc_id, cache: records[fdc_id])
+
+    values, sources = usda_reference(1, Path("unused"), {1: 2})
+
+    assert values == pytest.approx({"protein_g": 0.10, "choline_mg": 0.50, "vit_k_mcg": 0.20})
+    assert sources == {
+        "protein_g": "usda_reference:1",
+        "choline_mg": "usda_reference:2",
+        "vit_k_mcg": "usda_reference:2",
+    }
+    assert usda_reference(1, Path("unused"), {})[0] == pytest.approx({"protein_g": 0.10})
+
+
+def test_fallback_file_maps_to_records_that_report_the_missing_nutrients():
+    fallbacks = load_usda_fallbacks()
+    cache = Path("data/raw/fdc")
+    if not all((cache / f"{alt}.json").exists() for alt in fallbacks.values()):
+        pytest.skip("USDA cache not populated")
+    from diet.sources.fdc import fetch_food_cached, nutrients_per_g
+    for primary, alternate in fallbacks.items():
+        values = nutrients_per_g(fetch_food_cached(alternate, cache))
+        assert "choline_mg" in values or "vit_k_mcg" in values, (primary, alternate)
+
+
+def test_override_with_several_sources_applies_to_each_retailer(tmp_path):
+    path = tmp_path / "overrides.yaml"
+    path.write_text(
+        "- sources: [metro, foodbasics]\n"
+        "  product_id: \"626027841022\"\n"
+        "  serving_size_g: 250\n"
+        "  serving_basis: label\n"
+        "  source_id: label:oat\n"
+        "  source_url: https://example.invalid/oat\n"
+        "  source_title: Oat\n"
+        "  accessed: \"2026-10-05\"\n"
+        "  nutrients_per_serving: {vit_b12_mcg: 1, vit_d_mcg: 2}\n"
+    )
+
+    overrides = load_nutrition_overrides(path)
+
+    assert set(overrides) == {("metro", "626027841022"), ("foodbasics", "626027841022")}
+    assert overrides[("metro", "626027841022")]["nutrients_per_g"]["vit_b12_mcg"] == pytest.approx(0.004)

@@ -1,5 +1,5 @@
 {
-  "_comment": "Dietary Reference Intakes for adult male 31-50, moderate activity. Sourced from NIH ODS (https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx) and IOM Food and Nutrition Board tables.",
+  "_comment": "Dietary Reference Intakes for adult male 31-50, moderate activity. Sourced from NIH ODS (https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx) and IOM Food and Nutrition Board tables. `rda` holds the RDA, or the Adequate Intake where no RDA exists (fiber, ALA, potassium, choline, vitamin K). The folate upper limit applies only to folic acid from fortified foods and supplements, so it is a separate folic_acid_mcg row; folate naturally in food has no upper limit. Iodine is not tracked: USDA reports it for few foods, and most dietary iodine comes from iodized salt, which recipes and baskets do not count.",
   "profile": "adult_male_31_50_moderate",
   "nutrients": [
     {"nutrient": "energy_kcal",  "rda": 2500,  "ul": null,   "unit": "kcal", "label": "Energy"},
@@ -11,12 +11,15 @@
     {"nutrient": "vit_d_mcg",    "rda": 15,    "ul": 100,    "unit": "mcg",  "label": "Vitamin D"},
     {"nutrient": "vit_e_mg",     "rda": 15,    "ul": 1000,   "unit": "mg",   "label": "Vitamin E"},
     {"nutrient": "vit_b12_mcg",  "rda": 2.4,   "ul": null,   "unit": "mcg",  "label": "Vitamin B12"},
-    {"nutrient": "folate_mcg",   "rda": 400,   "ul": 1000,   "unit": "mcg",  "label": "Folate (DFE)"},
+    {"nutrient": "folate_mcg",   "rda": 400,   "ul": null,   "unit": "mcg",  "label": "Folate (DFE)"},
+    {"nutrient": "folic_acid_mcg", "rda": null, "ul": 1000,  "unit": "mcg",  "label": "Folic acid (added)"},
     {"nutrient": "calcium_mg",   "rda": 1000,  "ul": 2500,   "unit": "mg",   "label": "Calcium"},
     {"nutrient": "iron_mg",      "rda": 8,     "ul": 45,     "unit": "mg",   "label": "Iron"},
     {"nutrient": "magnesium_mg", "rda": 420,   "ul": null,   "unit": "mg",   "label": "Magnesium"},
     {"nutrient": "potassium_mg", "rda": 3400,  "ul": null,   "unit": "mg",   "label": "Potassium"},
     {"nutrient": "sodium_mg",    "rda": null,  "ul": 2300,   "unit": "mg",   "label": "Sodium"},
-    {"nutrient": "zinc_mg",      "rda": 11,    "ul": 40,     "unit": "mg",   "label": "Zinc"}
+    {"nutrient": "zinc_mg",      "rda": 11,    "ul": 40,     "unit": "mg",   "label": "Zinc"},
+    {"nutrient": "choline_mg",   "rda": 550,   "ul": 3500,   "unit": "mg",   "label": "Choline"},
+    {"nutrient": "vit_k_mcg",    "rda": 120,   "ul": null,   "unit": "mcg",  "label": "Vitamin K"}
   ]
 }

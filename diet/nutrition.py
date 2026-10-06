@@ -13,11 +13,13 @@ from typing import Any
 
 import yaml
 
+from diet.sources.fdc import fetch_food_cached
 from diet.sources.fdc import nutrients_per_g as fdc_nutrients_per_g
 from diet.util import read_json
 
 DEFAULT_NUTRIENTS_PATH = Path("data/nutrients_current.json")
 DEFAULT_OVERRIDES_PATH = Path("data/nutrition_overrides.yaml")
+DEFAULT_FALLBACKS_PATH = Path("data/nutrient_fallbacks.yaml")
 
 # Prefer Kroger's stable nutrient codes, with display-name fallbacks for older
 # or sparsely coded catalog records.
@@ -62,6 +64,9 @@ _KROGER_NAME_MAP = {
     "potassium": "potassium_mg",
     "sodium": "sodium_mg",
     "zinc": "zinc_mg",
+    "folic acid": "folic_acid_mcg",
+    "choline": "choline_mg",
+    "vitamin k": "vit_k_mcg",
 }
 
 _GRAM_UNITS = {"GRM", "G", "GRAM", "GRAMS"}
@@ -86,6 +91,9 @@ _CANONICAL_UNIT = {
     "potassium_mg": "mg",
     "sodium_mg": "mg",
     "zinc_mg": "mg",
+    "folic_acid_mcg": "mcg",
+    "choline_mg": "mg",
+    "vit_k_mcg": "mcg",
 }
 
 
@@ -301,7 +309,11 @@ def extract_fdc_branded_nutrition(
 def load_nutrition_overrides(
     path: Path | str = DEFAULT_OVERRIDES_PATH,
 ) -> dict[tuple[str, str], dict[str, Any]]:
-    """Load auditable manually sourced Nutrition Facts overrides."""
+    """Load auditable manually sourced Nutrition Facts overrides.
+
+    An entry names one retailer `source`, or a `sources` list when the same
+    product code is sold by several retailers.
+    """
     path = Path(path)
     if not path.exists():
         return {}
@@ -314,30 +326,35 @@ def load_nutrition_overrides(
         per_serving = entry.get("nutrients_per_serving") or {}
         values = {key: float(value) / serving_g for key, value in per_serving.items()}
         source_id = str(entry["source_id"])
-        row = {
-            "product_id": str(entry["product_id"]),
-            "source": str(entry["source"]),
-            "upc": str(entry.get("upc") or ""),
-            "serving_size_g": serving_g,
-            "serving_basis": str(entry["serving_basis"]),
-            "ingredients": entry.get("ingredients"),
-            "nutrients_per_g": values,
-            "nutrient_sources": {key: source_id for key in values},
-            "source_details": {
-                source_id: {
-                    "kind": "manufacturer_nutrition_facts",
-                    "url": str(entry["source_url"]),
-                    "title": str(entry["source_title"]),
-                    "accessed": str(entry["accessed"]),
-                    "derived_from_daily_value": list(
-                        entry.get("derived_from_daily_value") or []
-                    ),
-                    "notes": list(entry.get("notes") or []),
-                }
-            },
-        }
-        out[(row["source"], row["product_id"])] = row
+        for source in entry.get("sources") or [entry["source"]]:
+            row = _override_row(entry, str(source), values, serving_g, source_id)
+            out[(row["source"], row["product_id"])] = row
     return out
+
+
+def _override_row(
+    entry: dict[str, Any], source: str, values: dict[str, float], serving_g: float, source_id: str
+) -> dict[str, Any]:
+    return {
+        "product_id": str(entry["product_id"]),
+        "source": source,
+        "upc": str(entry.get("upc") or ""),
+        "serving_size_g": serving_g,
+        "serving_basis": str(entry["serving_basis"]),
+        "ingredients": entry.get("ingredients"),
+        "nutrients_per_g": values,
+        "nutrient_sources": {key: source_id for key in values},
+        "source_details": {
+            source_id: {
+                "kind": "manufacturer_nutrition_facts",
+                "url": str(entry["source_url"]),
+                "title": str(entry["source_title"]),
+                "accessed": str(entry["accessed"]),
+                "derived_from_daily_value": list(entry.get("derived_from_daily_value") or []),
+                "notes": list(entry.get("notes") or []),
+            }
+        },
+    }
 
 
 def load_sku_nutrients(
@@ -359,15 +376,45 @@ def load_sku_nutrients(
     return out
 
 
+def load_usda_fallbacks(path: Path | str = DEFAULT_FALLBACKS_PATH) -> dict[int, int]:
+    path = Path(path)
+    if not path.exists():
+        return {}
+    raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return {int(k): int(v) for k, v in raw.items()}
+
+
+def usda_reference(
+    fdc_id: int, cache_root: Path, fallbacks: dict[int, int]
+) -> tuple[dict[str, float], dict[str, str]]:
+    """Per-gram USDA nutrients for one food, with gaps filled from its fallback.
+
+    Only nutrients the primary record lacks come from the fallback record, and
+    the returned provenance names the record behind each value.
+    """
+    values = fdc_nutrients_per_g(fetch_food_cached(fdc_id, cache_root))
+    sources = {key: f"usda_reference:{fdc_id}" for key in values}
+    alternate = fallbacks.get(fdc_id)
+    if alternate:
+        for key, value in fdc_nutrients_per_g(fetch_food_cached(alternate, cache_root)).items():
+            if key not in values:
+                values[key] = value
+                sources[key] = f"usda_reference:{alternate}"
+    return values, sources
+
+
 def merge_with_usda_fallback(
     fallback: dict[str, float],
     *,
     fdc_id: int,
     sku_row: dict[str, Any] | None,
+    fallback_sources: dict[str, str] | None = None,
 ) -> tuple[dict[str, float], dict[str, str]]:
     """Overlay exact-SKU values and return effective values plus provenance."""
     values = dict(fallback)
-    sources = {key: f"usda_reference:{fdc_id}" for key in fallback}
+    sources = dict(fallback_sources) if fallback_sources is not None else {
+        key: f"usda_reference:{fdc_id}" for key in fallback
+    }
     if sku_row:
         exact = sku_row.get("nutrients_per_g") or {}
         exact_sources = sku_row.get("nutrient_sources") or {}

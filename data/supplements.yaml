@@ -7,6 +7,9 @@
 # consistent with the rest of the pipeline. The LP picks grams/day of each
 # supplement and the website rounds display to tablets/day via tablet_g.
 #
+# Supplement folate is folic acid, so each `folate_mcg` dose is repeated as
+# `folic_acid_mcg`, the amount the folate upper limit applies to.
+#
 # The `supplement` dietary_category is NOT in any mode's MODE_EXCLUDES, so
 # supplements are available across omnivore, pescatarian, vegetarian, ovo_lacto,
 # and vegan — subject to the top-level `--with-supplements` toggle.
@@ -25,6 +28,7 @@
     vit_e_mg:     13.5
     vit_b12_mcg:  6
     folate_mcg:   400
+    folic_acid_mcg: 400
     calcium_mg:   210
     iron_mg:      18
     magnesium_mg: 100
@@ -81,6 +85,7 @@
     vit_e_mg:     13.5
     vit_b12_mcg:  6
     folate_mcg:   400
+    folic_acid_mcg: 400
     calcium_mg:   210
     iron_mg:      18
     magnesium_mg: 100
@@ -172,6 +177,7 @@
     vit_e_mg:     26.8
     vit_b12_mcg:  24
     folate_mcg:   400
+    folic_acid_mcg: 400
     calcium_mg:   200
     iron_mg:      6
     magnesium_mg: 84
@@ -197,6 +203,7 @@
     vit_e_mg:     20
     vit_b12_mcg:  30
     folate_mcg:   500
+    folic_acid_mcg: 500
     calcium_mg:   100
     iron_mg:      7.5
     magnesium_mg: 50
@@ -258,6 +265,7 @@
     vit_e_mg:     26.8
     vit_b12_mcg:  24
     folate_mcg:   400
+    folic_acid_mcg: 400
     calcium_mg:   200
     iron_mg:      6
     magnesium_mg: 84
@@ -317,6 +325,7 @@
     vit_e_mg:     22.5
     vit_b12_mcg:  20
     folate_mcg:   400
+    folic_acid_mcg: 400
     calcium_mg:   200
     iron_mg:      10
     magnesium_mg: 50

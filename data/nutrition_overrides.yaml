@@ -40,3 +40,100 @@
     potassium_mg: 250
     sodium_mg: 190
     zinc_mg: 2.2
+
+# Canadian fortified plant beverages. Values are per 250 mL from each
+# manufacturer's Nutrition Facts table, at the product map's 1.0 g/mL basis.
+
+- sources: [metro, foodbasics]
+  product_id: "025293600713"
+  upc: "025293600713"
+  name: "Silk Organic Fortified Soy Beverage, Original, 1.89 L"
+  serving_size_g: 250
+  serving_basis: "manufacturer label: 1 cup (250 mL) at 1.0 g/mL"
+  source_id: "manufacturer_label:silk_organic_original_soy"
+  source_url: "https://www.silkcanada.ca/products/plant-based-beverage/original-soy-beverage/"
+  source_title: "Silk Canada - Original Soy Beverage, Nutrition Facts"
+  accessed: "2026-10-05"
+  notes:
+    - "Values read from the page's Nutrition Facts image (wp-content/uploads/2020/03/Soy_Org_Ref-1.png), which the page shows for the refrigerated 1.89 L organic soy beverage."
+  nutrients_per_serving:
+    energy_kcal: 100
+    protein_g: 7
+    fiber_g: 2
+    vit_a_mcg: 100
+    vit_d_mcg: 2
+    vit_b12_mcg: 1
+    calcium_mg: 300
+    iron_mg: 1
+    potassium_mg: 300
+    sodium_mg: 115
+    zinc_mg: 1
+
+- sources: [metro, foodbasics]
+  product_id: "626027811025"
+  upc: "626027811025"
+  name: "Earth's Own Oat Original, 1.75 L"
+  serving_size_g: 250
+  serving_basis: "manufacturer label: 1 cup (250 mL) at 1.0 g/mL"
+  source_id: "manufacturer_label:earths_own_oat_original"
+  source_url: "https://earthsown.com/products/oat-original-chilled-carton/"
+  source_title: "Earth's Own - Oat Original, Nutrition"
+  accessed: "2026-10-05"
+  nutrients_per_serving: &earths_own_oat_original
+    energy_kcal: 120
+    protein_g: 3
+    fiber_g: 2
+    vit_a_mcg: 100
+    vit_d_mcg: 2
+    vit_b12_mcg: 1
+    calcium_mg: 300
+    iron_mg: 0.75
+    magnesium_mg: 20
+    potassium_mg: 100
+    sodium_mg: 120
+    zinc_mg: 1
+
+- sources: [superstore, nofrills]
+  product_id: "21037796_EA"
+  name: "Earth's Own Original Oat Milk Alternative, 1.75 L"
+  serving_size_g: 250
+  serving_basis: "manufacturer label: 1 cup (250 mL) at 1.0 g/mL"
+  source_id: "manufacturer_label:earths_own_oat_original"
+  source_url: "https://earthsown.com/products/oat-original-chilled-carton/"
+  source_title: "Earth's Own - Oat Original, Nutrition"
+  accessed: "2026-10-05"
+  nutrients_per_serving: *earths_own_oat_original
+
+- sources: [metro, foodbasics]
+  product_id: "626027841022"
+  upc: "626027841022"
+  name: "Earth's Own Oat Zero Sugar Original, 1.75 L"
+  serving_size_g: 250
+  serving_basis: "manufacturer label: 1 cup (250 mL) at 1.0 g/mL"
+  source_id: "manufacturer_label:earths_own_oat_zero_sugar_original"
+  source_url: "https://earthsown.com/products/oat-zero-sugar-original-carton/"
+  source_title: "Earth's Own - Oat Zero Sugar Original, Nutrition"
+  accessed: "2026-10-05"
+  nutrients_per_serving: &earths_own_oat_zero_sugar
+    energy_kcal: 40
+    protein_g: 1
+    fiber_g: 1
+    vit_a_mcg: 100
+    vit_d_mcg: 2
+    vit_b12_mcg: 1
+    calcium_mg: 300
+    iron_mg: 0.5
+    potassium_mg: 200
+    sodium_mg: 90
+    zinc_mg: 1
+
+- sources: [superstore, nofrills]
+  product_id: "21517729_EA"
+  name: "Earth's Own Zero Sugar Gluten-Free Original Oat Milk Alternative, 1.75 L"
+  serving_size_g: 250
+  serving_basis: "manufacturer label: 1 cup (250 mL) at 1.0 g/mL"
+  source_id: "manufacturer_label:earths_own_oat_zero_sugar_original"
+  source_url: "https://earthsown.com/products/oat-zero-sugar-original-carton/"
+  source_title: "Earth's Own - Oat Zero Sugar Original, Nutrition"
+  accessed: "2026-10-05"
+  nutrients_per_serving: *earths_own_oat_zero_sugar

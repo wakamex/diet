@@ -13,11 +13,13 @@ import yaml
 
 from diet.solver import Food
 from diet.nutrition import (
+    DEFAULT_FALLBACKS_PATH,
     DEFAULT_NUTRIENTS_PATH,
     load_sku_nutrients,
+    load_usda_fallbacks,
     merge_with_usda_fallback,
+    usda_reference,
 )
-from diet.sources import fdc as fdc_mod
 from diet.util import read_json
 
 DEFAULT_SKUS_PATH = Path("data/skus.yaml")
@@ -186,6 +188,7 @@ def build_foods_for_location(
     *,
     fdc_cache: Path = DEFAULT_FDC_CACHE,
     nutrients_path: Path | str = DEFAULT_NUTRIENTS_PATH,
+    fallbacks_path: Path | str = DEFAULT_FALLBACKS_PATH,
     use_promo: bool = True,
     locations: list[Location] | None = None,
 ) -> list[Food]:
@@ -196,6 +199,7 @@ def build_foods_for_location(
     """
     foods: list[Food] = []
     sku_nutrients = load_sku_nutrients(nutrients_path)
+    usda_fallbacks = load_usda_fallbacks(fallbacks_path)
     price_locations = price_locations_for(location, locations)
     for sku in skus:
         price_location = price_locations.get(sku.source)
@@ -212,11 +216,10 @@ def build_foods_for_location(
         # Convert package $ → $/g. Nutrients come from FDC per-100g, normalized to per-g.
         price_per_g = float(chosen) / sku.unit_grams
 
-        fdc_payload = fdc_mod.fetch_food_cached(sku.fdc_id, fdc_cache)
-        fallback = fdc_mod.nutrients_per_g(fdc_payload)
+        fallback, fallback_sources = usda_reference(sku.fdc_id, fdc_cache, usda_fallbacks)
         sku_row = sku_nutrients.get((sku.source, sku.product_id))
         nutrients, nutrient_sources = merge_with_usda_fallback(
-            fallback, fdc_id=sku.fdc_id, sku_row=sku_row
+            fallback, fdc_id=sku.fdc_id, sku_row=sku_row, fallback_sources=fallback_sources
         )
 
         foods.append(Food(
