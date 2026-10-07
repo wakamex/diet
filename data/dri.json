@@ -1,6 +1,6 @@
 {
-  "_comment": "Dietary Reference Intakes for adult male 31-50, moderate activity. Sourced from NIH ODS (https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx) and IOM Food and Nutrition Board tables. `rda` holds the RDA, or the Adequate Intake where no RDA exists (fiber, ALA, potassium, choline, vitamin K). The folate upper limit applies only to folic acid from fortified foods and supplements, so it is a separate folic_acid_mcg row; folate naturally in food has no upper limit. Likewise the vitamin A upper limit applies only to preformed vitamin A (retinol and retinyl esters), so it is a separate retinol_mcg row; beta-carotene counts toward the vitamin A target but not the limit. Iodine is not tracked: USDA reports it for few foods, and most dietary iodine comes from iodized salt, which recipes and baskets do not count.",
-  "profile": "adult_male_31_50_moderate",
+  "_comment": "Dietary Reference Intakes. `nutrients` lists each tracked nutrient with the values for the default profile, an adult male 31-50 at moderate activity; `profiles` gives the full set of values for each adult age and sex group, with the same nutrients bounded in every profile. Energy is the midpoint of the moderately active range in the Dietary Guidelines for Americans 2020-2025, Appendix 2, and fiber is that document's Appendix 1 goal. Pregnancy and lactation are not covered. Sourced from NIH ODS (https://ods.od.nih.gov/HealthInformation/Dietary_Reference_Intakes.aspx) and IOM Food and Nutrition Board tables. `rda` holds the RDA, or the Adequate Intake where no RDA exists (fiber, ALA, potassium, choline, vitamin K). The folate upper limit applies only to folic acid from fortified foods and supplements, so it is a separate folic_acid_mcg row; folate naturally in food has no upper limit. Likewise the vitamin A upper limit applies only to preformed vitamin A (retinol and retinyl esters), so it is a separate retinol_mcg row; beta-carotene counts toward the vitamin A target but not the limit. Iodine is not tracked: USDA reports it for few foods, and most dietary iodine comes from iodized salt, which recipes and baskets do not count.",
+  "profile": "male_31_50",
   "nutrients": [
     {"nutrient": "energy_kcal",  "rda": 2500,  "ul": null,   "unit": "kcal", "label": "Energy"},
     {"nutrient": "protein_g",    "rda": 56,    "ul": null,   "unit": "g",    "label": "Protein"},
@@ -22,5 +22,47 @@
     {"nutrient": "zinc_mg",      "rda": 11,    "ul": 40,     "unit": "mg",   "label": "Zinc"},
     {"nutrient": "choline_mg",   "rda": 550,   "ul": 3500,   "unit": "mg",   "label": "Choline"},
     {"nutrient": "vit_k_mcg",    "rda": 120,   "ul": null,   "unit": "mcg",  "label": "Vitamin K"}
-  ]
+  ],
+  "profiles": {
+    "male_19_30": {
+      "label": "Man, 19 to 30",
+      "rda": {"energy_kcal": 2700, "protein_g": 56, "fiber_g": 34, "ala_g": 1.6, "vit_a_mcg": 900, "vit_c_mg": 90, "vit_d_mcg": 15, "vit_e_mg": 15, "vit_b12_mcg": 2.4, "folate_mcg": 400, "calcium_mg": 1000, "iron_mg": 8, "magnesium_mg": 400, "potassium_mg": 3400, "zinc_mg": 11, "choline_mg": 550, "vit_k_mcg": 120},
+      "ul": {"retinol_mcg": 3000, "vit_c_mg": 2000, "vit_d_mcg": 100, "vit_e_mg": 1000, "folic_acid_mcg": 1000, "calcium_mg": 2500, "iron_mg": 45, "sodium_mg": 2300, "zinc_mg": 40, "choline_mg": 3500}
+    },
+    "male_31_50": {
+      "label": "Man, 31 to 50",
+      "rda": {"energy_kcal": 2500, "protein_g": 56, "fiber_g": 31, "ala_g": 1.6, "vit_a_mcg": 900, "vit_c_mg": 90, "vit_d_mcg": 15, "vit_e_mg": 15, "vit_b12_mcg": 2.4, "folate_mcg": 400, "calcium_mg": 1000, "iron_mg": 8, "magnesium_mg": 420, "potassium_mg": 3400, "zinc_mg": 11, "choline_mg": 550, "vit_k_mcg": 120},
+      "ul": {"retinol_mcg": 3000, "vit_c_mg": 2000, "vit_d_mcg": 100, "vit_e_mg": 1000, "folic_acid_mcg": 1000, "calcium_mg": 2500, "iron_mg": 45, "sodium_mg": 2300, "zinc_mg": 40, "choline_mg": 3500}
+    },
+    "male_51_70": {
+      "label": "Man, 51 to 70",
+      "rda": {"energy_kcal": 2300, "protein_g": 56, "fiber_g": 28, "ala_g": 1.6, "vit_a_mcg": 900, "vit_c_mg": 90, "vit_d_mcg": 15, "vit_e_mg": 15, "vit_b12_mcg": 2.4, "folate_mcg": 400, "calcium_mg": 1000, "iron_mg": 8, "magnesium_mg": 420, "potassium_mg": 3400, "zinc_mg": 11, "choline_mg": 550, "vit_k_mcg": 120},
+      "ul": {"retinol_mcg": 3000, "vit_c_mg": 2000, "vit_d_mcg": 100, "vit_e_mg": 1000, "folic_acid_mcg": 1000, "calcium_mg": 2000, "iron_mg": 45, "sodium_mg": 2300, "zinc_mg": 40, "choline_mg": 3500}
+    },
+    "male_71": {
+      "label": "Man, 71 and older",
+      "rda": {"energy_kcal": 2300, "protein_g": 56, "fiber_g": 28, "ala_g": 1.6, "vit_a_mcg": 900, "vit_c_mg": 90, "vit_d_mcg": 20, "vit_e_mg": 15, "vit_b12_mcg": 2.4, "folate_mcg": 400, "calcium_mg": 1200, "iron_mg": 8, "magnesium_mg": 420, "potassium_mg": 3400, "zinc_mg": 11, "choline_mg": 550, "vit_k_mcg": 120},
+      "ul": {"retinol_mcg": 3000, "vit_c_mg": 2000, "vit_d_mcg": 100, "vit_e_mg": 1000, "folic_acid_mcg": 1000, "calcium_mg": 2000, "iron_mg": 45, "sodium_mg": 2300, "zinc_mg": 40, "choline_mg": 3500}
+    },
+    "female_19_30": {
+      "label": "Woman, 19 to 30",
+      "rda": {"energy_kcal": 2100, "protein_g": 46, "fiber_g": 28, "ala_g": 1.1, "vit_a_mcg": 700, "vit_c_mg": 75, "vit_d_mcg": 15, "vit_e_mg": 15, "vit_b12_mcg": 2.4, "folate_mcg": 400, "calcium_mg": 1000, "iron_mg": 18, "magnesium_mg": 310, "potassium_mg": 2600, "zinc_mg": 8, "choline_mg": 425, "vit_k_mcg": 90},
+      "ul": {"retinol_mcg": 3000, "vit_c_mg": 2000, "vit_d_mcg": 100, "vit_e_mg": 1000, "folic_acid_mcg": 1000, "calcium_mg": 2500, "iron_mg": 45, "sodium_mg": 2300, "zinc_mg": 40, "choline_mg": 3500}
+    },
+    "female_31_50": {
+      "label": "Woman, 31 to 50",
+      "rda": {"energy_kcal": 2000, "protein_g": 46, "fiber_g": 25, "ala_g": 1.1, "vit_a_mcg": 700, "vit_c_mg": 75, "vit_d_mcg": 15, "vit_e_mg": 15, "vit_b12_mcg": 2.4, "folate_mcg": 400, "calcium_mg": 1000, "iron_mg": 18, "magnesium_mg": 320, "potassium_mg": 2600, "zinc_mg": 8, "choline_mg": 425, "vit_k_mcg": 90},
+      "ul": {"retinol_mcg": 3000, "vit_c_mg": 2000, "vit_d_mcg": 100, "vit_e_mg": 1000, "folic_acid_mcg": 1000, "calcium_mg": 2500, "iron_mg": 45, "sodium_mg": 2300, "zinc_mg": 40, "choline_mg": 3500}
+    },
+    "female_51_70": {
+      "label": "Woman, 51 to 70",
+      "rda": {"energy_kcal": 1800, "protein_g": 46, "fiber_g": 22, "ala_g": 1.1, "vit_a_mcg": 700, "vit_c_mg": 75, "vit_d_mcg": 15, "vit_e_mg": 15, "vit_b12_mcg": 2.4, "folate_mcg": 400, "calcium_mg": 1200, "iron_mg": 8, "magnesium_mg": 320, "potassium_mg": 2600, "zinc_mg": 8, "choline_mg": 425, "vit_k_mcg": 90},
+      "ul": {"retinol_mcg": 3000, "vit_c_mg": 2000, "vit_d_mcg": 100, "vit_e_mg": 1000, "folic_acid_mcg": 1000, "calcium_mg": 2000, "iron_mg": 45, "sodium_mg": 2300, "zinc_mg": 40, "choline_mg": 3500}
+    },
+    "female_71": {
+      "label": "Woman, 71 and older",
+      "rda": {"energy_kcal": 1800, "protein_g": 46, "fiber_g": 22, "ala_g": 1.1, "vit_a_mcg": 700, "vit_c_mg": 75, "vit_d_mcg": 20, "vit_e_mg": 15, "vit_b12_mcg": 2.4, "folate_mcg": 400, "calcium_mg": 1200, "iron_mg": 8, "magnesium_mg": 320, "potassium_mg": 2600, "zinc_mg": 8, "choline_mg": 425, "vit_k_mcg": 90},
+      "ul": {"retinol_mcg": 3000, "vit_c_mg": 2000, "vit_d_mcg": 100, "vit_e_mg": 1000, "folic_acid_mcg": 1000, "calcium_mg": 2000, "iron_mg": 45, "sodium_mg": 2300, "zinc_mg": 40, "choline_mg": 3500}
+    }
+  }
 }
