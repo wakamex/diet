@@ -5,7 +5,7 @@ from pathlib import Path
 import pytest
 
 from diet.foods import Location, SkuSpec
-from diet.ingest import _ingest_walmart_ca_reference
+from diet.ingest import _ingest_product_page_reference
 from diet.sources.walmart_ca import (
     WalmartCanadaClient,
     WalmartCanadaError,
@@ -90,7 +90,7 @@ def test_ingest_emits_reference_price_metadata(tmp_path):
         "CAD",
         "reference",
     )
-    rows, missing = _ingest_walmart_ca_reference(
+    rows, missing = _ingest_product_page_reference(
         [sku],
         location,
         WalmartCanadaClient(transport=FixtureTransport()),

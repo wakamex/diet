@@ -47,7 +47,8 @@ from diet.sources.shoppers import (
     ShoppersClient,
     ShoppersError,
 )
-from diet.sources.walmart_ca import WalmartCanadaClient, WalmartCanadaError
+from diet.sources.product_page import ProductPageClient, ProductPageError
+from diet.sources.walmart_ca import WalmartCanadaClient
 from diet.supplements import as_sku_specs, load_supplements
 from diet.util import read_json, write_json_atomic
 
@@ -469,21 +470,21 @@ def _ingest_pc_express_reference(
     return rows, missing
 
 
-def _ingest_walmart_ca_reference(
+def _ingest_product_page_reference(
     skus: list[SkuSpec],
     location: Location,
-    client: WalmartCanadaClient,
+    client: ProductPageClient,
     today: str,
     raw_root: Path,
 ) -> tuple[list[dict], list[dict]]:
-    """Read exact Walmart.ca SKUs from their unlocalized product pages."""
+    """Read exact SKUs from their retailer's unlocalized product pages."""
     rows: list[dict] = []
     missing: list[dict] = []
     quotes: list[dict] = []
     for sku in skus:
         try:
             quote = client.quote_product(sku.product_id)
-        except (WalmartCanadaError, ValueError) as exc:
+        except (ProductPageError, ValueError) as exc:
             missing.append({
                 "product_id": sku.product_id,
                 "name": sku.name,
@@ -512,7 +513,7 @@ def _ingest_walmart_ca_reference(
     write_json_atomic(
         raw_root / today / f"{location.source}.json",
         {
-            "source": "walmart_ca_product_page",
+            "source": client.source,
             "price_scope": "reference",
             "quotes": quotes,
         },
@@ -733,7 +734,7 @@ def price_canadian_references(
                 retailer_skus, loc, client, today, metro_raw_root
             )
         elif loc.source == "walmart_ca":
-            r, m = _ingest_walmart_ca_reference(
+            r, m = _ingest_product_page_reference(
                 retailer_skus, loc, walmart_ca_client or WalmartCanadaClient(),
                 today, walmart_ca_raw_root,
             )
