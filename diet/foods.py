@@ -122,7 +122,7 @@ def load_canada_skus(
             )
         sources = row.get("sources") or [row.get("source")]
         if not sources or any(
-            source not in {"metro", "foodbasics", "superstore", "nofrills"}
+            source not in {"metro", "foodbasics", "superstore", "nofrills", "bulkbarn"}
             for source in sources
         ):
             raise ValueError(

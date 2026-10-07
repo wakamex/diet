@@ -120,6 +120,12 @@ This works by making automation indistinguishable from an ordinary browser to Sh
 uv run playwright install chromium   # once, for the session browser
 ```
 
+## Implemented Bulk Barn surface
+
+[`diet/sources/bulkbarn.py`](diet/sources/bulkbarn.py) prices Bulk Barn bulk bins per 100 g. Bulk Barn has no API, flyer listing or price on its product pages, but its online-ordering page (`bulkbarn.ca/ecomm/product_search.html`) loads the whole catalog from one script, `bulkbarn.ca/ecomm/product_data.js`, which Bulk Barn regenerates daily and which answers a plain HTTP request. Each item carries its bin number (`BBPLU`) and `Retail_Price_100g`. On 2026-10-06 the file held 1,432 items with a per-100 g price, and those prices matched 46 of 49 shelf labels photographed in an Ottawa store; the three that differed were stone-ground flours.
+
+Sale prices are the online-order prices. The order form shows, and its cart charges, an item's `Sale_Price` (per kg) whenever today falls between its sale start and end dates, and the [online ordering FAQ](https://www.bulkbarn.ca/en/online-ordering/FAQ) says only the weighed amount changes at pickup. On 2026-10-06 the file discounted 642 items, mostly by 15%, with placeholder dates running to 3020. These are not in-store sales: they matched all five sale tags in those photos but also covered 22 photographed bins whose tags showed no sale, so the sale price assumes ordering online for pickup.
+
 ## Decision
 
 We can build a useful API-equivalent price service for this project, but we

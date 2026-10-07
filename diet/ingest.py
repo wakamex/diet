@@ -7,7 +7,9 @@ Product Details, Metro Inc. reference catalogs, or PC Express reference stores) 
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from collections.abc import Callable
+from dataclasses import asdict
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 from diet.foods import Location, SkuSpec, load_all_skus, load_locations
@@ -18,6 +20,13 @@ from diet.nutrition import (
     load_sku_nutrients,
 )
 from diet.sources import fdc as fdc_mod
+from diet.sources.bulkbarn import (
+    BULKBARN_SOURCE,
+    CATALOG_URL,
+    BulkBarnError,
+    CatalogItem,
+    fetch_catalog,
+)
 from diet.sources.bank_of_canada import BankOfCanadaClient, BankOfCanadaError
 from diet.sources.kroger import KrogerClient, extract_price
 from diet.sources.metro_reference import (
@@ -48,6 +57,7 @@ DEFAULT_METRO_RAW_ROOT = Path("data/raw/metro_reference")
 DEFAULT_PC_EXPRESS_RAW_ROOT = Path("data/raw/pc_express")
 DEFAULT_WALMART_CA_RAW_ROOT = Path("data/raw/walmart_ca")
 DEFAULT_SHOPPERS_RAW_ROOT = Path("data/raw/shoppers")
+DEFAULT_BULKBARN_RAW_ROOT = Path("data/raw/bulkbarn")
 DEFAULT_OUT_PATH = Path("data/prices_current.json")
 DEFAULT_NUTRIENTS_OUT_PATH = Path("data/nutrients_current.json")
 DEFAULT_FX_OUT_PATH = Path("data/fx_current.json")
@@ -561,6 +571,64 @@ def _ingest_shoppers_reference(
     return rows, missing
 
 
+def _ingest_bulkbarn_reference(
+    skus: list[SkuSpec],
+    location: Location,
+    fetch: Callable[[], tuple[dict[str, CatalogItem], str]],
+    today: str,
+    raw_root: Path,
+) -> tuple[list[dict], list[dict]]:
+    """Price Bulk Barn bins per 100 g from its catalog; sales are online-order prices."""
+    def miss(sku: SkuSpec, reason: str) -> dict:
+        return {
+            "product_id": sku.product_id,
+            "name": sku.name,
+            "location_id": location.location_id,
+            "reason": reason,
+        }
+
+    try:
+        catalog, updated = fetch()
+    except BulkBarnError as exc:
+        return [], [miss(sku, f"reference request failed: {exc}") for sku in skus]
+    rows: list[dict] = []
+    missing: list[dict] = []
+    for sku in skus:
+        item = catalog.get(sku.product_id)
+        if item is None:
+            missing.append(miss(sku, f"bin {sku.product_id} not in the online catalog"))
+            continue
+        rows.append({
+            "product_id": sku.product_id,
+            "location_id": location.location_id,
+            "regular": item.regular,
+            "promo": item.sale_on(date.fromisoformat(today)),
+            "currency": "CAD",
+            "price_scope": "reference",
+            "channel": "online_catalog",
+            "price_basis": "per_100g",
+            "package": sku.package_label,
+            "in_stock": None,
+            "source_url": CATALOG_URL,
+            "observed_at": updated or today,
+            "fetched_at": today,
+            "stale": False,
+        })
+    write_json_atomic(
+        raw_root / today / "bulkbarn.json",
+        {
+            "source": BULKBARN_SOURCE,
+            "catalog_updated": updated,
+            "items": [
+                {k: v.isoformat() if isinstance(v, date) else v
+                 for k, v in asdict(catalog[s.product_id]).items()}
+                for s in skus if s.product_id in catalog
+            ],
+        },
+    )
+    return rows, missing
+
+
 def retain_previous_prices(
     rows: list[dict],
     previous_rows: list[dict],
@@ -622,7 +690,7 @@ def _refresh_fx(
 
 
 CANADIAN_REFERENCE_SOURCES = frozenset(
-    {"metro", "foodbasics", "walmart_ca", "shoppers", *_PC_EXPRESS_PRODUCT_ROOTS}
+    {"metro", "foodbasics", "walmart_ca", "shoppers", "bulkbarn", *_PC_EXPRESS_PRODUCT_ROOTS}
 )
 
 
@@ -639,12 +707,15 @@ def price_canadian_references(
     pc_express_raw_root: Path = DEFAULT_PC_EXPRESS_RAW_ROOT,
     walmart_ca_raw_root: Path = DEFAULT_WALMART_CA_RAW_ROOT,
     shoppers_raw_root: Path = DEFAULT_SHOPPERS_RAW_ROOT,
+    bulkbarn_fetch: Callable[[], tuple[dict[str, CatalogItem], str]] = fetch_catalog,
+    bulkbarn_raw_root: Path = DEFAULT_BULKBARN_RAW_ROOT,
 ) -> tuple[list[dict], list[dict]]:
     """Price each location's SKUs (matched by `source`) at Canadian stores.
 
     Metro and Food Basics are unlocalized catalogs, PC Express banners are
-    priced at the location's store ID, Walmart.ca reads product pages, and
-    Shoppers Drug Mart reads its product API through one browser session.
+    priced at the location's store ID, Walmart.ca reads product pages,
+    Shoppers Drug Mart reads its product API through one browser session,
+    and Bulk Barn reads its online-ordering catalog.
     """
     metro_clients = metro_clients or {}
     pc_express_clients = pc_express_clients or {}
@@ -670,6 +741,10 @@ def price_canadian_references(
             r, m = _ingest_shoppers_reference(
                 retailer_skus, loc, shoppers_client or ShoppersClient(),
                 today, shoppers_raw_root,
+            )
+        elif loc.source == "bulkbarn":
+            r, m = _ingest_bulkbarn_reference(
+                retailer_skus, loc, bulkbarn_fetch, today, bulkbarn_raw_root
             )
         else:
             client = pc_express_clients.get(loc.source) or PCExpressClient()

@@ -896,3 +896,108 @@
   unit_grams: 540
   sources: [metro, foodbasics]
   dietary_categories: [legume]
+
+# Bulk Barn bins, sold by weight and priced per 100 g from the shelf labels in
+# data/bulkbarn_prices.yaml. product_id is the bin number.
+- fdc_id: 2346396
+  product_id: "1535"
+  name: "Bulk Barn Large Flake Oats"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 173756
+  product_id: "414"
+  name: "Bulk Barn Chick Peas"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+  dietary_categories: [legume]
+- fdc_id: 173745
+  product_id: "405"
+  name: "Bulk Barn Navy Beans"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 2644283
+  product_id: "416"
+  name: "Bulk Barn Green Lentils"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 2644283
+  product_id: "2475"
+  name: "Bulk Barn Brown Lentils"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 172428
+  product_id: "412"
+  name: "Bulk Barn Yellow Split Peas"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 2512381
+  product_id: "1610"
+  name: "Bulk Barn Jasmine Rice"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 169736
+  product_id: "1648"
+  name: "Bulk Barn Orzo"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 168894
+  product_id: "310"
+  name: "Bulk Barn All Purpose Flour"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 174266
+  product_id: "1006"
+  name: "Bulk Barn Smooth Peanut Butter"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 168147
+  product_id: "342"
+  name: "Bulk Barn Gluten Flour (vital wheat gluten)"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+- fdc_id: 174270
+  product_id: "419"
+  name: "Bulk Barn Soy Beans"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+  dietary_categories: [legume]
+- fdc_id: 169722
+  product_id: "1576"
+  name: "Bulk Barn Hard Wheat Red Bran"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+  dietary_categories: [grain]
+- fdc_id: 170562
+  product_id: "139"
+  name: "Bulk Barn Sunflower Seeds, hulled & raw"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+  dietary_categories: [seed]
+- fdc_id: 170556
+  product_id: "2409"
+  name: "Bulk Barn Pumpkin Seeds, hulled & raw"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+  dietary_categories: [seed]
+- fdc_id: 171726
+  product_id: "1711"
+  name: "Bulk Barn Dates, pitted"
+  package: per 100 g
+  unit_grams: 100
+  sources: [bulkbarn]
+  dietary_categories: [fruit]
