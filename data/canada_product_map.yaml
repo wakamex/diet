@@ -734,6 +734,15 @@
 
 # Fresh produce and other products added for recipe planning. Foods with no
 # US SKU declare their own dietary categories.
+- fdc_id: 170459
+  query: tomato paste
+  product_id: "067800000302"
+  name: Unico Tomato Paste
+  package: 156 mL
+  unit_grams: 170
+  sources: [metro, foodbasics]
+  _unit_basis: a 156 mL (6 fl oz) can of paste holds 170 g (6 oz)
+  dietary_categories: [vegetable]
 - fdc_id: 170000
   query: "yellow onions"
   product_id: "059749900133"
