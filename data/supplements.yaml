@@ -449,3 +449,36 @@
   _nutrient_source: "Walmart.ca listing: 600 mg alpha GPC per 2-capsule serving"
   nutrients_per_tablet:
     choline_mg: 121.5
+
+# --- Costco supplements (costco.ca online prices; Canadian labels) ---
+# Prices come from the costco.ca product page by item number. Buying needs a
+# Costco membership, which the price does not include.
+
+- product_id: "100291275"
+  name: "Kirkland Signature Calcium Plus With Vitamin D3 & Minerals 600 mg | 800 IU, 500 Tablets"
+  package: "500 un"
+  count: 500
+  tablet_g: 1.5
+  dietary_categories: [supplement, calcium]
+  max_tablets_per_day: 1
+  source: costco
+  _price_source: "costco.ca item 100291275"
+  # The label's other minerals are not itemized online, so only calcium and
+  # vitamin D are counted.
+  _nutrient_source: "costco.ca product page: 600 mg elemental calcium and 800 IU vitamin D3 per tablet, 1 tablet daily, NPN 80097372"
+  nutrients_per_tablet:
+    calcium_mg: 600
+    vit_d_mcg: 20
+
+- product_id: "100322373"
+  name: "Kirkland Signature Vitamin D3 1,000 IU, 2 x 360 Tablets"
+  package: "720 un"
+  count: 720
+  tablet_g: 0.2
+  dietary_categories: [supplement, vitamin_d]
+  max_tablets_per_day: 1
+  source: costco
+  _price_source: "costco.ca item 100322373"
+  _nutrient_source: "costco.ca product page: 1,000 IU vitamin D3 per tablet"
+  nutrients_per_tablet:
+    vit_d_mcg: 25

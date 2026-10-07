@@ -1001,3 +1001,26 @@
   unit_grams: 100
   sources: [bulkbarn]
   dietary_categories: [fruit]
+
+# Costco items priced from costco.ca product pages (online price; warehouse
+# prices may differ, and buying needs a membership). product_id is the
+# costco.ca item number.
+- fdc_id: 2346396
+  product_id: "4000339745"
+  name: "Kirkland Signature Whole Grain Rolled Oats"
+  package: 4.54 kg
+  unit_grams: 4540
+  sources: [costco]
+- fdc_id: 170554
+  product_id: "100539558"
+  name: "Kirkland Signature Organic Chia Seeds"
+  package: 1.36 kg
+  unit_grams: 1360
+  sources: [costco]
+- fdc_id: 170556
+  product_id: "100559709"
+  name: "Bassé Organic Pumpkin Seeds"
+  package: 1.2 kg
+  unit_grams: 1200
+  sources: [costco]
+  dietary_categories: [seed]

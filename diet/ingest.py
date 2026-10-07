@@ -47,6 +47,7 @@ from diet.sources.shoppers import (
     ShoppersClient,
     ShoppersError,
 )
+from diet.sources.costco import CostcoClient
 from diet.sources.product_page import ProductPageClient, ProductPageError
 from diet.sources.walmart_ca import WalmartCanadaClient
 from diet.supplements import as_sku_specs, load_supplements
@@ -57,6 +58,7 @@ DEFAULT_WALMART_RAW_ROOT = Path("data/raw/walmart")
 DEFAULT_METRO_RAW_ROOT = Path("data/raw/metro_reference")
 DEFAULT_PC_EXPRESS_RAW_ROOT = Path("data/raw/pc_express")
 DEFAULT_WALMART_CA_RAW_ROOT = Path("data/raw/walmart_ca")
+DEFAULT_COSTCO_RAW_ROOT = Path("data/raw/costco")
 DEFAULT_SHOPPERS_RAW_ROOT = Path("data/raw/shoppers")
 DEFAULT_BULKBARN_RAW_ROOT = Path("data/raw/bulkbarn")
 DEFAULT_OUT_PATH = Path("data/prices_current.json")
@@ -477,7 +479,7 @@ def _ingest_product_page_reference(
     today: str,
     raw_root: Path,
 ) -> tuple[list[dict], list[dict]]:
-    """Read exact SKUs from their retailer's unlocalized product pages."""
+    """Read exact SKUs (Walmart.ca, costco.ca) from their unlocalized product pages."""
     rows: list[dict] = []
     missing: list[dict] = []
     quotes: list[dict] = []
@@ -691,7 +693,7 @@ def _refresh_fx(
 
 
 CANADIAN_REFERENCE_SOURCES = frozenset(
-    {"metro", "foodbasics", "walmart_ca", "shoppers", "bulkbarn", *_PC_EXPRESS_PRODUCT_ROOTS}
+    {"metro", "foodbasics", "walmart_ca", "costco", "shoppers", "bulkbarn", *_PC_EXPRESS_PRODUCT_ROOTS}
 )
 
 
@@ -703,10 +705,12 @@ def price_canadian_references(
     metro_clients: dict[str, MetroReferenceClient] | None = None,
     pc_express_clients: dict[str, PCExpressClient] | None = None,
     walmart_ca_client: WalmartCanadaClient | None = None,
+    costco_client: CostcoClient | None = None,
     shoppers_client: ShoppersClient | None = None,
     metro_raw_root: Path = DEFAULT_METRO_RAW_ROOT,
     pc_express_raw_root: Path = DEFAULT_PC_EXPRESS_RAW_ROOT,
     walmart_ca_raw_root: Path = DEFAULT_WALMART_CA_RAW_ROOT,
+    costco_raw_root: Path = DEFAULT_COSTCO_RAW_ROOT,
     shoppers_raw_root: Path = DEFAULT_SHOPPERS_RAW_ROOT,
     bulkbarn_fetch: Callable[[], tuple[dict[str, CatalogItem], str]] = fetch_catalog,
     bulkbarn_raw_root: Path = DEFAULT_BULKBARN_RAW_ROOT,
@@ -714,8 +718,8 @@ def price_canadian_references(
     """Price each location's SKUs (matched by `source`) at Canadian stores.
 
     Metro and Food Basics are unlocalized catalogs, PC Express banners are
-    priced at the location's store ID, Walmart.ca reads product pages,
-    Shoppers Drug Mart reads its product API through one browser session,
+    priced at the location's store ID, Walmart.ca and costco.ca read product
+    pages, Shoppers Drug Mart reads its product API through one browser session,
     and Bulk Barn reads its online-ordering catalog.
     """
     metro_clients = metro_clients or {}
@@ -737,6 +741,10 @@ def price_canadian_references(
             r, m = _ingest_product_page_reference(
                 retailer_skus, loc, walmart_ca_client or WalmartCanadaClient(),
                 today, walmart_ca_raw_root,
+            )
+        elif loc.source == "costco":
+            r, m = _ingest_product_page_reference(
+                retailer_skus, loc, costco_client or CostcoClient(), today, costco_raw_root,
             )
         elif loc.source == "shoppers":
             r, m = _ingest_shoppers_reference(

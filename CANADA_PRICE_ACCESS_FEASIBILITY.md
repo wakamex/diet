@@ -334,6 +334,8 @@ prices may be stored, used in optimization, and displayed publicly. Without
 that grant, the official API is useful for checkout links but not for this
 price-ingestion pipeline.
 
+The first surface is implemented. [`diet/sources/costco.py`](diet/sources/costco.py) reads a costco.ca product page by item number (`costco.ca/p/-/item/<item number>`), which answers a plain HTTP client and carries the online price in JSON-LD; it shares the product-page client in [`diet/sources/product_page.py`](diet/sources/product_page.py) with Walmart.ca. Costco notes that warehouse pricing may vary, and warehouse-only items such as eggs have no online price. Costco products are listed under source `costco` in `data/canada_product_map.yaml` and `data/supplements.yaml`.
+
 For warehouse prices, the practical supported fallback is receipt/price-tag
 collection. Costco item numbers can be mapped to curated foods, but observed
 prices must retain warehouse ID and date.

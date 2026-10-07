@@ -1,7 +1,7 @@
 """Reference prices from retailers' product pages.
 
-Walmart.ca exposes the current online offer in server-rendered JSON-LD on
-each product page, reachable by product ID alone.  The pages have
+Walmart.ca and costco.ca expose the current online offer in server-rendered
+JSON-LD on each product page, reachable by product ID alone.  The pages have
 no explicit store context, so quotes from this client are reference catalog
 prices rather than local or national prices.
 """
