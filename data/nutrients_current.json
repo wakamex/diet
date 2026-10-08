@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T13:13:30Z",
+  "updated": "2026-10-08T13:13:35Z",
   "nutrients": [
     {
       "product_id": "025293600713",
@@ -175,7 +175,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -207,7 +207,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -219,25 +219,25 @@
       "serving_basis": "package_weight_divided_by_servings",
       "ingredients": "ALMONDS.CONTAINS: ALMONDS.PROCESSED ON EQUIPMENT THAT ALSO PROCESSES PEANUTS, OTHER TREE NUTS, MILK, SESAME, SOY, WHEAT.",
       "nutrients_per_g": {
-        "protein_g": 0.1984126984126984,
         "fiber_g": 0.0992063492063492,
         "calcium_mg": 2.645502645502645,
         "iron_mg": 0.03306878306878307,
         "energy_kcal": 5.952380952380952,
-        "potassium_mg": 7.2751322751322745
+        "potassium_mg": 7.2751322751322745,
+        "protein_g": 0.1984126984126984
       },
       "nutrient_sources": {
-        "protein_g": "kroger_label",
         "fiber_g": "kroger_label",
         "calcium_mg": "kroger_label",
         "iron_mg": "kroger_label",
         "energy_kcal": "kroger_label",
-        "potassium_mg": "kroger_label"
+        "potassium_mg": "kroger_label",
+        "protein_g": "kroger_label"
       },
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -269,7 +269,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -299,7 +299,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -323,7 +323,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -355,7 +355,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -375,7 +375,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -405,7 +405,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -437,7 +437,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -467,7 +467,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -499,7 +499,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -529,7 +529,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -559,7 +559,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -589,7 +589,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -619,7 +619,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -651,7 +651,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -691,7 +691,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -711,7 +711,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -741,7 +741,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -771,7 +771,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -805,7 +805,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -837,7 +837,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -867,7 +867,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -899,7 +899,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -931,7 +931,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -957,7 +957,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -987,7 +987,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1019,7 +1019,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1047,7 +1047,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1077,7 +1077,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1109,7 +1109,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1141,7 +1141,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1173,7 +1173,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1205,7 +1205,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1237,7 +1237,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1269,7 +1269,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1293,7 +1293,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1327,7 +1327,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1359,7 +1359,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1379,7 +1379,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1399,7 +1399,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1427,7 +1427,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1453,7 +1453,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1483,7 +1483,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1511,7 +1511,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1543,7 +1543,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1573,7 +1573,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1605,7 +1605,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1627,7 +1627,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1687,7 +1687,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1725,7 +1725,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1753,7 +1753,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1783,7 +1783,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1813,7 +1813,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1841,7 +1841,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1875,7 +1875,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1895,7 +1895,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1927,7 +1927,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1937,21 +1937,29 @@
       "upc": "0007240071124",
       "serving_size_g": 14.7875,
       "serving_basis": "package_weight_divided_by_servings",
-      "ingredients": "Unsulfured Molasses",
+      "ingredients": "Molasses.",
       "nutrients_per_g": {
-        "potassium_mg": 7.438715131022824,
-        "energy_kcal": 4.057480980557903,
-        "sodium_mg": 1.3524936601859678
+        "potassium_mg": 13.524936601859679,
+        "sodium_mg": 0.33812341504649196,
+        "fiber_g": 0.0676246830092984,
+        "magnesium_mg": 0.6762468300929839,
+        "calcium_mg": 2.0287404902789516,
+        "iron_mg": 0.047337278106508875,
+        "energy_kcal": 4.057480980557903
       },
       "nutrient_sources": {
         "potassium_mg": "kroger_label",
-        "energy_kcal": "kroger_label",
-        "sodium_mg": "kroger_label"
+        "sodium_mg": "kroger_label",
+        "fiber_g": "kroger_label",
+        "magnesium_mg": "kroger_label",
+        "calcium_mg": "kroger_label",
+        "iron_mg": "kroger_label",
+        "energy_kcal": "kroger_label"
       },
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -1983,7 +1991,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2007,7 +2015,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2033,7 +2041,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2071,7 +2079,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2101,7 +2109,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2131,7 +2139,7 @@
       "source_details": {
         "kroger_label": {
           "kind": "retailer_nutrition_facts",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2501,7 +2509,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2627994,
           "publication_date": "8/31/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2599,7 +2607,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2028334,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2733,7 +2741,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2402606,
           "publication_date": "12/22/2022",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2769,7 +2777,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676415,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2805,7 +2813,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2603664,
           "publication_date": "7/13/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2843,7 +2851,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1909473,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2879,7 +2887,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676385,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2915,7 +2923,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2505344,
           "publication_date": "3/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2949,7 +2957,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549787,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -2983,7 +2991,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1850358,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3019,7 +3027,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1859545,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3057,7 +3065,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1905226,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3091,7 +3099,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2504828,
           "publication_date": "3/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3129,7 +3137,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2023462,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3167,7 +3175,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2339261,
           "publication_date": "9/15/2022",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3201,7 +3209,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549810,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3239,7 +3247,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2338487,
           "publication_date": "9/15/2022",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3273,7 +3281,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2504900,
           "publication_date": "3/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3311,7 +3319,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1860267,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3349,7 +3357,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2324270,
           "publication_date": "6/21/2022",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3383,7 +3391,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2550179,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3417,7 +3425,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2329493,
           "publication_date": "6/21/2022",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3455,7 +3463,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676436,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3495,7 +3503,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2656952,
           "publication_date": "10/26/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3531,7 +3539,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2675296,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3565,7 +3573,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549916,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3601,7 +3609,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2476513,
           "publication_date": "2/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3637,7 +3645,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2010552,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3663,7 +3671,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2027586,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3697,7 +3705,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549829,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3731,7 +3739,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2328338,
           "publication_date": "6/21/2022",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3765,7 +3773,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2149621,
           "publication_date": "10/28/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3875,7 +3883,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2550580,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -3941,7 +3949,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2368695,
           "publication_date": "12/7/2022",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4015,7 +4023,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676178,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4051,7 +4059,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1505382,
           "publication_date": "3/19/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4085,7 +4093,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2549913,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4119,7 +4127,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2550119,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4153,7 +4161,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2550074,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4189,7 +4197,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2486564,
           "publication_date": "2/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4223,7 +4231,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2339039,
           "publication_date": "9/15/2022",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4253,7 +4261,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 1938883,
           "publication_date": "7/29/2021",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4289,7 +4297,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2676650,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4325,7 +4333,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2673405,
           "publication_date": "11/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4387,7 +4395,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2656958,
           "publication_date": "10/26/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4423,7 +4431,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2591368,
           "publication_date": "6/29/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4461,7 +4469,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2504484,
           "publication_date": "3/16/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4497,7 +4505,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2603660,
           "publication_date": "7/13/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4531,7 +4539,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2553160,
           "publication_date": "5/25/2023",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     },
@@ -4565,7 +4573,7 @@
           "kind": "usda_branded_exact_upc",
           "fdc_id": 2328293,
           "publication_date": "6/21/2022",
-          "fetched_at": "2026-10-07"
+          "fetched_at": "2026-10-08"
         }
       }
     }
