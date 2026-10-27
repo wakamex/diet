@@ -1020,6 +1020,12 @@
   package: 4.54 kg
   unit_grams: 4540
   sources: [costco]
+- fdc_id: 2346396
+  product_id: "100570610"
+  name: "Quaker Quick Oats"
+  package: 2 x 2.58 kg
+  unit_grams: 5160
+  sources: [costco]
 - fdc_id: 170554
   product_id: "100539558"
   name: "Kirkland Signature Organic Chia Seeds"
