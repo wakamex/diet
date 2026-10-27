@@ -79,7 +79,7 @@ def _objects(value: Any):
 class ProductPageQuote:
     product_id: str
     name: str
-    effective_price_cad: float
+    effective_price_cad: float  # the offer's regular price
     source_url: str
     observed_at: str
     source: str
@@ -87,6 +87,7 @@ class ProductPageQuote:
     currency: str = "CAD"
     price_scope: str = "reference"
     channel: str = "online_catalog"
+    promo_price_cad: float | None = None  # the price after a current discount, when the page has one
 
     def as_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -124,8 +125,9 @@ class ProductPageClient:
         if status != 200:
             raise ProductPageError(f"HTTP {status}")
 
+        page = body.decode("utf-8", errors="replace")
         parser = _JsonLdParser()
-        parser.feed(body.decode("utf-8", errors="replace"))
+        parser.feed(page)
         product = next(
             (
                 item
@@ -171,4 +173,9 @@ class ProductPageClient:
             observed_at=_utc_now(),
             availability=offer.get("availability"),
             source=self.source,
+            promo_price_cad=self.promo_price(page, product, price_cad),
         )
+
+    def promo_price(self, page: str, product: dict, price_cad: float) -> float | None:
+        """The discounted price on `page`, for retailers whose JSON-LD omits it."""
+        return None

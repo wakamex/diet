@@ -498,9 +498,9 @@ def _ingest_product_page_reference(
         rows.append({
             "product_id": sku.product_id,
             "location_id": location.location_id,
-            # JSON-LD exposes the current offer, without a regular/promo split.
+            # JSON-LD has only the regular price; costco.ca pages also carry discounts.
             "regular": quote.effective_price_cad,
-            "promo": None,
+            "promo": quote.promo_price_cad,
             "currency": "CAD",
             "price_scope": "reference",
             "channel": quote.channel,
