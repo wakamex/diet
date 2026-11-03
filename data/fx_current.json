@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T22:03:51Z",
+  "updated": "2026-11-03T19:57:42Z",
   "rates": {
     "USD": {
       "currency": "USD",
@@ -12,7 +12,7 @@
       "currency": "CAD",
       "to_usd": 0.7154099298898269,
       "as_of": "2026-11-02",
-      "observed_at": "2026-11-02T22:03:51Z",
+      "observed_at": "2026-11-03T19:57:42Z",
       "source": "bank_of_canada_valet",
       "source_url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1"
     }
