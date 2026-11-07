@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-06T19:48:38Z",
+  "updated": "2026-11-07T17:57:26Z",
   "rates": {
     "USD": {
       "currency": "USD",
       "to_usd": 1.0,
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "source": "bank_of_canada_valet",
       "source_url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1"
     },
     "CAD": {
       "currency": "CAD",
-      "to_usd": 0.714847380084352,
-      "as_of": "2026-11-05",
-      "observed_at": "2026-11-06T19:48:38Z",
+      "to_usd": 0.7085665698292355,
+      "as_of": "2026-11-06",
+      "observed_at": "2026-11-07T17:57:26Z",
       "source": "bank_of_canada_valet",
       "source_url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1"
     }
