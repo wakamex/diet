@@ -118,3 +118,26 @@ def test_ingest_emits_reference_price_metadata(tmp_path):
         "fetched_at": "2026-08-09",
         "stale": False,
     }]
+
+
+def test_requests_are_spaced_by_the_minimum_interval():
+    now = [100.0]
+    waits = []
+
+    def sleep(seconds):
+        waits.append(seconds)
+        now[0] += seconds
+
+    client = WalmartCanadaClient(transport=FixtureTransport(), sleep=sleep, clock=lambda: now[0])
+    client.quote_product("6000204673258")
+    now[0] += 1.5
+    client.quote_product("6000204673258")
+
+    assert waits == [pytest.approx(client.min_interval - 1.5)]
+
+
+def test_bot_check_page_is_reported_as_blocked():
+    page = b"<html><head><title>Verify Your Identity</title></head><body></body></html>"
+
+    with pytest.raises(WalmartCanadaError, match="blocked"):
+        WalmartCanadaClient(transport=FixtureTransport(page)).quote_product("6000204673258")

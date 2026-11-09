@@ -9,6 +9,7 @@ prices rather than local or national prices.
 from __future__ import annotations
 
 import json
+import time
 from collections.abc import Callable
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
@@ -94,18 +95,40 @@ class ProductPageQuote:
 
 
 class ProductPageClient:
-    """Quote a retailer's products from their pages at `product_root` + product ID."""
+    """Quote a retailer's products from their pages at `product_root` + product ID.
 
-    def __init__(self, product_root: str, source: str, *, transport: Transport = http_request) -> None:
+    `min_interval` spaces requests at least that many seconds apart, for
+    retailers that block a client requesting pages back to back.
+    """
+
+    def __init__(
+        self,
+        product_root: str,
+        source: str,
+        *,
+        transport: Transport = http_request,
+        min_interval: float = 0.0,
+        sleep: Callable[[float], None] = time.sleep,
+        clock: Callable[[], float] = time.monotonic,
+    ) -> None:
         self.product_root = product_root
         self.source = source
         self.transport = transport
+        self.min_interval = min_interval
+        self._sleep = sleep
+        self._clock = clock
+        self._last_request: float | None = None
 
     def quote_product(self, product_id: str) -> ProductPageQuote:
         product_id = product_id.strip()
         if not product_id:
             raise ValueError("product ID must be non-empty")
         source_url = self.product_root + quote(product_id, safe="")
+        if self._last_request is not None:
+            wait = self._last_request + self.min_interval - self._clock()
+            if wait > 0:
+                self._sleep(wait)
+        self._last_request = self._clock()
         try:
             status, _, body = self.transport(
                 source_url,
@@ -126,6 +149,7 @@ class ProductPageClient:
             raise ProductPageError(f"HTTP {status}")
 
         page = body.decode("utf-8", errors="replace")
+        self.check_page(page)
         parser = _JsonLdParser()
         parser.feed(page)
         product = next(
@@ -175,6 +199,9 @@ class ProductPageClient:
             source=self.source,
             promo_price_cad=self.promo_price(page, product, price_cad),
         )
+
+    def check_page(self, page: str) -> None:
+        """Raise ProductPageError for a page that is not the product page."""
 
     def promo_price(self, page: str, product: dict, price_cad: float) -> float | None:
         """The discounted price on `page`, for retailers whose JSON-LD omits it."""
