@@ -1039,3 +1039,810 @@
   unit_grams: 1200
   sources: [costco]
   dietary_categories: [seed]
+
+# PC Express (Loblaw banners) products for the remaining recipe ingredients,
+# chosen as the cheapest plain product per kilogram at Superstore Richmond
+# Road on 2026-11-08. Items sold by weight (_KG) are priced per average
+# package, so unit_grams is that average weight.
+- fdc_id: 2346396
+  query: large flake oats
+  product_id: "20923840_EA"
+  name: No Name Large Flake 100% Whole Grain Oats Club Size
+  package: 2.25 kg
+  unit_grams: 2250
+  sources: [superstore, nofrills]
+- fdc_id: 168892
+  query: wheat germ
+  product_id: "20744485_EA"
+  name: Rogers Wheat Germ
+  package: 375 g
+  unit_grams: 375
+  sources: [superstore, nofrills]
+- fdc_id: 169722
+  query: wheat bran
+  product_id: "20744484_EA"
+  name: Rogers Wheat Bran
+  package: 450 g
+  unit_grams: 450
+  sources: [superstore, nofrills]
+  dietary_categories: [grain]
+- fdc_id: 170872
+  query: 1% milk 4 l
+  product_id: "20047439_EA"
+  name: Neilson 1% Milk
+  package: 4 L
+  unit_grams: 4120
+  sources: [superstore, nofrills]
+  _unit_basis: "1.03 g/mL milk density"
+- fdc_id: 173768
+  query: fortified soy beverage
+  product_id: "21586376_EA"
+  name: Earth's Own Original Soy Milk Alternative
+  package: 1.75 L
+  unit_grams: 1750
+  sources: [superstore, nofrills]
+  _unit_basis: "1.0 g/mL beverage estimate"
+- fdc_id: 170894
+  query: plain greek yogurt 0%
+  product_id: "21518400_EA"
+  name: President's Choice Plain Greek Yogurt Club Size 0% M.F.
+  package: 1 kg
+  unit_grams: 1000
+  sources: [superstore, nofrills]
+- fdc_id: 173414
+  query: old cheddar cheese
+  product_id: "20975873_EA"
+  name: No Name Old Cheddar Cheese
+  package: 700 g
+  unit_grams: 700
+  sources: [superstore, nofrills]
+- fdc_id: 171287
+  query: large eggs
+  product_id: "20814294001_EA"
+  name: Burnbrae Farms Grade A Large Eggs
+  package: 18 un
+  unit_grams: 900
+  sources: [superstore, nofrills]
+  _unit_basis: "50 g edible mass per large egg"
+- fdc_id: 168166
+  query: raisins
+  product_id: "20648048_EA"
+  name: No Name Thompson Seedless Raisins
+  package: 750 g
+  unit_grams: 750
+  sources: [superstore, nofrills]
+- fdc_id: 171726
+  query: pitted dates
+  product_id: "20772841_EA"
+  name: Pitted Honey Dates
+  package: 907 g
+  unit_grams: 907
+  sources: [superstore, nofrills]
+  dietary_categories: [fruit]
+- fdc_id: 1105314
+  query: bananas
+  product_id: "20175355001_KG"
+  name: Bananas, Bunch
+  package: 1 bunch, average 1.15 kg
+  unit_grams: 1151
+  sources: [superstore, nofrills]
+  dietary_categories: [fruit]
+  _unit_basis: "PC Express prices an average bunch: $1.75 at $1.52/kg on 2026-11-08"
+- fdc_id: 171710
+  query: frozen mixed fruit
+  product_id: "21378036_EA"
+  name: No Name Fruit Blend
+  package: 2 kg
+  unit_grams: 2000
+  sources: [superstore, nofrills]
+- fdc_id: 172688
+  query: whole wheat bread
+  product_id: "21509877_EA"
+  name: No Name 100% Whole Wheat Bread
+  package: 675 g
+  unit_grams: 675
+  sources: [superstore, nofrills]
+- fdc_id: 172772
+  query: buttermilk pancake mix
+  product_id: "20175129_EA"
+  name: President's Choice Extra-Fluffy Buttermilk Pancake & Waffle Mix
+  package: 905 g
+  unit_grams: 905
+  sources: [superstore, nofrills]
+- fdc_id: 170554
+  query: chia seeds
+  product_id: "20845786_EA"
+  name: Clic Black Chia Grains
+  package: 454 g
+  unit_grams: 454
+  sources: [superstore, nofrills]
+- fdc_id: 169414
+  query: ground flaxseed
+  product_id: "21128309_EA"
+  name: CanMar Golden Roasted Flax Seed
+  package: 425 g
+  unit_grams: 425
+  sources: [superstore, nofrills]
+- fdc_id: 170562
+  query: raw sunflower seeds
+  product_id: "20985771_EA"
+  name: Elan Organic Sunflower Seeds
+  package: 200 g
+  unit_grams: 200
+  sources: [superstore, nofrills]
+  dietary_categories: [seed]
+- fdc_id: 170556
+  query: pumpkin seeds
+  product_id: "21520009_EA"
+  name: Farmer's Market Raw Pumpkin Seeds
+  package: 300 g
+  unit_grams: 300
+  sources: [superstore, nofrills]
+  dietary_categories: [seed]
+- fdc_id: 167959
+  query: popcorn kernels
+  product_id: "21291313_EA"
+  name: No Name Popping Corn
+  package: 1 kg
+  unit_grams: 1000
+  sources: [superstore, nofrills]
+- fdc_id: 170567
+  query: whole almonds
+  product_id: "21404746_EA"
+  name: President's Choice Raw California Almonds
+  package: 907 g
+  unit_grams: 907
+  sources: [superstore, nofrills]
+- fdc_id: 173745
+  query: navy beans
+  product_id: "20314160_EA"
+  name: Clic Navy Beans, White
+  package: 907 g
+  unit_grams: 907
+  sources: [superstore, nofrills]
+- fdc_id: 175188
+  query: canned black beans 540
+  product_id: "20305136001_EA"
+  name: PC Blue Menu Black Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [superstore, nofrills]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 175204
+  query: white kidney beans 540
+  product_id: "21214477_EA"
+  name: Tamam White Kidney Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [superstore, nofrills]
+  dietary_categories: [legume]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 175204
+  query: white kidney beans 540
+  product_id: "20300629_EA"
+  name: PC Blue Menu White Kidney Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [superstore, nofrills]
+  dietary_categories: [legume]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 2644288
+  query: chickpeas 540
+  product_id: "21214570_EA"
+  name: Tamam Chickpeas
+  package: 540 mL
+  unit_grams: 540
+  sources: [superstore, nofrills]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 2644288
+  query: chickpeas 540
+  product_id: "20318942_EA"
+  name: PC Blue Menu Chickpeas
+  package: 540 mL
+  unit_grams: 540
+  sources: [superstore, nofrills]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 174285
+  query: red kidney beans 540
+  product_id: "20007312_EA"
+  name: PC Blue Menu Dark Red Kidney Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [superstore, nofrills]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 175201
+  query: pinto beans 540
+  product_id: "21214488_EA"
+  name: Tamam Pinto Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [superstore, nofrills]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 170138
+  query: diced tomatoes 796
+  product_id: "20600787_EA"
+  name: No Name Diced Tomatoes
+  package: 796 mL
+  unit_grams: 796
+  sources: [superstore, nofrills]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 170459
+  query: tomato paste
+  product_id: "20056697_EA"
+  name: No Name Pure Tomato Paste
+  package: 369 mL
+  unit_grams: 402
+  sources: [superstore, nofrills]
+  dietary_categories: [vegetable]
+  _unit_basis: "1.09 g/mL tomato paste, as a 156 mL can holds 170 g"
+- fdc_id: 170409
+  query: whole kernel corn
+  product_id: "21504776_EA"
+  name: No Name Whole Kernel Corn
+  package: 341 mL
+  unit_grams: 341
+  sources: [superstore, nofrills]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 168410
+  query: frozen edamame
+  product_id: "21741871_EA"
+  name: T&T Frozen Green Soybeans
+  package: 454 g
+  unit_grams: 454
+  sources: [superstore, nofrills]
+- fdc_id: 2346407
+  query: green cabbage
+  product_id: "20793034001_KG"
+  name: Green Cabbage
+  package: 1 head, average 1.68 kg
+  unit_grams: 1682
+  sources: [superstore, nofrills]
+  _unit_basis: "PC Express prices an average head: $1.85 at $1.10/kg on 2026-11-08"
+- fdc_id: 2512381
+  query: long grain white rice
+  product_id: "20069589_EA"
+  name: No Name Long Grain White Rice
+  package: 2 kg
+  unit_grams: 2000
+  sources: [superstore, nofrills]
+- fdc_id: 169736
+  query: spaghetti
+  product_id: "20315613002_EA"
+  name: No Name Spaghetti
+  package: 900 g
+  unit_grams: 900
+  sources: [superstore, nofrills]
+- fdc_id: 170284
+  query: pearl barley
+  product_id: "20630492_EA"
+  name: PC Blue Menu Pearl Barley
+  package: 450 g
+  unit_grams: 450
+  sources: [superstore, nofrills]
+- fdc_id: 168894
+  query: all purpose flour
+  product_id: "20013256_EA"
+  name: No Name All-Purpose Flour
+  package: 2.5 kg
+  unit_grams: 2500
+  sources: [superstore, nofrills]
+- fdc_id: 172475
+  query: extra firm tofu
+  product_id: "21474765_EA"
+  name: Rooster Extra Firm Tofu
+  package: 454 g
+  unit_grams: 454
+  sources: [superstore, nofrills]
+- fdc_id: 748278
+  query: canola oil
+  product_id: "20028656_EA"
+  name: No Name 100% Pure Canola Oil
+  package: 3 L
+  unit_grams: 2760
+  sources: [superstore, nofrills]
+  _unit_basis: "0.92 g/mL canola oil density"
+- fdc_id: 171413
+  query: extra virgin olive oil
+  product_id: "20047715_EA"
+  name: No Name 100% Extra Virgin Olive Oil
+  package: 750 mL
+  unit_grams: 682
+  sources: [superstore, nofrills]
+  _unit_basis: "0.91 g/mL olive oil density"
+- fdc_id: 168820
+  query: fancy molasses
+  product_id: "20664416_EA"
+  name: President's Choice Pure Fancy Molasses
+  package: 675 g
+  unit_grams: 675
+  sources: [superstore, nofrills]
+- fdc_id: 171986
+  query: flaked light tuna
+  product_id: "20521648_EA"
+  name: No Name Flaked Light Tuna Packed in Water
+  package: 170 g
+  unit_grams: 170
+  sources: [superstore, nofrills]
+- fdc_id: 175175
+  query: canned salmon
+  product_id: "21314811_EA"
+  name: Clover Leaf Sockeye Salmon
+  package: 213 g
+  unit_grams: 213
+  sources: [superstore, nofrills]
+- fdc_id: 2514744
+  query: medium ground beef
+  product_id: "21675509_EA"
+  name: Medium Ground Beef, 2 Pack
+  package: 900 g
+  unit_grams: 900
+  sources: [superstore, nofrills]
+- fdc_id: 167843
+  query: pork shoulder
+  product_id: "21614767_KG"
+  name: Pork Picnic, Halves
+  package: 1 piece, average 1.95 kg
+  unit_grams: 1945
+  sources: [superstore, nofrills]
+  _unit_basis: "PC Express prices an average piece: $17.12 at $8.80/kg on 2026-11-08"
+- fdc_id: 172378
+  query: chicken legs
+  product_id: "20153925_KG"
+  name: Chicken Leg (Back Attached), Club Pack
+  package: 1 pack, average 1.33 kg
+  unit_grams: 1328
+  sources: [superstore, nofrills]
+  _unit_basis: "PC Express prices an average pack: $11.98 at $9.02/kg on 2026-11-08"
+- fdc_id: 171060
+  query: chicken livers
+  product_id: "20654600_KG"
+  name: Chicken Liver Tray Pack
+  package: 1 tray, average 0.58 kg
+  unit_grams: 581
+  sources: [superstore, nofrills]
+  _unit_basis: "PC Express prices an average tray: $6.39 at $11.00/kg on 2026-11-08"
+
+# Walmart.ca products for recipe ingredients, chosen as the cheapest plain
+# product sold by Walmart on 2026-11-08, with sizes from the product name or
+# its unit price. Items sold by weight are priced per average package.
+- fdc_id: 2346396
+  query: large flake oats
+  product_id: "6000195340329"
+  name: Great Value Quick Oats
+  package: 1 kg
+  unit_grams: 1000
+  sources: [walmart_ca]
+- fdc_id: 169722
+  query: wheat bran
+  product_id: "577OATLSOV6G"
+  name: Bob's Red Mill Wheat Bran
+  package: 227 g
+  unit_grams: 227
+  sources: [walmart_ca]
+  dietary_categories: [grain]
+- fdc_id: 170872
+  query: 1% milk 4 l
+  product_id: "10219785"
+  name: Natrel Fine Filtered 1% Milk
+  package: 4 L
+  unit_grams: 4120
+  sources: [walmart_ca]
+  _unit_basis: "1.03 g/mL milk density"
+- fdc_id: 173768
+  query: fortified soy beverage
+  product_id: "79B8HJXTEAPZ"
+  name: Earth's Own Unsweetened Original Organic Soy Milk Alternative
+  package: 1.75 L
+  unit_grams: 1750
+  sources: [walmart_ca]
+  _unit_basis: "1.0 g/mL beverage estimate"
+- fdc_id: 2705412
+  query: earth's own oat original
+  product_id: "6000199928409"
+  name: Earth's Own Original Oat Milk Alternative
+  package: 1.75 L
+  unit_grams: 1750
+  sources: [walmart_ca]
+  _unit_basis: "1.0 g/mL beverage estimate"
+- fdc_id: 2257046
+  query: earth's own oat zero sugar
+  product_id: "2ADJVX8MAQ1Q"
+  name: Earth's Own Zero Sugar Original Oat Milk Alternative
+  package: 1.75 L
+  unit_grams: 1750
+  sources: [walmart_ca]
+  dietary_categories: [plant_milk, fortified_b12]
+  _unit_basis: "1.0 g/mL beverage estimate"
+- fdc_id: 170894
+  query: plain greek yogurt 0%
+  product_id: "6000197296357"
+  name: Our Finest 0% M.F. Plain Greek Yogurt
+  package: 750 g
+  unit_grams: 750
+  sources: [walmart_ca]
+- fdc_id: 173414
+  query: old cheddar cheese
+  product_id: "6000202304645"
+  name: Armstrong Old Cheddar Cheese
+  package: 400 g
+  unit_grams: 400
+  sources: [walmart_ca]
+- fdc_id: 171287
+  query: large eggs
+  product_id: "10052944"
+  name: Great Value Large 12 Eggs
+  package: 12 un
+  unit_grams: 600
+  sources: [walmart_ca]
+  _unit_basis: "50 g edible mass per large egg"
+- fdc_id: 168166
+  query: raisins
+  product_id: "6000196889061"
+  name: Great Value Seedless Thompson Raisins
+  package: 750 g
+  unit_grams: 750
+  sources: [walmart_ca]
+- fdc_id: 171726
+  query: pitted dates
+  product_id: "6000195573999"
+  name: Great Value Pitted Dates
+  package: 375 g
+  unit_grams: 375
+  sources: [walmart_ca]
+  dietary_categories: [fruit]
+- fdc_id: 1105314
+  query: bananas
+  product_id: "875806"
+  name: Banana
+  package: 1 banana, average 193 g
+  unit_grams: 193
+  sources: [walmart_ca]
+  dietary_categories: [fruit]
+  _unit_basis: "Walmart prices an average banana: $0.29 at $1.50/kg on 2026-11-08"
+- fdc_id: 169917
+  query: navel oranges
+  product_id: "6000205667837"
+  name: Your Fresh Market Seedless Oranges
+  package: 3 lb
+  unit_grams: 1361
+  sources: [walmart_ca]
+  dietary_categories: [fruit]
+- fdc_id: 171688
+  query: gala apples bag
+  product_id: "6000197346282"
+  name: Your Fresh Market Royal Gala Apples
+  package: 3 lb
+  unit_grams: 1361
+  sources: [walmart_ca]
+  dietary_categories: [fruit]
+- fdc_id: 169100
+  query: orange juice
+  product_id: "10160213"
+  name: Our Finest Not From Concentrate Premium Orange Juice With Pulp
+  package: 2.5 L
+  unit_grams: 2600
+  sources: [walmart_ca]
+  _unit_basis: "1.04 g/mL orange juice density"
+- fdc_id: 171710
+  query: frozen mixed fruit
+  product_id: "40BRV9VQC1J8"
+  name: Great Value 4 Berry Blend
+  package: 500 g
+  unit_grams: 500
+  sources: [walmart_ca]
+- fdc_id: 172688
+  query: whole wheat bread
+  product_id: "6000206630673"
+  name: Great Value Whole Wheat Bread
+  package: 675 g
+  unit_grams: 675
+  sources: [walmart_ca]
+- fdc_id: 174266
+  query: smooth peanut butter
+  product_id: "6000197838147"
+  name: Great Value Smooth Peanut Butter
+  package: 1 kg
+  unit_grams: 1000
+  sources: [walmart_ca]
+- fdc_id: 172772
+  query: buttermilk pancake mix
+  product_id: "6000203586570"
+  name: Pearl Milling Company Complete Pancake & Waffle Mix Buttermilk
+  package: 905 g
+  unit_grams: 905
+  sources: [walmart_ca]
+- fdc_id: 173884
+  query: cheerios
+  product_id: "6000198309628"
+  name: Original Cheerios Breakfast Cereal, Family Size
+  package: 570 g
+  unit_grams: 570
+  sources: [walmart_ca]
+- fdc_id: 170554
+  query: chia seeds
+  product_id: "6K0OY49DRN6Q"
+  name: Great Value Whole Chia Seeds
+  package: 907 g
+  unit_grams: 907
+  sources: [walmart_ca]
+- fdc_id: 169414
+  query: ground flaxseed
+  product_id: "153ONI82CT9H"
+  name: Great Value Organic Whole Flaxseeds
+  package: 400 g
+  unit_grams: 400
+  sources: [walmart_ca]
+- fdc_id: 170556
+  query: pumpkin seeds
+  product_id: "5YZB6GSU5PXI"
+  name: Great Value Dry Roasted & Unsalted Pumpkin Seeds
+  package: 350 g
+  unit_grams: 350
+  sources: [walmart_ca]
+  dietary_categories: [seed]
+- fdc_id: 167959
+  query: popcorn kernels
+  product_id: "6000201818997"
+  name: Great Value Popping Corn
+  package: 850 g
+  unit_grams: 850
+  sources: [walmart_ca]
+- fdc_id: 170567
+  query: whole almonds
+  product_id: "6000197455596"
+  name: Great Value Natural Raw Almonds
+  package: 1.13 kg
+  unit_grams: 1130
+  sources: [walmart_ca]
+- fdc_id: 2644283
+  query: green lentils
+  product_id: "6000196181058"
+  name: Great Value Green Lentils
+  package: 900 g
+  unit_grams: 900
+  sources: [walmart_ca]
+- fdc_id: 173756
+  query: dry chickpeas
+  product_id: "5KUJ7DH3MVJ6"
+  name: Sitara Dried Chickpeas
+  package: 1.81 kg
+  unit_grams: 1810
+  sources: [walmart_ca]
+  dietary_categories: [legume]
+- fdc_id: 172428
+  query: green split peas
+  product_id: "6000196181061"
+  name: Great Value Green Split Peas
+  package: 900 g
+  unit_grams: 900
+  sources: [walmart_ca]
+- fdc_id: 174270
+  query: dry soybeans
+  product_id: "77IYZTTA2NVR"
+  name: Guxin Soybean
+  package: 900 g
+  unit_grams: 900
+  sources: [walmart_ca]
+  dietary_categories: [legume]
+- fdc_id: 173745
+  query: navy beans
+  product_id: "6000196181064"
+  name: Great Value Navy Beans
+  package: 900 g
+  unit_grams: 900
+  sources: [walmart_ca]
+- fdc_id: 175188
+  query: canned black beans 540
+  product_id: "10275057"
+  name: Great Value Black Turtle Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [walmart_ca]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 175204
+  query: white kidney beans 540
+  product_id: "10287646"
+  name: Unico White Kidney Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [walmart_ca]
+  dietary_categories: [legume]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 2644288
+  query: chickpeas 540
+  product_id: "6000202410975"
+  name: Unico No Salt Added Chick Peas
+  package: 540 mL
+  unit_grams: 540
+  sources: [walmart_ca]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 174285
+  query: red kidney beans 540
+  product_id: "10275226"
+  name: Great Value Dark Red Kidney Beans
+  package: 540 mL
+  unit_grams: 540
+  sources: [walmart_ca]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 170138
+  query: diced tomatoes 796
+  product_id: "10303924"
+  name: Great Value Diced Tomatoes
+  package: 796 mL
+  unit_grams: 796
+  sources: [walmart_ca]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 170459
+  query: tomato paste
+  product_id: "6000188762632"
+  name: Unico Tomato Paste
+  package: 156 mL
+  unit_grams: 170
+  sources: [walmart_ca]
+  dietary_categories: [vegetable]
+  _unit_basis: "a 156 mL (6 fl oz) can of paste holds 170 g (6 oz)"
+- fdc_id: 170409
+  query: whole kernel corn
+  product_id: "10275085"
+  name: Great Value Whole Kernel Corn
+  package: 341 mL
+  unit_grams: 341
+  sources: [walmart_ca]
+  _unit_basis: "1.0 g/mL aqueous canned-food estimate"
+- fdc_id: 169287
+  query: frozen chopped spinach
+  product_id: "6000198574809"
+  name: Great Value Frozen Chopped Spinach Nuggets
+  package: 500 g
+  unit_grams: 500
+  sources: [walmart_ca]
+- fdc_id: 169968
+  query: frozen broccoli
+  product_id: "6000199909713"
+  name: Great Value Frozen Broccoli Florets
+  package: 1.75 kg
+  unit_grams: 1750
+  sources: [walmart_ca]
+  dietary_categories: [vegetable]
+- fdc_id: 168410
+  query: frozen edamame
+  product_id: "6000196642634"
+  name: Len Xiang Frozen Shelled Edamame
+  package: 400 g
+  unit_grams: 400
+  sources: [walmart_ca]
+- fdc_id: 2346407
+  query: green cabbage
+  product_id: "6000191272109"
+  name: Cabbage, Green
+  package: 1 head, average 2.7 kg
+  unit_grams: 2700
+  sources: [walmart_ca]
+  _unit_basis: "Walmart prices an average head: $5.94 at $2.20/kg on 2026-11-08"
+- fdc_id: 170000
+  query: yellow onions
+  product_id: "6000197111438"
+  name: Your Fresh Market Yellow Onions
+  package: 3 lb
+  unit_grams: 1361
+  sources: [walmart_ca]
+  dietary_categories: [vegetable]
+- fdc_id: 170393
+  query: carrots bag
+  product_id: "6000197111435"
+  name: Your Fresh Market Carrots
+  package: 3 lb
+  unit_grams: 1361
+  sources: [walmart_ca]
+  dietary_categories: [vegetable]
+- fdc_id: 170026
+  query: russet potatoes
+  product_id: "6000196075655"
+  name: Your Fresh Market Russet Potatoes
+  package: 5 lb
+  unit_grams: 2268
+  sources: [walmart_ca]
+  dietary_categories: [vegetable]
+- fdc_id: 2512381
+  query: long grain white rice
+  product_id: "2SKX03FD25M1"
+  name: Great Value Long Grain White Rice
+  package: 2 kg
+  unit_grams: 2000
+  sources: [walmart_ca]
+- fdc_id: 169736
+  query: spaghetti
+  product_id: "2QV9LGU46RLX"
+  name: Great Value Spaghetti Pasta
+  package: 900 g
+  unit_grams: 900
+  sources: [walmart_ca]
+- fdc_id: 170284
+  query: pearl barley
+  product_id: "6000196181091"
+  name: Great Value Pearl Barley
+  package: 450 g
+  unit_grams: 450
+  sources: [walmart_ca]
+- fdc_id: 168894
+  query: all purpose flour
+  product_id: "6000196138271"
+  name: Great Value Original All-Purpose Flour
+  package: 2.5 kg
+  unit_grams: 2500
+  sources: [walmart_ca]
+- fdc_id: 169697
+  query: cornmeal
+  product_id: "6000197066027"
+  name: Grace Corn Meal
+  package: 2 kg
+  unit_grams: 2000
+  sources: [walmart_ca]
+- fdc_id: 172475
+  query: extra firm tofu
+  product_id: "6000194100244"
+  name: Sunrise Extra Firm Tofu
+  package: 350 g
+  unit_grams: 350
+  sources: [walmart_ca]
+- fdc_id: 172370
+  query: vegetable oil
+  product_id: "6000202595280"
+  name: Great Value Vegetable Oil
+  package: 2.84 L
+  unit_grams: 2613
+  sources: [walmart_ca]
+  _unit_basis: "0.92 g/mL vegetable oil density"
+- fdc_id: 748278
+  query: canola oil
+  product_id: "3JHCFYRKQ9CI"
+  name: Great Value Canola Oil
+  package: 5 L
+  unit_grams: 4600
+  sources: [walmart_ca]
+  _unit_basis: "0.92 g/mL canola oil density"
+- fdc_id: 171413
+  query: extra virgin olive oil
+  product_id: "876804"
+  name: Gallo Extra Virgin Olive Oil
+  package: 1 L
+  unit_grams: 910
+  sources: [walmart_ca]
+  _unit_basis: "0.91 g/mL olive oil density"
+- fdc_id: 168820
+  query: fancy molasses
+  product_id: "10275901"
+  name: Great Value Pure Fancy Molasses
+  package: 675 g
+  unit_grams: 675
+  sources: [walmart_ca]
+- fdc_id: 171986
+  query: flaked light tuna
+  product_id: "10182520"
+  name: Clover Leaf Flaked Light Tuna, Skipjack in Water
+  package: 170 g
+  unit_grams: 170
+  sources: [walmart_ca]
+- fdc_id: 175139
+  query: sardines
+  product_id: "10187281"
+  name: Brunswick Sardines in Soya Oil
+  package: 106 g
+  unit_grams: 106
+  sources: [walmart_ca]
+- fdc_id: 2514744
+  query: medium ground beef
+  product_id: "6000196572109"
+  name: Your Fresh Market Medium Ground Beef, 1 Tray
+  package: 1 tray, average 1.3 kg
+  unit_grams: 1298
+  sources: [walmart_ca]
+  _unit_basis: "Walmart prices an average tray: $18.17 at $14.00/kg on 2026-11-08"
+- fdc_id: 172378
+  query: chicken legs
+  product_id: "6000202751581"
+  name: Maple Leaf Chicken Leg Quarters
+  package: 1 pack, average 1.69 kg
+  unit_grams: 1686
+  sources: [walmart_ca]
+  _unit_basis: "Walmart prices an average pack: $11.80 at $7.00/kg on 2026-11-08"

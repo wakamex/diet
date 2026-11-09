@@ -35,7 +35,7 @@ def test_initial_canadian_pass_accounts_for_every_food_concept():
 
 def test_canadian_mappings_have_unique_positive_exact_skus_per_retailer():
     skus = load_all_skus()
-    for retailer in ("metro", "foodbasics", "superstore", "nofrills"):
+    for retailer in ("metro", "foodbasics", "superstore", "nofrills", "walmart_ca"):
         rows = [sku for sku in skus if sku.source == retailer]
         assert len({sku.product_id for sku in rows}) == len(rows)
         assert all(sku.unit_grams > 0 for sku in rows)
@@ -47,7 +47,7 @@ def test_canadian_mappings_have_unique_positive_exact_skus_per_retailer():
         2257046, 2644283, 2705412,
     }
     for retailer in ("superstore", "nofrills"):
-        assert {sku.fdc_id for sku in skus if sku.source == retailer} == pcx_required
+        assert pcx_required <= {sku.fdc_id for sku in skus if sku.source == retailer}
 
 
 def test_canadian_supplements_use_exact_retailer_skus_and_label_profiles():
